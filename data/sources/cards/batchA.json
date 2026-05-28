@@ -1,0 +1,167 @@
+[
+  {
+    "id": 45770,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ドラメシヤ",
+    "name_ko": "드라메시야",
+    "hp": 70,
+    "type_ko": "",
+    "regulation": "G",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "",
+        "name_ja": "ちょっとうらむ",
+        "name_ko": "살짝 원망하기",
+        "damage": "10",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "cost_ko": "",
+        "name_ja": "かみつく",
+        "name_ko": "물기",
+        "damage": "40",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "set": "SV6",
+    "number": "079/101",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45770"
+  },
+  {
+    "id": 45771,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "ドロンチ",
+    "name_ko": "드론치",
+    "hp": 90,
+    "type_ko": "",
+    "regulation": "G",
+    "abilities": [
+      {
+        "name_ja": "ていさつしれい",
+        "name_ko": "정찰 지령",
+        "text_ja": "自分の番に1回使える。自分の山札を上から2枚見て、どちらか1枚を選び、手札に加える。残りのカードは、山札の下にもどす。",
+        "text_ko": "자신의 차례에 1번 사용할 수 있다. 자신의 덱 위에서 2장을 보고, 그 중 1장을 선택해 패에 추가한다. 남은 카드는 덱 맨 아래로 되돌린다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "",
+        "name_ja": "リューズヘッド",
+        "name_ko": "용염 헤드",
+        "damage": "70",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "set": "SV6",
+    "number": "080/101",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45771"
+  },
+  {
+    "id": 45772,
+    "category": "pokemon",
+    "subtype_ko": "포켓몬 ex (2단계)",
+    "name_ja": "ドラパルトex",
+    "name_ko": "드래펄트 ex",
+    "hp": 320,
+    "type_ko": "",
+    "regulation": "G",
+    "abilities": [
+      {
+        "name_ja": "ファントムガード",
+        "name_ko": "팬텀 가드",
+        "text_ja": "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。",
+        "text_ko": "이 포켓몬은 벤치에 있는 한, 기술의 데미지를 받지 않는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "",
+        "name_ja": "ジェットヘッド",
+        "name_ko": "제트 헤드",
+        "damage": "70",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "cost_ko": "",
+        "name_ja": "ファントムダイブ",
+        "name_ko": "팬텀 다이브",
+        "damage": "200",
+        "text_ja": "ダメカン6個を、相手のベンチポケモンに好きなようにのせる。",
+        "text_ko": "데미지 카운터 6개를, 상대의 벤치 포켓몬에 원하는 대로 올린다."
+      }
+    ],
+    "set": "SV6",
+    "number": "081/101",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45772"
+  },
+  {
+    "id": 46736,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "マシマシラ",
+    "name_ko": "마시마시라",
+    "hp": 110,
+    "type_ko": "",
+    "regulation": "G",
+    "abilities": [
+      {
+        "name_ja": "アドレナブレイン",
+        "name_ko": "아드레나 브레인",
+        "text_ja": "このポケモンにエネルギーがついているなら、自分の番に1回使える。自分の場のポケモン1匹にのっているダメカンを3個まで選び、相手の場のポケモン1匹にのせ替える。",
+        "text_ko": "이 포켓몬에 에너지가 붙어 있다면, 자신의 차례에 1번 사용할 수 있다. 자신의 필드의 포켓몬 1마리에 올라가 있는 데미지 카운터를 3개까지 선택해, 상대 필드의 포켓몬 1마리에 옮겨 올린다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "",
+        "name_ja": "サイコトリップ",
+        "name_ko": "사이코 트립",
+        "damage": "60",
+        "text_ja": "相手のバトルポケモンをこんらんにする。",
+        "text_ko": "상대의 배틀 포켓몬을 혼란으로 만든다."
+      }
+    ],
+    "set": "SV8a",
+    "number": "075/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46736"
+  },
+  {
+    "id": 49290,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ノコッチ",
+    "name_ko": "노고치",
+    "hp": 70,
+    "type_ko": "",
+    "regulation": "MC",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "",
+        "name_ja": "いれかわる",
+        "name_ko": "교대하기",
+        "damage": "",
+        "text_ja": "このポケモンをベンチポケモンと入れ替える。",
+        "text_ko": "이 포켓몬을 벤치 포켓몬과 교체한다."
+      },
+      {
+        "cost_ko": "",
+        "name_ja": "ぶつかる",
+        "name_ko": "부딪치기",
+        "damage": "20",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "set": "スタートデッキ100",
+    "number": "574/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49290"
+  }
+]

@@ -1,11 +1,14 @@
 // PJCS 용어집 Service Worker — 오프라인 지원 (stale-while-revalidate)
-const CACHE = 'pjcs-v2';
+const CACHE = 'pjcs-v3';
 const ASSETS = [
   './',
   './index.html',
+  './cards.html',
   './css/style.css',
   './js/app.js',
+  './js/cards.js',
   './data/terms.json',
+  './data/cards.json',
   './manifest.webmanifest',
   './icons/icon.svg',
   './icons/icon-192.png',

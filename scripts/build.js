@@ -6,11 +6,14 @@ const DIST = path.join(ROOT, 'dist');
 
 const files = [
   'index.html',
+  'cards.html',
   'manifest.webmanifest',
   'sw.js',
   'css/style.css',
   'js/app.js',
+  'js/cards.js',
   'data/terms.json',
+  'data/cards.json',
   'icons/icon.svg',
   'icons/icon-192.png',
   'icons/icon-512.png',

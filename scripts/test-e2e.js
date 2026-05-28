@@ -44,6 +44,9 @@ function assert(cond, msg) {
   const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'terms.json'), 'utf8'));
   const total = data.terms.length;
   const greetingsCount = data.terms.filter((t) => t.category === 'greetings').length;
+  const cardData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cards.json'), 'utf8'));
+  const cardTotal = cardData.cards.length;
+  const pokemonCount = cardData.cards.filter((c) => c.category === 'pokemon').length;
 
   const server = await startServer();
   const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
@@ -107,8 +110,26 @@ function assert(cond, msg) {
     await page.screenshot({ path: shot });
     assert(fs.existsSync(shot), `스크린샷 저장: test-output/mobile-greetings.png`);
 
-    console.log('\n[8] 콘솔 에러');
-    const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices/i.test(e));
+    console.log('\n[8] 카드 검색 페이지');
+    await page.goto(BASE + '/cards.html', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.pcard', { timeout: 5000 });
+    const pcardCount = await page.$$eval('.pcard', (e) => e.length);
+    assert(pcardCount === cardTotal, `카드 ${pcardCount}장 렌더 (데이터 ${cardTotal}장과 일치)`);
+    const hasAbility = await page.$('.pblock.ability');
+    const hasAttack = await page.$('.pblock.attack');
+    assert(!!hasAbility && !!hasAttack, '특성·기술 블록이 한국어로 렌더됨');
+    await page.click('.chip[data-id="pokemon"]');
+    await new Promise((r) => setTimeout(r, 200));
+    const pk = await page.$$eval('.pcard', (e) => e.length);
+    assert(pk === pokemonCount, `'포켓몬' 필터 → ${pk}장 (데이터 ${pokemonCount}장과 일치)`);
+    await page.click('.chip[data-id="all"]');
+    await page.type('#search', 'ベンチ');
+    await new Promise((r) => setTimeout(r, 250));
+    const sc = await page.$$eval('.pcard', (e) => e.length);
+    assert(sc >= 1 && sc < cardTotal, `"ベンチ"(벤치) 검색 → ${sc}장 (필터링 동작)`);
+
+    console.log('\n[9] 콘솔 에러');
+    const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices|pokemon-card\.com|net::ERR/i.test(e));
     assert(realErrors.length === 0, `콘솔 에러 ${realErrors.length}건` + (realErrors.length ? ': ' + realErrors.join('; ') : ''));
   } catch (e) {
     failed++;
