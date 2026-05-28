@@ -52,8 +52,11 @@ function assert(cond, msg) {
   const setM5 = cardData.cards.filter((c) => c.set === 'M5').length;
 
   const server = await startServer();
-  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
+  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'], protocolTimeout: 180000 });
   const page = await browser.newPage();
+  // 외부 카드 이미지(pokemon-card.com) 로딩으로 인한 지연/타임아웃 방지 (로직만 검증)
+  await page.setRequestInterception(true);
+  page.on('request', (r) => { if (r.resourceType() === 'image') r.abort(); else r.continue(); });
   await page.setViewport({ width: 390, height: 780, isMobile: true }); // 휴대폰 크기
 
   const consoleErrors = [];
@@ -148,15 +151,15 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const menuLinks = await page.$$eval('.nav-menu a', (els) => els.length);
     const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
-    assert(menuVisible && menuLinks === 3, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/환경분석)`);
+    assert(menuVisible && menuLinks === 5, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색 + 외부3)`);
+    const extLinks = await page.$$eval('.nav-menu a[target="_blank"]', (e) => e.length);
+    assert(extLinks === 3, `외부 사이트 바로가기 ${extLinks}개`);
 
     console.log('\n[11] 세트별 보기 (M5 아비스아이)');
-    await page.click('body'); // 햄버거 메뉴 닫기
-    await new Promise((r) => setTimeout(r, 120));
+    await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드
+    await page.waitForSelector('.pcard', { timeout: 8000 });
     await page.click('#modeSet');
-    await new Promise((r) => setTimeout(r, 200));
-    await page.click('#chips .chip[data-id="all"]'); // 카테고리 초기화
-    await new Promise((r) => setTimeout(r, 200));
+    await new Promise((r) => setTimeout(r, 300));
     const setChips = await page.$$eval('#setRow .chip', (e) => e.length);
     const setCards = await page.$$eval('.pcard', (e) => e.length);
     assert(setChips >= 1 && setCards === setM5, `세트별 모드: 세트칩 ${setChips}개, 기본세트(M5) ${setCards}종 (데이터 ${setM5}종)`);

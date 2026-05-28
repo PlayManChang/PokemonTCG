@@ -7,8 +7,10 @@
   const here = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
   const links = [
     { href: 'index.html', label: '📖 용어집', desc: '인사·게임 용어' },
-    { href: 'cards.html', label: '🃏 카드 검색', desc: '메타 덱 카드 (한국어)' },
-    { href: 'https://pokeka-win-decks.jp/tier-ranking', label: '📊 환경 분석', desc: '일본 메타 티어표 (외부 사이트)', external: true },
+    { href: 'cards.html', label: '🃏 카드 검색', desc: '메타 덱·세트 카드 (한국어)' },
+    { href: 'https://pokecabook.com/', label: '📊 포케카북', desc: '환경·티어·덱레시피 (외부)', external: true },
+    { href: 'https://pokeka-win-decks.jp/', label: '🏆 윈덱스', desc: '티어표·우승덱 분석 (외부)', external: true },
+    { href: 'https://pokekameshi.com/', label: '🍚 포케카메시', desc: '덱·카드리스트 (외부)', external: true },
   ];
 
   const menu = document.createElement('nav');
@@ -16,9 +18,14 @@
   menu.hidden = true;
   links.forEach((l) => {
     const a = document.createElement('a');
-    a.href = './' + l.href;
-    const isCurrent = l.href === here || (here === '' && l.href === 'index.html');
-    if (isCurrent) a.className = 'current';
+    if (l.external) {
+      a.href = l.href;
+      a.target = '_blank';
+      a.rel = 'noopener';
+    } else {
+      a.href = './' + l.href;
+      if (l.href === here || (here === '' && l.href === 'index.html')) a.className = 'current';
+    }
     const t = document.createElement('span');
     t.className = 'nav-label';
     t.textContent = l.label;
