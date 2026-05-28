@@ -6,6 +6,11 @@
       "icon": "👋"
     },
     {
+      "id": "daily",
+      "name": "일상·여행",
+      "icon": "🍙"
+    },
+    {
       "id": "match",
       "name": "대전 진행",
       "icon": "⚔️"
@@ -304,6 +309,166 @@
     },
     {
       "id": 25,
+      "category": "daily",
+      "ja": "これください",
+      "reading": "これください",
+      "ko_pron": "코레 쿠다사이",
+      "ko": "이거 주세요",
+      "note": "가게에서 물건을 살 때",
+      "important": true
+    },
+    {
+      "id": 26,
+      "category": "daily",
+      "ja": "いくらですか？",
+      "reading": "いくらですか",
+      "ko_pron": "이쿠라데스카",
+      "ko": "얼마예요?",
+      "note": "값을 물을 때",
+      "important": true
+    },
+    {
+      "id": 27,
+      "category": "daily",
+      "ja": "カードで払えますか？",
+      "reading": "カードではらえますか",
+      "ko_pron": "카-도데 하라에마스카",
+      "ko": "카드로 결제 돼요?",
+      "note": "계산할 때",
+      "important": false
+    },
+    {
+      "id": 28,
+      "category": "daily",
+      "ja": "袋ください",
+      "reading": "ふくろください",
+      "ko_pron": "후쿠로 쿠다사이",
+      "ko": "봉투 주세요",
+      "note": "편의점·가게에서",
+      "important": false
+    },
+    {
+      "id": 29,
+      "category": "daily",
+      "ja": "温めてください",
+      "reading": "あたためてください",
+      "ko_pron": "아타타메테 쿠다사이",
+      "ko": "데워 주세요",
+      "note": "편의점 음식 데울 때",
+      "important": false
+    },
+    {
+      "id": 30,
+      "category": "daily",
+      "ja": "お水ください",
+      "reading": "おみずください",
+      "ko_pron": "오미즈 쿠다사이",
+      "ko": "물 주세요",
+      "note": "식당에서",
+      "important": false
+    },
+    {
+      "id": 31,
+      "category": "daily",
+      "ja": "おいしいです",
+      "reading": "おいしいです",
+      "ko_pron": "오이시이데스",
+      "ko": "맛있어요",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 32,
+      "category": "daily",
+      "ja": "いただきます",
+      "reading": "いただきます",
+      "ko_pron": "이타다키마스",
+      "ko": "잘 먹겠습니다",
+      "note": "식사 전 인사",
+      "important": false
+    },
+    {
+      "id": 33,
+      "category": "daily",
+      "ja": "ごちそうさまでした",
+      "reading": "ごちそうさまでした",
+      "ko_pron": "고치소사마데시타",
+      "ko": "잘 먹었습니다",
+      "note": "식사 후 인사",
+      "important": false
+    },
+    {
+      "id": 34,
+      "category": "daily",
+      "ja": "助けてください",
+      "reading": "たすけてください",
+      "ko_pron": "타스케테 쿠다사이",
+      "ko": "도와주세요",
+      "note": "도움이 필요할 때",
+      "important": true
+    },
+    {
+      "id": 35,
+      "category": "daily",
+      "ja": "道に迷いました",
+      "reading": "みちにまよいました",
+      "ko_pron": "미치니 마요이마시타",
+      "ko": "길을 잃었어요",
+      "note": "길을 잃었을 때",
+      "important": false
+    },
+    {
+      "id": 36,
+      "category": "daily",
+      "ja": "駅はどこですか？",
+      "reading": "えきはどこですか",
+      "ko_pron": "에키와 도코데스카",
+      "ko": "역이 어디예요?",
+      "note": "길 물을 때",
+      "important": true
+    },
+    {
+      "id": 37,
+      "category": "daily",
+      "ja": "写真を撮ってもいいですか？",
+      "reading": "しゃしんをとってもいいですか",
+      "ko_pron": "샤신오 톳테모 이이데스카",
+      "ko": "사진 찍어도 돼요?",
+      "note": "사진 찍기 전 양해",
+      "important": false
+    },
+    {
+      "id": 38,
+      "category": "daily",
+      "ja": "Wi-Fiありますか？",
+      "reading": "ワイファイありますか",
+      "ko_pron": "와이화이 아리마스카",
+      "ko": "와이파이 있어요?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 39,
+      "category": "daily",
+      "ja": "レシートください",
+      "reading": "レシートください",
+      "ko_pron": "레시-토 쿠다사이",
+      "ko": "영수증 주세요",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 40,
+      "category": "daily",
+      "ja": "おすすめは何ですか？",
+      "reading": "おすすめはなんですか",
+      "ko_pron": "오스스메와 난데스카",
+      "ko": "추천이 뭐예요?",
+      "note": "메뉴 고를 때",
+      "important": false
+    },
+    {
+      "id": 41,
       "category": "match",
       "ja": "じゃんけん",
       "reading": "じゃんけん",
@@ -313,7 +478,7 @@
       "important": true
     },
     {
-      "id": 26,
+      "id": 42,
       "category": "match",
       "ja": "先攻",
       "reading": "せんこう",
@@ -323,7 +488,7 @@
       "important": true
     },
     {
-      "id": 27,
+      "id": 43,
       "category": "match",
       "ja": "後攻",
       "reading": "こうこう",
@@ -333,7 +498,7 @@
       "important": true
     },
     {
-      "id": 28,
+      "id": 44,
       "category": "match",
       "ja": "先攻でお願いします",
       "reading": "せんこうでおねがいします",
@@ -343,7 +508,7 @@
       "important": false
     },
     {
-      "id": 29,
+      "id": 45,
       "category": "match",
       "ja": "後攻でお願いします",
       "reading": "こうこうでおねがいします",
@@ -353,7 +518,7 @@
       "important": false
     },
     {
-      "id": 30,
+      "id": 46,
       "category": "match",
       "ja": "番",
       "reading": "ばん",
@@ -363,7 +528,7 @@
       "important": false
     },
     {
-      "id": 31,
+      "id": 47,
       "category": "match",
       "ja": "終わります",
       "reading": "おわります",
@@ -373,7 +538,7 @@
       "important": true
     },
     {
-      "id": 32,
+      "id": 48,
       "category": "match",
       "ja": "どうぞ",
       "reading": "どうぞ",
@@ -383,7 +548,7 @@
       "important": true
     },
     {
-      "id": 33,
+      "id": 49,
       "category": "match",
       "ja": "確認お願いします",
       "reading": "かくにんおねがいします",
@@ -393,7 +558,7 @@
       "important": true
     },
     {
-      "id": 34,
+      "id": 50,
       "category": "match",
       "ja": "ちょっと待ってください",
       "reading": "ちょっとまってください",
@@ -403,7 +568,7 @@
       "important": true
     },
     {
-      "id": 35,
+      "id": 51,
       "category": "match",
       "ja": "コイン",
       "reading": "コイン",
@@ -413,7 +578,7 @@
       "important": false
     },
     {
-      "id": 36,
+      "id": 52,
       "category": "match",
       "ja": "表",
       "reading": "おもて",
@@ -423,7 +588,7 @@
       "important": true
     },
     {
-      "id": 37,
+      "id": 53,
       "category": "match",
       "ja": "裏",
       "reading": "うら",
@@ -433,7 +598,7 @@
       "important": true
     },
     {
-      "id": 38,
+      "id": 54,
       "category": "match",
       "ja": "コインを投げます",
       "reading": "コインをなげます",
@@ -443,7 +608,7 @@
       "important": false
     },
     {
-      "id": 39,
+      "id": 55,
       "category": "match",
       "ja": "ドローします",
       "reading": "",
@@ -453,7 +618,7 @@
       "important": false
     },
     {
-      "id": 40,
+      "id": 56,
       "category": "match",
       "ja": "カードを引きます",
       "reading": "",
@@ -463,7 +628,7 @@
       "important": false
     },
     {
-      "id": 41,
+      "id": 57,
       "category": "match",
       "ja": "出します",
       "reading": "",
@@ -473,7 +638,7 @@
       "important": false
     },
     {
-      "id": 42,
+      "id": 58,
       "category": "match",
       "ja": "ベンチに出します",
       "reading": "",
@@ -483,7 +648,7 @@
       "important": false
     },
     {
-      "id": 43,
+      "id": 59,
       "category": "match",
       "ja": "進化します",
       "reading": "",
@@ -493,7 +658,7 @@
       "important": false
     },
     {
-      "id": 44,
+      "id": 60,
       "category": "match",
       "ja": "攻撃します",
       "reading": "",
@@ -503,7 +668,7 @@
       "important": false
     },
     {
-      "id": 45,
+      "id": 61,
       "category": "match",
       "ja": "ダメージ",
       "reading": "",
@@ -513,7 +678,7 @@
       "important": false
     },
     {
-      "id": 46,
+      "id": 62,
       "category": "match",
       "ja": "ターン終了です",
       "reading": "",
@@ -523,7 +688,7 @@
       "important": false
     },
     {
-      "id": 47,
+      "id": 63,
       "category": "match",
       "ja": "ワザ",
       "reading": "",
@@ -533,7 +698,7 @@
       "important": false
     },
     {
-      "id": 48,
+      "id": 64,
       "category": "match",
       "ja": "こうげき",
       "reading": "",
@@ -543,7 +708,7 @@
       "important": false
     },
     {
-      "id": 49,
+      "id": 65,
       "category": "match",
       "ja": "きぜつ",
       "reading": "",
@@ -553,7 +718,7 @@
       "important": false
     },
     {
-      "id": 50,
+      "id": 66,
       "category": "match",
       "ja": "つける",
       "reading": "",
@@ -563,7 +728,7 @@
       "important": false
     },
     {
-      "id": 51,
+      "id": 67,
       "category": "match",
       "ja": "ひく",
       "reading": "",
@@ -573,7 +738,7 @@
       "important": false
     },
     {
-      "id": 52,
+      "id": 68,
       "category": "match",
       "ja": "えらぶ",
       "reading": "",
@@ -583,7 +748,7 @@
       "important": false
     },
     {
-      "id": 53,
+      "id": 69,
       "category": "match",
       "ja": "入れ替える",
       "reading": "いれかえる",
@@ -593,7 +758,7 @@
       "important": false
     },
     {
-      "id": 54,
+      "id": 70,
       "category": "match",
       "ja": "進化",
       "reading": "しんか",
@@ -603,7 +768,7 @@
       "important": false
     },
     {
-      "id": 55,
+      "id": 71,
       "category": "match",
       "ja": "自分の番",
       "reading": "",
@@ -613,7 +778,7 @@
       "important": false
     },
     {
-      "id": 56,
+      "id": 72,
       "category": "match",
       "ja": "ドローします",
       "reading": "",
@@ -623,7 +788,7 @@
       "important": false
     },
     {
-      "id": 57,
+      "id": 73,
       "category": "match",
       "ja": "ワザ使います",
       "reading": "",
@@ -633,7 +798,7 @@
       "important": false
     },
     {
-      "id": 58,
+      "id": 74,
       "category": "match",
       "ja": "ターンエンド",
       "reading": "",
@@ -643,7 +808,7 @@
       "important": false
     },
     {
-      "id": 59,
+      "id": 75,
       "category": "match",
       "ja": "サイド取ります",
       "reading": "",
@@ -653,7 +818,7 @@
       "important": false
     },
     {
-      "id": 60,
+      "id": 76,
       "category": "match",
       "ja": "特性を使います",
       "reading": "とくせい を つかいます",
@@ -663,7 +828,7 @@
       "important": false
     },
     {
-      "id": 61,
+      "id": 77,
       "category": "match",
       "ja": "○○の特性を使います",
       "reading": "○○ の とくせい を つかいます",
@@ -673,7 +838,7 @@
       "important": false
     },
     {
-      "id": 62,
+      "id": 78,
       "category": "match",
       "ja": "リザードンの特性を使います",
       "reading": "",
@@ -683,7 +848,7 @@
       "important": false
     },
     {
-      "id": 63,
+      "id": 79,
       "category": "match",
       "ja": "相手の番",
       "reading": "",
@@ -693,7 +858,7 @@
       "important": false
     },
     {
-      "id": 64,
+      "id": 80,
       "category": "match",
       "ja": "ターン",
       "reading": "",
@@ -703,7 +868,7 @@
       "important": false
     },
     {
-      "id": 65,
+      "id": 81,
       "category": "match",
       "ja": "ターンの終わり",
       "reading": "",
@@ -713,7 +878,7 @@
       "important": false
     },
     {
-      "id": 66,
+      "id": 82,
       "category": "match",
       "ja": "自分のターンです",
       "reading": "",
@@ -723,7 +888,7 @@
       "important": false
     },
     {
-      "id": 67,
+      "id": 83,
       "category": "match",
       "ja": "ターン開始します",
       "reading": "",
@@ -733,7 +898,7 @@
       "important": false
     },
     {
-      "id": 68,
+      "id": 84,
       "category": "match",
       "ja": "この効果使います",
       "reading": "",
@@ -743,7 +908,7 @@
       "important": false
     },
     {
-      "id": 69,
+      "id": 85,
       "category": "match",
       "ja": "ターン続けます",
       "reading": "",
@@ -753,7 +918,7 @@
       "important": false
     },
     {
-      "id": 70,
+      "id": 86,
       "category": "match",
       "ja": "ここまででいいですか",
       "reading": "",
@@ -763,7 +928,7 @@
       "important": false
     },
     {
-      "id": 71,
+      "id": 87,
       "category": "match",
       "ja": "ターン終了します",
       "reading": "",
@@ -773,7 +938,7 @@
       "important": false
     },
     {
-      "id": 72,
+      "id": 88,
       "category": "match",
       "ja": "エンドです",
       "reading": "",
@@ -783,7 +948,7 @@
       "important": false
     },
     {
-      "id": 73,
+      "id": 89,
       "category": "match",
       "ja": "相手のターンです",
       "reading": "",
@@ -793,7 +958,7 @@
       "important": false
     },
     {
-      "id": 74,
+      "id": 90,
       "category": "match",
       "ja": "次のターンどうぞ",
       "reading": "",
@@ -803,7 +968,7 @@
       "important": false
     },
     {
-      "id": 75,
+      "id": 91,
       "category": "check",
       "ja": "もう一度お願いします",
       "reading": "もういちどおねがいします",
@@ -813,7 +978,7 @@
       "important": true
     },
     {
-      "id": 76,
+      "id": 92,
       "category": "check",
       "ja": "ゆっくりお願いします",
       "reading": "ゆっくりおねがいします",
@@ -823,7 +988,7 @@
       "important": true
     },
     {
-      "id": 77,
+      "id": 93,
       "category": "check",
       "ja": "日本語が分かりません",
       "reading": "にほんごがわかりません",
@@ -833,7 +998,7 @@
       "important": true
     },
     {
-      "id": 78,
+      "id": 94,
       "category": "check",
       "ja": "英語は話せますか？",
       "reading": "えいごははなせますか",
@@ -843,7 +1008,7 @@
       "important": true
     },
     {
-      "id": 79,
+      "id": 95,
       "category": "check",
       "ja": "分かりました",
       "reading": "わかりました",
@@ -853,7 +1018,7 @@
       "important": true
     },
     {
-      "id": 80,
+      "id": 96,
       "category": "check",
       "ja": "分かりません",
       "reading": "わかりません",
@@ -863,7 +1028,7 @@
       "important": true
     },
     {
-      "id": 81,
+      "id": 97,
       "category": "check",
       "ja": "これは何ですか？",
       "reading": "これはなんですか",
@@ -873,7 +1038,7 @@
       "important": true
     },
     {
-      "id": 82,
+      "id": 98,
       "category": "check",
       "ja": "トイレはどこですか？",
       "reading": "トイレはどこですか",
@@ -883,7 +1048,7 @@
       "important": true
     },
     {
-      "id": 83,
+      "id": 99,
       "category": "check",
       "ja": "待ってください",
       "reading": "まってください",
@@ -893,7 +1058,7 @@
       "important": true
     },
     {
-      "id": 84,
+      "id": 100,
       "category": "check",
       "ja": "いいですか？",
       "reading": "",
@@ -903,7 +1068,7 @@
       "important": true
     },
     {
-      "id": 85,
+      "id": 101,
       "category": "check",
       "ja": "大丈夫ですか？",
       "reading": "",
@@ -913,7 +1078,7 @@
       "important": true
     },
     {
-      "id": 86,
+      "id": 102,
       "category": "check",
       "ja": "もう一度いいですか？",
       "reading": "",
@@ -923,7 +1088,7 @@
       "important": true
     },
     {
-      "id": 87,
+      "id": 103,
       "category": "check",
       "ja": "効果使います",
       "reading": "こうかつかいます",
@@ -933,7 +1098,7 @@
       "important": true
     },
     {
-      "id": 88,
+      "id": 104,
       "category": "check",
       "ja": "OKです",
       "reading": "",
@@ -943,7 +1108,7 @@
       "important": true
     },
     {
-      "id": 89,
+      "id": 105,
       "category": "check",
       "ja": "手札を見せてもらってもいいですか",
       "reading": "",
@@ -953,7 +1118,7 @@
       "important": true
     },
     {
-      "id": 90,
+      "id": 106,
       "category": "check",
       "ja": "トラッシュを確認してもいいですか",
       "reading": "",
@@ -963,7 +1128,7 @@
       "important": true
     },
     {
-      "id": 91,
+      "id": 107,
       "category": "check",
       "ja": "そのカード、見せてもらえますか",
       "reading": "",
@@ -973,7 +1138,7 @@
       "important": true
     },
     {
-      "id": 92,
+      "id": 108,
       "category": "check",
       "ja": "トラッシュを見ますね",
       "reading": "",
@@ -983,7 +1148,7 @@
       "important": true
     },
     {
-      "id": 93,
+      "id": 109,
       "category": "check",
       "ja": "確認だけします",
       "reading": "",
@@ -993,7 +1158,7 @@
       "important": true
     },
     {
-      "id": 94,
+      "id": 110,
       "category": "check",
       "ja": "見終わりました",
       "reading": "",
@@ -1003,7 +1168,7 @@
       "important": true
     },
     {
-      "id": 95,
+      "id": 111,
       "category": "check",
       "ja": "すみません、その場面でアイテムは使えません",
       "reading": "",
@@ -1013,7 +1178,7 @@
       "important": true
     },
     {
-      "id": 96,
+      "id": 112,
       "category": "check",
       "ja": "失礼ですが、今アイテム使えないと思います",
       "reading": "",
@@ -1023,7 +1188,7 @@
       "important": true
     },
     {
-      "id": 97,
+      "id": 113,
       "category": "check",
       "ja": "ジャッジを呼びましょうか",
       "reading": "",
@@ -1033,7 +1198,7 @@
       "important": true
     },
     {
-      "id": 98,
+      "id": 114,
       "category": "effect",
       "ja": "サイドを取る",
       "reading": "サイドをとる",
@@ -1043,7 +1208,7 @@
       "important": true
     },
     {
-      "id": 99,
+      "id": 115,
       "category": "effect",
       "ja": "ドロー",
       "reading": "ドロー",
@@ -1053,7 +1218,7 @@
       "important": true
     },
     {
-      "id": 100,
+      "id": 116,
       "category": "effect",
       "ja": "カードを引く",
       "reading": "カードをひく",
@@ -1063,7 +1228,7 @@
       "important": false
     },
     {
-      "id": 101,
+      "id": 117,
       "category": "effect",
       "ja": "シャッフル",
       "reading": "シャッフル",
@@ -1073,7 +1238,7 @@
       "important": true
     },
     {
-      "id": 102,
+      "id": 118,
       "category": "effect",
       "ja": "山札の上",
       "reading": "やまふだのうえ",
@@ -1083,7 +1248,7 @@
       "important": false
     },
     {
-      "id": 103,
+      "id": 119,
       "category": "effect",
       "ja": "山札の下",
       "reading": "やまふだのした",
@@ -1093,7 +1258,7 @@
       "important": false
     },
     {
-      "id": 104,
+      "id": 120,
       "category": "effect",
       "ja": "にげる",
       "reading": "にげる",
@@ -1103,7 +1268,7 @@
       "important": true
     },
     {
-      "id": 105,
+      "id": 121,
       "category": "effect",
       "ja": "特性",
       "reading": "とくせい",
@@ -1113,7 +1278,7 @@
       "important": true
     },
     {
-      "id": 106,
+      "id": 122,
       "category": "effect",
       "ja": "ダメージカウンター",
       "reading": "ダメージカウンター",
@@ -1123,7 +1288,7 @@
       "important": false
     },
     {
-      "id": 107,
+      "id": 123,
       "category": "effect",
       "ja": "ポケモンチェック",
       "reading": "ポケモンチェック",
@@ -1133,7 +1298,7 @@
       "important": false
     },
     {
-      "id": 108,
+      "id": 124,
       "category": "effect",
       "ja": "場に出す",
       "reading": "ばにだす",
@@ -1143,7 +1308,7 @@
       "important": false
     },
     {
-      "id": 109,
+      "id": 125,
       "category": "effect",
       "ja": "HP",
       "reading": "エイチピー",
@@ -1153,7 +1318,7 @@
       "important": false
     },
     {
-      "id": 110,
+      "id": 126,
       "category": "effect",
       "ja": "〜してもよい",
       "reading": "",
@@ -1163,7 +1328,7 @@
       "important": false
     },
     {
-      "id": 111,
+      "id": 127,
       "category": "effect",
       "ja": "〜しなければならない",
       "reading": "",
@@ -1173,7 +1338,7 @@
       "important": false
     },
     {
-      "id": 112,
+      "id": 128,
       "category": "effect",
       "ja": "〜できない",
       "reading": "",
@@ -1183,7 +1348,7 @@
       "important": false
     },
     {
-      "id": 113,
+      "id": 129,
       "category": "effect",
       "ja": "〜の数",
       "reading": "",
@@ -1193,7 +1358,7 @@
       "important": false
     },
     {
-      "id": 114,
+      "id": 130,
       "category": "effect",
       "ja": "〜まで",
       "reading": "",
@@ -1203,7 +1368,7 @@
       "important": false
     },
     {
-      "id": 115,
+      "id": 131,
       "category": "effect",
       "ja": "〜ごとに",
       "reading": "",
@@ -1213,7 +1378,7 @@
       "important": false
     },
     {
-      "id": 116,
+      "id": 132,
       "category": "effect",
       "ja": "ポケモン",
       "reading": "",
@@ -1223,7 +1388,7 @@
       "important": false
     },
     {
-      "id": 117,
+      "id": 133,
       "category": "effect",
       "ja": "トレーナーズ",
       "reading": "",
@@ -1233,7 +1398,7 @@
       "important": false
     },
     {
-      "id": 118,
+      "id": 134,
       "category": "effect",
       "ja": "エネルギー",
       "reading": "",
@@ -1243,7 +1408,7 @@
       "important": false
     },
     {
-      "id": 119,
+      "id": 135,
       "category": "effect",
       "ja": "デッキ",
       "reading": "",
@@ -1253,7 +1418,7 @@
       "important": false
     },
     {
-      "id": 120,
+      "id": 136,
       "category": "effect",
       "ja": "山札",
       "reading": "やまふだ",
@@ -1263,7 +1428,7 @@
       "important": false
     },
     {
-      "id": 121,
+      "id": 137,
       "category": "effect",
       "ja": "手札",
       "reading": "てふだ",
@@ -1273,7 +1438,7 @@
       "important": false
     },
     {
-      "id": 122,
+      "id": 138,
       "category": "effect",
       "ja": "トラッシュ",
       "reading": "",
@@ -1283,7 +1448,7 @@
       "important": false
     },
     {
-      "id": 123,
+      "id": 139,
       "category": "effect",
       "ja": "サイド",
       "reading": "",
@@ -1293,7 +1458,7 @@
       "important": false
     },
     {
-      "id": 124,
+      "id": 140,
       "category": "effect",
       "ja": "ベンチ",
       "reading": "",
@@ -1303,7 +1468,7 @@
       "important": false
     },
     {
-      "id": 125,
+      "id": 141,
       "category": "effect",
       "ja": "バトル場",
       "reading": "ば",
@@ -1313,7 +1478,7 @@
       "important": false
     },
     {
-      "id": 126,
+      "id": 142,
       "category": "effect",
       "ja": "弱点です",
       "reading": "",
@@ -1323,7 +1488,7 @@
       "important": false
     },
     {
-      "id": 127,
+      "id": 143,
       "category": "effect",
       "ja": "弱点込みで計算します",
       "reading": "",
@@ -1333,7 +1498,7 @@
       "important": false
     },
     {
-      "id": 128,
+      "id": 144,
       "category": "effect",
       "ja": "弱点で2倍です",
       "reading": "",
@@ -1343,7 +1508,7 @@
       "important": false
     },
     {
-      "id": 129,
+      "id": 145,
       "category": "effect",
       "ja": "弱点は×2です",
       "reading": "",
@@ -1353,7 +1518,7 @@
       "important": false
     },
     {
-      "id": 130,
+      "id": 146,
       "category": "effect",
       "ja": "弱点はありません",
       "reading": "",
@@ -1363,7 +1528,7 @@
       "important": false
     },
     {
-      "id": 131,
+      "id": 147,
       "category": "effect",
       "ja": "弱点は無効です",
       "reading": "",
@@ -1373,7 +1538,7 @@
       "important": false
     },
     {
-      "id": 132,
+      "id": 148,
       "category": "effect",
       "ja": "弱点は適用されません",
       "reading": "",
@@ -1383,7 +1548,7 @@
       "important": false
     },
     {
-      "id": 133,
+      "id": 149,
       "category": "effect",
       "ja": "弱点前のダメージです",
       "reading": "",
@@ -1393,7 +1558,7 @@
       "important": false
     },
     {
-      "id": 134,
+      "id": 150,
       "category": "effect",
       "ja": "合計○ダメージです",
       "reading": "",
@@ -1403,7 +1568,7 @@
       "important": false
     },
     {
-      "id": 135,
+      "id": 151,
       "category": "effect",
       "ja": "計算合っていますか",
       "reading": "",
@@ -1413,7 +1578,7 @@
       "important": false
     },
     {
-      "id": 136,
+      "id": 152,
       "category": "effect",
       "ja": "間違っていたら教えてください",
       "reading": "",
@@ -1423,7 +1588,7 @@
       "important": false
     },
     {
-      "id": 137,
+      "id": 153,
       "category": "effect",
       "ja": "ワザを使います",
       "reading": "",
@@ -1433,7 +1598,7 @@
       "important": false
     },
     {
-      "id": 138,
+      "id": 154,
       "category": "effect",
       "ja": "ファントムダイブを使います",
       "reading": "",
@@ -1443,7 +1608,7 @@
       "important": false
     },
     {
-      "id": 139,
+      "id": 155,
       "category": "effect",
       "ja": "ダメージカウンターをのせます",
       "reading": "",
@@ -1453,7 +1618,7 @@
       "important": false
     },
     {
-      "id": 140,
+      "id": 156,
       "category": "effect",
       "ja": "6個好きなようにのせます",
       "reading": "",
@@ -1463,7 +1628,7 @@
       "important": false
     },
     {
-      "id": 141,
+      "id": 157,
       "category": "effect",
       "ja": "このポケモンに3個",
       "reading": "",
@@ -1473,7 +1638,7 @@
       "important": false
     },
     {
-      "id": 142,
+      "id": 158,
       "category": "effect",
       "ja": "残りはここにのせます",
       "reading": "",
@@ -1483,7 +1648,7 @@
       "important": false
     },
     {
-      "id": 143,
+      "id": 159,
       "category": "effect",
       "ja": "合計で○ダメージです",
       "reading": "",
@@ -1493,7 +1658,7 @@
       "important": false
     },
     {
-      "id": 144,
+      "id": 160,
       "category": "effect",
       "ja": "ダメージを与えた後に効果があります",
       "reading": "",
@@ -1503,7 +1668,7 @@
       "important": false
     },
     {
-      "id": 145,
+      "id": 161,
       "category": "effect",
       "ja": "このワザは追加効果があります",
       "reading": "",
@@ -1513,7 +1678,7 @@
       "important": false
     },
     {
-      "id": 146,
+      "id": 162,
       "category": "effect",
       "ja": "この効果は1ターンに1回です",
       "reading": "",
@@ -1523,7 +1688,7 @@
       "important": false
     },
     {
-      "id": 147,
+      "id": 163,
       "category": "effect",
       "ja": "効果は重なりません",
       "reading": "",
@@ -1533,7 +1698,7 @@
       "important": false
     },
     {
-      "id": 148,
+      "id": 164,
       "category": "effect",
       "ja": "対象はベンチポケモンです",
       "reading": "",
@@ -1543,7 +1708,7 @@
       "important": false
     },
     {
-      "id": 149,
+      "id": 165,
       "category": "effect",
       "ja": "この効果は必ず使います",
       "reading": "",
@@ -1553,7 +1718,7 @@
       "important": false
     },
     {
-      "id": 150,
+      "id": 166,
       "category": "effect",
       "ja": "使っても使わなくてもいいです",
       "reading": "",
@@ -1563,7 +1728,7 @@
       "important": false
     },
     {
-      "id": 151,
+      "id": 167,
       "category": "evolution",
       "ja": "たねポケモンです",
       "reading": "",
@@ -1573,7 +1738,7 @@
       "important": false
     },
     {
-      "id": 152,
+      "id": 168,
       "category": "evolution",
       "ja": "このポケモンはたねです",
       "reading": "",
@@ -1583,7 +1748,7 @@
       "important": false
     },
     {
-      "id": 153,
+      "id": 169,
       "category": "evolution",
       "ja": "1進化ポケモンです",
       "reading": "",
@@ -1593,7 +1758,7 @@
       "important": false
     },
     {
-      "id": 154,
+      "id": 170,
       "category": "evolution",
       "ja": "2進化ポケモンです",
       "reading": "",
@@ -1603,7 +1768,7 @@
       "important": false
     },
     {
-      "id": 155,
+      "id": 171,
       "category": "evolution",
       "ja": "進化ポケモンです",
       "reading": "",
@@ -1613,7 +1778,7 @@
       "important": false
     },
     {
-      "id": 156,
+      "id": 172,
       "category": "evolution",
       "ja": "ここから進化します",
       "reading": "",
@@ -1623,7 +1788,7 @@
       "important": false
     },
     {
-      "id": 157,
+      "id": 173,
       "category": "evolution",
       "ja": "たねから進化します",
       "reading": "",
@@ -1633,7 +1798,7 @@
       "important": false
     },
     {
-      "id": 158,
+      "id": 174,
       "category": "evolution",
       "ja": "1進化から進化します",
       "reading": "",
@@ -1643,7 +1808,7 @@
       "important": false
     },
     {
-      "id": 159,
+      "id": 175,
       "category": "evolution",
       "ja": "このターンは進化できません",
       "reading": "",
@@ -1653,7 +1818,7 @@
       "important": false
     },
     {
-      "id": 160,
+      "id": 176,
       "category": "energy",
       "ja": "草",
       "reading": "くさ",
@@ -1663,7 +1828,7 @@
       "important": false
     },
     {
-      "id": 161,
+      "id": 177,
       "category": "energy",
       "ja": "炎",
       "reading": "ほのお",
@@ -1673,7 +1838,7 @@
       "important": false
     },
     {
-      "id": 162,
+      "id": 178,
       "category": "energy",
       "ja": "水",
       "reading": "みず",
@@ -1683,7 +1848,7 @@
       "important": false
     },
     {
-      "id": 163,
+      "id": 179,
       "category": "energy",
       "ja": "雷",
       "reading": "かみなり",
@@ -1693,7 +1858,7 @@
       "important": false
     },
     {
-      "id": 164,
+      "id": 180,
       "category": "energy",
       "ja": "超",
       "reading": "ちょう",
@@ -1703,7 +1868,7 @@
       "important": false
     },
     {
-      "id": 165,
+      "id": 181,
       "category": "energy",
       "ja": "闘",
       "reading": "かくとう",
@@ -1713,7 +1878,7 @@
       "important": false
     },
     {
-      "id": 166,
+      "id": 182,
       "category": "energy",
       "ja": "悪",
       "reading": "あく",
@@ -1723,7 +1888,7 @@
       "important": false
     },
     {
-      "id": 167,
+      "id": 183,
       "category": "energy",
       "ja": "鋼",
       "reading": "はがね",
@@ -1733,7 +1898,7 @@
       "important": false
     },
     {
-      "id": 168,
+      "id": 184,
       "category": "energy",
       "ja": "フェアリー",
       "reading": "",
@@ -1743,7 +1908,7 @@
       "important": false
     },
     {
-      "id": 169,
+      "id": 185,
       "category": "energy",
       "ja": "ドラゴン",
       "reading": "",
@@ -1753,7 +1918,7 @@
       "important": false
     },
     {
-      "id": 170,
+      "id": 186,
       "category": "energy",
       "ja": "無色",
       "reading": "むしょく",
@@ -1763,7 +1928,7 @@
       "important": false
     },
     {
-      "id": 171,
+      "id": 187,
       "category": "energy",
       "ja": "基本エネルギー",
       "reading": "",
@@ -1773,7 +1938,7 @@
       "important": false
     },
     {
-      "id": 172,
+      "id": 188,
       "category": "energy",
       "ja": "特殊エネルギー",
       "reading": "",
@@ -1783,7 +1948,7 @@
       "important": false
     },
     {
-      "id": 173,
+      "id": 189,
       "category": "energy",
       "ja": "エネルギーをつける",
       "reading": "",
@@ -1793,7 +1958,7 @@
       "important": false
     },
     {
-      "id": 174,
+      "id": 190,
       "category": "energy",
       "ja": "エネルギーをトラッシュする",
       "reading": "",
@@ -1803,7 +1968,7 @@
       "important": false
     },
     {
-      "id": 175,
+      "id": 191,
       "category": "trainer",
       "ja": "たねポケモン",
       "reading": "たねポケモン",
@@ -1813,7 +1978,7 @@
       "important": true
     },
     {
-      "id": 176,
+      "id": 192,
       "category": "trainer",
       "ja": "進化ポケモン",
       "reading": "しんかポケモン",
@@ -1823,7 +1988,7 @@
       "important": false
     },
     {
-      "id": 177,
+      "id": 193,
       "category": "trainer",
       "ja": "グッズ",
       "reading": "グッズ",
@@ -1833,7 +1998,7 @@
       "important": false
     },
     {
-      "id": 178,
+      "id": 194,
       "category": "trainer",
       "ja": "サポート",
       "reading": "サポート",
@@ -1843,7 +2008,7 @@
       "important": true
     },
     {
-      "id": 179,
+      "id": 195,
       "category": "trainer",
       "ja": "スタジアム",
       "reading": "スタジアム",
@@ -1853,7 +2018,7 @@
       "important": false
     },
     {
-      "id": 180,
+      "id": 196,
       "category": "trainer",
       "ja": "ポケモンex",
       "reading": "ポケモンイーエックス",
@@ -1863,7 +2028,7 @@
       "important": false
     },
     {
-      "id": 181,
+      "id": 197,
       "category": "trainer",
       "ja": "アイテムを使います",
       "reading": "",
@@ -1873,7 +2038,7 @@
       "important": false
     },
     {
-      "id": 182,
+      "id": 198,
       "category": "trainer",
       "ja": "このアイテムを使います",
       "reading": "",
@@ -1883,7 +2048,7 @@
       "important": false
     },
     {
-      "id": 183,
+      "id": 199,
       "category": "trainer",
       "ja": "効果を使います",
       "reading": "",
@@ -1893,7 +2058,7 @@
       "important": false
     },
     {
-      "id": 184,
+      "id": 200,
       "category": "trainer",
       "ja": "山札から探します",
       "reading": "",
@@ -1903,7 +2068,7 @@
       "important": false
     },
     {
-      "id": 185,
+      "id": 201,
       "category": "trainer",
       "ja": "山札を見ます",
       "reading": "",
@@ -1913,7 +2078,7 @@
       "important": false
     },
     {
-      "id": 186,
+      "id": 202,
       "category": "trainer",
       "ja": "○枚引きます",
       "reading": "",
@@ -1923,7 +2088,7 @@
       "important": false
     },
     {
-      "id": 187,
+      "id": 203,
       "category": "trainer",
       "ja": "手札に加えます",
       "reading": "",
@@ -1933,7 +2098,7 @@
       "important": false
     },
     {
-      "id": 188,
+      "id": 204,
       "category": "trainer",
       "ja": "選んで使います",
       "reading": "",
@@ -1943,7 +2108,7 @@
       "important": false
     },
     {
-      "id": 189,
+      "id": 205,
       "category": "trainer",
       "ja": "対象はこのポケモンです",
       "reading": "",
@@ -1953,7 +2118,7 @@
       "important": false
     },
     {
-      "id": 190,
+      "id": 206,
       "category": "trainer",
       "ja": "ここで使います",
       "reading": "",
@@ -1963,7 +2128,7 @@
       "important": false
     },
     {
-      "id": 191,
+      "id": 207,
       "category": "trainer",
       "ja": "トラッシュします",
       "reading": "",
@@ -1973,7 +2138,7 @@
       "important": false
     },
     {
-      "id": 192,
+      "id": 208,
       "category": "trainer",
       "ja": "ポケモンのどうぐを使います",
       "reading": "",
@@ -1983,7 +2148,7 @@
       "important": false
     },
     {
-      "id": 193,
+      "id": 209,
       "category": "trainer",
       "ja": "このどうぐをつけます",
       "reading": "",
@@ -1993,7 +2158,7 @@
       "important": false
     },
     {
-      "id": 194,
+      "id": 210,
       "category": "trainer",
       "ja": "このポケモンにつけます",
       "reading": "",
@@ -2003,7 +2168,7 @@
       "important": false
     },
     {
-      "id": 195,
+      "id": 211,
       "category": "trainer",
       "ja": "どうぐは1つまでです",
       "reading": "",
@@ -2013,7 +2178,7 @@
       "important": false
     },
     {
-      "id": 196,
+      "id": 212,
       "category": "trainer",
       "ja": "このどうぐの効果です",
       "reading": "",
@@ -2023,7 +2188,7 @@
       "important": false
     },
     {
-      "id": 197,
+      "id": 213,
       "category": "trainer",
       "ja": "ダメージが増えます",
       "reading": "",
@@ -2033,7 +2198,7 @@
       "important": false
     },
     {
-      "id": 198,
+      "id": 214,
       "category": "trainer",
       "ja": "ダメージを防ぎます",
       "reading": "",
@@ -2043,7 +2208,7 @@
       "important": false
     },
     {
-      "id": 199,
+      "id": 215,
       "category": "trainer",
       "ja": "どうぐをトラッシュします",
       "reading": "",
@@ -2053,7 +2218,7 @@
       "important": false
     },
     {
-      "id": 200,
+      "id": 216,
       "category": "trainer",
       "ja": "どうぐは残ります",
       "reading": "",
@@ -2063,7 +2228,7 @@
       "important": false
     },
     {
-      "id": 201,
+      "id": 217,
       "category": "trainer",
       "ja": "スタジアムを出します",
       "reading": "",
@@ -2073,7 +2238,7 @@
       "important": false
     },
     {
-      "id": 202,
+      "id": 218,
       "category": "trainer",
       "ja": "このスタジアムを使います",
       "reading": "",
@@ -2083,7 +2248,7 @@
       "important": false
     },
     {
-      "id": 203,
+      "id": 219,
       "category": "trainer",
       "ja": "スタジアムを貼ります",
       "reading": "",
@@ -2093,7 +2258,7 @@
       "important": false
     },
     {
-      "id": 204,
+      "id": 220,
       "category": "trainer",
       "ja": "新しいスタジアムに替わります",
       "reading": "",
@@ -2103,7 +2268,7 @@
       "important": false
     },
     {
-      "id": 205,
+      "id": 221,
       "category": "trainer",
       "ja": "前のスタジアムはトラッシュします",
       "reading": "",
@@ -2113,7 +2278,7 @@
       "important": false
     },
     {
-      "id": 206,
+      "id": 222,
       "category": "trainer",
       "ja": "スタジアムの効果を使います",
       "reading": "",
@@ -2123,7 +2288,7 @@
       "important": false
     },
     {
-      "id": 207,
+      "id": 223,
       "category": "trainer",
       "ja": "お互いに効果があります",
       "reading": "",
@@ -2133,7 +2298,7 @@
       "important": false
     },
     {
-      "id": 208,
+      "id": 224,
       "category": "trainer",
       "ja": "自分の番に1回使えます",
       "reading": "",
@@ -2143,7 +2308,7 @@
       "important": false
     },
     {
-      "id": 209,
+      "id": 225,
       "category": "trainer",
       "ja": "サポートを使います",
       "reading": "",
@@ -2153,7 +2318,7 @@
       "important": false
     },
     {
-      "id": 210,
+      "id": 226,
       "category": "trainer",
       "ja": "このサポートを使います",
       "reading": "",
@@ -2163,7 +2328,7 @@
       "important": false
     },
     {
-      "id": 211,
+      "id": 227,
       "category": "trainer",
       "ja": "このターンはもうサポート使っています",
       "reading": "",
@@ -2173,7 +2338,7 @@
       "important": false
     },
     {
-      "id": 212,
+      "id": 228,
       "category": "trainer",
       "ja": "相手の手札を確認します",
       "reading": "",
@@ -2183,7 +2348,7 @@
       "important": false
     },
     {
-      "id": 213,
+      "id": 229,
       "category": "trainer",
       "ja": "山札を切ってください",
       "reading": "",
@@ -2193,7 +2358,7 @@
       "important": false
     },
     {
-      "id": 214,
+      "id": 230,
       "category": "pokecheck",
       "ja": "どく",
       "reading": "どく",
@@ -2203,7 +2368,7 @@
       "important": true
     },
     {
-      "id": 215,
+      "id": 231,
       "category": "pokecheck",
       "ja": "やけど",
       "reading": "やけど",
@@ -2213,7 +2378,7 @@
       "important": true
     },
     {
-      "id": 216,
+      "id": 232,
       "category": "pokecheck",
       "ja": "ねむり",
       "reading": "ねむり",
@@ -2223,7 +2388,7 @@
       "important": true
     },
     {
-      "id": 217,
+      "id": 233,
       "category": "pokecheck",
       "ja": "マヒ",
       "reading": "マヒ",
@@ -2233,7 +2398,7 @@
       "important": true
     },
     {
-      "id": 218,
+      "id": 234,
       "category": "pokecheck",
       "ja": "こんらん",
       "reading": "こんらん",
@@ -2243,7 +2408,7 @@
       "important": true
     },
     {
-      "id": 219,
+      "id": 235,
       "category": "pokecheck",
       "ja": "特殊状態",
       "reading": "とくしゅじょうたい",
@@ -2253,7 +2418,7 @@
       "important": false
     },
     {
-      "id": 220,
+      "id": 236,
       "category": "pokecheck",
       "ja": "回復",
       "reading": "かいふく",
@@ -2263,7 +2428,7 @@
       "important": false
     },
     {
-      "id": 221,
+      "id": 237,
       "category": "pokecheck",
       "ja": "弱点",
       "reading": "じゃくてん",
@@ -2273,7 +2438,7 @@
       "important": true
     },
     {
-      "id": 222,
+      "id": 238,
       "category": "pokecheck",
       "ja": "抵抗力",
       "reading": "ていこうりょく",
@@ -2283,7 +2448,7 @@
       "important": false
     },
     {
-      "id": 223,
+      "id": 239,
       "category": "pokecheck",
       "ja": "やけどになります",
       "reading": "",
@@ -2293,7 +2458,7 @@
       "important": false
     },
     {
-      "id": 224,
+      "id": 240,
       "category": "pokecheck",
       "ja": "どく状態",
       "reading": "",
@@ -2303,7 +2468,7 @@
       "important": false
     },
     {
-      "id": 225,
+      "id": 241,
       "category": "pokecheck",
       "ja": "どくになります",
       "reading": "",
@@ -2313,7 +2478,7 @@
       "important": false
     },
     {
-      "id": 226,
+      "id": 242,
       "category": "pokecheck",
       "ja": "まひになります",
       "reading": "",
@@ -2323,7 +2488,7 @@
       "important": false
     },
     {
-      "id": 227,
+      "id": 243,
       "category": "pokecheck",
       "ja": "ねむりになります",
       "reading": "",
@@ -2333,7 +2498,7 @@
       "important": false
     },
     {
-      "id": 228,
+      "id": 244,
       "category": "pokecheck",
       "ja": "ポケモンチェックです",
       "reading": "",
@@ -2343,7 +2508,7 @@
       "important": false
     },
     {
-      "id": 229,
+      "id": 245,
       "category": "pokecheck",
       "ja": "ポケモンチェックに入ります",
       "reading": "",
@@ -2353,7 +2518,7 @@
       "important": false
     },
     {
-      "id": 230,
+      "id": 246,
       "category": "pokecheck",
       "ja": "やけどのダメージをのせます",
       "reading": "",
@@ -2363,7 +2528,7 @@
       "important": false
     },
     {
-      "id": 231,
+      "id": 247,
       "category": "pokecheck",
       "ja": "どくのダメージをのせます",
       "reading": "",
@@ -2373,7 +2538,7 @@
       "important": false
     },
     {
-      "id": 232,
+      "id": 248,
       "category": "pokecheck",
       "ja": "ダメージカウンターを1個のせます",
       "reading": "",
@@ -2383,7 +2548,7 @@
       "important": false
     },
     {
-      "id": 233,
+      "id": 249,
       "category": "pokecheck",
       "ja": "このポケモンにのせます",
       "reading": "",
@@ -2393,7 +2558,7 @@
       "important": false
     },
     {
-      "id": 234,
+      "id": 250,
       "category": "pokecheck",
       "ja": "ポケモンチェック終了です",
       "reading": "",
@@ -2403,7 +2568,7 @@
       "important": false
     },
     {
-      "id": 235,
+      "id": 251,
       "category": "pokecheck",
       "ja": "次のターンです",
       "reading": "",
@@ -2413,7 +2578,7 @@
       "important": false
     },
     {
-      "id": 236,
+      "id": 252,
       "category": "pokecheck",
       "ja": "気絶します",
       "reading": "",
@@ -2423,7 +2588,7 @@
       "important": false
     },
     {
-      "id": 237,
+      "id": 253,
       "category": "pokecheck",
       "ja": "両方ともダメージがあります",
       "reading": "",
@@ -2433,7 +2598,7 @@
       "important": false
     },
     {
-      "id": 238,
+      "id": 254,
       "category": "pokecheck",
       "ja": "間違いないですか",
       "reading": "",
@@ -2443,7 +2608,7 @@
       "important": false
     },
     {
-      "id": 239,
+      "id": 255,
       "category": "side",
       "ja": "サイドは何枚ですか",
       "reading": "",
@@ -2453,7 +2618,7 @@
       "important": false
     },
     {
-      "id": 240,
+      "id": 256,
       "category": "side",
       "ja": "残りのサイドは何枚ですか",
       "reading": "",
@@ -2463,7 +2628,7 @@
       "important": false
     },
     {
-      "id": 241,
+      "id": 257,
       "category": "side",
       "ja": "サイドを確認してもいいですか",
       "reading": "",
@@ -2473,7 +2638,7 @@
       "important": false
     },
     {
-      "id": 242,
+      "id": 258,
       "category": "side",
       "ja": "サイドはあと1枚ですね",
       "reading": "",
@@ -2483,7 +2648,7 @@
       "important": false
     },
     {
-      "id": 243,
+      "id": 259,
       "category": "side",
       "ja": "こちらのサイドは2枚です",
       "reading": "",
@@ -2493,7 +2658,7 @@
       "important": false
     },
     {
-      "id": 244,
+      "id": 260,
       "category": "side",
       "ja": "サイドを取りましたか",
       "reading": "",
@@ -2503,7 +2668,7 @@
       "important": false
     },
     {
-      "id": 245,
+      "id": 261,
       "category": "side",
       "ja": "今、サイドは何枚残っていますか",
       "reading": "",
@@ -2513,7 +2678,7 @@
       "important": false
     },
     {
-      "id": 246,
+      "id": 262,
       "category": "side",
       "ja": "サイドを取ります",
       "reading": "",
@@ -2523,7 +2688,7 @@
       "important": false
     },
     {
-      "id": 247,
+      "id": 263,
       "category": "side",
       "ja": "サイドを全部取りました",
       "reading": "",
@@ -2533,7 +2698,7 @@
       "important": false
     },
     {
-      "id": 248,
+      "id": 264,
       "category": "dice",
       "ja": "サイコロ",
       "reading": "",
@@ -2543,7 +2708,7 @@
       "important": false
     },
     {
-      "id": 249,
+      "id": 265,
       "category": "dice",
       "ja": "ダイス",
       "reading": "",
@@ -2553,7 +2718,7 @@
       "important": false
     },
     {
-      "id": 250,
+      "id": 266,
       "category": "dice",
       "ja": "ダイスを振る",
       "reading": "ダイスをふる",
@@ -2563,7 +2728,7 @@
       "important": false
     },
     {
-      "id": 251,
+      "id": 267,
       "category": "dice",
       "ja": "ダイス使っていい？",
       "reading": "",
@@ -2573,7 +2738,7 @@
       "important": false
     },
     {
-      "id": 252,
+      "id": 268,
       "category": "dice",
       "ja": "サイコロでいい？",
       "reading": "",
@@ -2583,7 +2748,7 @@
       "important": false
     },
     {
-      "id": 253,
+      "id": 269,
       "category": "dice",
       "ja": "偶数は表です。",
       "reading": "",
@@ -2593,7 +2758,7 @@
       "important": false
     },
     {
-      "id": 254,
+      "id": 270,
       "category": "dice",
       "ja": "偶数を表扱（おもてあつか）いにします。",
       "reading": "",
@@ -2603,7 +2768,7 @@
       "important": false
     },
     {
-      "id": 255,
+      "id": 271,
       "category": "dice",
       "ja": "奇数は裏です。",
       "reading": "",
@@ -2613,7 +2778,7 @@
       "important": false
     },
     {
-      "id": 256,
+      "id": 272,
       "category": "dice",
       "ja": "奇数を裏扱（うらあつか）いにします。",
       "reading": "",
@@ -2623,7 +2788,7 @@
       "important": false
     },
     {
-      "id": 257,
+      "id": 273,
       "category": "judge",
       "ja": "ジャッジ",
       "reading": "ジャッジ",
@@ -2633,7 +2798,7 @@
       "important": true
     },
     {
-      "id": 258,
+      "id": 274,
       "category": "judge",
       "ja": "ジャッジを呼んでください",
       "reading": "ジャッジをよんでください",
@@ -2643,7 +2808,7 @@
       "important": true
     },
     {
-      "id": 259,
+      "id": 275,
       "category": "judge",
       "ja": "ルールを確認したいです",
       "reading": "ルールをかくにんしたいです",
@@ -2653,7 +2818,7 @@
       "important": true
     },
     {
-      "id": 260,
+      "id": 276,
       "category": "judge",
       "ja": "これは合っていますか？",
       "reading": "これはあっていますか",
@@ -2663,7 +2828,7 @@
       "important": false
     },
     {
-      "id": 261,
+      "id": 277,
       "category": "judge",
       "ja": "時間を教えてください",
       "reading": "じかんをおしえてください",
@@ -2673,7 +2838,7 @@
       "important": false
     },
     {
-      "id": 262,
+      "id": 278,
       "category": "judge",
       "ja": "デッキチェック",
       "reading": "デッキチェック",
@@ -2683,7 +2848,7 @@
       "important": false
     },
     {
-      "id": 263,
+      "id": 279,
       "category": "judge",
       "ja": "引き分け",
       "reading": "ひきわけ",
@@ -2693,7 +2858,7 @@
       "important": false
     },
     {
-      "id": 264,
+      "id": 280,
       "category": "judge",
       "ja": "制限時間",
       "reading": "せいげんじかん",
@@ -2703,7 +2868,7 @@
       "important": false
     },
     {
-      "id": 265,
+      "id": 281,
       "category": "judge",
       "ja": "投了します",
       "reading": "とうりょうします",
@@ -2713,7 +2878,7 @@
       "important": false
     },
     {
-      "id": 266,
+      "id": 282,
       "category": "numbers",
       "ja": "一枚",
       "reading": "いちまい",
@@ -2723,7 +2888,7 @@
       "important": true
     },
     {
-      "id": 267,
+      "id": 283,
       "category": "numbers",
       "ja": "二枚",
       "reading": "にまい",
@@ -2733,7 +2898,7 @@
       "important": false
     },
     {
-      "id": 268,
+      "id": 284,
       "category": "numbers",
       "ja": "何枚",
       "reading": "なんまい",
@@ -2743,7 +2908,7 @@
       "important": false
     },
     {
-      "id": 269,
+      "id": 285,
       "category": "numbers",
       "ja": "残り時間",
       "reading": "のこりじかん",
@@ -2753,7 +2918,7 @@
       "important": false
     },
     {
-      "id": 270,
+      "id": 286,
       "category": "numbers",
       "ja": "10",
       "reading": "",
@@ -2763,7 +2928,7 @@
       "important": false
     },
     {
-      "id": 271,
+      "id": 287,
       "category": "numbers",
       "ja": "20",
       "reading": "",
@@ -2773,7 +2938,7 @@
       "important": false
     },
     {
-      "id": 272,
+      "id": 288,
       "category": "numbers",
       "ja": "30",
       "reading": "",
@@ -2783,7 +2948,7 @@
       "important": false
     },
     {
-      "id": 273,
+      "id": 289,
       "category": "numbers",
       "ja": "50",
       "reading": "",
@@ -2793,7 +2958,7 @@
       "important": false
     },
     {
-      "id": 274,
+      "id": 290,
       "category": "numbers",
       "ja": "100",
       "reading": "",
@@ -2803,7 +2968,7 @@
       "important": false
     },
     {
-      "id": 275,
+      "id": 291,
       "category": "numbers",
       "ja": "120",
       "reading": "",
@@ -2813,7 +2978,7 @@
       "important": false
     },
     {
-      "id": 276,
+      "id": 292,
       "category": "numbers",
       "ja": "150",
       "reading": "",
@@ -2823,7 +2988,7 @@
       "important": false
     },
     {
-      "id": 277,
+      "id": 293,
       "category": "numbers",
       "ja": "200",
       "reading": "",
@@ -2833,7 +2998,7 @@
       "important": false
     },
     {
-      "id": 278,
+      "id": 294,
       "category": "numbers",
       "ja": "120ダメージ",
       "reading": "",
@@ -2843,7 +3008,7 @@
       "important": false
     },
     {
-      "id": 279,
+      "id": 295,
       "category": "numbers",
       "ja": "ゼロ / 零",
       "reading": "",
@@ -2853,7 +3018,7 @@
       "important": false
     },
     {
-      "id": 280,
+      "id": 296,
       "category": "numbers",
       "ja": "一",
       "reading": "",
@@ -2863,7 +3028,7 @@
       "important": false
     },
     {
-      "id": 281,
+      "id": 297,
       "category": "numbers",
       "ja": "二",
       "reading": "",
@@ -2873,7 +3038,7 @@
       "important": false
     },
     {
-      "id": 282,
+      "id": 298,
       "category": "numbers",
       "ja": "三",
       "reading": "",
@@ -2883,7 +3048,7 @@
       "important": false
     },
     {
-      "id": 283,
+      "id": 299,
       "category": "numbers",
       "ja": "四",
       "reading": "",
@@ -2893,7 +3058,7 @@
       "important": false
     },
     {
-      "id": 284,
+      "id": 300,
       "category": "numbers",
       "ja": "五",
       "reading": "",
@@ -2903,7 +3068,7 @@
       "important": false
     },
     {
-      "id": 285,
+      "id": 301,
       "category": "numbers",
       "ja": "六",
       "reading": "",
@@ -2913,7 +3078,7 @@
       "important": false
     },
     {
-      "id": 286,
+      "id": 302,
       "category": "numbers",
       "ja": "七",
       "reading": "",
@@ -2923,7 +3088,7 @@
       "important": false
     },
     {
-      "id": 287,
+      "id": 303,
       "category": "numbers",
       "ja": "八",
       "reading": "",
@@ -2933,7 +3098,7 @@
       "important": false
     },
     {
-      "id": 288,
+      "id": 304,
       "category": "numbers",
       "ja": "九",
       "reading": "",
@@ -2943,7 +3108,7 @@
       "important": false
     },
     {
-      "id": 289,
+      "id": 305,
       "category": "numbers",
       "ja": "十",
       "reading": "",
@@ -2953,7 +3118,7 @@
       "important": false
     },
     {
-      "id": 290,
+      "id": 306,
       "category": "numbers",
       "ja": "11",
       "reading": "",
@@ -2963,7 +3128,7 @@
       "important": false
     },
     {
-      "id": 291,
+      "id": 307,
       "category": "numbers",
       "ja": "12",
       "reading": "",
@@ -2973,7 +3138,7 @@
       "important": false
     },
     {
-      "id": 292,
+      "id": 308,
       "category": "numbers",
       "ja": "13",
       "reading": "",
@@ -2983,7 +3148,7 @@
       "important": false
     },
     {
-      "id": 293,
+      "id": 309,
       "category": "numbers",
       "ja": "14",
       "reading": "",
@@ -2993,7 +3158,7 @@
       "important": false
     },
     {
-      "id": 294,
+      "id": 310,
       "category": "numbers",
       "ja": "15",
       "reading": "",
@@ -3003,7 +3168,7 @@
       "important": false
     },
     {
-      "id": 295,
+      "id": 311,
       "category": "numbers",
       "ja": "16",
       "reading": "",
@@ -3013,7 +3178,7 @@
       "important": false
     },
     {
-      "id": 296,
+      "id": 312,
       "category": "numbers",
       "ja": "17",
       "reading": "",
@@ -3023,7 +3188,7 @@
       "important": false
     },
     {
-      "id": 297,
+      "id": 313,
       "category": "numbers",
       "ja": "18",
       "reading": "",
@@ -3033,7 +3198,7 @@
       "important": false
     },
     {
-      "id": 298,
+      "id": 314,
       "category": "numbers",
       "ja": "19",
       "reading": "",
@@ -3043,7 +3208,7 @@
       "important": false
     },
     {
-      "id": 299,
+      "id": 315,
       "category": "numbers",
       "ja": "300",
       "reading": "",
@@ -3053,7 +3218,7 @@
       "important": false
     },
     {
-      "id": 300,
+      "id": 316,
       "category": "numbers",
       "ja": "400",
       "reading": "",
@@ -3063,7 +3228,7 @@
       "important": false
     },
     {
-      "id": 301,
+      "id": 317,
       "category": "numbers",
       "ja": "500",
       "reading": "",
@@ -3073,7 +3238,7 @@
       "important": false
     },
     {
-      "id": 302,
+      "id": 318,
       "category": "numbers",
       "ja": "600",
       "reading": "",
@@ -3083,7 +3248,7 @@
       "important": false
     },
     {
-      "id": 303,
+      "id": 319,
       "category": "numbers",
       "ja": "700",
       "reading": "",
@@ -3093,7 +3258,7 @@
       "important": false
     },
     {
-      "id": 304,
+      "id": 320,
       "category": "numbers",
       "ja": "800",
       "reading": "",
@@ -3103,7 +3268,7 @@
       "important": false
     },
     {
-      "id": 305,
+      "id": 321,
       "category": "numbers",
       "ja": "900",
       "reading": "",
@@ -3113,7 +3278,7 @@
       "important": false
     },
     {
-      "id": 306,
+      "id": 322,
       "category": "numbers",
       "ja": "1000",
       "reading": "",
@@ -3123,7 +3288,7 @@
       "important": false
     },
     {
-      "id": 307,
+      "id": 323,
       "category": "numbers",
       "ja": "40",
       "reading": "",
@@ -3133,7 +3298,7 @@
       "important": false
     },
     {
-      "id": 308,
+      "id": 324,
       "category": "numbers",
       "ja": "60",
       "reading": "",
@@ -3143,7 +3308,7 @@
       "important": false
     },
     {
-      "id": 309,
+      "id": 325,
       "category": "numbers",
       "ja": "70",
       "reading": "",
@@ -3153,7 +3318,7 @@
       "important": false
     },
     {
-      "id": 310,
+      "id": 326,
       "category": "numbers",
       "ja": "80",
       "reading": "",
@@ -3163,7 +3328,7 @@
       "important": false
     },
     {
-      "id": 311,
+      "id": 327,
       "category": "numbers",
       "ja": "90",
       "reading": "",

@@ -38,3 +38,10 @@ node scripts/merge-terms.js
 ## 현재 소스 파일
 - `base.json` — 초기 손수 작성한 핵심 용어
 - `batch1~4.json` — 사용자 제공 이미지(카카오톡 용어 시트) 전사물
+- `daily.json` — 일상·여행 용어(번역 완료본). `daily.txt`에서 생성
+
+## 일상·여행 용어 추가 (가장 쉬운 방법)
+1. `data/sources/daily.txt` 에 **한국어 문장**을 한 줄에 하나씩 추가한다.
+2. Claude에게 "일상용어 반영해줘"라고 말한다.
+3. Claude가 새 줄을 일본어+읽는법+한글발음으로 번역해 `daily.json`(category: `daily`)에 추가하고,
+   `node scripts/merge-terms.js` 로 `terms.json`을 재생성한다 → 용어집의 "일상·여행" 카테고리에 표시.

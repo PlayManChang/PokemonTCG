@@ -1,0 +1,18 @@
+[
+  { "category": "daily", "ja": "これください", "reading": "これください", "ko_pron": "코레 쿠다사이", "ko": "이거 주세요", "note": "가게에서 물건을 살 때", "important": true },
+  { "category": "daily", "ja": "いくらですか？", "reading": "いくらですか", "ko_pron": "이쿠라데스카", "ko": "얼마예요?", "note": "값을 물을 때", "important": true },
+  { "category": "daily", "ja": "カードで払えますか？", "reading": "カードではらえますか", "ko_pron": "카-도데 하라에마스카", "ko": "카드로 결제 돼요?", "note": "계산할 때", "important": false },
+  { "category": "daily", "ja": "袋ください", "reading": "ふくろください", "ko_pron": "후쿠로 쿠다사이", "ko": "봉투 주세요", "note": "편의점·가게에서", "important": false },
+  { "category": "daily", "ja": "温めてください", "reading": "あたためてください", "ko_pron": "아타타메테 쿠다사이", "ko": "데워 주세요", "note": "편의점 음식 데울 때", "important": false },
+  { "category": "daily", "ja": "お水ください", "reading": "おみずください", "ko_pron": "오미즈 쿠다사이", "ko": "물 주세요", "note": "식당에서", "important": false },
+  { "category": "daily", "ja": "おいしいです", "reading": "おいしいです", "ko_pron": "오이시이데스", "ko": "맛있어요", "note": "", "important": false },
+  { "category": "daily", "ja": "いただきます", "reading": "いただきます", "ko_pron": "이타다키마스", "ko": "잘 먹겠습니다", "note": "식사 전 인사", "important": false },
+  { "category": "daily", "ja": "ごちそうさまでした", "reading": "ごちそうさまでした", "ko_pron": "고치소사마데시타", "ko": "잘 먹었습니다", "note": "식사 후 인사", "important": false },
+  { "category": "daily", "ja": "助けてください", "reading": "たすけてください", "ko_pron": "타스케테 쿠다사이", "ko": "도와주세요", "note": "도움이 필요할 때", "important": true },
+  { "category": "daily", "ja": "道に迷いました", "reading": "みちにまよいました", "ko_pron": "미치니 마요이마시타", "ko": "길을 잃었어요", "note": "길을 잃었을 때", "important": false },
+  { "category": "daily", "ja": "駅はどこですか？", "reading": "えきはどこですか", "ko_pron": "에키와 도코데스카", "ko": "역이 어디예요?", "note": "길 물을 때", "important": true },
+  { "category": "daily", "ja": "写真を撮ってもいいですか？", "reading": "しゃしんをとってもいいですか", "ko_pron": "샤신오 톳테모 이이데스카", "ko": "사진 찍어도 돼요?", "note": "사진 찍기 전 양해", "important": false },
+  { "category": "daily", "ja": "Wi-Fiありますか？", "reading": "ワイファイありますか", "ko_pron": "와이화이 아리마스카", "ko": "와이파이 있어요?", "note": "", "important": false },
+  { "category": "daily", "ja": "レシートください", "reading": "レシートください", "ko_pron": "레시-토 쿠다사이", "ko": "영수증 주세요", "note": "", "important": false },
+  { "category": "daily", "ja": "おすすめは何ですか？", "reading": "おすすめはなんですか", "ko_pron": "오스스메와 난데스카", "ko": "추천이 뭐예요?", "note": "메뉴 고를 때", "important": false }
+]

@@ -14,6 +14,7 @@ const OUT = path.join(ROOT, 'data', 'terms.json');
 
 const categories = [
   { id: 'greetings', name: '인사·매너', icon: '👋' },
+  { id: 'daily',     name: '일상·여행', icon: '🍙' },
   { id: 'match',     name: '대전 진행', icon: '⚔️' },
   { id: 'check',     name: '확인·질문', icon: '💬' },
   { id: 'effect',    name: '효과·용어', icon: '✨' },
