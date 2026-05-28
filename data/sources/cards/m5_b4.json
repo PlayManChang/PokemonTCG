@@ -1,0 +1,254 @@
+[
+  {
+    "id": 50247,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ヤドン",
+    "name_ko": "야돈",
+    "hp": 70,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "すてほうだい",
+        "name_ko": "마구 버리기",
+        "damage": "",
+        "effect_ja": "自分の手札を好きなだけ選び、トラッシュする。",
+        "effect_ko": "자신의 패를 원하는 만큼 골라 트래시한다.",
+        "text_ja": "自分の手札を好きなだけ選び、トラッシュする。",
+        "text_ko": "자신의 패를 원하는 만큼 골라 트래시한다."
+      },
+      {
+        "name_ja": "ずつき",
+        "name_ko": "박치기",
+        "damage": "20",
+        "effect_ja": "",
+        "effect_ko": "",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이」",
+    "number": "028/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50247"
+  },
+  {
+    "id": 50248,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "ヤドラン",
+    "name_ko": "야도란",
+    "hp": 130,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "スッカラカン",
+        "name_ko": "텅텅",
+        "damage": "50+",
+        "effect_ja": "自分の手札が1枚もないなら、160ダメージ追加。",
+        "effect_ko": "자신의 패가 1장도 없다면 160데미지 추가.",
+        "text_ja": "自分の手札が1枚もないなら、160ダメージ追加。",
+        "text_ko": "자신의 패가 1장도 없다면 160데미지를 추가한다."
+      },
+      {
+        "name_ja": "しねんのずつき",
+        "name_ko": "사념의 박치기",
+        "damage": "110",
+        "effect_ja": "",
+        "effect_ko": "",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이」",
+    "number": "029/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50248"
+  },
+  {
+    "id": 50249,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ルージュラ",
+    "name_ko": "루주라",
+    "hp": 100,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "きょうれつキッス",
+        "name_ko": "강렬한 키스",
+        "damage": "",
+        "effect_ja": "次の相手の番の終わりに、このワザを受けたポケモンと、ついているすべてのカードを、トラッシュする。",
+        "effect_ko": "다음 상대 차례의 끝에 이 기술을 받은 포켓몬과 거기에 붙어 있는 모든 카드를 트래시한다.",
+        "text_ja": "次の相手の番の終わりに、このワザを受けたポケモンと、ついているすべてのカードを、トラッシュする。",
+        "text_ko": "다음 상대 차례의 끝에 이 기술을 받은 포켓몬과 거기에 붙어 있는 모든 카드를 트래시한다."
+      },
+      {
+        "name_ja": "ねんりき",
+        "name_ko": "염력",
+        "damage": "50",
+        "effect_ja": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+        "effect_ko": "동전을 1번 던져 앞면이면 상대 배틀필드 포켓몬을 마비로 만든다.",
+        "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+        "text_ko": "동전을 1번 던져 앞면이면 상대의 배틀필드 포켓몬을 마비로 만든다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이」",
+    "number": "030/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50249"
+  },
+  {
+    "id": 50252,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ミカルゲ",
+    "name_ko": "화강돌",
+    "hp": 60,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "たましいエンド",
+        "name_ko": "영혼의 끝",
+        "damage": "",
+        "effect_ja": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが13枚以上あるなら、相手のポケモンを2匹選び、それぞれのっているダメカンの数が4倍になるように、ダメカンをのせる。",
+        "effect_ko": "자신의 트래시에 특성 '둔갑술'을 가진 포켓몬이 13장 이상 있다면 상대 포켓몬을 2마리 골라 각각 올려져 있는 데미지카운터 수가 4배가 되도록 데미지카운터를 올린다.",
+        "text_ja": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが13枚以上あるなら、相手のポケモンを2匹選び、それぞれのっているダメカンの数が4倍になるように、ダメカンをのせる。",
+        "text_ko": "자신의 트래시에 특성 「둔갑술」을 가진 포켓몬이 13장 이상 있다면 상대 포켓몬을 2마리 골라 각각 올려져 있는 데미지카운터 수가 4배가 되도록 데미지카운터를 올린다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이」",
+    "number": "033/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50252"
+  },
+  {
+    "id": 50257,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "マーシャドー",
+    "name_ko": "마샤도",
+    "hp": 90,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "かげむすび",
+        "name_ko": "그림자 연결",
+        "damage": "30×",
+        "effect_ja": "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ。",
+        "effect_ko": "상대 배틀필드 포켓몬의 후퇴에 필요한 에너지 수 ×30데미지.",
+        "text_ja": "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ。",
+        "text_ko": "상대의 배틀필드 포켓몬이 후퇴하기 위한 에너지 수 ×30데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이」",
+    "number": "038/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50257"
+  },
+  {
+    "id": 50258,
+    "category": "pokemon",
+    "subtype_ko": "2단계 포켓몬",
+    "name_ja": "コノヨザル",
+    "name_ko": "저승갓숭",
+    "hp": 150,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "くちないからだ",
+        "name_ko": "썩지 않는 몸",
+        "effect_ja": "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
+        "effect_ko": "이 포켓몬이 기술의 데미지를 받아 기절할 때 자신은 동전을 1번 던진다. 앞면이면 이 포켓몬은 기절하지 않고 남은 HP가 '10'인 상태로 필드에 남는다.",
+        "text_ja": "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
+        "text_ko": "이 포켓몬이 기술의 데미지를 받아 기절할 때 자신은 동전을 1번 던진다. 앞면이면 이 포켓몬은 기절하지 않고 남은 HP가 「10」인 상태로 필드에 남는다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "ゴーストブロー",
+        "name_ko": "고스트 블로",
+        "damage": "100",
+        "effect_ja": "相手のベンチポケモン1匹に、ダメカンを5個のせる。",
+        "effect_ko": "상대 벤치 포켓몬 1마리에게 데미지카운터를 5개 올린다.",
+        "text_ja": "相手のベンチポケモン1匹に、ダメカンを5個のせる。",
+        "text_ko": "상대의 벤치 포켓몬 1마리에게 데미지카운터를 5개 올린다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이」",
+    "number": "039/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50258"
+  },
+  {
+    "id": 50259,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "マンキー",
+    "name_ko": "망키",
+    "hp": 50,
+    "type_ko": "투",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "けたぐり",
+        "name_ko": "다리 후리기",
+        "damage": "20",
+        "effect_ja": "",
+        "effect_ko": "",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이」",
+    "number": "040/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50259"
+  },
+  {
+    "id": 50260,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "オコリザル",
+    "name_ko": "성원숭",
+    "hp": 110,
+    "type_ko": "투",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "どつく",
+        "name_ko": "후려치기",
+        "damage": "50",
+        "effect_ja": "",
+        "effect_ko": "",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이」",
+    "number": "041/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50260"
+  }
+]

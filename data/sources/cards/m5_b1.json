@@ -1,0 +1,256 @@
+[
+  {
+    "id": 50220,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "トロピウス",
+    "name_ko": "트로피우스",
+    "hp": 110,
+    "type_ko": "풀",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "かじつのかおり",
+        "name_ko": "과실의 향기",
+        "text_ja": "自分の山札を上から6枚見て、その中からポケモンを好きなだけ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+        "text_ko": "자신의 덱을 위에서 6장 보고, 그중에서 포켓몬을 원하는 만큼 선택해 상대에게 보여주고 패에 추가한다. 남은 카드는 덱에 되돌려 섞는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "풀무색",
+        "name_ja": "ソーラービーム",
+        "name_ko": "솔라빔",
+        "damage": "60",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "001/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50220"
+  },
+  {
+    "id": 50221,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "アゴジムシ",
+    "name_ko": "턱지충이",
+    "hp": 70,
+    "type_ko": "풀",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색",
+        "name_ja": "いとをはく",
+        "name_ko": "실뿜기",
+        "damage": "10",
+        "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+        "text_ko": "동전을 1회 던져 앞면이면 상대 배틀 포켓몬을 마비로 만든다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "002/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50221"
+  },
+  {
+    "id": 50222,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "カリキリ",
+    "name_ko": "짤가지",
+    "hp": 70,
+    "type_ko": "풀",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "풀",
+        "name_ja": "とつげき",
+        "name_ko": "돌격",
+        "damage": "30",
+        "text_ja": "このポケモンにも10ダメージ。",
+        "text_ko": "이 포켓몬에게도 10데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "003/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50222"
+  },
+  {
+    "id": 50223,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬(포켓몬 ex)",
+    "name_ja": "ラランテスex",
+    "name_ko": "라란티스 ex",
+    "hp": 260,
+    "type_ko": "풀",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "풀",
+        "name_ja": "はつらつカッター",
+        "name_ko": "활기찬 커터",
+        "damage": "60＋",
+        "text_ja": "この番に、このポケモンのHPを回復していたなら、200ダメージ追加。",
+        "text_ko": "이번 차례에 이 포켓몬의 HP를 회복했다면 200데미지 추가."
+      },
+      {
+        "cost_ko": "풀무색",
+        "name_ja": "リーフガード",
+        "name_ko": "리프 가드",
+        "damage": "140",
+        "text_ja": "次の相手の番、このポケモンが受けるワザのダメージは「-50」される。",
+        "text_ko": "다음 상대 차례에 이 포켓몬이 받는 기술의 데미지는 '-50'된다."
+      }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+    "text_ko": "포켓몬 ex가 기절했을 때 상대는 사이드를 2장 가져간다.",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "004/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50223"
+  },
+  {
+    "id": 50225,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "ヤバソチャ",
+    "name_ko": "야뱌차",
+    "hp": 60,
+    "type_ko": "풀",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "ばけがくれ",
+        "name_ko": "둔갑 숨기",
+        "text_ja": "このポケモンは、相手のワザや特性の効果を受けない。",
+        "text_ko": "이 포켓몬은 상대의 기술이나 특성의 효과를 받지 않는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "무색",
+        "name_ja": "まっちゃスピン",
+        "name_ko": "말차 스핀",
+        "damage": "",
+        "text_ja": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが6枚以上あるなら、相手のポケモン全員に、それぞれダメカンを4個のせる。",
+        "text_ko": "자신의 트래시에 특성 '둔갑 숨기'를 가진 포켓몬이 6장 이상 있다면 상대 포켓몬 전원에게 각각 데미지카운터를 4개 올린다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "006/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50225"
+  },
+  {
+    "id": 50226,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ヒードラン",
+    "name_ko": "히드런",
+    "hp": 140,
+    "type_ko": "불꽃",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "불꽃",
+        "name_ja": "こがす",
+        "name_ko": "그을리기",
+        "damage": "",
+        "text_ja": "相手のバトルポケモンをやけどにする。",
+        "text_ko": "상대 배틀 포켓몬을 화상으로 만든다."
+      },
+      {
+        "cost_ko": "불꽃불꽃무색",
+        "name_ja": "ようがんウォール",
+        "name_ko": "용암 월",
+        "damage": "120",
+        "text_ja": "次の相手の番、このポケモンはやけどのポケモンからワザのダメージを受けない。",
+        "text_ko": "다음 상대 차례에 이 포켓몬은 화상인 포켓몬에게서 기술의 데미지를 받지 않는다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "007/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50226"
+  },
+  {
+    "id": 50227,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ヤクデ",
+    "name_ko": "태우지네",
+    "hp": 80,
+    "type_ko": "불꽃",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "불꽃",
+        "name_ja": "のやき",
+        "name_ko": "들불",
+        "damage": "",
+        "text_ja": "相手の山札を上から1枚トラッシュする。",
+        "text_ko": "상대의 덱을 위에서 1장 트래시한다."
+      },
+      {
+        "cost_ko": "무색무색무색",
+        "name_ja": "バグパニック",
+        "name_ko": "버그 패닉",
+        "damage": "50×",
+        "text_ja": "自分の山札を下から7枚オモテにして、その中にある、ワザ「バグパニック」を持つポケモンの枚数×50ダメージ。オモテにしたポケモンは山札にもどして切る。残りのカードはトラッシュする。",
+        "text_ko": "자신의 덱을 아래에서 7장 앞면으로 하여, 그중에 있는 기술 '버그 패닉'을 가진 포켓몬의 매수×50데미지. 앞면으로 한 포켓몬은 덱에 되돌려 섞는다. 남은 카드는 트래시한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "008/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50227"
+  },
+  {
+    "id": 50228,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "マルヤクデ",
+    "name_ko": "다태우지네",
+    "hp": 140,
+    "type_ko": "불꽃",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "불꽃",
+        "name_ja": "のやき",
+        "name_ko": "들불",
+        "damage": "",
+        "text_ja": "相手の山札を上から2枚トラッシュする。",
+        "text_ko": "상대의 덱을 위에서 2장 트래시한다."
+      },
+      {
+        "cost_ko": "불꽃무색무색무색",
+        "name_ja": "ヒートタックル",
+        "name_ko": "히트 태클",
+        "damage": "160",
+        "text_ja": "このポケモンにも30ダメージ。",
+        "text_ko": "이 포켓몬에게도 30데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "009/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50228"
+  }
+]

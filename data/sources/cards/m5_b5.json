@@ -1,0 +1,251 @@
+[
+  {
+    "id": 50261,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "ズガイドス",
+    "name_ko": "두개도스",
+    "hp": 100,
+    "type_ko": "격투",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "つきとばす",
+        "name_ko": "밀쳐내기",
+        "damage": "70",
+        "text_ja": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+        "text_ko": "상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. [배틀 필드에 내보낼 포켓몬은 상대가 고른다.]"
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "042/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50261"
+  },
+  {
+    "id": 50262,
+    "category": "pokemon",
+    "subtype_ko": "2진화 · 포켓몬 ex",
+    "name_ja": "ラムパルドex",
+    "name_ko": "램펄드 ex",
+    "hp": 330,
+    "type_ko": "격투",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "はかいのずつき",
+        "name_ko": "파괴의 박치기",
+        "text_ja": "このポケモンがバトル場にいるなら、自分の番に1回使える。コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+        "text_ko": "이 포켓몬이 배틀 필드에 있다면 자신의 차례에 1번 쓸 수 있다. 코인을 1번 던져 앞면이 나오면 상대의 배틀 포켓몬에 붙어 있는 에너지를 1개 골라 트래시(버리는 곳)에 버린다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "ランページハンマー",
+        "name_ko": "램페이지 해머",
+        "damage": "150",
+        "text_ja": "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+150」される。",
+        "text_ko": "다음 자신의 차례에 이 포켓몬이 쓰는 기술의 상대 배틀 포켓몬에 대한 데미지는 '+150'된다."
+      }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+    "text_ko": "포켓몬 ex가 기절했을 때 상대는 사이드를 2장 가져간다.",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "043/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50262"
+  },
+  {
+    "id": 50264,
+    "category": "pokemon",
+    "subtype_ko": "기본",
+    "name_ja": "コライドン",
+    "name_ko": "코라이돈",
+    "hp": 130,
+    "type_ko": "격투",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "バトルクロー",
+        "name_ko": "배틀 클로",
+        "damage": "30+",
+        "text_ja": "相手のバトルポケモンが進化ポケモンなら、30ダメージ追加。",
+        "text_ko": "상대의 배틀 포켓몬이 진화 포켓몬이라면 30데미지를 추가한다."
+      },
+      {
+        "name_ja": "ガイアインパクト",
+        "name_ko": "가이아 임팩트",
+        "damage": "190",
+        "text_ja": "このポケモンについているエネルギーを、すべてトラッシュする。",
+        "text_ko": "이 포켓몬에 붙어 있는 에너지를 모두 트래시(버리는 곳)에 버린다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "045/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50264"
+  },
+  {
+    "id": 50265,
+    "category": "pokemon",
+    "subtype_ko": "메가진화 · 포켓몬 ex",
+    "name_ja": "メガダークライex",
+    "name_ko": "메가다크라이 ex",
+    "hp": 280,
+    "type_ko": "악",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ナイトレイド",
+        "name_ko": "나이트 레이드",
+        "damage": "110+",
+        "text_ja": "自分のベンチポケモンにダメカンがのっているなら、110ダメージ追加。",
+        "text_ko": "자신의 벤치 포켓몬에 데미지카운터가 올라가 있다면 110데미지를 추가한다."
+      },
+      {
+        "name_ja": "アビスアイ",
+        "name_ko": "어비스아이",
+        "damage": "",
+        "text_ja": "相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。",
+        "text_ko": "상대의 배틀 포켓몬이 특수 상태라면 그 포켓몬을 기절시킨다."
+      }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+    "text_ko": "메가진화 ex가 기절했을 때 상대는 사이드를 3장 가져간다.",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "046/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50265"
+  },
+  {
+    "id": 50266,
+    "category": "pokemon",
+    "subtype_ko": "기본",
+    "name_ja": "バルチャイ",
+    "name_ko": "벌차이",
+    "hp": 70,
+    "type_ko": "무색",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "はばたく",
+        "name_ko": "날갯짓",
+        "damage": "10",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "name_ja": "かぜおこし",
+        "name_ko": "바람일으키기",
+        "damage": "20",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "047/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50266"
+  },
+  {
+    "id": 50267,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "バルジーナ",
+    "name_ko": "벌가용",
+    "hp": 120,
+    "type_ko": "무색",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ボーンスナイプ",
+        "name_ko": "본 스나이프",
+        "damage": "70",
+        "text_ja": "特殊エネルギーがついている相手のポケモン1匹に、70ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+        "text_ko": "특수 에너지가 붙어 있는 상대 포켓몬 1마리에게 70데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+      },
+      {
+        "name_ja": "ブラストウインド",
+        "name_ko": "블라스트 윈드",
+        "damage": "120",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "048/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50267"
+  },
+  {
+    "id": 50268,
+    "category": "pokemon",
+    "subtype_ko": "기본",
+    "name_ja": "マーイーカ",
+    "name_ko": "오케이징",
+    "hp": 60,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ちょうたつ",
+        "name_ko": "조달",
+        "damage": "",
+        "text_ja": "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+        "text_ko": "자신의 덱에서 굿즈를 1장 골라 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다."
+      },
+      {
+        "name_ja": "かいてんアタック",
+        "name_ko": "회전 어택",
+        "damage": "30",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "049/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50268"
+  },
+  {
+    "id": 50269,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "カラマネロ",
+    "name_ko": "칼라마네로",
+    "hp": 120,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "まどわす",
+        "name_ko": "현혹하기",
+        "damage": "",
+        "text_ja": "相手のバトルポケモンをこんらんにする。",
+        "text_ko": "상대의 배틀 포켓몬을 혼란으로 만든다."
+      },
+      {
+        "name_ja": "ブレインクラッシュ",
+        "name_ko": "브레인 크래시",
+        "damage": "130",
+        "text_ja": "相手のバトルポケモンがこんらんでないなら、このワザは失敗。",
+        "text_ko": "상대의 배틀 포켓몬이 혼란이 아니라면 이 기술은 실패한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "050/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50269"
+  }
+]

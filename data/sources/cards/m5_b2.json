@@ -1,0 +1,216 @@
+[
+  {
+    "id": 50229,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "カルボウ",
+    "name_ko": "카르본(カルボウ)",
+    "hp": 80,
+    "type_ko": "불꽃",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ぜんりょくパンチ",
+        "name_ko": "전력 펀치",
+        "damage": "40",
+        "text_ja": "コインを1回投げウラなら、このワザは失敗。",
+        "text_ko": "동전을 1번 던져 뒷면이면 이 기술은 실패."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "010/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50229"
+  },
+  {
+    "id": 50230,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "グレンアルマ",
+    "name_ko": "카디나르마(グレンアルマ)",
+    "hp": 140,
+    "type_ko": "에스퍼",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "フレイムレギオン",
+        "name_ko": "플레임 레기온",
+        "damage": "40+",
+        "text_ja": "エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。",
+        "text_ko": "에너지가 붙어 있는 자신의 벤치 포켓몬의 수×40 데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "011/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50230"
+  },
+  {
+    "id": 50231,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "トサキント",
+    "name_ko": "쏘리푸(トサキント)",
+    "hp": 70,
+    "type_ko": "물",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "つきさす",
+        "name_ko": "찌르기",
+        "damage": "30",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "012/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50231"
+  },
+  {
+    "id": 50232,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "アズマオウ",
+    "name_ko": "왕콘치(アズマオウ)",
+    "hp": 110,
+    "type_ko": "물",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ハイドロショット",
+        "name_ko": "하이드로 샷",
+        "damage": "30×",
+        "text_ja": "相手のポケモン1匹に、このポケモンについているエネルギーの数×30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+        "text_ko": "상대 포켓몬 1마리에게, 이 포켓몬에게 붙어 있는 에너지의 수×30 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "013/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50232"
+  },
+  {
+    "id": 50233,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ホエルコ",
+    "name_ko": "고래왕자(ホエルコ)",
+    "hp": 130,
+    "type_ko": "물",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "みずでっぽう",
+        "name_ko": "물대포",
+        "damage": "40",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "name_ja": "スプラッシュ",
+        "name_ko": "스플래시",
+        "damage": "80",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "014/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50233"
+  },
+  {
+    "id": 50234,
+    "category": "pokemon",
+    "subtype_ko": "1진화 · 포켓몬 ex",
+    "name_ja": "ホエルオーex",
+    "name_ko": "고래왕(ホエルオー) ex",
+    "hp": 380,
+    "type_ko": "물",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "なみのり",
+        "name_ko": "파도타기",
+        "damage": "120",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "name_ja": "フォーリングダウン",
+        "name_ko": "폴링 다운",
+        "damage": "270",
+        "text_ja": "このポケモンをねむりにする。",
+        "text_ko": "이 포켓몬을 잠듦 상태로 만든다."
+      }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+    "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "015/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50234"
+  },
+  {
+    "id": 50235,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ジーランス",
+    "name_ko": "시라칸(ジーランス)",
+    "hp": 100,
+    "type_ko": "물",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "フォッシルビート",
+        "name_ko": "포실 비트",
+        "damage": "10+",
+        "text_ja": "名前に「古びた」とつく自分のベンチポケモンの数×30ダメージ追加。",
+        "text_ko": "이름에 「오래된」이 붙는 자신의 벤치 포켓몬의 수×30 데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "016/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50235"
+  },
+  {
+    "id": 50236,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "アシマリ",
+    "name_ko": "누리공(アシマリ)",
+    "hp": 70,
+    "type_ko": "물",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "はたく",
+        "name_ko": "때리기",
+        "damage": "20",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "017/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50236"
+  }
+]

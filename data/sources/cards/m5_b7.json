@@ -1,0 +1,231 @@
+[
+  {
+    "id": 50278,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "タテトプス",
+    "name_ko": "방패톱스",
+    "hp": 100,
+    "type_ko": "강철",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "강철무색",
+        "name_ja": "くだく",
+        "name_ko": "부수기",
+        "damage": "50",
+        "text_ja": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+        "text_ko": "상대의 배틀 포켓몬에 붙어 있는 에너지를 1개 선택해 트래시한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "059/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50278"
+  },
+  {
+    "id": 50279,
+    "category": "pokemon",
+    "subtype_ko": "2단계 포켓몬",
+    "name_ja": "トリデプス",
+    "name_ko": "바리톱스",
+    "hp": 160,
+    "type_ko": "강철",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "たいこのぼうへき",
+        "name_ko": "방패의 방벽",
+        "text_ja": "このポケモンがベンチにいるかぎり、自分のポケモン全員は、ついているエネルギーが2個以下の相手のポケモンからワザのダメージを受けない。",
+        "text_ko": "이 포켓몬이 벤치에 있는 한, 자신의 포켓몬 전원은 붙어 있는 에너지가 2개 이하인 상대의 포켓몬으로부터 기술의 데미지를 받지 않는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "강철강철무색",
+        "name_ja": "ぶちかます",
+        "name_ko": "들이받기",
+        "damage": "160",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "060/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50279"
+  },
+  {
+    "id": 50280,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ドーミラー",
+    "name_ko": "동미러",
+    "hp": 80,
+    "type_ko": "강철",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "강철",
+        "name_ja": "ミラーアタック",
+        "name_ko": "미러어택",
+        "damage": "10+",
+        "text_ja": "相手のバトルポケモンが[鋼]ポケモンなら、30ダメージ追加。",
+        "text_ko": "상대의 배틀 포켓몬이 [강철] 포켓몬이라면 30데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "061/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50280"
+  },
+  {
+    "id": 50281,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "ドータクン",
+    "name_ko": "동탁군",
+    "hp": 130,
+    "type_ko": "강철",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "강철",
+        "name_ja": "ひっぱたく",
+        "name_ko": "후려치기",
+        "damage": "40",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "cost_ko": "강철강철무색",
+        "name_ja": "メタルブロック",
+        "name_ko": "메탈블록",
+        "damage": "120",
+        "text_ja": "次の相手の番、このポケモンが進化ポケモンから受けるワザのダメージは「-100」される。",
+        "text_ko": "다음 상대의 차례에 이 포켓몬이 진화 포켓몬으로부터 받는 기술의 데미지는 '-100'된다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "062/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50281"
+  },
+  {
+    "id": 50286,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "タイプ：ヌル",
+    "name_ko": "타입:널",
+    "hp": 110,
+    "type_ko": "무색",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색무색",
+        "name_ja": "パワーエッジ",
+        "name_ko": "파워에지",
+        "damage": "40",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "067/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50286"
+  },
+  {
+    "id": 50287,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "シルヴァディ",
+    "name_ko": "실버디",
+    "hp": 140,
+    "type_ko": "무색",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "バディコール",
+        "name_ko": "버디콜",
+        "text_ja": "自分の手札が1枚もないなら、自分の番に1回使える。自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+        "text_ko": "자신의 패가 1장도 없다면 자신의 차례에 1회 사용할 수 있다. 자신의 덱에서 서포트를 1장 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "무색무색무색",
+        "name_ja": "エアスラッシュ",
+        "name_ko": "에어슬래시",
+        "damage": "130",
+        "text_ja": "このポケモンについているエネルギーを1個選び、トラッシュする。",
+        "text_ko": "이 포켓몬에 붙어 있는 에너지를 1개 선택해 트래시한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "068/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50287"
+  },
+  {
+    "id": 50288,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "オトシドリ",
+    "name_ko": "떨구새",
+    "hp": 100,
+    "type_ko": "무색",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색무색",
+        "name_ja": "おとどけチャレンジ",
+        "name_ko": "배달 챌린지",
+        "damage": "",
+        "text_ja": "コインを2回投げ、すべてオモテなら、自分の山札からポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+        "text_ko": "동전을 2회 던져 모두 앞면이라면 자신의 덱에서 포켓몬을 1장 선택해 벤치에 내보낸다. 그리고 덱을 섞는다."
+      },
+      {
+        "cost_ko": "무색무색무색",
+        "name_ja": "スピードウイング",
+        "name_ko": "스피드윙",
+        "damage": "100",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "069/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50288"
+  },
+  {
+    "id": 50289,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "ダークベル",
+    "name_ko": "다크벨",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいのバトルポケモン（[悪]ポケモンをのぞく）を、それぞれこんらんにする。\nグッズは、自分の番に何枚でも使える。",
+    "text_ko": "서로의 배틀 포켓몬([악] 포켓몬을 제외)을 각각 혼란으로 만든다.\n굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "070/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50289"
+  }
+]

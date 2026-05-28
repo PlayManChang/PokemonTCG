@@ -59,6 +59,18 @@ for (const d of DECKS) {
     romajiDecks[r][d.id] = (romajiDecks[r][d.id] || 0) + (c.count || 1);
   }
 }
+// 1-b) 세트 스캔 로드 (덱에 없어도 세트 단위로 포함)
+const SETS_DIR = path.join(ROOT, 'data', 'sources', 'sets');
+const romajiSet = {}; // romaji -> setCode (세트 멤버십)
+if (fs.existsSync(SETS_DIR)) {
+  for (const f of fs.readdirSync(SETS_DIR).filter((x) => x.endsWith('.json'))) {
+    for (const c of JSON.parse(fs.readFileSync(path.join(SETS_DIR, f), 'utf8'))) {
+      if (!idInfo[c.id]) idInfo[c.id] = { set: c.set, type: c.type, romaji: c.romaji, id: c.id };
+      if (!romajiSet[c.romaji]) romajiSet[c.romaji] = c.set;
+    }
+  }
+}
+
 const idToRomaji = Object.fromEntries(Object.values(idInfo).map((i) => [i.id, i.romaji]));
 
 // 2) 카드 상세(번역물) 로드 → romaji 기준 정규화
@@ -83,7 +95,8 @@ if (fs.existsSync(CARDS)) {
 // 3) romaji별 정규화 카드 생성
 const cards = [];
 const missing = [];
-for (const romaji of Object.keys(romajiDecks)) {
+const universe = [...new Set([...Object.keys(romajiDecks), ...Object.keys(romajiSet)])];
+for (const romaji of universe) {
   let det = detailByRomaji[romaji];
   if (!det) {
     if (BASIC_ENERGY[romaji]) {
@@ -93,7 +106,7 @@ for (const romaji of Object.keys(romajiDecks)) {
   }
   const info = idInfo[det.id] || Object.values(idInfo).find((i) => i.romaji === romaji);
   const id = det.id || (info && info.id);
-  const decks = Object.keys(romajiDecks[romaji]);
+  const decks = Object.keys(romajiDecks[romaji] || {});
   const tiers = [...new Set(decks.map((d) => tierById[d]))].sort();
   cards.push({
     id,
@@ -112,7 +125,7 @@ for (const romaji of Object.keys(romajiDecks)) {
     image: imgUrl(info),
     official_url: det.official_url || (id ? `https://www.pokemon-card.com/card-search/details.php/card/${id}` : ''),
     decks,
-    deckCounts: romajiDecks[romaji],
+    deckCounts: romajiDecks[romaji] || {},
     tiers,
   });
 }

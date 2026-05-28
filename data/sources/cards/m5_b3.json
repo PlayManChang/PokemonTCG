@@ -1,0 +1,248 @@
+[
+  {
+    "id": 50237,
+    "category": "pokemon",
+    "subtype_ko": "1진화 포켓몬",
+    "name_ja": "オシャマリ",
+    "name_ko": "키요마리",
+    "hp": 90,
+    "type_ko": "물",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ハイパーボイス",
+        "name_ko": "하이퍼보이스",
+        "cost_ko": "물 1",
+        "damage": "40",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "018/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50237"
+  },
+  {
+    "id": 50238,
+    "category": "pokemon",
+    "subtype_ko": "2진화 포켓몬",
+    "name_ja": "アシレーヌ",
+    "name_ko": "누리레느",
+    "hp": 150,
+    "type_ko": "물",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "まんたんメロディ",
+        "name_ko": "풀회복 멜로디",
+        "text_ja": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のポケモン1匹のHPを、すべて回復する。",
+        "text_ko": "자신의 차례에, 이 카드를 패에서 내보내 진화시켰을 때, 1회 사용할 수 있다. 자신의 포켓몬 1마리의 HP를 모두 회복한다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "アクアリターン",
+        "name_ko": "아쿠아리턴",
+        "cost_ko": "물 1, 무색 1",
+        "damage": "120",
+        "text_ja": "このポケモンと、ついているすべてのカードを、山札にもどして切る。",
+        "text_ko": "이 포켓몬과 붙어 있는 모든 카드를 덱으로 되돌려 섞는다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "019/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50238"
+  },
+  {
+    "id": 50239,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ナミイルカ",
+    "name_ko": "맨돌핀",
+    "hp": 80,
+    "type_ko": "물",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ドレインフィン",
+        "name_ko": "드레인핀",
+        "cost_ko": "물 2",
+        "damage": "20",
+        "text_ja": "このポケモンのHPを「20」回復する。",
+        "text_ko": "이 포켓몬의 HP를 「20」 회복한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "020/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50239"
+  },
+  {
+    "id": 50240,
+    "category": "pokemon",
+    "subtype_ko": "1진화 포켓몬",
+    "name_ja": "イルカマン",
+    "name_ko": "돌핀맨",
+    "hp": 150,
+    "type_ko": "물",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ジャスティスナックル",
+        "name_ko": "저스티스 너클",
+        "cost_ko": "물 2",
+        "damage": "80+",
+        "text_ja": "相手のサイドの残り枚数が1枚なら、200ダメージ追加。",
+        "text_ko": "상대의 사이드 남은 매수가 1장이라면, 200데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "021/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50240"
+  },
+  {
+    "id": 50243,
+    "category": "pokemon",
+    "subtype_ko": "1진화 포켓몬",
+    "name_ja": "デンヂムシ",
+    "name_ko": "전지충이",
+    "hp": 100,
+    "type_ko": "번개",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "はさむ",
+        "name_ko": "집기",
+        "cost_ko": "번개 1",
+        "damage": "30",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "name_ja": "ぶつかる",
+        "name_ko": "부딪치기",
+        "cost_ko": "번개 2",
+        "damage": "50",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "024/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50243"
+  },
+  {
+    "id": 50244,
+    "category": "pokemon",
+    "subtype_ko": "2진화 포켓몬",
+    "name_ja": "クワガノン",
+    "name_ko": "투구뿔카논",
+    "hp": 160,
+    "type_ko": "번개",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "クイックダイブ",
+        "name_ko": "퀵 다이브",
+        "cost_ko": "번개 1",
+        "damage": "",
+        "text_ja": "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+        "text_ko": "상대 포켓몬 1마리에게 50데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+      },
+      {
+        "name_ja": "ギガレールガン",
+        "name_ko": "기가 레일건",
+        "cost_ko": "번개 2",
+        "damage": "260",
+        "text_ja": "このポケモンに「ボルト[雷]エネルギー」がついていないなら、このワザは失敗。",
+        "text_ko": "이 포켓몬에게 「볼트 [번개]에너지」가 붙어 있지 않다면, 이 기술은 실패."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "025/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50244"
+  },
+  {
+    "id": 50245,
+    "category": "pokemon",
+    "subtype_ko": "메가진화 ex 포켓몬",
+    "name_ja": "メガゼラオラex",
+    "name_ko": "메가제라오라 ex",
+    "hp": 270,
+    "type_ko": "번개",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "サンダーフィスト",
+        "name_ko": "선더 피스트",
+        "cost_ko": "번개 1",
+        "damage": "60×",
+        "text_ja": "このポケモンについている[雷]エネルギーの数×60ダメージ。",
+        "text_ko": "이 포켓몬에게 붙어 있는 [번개]에너지의 수 ×60데미지."
+      },
+      {
+        "name_ja": "ゼプトターン",
+        "name_ko": "젭토 턴",
+        "cost_ko": "번개 3",
+        "damage": "150",
+        "text_ja": "このポケモンをベンチポケモンと入れ替える。",
+        "text_ko": "이 포켓몬을 벤치 포켓몬과 교체한다."
+      }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+    "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "026/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50245"
+  },
+  {
+    "id": 50246,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ミライドン",
+    "name_ko": "미라이돈",
+    "hp": 120,
+    "type_ko": "번개",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "フォトンコード",
+        "name_ko": "포톤 코드",
+        "text_ja": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、このポケモンについている「基本[雷]エネルギー」を2枚まで選び、ベンチポケモン1匹につけ替える。",
+        "text_ko": "이 포켓몬이 배틀필드에서 상대 포켓몬에게 기술 데미지를 받아 기절했을 때, 이 포켓몬에게 붙어 있는 「기본 [번개]에너지」를 2장까지 선택해 벤치 포켓몬 1마리에게 옮겨 붙인다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "かみなり",
+        "name_ko": "번개",
+        "cost_ko": "번개 2",
+        "damage": "90",
+        "text_ja": "このポケモンにも30ダメージ。",
+        "text_ko": "이 포켓몬에게도 30데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "027/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50246"
+  }
+]

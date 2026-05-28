@@ -1,0 +1,250 @@
+[
+  {
+    "id": 50270,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "クスネ",
+    "name_ko": "여우꼬",
+    "hp": 70,
+    "type_ko": "악",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "악",
+        "name_ja": "かじる",
+        "name_ko": "물어뜯기",
+        "damage": "10",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "cost_ko": "악무색",
+        "name_ja": "うしろげり",
+        "name_ko": "뒷발차기",
+        "damage": "30",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "051/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50270"
+  },
+  {
+    "id": 50271,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "フォクスライ",
+    "name_ko": "포클네",
+    "hp": 100,
+    "type_ko": "악",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색무색",
+        "name_ja": "スキルシーフ",
+        "name_ko": "스킬시프",
+        "damage": "",
+        "text_ja": "自分の手札が1枚もないなら、相手の場のポケモンが持つワザを1つ選び、このワザとして使う。",
+        "text_ko": "자신의 패가 1장도 없다면, 상대 필드의 포켓몬이 가진 기술을 1개 선택해 이 기술로서 사용한다."
+      },
+      {
+        "cost_ko": "악무색무색",
+        "name_ja": "するどいキバ",
+        "name_ko": "날카로운 이빨",
+        "damage": "80",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "052/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50271"
+  },
+  {
+    "id": 50272,
+    "category": "pokemon",
+    "subtype_ko": "포켓몬 ex",
+    "name_ja": "モルペコex",
+    "name_ko": "모르페코 ex",
+    "hp": 180,
+    "type_ko": "악",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "악",
+        "name_ja": "ホイールドロー",
+        "name_ko": "휠 드로",
+        "damage": "",
+        "text_ja": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
+        "text_ko": "자신의 패를 모두 덱으로 되돌려 섞는다. 그 후, 덱을 6장 뽑는다."
+      },
+      {
+        "cost_ko": "악악",
+        "name_ja": "はらぺこボンバー",
+        "name_ko": "배고픔 봄버",
+        "damage": "40+",
+        "text_ja": "このポケモンにのっているダメカンの数×40ダメージ追加。",
+        "text_ko": "이 포켓몬에게 올려져 있는 데미지카운터의 수×40 데미지 추가."
+      }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+    "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "053/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50272"
+  },
+  {
+    "id": 50273,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ザルード",
+    "name_ko": "자루도",
+    "hp": 130,
+    "type_ko": "악",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "악",
+        "name_ja": "うしろなげ",
+        "name_ko": "뒤로 던지기",
+        "damage": "30",
+        "text_ja": "自分のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+        "text_ko": "자신의 벤치 포켓몬 1마리에게도 30 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+      },
+      {
+        "cost_ko": "악악악",
+        "name_ja": "シャドーウィップ",
+        "name_ko": "섀도 휩",
+        "damage": "100+",
+        "text_ja": "自分のベンチポケモンに「シャドーエネルギー」がついているなら、70ダメージ追加。",
+        "text_ko": "자신의 벤치 포켓몬에게 '섀도 에너지'가 붙어 있다면, 70 데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "054/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50273"
+  },
+  {
+    "id": 50274,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "オラチフ",
+    "name_ko": "오라차프",
+    "hp": 70,
+    "type_ko": "악",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "악악",
+        "name_ja": "かみつく",
+        "name_ko": "물기",
+        "damage": "40",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "055/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50274"
+  },
+  {
+    "id": 50275,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "マフィティフ",
+    "name_ko": "마피티프",
+    "hp": 140,
+    "type_ko": "악",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "악악",
+        "name_ja": "かみつく",
+        "name_ko": "물기",
+        "damage": "60",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "cost_ko": "악악악",
+        "name_ja": "とびこみヘッド",
+        "name_ko": "다이빙 헤드",
+        "damage": "210",
+        "text_ja": "次の相手の番、このポケモンが受けるワザのダメージは「+100」される。",
+        "text_ko": "다음 상대의 차례에, 이 포켓몬이 받는 기술의 데미지는 '+100'된다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "056/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50275"
+  },
+  {
+    "id": 50276,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "イーユイ",
+    "name_ko": "총지마",
+    "hp": 90,
+    "type_ko": "악",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "악",
+        "name_ja": "うずまくねたみ",
+        "name_ko": "소용돌이치는 질투",
+        "damage": "20+",
+        "text_ja": "このポケモンにダメカンが2個以上のっているなら、90ダメージ追加。このワザのダメージは弱点を計算しない。",
+        "text_ko": "이 포켓몬에게 데미지카운터가 2개 이상 올려져 있다면, 90 데미지 추가. 이 기술의 데미지는 약점을 계산하지 않는다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "057/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50276"
+  },
+  {
+    "id": 50277,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "エアームド",
+    "name_ko": "무장조",
+    "hp": 120,
+    "type_ko": "강철",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "강철",
+        "name_ja": "スチールカッター",
+        "name_ko": "스틸 커터",
+        "damage": "40×",
+        "text_ja": "自分の手札から「基本エネルギー」を2枚までトラッシュし、その枚数×40ダメージ。",
+        "text_ko": "자신의 패에서 '기본 에너지'를 2장까지 트래시하고, 그 매수×40 데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "058/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50277"
+  }
+]

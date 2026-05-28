@@ -5594,12 +5594,12 @@
       ]
     },
     {
-      "id": 46689,
+      "id": 50231,
       "name_ja": "トサキント",
-      "name_ko": "동챙이",
+      "name_ko": "쏘리푸(トサキント)",
       "category": "pokemon",
       "subtype_ko": "기본 포켓몬",
-      "hp": 50,
+      "hp": 70,
       "type_ko": "물",
       "regulation": "",
       "abilities": [
@@ -5612,19 +5612,18 @@
       ],
       "attacks": [
         {
-          "cost_ko": "물",
-          "name_ja": "うずしお",
-          "name_ko": "소용돌이",
-          "damage": "10",
-          "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
-          "text_ko": "동전을 1회 던져 앞면이면 상대 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해 트래시한다."
+          "name_ja": "つきさす",
+          "name_ko": "찌르기",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
         }
       ],
       "text_ja": "",
       "text_ko": "",
-      "set": "SV8a",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046689_P_TOSAKINTO.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46689",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050231_P_TOSAKINTO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50231",
       "decks": [
         "omatsuriondo"
       ],
@@ -5636,11 +5635,11 @@
       ]
     },
     {
-      "id": 46690,
+      "id": 50232,
       "name_ja": "アズマオウ",
-      "name_ko": "왕콘치",
+      "name_ko": "왕콘치(アズマオウ)",
       "category": "pokemon",
-      "subtype_ko": "1단계 포켓몬",
+      "subtype_ko": "1진화",
       "hp": 110,
       "type_ko": "물",
       "regulation": "",
@@ -5654,19 +5653,18 @@
       ],
       "attacks": [
         {
-          "cost_ko": "무색",
-          "name_ja": "クイックドロー",
-          "name_ko": "퀵 드로",
-          "damage": "60",
-          "text_ja": "自分の山札を2枚引く。",
-          "text_ko": "자신의 덱을 2장 뽑는다."
+          "name_ja": "ハイドロショット",
+          "name_ko": "하이드로 샷",
+          "damage": "30×",
+          "text_ja": "相手のポケモン1匹に、このポケモンについているエネルギーの数×30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "상대 포켓몬 1마리에게, 이 포켓몬에게 붙어 있는 에너지의 수×30 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
         }
       ],
       "text_ja": "",
       "text_ko": "",
-      "set": "SV8a",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046690_P_AZUMAOU.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46690",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050232_P_AZUMAOU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50232",
       "decks": [
         "omatsuriondo"
       ],
@@ -6878,6 +6876,1970 @@
       "tiers": [
         4
       ]
+    },
+    {
+      "id": 50220,
+      "name_ja": "トロピウス",
+      "name_ko": "트로피우스",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 110,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "かじつのかおり",
+          "name_ko": "과실의 향기",
+          "text_ja": "自分の山札を上から6枚見て、その中からポケモンを好きなだけ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+          "text_ko": "자신의 덱을 위에서 6장 보고, 그중에서 포켓몬을 원하는 만큼 선택해 상대에게 보여주고 패에 추가한다. 남은 카드는 덱에 되돌려 섞는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "풀무색",
+          "name_ja": "ソーラービーム",
+          "name_ko": "솔라빔",
+          "damage": "60",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050220_P_TOROPIUSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50220",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50221,
+      "name_ja": "アゴジムシ",
+      "name_ko": "턱지충이",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "いとをはく",
+          "name_ko": "실뿜기",
+          "damage": "10",
+          "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+          "text_ko": "동전을 1회 던져 앞면이면 상대 배틀 포켓몬을 마비로 만든다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050221_P_AGOJIMUSHI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50221",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50222,
+      "name_ja": "カリキリ",
+      "name_ko": "짤가지",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "풀",
+          "name_ja": "とつげき",
+          "name_ko": "돌격",
+          "damage": "30",
+          "text_ja": "このポケモンにも10ダメージ。",
+          "text_ko": "이 포켓몬에게도 10데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050222_P_KARIKIRI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50222",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50223,
+      "name_ja": "ラランテスex",
+      "name_ko": "라란티스 ex",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬(포켓몬 ex)",
+      "hp": 260,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "풀",
+          "name_ja": "はつらつカッター",
+          "name_ko": "활기찬 커터",
+          "damage": "60＋",
+          "text_ja": "この番に、このポケモンのHPを回復していたなら、200ダメージ追加。",
+          "text_ko": "이번 차례에 이 포켓몬의 HP를 회복했다면 200데미지 추가."
+        },
+        {
+          "cost_ko": "풀무색",
+          "name_ja": "リーフガード",
+          "name_ko": "리프 가드",
+          "damage": "140",
+          "text_ja": "次の相手の番、このポケモンが受けるワザのダメージは「-50」される。",
+          "text_ko": "다음 상대 차례에 이 포켓몬이 받는 기술의 데미지는 '-50'된다."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때 상대는 사이드를 2장 가져간다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050223_P_RARANTESUEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50223",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50225,
+      "name_ja": "ヤバソチャ",
+      "name_ko": "야뱌차",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 60,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "ばけがくれ",
+          "name_ko": "둔갑 숨기",
+          "text_ja": "このポケモンは、相手のワザや特性の効果を受けない。",
+          "text_ko": "이 포켓몬은 상대의 기술이나 특성의 효과를 받지 않는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "まっちゃスピン",
+          "name_ko": "말차 스핀",
+          "damage": "",
+          "text_ja": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが6枚以上あるなら、相手のポケモン全員に、それぞれダメカンを4個のせる。",
+          "text_ko": "자신의 트래시에 특성 '둔갑 숨기'를 가진 포켓몬이 6장 이상 있다면 상대 포켓몬 전원에게 각각 데미지카운터를 4개 올린다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050225_P_YABASOCHIXYA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50225",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50226,
+      "name_ja": "ヒードラン",
+      "name_ko": "히드런",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 140,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "불꽃",
+          "name_ja": "こがす",
+          "name_ko": "그을리기",
+          "damage": "",
+          "text_ja": "相手のバトルポケモンをやけどにする。",
+          "text_ko": "상대 배틀 포켓몬을 화상으로 만든다."
+        },
+        {
+          "cost_ko": "불꽃불꽃무색",
+          "name_ja": "ようがんウォール",
+          "name_ko": "용암 월",
+          "damage": "120",
+          "text_ja": "次の相手の番、このポケモンはやけどのポケモンからワザのダメージを受けない。",
+          "text_ko": "다음 상대 차례에 이 포켓몬은 화상인 포켓몬에게서 기술의 데미지를 받지 않는다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050226_P_HIDORAN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50226",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50227,
+      "name_ja": "ヤクデ",
+      "name_ko": "태우지네",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 80,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "불꽃",
+          "name_ja": "のやき",
+          "name_ko": "들불",
+          "damage": "",
+          "text_ja": "相手の山札を上から1枚トラッシュする。",
+          "text_ko": "상대의 덱을 위에서 1장 트래시한다."
+        },
+        {
+          "cost_ko": "무색무색무색",
+          "name_ja": "バグパニック",
+          "name_ko": "버그 패닉",
+          "damage": "50×",
+          "text_ja": "自分の山札を下から7枚オモテにして、その中にある、ワザ「バグパニック」を持つポケモンの枚数×50ダメージ。オモテにしたポケモンは山札にもどして切る。残りのカードはトラッシュする。",
+          "text_ko": "자신의 덱을 아래에서 7장 앞면으로 하여, 그중에 있는 기술 '버그 패닉'을 가진 포켓몬의 매수×50데미지. 앞면으로 한 포켓몬은 덱에 되돌려 섞는다. 남은 카드는 트래시한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050227_P_YAKUDE.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50227",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50228,
+      "name_ja": "マルヤクデ",
+      "name_ko": "다태우지네",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 140,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "불꽃",
+          "name_ja": "のやき",
+          "name_ko": "들불",
+          "damage": "",
+          "text_ja": "相手の山札を上から2枚トラッシュする。",
+          "text_ko": "상대의 덱을 위에서 2장 트래시한다."
+        },
+        {
+          "cost_ko": "불꽃무색무색무색",
+          "name_ja": "ヒートタックル",
+          "name_ko": "히트 태클",
+          "damage": "160",
+          "text_ja": "このポケモンにも30ダメージ。",
+          "text_ko": "이 포켓몬에게도 30데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050228_P_MARUYAKUDE.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50228",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50229,
+      "name_ja": "カルボウ",
+      "name_ko": "카르본(カルボウ)",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 80,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "ぜんりょくパンチ",
+          "name_ko": "전력 펀치",
+          "damage": "40",
+          "text_ja": "コインを1回投げウラなら、このワザは失敗。",
+          "text_ko": "동전을 1번 던져 뒷면이면 이 기술은 실패."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050229_P_KARUBOU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50229",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50230,
+      "name_ja": "グレンアルマ",
+      "name_ko": "카디나르마(グレンアルマ)",
+      "category": "pokemon",
+      "subtype_ko": "1진화",
+      "hp": 140,
+      "type_ko": "에스퍼",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "フレイムレギオン",
+          "name_ko": "플레임 레기온",
+          "damage": "40+",
+          "text_ja": "エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。",
+          "text_ko": "에너지가 붙어 있는 자신의 벤치 포켓몬의 수×40 데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050230_P_GURENARUMA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50230",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50233,
+      "name_ja": "ホエルコ",
+      "name_ko": "고래왕자(ホエルコ)",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 130,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "みずでっぽう",
+          "name_ko": "물대포",
+          "damage": "40",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "name_ja": "スプラッシュ",
+          "name_ko": "스플래시",
+          "damage": "80",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050233_P_HOERUKO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50233",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50234,
+      "name_ja": "ホエルオーex",
+      "name_ko": "고래왕(ホエルオー) ex",
+      "category": "pokemon",
+      "subtype_ko": "1진화 · 포켓몬 ex",
+      "hp": 380,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "なみのり",
+          "name_ko": "파도타기",
+          "damage": "120",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "name_ja": "フォーリングダウン",
+          "name_ko": "폴링 다운",
+          "damage": "270",
+          "text_ja": "このポケモンをねむりにする。",
+          "text_ko": "이 포켓몬을 잠듦 상태로 만든다."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050234_P_HOERUOEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50234",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50235,
+      "name_ja": "ジーランス",
+      "name_ko": "시라칸(ジーランス)",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 100,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "フォッシルビート",
+          "name_ko": "포실 비트",
+          "damage": "10+",
+          "text_ja": "名前に「古びた」とつく自分のベンチポケモンの数×30ダメージ追加。",
+          "text_ko": "이름에 「오래된」이 붙는 자신의 벤치 포켓몬의 수×30 데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050235_P_JIRANSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50235",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50236,
+      "name_ja": "アシマリ",
+      "name_ko": "누리공(アシマリ)",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "はたく",
+          "name_ko": "때리기",
+          "damage": "20",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050236_P_ASHIMARI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50236",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50237,
+      "name_ja": "オシャマリ",
+      "name_ko": "키요마리",
+      "category": "pokemon",
+      "subtype_ko": "1진화 포켓몬",
+      "hp": 90,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "ハイパーボイス",
+          "name_ko": "하이퍼보이스",
+          "cost_ko": "물 1",
+          "damage": "40",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050237_P_OSHIXYAMARI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50237",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50238,
+      "name_ja": "アシレーヌ",
+      "name_ko": "누리레느",
+      "category": "pokemon",
+      "subtype_ko": "2진화 포켓몬",
+      "hp": 150,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "まんたんメロディ",
+          "name_ko": "풀회복 멜로디",
+          "text_ja": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のポケモン1匹のHPを、すべて回復する。",
+          "text_ko": "자신의 차례에, 이 카드를 패에서 내보내 진화시켰을 때, 1회 사용할 수 있다. 자신의 포켓몬 1마리의 HP를 모두 회복한다."
+        }
+      ],
+      "attacks": [
+        {
+          "name_ja": "アクアリターン",
+          "name_ko": "아쿠아리턴",
+          "cost_ko": "물 1, 무색 1",
+          "damage": "120",
+          "text_ja": "このポケモンと、ついているすべてのカードを、山札にもどして切る。",
+          "text_ko": "이 포켓몬과 붙어 있는 모든 카드를 덱으로 되돌려 섞는다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050238_P_ASHIRENU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50238",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50239,
+      "name_ja": "ナミイルカ",
+      "name_ko": "맨돌핀",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 80,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "ドレインフィン",
+          "name_ko": "드레인핀",
+          "cost_ko": "물 2",
+          "damage": "20",
+          "text_ja": "このポケモンのHPを「20」回復する。",
+          "text_ko": "이 포켓몬의 HP를 「20」 회복한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050239_P_NAMIIRUKA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50239",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50240,
+      "name_ja": "イルカマン",
+      "name_ko": "돌핀맨",
+      "category": "pokemon",
+      "subtype_ko": "1진화 포켓몬",
+      "hp": 150,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "ジャスティスナックル",
+          "name_ko": "저스티스 너클",
+          "cost_ko": "물 2",
+          "damage": "80+",
+          "text_ja": "相手のサイドの残り枚数が1枚なら、200ダメージ追加。",
+          "text_ko": "상대의 사이드 남은 매수가 1장이라면, 200데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050240_P_IRUKAMAN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50240",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50243,
+      "name_ja": "デンヂムシ",
+      "name_ko": "전지충이",
+      "category": "pokemon",
+      "subtype_ko": "1진화 포켓몬",
+      "hp": 100,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "はさむ",
+          "name_ko": "집기",
+          "cost_ko": "번개 1",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "name_ja": "ぶつかる",
+          "name_ko": "부딪치기",
+          "cost_ko": "번개 2",
+          "damage": "50",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050243_P_DENJIMUSHI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50243",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50244,
+      "name_ja": "クワガノン",
+      "name_ko": "투구뿔카논",
+      "category": "pokemon",
+      "subtype_ko": "2진화 포켓몬",
+      "hp": 160,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "クイックダイブ",
+          "name_ko": "퀵 다이브",
+          "cost_ko": "번개 1",
+          "damage": "",
+          "text_ja": "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "상대 포켓몬 1마리에게 50데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+        },
+        {
+          "name_ja": "ギガレールガン",
+          "name_ko": "기가 레일건",
+          "cost_ko": "번개 2",
+          "damage": "260",
+          "text_ja": "このポケモンに「ボルト[雷]エネルギー」がついていないなら、このワザは失敗。",
+          "text_ko": "이 포켓몬에게 「볼트 [번개]에너지」가 붙어 있지 않다면, 이 기술은 실패."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050244_P_KUWAGANON.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50244",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50245,
+      "name_ja": "メガゼラオラex",
+      "name_ko": "메가제라오라 ex",
+      "category": "pokemon",
+      "subtype_ko": "메가진화 ex 포켓몬",
+      "hp": 270,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "サンダーフィスト",
+          "name_ko": "선더 피스트",
+          "cost_ko": "번개 1",
+          "damage": "60×",
+          "text_ja": "このポケモンについている[雷]エネルギーの数×60ダメージ。",
+          "text_ko": "이 포켓몬에게 붙어 있는 [번개]에너지의 수 ×60데미지."
+        },
+        {
+          "name_ja": "ゼプトターン",
+          "name_ko": "젭토 턴",
+          "cost_ko": "번개 3",
+          "damage": "150",
+          "text_ja": "このポケモンをベンチポケモンと入れ替える。",
+          "text_ko": "이 포켓몬을 벤치 포켓몬과 교체한다."
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050245_P_MZERAORAEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50245",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50246,
+      "name_ja": "ミライドン",
+      "name_ko": "미라이돈",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 120,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "フォトンコード",
+          "name_ko": "포톤 코드",
+          "text_ja": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、このポケモンについている「基本[雷]エネルギー」を2枚まで選び、ベンチポケモン1匹につけ替える。",
+          "text_ko": "이 포켓몬이 배틀필드에서 상대 포켓몬에게 기술 데미지를 받아 기절했을 때, 이 포켓몬에게 붙어 있는 「기본 [번개]에너지」를 2장까지 선택해 벤치 포켓몬 1마리에게 옮겨 붙인다."
+        }
+      ],
+      "attacks": [
+        {
+          "name_ja": "かみなり",
+          "name_ko": "번개",
+          "cost_ko": "번개 2",
+          "damage": "90",
+          "text_ja": "このポケモンにも30ダメージ。",
+          "text_ko": "이 포켓몬에게도 30데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050246_P_MIRAIDON.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50246",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50247,
+      "name_ja": "ヤドン",
+      "name_ko": "야돈",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "すてほうだい",
+          "name_ko": "마구 버리기",
+          "damage": "",
+          "effect_ja": "自分の手札を好きなだけ選び、トラッシュする。",
+          "effect_ko": "자신의 패를 원하는 만큼 골라 트래시한다.",
+          "text_ja": "自分の手札を好きなだけ選び、トラッシュする。",
+          "text_ko": "자신의 패를 원하는 만큼 골라 트래시한다."
+        },
+        {
+          "name_ja": "ずつき",
+          "name_ko": "박치기",
+          "damage": "20",
+          "effect_ja": "",
+          "effect_ko": "",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050247_P_YADON.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50247",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50248,
+      "name_ja": "ヤドラン",
+      "name_ko": "야도란",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 130,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "スッカラカン",
+          "name_ko": "텅텅",
+          "damage": "50+",
+          "effect_ja": "自分の手札が1枚もないなら、160ダメージ追加。",
+          "effect_ko": "자신의 패가 1장도 없다면 160데미지 추가.",
+          "text_ja": "自分の手札が1枚もないなら、160ダメージ追加。",
+          "text_ko": "자신의 패가 1장도 없다면 160데미지를 추가한다."
+        },
+        {
+          "name_ja": "しねんのずつき",
+          "name_ko": "사념의 박치기",
+          "damage": "110",
+          "effect_ja": "",
+          "effect_ko": "",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050248_P_YADORAN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50248",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50249,
+      "name_ja": "ルージュラ",
+      "name_ko": "루주라",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 100,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "きょうれつキッス",
+          "name_ko": "강렬한 키스",
+          "damage": "",
+          "effect_ja": "次の相手の番の終わりに、このワザを受けたポケモンと、ついているすべてのカードを、トラッシュする。",
+          "effect_ko": "다음 상대 차례의 끝에 이 기술을 받은 포켓몬과 거기에 붙어 있는 모든 카드를 트래시한다.",
+          "text_ja": "次の相手の番の終わりに、このワザを受けたポケモンと、ついているすべてのカードを、トラッシュする。",
+          "text_ko": "다음 상대 차례의 끝에 이 기술을 받은 포켓몬과 거기에 붙어 있는 모든 카드를 트래시한다."
+        },
+        {
+          "name_ja": "ねんりき",
+          "name_ko": "염력",
+          "damage": "50",
+          "effect_ja": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+          "effect_ko": "동전을 1번 던져 앞면이면 상대 배틀필드 포켓몬을 마비로 만든다.",
+          "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+          "text_ko": "동전을 1번 던져 앞면이면 상대의 배틀필드 포켓몬을 마비로 만든다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050249_P_RUJIXYURA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50249",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50252,
+      "name_ja": "ミカルゲ",
+      "name_ko": "화강돌",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 60,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "たましいエンド",
+          "name_ko": "영혼의 끝",
+          "damage": "",
+          "effect_ja": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが13枚以上あるなら、相手のポケモンを2匹選び、それぞれのっているダメカンの数が4倍になるように、ダメカンをのせる。",
+          "effect_ko": "자신의 트래시에 특성 '둔갑술'을 가진 포켓몬이 13장 이상 있다면 상대 포켓몬을 2마리 골라 각각 올려져 있는 데미지카운터 수가 4배가 되도록 데미지카운터를 올린다.",
+          "text_ja": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが13枚以上あるなら、相手のポケモンを2匹選び、それぞれのっているダメカンの数が4倍になるように、ダメカンをのせる。",
+          "text_ko": "자신의 트래시에 특성 「둔갑술」을 가진 포켓몬이 13장 이상 있다면 상대 포켓몬을 2마리 골라 각각 올려져 있는 데미지카운터 수가 4배가 되도록 데미지카운터를 올린다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050252_P_MIKARUGE.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50252",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50257,
+      "name_ja": "マーシャドー",
+      "name_ko": "마샤도",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 90,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "かげむすび",
+          "name_ko": "그림자 연결",
+          "damage": "30×",
+          "effect_ja": "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ。",
+          "effect_ko": "상대 배틀필드 포켓몬의 후퇴에 필요한 에너지 수 ×30데미지.",
+          "text_ja": "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ。",
+          "text_ko": "상대의 배틀필드 포켓몬이 후퇴하기 위한 에너지 수 ×30데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050257_P_MASHIXYADO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50257",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50258,
+      "name_ja": "コノヨザル",
+      "name_ko": "저승갓숭",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬",
+      "hp": 150,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "くちないからだ",
+          "name_ko": "썩지 않는 몸",
+          "effect_ja": "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
+          "effect_ko": "이 포켓몬이 기술의 데미지를 받아 기절할 때 자신은 동전을 1번 던진다. 앞면이면 이 포켓몬은 기절하지 않고 남은 HP가 '10'인 상태로 필드에 남는다.",
+          "text_ja": "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
+          "text_ko": "이 포켓몬이 기술의 데미지를 받아 기절할 때 자신은 동전을 1번 던진다. 앞면이면 이 포켓몬은 기절하지 않고 남은 HP가 「10」인 상태로 필드에 남는다."
+        }
+      ],
+      "attacks": [
+        {
+          "name_ja": "ゴーストブロー",
+          "name_ko": "고스트 블로",
+          "damage": "100",
+          "effect_ja": "相手のベンチポケモン1匹に、ダメカンを5個のせる。",
+          "effect_ko": "상대 벤치 포켓몬 1마리에게 데미지카운터를 5개 올린다.",
+          "text_ja": "相手のベンチポケモン1匹に、ダメカンを5個のせる。",
+          "text_ko": "상대의 벤치 포켓몬 1마리에게 데미지카운터를 5개 올린다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050258_P_KONOYOZARU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50258",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50259,
+      "name_ja": "マンキー",
+      "name_ko": "망키",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 50,
+      "type_ko": "투",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "けたぐり",
+          "name_ko": "다리 후리기",
+          "damage": "20",
+          "effect_ja": "",
+          "effect_ko": "",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050259_P_MANKI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50259",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50260,
+      "name_ja": "オコリザル",
+      "name_ko": "성원숭",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 110,
+      "type_ko": "투",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "どつく",
+          "name_ko": "후려치기",
+          "damage": "50",
+          "effect_ja": "",
+          "effect_ko": "",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050260_P_OKORIZARU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50260",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50261,
+      "name_ja": "ズガイドス",
+      "name_ko": "두개도스",
+      "category": "pokemon",
+      "subtype_ko": "1진화",
+      "hp": 100,
+      "type_ko": "격투",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "つきとばす",
+          "name_ko": "밀쳐내기",
+          "damage": "70",
+          "text_ja": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+          "text_ko": "상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. [배틀 필드에 내보낼 포켓몬은 상대가 고른다.]"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050261_P_ZUGAIDOSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50261",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50262,
+      "name_ja": "ラムパルドex",
+      "name_ko": "램펄드 ex",
+      "category": "pokemon",
+      "subtype_ko": "2진화 · 포켓몬 ex",
+      "hp": 330,
+      "type_ko": "격투",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "はかいのずつき",
+          "name_ko": "파괴의 박치기",
+          "text_ja": "このポケモンがバトル場にいるなら、自分の番に1回使える。コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+          "text_ko": "이 포켓몬이 배틀 필드에 있다면 자신의 차례에 1번 쓸 수 있다. 코인을 1번 던져 앞면이 나오면 상대의 배틀 포켓몬에 붙어 있는 에너지를 1개 골라 트래시(버리는 곳)에 버린다."
+        }
+      ],
+      "attacks": [
+        {
+          "name_ja": "ランページハンマー",
+          "name_ko": "램페이지 해머",
+          "damage": "150",
+          "text_ja": "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+150」される。",
+          "text_ko": "다음 자신의 차례에 이 포켓몬이 쓰는 기술의 상대 배틀 포켓몬에 대한 데미지는 '+150'된다."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때 상대는 사이드를 2장 가져간다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050262_P_RAMUPARUDOEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50262",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50264,
+      "name_ja": "コライドン",
+      "name_ko": "코라이돈",
+      "category": "pokemon",
+      "subtype_ko": "기본",
+      "hp": 130,
+      "type_ko": "격투",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "バトルクロー",
+          "name_ko": "배틀 클로",
+          "damage": "30+",
+          "text_ja": "相手のバトルポケモンが進化ポケモンなら、30ダメージ追加。",
+          "text_ko": "상대의 배틀 포켓몬이 진화 포켓몬이라면 30데미지를 추가한다."
+        },
+        {
+          "name_ja": "ガイアインパクト",
+          "name_ko": "가이아 임팩트",
+          "damage": "190",
+          "text_ja": "このポケモンについているエネルギーを、すべてトラッシュする。",
+          "text_ko": "이 포켓몬에 붙어 있는 에너지를 모두 트래시(버리는 곳)에 버린다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050264_P_KORAIDON.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50264",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50265,
+      "name_ja": "メガダークライex",
+      "name_ko": "메가다크라이 ex",
+      "category": "pokemon",
+      "subtype_ko": "메가진화 · 포켓몬 ex",
+      "hp": 280,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "ナイトレイド",
+          "name_ko": "나이트 레이드",
+          "damage": "110+",
+          "text_ja": "自分のベンチポケモンにダメカンがのっているなら、110ダメージ追加。",
+          "text_ko": "자신의 벤치 포켓몬에 데미지카운터가 올라가 있다면 110데미지를 추가한다."
+        },
+        {
+          "name_ja": "アビスアイ",
+          "name_ko": "어비스아이",
+          "damage": "",
+          "text_ja": "相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。",
+          "text_ko": "상대의 배틀 포켓몬이 특수 상태라면 그 포켓몬을 기절시킨다."
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때 상대는 사이드를 3장 가져간다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050265_P_MDAKURAIEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50265",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50266,
+      "name_ja": "バルチャイ",
+      "name_ko": "벌차이",
+      "category": "pokemon",
+      "subtype_ko": "기본",
+      "hp": 70,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "はばたく",
+          "name_ko": "날갯짓",
+          "damage": "10",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "name_ja": "かぜおこし",
+          "name_ko": "바람일으키기",
+          "damage": "20",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050266_P_BARUCHIXYAI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50266",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50267,
+      "name_ja": "バルジーナ",
+      "name_ko": "벌가용",
+      "category": "pokemon",
+      "subtype_ko": "1진화",
+      "hp": 120,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "ボーンスナイプ",
+          "name_ko": "본 스나이프",
+          "damage": "70",
+          "text_ja": "特殊エネルギーがついている相手のポケモン1匹に、70ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "특수 에너지가 붙어 있는 상대 포켓몬 1마리에게 70데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+        },
+        {
+          "name_ja": "ブラストウインド",
+          "name_ko": "블라스트 윈드",
+          "damage": "120",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050267_P_BARUJINA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50267",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50268,
+      "name_ja": "マーイーカ",
+      "name_ko": "오케이징",
+      "category": "pokemon",
+      "subtype_ko": "기본",
+      "hp": 60,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "ちょうたつ",
+          "name_ko": "조달",
+          "damage": "",
+          "text_ja": "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+          "text_ko": "자신의 덱에서 굿즈를 1장 골라 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다."
+        },
+        {
+          "name_ja": "かいてんアタック",
+          "name_ko": "회전 어택",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050268_P_MAIKA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50268",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50269,
+      "name_ja": "カラマネロ",
+      "name_ko": "칼라마네로",
+      "category": "pokemon",
+      "subtype_ko": "1진화",
+      "hp": 120,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "まどわす",
+          "name_ko": "현혹하기",
+          "damage": "",
+          "text_ja": "相手のバトルポケモンをこんらんにする。",
+          "text_ko": "상대의 배틀 포켓몬을 혼란으로 만든다."
+        },
+        {
+          "name_ja": "ブレインクラッシュ",
+          "name_ko": "브레인 크래시",
+          "damage": "130",
+          "text_ja": "相手のバトルポケモンがこんらんでないなら、このワザは失敗。",
+          "text_ko": "상대의 배틀 포켓몬이 혼란이 아니라면 이 기술은 실패한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050269_P_KARAMANERO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50269",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50270,
+      "name_ja": "クスネ",
+      "name_ko": "여우꼬",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악",
+          "name_ja": "かじる",
+          "name_ko": "물어뜯기",
+          "damage": "10",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "cost_ko": "악무색",
+          "name_ja": "うしろげり",
+          "name_ko": "뒷발차기",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050270_P_KUSUNE.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50270",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50271,
+      "name_ja": "フォクスライ",
+      "name_ko": "포클네",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 100,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색무색",
+          "name_ja": "スキルシーフ",
+          "name_ko": "스킬시프",
+          "damage": "",
+          "text_ja": "自分の手札が1枚もないなら、相手の場のポケモンが持つワザを1つ選び、このワザとして使う。",
+          "text_ko": "자신의 패가 1장도 없다면, 상대 필드의 포켓몬이 가진 기술을 1개 선택해 이 기술로서 사용한다."
+        },
+        {
+          "cost_ko": "악무색무색",
+          "name_ja": "するどいキバ",
+          "name_ko": "날카로운 이빨",
+          "damage": "80",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050271_P_FUOKUSURAI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50271",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50272,
+      "name_ja": "モルペコex",
+      "name_ko": "모르페코 ex",
+      "category": "pokemon",
+      "subtype_ko": "포켓몬 ex",
+      "hp": 180,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악",
+          "name_ja": "ホイールドロー",
+          "name_ko": "휠 드로",
+          "damage": "",
+          "text_ja": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
+          "text_ko": "자신의 패를 모두 덱으로 되돌려 섞는다. 그 후, 덱을 6장 뽑는다."
+        },
+        {
+          "cost_ko": "악악",
+          "name_ja": "はらぺこボンバー",
+          "name_ko": "배고픔 봄버",
+          "damage": "40+",
+          "text_ja": "このポケモンにのっているダメカンの数×40ダメージ追加。",
+          "text_ko": "이 포켓몬에게 올려져 있는 데미지카운터의 수×40 데미지 추가."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050272_P_MORUPEKOEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50272",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50273,
+      "name_ja": "ザルード",
+      "name_ko": "자루도",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 130,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악",
+          "name_ja": "うしろなげ",
+          "name_ko": "뒤로 던지기",
+          "damage": "30",
+          "text_ja": "自分のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "자신의 벤치 포켓몬 1마리에게도 30 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+        },
+        {
+          "cost_ko": "악악악",
+          "name_ja": "シャドーウィップ",
+          "name_ko": "섀도 휩",
+          "damage": "100+",
+          "text_ja": "自分のベンチポケモンに「シャドーエネルギー」がついているなら、70ダメージ追加。",
+          "text_ko": "자신의 벤치 포켓몬에게 '섀도 에너지'가 붙어 있다면, 70 데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050273_P_ZARUDO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50273",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50274,
+      "name_ja": "オラチフ",
+      "name_ko": "오라차프",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악악",
+          "name_ja": "かみつく",
+          "name_ko": "물기",
+          "damage": "40",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050274_P_ORACHIFU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50274",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50275,
+      "name_ja": "マフィティフ",
+      "name_ko": "마피티프",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 140,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악악",
+          "name_ja": "かみつく",
+          "name_ko": "물기",
+          "damage": "60",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "cost_ko": "악악악",
+          "name_ja": "とびこみヘッド",
+          "name_ko": "다이빙 헤드",
+          "damage": "210",
+          "text_ja": "次の相手の番、このポケモンが受けるワザのダメージは「+100」される。",
+          "text_ko": "다음 상대의 차례에, 이 포켓몬이 받는 기술의 데미지는 '+100'된다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050275_P_MAFUITEIFU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50275",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50276,
+      "name_ja": "イーユイ",
+      "name_ko": "총지마",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 90,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악",
+          "name_ja": "うずまくねたみ",
+          "name_ko": "소용돌이치는 질투",
+          "damage": "20+",
+          "text_ja": "このポケモンにダメカンが2個以上のっているなら、90ダメージ追加。このワザのダメージは弱点を計算しない。",
+          "text_ko": "이 포켓몬에게 데미지카운터가 2개 이상 올려져 있다면, 90 데미지 추가. 이 기술의 데미지는 약점을 계산하지 않는다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050276_P_IYUI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50276",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50277,
+      "name_ja": "エアームド",
+      "name_ko": "무장조",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 120,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "강철",
+          "name_ja": "スチールカッター",
+          "name_ko": "스틸 커터",
+          "damage": "40×",
+          "text_ja": "自分の手札から「基本エネルギー」を2枚までトラッシュし、その枚数×40ダメージ。",
+          "text_ko": "자신의 패에서 '기본 에너지'를 2장까지 트래시하고, 그 매수×40 데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050277_P_EAMUDO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50277",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50278,
+      "name_ja": "タテトプス",
+      "name_ko": "방패톱스",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 100,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "강철무색",
+          "name_ja": "くだく",
+          "name_ko": "부수기",
+          "damage": "50",
+          "text_ja": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+          "text_ko": "상대의 배틀 포켓몬에 붙어 있는 에너지를 1개 선택해 트래시한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050278_P_TATETOPUSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50278",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50279,
+      "name_ja": "トリデプス",
+      "name_ko": "바리톱스",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬",
+      "hp": 160,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "たいこのぼうへき",
+          "name_ko": "방패의 방벽",
+          "text_ja": "このポケモンがベンチにいるかぎり、自分のポケモン全員は、ついているエネルギーが2個以下の相手のポケモンからワザのダメージを受けない。",
+          "text_ko": "이 포켓몬이 벤치에 있는 한, 자신의 포켓몬 전원은 붙어 있는 에너지가 2개 이하인 상대의 포켓몬으로부터 기술의 데미지를 받지 않는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "강철강철무색",
+          "name_ja": "ぶちかます",
+          "name_ko": "들이받기",
+          "damage": "160",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050279_P_TORIDEPUSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50279",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50280,
+      "name_ja": "ドーミラー",
+      "name_ko": "동미러",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 80,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "강철",
+          "name_ja": "ミラーアタック",
+          "name_ko": "미러어택",
+          "damage": "10+",
+          "text_ja": "相手のバトルポケモンが[鋼]ポケモンなら、30ダメージ追加。",
+          "text_ko": "상대의 배틀 포켓몬이 [강철] 포켓몬이라면 30데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050280_P_DOMIRA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50280",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50281,
+      "name_ja": "ドータクン",
+      "name_ko": "동탁군",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 130,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "강철",
+          "name_ja": "ひっぱたく",
+          "name_ko": "후려치기",
+          "damage": "40",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "cost_ko": "강철강철무색",
+          "name_ja": "メタルブロック",
+          "name_ko": "메탈블록",
+          "damage": "120",
+          "text_ja": "次の相手の番、このポケモンが進化ポケモンから受けるワザのダメージは「-100」される。",
+          "text_ko": "다음 상대의 차례에 이 포켓몬이 진화 포켓몬으로부터 받는 기술의 데미지는 '-100'된다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050281_P_DOTAKUN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50281",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50286,
+      "name_ja": "タイプ：ヌル",
+      "name_ko": "타입:널",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 110,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색무색",
+          "name_ja": "パワーエッジ",
+          "name_ko": "파워에지",
+          "damage": "40",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050286_P_TAIPUNURU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50286",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50287,
+      "name_ja": "シルヴァディ",
+      "name_ko": "실버디",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 140,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "バディコール",
+          "name_ko": "버디콜",
+          "text_ja": "自分の手札が1枚もないなら、自分の番に1回使える。自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+          "text_ko": "자신의 패가 1장도 없다면 자신의 차례에 1회 사용할 수 있다. 자신의 덱에서 서포트를 1장 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "무색무색무색",
+          "name_ja": "エアスラッシュ",
+          "name_ko": "에어슬래시",
+          "damage": "130",
+          "text_ja": "このポケモンについているエネルギーを1個選び、トラッシュする。",
+          "text_ko": "이 포켓몬에 붙어 있는 에너지를 1개 선택해 트래시한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050287_P_SHIRUVUADEI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50287",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50288,
+      "name_ja": "オトシドリ",
+      "name_ko": "떨구새",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 100,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색무색",
+          "name_ja": "おとどけチャレンジ",
+          "name_ko": "배달 챌린지",
+          "damage": "",
+          "text_ja": "コインを2回投げ、すべてオモテなら、自分の山札からポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+          "text_ko": "동전을 2회 던져 모두 앞면이라면 자신의 덱에서 포켓몬을 1장 선택해 벤치에 내보낸다. 그리고 덱을 섞는다."
+        },
+        {
+          "cost_ko": "무색무색무색",
+          "name_ja": "スピードウイング",
+          "name_ko": "스피드윙",
+          "damage": "100",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050288_P_OTOSHIDORI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50288",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50289,
+      "name_ja": "ダークベル",
+      "name_ko": "다크벨",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのバトルポケモン（[悪]ポケモンをのぞく）を、それぞれこんらんにする。\nグッズは、自分の番に何枚でも使える。",
+      "text_ko": "서로의 배틀 포켓몬([악] 포켓몬을 제외)을 각각 혼란으로 만든다.\n굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050289_T_DAKUBERU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50289",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50290,
+      "name_ja": "古びたずがいの化石",
+      "name_ko": "오래된 두개골 화석",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": 60,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、HP60の無色タイプのたねポケモンとして、場に出せる。このカードは、特殊状態にならず、にげられない。自分の番の中でなら、場に出ているこのカードをトラッシュできる。\n\n特性：ずがいのトゲ\nこのポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。",
+      "text_ko": "이 카드는 HP60의 무색 타입 기본 포켓몬으로서 필드에 내보낼 수 있다. 이 카드는 특수 상태가 되지 않으며 후퇴할 수 없다. 자신의 차례 중이라면 필드에 나와 있는 이 카드를 트래시할 수 있다.\n\n특성: 두개골 가시(ずがいのトゲ)\n이 포켓몬이 배틀필드에서 상대 포켓몬으로부터 기술 데미지를 받았을 때, 기술을 사용한 포켓몬에게 데미지 카운터를 3개 올린다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050290_T_KOBITAZUGAINOKASEKI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50290",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50291,
+      "name_ja": "古びたたての化石",
+      "name_ko": "오래된 방패 화석",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": 60,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、HP60の無色タイプのたねポケモンとして、場に出せる。このカードは、特殊状態にならず、にげられない。自分の番の中でなら、場に出ているこのカードをトラッシュできる。グッズは、自分の番に何枚でも使える。\n\n特性：たてのまもり\nこのポケモンがバトル場にいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-10」される。",
+      "text_ko": "이 카드는 HP60의 무색 타입 기본 포켓몬으로서 필드에 내보낼 수 있다. 이 카드는 특수 상태가 되지 않으며 후퇴할 수 없다. 자신의 차례 중이라면 필드에 나와 있는 이 카드를 트래시할 수 있다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.\n\n특성: 방패의 수호(たてのまもり)\n이 포켓몬이 배틀필드에 있는 한, 자신의 모든 포켓몬이 상대 포켓몬으로부터 받는 기술 데미지가 '-10' 된다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050291_T_FURUBITATATENOKASEKI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50291",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50292,
+      "name_ja": "ごうかいボム",
+      "name_ko": "호쾌 폭탄(ごうかいボム)",
+      "category": "trainer",
+      "subtype_ko": "포켓몬의 도구",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードをつけているポケモン（『メガシンカex』をのぞく）が、バトル場で相手の『メガシンカex』から『240』以上のワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを12個のせる。その後、このカードをトラッシュする。\n\nポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+      "text_ko": "이 카드를 붙이고 있는 포켓몬('메가진화 ex'를 제외)이 배틀필드에서 상대의 '메가진화 ex'로부터 '240' 이상의 기술 데미지를 받았을 때, 기술을 사용한 포켓몬에게 데미지 카운터를 12개 올린다. 그 후 이 카드를 트래시한다.\n\n포켓몬의 도구는 자신의 차례에 몇 장이든 자신의 포켓몬에게 붙일 수 있다. 포켓몬 1마리당 1장만 붙일 수 있으며, 붙인 채로 둔다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050292_T_GOUKAIBOMU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50292",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50293,
+      "name_ja": "リトライバッジ",
+      "name_ko": "리트라이 배지(リトライバッジ)",
+      "category": "trainer",
+      "subtype_ko": "포켓몬의 도구",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の番ごとに1回、このカードをつけているポケモンのワザで自分がコインを投げたとき、そのコインの結果をすべてなくし、はじめからコインを投げなおしてよい。\n\nポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+      "text_ko": "자신의 차례마다 1번, 이 카드를 붙이고 있는 포켓몬의 기술로 자신이 동전을 던졌을 때, 그 동전의 결과를 모두 없애고 처음부터 동전을 다시 던져도 된다.\n\n포켓몬의 도구는 자신의 차례에 몇 장이든 자신의 포켓몬에게 붙일 수 있다. 포켓몬 1마리당 1장만 붙일 수 있으며, 붙인 채로 둔다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050293_T_RITORAIBAJJI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50293",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50294,
+      "name_ja": "カスミの元気",
+      "name_ko": "이슬의 활기(カスミの元気)",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードを使ったなら、自分の番は終わる。自分の山札から『基本エネルギー』を4枚まで選び、自分のポケモン1匹につける。そして山札を切る。\n\nサポートは、自分の番に1枚しか使えない。",
+      "text_ko": "이 카드를 사용했다면 자신의 차례는 끝난다. 자신의 덱에서 '기본 에너지'를 4장까지 선택해 자신의 포켓몬 1마리에게 붙인다. 그리고 덱을 섞는다.\n\n서포트는 자신의 차례에 1장만 사용할 수 있다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050294_T_KASUMINOGENKI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50294",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50296,
+      "name_ja": "サビ組のしたっぱ",
+      "name_ko": "사비단의 부하(サビ組のしたっぱ)",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。\n相手の場のポケモンについているエネルギーを1個選び、トラッシュする。\n\nサポートは、自分の番に1枚しか使えない。",
+      "text_ko": "이 카드는 직전 상대의 차례에 자신의 포켓몬이 기절하지 않았다면 사용할 수 없다.\n상대 필드의 포켓몬에 붙어 있는 에너지를 1개 선택해 트래시한다.\n\n서포트는 자신의 차례에 1장만 사용할 수 있다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050296_T_SABIGUMINOSHITAPPA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50296",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50298,
+      "name_ja": "化石採掘場",
+      "name_ko": "화석 채굴장",
+      "category": "trainer",
+      "subtype_ko": "스타디움",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札から、名前に『古びた』とつくグッズを2枚まで選び、ベンチに出してよい。そして山札を切る。\n\nスタジアム共通ルール：自分の番に1枚、バトル場の横に出せる。別のスタジアムが場に出たなら、このカードをトラッシュする。同じ名前のスタジアムは場に出せない。",
+      "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 덱에서 이름에 '古びた(오래된)'이 붙는 굿즈를 2장까지 선택해 벤치에 내보내도 된다. 그리고 덱을 섞는다.\n\n스타디움 공통 규칙: 자신의 차례에 1장, 배틀필드 옆에 내보낼 수 있다. 다른 스타디움이 필드에 나오면 이 카드를 트래시한다. 같은 이름의 스타디움은 필드에 내보낼 수 없다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050298_T_KASEKISAIKUTSUJIXYOU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50298",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
+    },
+    {
+      "id": 50300,
+      "name_ja": "シャドー悪エネルギー",
+      "name_ko": "섀도 악 에너지(シャドー悪エネルギー)",
+      "category": "energy",
+      "subtype_ko": "특수 에너지",
+      "hp": null,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、ポケモンについているかぎり、悪エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンは、ベンチにいるかぎり、相手のワザのダメージを受けない。",
+      "text_ko": "이 카드는 포켓몬에 붙어 있는 한 악 에너지 1개분으로서 작동한다. 이 카드를 붙이고 있는 포켓몬은 벤치에 있는 한 상대 기술의 데미지를 받지 않는다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050300_E_SHIXYADOAKUENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50300",
+      "decks": [],
+      "deckCounts": {},
+      "tiers": []
     }
   ]
 }
