@@ -45,8 +45,10 @@ function assert(cond, msg) {
   const total = data.terms.length;
   const greetingsCount = data.terms.filter((t) => t.category === 'greetings').length;
   const cardData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cards.json'), 'utf8'));
-  const cardTotal = cardData.cards.length;
-  const pokemonCount = cardData.cards.filter((c) => c.category === 'pokemon').length;
+  const firstDeck = cardData.decks.slice().sort((a, b) => a.tier - b.tier)[0].id;
+  const deckCards = cardData.cards.filter((c) => (c.decks || []).includes(firstDeck));
+  const deckTotal = deckCards.length;
+  const deckPokemon = deckCards.filter((c) => c.category === 'pokemon').length;
 
   const server = await startServer();
   const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
@@ -110,26 +112,44 @@ function assert(cond, msg) {
     await page.screenshot({ path: shot });
     assert(fs.existsSync(shot), `스크린샷 저장: test-output/mobile-greetings.png`);
 
-    console.log('\n[8] 카드 검색 페이지');
+    console.log('\n[8] 카드 검색 페이지 (티어→덱→레시피)');
     // 카드 이미지는 외부(pokemon-card.com) 리소스라 CI 안정성을 위해 DOM 기준으로 대기
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('.pcard', { timeout: 8000 });
     const pcardCount = await page.$$eval('.pcard', (e) => e.length);
-    assert(pcardCount === cardTotal, `카드 ${pcardCount}장 렌더 (데이터 ${cardTotal}장과 일치)`);
+    assert(pcardCount === deckTotal, `기본 덱(${firstDeck}) ${pcardCount}종 렌더 (데이터 ${deckTotal}종과 일치)`);
     const hasAbility = await page.$('.pblock.ability');
     const hasAttack = await page.$('.pblock.attack');
-    assert(!!hasAbility && !!hasAttack, '특성·기술 블록이 한국어로 렌더됨');
-    await page.click('.chip[data-id="pokemon"]');
-    await new Promise((r) => setTimeout(r, 200));
-    const pk = await page.$$eval('.pcard', (e) => e.length);
-    assert(pk === pokemonCount, `'포켓몬' 필터 → ${pk}장 (데이터 ${pokemonCount}장과 일치)`);
-    await page.click('.chip[data-id="all"]');
+    assert(!!hasAbility && !!hasAttack, '특성·기술 블록이 렌더됨');
+    const abilityText = await page.$$eval('.pblock.ability .pblock-text', (els) => els.filter((e) => e.textContent.trim()).length);
+    assert(abilityText >= 1, `특성 효과 내용(한국어)도 표시됨 (${abilityText}건)`);
+
+    console.log('\n[9] 검색 + 카테고리 + 티어 전환');
     await page.type('#search', 'ベンチ');
     await new Promise((r) => setTimeout(r, 250));
     const sc = await page.$$eval('.pcard', (e) => e.length);
-    assert(sc >= 1 && sc < cardTotal, `"ベンチ"(벤치) 검색 → ${sc}장 (필터링 동작)`);
+    assert(sc >= 1 && sc <= deckTotal, `"ベンチ"(벤치) 검색 → ${sc}종 (필터링 동작)`);
+    await page.click('#clearSearch');
+    await new Promise((r) => setTimeout(r, 150));
+    await page.click('#chips .chip[data-id="pokemon"]');
+    await new Promise((r) => setTimeout(r, 200));
+    const pk = await page.$$eval('.pcard', (e) => e.length);
+    assert(pk === deckPokemon, `'포켓몬' 필터 → ${pk}종 (데이터 ${deckPokemon}종과 일치)`);
+    await page.click('#chips .chip[data-id="all"]');
+    await new Promise((r) => setTimeout(r, 150));
+    await page.click('.tier-row .chip[data-id="2"]');
+    await new Promise((r) => setTimeout(r, 300));
+    const t2 = await page.$$eval('.pcard', (e) => e.length);
+    assert(t2 >= 1, `Tier 2 전환 → 덱 카드 ${t2}종 표시`);
 
-    console.log('\n[9] 콘솔 에러');
+    console.log('\n[10] 햄버거 메뉴');
+    await page.click('#menuBtn');
+    await new Promise((r) => setTimeout(r, 150));
+    const menuLinks = await page.$$eval('.nav-menu a', (els) => els.length);
+    const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
+    assert(menuVisible && menuLinks === 2, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색)`);
+
+    console.log('\n[11] 콘솔 에러');
     const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices|pokemon-card\.com|net::ERR/i.test(e));
     assert(realErrors.length === 0, `콘솔 에러 ${realErrors.length}건` + (realErrors.length ? ': ' + realErrors.join('; ') : ''));
   } catch (e) {

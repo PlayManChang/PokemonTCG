@@ -1,0 +1,114 @@
+[
+  {
+    "id": 48354,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ファイヤー",
+    "name_ko": "파이어",
+    "hp": 120,
+    "type_ko": "불꽃",
+    "regulation": "M2",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "とうしのつばさ",
+        "name_ko": "투지의 날개",
+        "damage": "20+",
+        "effect_ja": "相手のバトルポケモンが「ポケモンex」なら、90ダメージ追加。",
+        "effect_ko": "상대 배틀필드 포켓몬이 「포켓몬 ex」라면 90데미지 추가.",
+        "text_ja": "相手のバトルポケモンが「ポケモンex」なら、90ダメージ追加。",
+        "text_ko": "상대 배틀필드 포켓몬이 「포켓몬 ex」라면 90데미지를 추가한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "インフェルノX",
+    "number": "014/080",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48354"
+  },
+  {
+    "id": 48534,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "シェイミ",
+    "name_ko": "쉐이미",
+    "hp": 80,
+    "type_ko": "무색",
+    "regulation": "M2a",
+    "abilities": [
+      {
+        "name_ja": "はなのカーテン",
+        "name_ko": "꽃의 커튼",
+        "effect_ja": "このポケモンがいるかぎり、自分のベンチポケモン（「ルールを持つポケモン」をのぞく）全員は、相手のワザのダメージを受けない。",
+        "effect_ko": "이 포켓몬이 있는 한, 자신의 벤치 포켓몬(「룰을 가진 포켓몬」 제외) 전원은 상대 기술의 데미지를 받지 않는다.",
+        "text_ja": "このポケモンがいるかぎり、自分のベンチポケモン（「ルールを持つポケモン」をのぞく）全員は、相手のワザのダメージを受けない。",
+        "text_ko": "이 포켓몬이 있는 한, 자신의 벤치 포켓몬(「룰을 가진 포켓몬」 제외) 전원은 상대 기술의 데미지를 받지 않는다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "けとばす",
+        "name_ko": "걷어차기",
+        "damage": "30",
+        "effect_ja": "",
+        "effect_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "MEGAドリームex",
+    "number": "012/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48534"
+  },
+  {
+    "id": 50297,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "ムク",
+    "name_ko": "무쿠",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の手札からポケモン（「ルールを持つポケモン」をのぞく）を2枚までトラッシュし、その枚数×3枚ぶん、山札を引く。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 패에서 포켓몬(「룰을 가진 포켓몬」 제외)을 2장까지 트래시하고, 그 장수×3장만큼 덱을 뽑는다. 서포트는 자신의 차례에 1장밖에 쓸 수 없다.",
+    "set": "アビスアイ",
+    "number": "078/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50297"
+  },
+  {
+    "id": 48694,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "トウコ",
+    "name_ko": "토우코",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M2a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札から進化ポケモンとエネルギーを1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 덱에서 진화 포켓몬과 에너지를 1장씩 골라 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 서포트는 자신의 차례에 1장밖에 쓸 수 없다.",
+    "set": "MEGAドリームex",
+    "number": "172/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48694"
+  },
+  {
+    "id": 50164,
+    "category": "trainer",
+    "subtype_ko": "스타디움",
+    "name_ja": "プリズムタワー",
+    "name_ko": "프리즘 타워",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M4",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の手札を2枚トラッシュするなら、自分の山札を1枚引いてよい。",
+    "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 패를 2장 트래시한다면 자신의 덱을 1장 뽑아도 된다.",
+    "set": "ニンジャスピナー",
+    "number": "080/083",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50164"
+  }
+]

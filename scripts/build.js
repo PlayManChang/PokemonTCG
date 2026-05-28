@@ -12,6 +12,7 @@ const files = [
   'css/style.css',
   'js/app.js',
   'js/cards.js',
+  'js/nav.js',
   'data/terms.json',
   'data/cards.json',
   'icons/icon.svg',

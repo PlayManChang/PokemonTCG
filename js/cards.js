@@ -1,9 +1,11 @@
 'use strict';
 
-const state = { decks: [], cards: [], filter: 'all', query: '' };
+const state = { decks: [], cards: [], tier: null, deck: null, filter: 'all', query: '' };
 const els = {
   list: document.getElementById('list'),
   chips: document.getElementById('chips'),
+  tierRow: document.getElementById('tierRow'),
+  deckRow: document.getElementById('deckRow'),
   search: document.getElementById('search'),
   clear: document.getElementById('clearSearch'),
   count: document.getElementById('resultCount'),
@@ -23,25 +25,58 @@ async function init() {
     els.count.textContent = '카드 데이터를 불러오지 못했어요. 새로고침 해 주세요.';
     return;
   }
-  renderDeckInfo();
-  buildChips();
+  const tiers = [...new Set(state.decks.map((d) => d.tier))].sort();
+  state.tier = tiers[0];
+  state.deck = (state.decks.find((d) => d.tier === state.tier) || {}).id;
+  buildTierRow(tiers);
+  buildDeckRow();
+  buildCategoryChips();
   bindEvents();
+  renderDeckInfo();
   render();
   registerSW();
 }
 
-function renderDeckInfo() {
-  if (!state.decks.length) return;
-  const d = state.decks[0];
-  els.deckInfo.textContent = '';
-  const strong = document.createElement('strong');
-  strong.textContent = `${d.name_ko} (${d.name_ja})`;
-  const span = document.createElement('span');
-  span.textContent = `  ·  ${d.tier || ''}${d.note ? '  ·  ' + d.note : ''}`;
-  els.deckInfo.append(strong, span);
+function chip(label, id, active) {
+  const b = document.createElement('button');
+  b.className = 'chip' + (active ? ' active' : '');
+  b.textContent = label;
+  b.dataset.id = id;
+  return b;
 }
 
-function buildChips() {
+function buildTierRow(tiers) {
+  els.tierRow.innerHTML = '';
+  tiers.forEach((t) => {
+    const b = chip(`Tier ${t}`, String(t), t === state.tier);
+    b.addEventListener('click', () => {
+      state.tier = t;
+      [...els.tierRow.children].forEach((c) => c.classList.toggle('active', c.dataset.id === String(t)));
+      state.deck = (state.decks.find((d) => d.tier === t) || {}).id;
+      buildDeckRow();
+      renderDeckInfo();
+      render();
+    });
+    els.tierRow.appendChild(b);
+  });
+}
+
+function buildDeckRow() {
+  els.deckRow.innerHTML = '';
+  state.decks.filter((d) => d.tier === state.tier).forEach((d) => {
+    const b = chip(`${d.name_ko}`, d.id, d.id === state.deck);
+    b.addEventListener('click', () => {
+      state.deck = d.id;
+      [...els.deckRow.children].forEach((c) => c.classList.toggle('active', c.dataset.id === d.id));
+      renderDeckInfo();
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    els.deckRow.appendChild(b);
+  });
+}
+
+function buildCategoryChips() {
   const meta = [
     { id: 'all', name: '전체', icon: '📋' },
     { id: 'pokemon', name: '포켓몬', icon: '🐉' },
@@ -50,15 +85,11 @@ function buildChips() {
   ];
   els.chips.innerHTML = '';
   meta.forEach((c) => {
-    const b = document.createElement('button');
-    b.className = 'chip' + (c.id === state.filter ? ' active' : '');
-    b.textContent = `${c.icon} ${c.name}`;
-    b.dataset.id = c.id;
+    const b = chip(`${c.icon} ${c.name}`, c.id, c.id === state.filter);
     b.addEventListener('click', () => {
       state.filter = c.id;
       [...els.chips.children].forEach((ch) => ch.classList.toggle('active', ch.dataset.id === c.id));
       render();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
     els.chips.appendChild(b);
   });
@@ -79,6 +110,19 @@ function bindEvents() {
   });
 }
 
+function renderDeckInfo() {
+  const d = state.decks.find((x) => x.id === state.deck);
+  els.deckInfo.textContent = '';
+  if (!d) return;
+  const deckCards = state.cards.filter((c) => (c.decks || []).includes(d.id));
+  const totalQty = deckCards.reduce((s, c) => s + (c.deckCounts[d.id] || 0), 0);
+  const strong = document.createElement('strong');
+  strong.textContent = `${d.name_ko} (${d.name_ja})`;
+  const span = document.createElement('span');
+  span.textContent = `  ·  Tier ${d.tier}${d.note ? ' · ' + d.note : ''}  ·  ${deckCards.length}종 / ${totalQty}장`;
+  els.deckInfo.append(strong, span);
+}
+
 function cardText(c) {
   const parts = [c.name_ja, c.name_ko, c.text_ja, c.text_ko];
   (c.abilities || []).forEach((a) => parts.push(a.name_ja, a.name_ko, a.text_ja, a.text_ko));
@@ -89,6 +133,7 @@ function cardText(c) {
 function getFiltered() {
   const q = state.query.toLowerCase();
   return state.cards.filter((c) => {
+    if (!(c.decks || []).includes(state.deck)) return false;
     if (state.filter !== 'all' && c.category !== state.filter) return false;
     if (!q) return true;
     return cardText(c).includes(q);
@@ -99,7 +144,7 @@ function render() {
   const items = getFiltered();
   els.list.innerHTML = '';
   els.empty.hidden = items.length > 0;
-  els.count.textContent = items.length ? `${items.length}장` : '';
+  els.count.textContent = items.length ? `${items.length}종` : '';
   const frag = document.createDocumentFragment();
   items.forEach((c) => frag.appendChild(cardEl(c)));
   els.list.appendChild(frag);
@@ -162,10 +207,11 @@ function cardEl(c) {
 
   const badges = document.createElement('div');
   badges.className = 'pcard-badges';
+  const qty = c.deckCounts && c.deckCounts[state.deck];
+  if (qty) badges.appendChild(badge('×' + qty, 'b-qty'));
   if (c.subtype_ko) badges.appendChild(badge(c.subtype_ko, 'b-type'));
   if (c.hp) badges.appendChild(badge('HP ' + c.hp, 'b-hp'));
   if (c.type_ko) badges.appendChild(badge(c.type_ko));
-  if (c.regulation) badges.appendChild(badge('레귤 ' + c.regulation));
   meta.appendChild(badges);
   head.appendChild(meta);
 
@@ -178,16 +224,12 @@ function cardEl(c) {
 
   li.appendChild(head);
 
-  (c.abilities || []).forEach((a) => {
-    li.appendChild(block('특성', a.name_ko, a.name_ja, a.text_ko, a.text_ja, 'ability'));
-  });
+  (c.abilities || []).forEach((a) => li.appendChild(block('특성', a.name_ko, a.name_ja, a.text_ko, a.text_ja, 'ability')));
   (c.attacks || []).forEach((a) => {
     const dmg = a.damage ? ' (' + a.damage + ')' : '';
     li.appendChild(block('기술', (a.name_ko || '') + dmg, a.name_ja, a.text_ko, a.text_ja, 'attack', a.cost_ko));
   });
-  if (c.text_ko || c.text_ja) {
-    li.appendChild(block(c.subtype_ko || '효과', '', '', c.text_ko, c.text_ja, 'trainer'));
-  }
+  if (c.text_ko || c.text_ja) li.appendChild(block(c.subtype_ko || '효과', '', '', c.text_ko, c.text_ja, 'trainer'));
 
   if (c.official_url) {
     const a = document.createElement('a');
@@ -204,7 +246,6 @@ function cardEl(c) {
 function block(label, nameKo, nameJa, textKo, textJa, cls, cost) {
   const wrap = document.createElement('div');
   wrap.className = 'pblock ' + cls;
-
   const top = document.createElement('div');
   top.className = 'pblock-top';
   const lab = document.createElement('span');
@@ -212,34 +253,11 @@ function block(label, nameKo, nameJa, textKo, textJa, cls, cost) {
   lab.textContent = label;
   top.appendChild(lab);
   if (cost) { const cs = document.createElement('span'); cs.className = 'pblock-cost'; cs.textContent = cost; top.appendChild(cs); }
-  if (nameKo) {
-    const nm = document.createElement('span');
-    nm.className = 'pblock-name';
-    nm.appendChild(hl(nameKo));
-    top.appendChild(nm);
-  }
-  if (nameJa) {
-    const nj = document.createElement('span');
-    nj.className = 'pblock-name-ja';
-    nj.lang = 'ja';
-    nj.appendChild(hl(nameJa));
-    top.appendChild(nj);
-  }
+  if (nameKo) { const nm = document.createElement('span'); nm.className = 'pblock-name'; nm.appendChild(hl(nameKo)); top.appendChild(nm); }
+  if (nameJa) { const nj = document.createElement('span'); nj.className = 'pblock-name-ja'; nj.lang = 'ja'; nj.appendChild(hl(nameJa)); top.appendChild(nj); }
   wrap.appendChild(top);
-
-  if (textKo) {
-    const ko = document.createElement('div');
-    ko.className = 'pblock-text';
-    ko.appendChild(hl(textKo));
-    wrap.appendChild(ko);
-  }
-  if (textJa) {
-    const ja = document.createElement('div');
-    ja.className = 'pblock-text-ja';
-    ja.lang = 'ja';
-    ja.appendChild(hl(textJa));
-    wrap.appendChild(ja);
-  }
+  if (textKo) { const ko = document.createElement('div'); ko.className = 'pblock-text'; ko.appendChild(hl(textKo)); wrap.appendChild(ko); }
+  if (textJa) { const ja = document.createElement('div'); ja.className = 'pblock-text-ja'; ja.lang = 'ja'; ja.appendChild(hl(textJa)); wrap.appendChild(ja); }
   return wrap;
 }
 

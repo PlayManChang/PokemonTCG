@@ -4,18 +4,31 @@
       "id": "dragapult",
       "name_ko": "드래펄트 ex",
       "name_ja": "ドラパルトex",
-      "tier": "Tier 1",
-      "note": "2026년 5월 현재 최강 메타 (출처: pokecabook)"
+      "tier": 1,
+      "note": "현재 최강 메타"
+    },
+    {
+      "id": "bakegakure",
+      "name_ko": "바케가쿠레",
+      "name_ja": "ばけがくれ",
+      "tier": 2,
+      "note": "ジュペッタ 특성 기반"
+    },
+    {
+      "id": "mega-drilbur",
+      "name_ko": "메가몰드류 ex",
+      "name_ja": "メガドリュウズex",
+      "tier": 2,
+      "note": "강철 메가진화"
     }
   ],
   "cards": [
     {
       "id": 45770,
-      "deck": "dragapult",
-      "category": "pokemon",
-      "subtype_ko": "기본 포켓몬",
       "name_ja": "ドラメシヤ",
       "name_ko": "드라메시야",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
       "hp": 70,
       "type_ko": "",
       "regulation": "G",
@@ -41,18 +54,24 @@
       "text_ja": "",
       "text_ko": "",
       "set": "SV6",
-      "number": "079/101",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045770_P_DORAMESHIYA.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45770"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45770",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 45771,
-      "deck": "dragapult",
-      "category": "pokemon",
-      "subtype_ko": "1단계 포켓몬",
       "name_ja": "ドロンチ",
       "name_ko": "드론치",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
       "hp": 90,
       "type_ko": "",
       "regulation": "G",
@@ -77,18 +96,24 @@
       "text_ja": "",
       "text_ko": "",
       "set": "SV6",
-      "number": "080/101",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045771_P_DORONCHI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45771"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45771",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 45772,
-      "deck": "dragapult",
-      "category": "pokemon",
-      "subtype_ko": "포켓몬 ex (2단계)",
       "name_ja": "ドラパルトex",
       "name_ko": "드래펄트 ex",
+      "category": "pokemon",
+      "subtype_ko": "포켓몬 ex (2단계)",
       "hp": 320,
       "type_ko": "",
       "regulation": "G",
@@ -121,18 +146,24 @@
       "text_ja": "",
       "text_ko": "",
       "set": "SV6",
-      "number": "081/101",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045772_P_DORAPARUTOEX.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45772"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45772",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 46736,
-      "deck": "dragapult",
-      "category": "pokemon",
-      "subtype_ko": "기본 포켓몬",
       "name_ja": "マシマシラ",
       "name_ko": "마시마시라",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
       "hp": 110,
       "type_ko": "",
       "regulation": "G",
@@ -157,18 +188,24 @@
       "text_ja": "",
       "text_ko": "",
       "set": "SV8a",
-      "number": "075/187",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046736_P_MASHIMASHIRA.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46736"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46736",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 49290,
-      "deck": "dragapult",
-      "category": "pokemon",
-      "subtype_ko": "기본 포켓몬",
       "name_ja": "ノコッチ",
       "name_ko": "노고치",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
       "hp": 70,
       "type_ko": "",
       "regulation": "",
@@ -194,18 +231,27 @@
       "text_ja": "",
       "text_ko": "",
       "set": "MC",
-      "number": "574/742",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049290_P_NOKOTCHI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49290"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49290",
+      "decks": [
+        "dragapult",
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "dragapult": 1,
+        "bakegakure": 1
+      },
+      "tiers": [
+        1,
+        2
+      ]
     },
     {
       "id": 45203,
-      "deck": "dragapult",
-      "category": "pokemon",
-      "subtype_ko": "1단계 포켓몬",
       "name_ja": "ノココッチ",
       "name_ko": "노고치",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
       "hp": 140,
       "type_ko": "",
       "regulation": "",
@@ -214,7 +260,9 @@
           "name_ja": "にげあしドロー",
           "name_ko": "도망발 드로우",
           "effect_ja": "自分の番に1回使える。自分の山札を3枚引く。その後、このポケモンと、ついているすべてのカードを山札に戻して切る。",
-          "effect_ko": "자신의 차례에 1번 사용할 수 있다. 자신의 덱을 3장 뽑는다. 그 후, 이 포켓몬과 붙어 있는 모든 카드를 덱으로 되돌리고 덱을 섞는다."
+          "effect_ko": "자신의 차례에 1번 사용할 수 있다. 자신의 덱을 3장 뽑는다. 그 후, 이 포켓몬과 붙어 있는 모든 카드를 덱으로 되돌리고 덱을 섞는다.",
+          "text_ja": "自分の番に1回使える。自分の山札を3枚引く。その後、このポケモンと、ついているすべてのカードを、山札にもどして切る。",
+          "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 덱에서 3장을 뽑는다. 그 후, 이 포켓몬과 붙어 있는 모든 카드를 덱으로 되돌려 섞는다."
         }
       ],
       "attacks": [
@@ -229,18 +277,27 @@
       "text_ja": "",
       "text_ko": "",
       "set": "SV5K",
-      "number": "057/071",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV5K/045203_P_NOKOKOTCHI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45203"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45203",
+      "decks": [
+        "dragapult",
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "dragapult": 1,
+        "bakegakure": 1
+      },
+      "tiers": [
+        1,
+        2
+      ]
     },
     {
       "id": 45913,
-      "deck": "dragapult",
-      "category": "pokemon",
-      "subtype_ko": "기본 포켓몬 / 포켓몬 ex",
       "name_ja": "キチキギスex",
       "name_ko": "찌리비크 ex",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬 / 포켓몬 ex",
       "hp": 210,
       "type_ko": "",
       "regulation": "",
@@ -249,7 +306,9 @@
           "name_ja": "さかてにとる",
           "name_ko": "역이용",
           "effect_ja": "前の相手の番に、自分のポケモンがきぜつしていたなら、自分の番に1回使える。自分の山札を3枚引く。この番、すでに別の「さかてにとる」を使っていたなら、この特性は使えない。",
-          "effect_ko": "직전 상대 차례에 자신의 포켓몬이 기절했다면, 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 3장 뽑는다. 이 차례에 이미 다른 '역이용'을 사용했다면, 이 특성은 사용할 수 없다."
+          "effect_ko": "직전 상대 차례에 자신의 포켓몬이 기절했다면, 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 3장 뽑는다. 이 차례에 이미 다른 '역이용'을 사용했다면, 이 특성은 사용할 수 없다.",
+          "text_ja": "前の相手の番に、自分のポケモンがきぜつしていたなら、自分の番に1回使える。自分の山札を3枚引く。この番、すでに別の「さかてにとる」を使っていたなら、この特性は使えない。",
+          "text_ko": "직전 상대 차례에 자신의 포켓몬이 기절했다면, 자신의 차례에 1번 쓸 수 있다. 자신의 덱에서 3장을 뽑는다. 이 차례에 이미 다른 「さかてにとる(역이용)」을 썼다면 이 특성은 쓸 수 없다."
         }
       ],
       "attacks": [
@@ -264,18 +323,24 @@
       "text_ja": "",
       "text_ko": "",
       "set": "SV6a",
-      "number": "038/064",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6a/045913_P_KICHIKIGISUEX.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45913"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45913",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 49694,
-      "deck": "dragapult",
-      "category": "pokemon",
-      "subtype_ko": "기본 포켓몬 / 포켓몬 ex",
       "name_ja": "ニャースex",
       "name_ko": "나옹 ex",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬 / 포켓몬 ex",
       "hp": 170,
       "type_ko": "",
       "regulation": "",
@@ -284,7 +349,9 @@
           "name_ja": "おくのてキャッチ",
           "name_ko": "비장의 수 캐치",
           "effect_ja": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。この番、名前に「おくのて」とつく特性を使っていたなら、この特性は使えない。",
-          "effect_ko": "자신의 차례에 이 카드를 패에서 벤치에 내보냈을 때 1번 사용할 수 있다. 자신의 덱에서 서포트를 1장 골라 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 이 차례에 이름에 '비장의 수'가 붙은 특성을 사용했다면, 이 특성은 사용할 수 없다."
+          "effect_ko": "자신의 차례에 이 카드를 패에서 벤치에 내보냈을 때 1번 사용할 수 있다. 자신의 덱에서 서포트를 1장 골라 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 이 차례에 이름에 '비장의 수'가 붙은 특성을 사용했다면, 이 특성은 사용할 수 없다.",
+          "text_ja": "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。この番、名前に「おくのて」とつく特性を使っていたなら、この特性は使えない。",
+          "text_ko": "자신의 차례에 이 카드를 패에서 벤치에 냈을 때 1번 쓸 수 있다. 자신의 덱에서 서포트를 1장 골라 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 이 차례에 이름에 「おくのて(비장의 수)」가 붙은 특성을 썼다면 이 특성은 쓸 수 없다."
         }
       ],
       "attacks": [
@@ -299,18 +366,24 @@
       "text_ja": "",
       "text_ko": "",
       "set": "M3",
-      "number": "061/080",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049694_P_NIXYASUEX.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49694"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49694",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 46662,
-      "deck": "dragapult",
-      "category": "pokemon",
-      "subtype_ko": "기본 포켓몬",
       "name_ja": "スボミー",
       "name_ko": "꼬몽울",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
       "hp": 30,
       "type_ko": "독",
       "regulation": "",
@@ -327,18 +400,24 @@
       "text_ja": "",
       "text_ko": "",
       "set": "SV8a",
-      "number": "001/187",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046662_P_SUBOMI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46662"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46662",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 45209,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "굿즈",
       "name_ja": "なかよしポフィン",
       "name_ko": "사이좋은 포핀",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -347,18 +426,29 @@
       "text_ja": "自分の山札から、HPが「70」以下のたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。グッズは、自分の番に何枚でも使える。",
       "text_ko": "자신의 덱에서 HP가 '70' 이하인 기본 포켓몬을 2장까지 골라 벤치에 내보낸다. 그리고 덱을 섞는다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
       "set": "SV5K",
-      "number": "063/071",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV5K/045209_T_NAKAYOSHIPOFUIN.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45209"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45209",
+      "decks": [
+        "dragapult",
+        "bakegakure",
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "dragapult": 1,
+        "bakegakure": 1,
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        1,
+        2
+      ]
     },
     {
       "id": 49703,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "굿즈",
       "name_ja": "ポケパッド",
       "name_ko": "포케패드",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -367,18 +457,27 @@
       "text_ja": "自分の山札からポケモン（「ルールを持つポケモン」をのぞく）を1枚選び、相手に見せて、手札に加える。そして山札を切る。グッズは、自分の番に何枚でも使える。",
       "text_ko": "자신의 덱에서 포켓몬(「룰을 가진 포켓몬」 제외)을 1장 골라, 상대에게 보여주고, 패에 넣는다. 그리고 덱을 섞는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
       "set": "M3",
-      "number": "070/080",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049703_T_POKEPADDO.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49703"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49703",
+      "decks": [
+        "dragapult",
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "dragapult": 1,
+        "bakegakure": 1
+      },
+      "tiers": [
+        1,
+        2
+      ]
     },
     {
       "id": 45369,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "굿즈",
       "name_ja": "ハイパーボール",
       "name_ko": "하이퍼볼",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -387,18 +486,29 @@
       "text_ja": "このカードは、自分の手札を2枚トラッシュしなければ使えない。自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
       "text_ko": "이 카드는, 자신의 패를 2장 버리지 않으면 사용할 수 없다. 자신의 덱에서 포켓몬을 1장 골라, 상대에게 보여주고, 패에 넣는다. 그리고 덱을 섞는다.",
       "set": "SVHM",
-      "number": "028/053",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVHM/045369_T_HAIPABORU.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45369"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45369",
+      "decks": [
+        "dragapult",
+        "bakegakure",
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "dragapult": 1,
+        "bakegakure": 1,
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        1,
+        2
+      ]
     },
     {
       "id": 45931,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "굿즈",
       "name_ja": "夜のタンカ",
       "name_ko": "밤의 들것",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -407,18 +517,27 @@
       "text_ja": "自分のトラッシュからポケモンまたは基本エネルギーを1枚選び、相手に見せて、手札に加える。グッズは、自分の番に何枚でも使える。",
       "text_ko": "자신의 트래시에서 포켓몬 또는 기본 에너지를 1장 골라, 상대에게 보여주고, 패에 넣는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
       "set": "SV6a",
-      "number": "056/064",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6a/045931_T_YORUNOTANKA.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45931"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45931",
+      "decks": [
+        "dragapult",
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "dragapult": 1,
+        "bakegakure": 1
+      },
+      "tiers": [
+        1,
+        2
+      ]
     },
     {
       "id": 49360,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "굿즈",
       "name_ja": "クラッシュハンマー",
       "name_ko": "크래시 해머",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -427,18 +546,24 @@
       "text_ja": "コインを1回投げオモテなら、相手の場のポケモンについているエネルギーを1個選び、トラッシュする。グッズは、自分の番に何枚でも使える。",
       "text_ko": "코인을 1번 던져 앞면이면, 상대의 필드의 포켓몬에 붙어 있는 에너지를 1개 골라, 버린다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
       "set": "MC",
-      "number": "644/742",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049360_T_KURASSHIXYUHANMA.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49360"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49360",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 47870,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "굿즈",
       "name_ja": "アンフェアスタンプ",
       "name_ko": "언페어 스탬프",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -447,18 +572,24 @@
       "text_ja": "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、自分は5枚、相手は2枚、山札を引く。グッズは、自分の番に何枚でも使える。",
       "text_ko": "이 카드는, 직전 상대의 차례에, 자신의 포켓몬이 기절하지 않았으면 사용할 수 없다. 서로의 플레이어는, 각자 패를 모두 덱으로 되돌려 섞는다. 그 후, 자신은 5장, 상대는 2장, 덱을 뽑는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다. (ACE SPEC: 덱에 1장만 넣을 수 있다.)",
       "set": "MA",
-      "number": "011/043",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MA/047870_T_ANFUEASUTANPU.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47870"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47870",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 47900,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "서포트",
       "name_ja": "リーリエの決心",
       "name_ko": "릴리에의 결심",
+      "category": "trainer",
+      "subtype_ko": "서포트",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -467,18 +598,29 @@
       "text_ja": "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。自分のサイドの残り枚数が6枚なら、引く枚数は8枚になる。サポートは、自分の番に1枚しか使えない。",
       "text_ko": "자신의 패를 모두 덱으로 되돌리고 섞는다. 그 후, 덱을 6장 뽑는다. 자신의 사이드의 남은 매수가 6장이라면, 뽑는 매수는 8장이 된다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
       "set": "MA",
-      "number": "041/043",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MA/047900_T_RIRIENOKESSHIN.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47900"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47900",
+      "decks": [
+        "dragapult",
+        "bakegakure",
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "dragapult": 1,
+        "bakegakure": 1,
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        1,
+        2
+      ]
     },
     {
       "id": 45387,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "서포트",
       "name_ja": "ボスの指令",
       "name_ko": "보스의 지령",
+      "category": "trainer",
+      "subtype_ko": "서포트",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -487,18 +629,29 @@
       "text_ja": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。サポートは、自分の番に1枚しか使えない。",
       "text_ko": "상대의 벤치 포켓몬을 1마리 선택하여, 배틀필드의 포켓몬과 교체한다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
       "set": "SVHM",
-      "number": "046/053",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVHM/045387_T_BOSUNOSHIREI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45387"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45387",
+      "decks": [
+        "dragapult",
+        "bakegakure",
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "dragapult": 1,
+        "bakegakure": 1,
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        1,
+        2
+      ]
     },
     {
       "id": 49608,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "서포트",
       "name_ja": "ジャッジマン",
       "name_ko": "저지맨",
+      "category": "trainer",
+      "subtype_ko": "서포트",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -507,18 +660,24 @@
       "text_ja": "おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、それぞれ山札を4枚引く。サポートは、自分の番に1枚しか使えない。",
       "text_ko": "서로의 플레이어는, 각자 패를 모두 덱으로 되돌리고 섞는다. 그 후, 각자 덱을 4장 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
       "set": "M-P",
-      "number": "022/023",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M-P/049608_T_JIXYAJJIMAN.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49608"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49608",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 46101,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "서포트",
       "name_ja": "アカマツ",
       "name_ko": "아카마츠",
+      "category": "trainer",
+      "subtype_ko": "서포트",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -527,18 +686,24 @@
       "text_ja": "自分の山札から、それぞれちがうタイプの基本エネルギーを2枚まで選び、相手に見せて、どちらか1枚を手札に加え、残りのエネルギーを自分のポケモンにつける。そして山札を切る。サポートは、自分の番に1枚しか使えない。",
       "text_ko": "자신의 덱에서, 각각 다른 타입의 기본 에너지를 2장까지 선택하여, 상대에게 보여주고, 그중 1장을 패에 추가하고, 남은 에너지를 자신의 포켓몬에게 붙인다. 그리고 덱을 섞는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
       "set": "SVK",
-      "number": "030/044",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVK/046101_T_AKAMATSU.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46101"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46101",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
       "id": 47796,
-      "deck": "dragapult",
-      "category": "trainer",
-      "subtype_ko": "스타디움",
       "name_ja": "危ない廃墟",
       "name_ko": "위험한 폐허",
+      "category": "trainer",
+      "subtype_ko": "스타디움",
       "hp": null,
       "type_ko": "",
       "regulation": "",
@@ -547,18 +712,24 @@
       "text_ja": "おたがいのプレイヤーは、それぞれ、自分の番に、たねポケモン（ルールを持つポケモンをのぞく）をベンチに出すたび、そのポケモンにダメカンを2個のせる。",
       "text_ko": "서로의 플레이어는, 각자, 자신의 차례에, 기본 포켓몬(룰을 가진 포켓몬 제외)을 벤치에 낼 때마다, 그 포켓몬에게 데미지 카운터를 2개 올린다.",
       "set": "M1L",
-      "number": "063/063",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047796_T_ABUNAIHAIKIXYO.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47796"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47796",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
-      "id": 42780,
-      "deck": "dragapult",
-      "category": "energy",
-      "subtype_ko": "기본 에너지",
+      "id": "42780",
       "name_ja": "基本炎エネルギー",
       "name_ko": "기본 불꽃 에너지",
+      "category": "energy",
+      "subtype_ko": "기본 에너지",
       "hp": null,
       "type_ko": "불꽃",
       "regulation": "",
@@ -567,18 +738,24 @@
       "text_ja": "",
       "text_ko": "",
       "set": "ENE",
-      "number": "",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/ENE/042780_E_KIHONHONOOENERUGI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42780"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42780",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
-      "id": 42783,
-      "deck": "dragapult",
-      "category": "energy",
-      "subtype_ko": "기본 에너지",
+      "id": "42783",
       "name_ja": "基本超エネルギー",
       "name_ko": "기본 초 에너지",
+      "category": "energy",
+      "subtype_ko": "기본 에너지",
       "hp": null,
       "type_ko": "초",
       "regulation": "",
@@ -587,18 +764,24 @@
       "text_ja": "",
       "text_ko": "",
       "set": "ENE",
-      "number": "",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/ENE/042783_E_KIHONCHIXYOUENERUGI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42783"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42783",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
     },
     {
-      "id": 42785,
-      "deck": "dragapult",
-      "category": "energy",
-      "subtype_ko": "기본 에너지",
+      "id": "42785",
       "name_ja": "基本悪エネルギー",
       "name_ko": "기본 악 에너지",
+      "category": "energy",
+      "subtype_ko": "기본 에너지",
       "hp": null,
       "type_ko": "악",
       "regulation": "",
@@ -607,10 +790,981 @@
       "text_ja": "",
       "text_ko": "",
       "set": "ENE",
-      "number": "",
-      "count": 1,
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/ENE/042785_E_KIHONAKUENERUGI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42785"
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42785",
+      "decks": [
+        "dragapult"
+      ],
+      "deckCounts": {
+        "dragapult": 1
+      },
+      "tiers": [
+        1
+      ]
+    },
+    {
+      "id": 50256,
+      "name_ja": "ダダリン",
+      "name_ko": "타타륜",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 140,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "초",
+          "name_ja": "むねんのイカリ",
+          "name_ko": "무념의 분노",
+          "damage": "30+",
+          "text_ja": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが4枚以上あるなら、140ダメージ追加。",
+          "text_ko": "자신의 트래시에 특성 '둔갑술'을 가진 포켓몬이 4장 이상 있다면, 140 데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050256_P_DADARIN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50256",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 50224,
+      "name_ja": "チャデス",
+      "name_ko": "차데스",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 30,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "ばけがくれ",
+          "name_ko": "둔갑술",
+          "text_ja": "このポケモンは、相手のワザや特性の効果を受けない。",
+          "text_ko": "이 포켓몬은 상대의 기술이나 특성의 효과를 받지 않는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "ひっそりのせる",
+          "name_ko": "몰래 올리기",
+          "damage": "",
+          "text_ja": "相手のバトルポケモンに、ダメカンを1個のせる。",
+          "text_ko": "상대의 배틀 포켓몬에 데미지 카운터를 1개 올린다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050224_P_CHIXYADESU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50224",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 50250,
+      "name_ja": "カゲボウズ",
+      "name_ko": "어둠대신",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 50,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "ばけがくれ",
+          "name_ko": "둔갑술",
+          "text_ja": "このポケモンは、相手のワザや特性の効果を受けない。",
+          "text_ko": "이 포켓몬은 상대의 기술이나 특성의 효과를 받지 않는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "초",
+          "name_ja": "ぶらさがる",
+          "name_ko": "매달리기",
+          "damage": "10",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050250_P_KAGEBOUZU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50250",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 50251,
+      "name_ja": "ジュペッタ",
+      "name_ko": "다크펫",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 80,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "ばけがくれ",
+          "name_ko": "둔갑술",
+          "text_ja": "このポケモンは、相手のワザや特性の効果を受けない。",
+          "text_ko": "이 포켓몬은 상대의 기술이나 특성의 효과를 받지 않는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "초",
+          "name_ja": "にんぎょうキャッチ",
+          "name_ko": "인형 캐치",
+          "damage": "80",
+          "text_ja": "のぞむなら、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
+          "text_ko": "원한다면 자신의 덱에서 원하는 카드를 1장 선택해 패에 추가한다. 그리고 덱을 섞는다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050251_P_JIXYUPETTA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50251",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 49521,
+      "name_ja": "リーリエのピッピex",
+      "name_ko": "릴리에의 삐삐 ex",
+      "category": "pokemon",
+      "subtype_ko": "포켓몬 ex (기본)",
+      "hp": 190,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "フェアリーゾーン",
+          "name_ko": "페어리 존",
+          "text_ja": "このポケモンがいるかぎり、相手の場のポケモン全員の弱点は、すべて[フェアリー]タイプになる。［弱点は「×2」で計算する。］",
+          "text_ko": "이 포켓몬이 있는 한, 상대 필드의 포켓몬 전원의 약점은 모두 [페어리]타입이 된다. [약점은 '×2'로 계산한다.]"
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "초무색",
+          "name_ja": "フルムーンロンド",
+          "name_ko": "풀문 론도",
+          "damage": "20+",
+          "text_ja": "おたがいのベンチポケモンの数×20ダメージ追加。",
+          "text_ko": "서로의 벤치 포켓몬 수 ×20 데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049521_P_RIRIENOPIPPIEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49521",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 48354,
+      "name_ja": "ファイヤー",
+      "name_ko": "파이어",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 120,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "とうしのつばさ",
+          "name_ko": "투지의 날개",
+          "damage": "20+",
+          "effect_ja": "相手のバトルポケモンが「ポケモンex」なら、90ダメージ追加。",
+          "effect_ko": "상대 배틀필드 포켓몬이 「포켓몬 ex」라면 90데미지 추가.",
+          "text_ja": "相手のバトルポケモンが「ポケモンex」なら、90ダメージ追加。",
+          "text_ko": "상대 배틀필드 포켓몬이 「포켓몬 ex」라면 90데미지를 추가한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M2",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2/048354_P_FUAIYA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48354",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 48534,
+      "name_ja": "シェイミ",
+      "name_ko": "쉐이미",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 80,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "はなのカーテン",
+          "name_ko": "꽃의 커튼",
+          "effect_ja": "このポケモンがいるかぎり、自分のベンチポケモン（「ルールを持つポケモン」をのぞく）全員は、相手のワザのダメージを受けない。",
+          "effect_ko": "이 포켓몬이 있는 한, 자신의 벤치 포켓몬(「룰을 가진 포켓몬」 제외) 전원은 상대 기술의 데미지를 받지 않는다.",
+          "text_ja": "このポケモンがいるかぎり、自分のベンチポケモン（「ルールを持つポケモン」をのぞく）全員は、相手のワザのダメージを受けない。",
+          "text_ko": "이 포켓몬이 있는 한, 자신의 벤치 포켓몬(「룰을 가진 포켓몬」 제외) 전원은 상대 기술의 데미지를 받지 않는다."
+        }
+      ],
+      "attacks": [
+        {
+          "name_ja": "けとばす",
+          "name_ko": "걷어차기",
+          "damage": "30",
+          "effect_ja": "",
+          "effect_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048534_P_SHIEIMI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48534",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 50263,
+      "name_ja": "モグリュー",
+      "name_ko": "두더류",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "なかまをよぶ",
+          "name_ko": "친구를 부른다",
+          "cost_ko": "무색 1",
+          "damage": "",
+          "text_ja": "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+          "text_ko": "자신의 덱에서 기본 포켓몬을 2장까지 선택해 벤치에 내보낸다. 그리고 덱을 섞는다."
+        },
+        {
+          "name_ja": "ツメをたてる",
+          "name_ko": "발톱 세우기",
+          "cost_ko": "무색 2",
+          "damage": "50",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050263_P_MOGURIXYU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50263",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 50282,
+      "name_ja": "メガドリュウズex",
+      "name_ko": "메가몰드류 ex",
+      "category": "pokemon",
+      "subtype_ko": "메가진화 ex 포켓몬",
+      "hp": 340,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "ほりくずす",
+          "name_ko": "파헤치기",
+          "cost_ko": "강철 2",
+          "damage": "90",
+          "text_ja": "相手の山札を上から2枚トラッシュする。",
+          "text_ko": "상대의 덱을 위에서부터 2장 트래시(버리는 곳)로 보낸다."
+        },
+        {
+          "name_ja": "マキシマムドリル",
+          "name_ko": "맥시멈 드릴",
+          "cost_ko": "강철 4",
+          "damage": "200+",
+          "text_ja": "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、130ダメージ追加。",
+          "text_ko": "이 기술을 사용하기 위한 에너지보다 에너지가 2개 더 붙어 있다면, 130데미지 추가."
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050282_P_MDORIXYUUZUEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50282",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 45263,
+      "name_ja": "ダンバル",
+      "name_ko": "단단지",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "ツメをたてる",
+          "name_ko": "발톱 세우기",
+          "damage": "10",
+          "effect_ja": "",
+          "effect_ko": "",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "name_ja": "アイアンタックル",
+          "name_ko": "아이언 태클",
+          "damage": "50",
+          "effect_ja": "このポケモンにも10ダメージ。",
+          "effect_ko": "이 포켓몬에게도 10데미지.",
+          "text_ja": "このポケモンにも10ダメージ。",
+          "text_ko": "이 포켓몬에게도 10데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV5M",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV5M/045263_P_DANBARU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45263",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 45264,
+      "name_ja": "メタング",
+      "name_ko": "메탕",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 100,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "メタルメーカー",
+          "name_ko": "메탈 메이커",
+          "effect_ja": "自分の番に1回使える。自分の山札を上から4枚見て、その中から「基本エネルギー」を好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードはすべてウラにして切り、山札の下にもどす。",
+          "effect_ko": "자신의 차례에 1번 사용할 수 있다. 자신의 덱을 위에서 4장 보고, 그 중에서 '기본 에너지'를 원하는 만큼 골라 자신의 포켓몬에게 원하는 대로 붙인다. 남은 카드는 모두 뒷면으로 하여 섞고 덱 아래에 되돌린다.",
+          "text_ja": "自分の番に1回使える。自分の山札を上から4枚見て、その中から「基本エネルギー」を好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードはすべてウラにして切り、山札の下にもどす。",
+          "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 덱 맨 위에서 4장을 보고, 그 중에서 「기본 에너지」를 원하는 만큼 골라 자신의 포켓몬에게 원하는 대로 붙인다. 남은 카드는 모두 뒷면으로 하여 섞은 뒤 덱 맨 아래로 되돌린다."
+        }
+      ],
+      "attacks": [
+        {
+          "name_ja": "ビーム",
+          "name_ko": "빔",
+          "damage": "60",
+          "effect_ja": "",
+          "effect_ko": "",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV5M",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV5M/045264_P_METANGU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45264",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 50143,
+      "name_ja": "メタグロス",
+      "name_ko": "메타그로스",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬",
+      "hp": 180,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "はねかえす",
+          "name_ko": "튕겨내기",
+          "damage": "60",
+          "effect_ja": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+          "effect_ko": "상대 배틀필드 포켓몬을 벤치 포켓몬과 교체한다. [배틀필드에 내보낼 포켓몬은 상대가 고른다.]",
+          "text_ja": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+          "text_ko": "상대의 배틀필드 포켓몬을 벤치 포켓몬과 교체한다. [배틀필드에 내보낼 포켓몬은 상대가 고른다.]"
+        },
+        {
+          "name_ja": "メタリックハンマー",
+          "name_ko": "메탈릭 해머",
+          "damage": "150+",
+          "effect_ja": "のぞむなら、このポケモンについているエネルギーを3個トラッシュし、150ダメージ追加。",
+          "effect_ko": "원한다면 이 포켓몬에게 붙어 있는 에너지를 3개 트래시하고 150데미지 추가.",
+          "text_ja": "のぞむなら、このポケモンについているエネルギーを3個トラッシュし、150ダメージ追加。",
+          "text_ko": "원한다면 이 포켓몬에게 붙어 있는 에너지를 3개 트래시하고 150데미지를 추가한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M4",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M4/050143_P_METAGUROSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50143",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 47605,
+      "name_ja": "ゲノセクトex",
+      "name_ko": "게노세크트 ex",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬 / 포켓몬 ex",
+      "hp": 220,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "メタルシグナル",
+          "name_ko": "메탈 시그널",
+          "effect_ja": "自分の番に1回使える。自分の山札から鋼タイプの進化ポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+          "effect_ko": "자신의 차례에 1번 사용할 수 있다. 자신의 덱에서 강철 타입 진화 포켓몬을 2장까지 골라 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다.",
+          "text_ja": "自分の番に1回使える。自分の山札から鋼タイプの進化ポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+          "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 덱에서 강철 타입 진화 포켓몬을 2장까지 골라 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다."
+        }
+      ],
+      "attacks": [
+        {
+          "name_ja": "プロテクトチャージ",
+          "name_ko": "프로텍트 차지",
+          "damage": "150",
+          "effect_ja": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+          "effect_ko": "다음 상대 차례에 이 포켓몬이 받는 기술의 데미지는 '-30'된다.",
+          "text_ja": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+          "text_ko": "다음 상대 차례에 이 포켓몬이 받는 기술의 데미지는 「-30」된다."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "SV11B",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV11B/047605_P_GENOSEKUTOEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47605",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 50297,
+      "name_ja": "ムク",
+      "name_ko": "무쿠",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の手札からポケモン（「ルールを持つポケモン」をのぞく）を2枚までトラッシュし、その枚数×3枚ぶん、山札を引く。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "자신의 패에서 포켓몬(「룰을 가진 포켓몬」 제외)을 2장까지 트래시하고, 그 장수×3장만큼 덱을 뽑는다. 서포트는 자신의 차례에 1장밖에 쓸 수 없다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050297_T_MUKU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50297",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 48694,
+      "name_ja": "トウコ",
+      "name_ko": "토우코",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札から進化ポケモンとエネルギーを1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "자신의 덱에서 진화 포켓몬과 에너지를 1장씩 골라 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 서포트는 자신의 차례에 1장밖에 쓸 수 없다.",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048694_T_TOUKO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48694",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 50164,
+      "name_ja": "プリズムタワー",
+      "name_ko": "프리즘 타워",
+      "category": "trainer",
+      "subtype_ko": "스타디움",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の手札を2枚トラッシュするなら、自分の山札を1枚引いてよい。",
+      "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 패를 2장 트래시한다면 자신의 덱을 1장 뽑아도 된다.",
+      "set": "M4",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M4/050164_T_PURIZUMUTAWA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50164",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 49391,
+      "name_ja": "ロケット団のレシーバー",
+      "name_ko": "로켓단의 리시버",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札から、名前に「ロケット団」とつくサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "자신의 덱에서 이름에 '로켓단'이 붙은 서포트를 1장 골라 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049391_T_ROKETTODANNORESHIBA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49391",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 49356,
+      "name_ja": "エネルギーリサイクル",
+      "name_ko": "에너지 리사이클",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分のトラッシュから基本エネルギーを5枚まで選び、相手に見せて、山札にもどして切る。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "자신의 트래시(버리는 곳)에서 기본 에너지를 5장까지 골라 상대에게 보여주고 덱으로 되돌린 뒤 덱을 섞는다. 굿즈는 자신의 차례에 몇 장이든 쓸 수 있다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049356_T_ENERUGIRISAIKURU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49356",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 48413,
+      "name_ja": "ジャンボアイス",
+      "name_ko": "점보 아이스",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "エネルギーが3個以上ついている自分のバトルポケモンのHPを「80」回復する。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "에너지가 3개 이상 붙어 있는 자신의 배틀 포켓몬의 HP를 '80' 회복한다. 굿즈는 자신의 차례에 몇 장이든 쓸 수 있다.",
+      "set": "M2",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2/048413_T_JIXYANBOAISU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48413",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 50156,
+      "name_ja": "スペシャルレッドカード",
+      "name_ko": "스페셜 레드 카드",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、相手のサイドの残り枚数が3枚以下のときにしか使えない。相手は相手自身の手札をすべてウラにして切り、山札の下にもどす。その後、相手は山札を3枚引く。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "이 카드는 상대의 사이드 남은 장수가 3장 이하일 때만 쓸 수 있다. 상대는 자신의 패를 모두 뒷면으로 하여 섞은 뒤 덱 아래로 되돌린다. 그 후, 상대는 덱에서 3장을 뽑는다. 굿즈는 자신의 차례에 몇 장이든 쓸 수 있다.",
+      "set": "M4",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M4/050156_T_SUPESHIXYARUREDDOKADO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50156",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 49374,
+      "name_ja": "プレシャスキャリー",
+      "name_ko": "프레셔스 캐리",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札からたねポケモンを好きなだけ選び、ベンチに出す。そして山札を切る。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "자신의 덱에서 기본 포켓몬을 원하는 만큼 골라 벤치에 내보낸다. 그리고 덱을 섞는다. 굿즈는 자신의 차례에 몇 장이든 쓸 수 있다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049374_T_PURESHIXYASUKIXYARI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49374",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 49404,
+      "name_ja": "ふうせん",
+      "name_ko": "풍선",
+      "category": "trainer",
+      "subtype_ko": "포켓몬의 도구",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードをつけているポケモンは、にげるためのエネルギーが2個ぶん少なくなる。ポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+      "text_ko": "이 카드를 붙이고 있는 포켓몬은 도망치기 위한 에너지가 2개분 적어진다. 포켓몬의 도구는 자신의 차례에 몇 장이든 자신의 포켓몬에게 붙일 수 있다. 포켓몬 1마리당 1장만 붙일 수 있으며, 붙인 채로 둔다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049404_T_FUUSEN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49404",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 47487,
+      "name_ja": "ロケット団のラムダ",
+      "name_ko": "로켓단의 람다(ロケット団のラムダ)",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札からトレーナーズを1枚選び、相手に見せて、手札に加える。そして山札を切る。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "자신의 덱에서 트레이너스를 1장 선택하여 상대에게 보여주고, 패에 추가한다. 그리고 덱을 섞는다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "SV10",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV10/047487_T_ROKETTODANNORAMUDA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47487",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 50159,
+      "name_ja": "AZの安らぎ",
+      "name_ko": "AZ의 평온(AZの安らぎ)",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分のバトルポケモンをベンチポケモンと入れ替える。「ポケモンex」をベンチに入れ替えた場合、そのポケモンのHPを「80」回復する。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. 「포켓몬 ex」를 벤치로 교체한 경우, 그 포켓몬의 HP를 「80」 회복한다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "M4",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M4/050159_T_AZNOYASURAGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50159",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 45287,
+      "name_ja": "フルメタルラボ",
+      "name_ko": "풀메탈 랩(フルメタルラボ)",
+      "category": "trainer",
+      "subtype_ko": "스타디움",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのポケモンが、相手のポケモンから受けるワザのダメージは「-30」される。",
+      "text_ko": "서로의 포켓몬이 상대의 포켓몬에게서 받는 기술의 데미지는 「-30」된다.",
+      "set": "SV5M",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV5M/045287_T_FURUMETARURABO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45287",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 49712,
+      "name_ja": "テレパス超エネルギー",
+      "name_ko": "텔레파스 초 에너지",
+      "category": "energy",
+      "subtype_ko": "특수 에너지",
+      "hp": null,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードを手札からポケモンにつけたとき、自分の山札から超タイプのたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+      "text_ko": "이 카드는 포켓몬에게 붙어 있는 한, 에너지 1개분으로 작용한다. 이 카드를 패에서 포켓몬에게 붙였을 때, 자신의 덱에서 초 타입의 기본 포켓몬을 2장까지 선택해 벤치에 내보낸다. 그리고 덱을 섞는다.",
+      "set": "M3",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049712_E_TEREPASUCHIXYOUENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49712",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 48714,
+      "name_ja": "プリズムエネルギー",
+      "name_ko": "프리즘 에너지",
+      "category": "energy",
+      "subtype_ko": "특수 에너지",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。たねポケモンについているなら、すべてのタイプのエネルギー1個ぶんとしてはたらく。",
+      "text_ko": "이 카드는 포켓몬에게 붙어 있는 한, 에너지 1개분으로 작용한다. 기본 포켓몬에게 붙어 있다면, 모든 타입의 에너지 1개분으로 작용한다.",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048714_E_PURIZUMUENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48714",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 47220,
+      "name_ja": "レガシーエネルギー",
+      "name_ko": "레거시 에너지",
+      "category": "energy",
+      "subtype_ko": "특수 에너지 (ACE SPEC)",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、ポケモンについているかぎり、すべてのタイプのエネルギー1個ぶんとしてはたらく。このカードをつけているポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、とられるサイドは1枚少なくなる。",
+      "text_ko": "이 카드는 포켓몬에게 붙어 있는 한, 모든 타입의 에너지 1개분으로 작용한다. 이 카드를 붙이고 있는 포켓몬이 상대 포켓몬에게 기술 데미지를 받아 기절했을 때, 빼앗기는 사이드는 1장 줄어든다. (ACE SPEC 카드는 덱에 1장만 넣을 수 있다.)",
+      "set": "SVN",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVN/047220_E_REGASHIENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47220",
+      "decks": [
+        "bakegakure"
+      ],
+      "deckCounts": {
+        "bakegakure": 1
+      },
+      "tiers": [
+        2
+      ]
+    },
+    {
+      "id": 46123,
+      "name_ja": "基本鋼エネルギー",
+      "name_ko": "기본 강철 에너지",
+      "category": "energy",
+      "subtype_ko": "기본에너지",
+      "hp": null,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "ENE",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/ENE/046123_E_KIHONHAGANEENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46123",
+      "decks": [
+        "mega-drilbur"
+      ],
+      "deckCounts": {
+        "mega-drilbur": 1
+      },
+      "tiers": [
+        2
+      ]
     }
   ]
 }

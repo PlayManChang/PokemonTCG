@@ -1,0 +1,121 @@
+[
+  {
+    "id": 49712,
+    "category": "energy",
+    "subtype_ko": "특수 에너지",
+    "name_ja": "テレパス超エネルギー",
+    "name_ko": "텔레파스 초 에너지",
+    "hp": null,
+    "type_ko": "초",
+    "regulation": "M3",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードを手札からポケモンにつけたとき、自分の山札から超タイプのたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+    "text_ko": "이 카드는 포켓몬에게 붙어 있는 한, 에너지 1개분으로 작용한다. 이 카드를 패에서 포켓몬에게 붙였을 때, 자신의 덱에서 초 타입의 기본 포켓몬을 2장까지 선택해 벤치에 내보낸다. 그리고 덱을 섞는다.",
+    "set": "확장팩 「무니키스 제로(ムニキスゼロ)」",
+    "number": "079/080",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49712"
+  },
+  {
+    "id": 48714,
+    "category": "energy",
+    "subtype_ko": "특수 에너지",
+    "name_ja": "プリズムエネルギー",
+    "name_ko": "프리즘 에너지",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M2a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。たねポケモンについているなら、すべてのタイプのエネルギー1個ぶんとしてはたらく。",
+    "text_ko": "이 카드는 포켓몬에게 붙어 있는 한, 에너지 1개분으로 작용한다. 기본 포켓몬에게 붙어 있다면, 모든 타입의 에너지 1개분으로 작용한다.",
+    "set": "하이클래스팩 「MEGA드림ex(MEGAドリームex)」",
+    "number": "192/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48714"
+  },
+  {
+    "id": 47220,
+    "category": "energy",
+    "subtype_ko": "특수 에너지 (ACE SPEC)",
+    "name_ja": "レガシーエネルギー",
+    "name_ko": "레거시 에너지",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SVN",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、すべてのタイプのエネルギー1個ぶんとしてはたらく。このカードをつけているポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、とられるサイドは1枚少なくなる。",
+    "text_ko": "이 카드는 포켓몬에게 붙어 있는 한, 모든 타입의 에너지 1개분으로 작용한다. 이 카드를 붙이고 있는 포켓몬이 상대 포켓몬에게 기술 데미지를 받아 기절했을 때, 빼앗기는 사이드는 1장 줄어든다. (ACE SPEC 카드는 덱에 1장만 넣을 수 있다.)",
+    "set": "덱빌드 BOX 「배틀파트너즈(バトルパートナーズ)」",
+    "number": "045/045",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47220"
+  },
+  {
+    "id": 50263,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "モグリュー",
+    "name_ko": "두더류",
+    "hp": 70,
+    "type_ko": "무색",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "なかまをよぶ",
+        "name_ko": "친구를 부른다",
+        "cost_ko": "무색 1",
+        "damage": "",
+        "text_ja": "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+        "text_ko": "자신의 덱에서 기본 포켓몬을 2장까지 선택해 벤치에 내보낸다. 그리고 덱을 섞는다."
+      },
+      {
+        "name_ja": "ツメをたてる",
+        "name_ko": "발톱 세우기",
+        "cost_ko": "무색 2",
+        "damage": "50",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "044/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50263"
+  },
+  {
+    "id": 50282,
+    "category": "pokemon",
+    "subtype_ko": "메가진화 ex 포켓몬",
+    "name_ja": "メガドリュウズex",
+    "name_ko": "메가몰드류 ex",
+    "hp": 340,
+    "type_ko": "강철",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ほりくずす",
+        "name_ko": "파헤치기",
+        "cost_ko": "강철 2",
+        "damage": "90",
+        "text_ja": "相手の山札を上から2枚トラッシュする。",
+        "text_ko": "상대의 덱을 위에서부터 2장 트래시(버리는 곳)로 보낸다."
+      },
+      {
+        "name_ja": "マキシマムドリル",
+        "name_ko": "맥시멈 드릴",
+        "cost_ko": "강철 4",
+        "damage": "200+",
+        "text_ja": "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、130ダメージ追加。",
+        "text_ko": "이 기술을 사용하기 위한 에너지보다 에너지가 2개 더 붙어 있다면, 130데미지 추가."
+      }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+    "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "063/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50282"
+  }
+]

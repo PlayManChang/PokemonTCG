@@ -1,0 +1,160 @@
+[
+  {
+    "id": 50256,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ダダリン",
+    "name_ko": "타타륜",
+    "hp": 140,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "초",
+        "name_ja": "むねんのイカリ",
+        "name_ko": "무념의 분노",
+        "damage": "30+",
+        "text_ja": "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが4枚以上あるなら、140ダメージ追加。",
+        "text_ko": "자신의 트래시에 특성 '둔갑술'을 가진 포켓몬이 4장 이상 있다면, 140 데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "037/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50256"
+  },
+  {
+    "id": 50224,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "チャデス",
+    "name_ko": "차데스",
+    "hp": 30,
+    "type_ko": "풀",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "ばけがくれ",
+        "name_ko": "둔갑술",
+        "text_ja": "このポケモンは、相手のワザや特性の効果を受けない。",
+        "text_ko": "이 포켓몬은 상대의 기술이나 특성의 효과를 받지 않는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "무색",
+        "name_ja": "ひっそりのせる",
+        "name_ko": "몰래 올리기",
+        "damage": "",
+        "text_ja": "相手のバトルポケモンに、ダメカンを1個のせる。",
+        "text_ko": "상대의 배틀 포켓몬에 데미지 카운터를 1개 올린다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "005/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50224"
+  },
+  {
+    "id": 50250,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "カゲボウズ",
+    "name_ko": "어둠대신",
+    "hp": 50,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "ばけがくれ",
+        "name_ko": "둔갑술",
+        "text_ja": "このポケモンは、相手のワザや特性の効果を受けない。",
+        "text_ko": "이 포켓몬은 상대의 기술이나 특성의 효과를 받지 않는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "초",
+        "name_ja": "ぶらさがる",
+        "name_ko": "매달리기",
+        "damage": "10",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "031/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50250"
+  },
+  {
+    "id": 50251,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "ジュペッタ",
+    "name_ko": "다크펫",
+    "hp": 80,
+    "type_ko": "초",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "ばけがくれ",
+        "name_ko": "둔갑술",
+        "text_ja": "このポケモンは、相手のワザや特性の効果を受けない。",
+        "text_ko": "이 포켓몬은 상대의 기술이나 특성의 효과를 받지 않는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "초",
+        "name_ja": "にんぎょうキャッチ",
+        "name_ko": "인형 캐치",
+        "damage": "80",
+        "text_ja": "のぞむなら、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
+        "text_ko": "원한다면 자신의 덱에서 원하는 카드를 1장 선택해 패에 추가한다. 그리고 덱을 섞는다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "032/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50251"
+  },
+  {
+    "id": 49521,
+    "category": "pokemon",
+    "subtype_ko": "포켓몬 ex (기본)",
+    "name_ja": "リーリエのピッピex",
+    "name_ko": "릴리에의 삐삐 ex",
+    "hp": 190,
+    "type_ko": "초",
+    "regulation": "MC",
+    "abilities": [
+      {
+        "name_ja": "フェアリーゾーン",
+        "name_ko": "페어리 존",
+        "text_ja": "このポケモンがいるかぎり、相手の場のポケモン全員の弱点は、すべて[フェアリー]タイプになる。［弱点は「×2」で計算する。］",
+        "text_ko": "이 포켓몬이 있는 한, 상대 필드의 포켓몬 전원의 약점은 모두 [페어리]타입이 된다. [약점은 '×2'로 계산한다.]"
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "초무색",
+        "name_ja": "フルムーンロンド",
+        "name_ko": "풀문 론도",
+        "damage": "20+",
+        "text_ja": "おたがいのベンチポケモンの数×20ダメージ追加。",
+        "text_ko": "서로의 벤치 포켓몬 수 ×20 데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "스타트 덱 100 배틀 컬렉션(スタートデッキ100 バトルコレクション)",
+    "number": "287/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49521"
+  }
+]
