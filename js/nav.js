@@ -8,6 +8,7 @@
   const links = [
     { href: 'index.html', label: '📖 용어집', desc: '인사·게임 용어' },
     { href: 'cards.html', label: '🃏 카드 검색', desc: '메타 덱 카드 (한국어)' },
+    { href: 'https://pokeka-win-decks.jp/tier-ranking', label: '📊 환경 분석', desc: '일본 메타 티어표 (외부 사이트)', external: true },
   ];
 
   const menu = document.createElement('nav');

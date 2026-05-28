@@ -17,6 +17,7 @@ const ARCHETYPES = [
   { id: 'omatsuriondo',     name_ja: 'おまつりおんど',          tier: 4, article: 'https://pokekameshi.com/omatsuriondo/' },
   { id: 'mega-livolt',      name_ja: 'メガライボルトex',        tier: 4, article: 'https://pokekameshi.com/megalivoltex/' },
   { id: 'dodekabashi',      name_ja: 'ドデカバシ',              tier: 4, article: 'https://pokekameshi.com/dodekabashi/' },
+  { id: 'mega-chandelure',  name_ja: 'メガシャンデラex',        tier: 4, article: 'https://pokekameshi.com/megachandelaex/' },
 ];
 
 const only = process.argv.slice(2);

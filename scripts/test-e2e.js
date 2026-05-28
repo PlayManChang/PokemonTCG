@@ -147,7 +147,7 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const menuLinks = await page.$$eval('.nav-menu a', (els) => els.length);
     const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
-    assert(menuVisible && menuLinks === 2, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색)`);
+    assert(menuVisible && menuLinks === 3, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/환경분석)`);
 
     console.log('\n[11] 콘솔 에러');
     const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices|pokemon-card\.com|net::ERR/i.test(e));

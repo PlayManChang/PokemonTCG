@@ -97,6 +97,13 @@
       "name_ja": "ドデカバシ",
       "tier": 4,
       "note": "최근 짐배틀 우승"
+    },
+    {
+      "id": "mega-chandelure",
+      "name_ko": "메가 샹델라 ex",
+      "name_ja": "メガシャンデラex",
+      "tier": 4,
+      "note": "최근 짐배틀 우승"
     }
   ],
   "cards": [
@@ -317,18 +324,21 @@
         "dragapult",
         "bakegakure",
         "foodin",
-        "mega-greninja"
+        "mega-greninja",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "dragapult": 1,
         "bakegakure": 1,
         "foodin": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -368,18 +378,21 @@
         "dragapult",
         "bakegakure",
         "foodin",
-        "mega-greninja"
+        "mega-greninja",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "dragapult": 1,
         "bakegakure": 1,
         "foodin": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -564,7 +577,8 @@
         "mega-greninja",
         "omatsuriondo",
         "mega-livolt",
-        "dodekabashi"
+        "dodekabashi",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -576,7 +590,8 @@
         "mega-greninja": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         1,
@@ -612,7 +627,8 @@
         "mega-greninja",
         "omatsuriondo",
         "mega-livolt",
-        "dodekabashi"
+        "dodekabashi",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -625,7 +641,8 @@
         "mega-greninja": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         1,
@@ -714,7 +731,8 @@
         "rocket-mewtwo",
         "omatsuriondo",
         "mega-livolt",
-        "dodekabashi"
+        "dodekabashi",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -729,7 +747,8 @@
         "rocket-mewtwo": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         1,
@@ -887,7 +906,8 @@
         "mega-greninja",
         "omatsuriondo",
         "mega-livolt",
-        "dodekabashi"
+        "dodekabashi",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -902,7 +922,8 @@
         "mega-greninja": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         1,
@@ -1017,13 +1038,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/ENE/042780_E_KIHONHONOOENERUGI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42780",
       "decks": [
-        "dragapult"
+        "dragapult",
+        "mega-chandelure"
       ],
       "deckCounts": {
-        "dragapult": 1
+        "dragapult": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
-        1
+        1,
+        4
       ]
     },
     {
@@ -1046,17 +1070,20 @@
         "dragapult",
         "takeraiko",
         "foodin",
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "dragapult": 1,
         "takeraiko": 1,
         "foodin": 1,
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         1,
-        3
+        3,
+        4
       ]
     },
     {
@@ -1987,14 +2014,16 @@
         "shirona-garchomp",
         "foodin",
         "mega-greninja",
-        "mega-livolt"
+        "mega-livolt",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "bakegakure": 1,
         "shirona-garchomp": 1,
         "foodin": 1,
         "mega-greninja": 1,
-        "mega-livolt": 1
+        "mega-livolt": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         2,
@@ -2133,7 +2162,8 @@
         "shirona-garchomp",
         "foodin",
         "mega-greninja",
-        "omatsuriondo"
+        "omatsuriondo",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "mega-drilbur": 1,
@@ -2143,7 +2173,8 @@
         "shirona-garchomp": 1,
         "foodin": 1,
         "mega-greninja": 1,
-        "omatsuriondo": 1
+        "omatsuriondo": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         2,
@@ -2534,15 +2565,18 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49712",
       "decks": [
         "bakegakure",
-        "foodin"
+        "foodin",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "bakegakure": 1,
-        "foodin": 1
+        "foodin": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -4362,13 +4396,15 @@
         "kamitsuorochi",
         "foodin",
         "omatsuriondo",
-        "dodekabashi"
+        "dodekabashi",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
         "foodin": 1,
         "omatsuriondo": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         3,
@@ -4787,13 +4823,15 @@
         "shirona-garchomp",
         "foodin",
         "mega-greninja",
-        "dodekabashi"
+        "dodekabashi",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "shirona-garchomp": 1,
         "foodin": 1,
         "mega-greninja": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         3,
@@ -4951,11 +4989,13 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48419",
       "decks": [
         "foodin",
-        "mega-livolt"
+        "mega-livolt",
+        "mega-chandelure"
       ],
       "deckCounts": {
         "foodin": 1,
-        "mega-livolt": 1
+        "mega-livolt": 1,
+        "mega-chandelure": 1
       },
       "tiers": [
         3,
@@ -6264,6 +6304,322 @@
       ]
     },
     {
+      "id": 50253,
+      "name_ja": "ヒトモシ",
+      "name_ko": "불켜미",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "초",
+          "name_ja": "おにび",
+          "name_ko": "도깨비불",
+          "damage": "20",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050253_P_HITOMOSHI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50253",
+      "decks": [
+        "mega-chandelure"
+      ],
+      "deckCounts": {
+        "mega-chandelure": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50254,
+      "name_ja": "ランプラー",
+      "name_ko": "램프라",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 90,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "초",
+          "name_ja": "ふえるあかり",
+          "name_ko": "늘어나는 불빛",
+          "damage": "",
+          "text_ja": "自分の山札から「ランプラー」を3枚まで選び、ベンチに出す。そして山札を切る。",
+          "text_ko": "자신의 덱에서 '램프라'를 3장까지 선택해 벤치에 내보낸다. 그리고 덱을 섞는다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050254_P_RANPURA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50254",
+      "decks": [
+        "mega-chandelure"
+      ],
+      "deckCounts": {
+        "mega-chandelure": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50255,
+      "name_ja": "メガシャンデラex",
+      "name_ko": "메가샨데라 ex",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬(메가진화 ex)",
+      "hp": 350,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "じゅばくのほのお",
+          "name_ko": "주박의 불꽃",
+          "text_ja": "このポケモンがいるかぎり、相手のバトルポケモンは、にげるためのエネルギーが1個ぶん多くなる。",
+          "text_ko": "이 포켓몬이 있는 한 상대 배틀 포켓몬은 후퇴하기 위한 에너지가 1개분 많아진다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "초초",
+          "name_ja": "ファントムメイズ",
+          "name_ko": "팬텀 메이즈",
+          "damage": "130＋",
+          "text_ja": "相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ追加。",
+          "text_ko": "상대 배틀 포켓몬의 후퇴하기 위한 에너지 수×50데미지 추가."
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때 상대는 사이드를 3장 가져간다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050255_P_MSHIXYANDERAEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50255",
+      "decks": [
+        "mega-chandelure"
+      ],
+      "deckCounts": {
+        "mega-chandelure": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45712,
+      "name_ja": "シャンデラ",
+      "name_ko": "샨데라",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬",
+      "hp": 130,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "いざなうあかり",
+          "name_ko": "이끄는 불빛",
+          "text_ja": "自分の番に1回使える。おたがいのプレイヤーは、それぞれ山札を1枚引く。",
+          "text_ko": "자신의 차례에 1회 사용할 수 있다. 서로의 플레이어는 각각 덱을 1장 뽑는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "불꽃",
+          "name_ja": "マインドルーラー",
+          "name_ko": "마인드 룰러",
+          "damage": "30×",
+          "text_ja": "相手の手札の枚数×30ダメージ。",
+          "text_ko": "상대의 패 매수×30데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV6",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045712_P_SHIXYANDERA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45712",
+      "decks": [
+        "mega-chandelure"
+      ],
+      "deckCounts": {
+        "mega-chandelure": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47087,
+      "name_ja": "ノココッチex",
+      "name_ko": "노고치 ex",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 270,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "ぎゃっきょうテール",
+          "name_ko": "역경의 꼬리",
+          "damage": "60×",
+          "text_ja": "相手の場の「ポケモンex」の数×60ダメージ。",
+          "text_ko": "상대 필드의 '포켓몬 ex' 수×60데미지."
+        },
+        {
+          "cost_ko": "무색무색무색",
+          "name_ja": "ドリルブレイク",
+          "name_ko": "드릴 브레이크",
+          "damage": "150",
+          "text_ja": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+          "text_ko": "이 기술의 데미지는 상대 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때 상대는 사이드를 2장 가져간다.",
+      "set": "SV9",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV9/047087_P_NOKOKOTCHIEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47087",
+      "decks": [
+        "mega-chandelure"
+      ],
+      "deckCounts": {
+        "mega-chandelure": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47663,
+      "name_ja": "プルリル",
+      "name_ko": "탱그릴",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 80,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "초",
+          "name_ja": "うみのかげ",
+          "name_ko": "바다의 그림자",
+          "damage": "20",
+          "text_ja": "次の相手の番、相手は手札からグッズを出して使えない。",
+          "text_ko": "다음 상대 차례에 상대는 패에서 굿즈를 내서 사용할 수 없다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV11W",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV11W/047663_P_PURURIRU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47663",
+      "decks": [
+        "mega-chandelure"
+      ],
+      "deckCounts": {
+        "mega-chandelure": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47664,
+      "name_ja": "ブルンゲルex",
+      "name_ko": "탱탱겔 ex",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 270,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "うみののろい",
+          "name_ko": "바다의 저주",
+          "text_ja": "このポケモンがバトル場にいるかぎり、相手は手札から「グッズ」を出して使えず、「ポケモンのどうぐ」も出してつけられない。",
+          "text_ko": "이 포켓몬이 배틀필드에 있는 한 상대는 패에서 '굿즈'를 내서 사용할 수 없고, '포켓몬의 도구'도 내서 붙일 수 없다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "초무색",
+          "name_ja": "パワープレス",
+          "name_ko": "파워 프레스",
+          "damage": "80＋",
+          "text_ja": "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、80ダメージ追加。",
+          "text_ko": "이 기술을 사용하기 위한 에너지보다 2개 많은 에너지가 붙어 있다면 80데미지 추가."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때 상대는 사이드를 2장 가져간다.",
+      "set": "SV11W",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV11W/047664_P_BURUNGERUEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47664",
+      "decks": [
+        "mega-chandelure"
+      ],
+      "deckCounts": {
+        "mega-chandelure": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47014,
+      "name_ja": "マラカッチ",
+      "name_ko": "선인왕",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 110,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "さくれつばり",
+          "name_ko": "작렬가시",
+          "text_ja": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを6個のせる。",
+          "text_ko": "이 포켓몬이 배틀필드에서 상대 포켓몬에게 기술의 데미지를 받아 기절했을 때 기술을 사용한 포켓몬에게 데미지카운터를 6개 올린다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "おいつめる",
+          "name_ko": "몰아붙이기",
+          "damage": "20",
+          "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+          "text_ko": "다음 상대 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV9",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV9/047014_P_MARAKATCHI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47014",
+      "decks": [
+        "mega-chandelure"
+      ],
+      "deckCounts": {
+        "mega-chandelure": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
       "id": 49376,
       "name_ja": "ポケギア3.0",
       "name_ko": "포켓기어 3.0",
@@ -6440,6 +6796,58 @@
       ],
       "deckCounts": {
         "mega-livolt": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48274,
+      "name_ja": "プライムキャッチャー",
+      "name_ko": "프라임 캐처",
+      "category": "trainer",
+      "subtype_ko": "굿즈(ACE SPEC)",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、自分のバトルポケモンをベンチポケモンと入れ替える。 グッズは、自分の番に何枚でも使える。 ACE SPECのカードは、デッキに1枚しか入れられない。",
+      "text_ko": "상대 벤치 포켓몬을 1마리 선택해 배틀 포켓몬과 교체한다. 그 후 자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다. ACE SPEC 카드는 덱에 1장밖에 넣을 수 없다.",
+      "set": "MBG",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MBG/048274_T_PURAIMUKIXYATCHIXYA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48274",
+      "decks": [
+        "mega-chandelure"
+      ],
+      "deckCounts": {
+        "mega-chandelure": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49421,
+      "name_ja": "クセロシキのたくらみ",
+      "name_ko": "크세로시키의 책략",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "相手は相手自身の手札を、3枚になるようにトラッシュする。 サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "상대는 상대 자신의 패를 3장이 되도록 트래시한다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049421_T_KUSEROSHIKINOTAKURAMI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49421",
+      "decks": [
+        "mega-chandelure"
+      ],
+      "deckCounts": {
+        "mega-chandelure": 1
       },
       "tiers": [
         4
