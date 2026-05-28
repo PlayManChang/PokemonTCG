@@ -1,5 +1,7 @@
 // PJCS 용어집 Service Worker — 오프라인 지원 (stale-while-revalidate)
-const CACHE = 'pjcs-v4';
+// + 카드 이미지 런타임 캐싱(한 번 본 카드는 오프라인에서도 표시)
+const CACHE = 'pjcs-v5';
+const IMG_CACHE = 'pjcs-cardimg-v1';
 const ASSETS = [
   './',
   './index.html',
@@ -23,7 +25,7 @@ self.addEventListener('install', (e) => {
 self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE && k !== IMG_CACHE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
@@ -31,6 +33,26 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET') return;
+
+  // 외부 카드 이미지(pokemon-card.com): 캐시 우선 런타임 캐싱 → 한 번 보면 오프라인에서도 표시
+  const url = new URL(req.url);
+  if (url.hostname.endsWith('pokemon-card.com') && url.pathname.includes('card_images')) {
+    e.respondWith(
+      caches.open(IMG_CACHE).then(async (cache) => {
+        const hit = await cache.match(req);
+        if (hit) return hit;
+        try {
+          const res = await fetch(req);
+          if (res && (res.ok || res.type === 'opaque')) cache.put(req, res.clone());
+          return res;
+        } catch (err) {
+          return hit || Response.error();
+        }
+      })
+    );
+    return;
+  }
+
   e.respondWith(
     caches.open(CACHE).then(async (cache) => {
       const cached = await cache.match(req);
