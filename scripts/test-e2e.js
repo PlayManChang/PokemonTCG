@@ -111,8 +111,9 @@ function assert(cond, msg) {
     assert(fs.existsSync(shot), `스크린샷 저장: test-output/mobile-greetings.png`);
 
     console.log('\n[8] 카드 검색 페이지');
-    await page.goto(BASE + '/cards.html', { waitUntil: 'networkidle0' });
-    await page.waitForSelector('.pcard', { timeout: 5000 });
+    // 카드 이미지는 외부(pokemon-card.com) 리소스라 CI 안정성을 위해 DOM 기준으로 대기
+    await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' });
+    await page.waitForSelector('.pcard', { timeout: 8000 });
     const pcardCount = await page.$$eval('.pcard', (e) => e.length);
     assert(pcardCount === cardTotal, `카드 ${pcardCount}장 렌더 (데이터 ${cardTotal}장과 일치)`);
     const hasAbility = await page.$('.pblock.ability');
