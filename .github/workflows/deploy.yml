@@ -22,8 +22,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - run: npm ci
       # data/sources/*.json -> data/terms.json 재생성 (소스가 정본)
       - run: node scripts/merge-terms.js
+      # Puppeteer 헤드리스 Chrome E2E 테스트 (실패 시 배포 중단)
+      - run: npm test
       # 배포용 dist/ 생성
       - run: node scripts/build.js
       - uses: actions/upload-pages-artifact@v3

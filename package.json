@@ -1,0 +1,15 @@
+{
+  "name": "pjcs-term-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "일본 PJCS 출전용 포켓몬 카드게임 용어집 (PWA)",
+  "scripts": {
+    "merge": "node scripts/merge-terms.js",
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js",
+    "test": "node scripts/test-e2e.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.1.0"
+  }
+}
