@@ -1,17 +1,30 @@
 'use strict';
 
-const state = { decks: [], cards: [], tier: null, deck: null, filter: 'all', query: '' };
+const state = { decks: [], cards: [], mode: 'deck', tier: null, deck: null, set: null, filter: 'all', query: '' };
 const els = {
   list: document.getElementById('list'),
   chips: document.getElementById('chips'),
   tierRow: document.getElementById('tierRow'),
   deckRow: document.getElementById('deckRow'),
+  setRow: document.getElementById('setRow'),
+  deckSelectors: document.getElementById('deckSelectors'),
+  setSelectors: document.getElementById('setSelectors'),
+  modeDeck: document.getElementById('modeDeck'),
+  modeSet: document.getElementById('modeSet'),
   search: document.getElementById('search'),
   clear: document.getElementById('clearSearch'),
   count: document.getElementById('resultCount'),
   empty: document.getElementById('empty'),
   deckInfo: document.getElementById('deckInfo'),
 };
+
+// 세트 코드 → 표시 이름 (확실한 것만; 나머지는 코드 그대로)
+const SET_NAMES = {
+  M5: '어비스아이 (최신)', M4: '메가브레이브·심포니아', M3: '무니키스제로',
+  MC: '스타트덱', SV10: '로켓단의 영광', SV9: '배틀파트너스', SV8: '초전브레이커',
+  SV8a: '테라스탈페스ex', SV6: '변환의 가면', SV7: '스텔라미라클',
+};
+const setLabel = (code) => SET_NAMES[code] ? `${code} · ${SET_NAMES[code]}` : code;
 
 init();
 
@@ -30,11 +43,48 @@ async function init() {
   state.deck = (state.decks.find((d) => d.tier === state.tier) || {}).id;
   buildTierRow(tiers);
   buildDeckRow();
+  // 세트 목록 (보유 카드 수 기준, M5 우선)
+  const setCount = (s) => state.cards.filter((c) => c.set === s).length;
+  state.sets = [...new Set(state.cards.map((c) => c.set).filter(Boolean))]
+    .sort((a, b) => (b === 'M5') - (a === 'M5') || setCount(b) - setCount(a));
+  state.set = state.sets[0];
+  buildSetRow();
   buildCategoryChips();
   bindEvents();
+  bindModeToggle();
   renderDeckInfo();
   render();
   registerSW();
+}
+
+function buildSetRow() {
+  const setCount = (s) => state.cards.filter((c) => c.set === s).length;
+  els.setRow.innerHTML = '';
+  state.sets.forEach((s) => {
+    const b = chip(`${setLabel(s)} (${setCount(s)})`, s, s === state.set);
+    b.addEventListener('click', () => {
+      state.set = s;
+      [...els.setRow.children].forEach((c) => c.classList.toggle('active', c.dataset.id === s));
+      renderDeckInfo();
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    els.setRow.appendChild(b);
+  });
+}
+
+function bindModeToggle() {
+  const setMode = (m) => {
+    state.mode = m;
+    els.modeDeck.classList.toggle('active', m === 'deck');
+    els.modeSet.classList.toggle('active', m === 'set');
+    els.deckSelectors.hidden = m !== 'deck';
+    els.setSelectors.hidden = m !== 'set';
+    renderDeckInfo();
+    render();
+  };
+  els.modeDeck.addEventListener('click', () => setMode('deck'));
+  els.modeSet.addEventListener('click', () => setMode('set'));
 }
 
 function tierLabel(t) {
@@ -115,8 +165,17 @@ function bindEvents() {
 }
 
 function renderDeckInfo() {
-  const d = state.decks.find((x) => x.id === state.deck);
   els.deckInfo.textContent = '';
+  if (state.mode === 'set') {
+    const cnt = state.cards.filter((c) => c.set === state.set).length;
+    const strong = document.createElement('strong');
+    strong.textContent = setLabel(state.set);
+    const span = document.createElement('span');
+    span.textContent = `  ·  이 세트 보유 ${cnt}종 (한국 미발매 일본 카드)`;
+    els.deckInfo.append(strong, span);
+    return;
+  }
+  const d = state.decks.find((x) => x.id === state.deck);
   if (!d) return;
   const deckCards = state.cards.filter((c) => (c.decks || []).includes(d.id));
   const totalQty = deckCards.reduce((s, c) => s + (c.deckCounts[d.id] || 0), 0);
@@ -137,7 +196,8 @@ function cardText(c) {
 function getFiltered() {
   const q = state.query.toLowerCase();
   return state.cards.filter((c) => {
-    if (!(c.decks || []).includes(state.deck)) return false;
+    if (state.mode === 'deck') { if (!(c.decks || []).includes(state.deck)) return false; }
+    else if (c.set !== state.set) return false;
     if (state.filter !== 'all' && c.category !== state.filter) return false;
     if (!q) return true;
     return cardText(c).includes(q);
@@ -211,8 +271,9 @@ function cardEl(c) {
 
   const badges = document.createElement('div');
   badges.className = 'pcard-badges';
-  const qty = c.deckCounts && c.deckCounts[state.deck];
+  const qty = state.mode === 'deck' && c.deckCounts && c.deckCounts[state.deck];
   if (qty) badges.appendChild(badge('×' + qty, 'b-qty'));
+  if (state.mode === 'set' && c.set) badges.appendChild(badge(c.set, 'b-type'));
   if (c.subtype_ko) badges.appendChild(badge(c.subtype_ko, 'b-type'));
   if (c.hp) badges.appendChild(badge('HP ' + c.hp, 'b-hp'));
   if (c.type_ko) badges.appendChild(badge(c.type_ko));

@@ -49,6 +49,7 @@ function assert(cond, msg) {
   const deckCards = cardData.cards.filter((c) => (c.decks || []).includes(firstDeck));
   const deckTotal = deckCards.length;
   const deckPokemon = deckCards.filter((c) => c.category === 'pokemon').length;
+  const setM5 = cardData.cards.filter((c) => c.set === 'M5').length;
 
   const server = await startServer();
   const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
@@ -149,7 +150,18 @@ function assert(cond, msg) {
     const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
     assert(menuVisible && menuLinks === 3, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/환경분석)`);
 
-    console.log('\n[11] 콘솔 에러');
+    console.log('\n[11] 세트별 보기 (M5 아비스아이)');
+    await page.click('body'); // 햄버거 메뉴 닫기
+    await new Promise((r) => setTimeout(r, 120));
+    await page.click('#modeSet');
+    await new Promise((r) => setTimeout(r, 200));
+    await page.click('#chips .chip[data-id="all"]'); // 카테고리 초기화
+    await new Promise((r) => setTimeout(r, 200));
+    const setChips = await page.$$eval('#setRow .chip', (e) => e.length);
+    const setCards = await page.$$eval('.pcard', (e) => e.length);
+    assert(setChips >= 1 && setCards === setM5, `세트별 모드: 세트칩 ${setChips}개, 기본세트(M5) ${setCards}종 (데이터 ${setM5}종)`);
+
+    console.log('\n[12] 콘솔 에러');
     const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices|pokemon-card\.com|net::ERR/i.test(e));
     assert(realErrors.length === 0, `콘솔 에러 ${realErrors.length}건` + (realErrors.length ? ': ' + realErrors.join('; ') : ''));
   } catch (e) {

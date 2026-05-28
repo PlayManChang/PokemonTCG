@@ -269,6 +269,28 @@ mark { background: var(--yellow); color: inherit; padding: 0 1px; border-radius:
 }
 .deck-row .chip { background: rgba(255, 255, 255, .16); }
 .badge.b-qty { background: #1a64d4; color: #fff; }
+
+.mode-toggle {
+  display: flex;
+  gap: 6px;
+  max-width: var(--maxw);
+  margin: 4px auto 2px;
+  background: rgba(255, 255, 255, .15);
+  border-radius: 999px;
+  padding: 3px;
+  width: fit-content;
+}
+.mode-btn {
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-weight: 700;
+  font-size: .85rem;
+  padding: 6px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.mode-btn.active { background: #fff; color: #0f4aa6; }
 .deck-info {
   max-width: var(--maxw);
   margin: 0 auto 8px;
