@@ -1,0 +1,315 @@
+[
+  {
+    "id": 47068,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "Nのゾロア",
+    "name_ko": "N의 조로아",
+    "hp": 70,
+    "type_ko": "악",
+    "regulation": "SV9",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "악",
+        "name_ja": "ひっかく",
+        "name_ko": "할퀴기",
+        "damage": "20",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「배틀 파트너즈(バトルパートナーズ)」",
+    "number": "060/100",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47068"
+  },
+  {
+    "id": 47069,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬 / 포켓몬 ex",
+    "name_ja": "Nのゾロアークex",
+    "name_ko": "N의 조로아크 ex",
+    "hp": 280,
+    "type_ko": "악",
+    "regulation": "SV9",
+    "abilities": [
+      {
+        "name_ja": "とりひき",
+        "name_ko": "거래",
+        "text_ja": "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を2枚引く。",
+        "text_ko": "자신의 차례에 자신의 패를 1장 트래시한다면 1회 사용할 수 있다. 자신의 덱을 2장 뽑는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "악악",
+        "name_ja": "ナイトジョーカー",
+        "name_ko": "나이트 조커",
+        "damage": "",
+        "text_ja": "自分のベンチの「Nのポケモン」が持つワザを1つ選び、このワザとして使う。",
+        "text_ko": "자신의 벤치에 있는 'N의 포켓몬'이 가진 기술을 1개 선택해 이 기술로 사용한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「배틀 파트너즈(バトルパートナーズ)」",
+    "number": "061/100",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47069"
+  },
+  {
+    "id": 47023,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "Nのダルマッカ",
+    "name_ko": "N의 달막카",
+    "hp": 80,
+    "type_ko": "불꽃",
+    "regulation": "SV9",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색무색",
+        "name_ja": "ころがりタックル",
+        "name_ko": "구르기 태클",
+        "damage": "20",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "cost_ko": "불꽃불꽃무색",
+        "name_ja": "ほのお",
+        "name_ko": "불꽃",
+        "damage": "50",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「배틀 파트너즈(バトルパートナーズ)」",
+    "number": "015/100",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47023"
+  },
+  {
+    "id": 47024,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "Nのヒヒダルマ",
+    "name_ko": "N의 불비달마",
+    "hp": 140,
+    "type_ko": "불꽃",
+    "regulation": "SV9",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색무색",
+        "name_ja": "バックドラフト",
+        "name_ko": "백드래프트",
+        "damage": "30×",
+        "text_ja": "相手のトラッシュにある基本エネルギーの枚数×30ダメージ。",
+        "text_ko": "상대의 트래시에 있는 기본 에너지의 수 ×30 데미지."
+      },
+      {
+        "cost_ko": "불꽃불꽃무색",
+        "name_ja": "ひだるまキャノン",
+        "name_ko": "오뚝이 캐논",
+        "damage": "90",
+        "text_ja": "このポケモンについているエネルギーをすべてトラッシュし、相手のベンチポケモン1匹にも、90ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+        "text_ko": "이 포켓몬에 붙어 있는 에너지를 모두 트래시하고, 상대의 벤치 포켓몬 1마리에게도 90 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「배틀 파트너즈(バトルパートナーズ)」",
+    "number": "016/100",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47024"
+  },
+  {
+    "id": 47082,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "Nのレシラム",
+    "name_ko": "N의 레시라무",
+    "hp": 130,
+    "type_ko": "드래곤",
+    "regulation": "SV9",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "불꽃번개",
+        "name_ja": "パワーレイジ",
+        "name_ko": "파워 레이지",
+        "damage": "20×",
+        "text_ja": "このポケモンにのっているダメカンの数×20ダメージ。",
+        "text_ko": "이 포켓몬에 올려져 있는 데미지 카운터의 수 ×20 데미지."
+      },
+      {
+        "cost_ko": "불꽃불꽃번개무색",
+        "name_ja": "イノセントフレイム",
+        "name_ko": "이노센트 플레임",
+        "damage": "170",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「배틀 파트너즈(バトルパートナーズ)」",
+    "number": "074/100",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47082"
+  },
+  {
+    "id": 48651,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "Nのゼクロム",
+    "name_ko": "N의 제크로무",
+    "hp": 130,
+    "type_ko": "드래곤",
+    "regulation": "M2a",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색무색무색",
+        "name_ja": "ひきさく",
+        "name_ko": "찢어발기기",
+        "damage": "70",
+        "text_ja": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+        "text_ko": "이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다."
+      },
+      {
+        "cost_ko": "불꽃번개번개무색",
+        "name_ja": "ランページサンダー",
+        "name_ko": "램페이지 선더",
+        "damage": "250",
+        "text_ja": "次の自分の番、このポケモンはワザが使えない。",
+        "text_ko": "다음 자신의 차례에 이 포켓몬은 기술을 사용할 수 없다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "하이클래스팩 「MEGA 드림 ex(MEGAドリームex)」",
+    "number": "129/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48651"
+  },
+  {
+    "id": 46766,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬 / 포켓몬 ex",
+    "name_ja": "モモワロウex",
+    "name_ko": "모모와로우 ex",
+    "hp": 190,
+    "type_ko": "악",
+    "regulation": "SV8a",
+    "abilities": [
+      {
+        "name_ja": "しはいのくさり",
+        "name_ko": "지배의 사슬",
+        "text_ja": "自分の番に1回使える。自分のベンチの[悪]ポケモン（「モモワロウex」をのぞく）を1匹選び、バトルポケモンと入れ替える。その後、新しいバトルポケモンをどくにする。この番、すでに別の「しはいのくさり」を使っていたなら、この特性は使えない。",
+        "text_ko": "자신의 차례에 1회 사용할 수 있다. 자신의 벤치에 있는 [악]포켓몬('모모와로우 ex'는 제외)을 1마리 선택해 배틀 포켓몬과 교체한다. 그 후 새로운 배틀 포켓몬을 독 상태로 만든다. 이 차례에 이미 다른 '지배의 사슬'을 사용했다면 이 특성은 사용할 수 없다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "악악",
+        "name_ja": "イライラバースト",
+        "name_ko": "짜증 버스트",
+        "damage": "60×",
+        "text_ja": "相手がすでにとったサイドの枚数×60ダメージ。",
+        "text_ko": "상대가 이미 가져간 사이드의 수 ×60 데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "하이클래스팩 「테라스탈 페스 ex(テラスタルフェスex)」",
+    "number": "105/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46766"
+  },
+  {
+    "id": 47097,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "Nのポイントアップ",
+    "name_ko": "N의 포인트업",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV9",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分のトラッシュから基本エネルギーを1枚選び、ベンチの「Nのポケモン」につける。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 트래시에서 기본 에너지를 1장 선택해 벤치의 'N의 포켓몬'에 붙인다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "확장팩 「배틀 파트너즈(バトルパートナーズ)」",
+    "number": "089/100",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47097"
+  },
+  {
+    "id": 46815,
+    "category": "trainer",
+    "subtype_ko": "포켓몬의 도구",
+    "name_ja": "くさりもち",
+    "name_ko": "사슬떡(くさりもち)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV8a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードをつけているどくのポケモンが使うワザの、相手のバトルポケモンへのダメージは「+40」される。ポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+    "text_ko": "이 카드를 붙이고 있는 독 상태의 포켓몬이 사용하는 기술의, 상대 배틀 포켓몬에게 주는 데미지는 '+40'된다. 포켓몬의 도구는 자신의 차례에 몇 장이든 자신의 포켓몬에 붙일 수 있다. 포켓몬 1마리당 1장만 붙일 수 있으며 붙인 채로 둔다.",
+    "set": "하이클래스팩 「테라스탈 페스 ex(テラスタルフェスex)」",
+    "number": "154/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46815"
+  },
+  {
+    "id": 46442,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "シアノ",
+    "name_ko": "시아노",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV8",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札から「ポケモンex」を3枚まで選び、相手に見せて、手札に加える。そして山札を切る。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 덱에서 '포켓몬 ex'를 3장까지 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "확장팩 「초전 브레이커(超電ブレイカー)」",
+    "number": "102/106",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46442"
+  },
+  {
+    "id": 49415,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "アンズの秘技",
+    "name_ko": "안즈의 비기",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "MC",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の[悪]ポケモンを2匹まで選び、自分の山札から「基本[悪]エネルギー」を1枚ずつつける。そして山札を切る。バトルポケモンにつけた場合、そのポケモンをどくにする。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 [악]포켓몬을 2마리까지 선택해 자신의 덱에서 '기본 [악]에너지'를 1장씩 붙인다. 그리고 덱을 섞는다. 배틀 포켓몬에 붙인 경우, 그 포켓몬을 독 상태로 만든다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "스타트 덱 100 배틀 컬렉션(スタートデッキ100 バトルコレクション)",
+    "number": "699/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49415"
+  },
+  {
+    "id": 46605,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "からておうの稽古",
+    "name_ko": "가라테왕의 수련",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SVM",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "この番、自分のポケモンが使うワザの、相手のバトル場の「ポケモンex」へのダメージは「+40」される。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "이 차례에 자신의 포켓몬이 사용하는 기술의, 상대 배틀필드의 '포켓몬 ex'에게 주는 데미지는 '+40'된다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "스타트 덱 Generations 코라이돈 ex·파르데아도오 ex(スタートデッキGenerations)",
+    "number": "151/175",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46605"
+  }
+]

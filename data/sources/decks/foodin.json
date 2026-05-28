@@ -1,0 +1,177 @@
+[
+  {
+    "id": "47832",
+    "set": "M1S",
+    "type": "P",
+    "romaji": "KESHII",
+    "count": 1
+  },
+  {
+    "id": "47833",
+    "set": "M1S",
+    "type": "P",
+    "romaji": "YUNGERA",
+    "count": 1
+  },
+  {
+    "id": "47834",
+    "set": "M1S",
+    "type": "P",
+    "romaji": "FUDEIN",
+    "count": 1
+  },
+  {
+    "id": "49290",
+    "set": "MC",
+    "type": "P",
+    "romaji": "NOKOTCHI",
+    "count": 1
+  },
+  {
+    "id": "45203",
+    "set": "SV5K",
+    "type": "P",
+    "romaji": "NOKOKOTCHI",
+    "count": 1
+  },
+  {
+    "id": "47860",
+    "set": "MA",
+    "type": "P",
+    "romaji": "SHIEIMI",
+    "count": 1
+  },
+  {
+    "id": "47492",
+    "set": "SV-P",
+    "type": "P",
+    "romaji": "KODAKKU",
+    "count": 1
+  },
+  {
+    "id": "49205",
+    "set": "MC",
+    "type": "P",
+    "romaji": "KICHIKIGISUEX",
+    "count": 1
+  },
+  {
+    "id": "45209",
+    "set": "SV5K",
+    "type": "T",
+    "romaji": "NAKAYOSHIPOFUIN",
+    "count": 1
+  },
+  {
+    "id": "49601",
+    "set": "M-P",
+    "type": "T",
+    "romaji": "POKEPADDO",
+    "count": 1
+  },
+  {
+    "id": "47880",
+    "set": "MA",
+    "type": "T",
+    "romaji": "FUSHIGINAAME",
+    "count": 1
+  },
+  {
+    "id": "46799",
+    "set": "SV8a",
+    "type": "T",
+    "romaji": "KAIZOUHANMA",
+    "count": 1
+  },
+  {
+    "id": "48298",
+    "set": "MBD",
+    "type": "T",
+    "romaji": "YORUNOTANKA",
+    "count": 1
+  },
+  {
+    "id": "48299",
+    "set": "MBD",
+    "type": "T",
+    "romaji": "WANDAPATCHI",
+    "count": 1
+  },
+  {
+    "id": "48672",
+    "set": "M2a",
+    "type": "T",
+    "romaji": "SEINARUHAI",
+    "count": 1
+  },
+  {
+    "id": "50156",
+    "set": "M4",
+    "type": "T",
+    "romaji": "SUPESHIXYARUREDDOKADO",
+    "count": 1
+  },
+  {
+    "id": "47707",
+    "set": "SV11W",
+    "type": "T",
+    "romaji": "TOUKO",
+    "count": 1
+  },
+  {
+    "id": "48417",
+    "set": "M2",
+    "type": "T",
+    "romaji": "HIKARI",
+    "count": 1
+  },
+  {
+    "id": "45387",
+    "set": "SVHM",
+    "type": "T",
+    "romaji": "BOSUNOSHIREI",
+    "count": 1
+  },
+  {
+    "id": "49428",
+    "set": "MC",
+    "type": "T",
+    "romaji": "SUIRENNOOSEWA",
+    "count": 1
+  },
+  {
+    "id": "45214",
+    "set": "SV5K",
+    "type": "T",
+    "romaji": "BIWA",
+    "count": 1
+  },
+  {
+    "id": "48419",
+    "set": "M2",
+    "type": "T",
+    "romaji": "BATORUKOROSHIAMU",
+    "count": 1
+  },
+  {
+    "id": "46293",
+    "set": "SV7a",
+    "type": "E",
+    "romaji": "RITCHIENERUGI",
+    "count": 1
+  },
+  {
+    "id": "49712",
+    "set": "M3",
+    "type": "E",
+    "romaji": "TEREPASUCHIXYOUENERUGI",
+    "count": 1
+  },
+  {
+    "id": "42783",
+    "set": "ENE",
+    "type": "E",
+    "romaji": "KIHONCHIXYOUENERUGI",
+    "count": 1
+  }
+]

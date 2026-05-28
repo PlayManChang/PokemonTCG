@@ -1,0 +1,170 @@
+[
+  {
+    "id": "47432",
+    "set": "SV10",
+    "type": "P",
+    "romaji": "ROKETTODANNOMIXYUUTSUEX",
+    "count": 1
+  },
+  {
+    "id": "47401",
+    "set": "SV10",
+    "type": "P",
+    "romaji": "ROKETTODANNOTAMANCHIXYURA",
+    "count": 1
+  },
+  {
+    "id": "47402",
+    "set": "SV10",
+    "type": "P",
+    "romaji": "ROKETTODANNOWANAIDA",
+    "count": 1
+  },
+  {
+    "id": "47435",
+    "set": "SV10",
+    "type": "P",
+    "romaji": "ROKETTODANNOMIMIKKIXYU",
+    "count": 1
+  },
+  {
+    "id": "47415",
+    "set": "SV10",
+    "type": "P",
+    "romaji": "ROKETTODANNOFURIZA",
+    "count": 1
+  },
+  {
+    "id": "47041",
+    "set": "SV9",
+    "type": "P",
+    "romaji": "RIRIENOPIPPIEX",
+    "count": 1
+  },
+  {
+    "id": "49164",
+    "set": "MC",
+    "type": "P",
+    "romaji": "ROKETTODANNONIXYURA",
+    "count": 1
+  },
+  {
+    "id": "47282",
+    "set": "SVOD",
+    "type": "T",
+    "romaji": "HAIPABORU",
+    "count": 1
+  },
+  {
+    "id": "48679",
+    "set": "M2a",
+    "type": "T",
+    "romaji": "MUSHITORISETTO",
+    "count": 1
+  },
+  {
+    "id": "47483",
+    "set": "SV10",
+    "type": "T",
+    "romaji": "ROKETTODANNORESHIBA",
+    "count": 1
+  },
+  {
+    "id": "46581",
+    "set": "SVM",
+    "type": "T",
+    "romaji": "ENERUGITSUKEKAE",
+    "count": 1
+  },
+  {
+    "id": "47198",
+    "set": "SVN",
+    "type": "T",
+    "romaji": "YORUNOTANKA",
+    "count": 1
+  },
+  {
+    "id": "49405",
+    "set": "MC",
+    "type": "T",
+    "romaji": "BUREIBUBANGURU",
+    "count": 1
+  },
+  {
+    "id": "47890",
+    "set": "MA",
+    "type": "T",
+    "romaji": "MAKISHIMAMUBERUTO",
+    "count": 1
+  },
+  {
+    "id": "49609",
+    "set": "M-P",
+    "type": "T",
+    "romaji": "RIRIENOKESSHIN",
+    "count": 1
+  },
+  {
+    "id": "47484",
+    "set": "SV10",
+    "type": "T",
+    "romaji": "ROKETTODANNOATENA",
+    "count": 1
+  },
+  {
+    "id": "47486",
+    "set": "SV10",
+    "type": "T",
+    "romaji": "ROKETTODANNOSAKAKI",
+    "count": 1
+  },
+  {
+    "id": "47488",
+    "set": "SV10",
+    "type": "T",
+    "romaji": "ROKETTODANNORANSU",
+    "count": 1
+  },
+  {
+    "id": "47485",
+    "set": "SV10",
+    "type": "T",
+    "romaji": "ROKETTODANNOAPORO",
+    "count": 1
+  },
+  {
+    "id": "48701",
+    "set": "M2a",
+    "type": "T",
+    "romaji": "ROKETTODANNORAMUDA",
+    "count": 1
+  },
+  {
+    "id": "47490",
+    "set": "SV10",
+    "type": "T",
+    "romaji": "ROKETTODANNOFUAKUTORI",
+    "count": 1
+  },
+  {
+    "id": "47491",
+    "set": "SV10",
+    "type": "E",
+    "romaji": "ROKETTODANENERUGI",
+    "count": 1
+  },
+  {
+    "id": "46116",
+    "set": "ENE",
+    "type": "E",
+    "romaji": "KIHONKUSAENERUGI",
+    "count": 1
+  },
+  {
+    "id": "46120",
+    "set": "ENE",
+    "type": "E",
+    "romaji": "KIHONCHIXYOUENERUGI",
+    "count": 1
+  }
+]

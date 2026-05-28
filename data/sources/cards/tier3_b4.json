@@ -1,0 +1,302 @@
+[
+  {
+    "id": 46372,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "パオジアン",
+    "name_ko": "파오젠",
+    "hp": 120,
+    "type_ko": "물",
+    "regulation": "SV8",
+    "abilities": [
+      {
+        "name_ja": "ゆきにしずめる",
+        "name_ko": "눈에 잠재우기",
+        "effect_ja": "自分の番に、このカードを手札からベンチに出したとき、1回使える。場に出ているスタジアムをトラッシュする。",
+        "effect_ko": "자신의 차례에 이 카드를 패에서 벤치에 냈을 때 1번 쓸 수 있다. 필드에 나와 있는 스타디움을 트래시한다.",
+        "text_ja": "自分の番に、このカードを手札からベンチに出したとき、1回使える。場に出ているスタジアムをトラッシュする。",
+        "text_ko": "자신의 차례에 이 카드를 패에서 벤치에 냈을 때 1번 쓸 수 있다. 필드에 나와 있는 스타디움을 트래시한다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "アイシクルループ",
+        "name_ko": "아이시클 루프",
+        "damage": "120",
+        "effect_ja": "このポケモンについているエネルギーを1個選び、手札にもどす。",
+        "effect_ko": "이 포켓몬에게 붙어 있는 에너지를 1개 골라 패로 되돌린다.",
+        "text_ja": "このポケモンについているエネルギーを1個選び、手札にもどす。",
+        "text_ko": "이 포켓몬에게 붙어 있는 에너지를 1개 골라 패로 되돌린다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「초전 브레이커」",
+    "number": "032/106",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46372"
+  },
+  {
+    "id": 42020,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "エネルギーつけかえ",
+    "name_ko": "에너지 전환",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "S11a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の場のポケモンについている基本エネルギーを1個選び、自分の別のポケモンにつけ替える。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 필드 포켓몬에게 붙어 있는 기본 에너지를 1개 골라 자신의 다른 포켓몬에게 옮겨 붙인다. 굿즈는 자신의 차례에 몇 장이든 쓸 수 있다.",
+    "set": "강화확장팩 「백열의 아르카나」",
+    "number": "059/068",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42020"
+  },
+  {
+    "id": 48671,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "ガラスのラッパ",
+    "name_ko": "유리 나팔",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M2a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、自分の場に『テラスタル』のポケモンがいるときにしか使えない。自分のベンチのポケモンを2匹まで選び、トラッシュから基本エネルギーを1枚ずつつける。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "이 카드는 자신의 필드에 '테라스탈' 포켓몬이 있을 때만 쓸 수 있다. 자신의 벤치 포켓몬을 2마리까지 골라 트래시에서 기본 에너지를 1장씩 붙인다. 굿즈는 자신의 차례에 몇 장이든 쓸 수 있다.",
+    "set": "하이클래스팩 「MEGA 드림 ex」",
+    "number": "149/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48671"
+  },
+  {
+    "id": 36954,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "エネルギー回収",
+    "name_ko": "에너지 회수",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SM11a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分のトラッシュにある基本エネルギーを2枚、相手に見せてから、手札に加える。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 트래시에 있는 기본 에너지를 2장, 상대에게 보여준 뒤 패에 넣는다. 굿즈는 자신의 차례에 몇 장이든 쓸 수 있다.",
+    "set": "강화확장팩 「리믹스 바우트」",
+    "number": "050/064",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/36954"
+  },
+  {
+    "id": 46843,
+    "category": "trainer",
+    "subtype_ko": "스타디움",
+    "name_ja": "ゼロの大空洞",
+    "name_ko": "제로의 대공동",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV8a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の場に『テラスタル』のポケモンがいるプレイヤーが、ベンチに出せるポケモンの数は8匹になる。（このカードがトラッシュされたときか、自分の場に『テラスタル』のポケモンがいなくなったとき、ベンチが5匹になるまでトラッシュする。おたがいにトラッシュするなら、このカードの持ち主から行う。）スタジアムは、自分の番に1枚、バトル場の横に出せる。別のスタジアムが場に出たなら、このカードをトラッシュする。同じ名前のスタジアムは場に出せない。",
+    "text_ko": "자신의 필드에 '테라스탈' 포켓몬이 있는 플레이어가 벤치에 낼 수 있는 포켓몬의 수는 8마리가 된다. (이 카드가 트래시되었을 때나 자신의 필드에 '테라스탈' 포켓몬이 없어졌을 때, 벤치가 5마리가 될 때까지 트래시한다. 서로 트래시한다면 이 카드의 주인부터 한다.) 스타디움은 자신의 차례에 1장, 배틀필드 옆에 낼 수 있다. 다른 스타디움이 필드에 나오면 이 카드를 트래시한다. 같은 이름의 스타디움은 필드에 낼 수 없다.",
+    "set": "하이클래스팩 「테라스탈 페스 ex」",
+    "number": "182/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46843"
+  },
+  {
+    "id": 46119,
+    "category": "energy",
+    "subtype_ko": "기본 에너지",
+    "name_ja": "基本雷エネルギー",
+    "name_ko": "기본 번개 에너지",
+    "hp": null,
+    "type_ko": "번개",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46119"
+  },
+  {
+    "id": 46121,
+    "category": "energy",
+    "subtype_ko": "기본 에너지",
+    "name_ja": "基本闘エネルギー",
+    "name_ko": "기본 격투 에너지",
+    "hp": null,
+    "type_ko": "격투",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46121"
+  },
+  {
+    "id": 47761,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "リオル",
+    "name_ko": "리오르",
+    "hp": 80,
+    "type_ko": "격투",
+    "regulation": "M1L",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "かそくづき",
+        "name_ko": "가속 찌르기",
+        "damage": "30",
+        "effect_ja": "次の自分の番、このポケモンは「かそくづき」が使えない。",
+        "effect_ko": "다음 자신의 차례에 이 포켓몬은 「가속 찌르기」를 쓸 수 없다.",
+        "text_ja": "次の自分の番、このポケモンは「かそくづき」が使えない。",
+        "text_ko": "다음 자신의 차례에 이 포켓몬은 「가속 찌르기」를 쓸 수 없다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「메가 브레이브」",
+    "number": "028/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47761"
+  },
+  {
+    "id": 47762,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬 / 포켓몬 ex",
+    "name_ja": "メガルカリオex",
+    "name_ko": "메가루카리오 ex",
+    "hp": 340,
+    "type_ko": "격투",
+    "regulation": "M1L",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "はどうづき",
+        "name_ko": "파동 찌르기",
+        "damage": "130",
+        "effect_ja": "自分のトラッシュから「基本エネルギー」を3枚まで選び、ベンチポケモンに好きなようにつける。",
+        "effect_ko": "자신의 트래시에서 「기본 에너지」를 3장까지 골라 벤치 포켓몬에게 원하는 대로 붙인다.",
+        "text_ja": "自分のトラッシュから「基本エネルギー」を3枚まで選び、ベンチポケモンに好きなようにつける。",
+        "text_ko": "자신의 트래시에서 「기본 에너지」를 3장까지 골라 벤치 포켓몬에게 원하는 대로 붙인다."
+      },
+      {
+        "name_ja": "メガブレイブ",
+        "name_ko": "메가 브레이브",
+        "damage": "270",
+        "effect_ja": "次の自分の番、このポケモンは「メガブレイブ」が使えない。",
+        "effect_ko": "다음 자신의 차례에 이 포켓몬은 「메가 브레이브」를 쓸 수 없다.",
+        "text_ja": "次の自分の番、このポケモンは「メガブレイブ」が使えない。",
+        "text_ko": "다음 자신의 차례에 이 포켓몬은 「메가 브레이브」를 쓸 수 없다."
+      }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+    "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+    "set": "확장팩 「메가 브레이브」",
+    "number": "029/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47762"
+  },
+  {
+    "id": 47757,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "マクノシタ",
+    "name_ko": "마크노시타",
+    "hp": 80,
+    "type_ko": "격투",
+    "regulation": "M1L",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "どつく",
+        "name_ko": "쥐어박기",
+        "damage": "10",
+        "effect_ja": "",
+        "effect_ko": "",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "name_ja": "がちんこ",
+        "name_ko": "맞부딪기",
+        "damage": "30",
+        "effect_ja": "",
+        "effect_ko": "",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「메가 브레이브」",
+    "number": "024/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47757"
+  },
+  {
+    "id": 47758,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "ハリテヤマ",
+    "name_ko": "장풍을",
+    "hp": 150,
+    "type_ko": "격투",
+    "regulation": "M1L",
+    "abilities": [
+      {
+        "name_ja": "どすこいキャッチャー",
+        "name_ko": "도스코이 캐처",
+        "effect_ja": "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+        "effect_ko": "자신의 차례에 이 카드를 패에서 내어 진화시켰을 때 1번 쓸 수 있다. 상대의 벤치 포켓몬을 1마리 골라 배틀필드 포켓몬과 교체한다.",
+        "text_ja": "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+        "text_ko": "자신의 차례에 이 카드를 패에서 내어 진화시켰을 때 1번 쓸 수 있다. 상대의 벤치 포켓몬을 1마리 골라 배틀필드 포켓몬과 교체한다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "ワイルドプレス",
+        "name_ko": "와일드 프레스",
+        "damage": "210",
+        "effect_ja": "このポケモンにも70ダメージ。",
+        "effect_ko": "이 포켓몬에게도 70데미지.",
+        "text_ja": "このポケモンにも70ダメージ。",
+        "text_ko": "이 포켓몬에게도 70데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「메가 브레이브」",
+    "number": "025/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47758"
+  },
+  {
+    "id": 47760,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ソルロック",
+    "name_ko": "솔록",
+    "hp": 110,
+    "type_ko": "격투",
+    "regulation": "M1L",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "コスモビーム",
+        "name_ko": "코스모 빔",
+        "damage": "70",
+        "effect_ja": "自分のベンチに「ルナトーン」がいないなら、このワザは失敗。このワザのダメージは弱点・抵抗力を計算しない。",
+        "effect_ko": "자신의 벤치에 「루나톤」이 없다면 이 기술은 실패. 이 기술의 데미지는 약점·저항력을 계산하지 않는다.",
+        "text_ja": "自分のベンチに「ルナトーン」がいないなら、このワザは失敗。このワザのダメージは弱点・抵抗力を計算しない。",
+        "text_ko": "자신의 벤치에 「루나톤」이 없다면 이 기술은 실패. 이 기술의 데미지는 약점·저항력을 계산하지 않는다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「메가 브레이브」",
+    "number": "027/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47760"
+  }
+]

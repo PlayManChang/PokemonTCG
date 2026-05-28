@@ -1,0 +1,170 @@
+[
+  {
+    "id": "47761",
+    "set": "M1L",
+    "type": "P",
+    "romaji": "RIORU",
+    "count": 1
+  },
+  {
+    "id": "47762",
+    "set": "M1L",
+    "type": "P",
+    "romaji": "MRUKARIOEX",
+    "count": 1
+  },
+  {
+    "id": "47757",
+    "set": "M1L",
+    "type": "P",
+    "romaji": "MAKUNOSHITA",
+    "count": 1
+  },
+  {
+    "id": "47758",
+    "set": "M1L",
+    "type": "P",
+    "romaji": "HARITEYAMA",
+    "count": 1
+  },
+  {
+    "id": "47760",
+    "set": "M1L",
+    "type": "P",
+    "romaji": "SORUROKKU",
+    "count": 1
+  },
+  {
+    "id": "47759",
+    "set": "M1L",
+    "type": "P",
+    "romaji": "RUNATON",
+    "count": 1
+  },
+  {
+    "id": "49694",
+    "set": "M3",
+    "type": "P",
+    "romaji": "NIXYASUEX",
+    "count": 1
+  },
+  {
+    "id": "47792",
+    "set": "M1L",
+    "type": "T",
+    "romaji": "FUAITOGONGU",
+    "count": 1
+  },
+  {
+    "id": "47879",
+    "set": "MA",
+    "type": "T",
+    "romaji": "HAIPABORU",
+    "count": 1
+  },
+  {
+    "id": "49601",
+    "set": "M-P",
+    "type": "T",
+    "romaji": "POKEPADDO",
+    "count": 1
+  },
+  {
+    "id": "47791",
+    "set": "M1L",
+    "type": "T",
+    "romaji": "PAWAPUROTEIN",
+    "count": 1
+  },
+  {
+    "id": "47885",
+    "set": "MA",
+    "type": "T",
+    "romaji": "YORUNOTANKA",
+    "count": 1
+  },
+  {
+    "id": "47882",
+    "set": "MA",
+    "type": "T",
+    "romaji": "POKEMONIREKAE",
+    "count": 1
+  },
+  {
+    "id": "50156",
+    "set": "M4",
+    "type": "T",
+    "romaji": "SUPESHIXYARUREDDOKADO",
+    "count": 1
+  },
+  {
+    "id": "47889",
+    "set": "MA",
+    "type": "T",
+    "romaji": "FUUSEN",
+    "count": 1
+  },
+  {
+    "id": "47202",
+    "set": "SVN",
+    "type": "T",
+    "romaji": "MAKISHIMAMUBERUTO",
+    "count": 1
+  },
+  {
+    "id": "47900",
+    "set": "MA",
+    "type": "T",
+    "romaji": "RIRIENOKESSHIN",
+    "count": 1
+  },
+  {
+    "id": "49608",
+    "set": "M-P",
+    "type": "T",
+    "romaji": "JIXYAJJIMAN",
+    "count": 1
+  },
+  {
+    "id": "47898",
+    "set": "MA",
+    "type": "T",
+    "romaji": "BOSUNOSHIREI",
+    "count": 1
+  },
+  {
+    "id": "47856",
+    "set": "M1S",
+    "type": "T",
+    "romaji": "MITSURUNOOMOIYARI",
+    "count": 1
+  },
+  {
+    "id": "46446",
+    "set": "SV8",
+    "type": "T",
+    "romaji": "GURABITEIMAUNTEN",
+    "count": 1
+  },
+  {
+    "id": "47489",
+    "set": "SV10",
+    "type": "T",
+    "romaji": "ROKETTODANNOKANSHITOU",
+    "count": 1
+  },
+  {
+    "id": "47908",
+    "set": "ENE",
+    "type": "E",
+    "romaji": "KIHONTOUENERUGI",
+    "count": 1
+  },
+  {
+    "id": "49713",
+    "set": "M3",
+    "type": "E",
+    "romaji": "ROKKUTOUENERUGI",
+    "count": 1
+  }
+]

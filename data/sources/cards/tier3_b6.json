@@ -1,0 +1,282 @@
+[
+  {
+    "id": 47300,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "シロナのロズレイド",
+    "name_ko": "시로나의 로즈레이드(シロナのロズレイド)",
+    "hp": 130,
+    "type_ko": "풀",
+    "regulation": "SV9a",
+    "abilities": [
+      {
+        "name_ja": "グローリーエール",
+        "name_ko": "글로리 에일(グローリーエール)",
+        "text_ja": "このポケモンがいるかぎり、自分の「シロナのポケモン」が使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+        "text_ko": "이 포켓몬이 있는 한, 자신의 「시로나의 포켓몬」이 사용하는 기술의, 상대 배틀 포켓몬에 대한 데미지는 「+30」된다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "リーフステップ",
+        "name_ko": "리프 스텝(リーフステップ)",
+        "damage": "80",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "強化拡張パック「熱風のアリーナ」",
+    "number": "005/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47300"
+  },
+  {
+    "id": 47345,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "シロナのミカルゲ",
+    "name_ko": "시로나의 미카루게(シロナのミカルゲ)",
+    "hp": 70,
+    "type_ko": "초",
+    "regulation": "SV9a",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "レイジングカース",
+        "name_ko": "레이징 커스(レイジングカース)",
+        "damage": "10×",
+        "text_ja": "自分のベンチの「シロナのポケモン」全員にのっているダメカンの数×10ダメージ。このワザのダメージは弱点を計算しない。",
+        "text_ko": "자신의 벤치의 「시로나의 포켓몬」 모두에게 올려져 있는 데미지 카운터의 수×10 데미지. 이 기술의 데미지는 약점을 계산하지 않는다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "強化拡張パック「熱風のアリーナ」",
+    "number": "050/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47345"
+  },
+  {
+    "id": 47283,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "ふしぎなアメ",
+    "name_ko": "이상한 사탕(ふしぎなアメ)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SVOD",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の手札から2進化ポケモンを1枚選び、そのポケモンへと進化する自分の場のたねポケモンにのせ、1進化をとばして進化させる。最初の自分の番や、出したばかりのポケモンには使えない。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 패에서 2진화 포켓몬을 1장 선택하여, 그 포켓몬으로 진화하는 자신의 필드의 기본 포켓몬에 올려, 1진화를 건너뛰고 진화시킨다. 최초의 자신의 차례나, 막 낸 포켓몬에는 사용할 수 없다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "スターターセットex ダイゴのダンバル＆メタグロスex",
+    "number": "012/018",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47283"
+  },
+  {
+    "id": 47355,
+    "category": "trainer",
+    "subtype_ko": "포켓몬의 도구",
+    "name_ja": "シロナのパワーウエイト",
+    "name_ko": "시로나의 파워 웨이트(シロナのパワーウエイト)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV9a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードをつけている「シロナのポケモン」の最大HPは「＋70」される。ポケモン1匹につき1枚だけつけられ、つけたままにします。",
+    "text_ko": "이 카드를 붙이고 있는 「시로나의 포켓몬」의 최대 HP는 「＋70」된다. 포켓몬 1마리당 1장만 붙일 수 있으며, 붙인 채로 둔다.",
+    "set": "強化拡張パック「熱風のアリーナ」",
+    "number": "060/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47355"
+  },
+  {
+    "id": 47832,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ケーシィ",
+    "name_ko": "캐이시(ケーシィ)",
+    "hp": 50,
+    "type_ko": "초",
+    "regulation": "M1S",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "テレポートアタック",
+        "name_ko": "텔레포트 어택(テレポートアタック)",
+        "damage": "10",
+        "text_ja": "このポケモンをベンチポケモンと入れ替える。",
+        "text_ko": "이 포켓몬을 벤치 포켓몬과 교체한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "拡張パック「メガシンフォニア」",
+    "number": "036/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47832"
+  },
+  {
+    "id": 47833,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "ユンゲラー",
+    "name_ko": "윤겔라(ユンゲラー)",
+    "hp": 80,
+    "type_ko": "초",
+    "regulation": "M1S",
+    "abilities": [
+      {
+        "name_ja": "サイコドロー",
+        "name_ko": "사이코 드로(サイコドロー)",
+        "text_ja": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を2枚引く。",
+        "text_ko": "자신의 차례에, 이 카드를 패에서 내어 진화시켰을 때, 1회 사용할 수 있다. 자신의 덱을 2장 뽑는다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "ちょうねんりき",
+        "name_ko": "초염력(ちょうねんりき)",
+        "damage": "30",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "拡張パック「メガシンフォニア」",
+    "number": "037/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47833"
+  },
+  {
+    "id": 47834,
+    "category": "pokemon",
+    "subtype_ko": "2진화",
+    "name_ja": "フーディン",
+    "name_ko": "후딘(フーディン)",
+    "hp": 140,
+    "type_ko": "초",
+    "regulation": "M1S",
+    "abilities": [
+      {
+        "name_ja": "サイコドロー",
+        "name_ko": "사이코 드로(サイコドロー)",
+        "text_ja": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を3枚引く。",
+        "text_ko": "자신의 차례에, 이 카드를 패에서 내어 진화시켰을 때, 1회 사용할 수 있다. 자신의 덱을 3장 뽑는다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "ハンドパワー",
+        "name_ko": "핸드 파워(ハンドパワー)",
+        "damage": "",
+        "text_ja": "自分の手札の枚数×2個ぶんのダメカンを、相手のバトルポケモンにのせる。",
+        "text_ko": "자신의 패의 장수×2개 분량의 데미지 카운터를, 상대 배틀 포켓몬에게 올린다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "拡張パック「メガシンフォニア」",
+    "number": "038/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47834"
+  },
+  {
+    "id": 47492,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "コダック",
+    "name_ko": "고라파덕(コダック)",
+    "hp": 70,
+    "type_ko": "물",
+    "regulation": "SV-P",
+    "abilities": [
+      {
+        "name_ja": "しめりけ",
+        "name_ko": "습기(しめりけ)",
+        "text_ja": "このポケモンがいるかぎり、おたがいのポケモン全員は、そのポケモン自身をきぜつさせる効果の特性が、すべてなくなる。",
+        "text_ko": "이 포켓몬이 있는 한, 서로의 포켓몬 모두는, 그 포켓몬 자신을 기절시키는 효과의 특성이, 모두 없어진다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "ぶつかる",
+        "name_ko": "부딪치기(ぶつかる)",
+        "damage": "20",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "スカーレット＆バイオレット プロモカードパック第10弾",
+    "number": "262/SV-P",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47492"
+  },
+  {
+    "id": 46799,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "改造ハンマー",
+    "name_ko": "개조 해머(改造ハンマー)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV8a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "相手の場のポケモンについている特殊エネルギーを1個選び、トラッシュする。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "상대 필드의 포켓몬에 붙어 있는 특수 에너지를 1개 선택하여, 트래시한다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "ハイクラスパック「テラスタルフェスex」",
+    "number": "138/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46799"
+  },
+  {
+    "id": 48299,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "ワンダーパッチ",
+    "name_ko": "원더 패치(ワンダーパッチ)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "MBD",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチのポケモンにつける。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 트래시에서 「기본 에너지」를 1장 선택하여, 벤치의 포켓몬에 붙인다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "スターターセットMEGA メガディアンシーex",
+    "number": "015/021",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48299"
+  },
+  {
+    "id": 48672,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "せいなるはい",
+    "name_ko": "성스러운 재(せいなるはい)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M2a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分のトラッシュからポケモンを5枚まで選び、相手に見せて、山札にもどして切る。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 트래시에서 포켓몬을 5장까지 선택하여, 상대에게 보여주고, 덱으로 되돌려 섞는다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "ハイクラスパック「MEGAドリームex」",
+    "number": "150/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48672"
+  },
+  {
+    "id": 45214,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "ビワ",
+    "name_ko": "비와(ビワ)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV5K",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "相手の手札を見て、その中からグッズを2枚まで選び、トラッシュする。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "상대의 패를 보고, 그 중에서 굿즈를 2장까지 선택하여, 트래시한다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "拡張パック「ワイルドフォース」",
+    "number": "068/071",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45214"
+  }
+]

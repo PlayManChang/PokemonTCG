@@ -1,0 +1,281 @@
+[
+  {
+    "id": 45881,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "カプ・ブルル",
+    "name_ko": "카푸브루루",
+    "hp": 140,
+    "type_ko": "풀",
+    "regulation": "SV6a",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ウッドハンマー",
+        "name_ko": "우드해머",
+        "cost_ko": "풀 2 무색 1",
+        "damage": "220",
+        "text_ja": "このポケモンにも30ダメージ。",
+        "text_ko": "이 포켓몬에게도 30데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "강화확장팩 「나이트원더러(ナイトワンダラー)」",
+    "number": "006/064",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45881"
+  },
+  {
+    "id": 47197,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "むしとりセット",
+    "name_ko": "곤충채집 세트",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SVN",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札を上から7枚見て、その中からポケモンと『基本エネルギー』を合計2枚まで選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+    "text_ko": "자신의 덱을 위에서부터 7장 보고, 그중에서 포켓몬과 『기본 에너지』를 합계 2장까지 선택해 상대에게 보여주고 패에 넣는다. 남은 카드는 덱으로 되돌려 섞는다.",
+    "set": "덱빌드 BOX 「배틀파트너즈(バトルパートナーズ)」",
+    "number": "022/045",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47197"
+  },
+  {
+    "id": 48417,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "ヒカリ",
+    "name_ko": "히카리",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M2",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札から『たねポケモン』『1進化ポケモン』『2進化ポケモン』を1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
+    "text_ko": "자신의 덱에서 『기본 포켓몬』 『1진화 포켓몬』 『2진화 포켓몬』을 1장씩 선택해 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다.",
+    "set": "확장팩 「인페르노X(インフェルノX)」",
+    "number": "077/080",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48417"
+  },
+  {
+    "id": 49428,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "スイレンのお世話",
+    "name_ko": "수련의 보살핌",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "MC",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分のトラッシュからポケモン（「ルールを持つポケモン」をのぞく）と基本エネルギーを合計3枚まで選び、相手に見せて、手札に加える。",
+    "text_ko": "자신의 트래시(버리는 곳)에서 포켓몬(「룰을 가진 포켓몬」제외)과 기본 에너지를 합계 3장까지 선택해 상대에게 보여주고 패에 넣는다.",
+    "set": "스타트덱 100 배틀컬렉션(スタートデッキ100 バトルコレクション)",
+    "number": "712/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49428"
+  },
+  {
+    "id": 46837,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "ブライア",
+    "name_ko": "브라이어",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV8a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、相手のサイドの残り枚数が2枚のときにしか使えない。この番、自分の『テラスタル』のポケモンが使うワザのダメージで、相手のバトルポケモンがきぜつしたなら、サイドを1枚多くとる。",
+    "text_ko": "이 카드는 상대의 사이드 남은 매수가 2장일 때만 사용할 수 있다. 이 차례, 자신의 『테라스탈』 포켓몬이 사용하는 기술 데미지로 상대의 배틀 포켓몬이 기절했다면, 사이드를 1장 더 가져간다.",
+    "set": "하이클래스팩 「테라스탈페스ex(テラスタルフェスex)」",
+    "number": "176/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46837"
+  },
+  {
+    "id": 47857,
+    "category": "trainer",
+    "subtype_ko": "스타디움",
+    "name_ja": "活力の森",
+    "name_ko": "활력의 숲",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M1S",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいのポケモン全員は、出したばかりの番（最初の自分の番をのぞく）でもポケモンに進化できる。",
+    "text_ko": "서로의 포켓몬 전원은, 내보낸 직후의 차례(첫 자신의 차례 제외)에도 포켓몬으로 진화할 수 있다.",
+    "set": "확장팩 「메가심포니아(メガシンフォニア)」",
+    "number": "061/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47857"
+  },
+  {
+    "id": 45790,
+    "category": "trainer",
+    "subtype_ko": "스타디움",
+    "name_ja": "お祭り会場",
+    "name_ko": "축제 회장",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV6",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "エネルギーがついているおたがいのポケモン全員は、特殊状態にならず、受けている特殊状態は、すべて回復する。",
+    "text_ko": "에너지가 붙어 있는 서로의 포켓몬 전원은, 특수 상태가 되지 않으며, 받고 있는 특수 상태는 모두 회복한다.",
+    "set": "확장팩 「변환의 가면(変幻の仮面)」",
+    "number": "099/101",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45790"
+  },
+  {
+    "id": 46116,
+    "category": "energy",
+    "subtype_ko": "기본 에너지",
+    "name_ja": "基本草エネルギー",
+    "name_ko": "기본 풀 에너지",
+    "hp": null,
+    "type_ko": "풀",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "덱빌드 BOX 「스텔라미라클(ステラミラクル)」",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46116"
+  },
+  {
+    "id": 45199,
+    "category": "pokemon",
+    "subtype_ko": "포켓몬 ex (기본 포켓몬)",
+    "name_ja": "タケルライコex",
+    "name_ko": "타케루라이코 ex",
+    "hp": 240,
+    "type_ko": "드래곤",
+    "regulation": "SV5K",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "はじけるほうこう",
+        "name_ko": "터지는 포효",
+        "cost_ko": "무색 1",
+        "damage": "",
+        "text_ja": "自分の手札をすべてトラッシュし、山札を6枚引く。",
+        "text_ko": "자신의 패를 모두 트래시(버리는 곳)로 보내고, 덱을 6장 뽑는다."
+      },
+      {
+        "name_ja": "きょくらいごう",
+        "name_ko": "극뢰합",
+        "cost_ko": "뇌 1 무색 2",
+        "damage": "70×",
+        "text_ja": "自分の場のポケモンについている基本エネルギーを好きなだけトラッシュし、その枚数×70ダメージ。",
+        "text_ko": "자신의 필드 포켓몬에게 붙어 있는 기본 에너지를 원하는 만큼 트래시(버리는 곳)로 보내고, 그 매수×70데미지."
+      }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+    "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+    "set": "확장팩 「와일드포스(ワイルドフォース)」",
+    "number": "053/071",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45199"
+  },
+  {
+    "id": 46014,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "タケルライコ",
+    "name_ko": "타케루라이코",
+    "hp": 130,
+    "type_ko": "번개",
+    "regulation": "SV7",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "らくらいあらし",
+        "name_ko": "낙뢰 폭풍",
+        "cost_ko": "뇌 1",
+        "damage": "",
+        "text_ja": "相手のポケモン1匹に、このポケモンについているエネルギーの数×30ダメージ。（ベンチは弱点・抵抗力を計算しない）",
+        "text_ko": "상대 포켓몬 1마리에게, 이 포켓몬에게 붙어 있는 에너지 수×30데미지. (벤치는 약점·저항력을 계산하지 않는다)"
+      },
+      {
+        "name_ja": "リューズヘッド",
+        "name_ko": "류즈헤드",
+        "cost_ko": "뇌 1 무색 2",
+        "damage": "130",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「스텔라미라클(ステラミラクル)」",
+    "number": "075/102",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46014"
+  },
+  {
+    "id": 47847,
+    "category": "pokemon",
+    "subtype_ko": "메가진화 ex 포켓몬",
+    "name_ja": "メガガルーラex",
+    "name_ko": "메가가르라 ex",
+    "hp": 300,
+    "type_ko": "무색",
+    "regulation": "M1S",
+    "abilities": [
+      {
+        "name_ja": "おつかいダッシュ",
+        "name_ko": "심부름 대시",
+        "text_ja": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を2枚引く。この特性は別の『おつかいダッシュ』を使った番は使えない。",
+        "text_ko": "이 포켓몬이 배틀필드에 있다면, 자신의 차례에 1번 사용할 수 있다. 자신의 덱을 2장 뽑는다. 이 특성은 다른 『심부름 대시』를 사용한 차례에는 사용할 수 없다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "マシンガンコンボ",
+        "name_ko": "머신건 콤보",
+        "cost_ko": "무색 3",
+        "damage": "200+",
+        "text_ja": "ウラが出るまでコインを投げ、オモテの数×50ダメージ追加。",
+        "text_ko": "뒷면이 나올 때까지 동전을 던져, 앞면의 수×50데미지 추가."
+      }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+    "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+    "set": "확장팩 「메가심포니아(メガシンフォニア)」",
+    "number": "051/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47847"
+  },
+  {
+    "id": 46248,
+    "category": "pokemon",
+    "subtype_ko": "포켓몬 ex (기본 포켓몬)",
+    "name_ja": "ラティアスex",
+    "name_ko": "라티아스 ex",
+    "hp": 210,
+    "type_ko": "드래곤",
+    "regulation": "SV7a",
+    "abilities": [
+      {
+        "name_ja": "スカイライン",
+        "name_ko": "스카이라인",
+        "text_ja": "このポケモンがいるかぎり、自分のたねポケモン全員のにげるためのエネルギーは、すべてなくなる。",
+        "text_ko": "이 포켓몬이 있는 한, 자신의 기본 포켓몬 전원의 후퇴를 위한 에너지는 모두 없어진다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "むげんのやいば",
+        "name_ko": "무한의 칼날",
+        "cost_ko": "수 1 초 1 무색 1",
+        "damage": "200",
+        "text_ja": "次の自分の番、このポケモンはワザが使えない。",
+        "text_ko": "다음 자신의 차례, 이 포켓몬은 기술을 사용할 수 없다."
+      }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+    "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+    "set": "강화확장팩 「낙원 드라고나(楽園ドラゴーナ)」",
+    "number": "019/064",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46248"
+  }
+]

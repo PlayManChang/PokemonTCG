@@ -11,9 +11,17 @@ const OUT = path.join(ROOT, 'data', 'cards.json');
 
 // 덱 레지스트리 (티어/이름/스크랩 파일)
 const DECKS = [
-  { id: 'dragapult',   name_ko: '드래펄트 ex',   name_ja: 'ドラパルトex',    tier: 1, file: 'x4GJ8c-Cr6ymd-GYJD8x.json', note: '현재 최강 메타' },
-  { id: 'bakegakure',  name_ko: '바케가쿠레',     name_ja: 'ばけがくれ',      tier: 2, file: 'JcYG88-tChzHO-cxG8Y8.json', note: 'ジュペッタ 특성 기반' },
-  { id: 'mega-drilbur', name_ko: '메가몰드류 ex', name_ja: 'メガドリュウズex', tier: 2, file: 'SXRpyM-pSQX3o-Syy2Rp.json', note: '강철 메가진화' },
+  { id: 'dragapult',    name_ko: '드래펄트 ex',     name_ja: 'ドラパルトex',         tier: 1, file: 'x4GJ8c-Cr6ymd-GYJD8x.json', note: '현재 최강 메타' },
+  { id: 'bakegakure',   name_ko: '바케가쿠레',       name_ja: 'ばけがくれ',           tier: 2, file: 'JcYG88-tChzHO-cxG8Y8.json', note: 'ジュペッタ 특성 기반' },
+  { id: 'mega-drilbur', name_ko: '메가몰드류 ex',    name_ja: 'メガドリュウズex',      tier: 2, file: 'SXRpyM-pSQX3o-Syy2Rp.json', note: '강철 메가진화' },
+  { id: 'nzoroark',     name_ko: 'N의 조로아크 ex',  name_ja: 'Nのゾロアークex',      tier: 2, file: 'nzoroark.json',       note: 'とりひき 드로우 엔진' },
+  { id: 'kamitsuorochi', name_ko: '카미츠오로치 ex', name_ja: 'カミツオロチex',        tier: 3, file: 'kamitsuorochi.json', note: '' },
+  { id: 'takeraiko',    name_ko: '타케루라이코 ex',  name_ja: 'タケルライコex',        tier: 3, file: 'takeraiko.json',     note: '' },
+  { id: 'mega-lucario', name_ko: '메가루카리오 ex',  name_ja: 'メガルカリオex',        tier: 3, file: 'mega-lucario.json',  note: '' },
+  { id: 'shirona-garchomp', name_ko: '시로나의 가브리아스 ex', name_ja: 'シロナのガブリアスex', tier: 3, file: 'shirona-garchomp.json', note: '' },
+  { id: 'foodin',       name_ko: '후딘',             name_ja: 'フーディン',            tier: 3, file: 'foodin.json',        note: '핸드파워' },
+  { id: 'mega-greninja', name_ko: '메가 겟코우가 ex', name_ja: 'メガゲッコウガex',      tier: 3, file: 'mega-greninja.json', note: '' },
+  { id: 'rocket-mewtwo', name_ko: '로켓단의 뮤츠 ex', name_ja: 'ロケット団のミュウツーex', tier: 3, file: 'rocket-mewtwo.json', note: '' },
 ];
 
 const BASIC_ENERGY = {

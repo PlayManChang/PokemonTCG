@@ -1,0 +1,281 @@
+[
+  {
+    "id": 48419,
+    "category": "trainer",
+    "subtype_ko": "스타디움",
+    "name_ja": "バトルコロシアム",
+    "name_ko": "배틀 콜로세움(バトルコロシアム)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M2",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいのベンチポケモン全員は、相手のワザや特性の効果で、ダメカンがのらない。［ワザのダメージは受ける。］",
+    "text_ko": "서로의 벤치 포켓몬 전원은 상대의 기술이나 특성의 효과로 데미지 카운터가 올라가지 않는다. [기술의 데미지는 받는다.]",
+    "set": "拡張パック「インフェルノX」",
+    "number": "079/080",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48419"
+  },
+  {
+    "id": 46293,
+    "category": "energy",
+    "subtype_ko": "특수에너지",
+    "name_ja": "リッチエネルギー",
+    "name_ko": "리치 에너지(リッチエネルギー)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV7a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードを手札からポケモンにつけたとき、自分の山札を4枚引く。ACE SPECのカードは、デッキに1枚しか入れられない。",
+    "text_ko": "이 카드는 포켓몬에게 붙어 있는 한, 에너지 1개분으로서 작용한다. 이 카드를 패에서 포켓몬에게 붙였을 때, 자신의 덱을 4장 뽑는다. ACE SPEC 카드는 덱에 1장밖에 넣을 수 없다.",
+    "set": "強化拡張パック「楽園ドラゴーナ」",
+    "number": "064/064",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46293"
+  },
+  {
+    "id": 50104,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ケロマツ",
+    "name_ko": "개구마르(ケロマツ)",
+    "hp": 70,
+    "type_ko": "물",
+    "regulation": "M4",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "もってくる",
+        "name_ko": "가져오기",
+        "damage": "",
+        "text_ja": "自分の山札を1枚引く。",
+        "text_ko": "자신의 덱을 1장 뽑는다."
+      },
+      {
+        "name_ja": "みずでっぽう",
+        "name_ko": "물대포",
+        "damage": "10",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "拡張パック「ニンジャスピナー」",
+    "number": "020/083",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50104"
+  },
+  {
+    "id": 50105,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "ゲコガシラ",
+    "name_ko": "개굴반장(ゲコガシラ)",
+    "hp": 100,
+    "type_ko": "물",
+    "regulation": "M4",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "よびよせのじゅつ",
+        "name_ko": "불러모으기의 술법",
+        "damage": "",
+        "text_ja": "自分の山札からポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+        "text_ko": "자신의 덱에서 포켓몬을 3장까지 선택하여 상대에게 보여주고, 패에 추가한다. 그리고 덱을 섞는다."
+      },
+      {
+        "name_ja": "アクアエッジ",
+        "name_ko": "아쿠아 에지",
+        "damage": "50",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "拡張パック「ニンジャスピナー」",
+    "number": "021/083",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50105"
+  },
+  {
+    "id": 50106,
+    "category": "pokemon",
+    "subtype_ko": "2진화 · 메가진화 ex",
+    "name_ja": "メガゲッコウガex",
+    "name_ko": "메가 개굴닌자 ex(メガゲッコウガex)",
+    "hp": 350,
+    "type_ko": "물",
+    "regulation": "M4",
+    "abilities": [
+      {
+        "name_ja": "ひっさつしゅりけん",
+        "name_ko": "필살 수리검",
+        "text_ja": "このポケモンがバトル場にいて、自分の番に、自分の手札から『基本エネルギー』を1枚トラッシュするなら、1回使える。相手のポケモン1匹に、ダメカンを6個のせる。",
+        "text_ko": "이 포켓몬이 배틀필드에 있고, 자신의 차례에, 자신의 패에서 『기본 에너지』를 1장 트래시한다면 1회 사용할 수 있다. 상대의 포켓몬 1마리에게 데미지 카운터를 6개 올린다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "ニンジャスピナー",
+        "name_ko": "닌자 스피너",
+        "damage": "120+",
+        "text_ja": "のぞむなら、このポケモンについているエネルギーを1個手札にもどし、80ダメージ追加。",
+        "text_ko": "원한다면, 이 포켓몬에게 붙어 있는 에너지를 1개 패로 되돌리고, 80데미지 추가."
+      }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+    "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+    "set": "拡張パック「ニンジャスピナー」",
+    "number": "022/083",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50106"
+  },
+  {
+    "id": 45621,
+    "category": "pokemon",
+    "subtype_ko": "1진화 ex",
+    "name_ja": "ゲッコウガex",
+    "name_ko": "개굴닌자 ex(ゲッコウガex)",
+    "hp": 310,
+    "type_ko": "물",
+    "regulation": "SV5a",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "しのびのやいば",
+        "name_ko": "은밀의 칼날",
+        "damage": "170",
+        "text_ja": "のぞむなら、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
+        "text_ko": "원한다면, 자신의 덱에서 원하는 카드를 1장 선택하여 패에 추가한다. 그리고 덱을 섞는다."
+      },
+      {
+        "name_ja": "ぶんしんれんだ",
+        "name_ko": "분신 연타",
+        "damage": "",
+        "text_ja": "このポケモンについているエネルギーを2個トラッシュし、相手のポケモン2匹に、それぞれ120ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+        "text_ko": "이 포켓몬에게 붙어 있는 에너지를 2개 트래시하고, 상대의 포켓몬 2마리에게 각각 120데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+      }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+    "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+    "set": "強化拡張パック「クリムゾンヘイズ」",
+    "number": "045/066",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45621"
+  },
+  {
+    "id": 46825,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "アクロマの執念",
+    "name_ko": "아크로마의 집념(アクロマの執念)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV8a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札からスタジアムとエネルギーを1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 덱에서 스타디움과 에너지를 1장씩 선택하여 상대에게 보여주고, 패에 추가한다. 그리고 덱을 섞는다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "ハイクラスパック「テラスタルフェスex」",
+    "number": "164/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46825"
+  },
+  {
+    "id": 47858,
+    "category": "trainer",
+    "subtype_ko": "스타디움",
+    "name_ja": "なみのりビーチ",
+    "name_ko": "파도타기 비치(なみのりビーチ)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M1S",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分のバトル場のポケモンを、ベンチのポケモンと入れ替えてよい。",
+    "text_ko": "서로의 플레이어는 자신의 차례마다 1회, 자신의 배틀필드의 포켓몬을 벤치의 포켓몬과 교체해도 된다.",
+    "set": "拡張パック「メガシンフォニア」",
+    "number": "062/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47858"
+  },
+  {
+    "id": 46040,
+    "category": "trainer",
+    "subtype_ko": "스타디움 (ACE SPEC)",
+    "name_ja": "偉大な大樹",
+    "name_ko": "위대한 큰나무(偉大な大樹)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV7",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の場のたねポケモン1匹から進化する1進化ポケモンを、自分の山札から1枚選び、そのポケモンにのせて進化させてよい。進化したなら、続けて2進化ポケモンを1枚選び、進化させてよい。そして山札を切る。ACE SPECのカードは、デッキに1枚しか入れられない。",
+    "text_ko": "서로의 플레이어는 자신의 차례마다 1회, 자신의 필드의 기본 포켓몬 1마리에서 진화하는 1진화 포켓몬을 자신의 덱에서 1장 선택하여 그 포켓몬 위에 올려 진화시켜도 된다. 진화했다면 이어서 2진화 포켓몬을 1장 선택하여 진화시켜도 된다. 그리고 덱을 섞는다. ACE SPEC 카드는 덱에 1장밖에 넣을 수 없다.",
+    "set": "拡張パック「ステラミクル」",
+    "number": "101/102",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46040"
+  },
+  {
+    "id": 47905,
+    "category": "energy",
+    "subtype_ko": "기본에너지",
+    "name_ja": "基本水エネルギー",
+    "name_ko": "기본 물 에너지",
+    "hp": null,
+    "type_ko": "물",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47905"
+  },
+  {
+    "id": 48713,
+    "category": "energy",
+    "subtype_ko": "특수에너지",
+    "name_ja": "イグニッションエネルギー",
+    "name_ko": "이그니션 에너지(イグニッションエネルギー)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M2a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "ポケモンについているこのカードは、自分の番の終わりにトラッシュする。このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。進化ポケモンについているなら、エネルギー3個ぶんとしてはたらく。",
+    "text_ko": "포켓몬에게 붙어 있는 이 카드는 자신의 차례가 끝날 때 트래시한다. 이 카드는 포켓몬에게 붙어 있는 한, 에너지 1개분으로서 작용한다. 진화 포켓몬에게 붙어 있다면 에너지 3개분으로서 작용한다.",
+    "set": "ハイクラスパック「MEGAドリームex」",
+    "number": "191/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48713"
+  },
+  {
+    "id": 47432,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬 ex",
+    "name_ja": "ロケット団のミュウツーex",
+    "name_ko": "로켓단의 뮤츠 ex(ロケット団のミュウツーex)",
+    "hp": 280,
+    "type_ko": "초능력",
+    "regulation": "SV10",
+    "abilities": [
+      {
+        "name_ja": "パワーセーバー",
+        "name_ko": "파워 세이버",
+        "text_ja": "自分の場の『ロケット団のポケモン』が4匹以上のときにしか、このポケモンはワザが使えない。",
+        "text_ko": "자신의 필드의 『로켓단의 포켓몬』이 4마리 이상일 때에만 이 포켓몬은 기술을 사용할 수 있다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "イレイザーボール",
+        "name_ko": "이레이저 볼",
+        "damage": "160+",
+        "text_ja": "のぞむなら、自分のベンチポケモンについているエネルギーを2枚までトラッシュし、その枚数×60ダメージ追加。",
+        "text_ko": "원한다면, 자신의 벤치 포켓몬에게 붙어 있는 에너지를 2장까지 트래시하고, 그 장수×60데미지 추가."
+      }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+    "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+    "set": "拡張パック「ロケット団の栄光」",
+    "number": "039/098",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47432"
+  }
+]

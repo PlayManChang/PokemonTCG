@@ -1,0 +1,342 @@
+[
+  {
+    "id": 49414,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "暗号マニアの解読",
+    "name_ko": "암호 마니아의 해독",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "MC",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札から好きなカードを2枚選ぶ。残りの山札を切り、選んだカードを好きな順番に入れ替えて、山札の上にもどす。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 덱에서 원하는 카드를 2장 고른다. 남은 덱을 섞고, 고른 카드를 원하는 순서로 바꿔서 덱의 맨 위로 되돌린다. 서포트는 자신의 차례에 1장밖에 쓸 수 없다.",
+    "set": "スタートデッキ100 バトルコレクション",
+    "number": "698/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49414"
+  },
+  {
+    "id": 47105,
+    "category": "trainer",
+    "subtype_ko": "스타디움",
+    "name_ja": "Nの城",
+    "name_ko": "N의 성",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV9",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいの場の「Nのポケモン」全員のにげるためのエネルギーは、すべてなくなる。スタジアムは、自分の番に1枚、バトル場の横に出せる。別のスタジアムが場に出たなら、このカードをトラッシュする。同じ名前のスタジアムは場に出せない。",
+    "text_ko": "서로의 필드에 있는 「N의 포켓몬」 전원의 후퇴하기 위한 에너지는 모두 없어진다. 스타디움은 자신의 차례에 1장, 배틀필드 옆에 낼 수 있다. 다른 스타디움이 필드에 나오면 이 카드를 트래시한다. 같은 이름의 스타디움은 필드에 낼 수 없다.",
+    "set": "拡張パック「バトルパートナーズ」",
+    "number": "097/100",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47105"
+  },
+  {
+    "id": 47489,
+    "category": "trainer",
+    "subtype_ko": "스타디움",
+    "name_ja": "ロケット団の監視塔",
+    "name_ko": "로켓단의 감시탑",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV10",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいの場のポケモン全員の特性は、すべてなくなる。スタジアムは、自分の番に1枚、バトル場の横に出せる。別のスタジアムが場に出たなら、このカードをトラッシュする。同じ名前のスタジアムは場に出せない。",
+    "text_ko": "서로의 필드에 있는 포켓몬 전원의 특성은 모두 없어진다. 스타디움은 자신의 차례에 1장, 배틀필드 옆에 낼 수 있다. 다른 스타디움이 필드에 나오면 이 카드를 트래시한다. 같은 이름의 스타디움은 필드에 낼 수 없다.",
+    "set": "拡張パック「ロケット団の栄光」",
+    "number": "096/098",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47489"
+  },
+  {
+    "id": 48778,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "カジッチュ",
+    "name_ko": "카지칫치",
+    "hp": 40,
+    "type_ko": "풀",
+    "regulation": "MC",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "しるをとばす",
+        "name_ko": "즙 날리기",
+        "damage": "20",
+        "effect_ja": "",
+        "effect_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "スタートデッキ100 バトルコレクション",
+    "number": "062/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48778"
+  },
+  {
+    "id": 46670,
+    "category": "pokemon",
+    "subtype_ko": "2진화",
+    "name_ja": "カミツオロチex",
+    "name_ko": "카미츠오로치 ex",
+    "hp": 330,
+    "type_ko": "풀",
+    "regulation": "MC",
+    "abilities": [
+      {
+        "name_ja": "じゅくせいチャージ",
+        "name_ko": "숙성 차지",
+        "effect_ja": "自分の番に1回使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。その後、つけたポケモンのHPを「30」回復する。",
+        "effect_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 패에서 「기본 에너지」를 1장 골라 자신의 포켓몬에게 붙인다. 그 후, 붙인 포켓몬의 HP를 「30」 회복한다.",
+        "text_ja": "自分の番に1回使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。その後、つけたポケモンのHPを「30」回復する。",
+        "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 패에서 「기본 에너지」를 1장 골라 자신의 포켓몬에게 붙인다. 그 후, 붙인 포켓몬의 HP를 「30」 회복한다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "みつあめストーム",
+        "name_ko": "꿀엿 스톰",
+        "damage": "30+",
+        "effect_ja": "自分のポケモン全員についているエネルギーの数×30ダメージ追加。",
+        "effect_ko": "자신의 포켓몬 전원에게 붙어 있는 에너지의 수×30데미지 추가.",
+        "text_ja": "自分のポケモン全員についているエネルギーの数×30ダメージ追加。",
+        "text_ko": "자신의 포켓몬 전원에게 붙어 있는 에너지의 수×30데미지를 추가한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "スタートデッキ100 バトルコレクション",
+    "number": "064/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46670"
+  },
+  {
+    "id": 48780,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "カミッチュ",
+    "name_ko": "카밋치",
+    "hp": 80,
+    "type_ko": "풀",
+    "regulation": "SV8a",
+    "abilities": [
+      {
+        "name_ja": "おまつりおんど",
+        "name_ko": "축제 분위기",
+        "effect_ja": "場に「お祭り会場」が出ているなら、このポケモンは、持っているワザを2回連続で使える。",
+        "effect_ko": "필드에 「축제 회장」이 나와 있다면, 이 포켓몬은 가지고 있는 기술을 2번 연속으로 쓸 수 있다.",
+        "text_ja": "場に「お祭り会場」が出ているなら、このポケモンは、持っているワザを2回連続で使える。",
+        "text_ko": "필드에 「축제 회장」이 나와 있다면, 이 포켓몬은 가지고 있는 기술을 2번 연속으로 쓸 수 있다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "ともだちのわ",
+        "name_ko": "친구의 고리",
+        "damage": "20×",
+        "effect_ja": "自分のベンチポケモンの数×20ダメージ。",
+        "effect_ko": "자신의 벤치 포켓몬의 수×20데미지.",
+        "text_ja": "自分のベンチポケモンの数×20ダメージ。",
+        "text_ko": "자신의 벤치 포켓몬의 수×20데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "ハイクラスパック「テラスタルフェスex」",
+    "number": "009/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48780"
+  },
+  {
+    "id": 47799,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "チコリータ",
+    "name_ko": "치코리타",
+    "hp": 70,
+    "type_ko": "풀",
+    "regulation": "M1S",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "はっぱカッター",
+        "name_ko": "잎날가르기",
+        "damage": "20",
+        "effect_ja": "",
+        "effect_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "拡張パック「メガシンフォニア」",
+    "number": "003/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47799"
+  },
+  {
+    "id": 47800,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "ベイリーフ",
+    "name_ko": "베이리프",
+    "hp": 110,
+    "type_ko": "풀",
+    "regulation": "M1S",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "つきとばす",
+        "name_ko": "밀쳐내기",
+        "damage": "50",
+        "effect_ja": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+        "effect_ko": "상대 배틀필드 포켓몬을 벤치 포켓몬과 교체한다. [배틀필드에 내보낼 포켓몬은 상대가 고른다.]",
+        "text_ja": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+        "text_ko": "상대 배틀필드 포켓몬을 벤치 포켓몬과 교체한다. [배틀필드에 내보낼 포켓몬은 상대가 고른다.]"
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "拡張パック「メガシンフォニア」",
+    "number": "004/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47800"
+  },
+  {
+    "id": 47801,
+    "category": "pokemon",
+    "subtype_ko": "2진화",
+    "name_ja": "メガニウム",
+    "name_ko": "메가니움",
+    "hp": 160,
+    "type_ko": "풀",
+    "regulation": "M1S",
+    "abilities": [
+      {
+        "name_ja": "おいしげる",
+        "name_ko": "무성하게 자라기",
+        "effect_ja": "このポケモンがいるかぎり、自分のポケモン全員についている「基本エネルギー」は、それぞれエネルギー2個ぶんとしてはたらく。この特性の効果は重ならない。",
+        "effect_ko": "이 포켓몬이 있는 한, 자신의 포켓몬 전원에게 붙어 있는 「기본 에너지」는 각각 에너지 2개분으로 작용한다. 이 특성의 효과는 중복되지 않는다.",
+        "text_ja": "このポケモンがいるかぎり、自分のポケモン全員についている「基本エネルギー」は、それぞれエネルギー2個ぶんとしてはたらく。この特性の効果は重ならない。",
+        "text_ko": "이 포켓몬이 있는 한, 자신의 포켓몬 전원에게 붙어 있는 「기본 에너지」는 각각 에너지 2개분으로 작용한다. 이 특성의 효과는 중복되지 않는다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "ソーラービーム",
+        "name_ko": "솔라빔",
+        "damage": "140",
+        "effect_ja": "",
+        "effect_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "拡張パック「メガシンフォニア」",
+    "number": "005/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47801"
+  },
+  {
+    "id": 46681,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "オーガポン みどりのめんex",
+    "name_ko": "오거폰 초록가면 ex",
+    "hp": 210,
+    "type_ko": "풀",
+    "regulation": "SV8a",
+    "abilities": [
+      {
+        "name_ja": "みどりのまい",
+        "name_ko": "초록의 춤",
+        "effect_ja": "自分の番に1回使える。自分の手札から「基本エネルギー」を1枚選び、このポケモンにつける。その後、自分の山札を1枚引く。",
+        "effect_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 패에서 「기본 에너지」를 1장 골라 이 포켓몬에게 붙인다. 그 후, 자신의 덱을 1장 뽑는다.",
+        "text_ja": "自分の番に1回使える。自分の手札から「基本エネルギー」を1枚選び、このポケモンにつける。その後、自分の山札を1枚引く。",
+        "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 패에서 「기본 에너지」를 1장 골라 이 포켓몬에게 붙인다. 그 후, 자신의 덱을 1장 뽑는다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "まんようしぐれ",
+        "name_ko": "단풍 소나기",
+        "damage": "30+",
+        "effect_ja": "おたがいのバトルポケモンについているエネルギーの数×30ダメージ追加。",
+        "effect_ko": "서로의 배틀필드 포켓몬에게 붙어 있는 에너지의 수×30데미지 추가.",
+        "text_ja": "おたがいのバトルポケモンについているエネルギーの数×30ダメージ追加。",
+        "text_ko": "서로의 배틀필드 포켓몬에게 붙어 있는 에너지의 수×30데미지를 추가한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "ハイクラスパック「テラスタルフェスex」",
+    "number": "020/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46681"
+  },
+  {
+    "id": 47739,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "セレビィ",
+    "name_ko": "세레비",
+    "hp": 80,
+    "type_ko": "풀",
+    "regulation": "M1L",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "ときをめぐる",
+        "name_ko": "시간을 거슬러",
+        "damage": "",
+        "effect_ja": "自分の山札からポケモンとスタジアムを合計3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+        "effect_ko": "자신의 덱에서 포켓몬과 스타디움을 합계 3장까지 골라 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다.",
+        "text_ja": "自分の山札からポケモンとスタジアムを合計3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+        "text_ko": "자신의 덱에서 포켓몬과 스타디움을 합계 3장까지 골라 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다."
+      },
+      {
+        "name_ja": "ソーラーカッター",
+        "name_ko": "솔라 커터",
+        "damage": "30",
+        "effect_ja": "",
+        "effect_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "拡張パック「メガブレイブ」",
+    "number": "006/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47739"
+  },
+  {
+    "id": 46677,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "テツノイサハex",
+    "name_ko": "무쇠잎새 ex",
+    "hp": 220,
+    "type_ko": "강철",
+    "regulation": "SV8a",
+    "abilities": [
+      {
+        "name_ja": "ラピッドバーニア",
+        "name_ko": "래피드 버니어",
+        "effect_ja": "自分の番に、このカードを手札からベンチに出したとき、1回使える。このポケモンをバトルポケモンと入れ替える。入れ替えた場合、自分の場のポケモンについているエネルギーを好きなだけ選び、このポケモンにつけ替える。",
+        "effect_ko": "자신의 차례에 이 카드를 패에서 벤치에 냈을 때, 1번 쓸 수 있다. 이 포켓몬을 배틀필드 포켓몬과 교체한다. 교체한 경우, 자신의 필드에 있는 포켓몬에게 붙어 있는 에너지를 원하는 만큼 골라 이 포켓몬에게 옮겨 붙인다.",
+        "text_ja": "自分の番に、このカードを手札からベンチに出したとき、1回使える。このポケモンをバトルポケモンと入れ替える。入れ替えた場合、自分の場のポケモンについているエネルギーを好きなだけ選び、このポケモンにつけ替える。",
+        "text_ko": "자신의 차례에 이 카드를 패에서 벤치에 냈을 때, 1번 쓸 수 있다. 이 포켓몬을 배틀필드 포켓몬과 교체한다. 교체한 경우, 자신의 필드에 있는 포켓몬에게 붙어 있는 에너지를 원하는 만큼 골라 이 포켓몬에게 옮겨 붙인다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "プリズムエッジ",
+        "name_ko": "프리즘 엣지",
+        "damage": "180",
+        "effect_ja": "次の自分の番、このポケモンはワザが使えない。",
+        "effect_ko": "다음 자신의 차례에 이 포켓몬은 기술을 쓸 수 없다.",
+        "text_ja": "次の自分の番、このポケモンはワザが使えない。",
+        "text_ko": "다음 자신의 차례에 이 포켓몬은 기술을 쓸 수 없다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "ハイクラスパック「テラスタルフェスex」",
+    "number": "016/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46677"
+  }
+]

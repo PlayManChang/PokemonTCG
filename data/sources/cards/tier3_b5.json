@@ -1,0 +1,273 @@
+[
+  {
+    "id": 47759,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ルナトーン",
+    "name_ko": "루나톤",
+    "hp": 110,
+    "type_ko": "투",
+    "regulation": "M1L",
+    "abilities": [
+      {
+        "name_ja": "ルナサイクル",
+        "name_ko": "루나 사이클",
+        "text_ja": "自分の場に「ソルロック」がいて、自分の番に、自分の手札から「基本闘エネルギー」を1枚トラッシュするなら、1回使える。自分の山札を3枚引く。この特性は別の「ルナサイクル」を使った番は使えない。",
+        "text_ko": "자신의 필드에 '솔록'이 있고, 자신의 차례에 자신의 패에서 '기본 투에너지'를 1장 트래시한다면 1회 사용할 수 있다. 자신의 덱을 3장 뽑는다. 이 특성은 다른 '루나 사이클'을 사용한 차례에는 사용할 수 없다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "투투",
+        "name_ja": "パワージェム",
+        "name_ko": "파워 젬",
+        "damage": "50",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「메가브레이브(メガブレイブ)」",
+    "number": "026/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47759"
+  },
+  {
+    "id": 47792,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "ファイトゴング",
+    "name_ko": "파이트 공(ファイトゴング)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M1L",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札から闘タイプのたねポケモンまたは「基本エネルギー」を1枚選び、相手に見せて、手札に加える。そして山札を切る。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 덱에서 투타입 기본 포켓몬 또는 '기본 에너지'를 1장 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "확장팩 「메가브레이브(メガブレイブ)」",
+    "number": "059/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47792"
+  },
+  {
+    "id": 47791,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "パワープロテイン",
+    "name_ko": "파워 프로틴(パワープロテイン)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M1L",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "この番、自分のポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "이 차례, 자신의 포켓몬이 사용하는 기술의 상대 배틀 포켓몬에 대한 데미지는 '+30'된다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "확장팩 「메가브레이브(メガブレイブ)」",
+    "number": "058/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47791"
+  },
+  {
+    "id": 47882,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "ポケモンいれかえ",
+    "name_ko": "포켓몬 교체(ポケモンいれかえ)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "MA",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分のバトルポケモンをベンチポケモンと入れ替える。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "프리미엄 트레이너 박스 MEGA(プレミアムトレーナーボックスMEGA)",
+    "number": "023/043",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47882"
+  },
+  {
+    "id": 47202,
+    "category": "trainer",
+    "subtype_ko": "포켓몬의 도구 (ACE SPEC)",
+    "name_ja": "マキシマムベルト",
+    "name_ko": "맥시멈 벨트(マキシマムベルト)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SVN",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードをつけているポケモンが使うワザの、相手のバトル場の「ポケモンex」へのダメージは「+50」される。ACE SPECのカードは、デッキに1枚しか入れられない。ポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+    "text_ko": "이 카드를 붙이고 있는 포켓몬이 사용하는 기술의, 상대 배틀필드의 '포켓몬 ex'에 대한 데미지는 '+50'된다. ACE SPEC 카드는 덱에 1장만 넣을 수 있다. 포켓몬의 도구는 자신의 차례에 몇 장이든 자신의 포켓몬에 붙일 수 있다. 포켓몬 1마리당 1장만 붙일 수 있으며, 붙인 채로 둔다.",
+    "set": "덱 빌드 BOX 「배틀 파트너즈(バトルパートナーズ)」",
+    "number": "027/045",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47202"
+  },
+  {
+    "id": 47856,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "ミツルの思いやり",
+    "name_ko": "미츠루의 배려(ミツルの思いやり)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M1S",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の「メガシンカex」1匹のHPを、すべて回復する。その後、回復したポケモンについているエネルギーを、すべて手札にもどす。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 '메가진화 ex' 1마리의 HP를 모두 회복한다. 그 후, 회복한 포켓몬에 붙어 있는 에너지를 모두 패로 되돌린다. 서포트는 자신의 차례에 1장만 사용할 수 있다.",
+    "set": "확장팩 「메가심포니아(メガシンフォニア)」",
+    "number": "060/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47856"
+  },
+  {
+    "id": 46446,
+    "category": "trainer",
+    "subtype_ko": "스타디움",
+    "name_ja": "グラビティーマウンテン",
+    "name_ko": "그래비티 마운틴(グラビティーマウンテン)",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV8",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいの場の2進化ポケモン全員の最大HPは、それぞれ「-30」される。スタジアムは、自分の番に1枚、バトル場の横に出せる。別のスタジアムが場に出たなら、このカードをトラッシュする。同じ名前のスタジアムは場に出せない。",
+    "text_ko": "서로의 필드에 있는 2단계 진화 포켓몬 전원의 최대 HP는 각각 '-30'된다. 스타디움은 자신의 차례에 1장, 배틀필드 옆에 낼 수 있다. 다른 스타디움이 필드에 나오면 이 카드를 트래시한다. 같은 이름의 스타디움은 필드에 낼 수 없다.",
+    "set": "확장팩 「초전브레이커(超電ブレイカー)」(SV8)",
+    "number": "106/106",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46446"
+  },
+  {
+    "id": 49713,
+    "category": "energy",
+    "subtype_ko": "특수 에너지",
+    "name_ja": "ロック闘エネルギー",
+    "name_ko": "록 투에너지(ロック闘エネルギー)",
+    "hp": null,
+    "type_ko": "투",
+    "regulation": "M3",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、闘エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンは、相手のポケモンが使うワザの効果を受けない。",
+    "text_ko": "이 카드는 포켓몬에 붙어 있는 한, 투에너지 1개 분량으로 작용한다. 이 카드를 붙이고 있는 포켓몬은 상대 포켓몬이 사용하는 기술의 효과를 받지 않는다.",
+    "set": "확장팩 「무니키스제로(ムニキスゼロ)」",
+    "number": "080/080",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49713"
+  },
+  {
+    "id": 47337,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "シロナのフカマル",
+    "name_ko": "시로나의 딥상어동",
+    "hp": 70,
+    "type_ko": "투",
+    "regulation": "SV9a",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "투",
+        "name_ja": "いわとばし",
+        "name_ko": "바위 날리기",
+        "damage": "20",
+        "text_ja": "このワザのダメージは抵抗力を計算しない。",
+        "text_ko": "이 기술의 데미지는 저항력을 계산하지 않는다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "강화확장팩 「열풍의 아레나(熱風のアリーナ)」",
+    "number": "042/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47337"
+  },
+  {
+    "id": 47338,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "シロナのガバイト",
+    "name_ko": "시로나의 한바이트",
+    "hp": 100,
+    "type_ko": "투",
+    "regulation": "SV9a",
+    "abilities": [
+      {
+        "name_ja": "おうじゃのよびごえ",
+        "name_ko": "왕자의 외침",
+        "text_ja": "自分の番に1回使える。自分の山札から「シロナのポケモン」を1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+        "text_ko": "자신의 차례에 1회 사용할 수 있다. 자신의 덱에서 '시로나의 포켓몬'을 1장 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "투",
+        "name_ja": "リューノスライス",
+        "name_ko": "류노 슬라이스",
+        "damage": "40",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "강화확장팩 「열풍의 아레나(熱風のアリーナ)」",
+    "number": "043/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47338"
+  },
+  {
+    "id": 47339,
+    "category": "pokemon",
+    "subtype_ko": "포켓몬 ex (2단계)",
+    "name_ja": "シロナのガブリアスex",
+    "name_ko": "시로나의 한카리아스 ex",
+    "hp": 330,
+    "type_ko": "투",
+    "regulation": "SV9a",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "투",
+        "name_ja": "スクリューダイブ",
+        "name_ko": "스크류 다이브",
+        "damage": "100",
+        "text_ja": "のぞむなら、自分の手札が6枚になるように、山札を引く。",
+        "text_ko": "원한다면 자신의 패가 6장이 되도록 덱을 뽑는다."
+      },
+      {
+        "cost_ko": "투투",
+        "name_ja": "リューノバスター",
+        "name_ko": "류노 버스터",
+        "damage": "260",
+        "text_ja": "このポケモンについているエネルギーを、すべてトラッシュする。",
+        "text_ko": "이 포켓몬에 붙어 있는 에너지를 모두 트래시한다."
+      }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+    "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+    "set": "강화확장팩 「열풍의 아레나(熱風のアリーナ)」",
+    "number": "044/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47339"
+  },
+  {
+    "id": 47299,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "シロナのロゼリア",
+    "name_ko": "시로나의 로젤리아",
+    "hp": 70,
+    "type_ko": "풀",
+    "regulation": "SV9a",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색",
+        "name_ja": "トゲでさす",
+        "name_ko": "가시로 찌르기",
+        "damage": "20",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "강화확장팩 「열풍의 아레나(熱風のアリーナ)」",
+    "number": "004/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47299"
+  }
+]

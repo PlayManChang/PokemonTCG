@@ -1,0 +1,149 @@
+[
+  {
+    "id": "47337",
+    "set": "SV9a",
+    "type": "P",
+    "romaji": "SHIRONANOFUKAMARU",
+    "count": 1
+  },
+  {
+    "id": "47338",
+    "set": "SV9a",
+    "type": "P",
+    "romaji": "SHIRONANOGABAITO",
+    "count": 1
+  },
+  {
+    "id": "47339",
+    "set": "SV9a",
+    "type": "P",
+    "romaji": "SHIRONANOGABURIASUEX",
+    "count": 1
+  },
+  {
+    "id": "47299",
+    "set": "SV9a",
+    "type": "P",
+    "romaji": "SHIRONANOROZERIA",
+    "count": 1
+  },
+  {
+    "id": "47300",
+    "set": "SV9a",
+    "type": "P",
+    "romaji": "SHIRONANOROZUREIDO",
+    "count": 1
+  },
+  {
+    "id": "47345",
+    "set": "SV9a",
+    "type": "P",
+    "romaji": "SHIRONANOMIKARUGE",
+    "count": 1
+  },
+  {
+    "id": "47281",
+    "set": "SVOD",
+    "type": "T",
+    "romaji": "NAKAYOSHIPOFUIN",
+    "count": 1
+  },
+  {
+    "id": "49601",
+    "set": "M-P",
+    "type": "T",
+    "romaji": "POKEPADDO",
+    "count": 1
+  },
+  {
+    "id": "47792",
+    "set": "M1L",
+    "type": "T",
+    "romaji": "FUAITOGONGU",
+    "count": 1
+  },
+  {
+    "id": "47283",
+    "set": "SVOD",
+    "type": "T",
+    "romaji": "FUSHIGINAAME",
+    "count": 1
+  },
+  {
+    "id": "46812",
+    "set": "SV8a",
+    "type": "T",
+    "romaji": "YORUNOTANKA",
+    "count": 1
+  },
+  {
+    "id": "47791",
+    "set": "M1L",
+    "type": "T",
+    "romaji": "PAWAPUROTEIN",
+    "count": 1
+  },
+  {
+    "id": "50156",
+    "set": "M4",
+    "type": "T",
+    "romaji": "SUPESHIXYARUREDDOKADO",
+    "count": 1
+  },
+  {
+    "id": "49349",
+    "set": "MC",
+    "type": "T",
+    "romaji": "ANFUEASUTANPU",
+    "count": 1
+  },
+  {
+    "id": "47355",
+    "set": "SV9a",
+    "type": "T",
+    "romaji": "SHIRONANOPAWAUEITO",
+    "count": 1
+  },
+  {
+    "id": "47900",
+    "set": "MA",
+    "type": "T",
+    "romaji": "RIRIENOKESSHIN",
+    "count": 1
+  },
+  {
+    "id": "46626",
+    "set": "SVM",
+    "type": "T",
+    "romaji": "BOSUNOSHIREI",
+    "count": 1
+  },
+  {
+    "id": "48701",
+    "set": "M2a",
+    "type": "T",
+    "romaji": "ROKETTODANNORAMUDA",
+    "count": 1
+  },
+  {
+    "id": "48694",
+    "set": "M2a",
+    "type": "T",
+    "romaji": "TOUKO",
+    "count": 1
+  },
+  {
+    "id": "46121",
+    "set": "ENE",
+    "type": "E",
+    "romaji": "KIHONTOUENERUGI",
+    "count": 1
+  },
+  {
+    "id": "49713",
+    "set": "M3",
+    "type": "E",
+    "romaji": "ROKKUTOUENERUGI",
+    "count": 1
+  }
+]
