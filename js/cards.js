@@ -5,8 +5,8 @@ const els = {
   list: document.getElementById('list'),
   chips: document.getElementById('chips'),
   tierRow: document.getElementById('tierRow'),
-  deckRow: document.getElementById('deckRow'),
-  setRow: document.getElementById('setRow'),
+  deckSelect: document.getElementById('deckSelect'),
+  setSelect: document.getElementById('setSelect'),
   deckSelectors: document.getElementById('deckSelectors'),
   setSelectors: document.getElementById('setSelectors'),
   modeDeck: document.getElementById('modeDeck'),
@@ -42,13 +42,13 @@ async function init() {
   state.tier = tiers[0];
   state.deck = (state.decks.find((d) => d.tier === state.tier) || {}).id;
   buildTierRow(tiers);
-  buildDeckRow();
+  buildDeckSelect();
   // 세트 목록 (보유 카드 수 기준, M5 우선)
   const setCount = (s) => state.cards.filter((c) => c.set === s).length;
   state.sets = [...new Set(state.cards.map((c) => c.set).filter(Boolean))]
     .sort((a, b) => (b === 'M5') - (a === 'M5') || setCount(b) - setCount(a));
   state.set = state.sets[0];
-  buildSetRow();
+  buildSetSelect();
   buildCategoryChips();
   bindEvents();
   bindModeToggle();
@@ -57,20 +57,22 @@ async function init() {
   registerSW();
 }
 
-function buildSetRow() {
+function buildSetSelect() {
   const setCount = (s) => state.cards.filter((c) => c.set === s).length;
-  els.setRow.innerHTML = '';
+  els.setSelect.innerHTML = '';
   state.sets.forEach((s) => {
-    const b = chip(`${setLabel(s)} (${setCount(s)})`, s, s === state.set);
-    b.addEventListener('click', () => {
-      state.set = s;
-      [...els.setRow.children].forEach((c) => c.classList.toggle('active', c.dataset.id === s));
-      renderDeckInfo();
-      render();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-    els.setRow.appendChild(b);
+    const o = document.createElement('option');
+    o.value = s;
+    o.textContent = `${setLabel(s)} · ${setCount(s)}종`;
+    if (s === state.set) o.selected = true;
+    els.setSelect.appendChild(o);
   });
+  els.setSelect.onchange = () => {
+    state.set = els.setSelect.value;
+    renderDeckInfo();
+    render();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 }
 
 function bindModeToggle() {
@@ -107,7 +109,7 @@ function buildTierRow(tiers) {
       state.tier = t;
       [...els.tierRow.children].forEach((c) => c.classList.toggle('active', c.dataset.id === String(t)));
       state.deck = (state.decks.find((d) => d.tier === t) || {}).id;
-      buildDeckRow();
+      buildDeckSelect();
       renderDeckInfo();
       render();
     });
@@ -115,19 +117,21 @@ function buildTierRow(tiers) {
   });
 }
 
-function buildDeckRow() {
-  els.deckRow.innerHTML = '';
+function buildDeckSelect() {
+  els.deckSelect.innerHTML = '';
   state.decks.filter((d) => d.tier === state.tier).forEach((d) => {
-    const b = chip(`${d.name_ko}`, d.id, d.id === state.deck);
-    b.addEventListener('click', () => {
-      state.deck = d.id;
-      [...els.deckRow.children].forEach((c) => c.classList.toggle('active', c.dataset.id === d.id));
-      renderDeckInfo();
-      render();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-    els.deckRow.appendChild(b);
+    const o = document.createElement('option');
+    o.value = d.id;
+    o.textContent = d.name_ko;
+    if (d.id === state.deck) o.selected = true;
+    els.deckSelect.appendChild(o);
   });
+  els.deckSelect.onchange = () => {
+    state.deck = els.deckSelect.value;
+    renderDeckInfo();
+    render();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 }
 
 function buildCategoryChips() {

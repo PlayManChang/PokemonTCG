@@ -291,6 +291,24 @@ mark { background: var(--yellow); color: inherit; padding: 0 1px; border-radius:
   cursor: pointer;
 }
 .mode-btn.active { background: #fff; color: #0f4aa6; }
+
+.dropdown {
+  display: block;
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 6px auto 0;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: .95rem;
+  font-weight: 700;
+  color: var(--ink);
+  background: #fff;
+}
+.tier-row { padding-top: 6px; padding-bottom: 0; }
+.cards-page .deck-info { margin-top: 6px; font-size: .82rem; }
+.cards-page .app-header { padding-bottom: 6px; }
+.cards-page .chips { padding-top: 8px; }
 .deck-info {
   max-width: var(--maxw);
   margin: 0 auto 8px;

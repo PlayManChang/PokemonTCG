@@ -160,9 +160,9 @@ function assert(cond, msg) {
     await page.waitForSelector('.pcard', { timeout: 8000 });
     await page.click('#modeSet');
     await new Promise((r) => setTimeout(r, 300));
-    const setChips = await page.$$eval('#setRow .chip', (e) => e.length);
+    const setOpts = await page.$$eval('#setSelect option', (e) => e.length);
     const setCards = await page.$$eval('.pcard', (e) => e.length);
-    assert(setChips >= 1 && setCards === setM5, `세트별 모드: 세트칩 ${setChips}개, 기본세트(M5) ${setCards}종 (데이터 ${setM5}종)`);
+    assert(setOpts >= 1 && setCards === setM5, `세트별 모드: 세트옵션 ${setOpts}개, 기본세트(M5) ${setCards}종 (데이터 ${setM5}종)`);
 
     console.log('\n[12] 콘솔 에러');
     const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices|pokemon-card\.com|net::ERR/i.test(e));

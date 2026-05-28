@@ -22,14 +22,11 @@
       <button id="modeSet" class="mode-btn">세트별</button>
     </div>
     <div id="deckSelectors">
-      <div class="selector-label">티어 선택</div>
       <nav class="chips tier-row" id="tierRow" aria-label="티어"></nav>
-      <div class="selector-label">덱 선택</div>
-      <nav class="chips deck-row" id="deckRow" aria-label="덱"></nav>
+      <select id="deckSelect" class="dropdown" aria-label="덱 선택"></select>
     </div>
     <div id="setSelectors" hidden>
-      <div class="selector-label">세트(확장팩) 선택</div>
-      <nav class="chips set-row" id="setRow" aria-label="세트"></nav>
+      <select id="setSelect" class="dropdown" aria-label="세트 선택"></select>
     </div>
     <p id="deckInfo" class="deck-info"></p>
     <div class="search-wrap">
