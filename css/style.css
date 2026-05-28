@@ -306,6 +306,9 @@ mark { background: var(--yellow); color: inherit; padding: 0 1px; border-radius:
   background: #fff;
 }
 .tier-row { padding-top: 6px; padding-bottom: 0; }
+/* 스크롤 시 상단 선택 영역 접기 */
+#controls { overflow: hidden; max-height: 340px; opacity: 1; transition: max-height .25s ease, opacity .2s ease; }
+.app-header.compact #controls { max-height: 0; opacity: 0; }
 .cards-page .deck-info { margin-top: 6px; font-size: .82rem; }
 .cards-page .app-header { padding-bottom: 6px; }
 .cards-page .chips { padding-top: 8px; }

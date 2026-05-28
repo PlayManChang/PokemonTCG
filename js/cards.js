@@ -55,6 +55,27 @@ async function init() {
   renderDeckInfo();
   render();
   registerSW();
+  setupScrollCollapse();
+}
+
+// 아래로 스크롤하면 상단 선택 영역을 접고, 위로 올리거나 맨 위면 펼친다.
+function setupScrollCollapse() {
+  const header = document.querySelector('.app-header');
+  if (!header) return;
+  let lastY = window.scrollY;
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      const y = window.scrollY;
+      if (y < 60) header.classList.remove('compact');
+      else if (y > lastY + 6) header.classList.add('compact');
+      else if (y < lastY - 6) header.classList.remove('compact');
+      lastY = y;
+      ticking = false;
+    });
+  }, { passive: true });
 }
 
 function buildSetSelect() {

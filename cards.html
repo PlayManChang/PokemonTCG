@@ -17,18 +17,20 @@
       <h1>🃏 카드 검색</h1>
       <span class="header-spacer"></span>
     </div>
-    <div class="mode-toggle">
-      <button id="modeDeck" class="mode-btn active">덱별</button>
-      <button id="modeSet" class="mode-btn">세트별</button>
+    <div id="controls">
+      <div class="mode-toggle">
+        <button id="modeDeck" class="mode-btn active">덱별</button>
+        <button id="modeSet" class="mode-btn">세트별</button>
+      </div>
+      <div id="deckSelectors">
+        <nav class="chips tier-row" id="tierRow" aria-label="티어"></nav>
+        <select id="deckSelect" class="dropdown" aria-label="덱 선택"></select>
+      </div>
+      <div id="setSelectors" hidden>
+        <select id="setSelect" class="dropdown" aria-label="세트 선택"></select>
+      </div>
+      <p id="deckInfo" class="deck-info"></p>
     </div>
-    <div id="deckSelectors">
-      <nav class="chips tier-row" id="tierRow" aria-label="티어"></nav>
-      <select id="deckSelect" class="dropdown" aria-label="덱 선택"></select>
-    </div>
-    <div id="setSelectors" hidden>
-      <select id="setSelect" class="dropdown" aria-label="세트 선택"></select>
-    </div>
-    <p id="deckInfo" class="deck-info"></p>
     <div class="search-wrap">
       <input id="search" type="search" inputmode="search" autocomplete="off"
              placeholder="카드 이름·기술·효과로 검색" aria-label="검색" />

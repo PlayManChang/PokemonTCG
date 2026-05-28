@@ -14,5 +14,11 @@
   { "category": "daily", "ja": "写真を撮ってもいいですか？", "reading": "しゃしんをとってもいいですか", "ko_pron": "샤신오 톳테모 이이데스카", "ko": "사진 찍어도 돼요?", "note": "사진 찍기 전 양해", "important": false },
   { "category": "daily", "ja": "Wi-Fiありますか？", "reading": "ワイファイありますか", "ko_pron": "와이화이 아리마스카", "ko": "와이파이 있어요?", "note": "", "important": false },
   { "category": "daily", "ja": "レシートください", "reading": "レシートください", "ko_pron": "레시-토 쿠다사이", "ko": "영수증 주세요", "note": "", "important": false },
-  { "category": "daily", "ja": "おすすめは何ですか？", "reading": "おすすめはなんですか", "ko_pron": "오스스메와 난데스카", "ko": "추천이 뭐예요?", "note": "메뉴 고를 때", "important": false }
+  { "category": "daily", "ja": "おすすめは何ですか？", "reading": "おすすめはなんですか", "ko_pron": "오스스메와 난데스카", "ko": "추천이 뭐예요?", "note": "메뉴 고를 때", "important": false },
+
+  { "category": "match", "ja": "ここは○番テーブルで合っていますか？", "reading": "ここは○ばんテーブルであっていますか", "ko_pron": "코코와 ○방 테-부루데 앗테 이마스카", "ko": "이 테이블이 (  )번 맞나요?", "note": "대회 좌석 확인 (○에 자리 번호)", "important": false },
+  { "category": "match", "ja": "私が○対○で勝ちました", "reading": "わたしが○たい○でかちました", "ko_pron": "와타시가 ○타이 ○데 카치마시타", "ko": "제가 (  )대 (  )로 이겼습니다", "note": "대전 결과 보고 (○에 점수)", "important": false },
+  { "category": "match", "ja": "私が○対○で負けました", "reading": "わたしが○たい○でまけました", "ko_pron": "와타시가 ○타이 ○데 마케마시타", "ko": "제가 (  )대 (  )로 졌습니다", "note": "대전 결과 보고 (○에 점수)", "important": false },
+  { "category": "match", "ja": "対戦結果の確認をお願いします", "reading": "たいせんけっかのかくにんをおねがいします", "ko_pron": "타이센 켓카노 카쿠닝오 오네가이시마스", "ko": "대전 결과 확인 부탁합니다", "note": "결과 보고·확인 요청", "important": true }
 ]
+
