@@ -13,7 +13,14 @@ const ARCHETYPES = [
   { id: 'foodin',           name_ja: 'フーディン',              tier: 3, article: 'https://pokecabook.com/archives/53696' },
   { id: 'mega-greninja',    name_ja: 'メガゲッコウガex',        tier: 3, article: 'https://pokecabook.com/archives/111205' },
   { id: 'rocket-mewtwo',    name_ja: 'ロケット団のミュウツーex', tier: 3, article: 'https://pokecabook.com/archives/214576' },
+  // 🔥 최근 짐배틀 우승덱 (pokekameshi)
+  { id: 'omatsuriondo',     name_ja: 'おまつりおんど',          tier: 4, article: 'https://pokekameshi.com/omatsuriondo/' },
+  { id: 'mega-livolt',      name_ja: 'メガライボルトex',        tier: 4, article: 'https://pokekameshi.com/megalivoltex/' },
+  { id: 'dodekabashi',      name_ja: 'ドデカバシ',              tier: 4, article: 'https://pokekameshi.com/dodekabashi/' },
 ];
+
+const only = process.argv.slice(2);
+const TARGETS = only.length ? ARCHETYPES.filter((a) => only.includes(a.id)) : ARCHETYPES;
 
 const outDir = path.join(__dirname, '..', 'data', 'sources', 'decks');
 fs.mkdirSync(outDir, { recursive: true });
@@ -42,7 +49,7 @@ const deckCards = (page) => page.evaluate(() => {
   const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
   const page = await browser.newPage();
   const summary = [];
-  for (const a of ARCHETYPES) {
+  for (const a of TARGETS) {
     try {
       await page.goto(a.article, { waitUntil: 'networkidle2', timeout: 60000 });
       await new Promise((r) => setTimeout(r, 2500));

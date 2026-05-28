@@ -1,0 +1,142 @@
+[
+  {
+    "id": "50283",
+    "set": "M5",
+    "type": "P",
+    "romaji": "TSUTSUKERA",
+    "count": 1
+  },
+  {
+    "id": "50284",
+    "set": "M5",
+    "type": "P",
+    "romaji": "KERARAPPA",
+    "count": 1
+  },
+  {
+    "id": "50285",
+    "set": "M5",
+    "type": "P",
+    "romaji": "DODEKABASHI",
+    "count": 1
+  },
+  {
+    "id": "48798",
+    "set": "MC",
+    "type": "P",
+    "romaji": "OGAPONMIDORINOMENEX",
+    "count": 1
+  },
+  {
+    "id": "47182",
+    "set": "SVN",
+    "type": "P",
+    "romaji": "HOHO",
+    "count": 1
+  },
+  {
+    "id": "47183",
+    "set": "SVN",
+    "type": "P",
+    "romaji": "YORUNOZUKU",
+    "count": 1
+  },
+  {
+    "id": "48661",
+    "set": "M2a",
+    "type": "P",
+    "romaji": "SUPINROTOMU",
+    "count": 1
+  },
+  {
+    "id": "46662",
+    "set": "SV8a",
+    "type": "P",
+    "romaji": "SUBOMI",
+    "count": 1
+  },
+  {
+    "id": "47191",
+    "set": "SVN",
+    "type": "T",
+    "romaji": "NAKAYOSHIPOFUIN",
+    "count": 1
+  },
+  {
+    "id": "49601",
+    "set": "M-P",
+    "type": "T",
+    "romaji": "POKEPADDO",
+    "count": 1
+  },
+  {
+    "id": "46219",
+    "set": "SVLN",
+    "type": "T",
+    "romaji": "HAIPABORU",
+    "count": 1
+  },
+  {
+    "id": "49371",
+    "set": "MC",
+    "type": "T",
+    "romaji": "FUSHIGINAAME",
+    "count": 1
+  },
+  {
+    "id": "45931",
+    "set": "SV6a",
+    "type": "T",
+    "romaji": "YORUNOTANKA",
+    "count": 1
+  },
+  {
+    "id": "47890",
+    "set": "MA",
+    "type": "T",
+    "romaji": "MAKISHIMAMUBERUTO",
+    "count": 1
+  },
+  {
+    "id": "47900",
+    "set": "MA",
+    "type": "T",
+    "romaji": "RIRIENOKESSHIN",
+    "count": 1
+  },
+  {
+    "id": "49427",
+    "set": "MC",
+    "type": "T",
+    "romaji": "JIXYAJJIMAN",
+    "count": 1
+  },
+  {
+    "id": "48417",
+    "set": "M2",
+    "type": "T",
+    "romaji": "HIKARI",
+    "count": 1
+  },
+  {
+    "id": "49440",
+    "set": "MC",
+    "type": "T",
+    "romaji": "BOSUNOSHIREI",
+    "count": 1
+  },
+  {
+    "id": "46041",
+    "set": "SV7",
+    "type": "T",
+    "romaji": "ZERONODAIKUUDOU",
+    "count": 1
+  },
+  {
+    "id": "47903",
+    "set": "ENE",
+    "type": "E",
+    "romaji": "KIHONKUSAENERUGI",
+    "count": 1
+  }
+]

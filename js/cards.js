@@ -37,6 +37,10 @@ async function init() {
   registerSW();
 }
 
+function tierLabel(t) {
+  return t === 4 ? '🔥 최근 우승덱' : 'Tier ' + t;
+}
+
 function chip(label, id, active) {
   const b = document.createElement('button');
   b.className = 'chip' + (active ? ' active' : '');
@@ -48,7 +52,7 @@ function chip(label, id, active) {
 function buildTierRow(tiers) {
   els.tierRow.innerHTML = '';
   tiers.forEach((t) => {
-    const b = chip(`Tier ${t}`, String(t), t === state.tier);
+    const b = chip(tierLabel(t), String(t), t === state.tier);
     b.addEventListener('click', () => {
       state.tier = t;
       [...els.tierRow.children].forEach((c) => c.classList.toggle('active', c.dataset.id === String(t)));
@@ -119,7 +123,7 @@ function renderDeckInfo() {
   const strong = document.createElement('strong');
   strong.textContent = `${d.name_ko} (${d.name_ja})`;
   const span = document.createElement('span');
-  span.textContent = `  ·  Tier ${d.tier}${d.note ? ' · ' + d.note : ''}  ·  ${deckCards.length}종 / ${totalQty}장`;
+  span.textContent = `  ·  ${tierLabel(d.tier)}${d.note ? ' · ' + d.note : ''}  ·  ${deckCards.length}종 / ${totalQty}장`;
   els.deckInfo.append(strong, span);
 }
 

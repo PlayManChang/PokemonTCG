@@ -1,0 +1,195 @@
+[
+  {
+    "id": 46667,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "サルノリ",
+    "name_ko": "흥나숭",
+    "hp": 70,
+    "type_ko": "풀",
+    "regulation": "SV8a",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색",
+        "name_ja": "けとばす",
+        "name_ko": "걷어차기",
+        "damage": "10",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "cost_ko": "풀풀",
+        "name_ja": "えだづき",
+        "name_ko": "막대공격",
+        "damage": "30",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "하이클래스팩 「테라스탈 페스 ex(テラスタルフェスex)」",
+    "number": "006/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46667"
+  },
+  {
+    "id": 46668,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "バチンキー",
+    "name_ko": "채키몽",
+    "hp": 100,
+    "type_ko": "풀",
+    "regulation": "SV8a",
+    "abilities": [
+      {
+        "name_ja": "ドンドンだいこ",
+        "name_ko": "둥둥북",
+        "text_ja": "自分のバトルポケモンが特性『おまつりおんど』を持つポケモンなら、自分の番に1回使える。自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
+        "text_ko": "자신의 배틀 포켓몬이 특성 '축제 분위기'를 가진 포켓몬이라면 자신의 차례에 1회 사용할 수 있다. 자신의 덱에서 원하는 카드를 1장 선택해 패에 추가한다. 그리고 덱을 섞는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "풀",
+        "name_ja": "たたく",
+        "name_ko": "두드리기",
+        "damage": "50",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "하이클래스팩 「테라스탈 페스 ex(テラスタルフェスex)」",
+    "number": "007/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46668"
+  },
+  {
+    "id": 45701,
+    "category": "pokemon",
+    "subtype_ko": "2단계 포켓몬",
+    "name_ja": "ゴリランダー",
+    "name_ko": "고릴타",
+    "hp": 180,
+    "type_ko": "풀",
+    "regulation": "SV6",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "풀무색",
+        "name_ja": "ドラムアタック",
+        "name_ko": "드럼 어택",
+        "damage": "60",
+        "text_ja": "次の相手の番、このワザを受けたポケモンは、ワザを使うためのエネルギーとにげるためのエネルギーが、それぞれエネルギー1個ぶん多くなる。",
+        "text_ko": "다음 상대 차례에 이 기술을 받은 포켓몬은 기술을 사용하기 위한 에너지와 후퇴하기 위한 에너지가 각각 에너지 1개분 많아진다."
+      },
+      {
+        "cost_ko": "풀풀무색",
+        "name_ja": "ウッドハンマー",
+        "name_ko": "우드해머",
+        "damage": "180",
+        "text_ja": "このポケモンにも50ダメージ。",
+        "text_ko": "이 포켓몬에게도 50데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「변환의 가면(変幻の仮面)」",
+    "number": "010/101",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45701"
+  },
+  {
+    "id": 46689,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "トサキント",
+    "name_ko": "동챙이",
+    "hp": 50,
+    "type_ko": "물",
+    "regulation": "SV8a",
+    "abilities": [
+      {
+        "name_ja": "おまつりおんど",
+        "name_ko": "축제 분위기",
+        "text_ja": "場に『お祭り会場』が出ているなら、このポケモンは、持っているワザを2回連続で使える。(1回目のワザで相手のバトルポケモンがきぜつしたなら、次のバトルポケモンが出たあと、2回目のワザを使う。)",
+        "text_ko": "필드에 '축제 회장'이 나와 있다면 이 포켓몬은 가지고 있는 기술을 2회 연속으로 사용할 수 있다. (1회째 기술로 상대 배틀 포켓몬이 기절했다면 다음 배틀 포켓몬이 나온 후에 2회째 기술을 사용한다.)"
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "물",
+        "name_ja": "うずしお",
+        "name_ko": "소용돌이",
+        "damage": "10",
+        "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+        "text_ko": "동전을 1회 던져 앞면이면 상대 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해 트래시한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "하이클래스팩 「테라스탈 페스 ex(テラスタルフェスex)」",
+    "number": "028/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46689"
+  },
+  {
+    "id": 46690,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "アズマオウ",
+    "name_ko": "왕콘치",
+    "hp": 110,
+    "type_ko": "물",
+    "regulation": "SV8a",
+    "abilities": [
+      {
+        "name_ja": "おまつりおんど",
+        "name_ko": "축제 분위기",
+        "text_ja": "場に『お祭り会場』が出ているなら、このポケモンは、持っているワザを2回連続で使える。(1回目のワザで相手のバトルポケモンがきぜつしたなら、次のバトルポケモンが出たあと、2回目のワザを使う。)",
+        "text_ko": "필드에 '축제 회장'이 나와 있다면 이 포켓몬은 가지고 있는 기술을 2회 연속으로 사용할 수 있다. (1회째 기술로 상대 배틀 포켓몬이 기절했다면 다음 배틀 포켓몬이 나온 후에 2회째 기술을 사용한다.)"
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "무색",
+        "name_ja": "クイックドロー",
+        "name_ko": "퀵 드로",
+        "damage": "60",
+        "text_ja": "自分の山札を2枚引く。",
+        "text_ko": "자신의 덱을 2장 뽑는다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "하이클래스팩 「테라스탈 페스 ex(テラスタルフェスex)」",
+    "number": "029/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46690"
+  },
+  {
+    "id": 46674,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "シガロコ",
+    "name_ko": "구르데",
+    "hp": 50,
+    "type_ko": "노말",
+    "regulation": "SV8a",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색",
+        "name_ja": "ちょっとつっこむ",
+        "name_ko": "살짝 들이받기",
+        "damage": "30",
+        "text_ja": "このポケモンにも10ダメージ。",
+        "text_ko": "이 포켓몬에게도 10데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "하이클래스팩 「테라스탈 페스 ex(テラスタルフェスex)」",
+    "number": "013/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46674"
+  }
+]

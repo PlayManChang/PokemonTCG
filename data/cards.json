@@ -76,6 +76,27 @@
       "name_ja": "ロケット団のミュウツーex",
       "tier": 3,
       "note": ""
+    },
+    {
+      "id": "omatsuriondo",
+      "name_ko": "오마츠리온도(축제)",
+      "name_ja": "おまつりおんど",
+      "tier": 4,
+      "note": "최근 짐배틀 우승"
+    },
+    {
+      "id": "mega-livolt",
+      "name_ko": "메가 라이볼트 ex",
+      "name_ja": "メガライボルトex",
+      "tier": 4,
+      "note": "최근 짐배틀 우승"
+    },
+    {
+      "id": "dodekabashi",
+      "name_ko": "도데카바시",
+      "name_ja": "ドデカバシ",
+      "tier": 4,
+      "note": "최근 짐배틀 우승"
     }
   ],
   "cards": [
@@ -455,7 +476,8 @@
         "kamitsuorochi",
         "takeraiko",
         "mega-lucario",
-        "mega-greninja"
+        "mega-greninja",
+        "mega-livolt"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -463,12 +485,14 @@
         "kamitsuorochi": 1,
         "takeraiko": 1,
         "mega-lucario": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "mega-livolt": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -498,17 +522,20 @@
       "decks": [
         "dragapult",
         "nzoroark",
-        "mega-greninja"
+        "mega-greninja",
+        "dodekabashi"
       ],
       "deckCounts": {
         "dragapult": 1,
         "nzoroark": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "dodekabashi": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -534,7 +561,10 @@
         "nzoroark",
         "shirona-garchomp",
         "foodin",
-        "mega-greninja"
+        "mega-greninja",
+        "omatsuriondo",
+        "mega-livolt",
+        "dodekabashi"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -543,12 +573,16 @@
         "nzoroark": 1,
         "shirona-garchomp": 1,
         "foodin": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "omatsuriondo": 1,
+        "mega-livolt": 1,
+        "dodekabashi": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -575,7 +609,10 @@
         "mega-lucario",
         "shirona-garchomp",
         "foodin",
-        "mega-greninja"
+        "mega-greninja",
+        "omatsuriondo",
+        "mega-livolt",
+        "dodekabashi"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -585,12 +622,16 @@
         "mega-lucario": 1,
         "shirona-garchomp": 1,
         "foodin": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "omatsuriondo": 1,
+        "mega-livolt": 1,
+        "dodekabashi": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -618,7 +659,10 @@
         "takeraiko",
         "mega-lucario",
         "mega-greninja",
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "omatsuriondo",
+        "mega-livolt",
+        "dodekabashi"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -629,12 +673,16 @@
         "takeraiko": 1,
         "mega-lucario": 1,
         "mega-greninja": 1,
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "omatsuriondo": 1,
+        "mega-livolt": 1,
+        "dodekabashi": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -663,7 +711,10 @@
         "shirona-garchomp",
         "foodin",
         "mega-greninja",
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "omatsuriondo",
+        "mega-livolt",
+        "dodekabashi"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -675,12 +726,16 @@
         "shirona-garchomp": 1,
         "foodin": 1,
         "mega-greninja": 1,
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "omatsuriondo": 1,
+        "mega-livolt": 1,
+        "dodekabashi": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -730,19 +785,24 @@
         "nzoroark",
         "kamitsuorochi",
         "takeraiko",
-        "shirona-garchomp"
+        "shirona-garchomp",
+        "omatsuriondo",
+        "mega-livolt"
       ],
       "deckCounts": {
         "dragapult": 1,
         "nzoroark": 1,
         "kamitsuorochi": 1,
         "takeraiko": 1,
-        "shirona-garchomp": 1
+        "shirona-garchomp": 1,
+        "omatsuriondo": 1,
+        "mega-livolt": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -771,7 +831,10 @@
         "mega-lucario",
         "shirona-garchomp",
         "mega-greninja",
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "omatsuriondo",
+        "mega-livolt",
+        "dodekabashi"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -783,12 +846,16 @@
         "mega-lucario": 1,
         "shirona-garchomp": 1,
         "mega-greninja": 1,
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "omatsuriondo": 1,
+        "mega-livolt": 1,
+        "dodekabashi": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -817,7 +884,10 @@
         "mega-lucario",
         "shirona-garchomp",
         "foodin",
-        "mega-greninja"
+        "mega-greninja",
+        "omatsuriondo",
+        "mega-livolt",
+        "dodekabashi"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -829,12 +899,16 @@
         "mega-lucario": 1,
         "shirona-garchomp": 1,
         "foodin": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "omatsuriondo": 1,
+        "mega-livolt": 1,
+        "dodekabashi": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -855,15 +929,20 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49608",
       "decks": [
         "dragapult",
-        "mega-lucario"
+        "mega-lucario",
+        "omatsuriondo",
+        "dodekabashi"
       ],
       "deckCounts": {
         "dragapult": 1,
-        "mega-lucario": 1
+        "mega-lucario": 1,
+        "omatsuriondo": 1,
+        "dodekabashi": 1
       },
       "tiers": [
         1,
-        3
+        3,
+        4
       ]
     },
     {
@@ -1288,15 +1367,20 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48534",
       "decks": [
         "bakegakure",
-        "foodin"
+        "foodin",
+        "omatsuriondo",
+        "mega-livolt"
       ],
       "deckCounts": {
         "bakegakure": 1,
-        "foodin": 1
+        "foodin": 1,
+        "omatsuriondo": 1,
+        "mega-livolt": 1
       },
       "tiers": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -1902,17 +1986,20 @@
         "bakegakure",
         "shirona-garchomp",
         "foodin",
-        "mega-greninja"
+        "mega-greninja",
+        "mega-livolt"
       ],
       "deckCounts": {
         "bakegakure": 1,
         "shirona-garchomp": 1,
         "foodin": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "mega-livolt": 1
       },
       "tiers": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -2045,7 +2132,8 @@
         "mega-lucario",
         "shirona-garchomp",
         "foodin",
-        "mega-greninja"
+        "mega-greninja",
+        "omatsuriondo"
       ],
       "deckCounts": {
         "mega-drilbur": 1,
@@ -2054,11 +2142,13 @@
         "mega-lucario": 1,
         "shirona-garchomp": 1,
         "foodin": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -2106,16 +2196,21 @@
       "decks": [
         "mega-drilbur",
         "mega-lucario",
-        "mega-greninja"
+        "mega-greninja",
+        "omatsuriondo",
+        "mega-livolt"
       ],
       "deckCounts": {
         "mega-drilbur": 1,
         "mega-lucario": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "omatsuriondo": 1,
+        "mega-livolt": 1
       },
       "tiers": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -2325,13 +2420,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVM/046605_T_KARATEOUNOKEIKO.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46605",
       "decks": [
-        "nzoroark"
+        "nzoroark",
+        "omatsuriondo"
       ],
       "deckCounts": {
-        "nzoroark": 1
+        "nzoroark": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -2550,13 +2648,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048778_P_KAJITCHIXYU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48778",
       "decks": [
-        "kamitsuorochi"
+        "kamitsuorochi",
+        "omatsuriondo"
       ],
       "deckCounts": {
-        "kamitsuorochi": 1
+        "kamitsuorochi": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -2595,13 +2696,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046670_P_KAMITCHIXYU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46670",
       "decks": [
-        "kamitsuorochi"
+        "kamitsuorochi",
+        "omatsuriondo"
       ],
       "deckCounts": {
-        "kamitsuorochi": 1
+        "kamitsuorochi": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -2799,14 +2903,17 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46681",
       "decks": [
         "kamitsuorochi",
-        "takeraiko"
+        "takeraiko",
+        "dodekabashi"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
-        "takeraiko": 1
+        "takeraiko": 1,
+        "dodekabashi": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -3776,13 +3883,18 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV-P/047492_P_KODAKKU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47492",
       "decks": [
-        "foodin"
+        "foodin",
+        "omatsuriondo",
+        "mega-livolt"
       ],
       "deckCounts": {
-        "foodin": 1
+        "foodin": 1,
+        "omatsuriondo": 1,
+        "mega-livolt": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4216,15 +4328,18 @@
       "decks": [
         "kamitsuorochi",
         "takeraiko",
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "omatsuriondo"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
         "takeraiko": 1,
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4245,14 +4360,19 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48417",
       "decks": [
         "kamitsuorochi",
-        "foodin"
+        "foodin",
+        "omatsuriondo",
+        "dodekabashi"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
-        "foodin": 1
+        "foodin": 1,
+        "omatsuriondo": 1,
+        "dodekabashi": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4273,14 +4393,17 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49428",
       "decks": [
         "kamitsuorochi",
-        "foodin"
+        "foodin",
+        "omatsuriondo"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
-        "foodin": 1
+        "foodin": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4326,13 +4449,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1S/047857_T_KATSURIXYOKUNOMORI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47857",
       "decks": [
-        "kamitsuorochi"
+        "kamitsuorochi",
+        "omatsuriondo"
       ],
       "deckCounts": {
-        "kamitsuorochi": 1
+        "kamitsuorochi": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4352,13 +4478,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045790_T_OMATSURIKAIJIXYOU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45790",
       "decks": [
-        "kamitsuorochi"
+        "kamitsuorochi",
+        "omatsuriondo"
       ],
       "deckCounts": {
-        "kamitsuorochi": 1
+        "kamitsuorochi": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4458,13 +4587,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046843_T_ZERONODAIKUUDOU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46843",
       "decks": [
-        "takeraiko"
+        "takeraiko",
+        "dodekabashi"
       ],
       "deckCounts": {
-        "takeraiko": 1
+        "takeraiko": 1,
+        "dodekabashi": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4540,13 +4672,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MA/047882_T_POKEMONIREKAE.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47882",
       "decks": [
-        "mega-lucario"
+        "mega-lucario",
+        "omatsuriondo"
       ],
       "deckCounts": {
-        "mega-lucario": 1
+        "mega-lucario": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4567,14 +4702,17 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47202",
       "decks": [
         "mega-lucario",
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "dodekabashi"
       ],
       "deckCounts": {
         "mega-lucario": 1,
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "dodekabashi": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4648,15 +4786,18 @@
       "decks": [
         "shirona-garchomp",
         "foodin",
-        "mega-greninja"
+        "mega-greninja",
+        "dodekabashi"
       ],
       "deckCounts": {
         "shirona-garchomp": 1,
         "foodin": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "dodekabashi": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4754,13 +4895,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048672_T_SEINARUHAI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48672",
       "decks": [
-        "foodin"
+        "foodin",
+        "omatsuriondo"
       ],
       "deckCounts": {
-        "foodin": 1
+        "foodin": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4806,13 +4950,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2/048419_T_BATORUKOROSHIAMU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48419",
       "decks": [
-        "foodin"
+        "foodin",
+        "mega-livolt"
       ],
       "deckCounts": {
-        "foodin": 1
+        "foodin": 1,
+        "mega-livolt": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4910,13 +5057,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049405_T_BUREIBUBANGURU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49405",
       "decks": [
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "omatsuriondo"
       ],
       "deckCounts": {
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "omatsuriondo": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -5068,15 +5218,20 @@
       "decks": [
         "kamitsuorochi",
         "takeraiko",
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "omatsuriondo",
+        "dodekabashi"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
         "takeraiko": 1,
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "omatsuriondo": 1,
+        "dodekabashi": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -5096,13 +5251,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/ENE/046119_E_KIHONKAMINARIENERUGI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46119",
       "decks": [
-        "takeraiko"
+        "takeraiko",
+        "mega-livolt"
       ],
       "deckCounts": {
-        "takeraiko": 1
+        "takeraiko": 1,
+        "mega-livolt": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -5265,6 +5423,1052 @@
       },
       "tiers": [
         3
+      ]
+    },
+    {
+      "id": 46667,
+      "name_ja": "サルノリ",
+      "name_ko": "흥나숭",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "けとばす",
+          "name_ko": "걷어차기",
+          "damage": "10",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "cost_ko": "풀풀",
+          "name_ja": "えだづき",
+          "name_ko": "막대공격",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV8a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046667_P_SARUNORI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46667",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46668,
+      "name_ja": "バチンキー",
+      "name_ko": "채키몽",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 100,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "ドンドンだいこ",
+          "name_ko": "둥둥북",
+          "text_ja": "自分のバトルポケモンが特性『おまつりおんど』を持つポケモンなら、自分の番に1回使える。自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
+          "text_ko": "자신의 배틀 포켓몬이 특성 '축제 분위기'를 가진 포켓몬이라면 자신의 차례에 1회 사용할 수 있다. 자신의 덱에서 원하는 카드를 1장 선택해 패에 추가한다. 그리고 덱을 섞는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "풀",
+          "name_ja": "たたく",
+          "name_ko": "두드리기",
+          "damage": "50",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV8a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046668_P_BACHINKI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46668",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45701,
+      "name_ja": "ゴリランダー",
+      "name_ko": "고릴타",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬",
+      "hp": 180,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "풀무색",
+          "name_ja": "ドラムアタック",
+          "name_ko": "드럼 어택",
+          "damage": "60",
+          "text_ja": "次の相手の番、このワザを受けたポケモンは、ワザを使うためのエネルギーとにげるためのエネルギーが、それぞれエネルギー1個ぶん多くなる。",
+          "text_ko": "다음 상대 차례에 이 기술을 받은 포켓몬은 기술을 사용하기 위한 에너지와 후퇴하기 위한 에너지가 각각 에너지 1개분 많아진다."
+        },
+        {
+          "cost_ko": "풀풀무색",
+          "name_ja": "ウッドハンマー",
+          "name_ko": "우드해머",
+          "damage": "180",
+          "text_ja": "このポケモンにも50ダメージ。",
+          "text_ko": "이 포켓몬에게도 50데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV6",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045701_P_GORIRANDA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45701",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46689,
+      "name_ja": "トサキント",
+      "name_ko": "동챙이",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 50,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "おまつりおんど",
+          "name_ko": "축제 분위기",
+          "text_ja": "場に『お祭り会場』が出ているなら、このポケモンは、持っているワザを2回連続で使える。(1回目のワザで相手のバトルポケモンがきぜつしたなら、次のバトルポケモンが出たあと、2回目のワザを使う。)",
+          "text_ko": "필드에 '축제 회장'이 나와 있다면 이 포켓몬은 가지고 있는 기술을 2회 연속으로 사용할 수 있다. (1회째 기술로 상대 배틀 포켓몬이 기절했다면 다음 배틀 포켓몬이 나온 후에 2회째 기술을 사용한다.)"
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "물",
+          "name_ja": "うずしお",
+          "name_ko": "소용돌이",
+          "damage": "10",
+          "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+          "text_ko": "동전을 1회 던져 앞면이면 상대 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해 트래시한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV8a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046689_P_TOSAKINTO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46689",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46690,
+      "name_ja": "アズマオウ",
+      "name_ko": "왕콘치",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 110,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "おまつりおんど",
+          "name_ko": "축제 분위기",
+          "text_ja": "場に『お祭り会場』が出ているなら、このポケモンは、持っているワザを2回連続で使える。(1回目のワザで相手のバトルポケモンがきぜつしたなら、次のバトルポケモンが出たあと、2回目のワザを使う。)",
+          "text_ko": "필드에 '축제 회장'이 나와 있다면 이 포켓몬은 가지고 있는 기술을 2회 연속으로 사용할 수 있다. (1회째 기술로 상대 배틀 포켓몬이 기절했다면 다음 배틀 포켓몬이 나온 후에 2회째 기술을 사용한다.)"
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "クイックドロー",
+          "name_ko": "퀵 드로",
+          "damage": "60",
+          "text_ja": "自分の山札を2枚引く。",
+          "text_ko": "자신의 덱을 2장 뽑는다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV8a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046690_P_AZUMAOU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46690",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46674,
+      "name_ja": "シガロコ",
+      "name_ko": "구르데",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 50,
+      "type_ko": "노말",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "ちょっとつっこむ",
+          "name_ko": "살짝 들이받기",
+          "damage": "30",
+          "text_ja": "このポケモンにも10ダメージ。",
+          "text_ko": "이 포켓몬에게도 10데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV8a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046674_P_SHIGAROKO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46674",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46675,
+      "name_ja": "ベラカス",
+      "name_ko": "베라카스",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 70,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "スフィアシールド",
+          "name_ko": "스피어 실드",
+          "text_ja": "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のポケモンからワザのダメージや効果を受けない。",
+          "text_ko": "이 포켓몬이 있는 한 자신의 벤치 포켓몬 전원은 상대 포켓몬으로부터 기술의 데미지나 효과를 받지 않는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "초초",
+          "name_ja": "サイコキネシス",
+          "name_ko": "사이코키네시스",
+          "damage": "10+",
+          "text_ja": "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+          "text_ko": "상대 배틀 포켓몬에 붙어 있는 에너지의 수 ×30 데미지를 추가한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV8a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046675_P_BERAKASU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46675",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50241,
+      "name_ja": "ラクライ",
+      "name_ko": "찌리리꼬",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "번개",
+          "name_ja": "もってくる",
+          "name_ko": "가져오기",
+          "damage": "",
+          "text_ja": "自分の山札を1枚引く。",
+          "text_ko": "자신의 덱을 1장 뽑는다."
+        },
+        {
+          "cost_ko": "번개번개",
+          "name_ja": "たいあたり",
+          "name_ko": "몸통박치기",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050241_P_RAKURAI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50241",
+      "decks": [
+        "mega-livolt"
+      ],
+      "deckCounts": {
+        "mega-livolt": 2
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47828,
+      "name_ja": "メガライボルトex",
+      "name_ko": "메가 썬더볼트 ex",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬 / 포켓몬 ex",
+      "hp": 330,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "번개번개",
+          "name_ja": "フラッシュレイ",
+          "name_ko": "플래시 레이",
+          "damage": "120",
+          "text_ja": "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。",
+          "text_ko": "다음 상대의 차례에 이 포켓몬은 기본 포켓몬에게서 기술의 데미지를 받지 않는다."
+        },
+        {
+          "cost_ko": "번개번개번개",
+          "name_ja": "ライオットブラスター",
+          "name_ko": "라이엇 블래스터",
+          "damage": "200＋",
+          "text_ja": "のぞむなら、このポケモンについているエネルギーをすべてトラッシュし、130ダメージ追加。",
+          "text_ko": "원한다면 이 포켓몬에 붙어 있는 에너지를 모두 트래시하고 130 데미지 추가."
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때 상대는 사이드를 3장 가져간다.",
+      "set": "M1S",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1S/047828_P_MRAIBORUTOEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47828",
+      "decks": [
+        "mega-livolt"
+      ],
+      "deckCounts": {
+        "mega-livolt": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50242,
+      "name_ja": "ライボルト",
+      "name_ko": "썬더볼트",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 120,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "번개번개",
+          "name_ja": "フラッシュバリア",
+          "name_ko": "플래시 배리어",
+          "damage": "50",
+          "text_ja": "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。",
+          "text_ko": "다음 상대의 차례에 이 포켓몬은 진화 포켓몬에게서 기술의 데미지를 받지 않는다."
+        },
+        {
+          "cost_ko": "번개번개번개",
+          "name_ja": "ソニックエッジ",
+          "name_ko": "소닉 엣지",
+          "damage": "110",
+          "text_ja": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+          "text_ko": "이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050242_P_RAIBORUTO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50242",
+      "decks": [
+        "mega-livolt"
+      ],
+      "deckCounts": {
+        "mega-livolt": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48972,
+      "name_ja": "シビシラス",
+      "name_ko": "저리어",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 40,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "じっとする",
+          "name_ko": "가만히 있기",
+          "damage": "",
+          "text_ja": "このポケモンのHPを「10」回復する。",
+          "text_ko": "이 포켓몬의 HP를 '10' 회복한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048972_P_SHIBISHIRASU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48972",
+      "decks": [
+        "mega-livolt"
+      ],
+      "deckCounts": {
+        "mega-livolt": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48973,
+      "name_ja": "シビビール",
+      "name_ko": "저리비",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 90,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "エレキダイナモ",
+          "name_ko": "일렉트릭 다이나모",
+          "text_ja": "自分の番に1回使える。自分のトラッシュから「基本エネルギー」を1枚選び、ベンチポケモンにつける。",
+          "text_ko": "자신의 차례에 1회 사용할 수 있다. 자신의 트래시에서 '기본 에너지'를 1장 선택해 벤치 포켓몬에 붙인다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "번개번개무색",
+          "name_ja": "ライトニングボール",
+          "name_ko": "라이트닝 볼",
+          "damage": "50",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048973_P_SHIBIBIRU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48973",
+      "decks": [
+        "mega-livolt"
+      ],
+      "deckCounts": {
+        "mega-livolt": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48994,
+      "name_ja": "ナンジャモのカイデン",
+      "name_ko": "난지모의 카이덴",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 60,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "번개",
+          "name_ja": "でんこうせっか",
+          "name_ko": "전광석화",
+          "damage": "10+",
+          "text_ja": "コインを1回投げオモテなら、20ダメージ追加。",
+          "text_ko": "동전을 1회 던져 앞면이면 20데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048994_P_NANJIXYAMONOKAIDEN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48994",
+      "decks": [
+        "mega-livolt"
+      ],
+      "deckCounts": {
+        "mega-livolt": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48995,
+      "name_ja": "ナンジャモのタイカイデン",
+      "name_ko": "난지모의 태풍둥지",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 120,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "フラッシュドロー",
+          "name_ko": "플래시 드로",
+          "text_ja": "自分の番に、このポケモンについている「基本エネルギー」を1個トラッシュするなら、1回使える。自分の手札が6枚になるように、山札を引く。",
+          "text_ko": "자신의 차례에 이 포켓몬에게 붙어 있는 '기본 에너지'를 1개 트래시한다면 1회 사용할 수 있다. 자신의 패가 6장이 되도록 덱을 뽑는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "번개무색",
+          "name_ja": "マッハボルト",
+          "name_ko": "마하 볼트",
+          "damage": "70",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048995_P_NANJIXYAMONOTAIKAIDEN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48995",
+      "decks": [
+        "mega-livolt"
+      ],
+      "deckCounts": {
+        "mega-livolt": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48572,
+      "name_ja": "マッギョ",
+      "name_ko": "메더",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 110,
+      "type_ko": "번개",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "번개무색",
+          "name_ja": "とびつくわな",
+          "name_ko": "달려드는 함정",
+          "damage": "30",
+          "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。次の自分の番、このワザを受けたポケモンが受けるワザのダメージは「+100」される。",
+          "text_ko": "다음 상대 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다. 다음 자신의 차례에 이 기술을 받은 포켓몬이 받는 기술의 데미지는 '+100'된다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048572_P_MAGGIXYO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48572",
+      "decks": [
+        "mega-livolt"
+      ],
+      "deckCounts": {
+        "mega-livolt": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50283,
+      "name_ja": "ツツケラ",
+      "name_ko": "콕코구리",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "にどづき",
+          "name_ko": "두번찌르기",
+          "damage": "10×",
+          "text_ja": "コインを2回投げ、オモテの数×10ダメージ。",
+          "text_ko": "동전을 2회 던져 앞면의 수×10데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050283_P_TSUTSUKERA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50283",
+      "decks": [
+        "dodekabashi"
+      ],
+      "deckCounts": {
+        "dodekabashi": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50284,
+      "name_ja": "ケララッパ",
+      "name_ko": "케라랏파(ケララッパ)",
+      "category": "pokemon",
+      "subtype_ko": "1진화",
+      "hp": 90,
+      "type_ko": "무",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무",
+          "name_ja": "そらをとぶ",
+          "name_ko": "공중날기",
+          "damage": "30",
+          "text_ja": "コインを1回投げウラなら、このワザは失敗。オモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+          "text_ko": "동전을 1회 던져 뒷면이면 이 기술은 실패한다. 앞면이면 다음 상대의 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050284_P_KERARAPPA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50284",
+      "decks": [
+        "dodekabashi"
+      ],
+      "deckCounts": {
+        "dodekabashi": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50285,
+      "name_ja": "ドデカバシ",
+      "name_ko": "왕큰부리(ドデカバシ)",
+      "category": "pokemon",
+      "subtype_ko": "2진화",
+      "hp": 150,
+      "type_ko": "무",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "スカイドロー",
+          "name_ko": "스카이 드로우",
+          "text_ja": "自分の番に1回使える。自分の山札を1枚引く。",
+          "text_ko": "자신의 차례에 1회 사용할 수 있다. 자신의 덱을 1장 뽑는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "무무무",
+          "name_ja": "フェザーロンド",
+          "name_ko": "페더 론도",
+          "damage": "60+",
+          "text_ja": "おたがいのベンチポケモンの数×20ダメージ追加。",
+          "text_ko": "서로의 벤치 포켓몬 수×20 데미지를 추가한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050285_P_DODEKABASHI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50285",
+      "decks": [
+        "dodekabashi"
+      ],
+      "deckCounts": {
+        "dodekabashi": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47182,
+      "name_ja": "ホーホー",
+      "name_ko": "부우부(ホーホー)",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "무",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무",
+          "name_ja": "さんどづき",
+          "name_ko": "세 번 찌르기",
+          "damage": "10×",
+          "text_ja": "コインを3回投げ、オモテの数×10ダメージ。",
+          "text_ko": "동전을 3회 던져, 앞면의 수×10 데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVN",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVN/047182_P_HOHO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47182",
+      "decks": [
+        "dodekabashi"
+      ],
+      "deckCounts": {
+        "dodekabashi": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47183,
+      "name_ja": "ヨルノズク",
+      "name_ko": "야부엉(ヨルノズク)",
+      "category": "pokemon",
+      "subtype_ko": "1진화",
+      "hp": 100,
+      "type_ko": "무",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "ほうせきさがし",
+          "name_ko": "보석 찾기",
+          "text_ja": "自分の番に、このカードを手札から出して進化させたとき、自分の場に「テラスタル」のポケモンがいるなら、1回使える。自分の山札からトレーナーズを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+          "text_ko": "자신의 차례에 이 카드를 패에서 내어 진화시켰을 때, 자신의 필드에 '테라스탈' 포켓몬이 있다면 1회 사용할 수 있다. 자신의 덱에서 트레이너스를 2장까지 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "무무",
+          "name_ja": "スピードウイング",
+          "name_ko": "스피드 윙",
+          "damage": "60",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVN",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVN/047183_P_YORUNOZUKU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47183",
+      "decks": [
+        "dodekabashi"
+      ],
+      "deckCounts": {
+        "dodekabashi": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48661,
+      "name_ja": "スピンロトム",
+      "name_ko": "스핀로토무(スピンロトム)",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "전기",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "ファンコール",
+          "name_ko": "팬 콜",
+          "text_ja": "最初の自分の番にだけ1回使える。自分の山札から、HPが「100」以下のポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。この番、すでに別の「ファンコール」を使っていたなら、この特性は使えない。",
+          "text_ko": "맨 처음 자신의 차례에만 1회 사용할 수 있다. 자신의 덱에서 HP가 '100' 이하인 포켓몬을 3장까지 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다. 이 차례에 이미 다른 '팬 콜'을 사용했다면 이 특성은 사용할 수 없다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "전",
+          "name_ja": "とつげきランディング",
+          "name_ko": "돌격 랜딩",
+          "damage": "70",
+          "text_ja": "場にスタジアムが出ていないなら、このワザは失敗。",
+          "text_ko": "필드에 스타디움이 나와 있지 않다면 이 기술은 실패한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048661_P_SUPINROTOMU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48661",
+      "decks": [
+        "dodekabashi"
+      ],
+      "deckCounts": {
+        "dodekabashi": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49376,
+      "name_ja": "ポケギア3.0",
+      "name_ko": "포켓기어 3.0",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札を上から7枚見て、その中からサポートを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "자신의 덱을 위에서부터 7장 보고, 그 중에서 서포트를 1장 선택해 상대에게 보여주고 패에 추가한다. 남은 카드는 덱으로 되돌리고 섞는다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049376_T_POKEGIA30.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49376",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48673,
+      "name_ja": "ツールスクラッパー",
+      "name_ko": "툴 스크래퍼",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいの場のポケモンについている『ポケモンのどうぐ』を2枚まで選び、トラッシュする。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "서로의 필드에 있는 포켓몬에 붙어 있는 '포켓몬의 도구'를 2장까지 선택해 트래시한다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048673_T_TSURUSUKURAPPA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48673",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47104,
+      "name_ja": "タケシのスカウト",
+      "name_ko": "웅의 스카우트",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札からたねポケモンを2枚まで、または進化ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "자신의 덱에서 기본 포켓몬을 2장까지, 또는 진화 포켓몬을 1장 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "SV9",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV9/047104_T_TAKESHINOSUKAUTO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47104",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46289,
+      "name_ja": "カキツバタ",
+      "name_ko": "카키츠바타",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札を上から7枚見て、その中からポケモンとトレーナーズを1枚ずつ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "자신의 덱을 위에서부터 7장 보고, 그 중에서 포켓몬과 트레이너를 1장씩 선택해 상대에게 보여주고 패에 추가한다. 남은 카드는 덱으로 되돌리고 섞는다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "SV7a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV7a/046289_T_KAKITSUBATA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46289",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49429,
+      "name_ja": "スグリ",
+      "name_ko": "스구리",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、2つの効果から1つを選んで使う。◆自分のバトルポケモンをベンチポケモンと入れ替える。◆この番、自分のポケモンが使うワザの、相手のバトル場の「ポケモンex・V」へのダメージは「+30」される。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "이 카드는 2개의 효과 중 1개를 선택해 사용한다. ◆자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. ◆이 차례에 자신의 포켓몬이 사용하는 기술의, 상대 배틀필드에 있는 '포켓몬 ex·V'에 대한 데미지는 '+30'된다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049429_T_SUGURI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49429",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50295,
+      "name_ja": "グラジオの決戦",
+      "name_ko": "글래디온의 결전",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、自分の手札がこのカード1枚だけのときにしか使えない。この番、自分のポケモン（「ルールを持つポケモン」をのぞく）が使うワザの、相手のバトルポケモンへのダメージは「+80」される。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "이 카드는 자신의 패가 이 카드 1장뿐일 때만 사용할 수 있다. 이 차례에 자신의 포켓몬('룰을 가진 포켓몬'은 제외)이 사용하는 기술의, 상대 배틀 포켓몬에게 주는 데미지는 '+80'된다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050295_T_GURAJIONOKESSEN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50295",
+      "decks": [
+        "omatsuriondo"
+      ],
+      "deckCounts": {
+        "omatsuriondo": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48692,
+      "name_ja": "カナリィ",
+      "name_ko": "카나리",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、自分の手札を1枚トラッシュしなければ使えない。自分の山札からポケモンを4枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+      "text_ko": "이 카드는 자신의 패를 1장 트래시해야만 사용할 수 있다. 자신의 덱에서 포켓몬을 4장까지 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다.",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048692_T_KANARII.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48692",
+      "decks": [
+        "mega-livolt"
+      ],
+      "deckCounts": {
+        "mega-livolt": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50299,
+      "name_ja": "ボルト雷エネルギー",
+      "name_ko": "볼트 번개 에너지",
+      "category": "energy",
+      "subtype_ko": "특수 에너지",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+      "text_ko": "이 카드는 포켓몬에게 붙어 있는 한 에너지 1개분으로서 작용한다. 이 카드를 붙인 포켓몬이 사용하는 기술의, 상대 배틀 포켓몬에게 주는 데미지는 '+20'된다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050299_E_BORUTOKAMINARIENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50299",
+      "decks": [
+        "mega-livolt"
+      ],
+      "deckCounts": {
+        "mega-livolt": 1
+      },
+      "tiers": [
+        4
       ]
     }
   ]

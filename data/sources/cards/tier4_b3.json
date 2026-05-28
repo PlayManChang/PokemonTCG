@@ -1,0 +1,180 @@
+[
+  {
+    "id": 50295,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "グラジオの決戦",
+    "name_ko": "글래디온의 결전",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、自分の手札がこのカード1枚だけのときにしか使えない。この番、自分のポケモン（「ルールを持つポケモン」をのぞく）が使うワザの、相手のバトルポケモンへのダメージは「+80」される。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "이 카드는 자신의 패가 이 카드 1장뿐일 때만 사용할 수 있다. 이 차례에 자신의 포켓몬('룰을 가진 포켓몬'은 제외)이 사용하는 기술의, 상대 배틀 포켓몬에게 주는 데미지는 '+80'된다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "076/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50295"
+  },
+  {
+    "id": 50241,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ラクライ",
+    "name_ko": "찌리리꼬",
+    "hp": 70,
+    "type_ko": "번개",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "번개",
+        "name_ja": "もってくる",
+        "name_ko": "가져오기",
+        "damage": "",
+        "text_ja": "自分の山札を1枚引く。",
+        "text_ko": "자신의 덱을 1장 뽑는다."
+      },
+      {
+        "cost_ko": "번개번개",
+        "name_ja": "たいあたり",
+        "name_ko": "몸통박치기",
+        "damage": "30",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "022/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50241"
+  },
+  {
+    "id": 47828,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬 / 포켓몬 ex",
+    "name_ja": "メガライボルトex",
+    "name_ko": "메가 썬더볼트 ex",
+    "hp": 330,
+    "type_ko": "번개",
+    "regulation": "M1S",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "번개번개",
+        "name_ja": "フラッシュレイ",
+        "name_ko": "플래시 레이",
+        "damage": "120",
+        "text_ja": "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。",
+        "text_ko": "다음 상대의 차례에 이 포켓몬은 기본 포켓몬에게서 기술의 데미지를 받지 않는다."
+      },
+      {
+        "cost_ko": "번개번개번개",
+        "name_ja": "ライオットブラスター",
+        "name_ko": "라이엇 블래스터",
+        "damage": "200＋",
+        "text_ja": "のぞむなら、このポケモンについているエネルギーをすべてトラッシュし、130ダメージ追加。",
+        "text_ko": "원한다면 이 포켓몬에 붙어 있는 에너지를 모두 트래시하고 130 데미지 추가."
+      }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+    "text_ko": "메가진화 ex가 기절했을 때 상대는 사이드를 3장 가져간다.",
+    "set": "확장팩 「메가 심포니아(メガシンフォニア)」",
+    "number": "032/063",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47828"
+  },
+  {
+    "id": 50242,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "ライボルト",
+    "name_ko": "썬더볼트",
+    "hp": 120,
+    "type_ko": "번개",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "번개번개",
+        "name_ja": "フラッシュバリア",
+        "name_ko": "플래시 배리어",
+        "damage": "50",
+        "text_ja": "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。",
+        "text_ko": "다음 상대의 차례에 이 포켓몬은 진화 포켓몬에게서 기술의 데미지를 받지 않는다."
+      },
+      {
+        "cost_ko": "번개번개번개",
+        "name_ja": "ソニックエッジ",
+        "name_ko": "소닉 엣지",
+        "damage": "110",
+        "text_ja": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+        "text_ko": "이 기술의 데미지는 상대의 배틀 포켓몬에게 걸려 있는 효과를 계산하지 않는다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "023/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50242"
+  },
+  {
+    "id": 48972,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "シビシラス",
+    "name_ko": "저리어",
+    "hp": 40,
+    "type_ko": "번개",
+    "regulation": "MC",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색",
+        "name_ja": "じっとする",
+        "name_ko": "가만히 있기",
+        "damage": "",
+        "text_ja": "このポケモンのHPを「10」回復する。",
+        "text_ko": "이 포켓몬의 HP를 '10' 회복한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "스타트 덱 100 배틀 컬렉션(スタートデッキ100 バトルコレクション)",
+    "number": "256/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48972"
+  },
+  {
+    "id": 48973,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "シビビール",
+    "name_ko": "저리비",
+    "hp": 90,
+    "type_ko": "번개",
+    "regulation": "MC",
+    "abilities": [
+      {
+        "name_ja": "エレキダイナモ",
+        "name_ko": "일렉트릭 다이나모",
+        "text_ja": "自分の番に1回使える。自分のトラッシュから「基本エネルギー」を1枚選び、ベンチポケモンにつける。",
+        "text_ko": "자신의 차례에 1회 사용할 수 있다. 자신의 트래시에서 '기본 에너지'를 1장 선택해 벤치 포켓몬에 붙인다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "번개번개무색",
+        "name_ja": "ライトニングボール",
+        "name_ko": "라이트닝 볼",
+        "damage": "50",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "스타트 덱 100 배틀 컬렉션(スタートデッキ100 バトルコレクション)",
+    "number": "257/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48973"
+  }
+]

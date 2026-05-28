@@ -1,0 +1,153 @@
+[
+  {
+    "id": 50284,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "ケララッパ",
+    "name_ko": "케라랏파(ケララッパ)",
+    "hp": 90,
+    "type_ko": "무",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무",
+        "name_ja": "そらをとぶ",
+        "name_ko": "공중날기",
+        "damage": "30",
+        "text_ja": "コインを1回投げウラなら、このワザは失敗。オモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+        "text_ko": "동전을 1회 던져 뒷면이면 이 기술은 실패한다. 앞면이면 다음 상대의 차례에 이 포켓몬은 기술의 데미지나 효과를 받지 않는다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "065/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50284"
+  },
+  {
+    "id": 50285,
+    "category": "pokemon",
+    "subtype_ko": "2진화",
+    "name_ja": "ドデカバシ",
+    "name_ko": "왕큰부리(ドデカバシ)",
+    "hp": 150,
+    "type_ko": "무",
+    "regulation": "M5",
+    "abilities": [
+      {
+        "name_ja": "スカイドロー",
+        "name_ko": "스카이 드로우",
+        "text_ja": "自分の番に1回使える。自分の山札を1枚引く。",
+        "text_ko": "자신의 차례에 1회 사용할 수 있다. 자신의 덱을 1장 뽑는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "무무무",
+        "name_ja": "フェザーロンド",
+        "name_ko": "페더 론도",
+        "damage": "60+",
+        "text_ja": "おたがいのベンチポケモンの数×20ダメージ追加。",
+        "text_ko": "서로의 벤치 포켓몬 수×20 데미지를 추가한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "066/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50285"
+  },
+  {
+    "id": 47182,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ホーホー",
+    "name_ko": "부우부(ホーホー)",
+    "hp": 70,
+    "type_ko": "무",
+    "regulation": "SVN",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무",
+        "name_ja": "さんどづき",
+        "name_ko": "세 번 찌르기",
+        "damage": "10×",
+        "text_ja": "コインを3回投げ、オモテの数×10ダメージ。",
+        "text_ko": "동전을 3회 던져, 앞면의 수×10 데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "덱 빌드 BOX 「배틀파트너즈(バトルパートナーズ)」",
+    "number": "007/045",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47182"
+  },
+  {
+    "id": 47183,
+    "category": "pokemon",
+    "subtype_ko": "1진화",
+    "name_ja": "ヨルノズク",
+    "name_ko": "야부엉(ヨルノズク)",
+    "hp": 100,
+    "type_ko": "무",
+    "regulation": "SVN",
+    "abilities": [
+      {
+        "name_ja": "ほうせきさがし",
+        "name_ko": "보석 찾기",
+        "text_ja": "自分の番に、このカードを手札から出して進化させたとき、自分の場に「テラスタル」のポケモンがいるなら、1回使える。自分の山札からトレーナーズを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+        "text_ko": "자신의 차례에 이 카드를 패에서 내어 진화시켰을 때, 자신의 필드에 '테라스탈' 포켓몬이 있다면 1회 사용할 수 있다. 자신의 덱에서 트레이너스를 2장까지 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "무무",
+        "name_ja": "スピードウイング",
+        "name_ko": "스피드 윙",
+        "damage": "60",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "덱 빌드 BOX 「배틀파트너즈(バトルパートナーズ)」",
+    "number": "008/045",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47183"
+  },
+  {
+    "id": 48661,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "スピンロトム",
+    "name_ko": "스핀로토무(スピンロトム)",
+    "hp": 70,
+    "type_ko": "전기",
+    "regulation": "M2a",
+    "abilities": [
+      {
+        "name_ja": "ファンコール",
+        "name_ko": "팬 콜",
+        "text_ja": "最初の自分の番にだけ1回使える。自分の山札から、HPが「100」以下のポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。この番、すでに別の「ファンコール」を使っていたなら、この特性は使えない。",
+        "text_ko": "맨 처음 자신의 차례에만 1회 사용할 수 있다. 자신의 덱에서 HP가 '100' 이하인 포켓몬을 3장까지 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다. 이 차례에 이미 다른 '팬 콜'을 사용했다면 이 특성은 사용할 수 없다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "전",
+        "name_ja": "とつげきランディング",
+        "name_ko": "돌격 랜딩",
+        "damage": "70",
+        "text_ja": "場にスタジアムが出ていないなら、このワザは失敗。",
+        "text_ko": "필드에 스타디움이 나와 있지 않다면 이 기술은 실패한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "하이클래스팩 「MEGA드림 ex(MEGAドリームex)」",
+    "number": "139/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48661"
+  }
+]

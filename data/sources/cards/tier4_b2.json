@@ -1,0 +1,120 @@
+[
+  {
+    "id": 46675,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "ベラカス",
+    "name_ko": "베라카스",
+    "hp": 70,
+    "type_ko": "초",
+    "regulation": "SV8a",
+    "abilities": [
+      {
+        "name_ja": "スフィアシールド",
+        "name_ko": "스피어 실드",
+        "text_ja": "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のポケモンからワザのダメージや効果を受けない。",
+        "text_ko": "이 포켓몬이 있는 한 자신의 벤치 포켓몬 전원은 상대 포켓몬으로부터 기술의 데미지나 효과를 받지 않는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "초초",
+        "name_ja": "サイコキネシス",
+        "name_ko": "사이코키네시스",
+        "damage": "10+",
+        "text_ja": "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+        "text_ko": "상대 배틀 포켓몬에 붙어 있는 에너지의 수 ×30 데미지를 추가한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "하이클래스팩 「테라스탈 페스 ex(テラスタルフェスex)」",
+    "number": "014/187",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46675"
+  },
+  {
+    "id": 49376,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "ポケギア3.0",
+    "name_ko": "포켓기어 3.0",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "MC",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札を上から7枚見て、その中からサポートを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 덱을 위에서부터 7장 보고, 그 중에서 서포트를 1장 선택해 상대에게 보여주고 패에 추가한다. 남은 카드는 덱으로 되돌리고 섞는다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "스타트 덱 100 배틀 컬렉션(スタートデッキ100 バトルコレクション)",
+    "number": "660/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49376"
+  },
+  {
+    "id": 48673,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "ツールスクラッパー",
+    "name_ko": "툴 스크래퍼",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M2a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいの場のポケモンについている『ポケモンのどうぐ』を2枚まで選び、トラッシュする。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "서로의 필드에 있는 포켓몬에 붙어 있는 '포켓몬의 도구'를 2장까지 선택해 트래시한다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "하이클래스팩 「MEGA 드림 ex(MEGAドリームex)」",
+    "number": "151/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48673"
+  },
+  {
+    "id": 47104,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "タケシのスカウト",
+    "name_ko": "웅의 스카우트",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV9",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札からたねポケモンを2枚まで、または進化ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 덱에서 기본 포켓몬을 2장까지, 또는 진화 포켓몬을 1장 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "확장팩 「배틀 파트너즈(バトルパートナーズ)」",
+    "number": "096/100",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47104"
+  },
+  {
+    "id": 46289,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "カキツバタ",
+    "name_ko": "카키츠바타",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "SV7a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札を上から7枚見て、その中からポケモンとトレーナーズを1枚ずつ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 덱을 위에서부터 7장 보고, 그 중에서 포켓몬과 트레이너를 1장씩 선택해 상대에게 보여주고 패에 추가한다. 남은 카드는 덱으로 되돌리고 섞는다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "강화확장팩 「낙원 드라고나(楽園ドラゴーナ)」",
+    "number": "060/064",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46289"
+  },
+  {
+    "id": 49429,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "スグリ",
+    "name_ko": "스구리",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "MC",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、2つの効果から1つを選んで使う。◆自分のバトルポケモンをベンチポケモンと入れ替える。◆この番、自分のポケモンが使うワザの、相手のバトル場の「ポケモンex・V」へのダメージは「+30」される。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "이 카드는 2개의 효과 중 1개를 선택해 사용한다. ◆자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. ◆이 차례에 자신의 포켓몬이 사용하는 기술의, 상대 배틀필드에 있는 '포켓몬 ex·V'에 대한 데미지는 '+30'된다. 서포트는 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "스타트 덱 100 배틀 컬렉션(スタートデッキ100 バトルコレクション)",
+    "number": "713/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49429"
+  }
+]

@@ -22,6 +22,10 @@ const DECKS = [
   { id: 'foodin',       name_ko: '후딘',             name_ja: 'フーディン',            tier: 3, file: 'foodin.json',        note: '핸드파워' },
   { id: 'mega-greninja', name_ko: '메가 겟코우가 ex', name_ja: 'メガゲッコウガex',      tier: 3, file: 'mega-greninja.json', note: '' },
   { id: 'rocket-mewtwo', name_ko: '로켓단의 뮤츠 ex', name_ja: 'ロケット団のミュウツーex', tier: 3, file: 'rocket-mewtwo.json', note: '' },
+  // tier 4 = 최근 짐배틀 우승덱 (pokekameshi)
+  { id: 'omatsuriondo', name_ko: '오마츠리온도(축제)', name_ja: 'おまつりおんど',     tier: 4, file: 'omatsuriondo.json', note: '최근 짐배틀 우승' },
+  { id: 'mega-livolt',  name_ko: '메가 라이볼트 ex',  name_ja: 'メガライボルトex',   tier: 4, file: 'mega-livolt.json',  note: '최근 짐배틀 우승' },
+  { id: 'dodekabashi',  name_ko: '도데카바시',        name_ja: 'ドデカバシ',         tier: 4, file: 'dodekabashi.json',  note: '최근 짐배틀 우승' },
 ];
 
 const BASIC_ENERGY = {

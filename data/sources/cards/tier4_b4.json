@@ -1,0 +1,147 @@
+[
+  {
+    "id": 48994,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ナンジャモのカイデン",
+    "name_ko": "난지모의 카이덴",
+    "hp": 60,
+    "type_ko": "번개",
+    "regulation": "스타트 덱 100",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "번개",
+        "name_ja": "でんこうせっか",
+        "name_ko": "전광석화",
+        "damage": "10+",
+        "text_ja": "コインを1回投げオモテなら、20ダメージ追加。",
+        "text_ko": "동전을 1회 던져 앞면이면 20데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "스타트 덱 100 배틀 컬렉션(スタートデッキ100 バトルコレクション)",
+    "number": "278/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48994"
+  },
+  {
+    "id": 48995,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "ナンジャモのタイカイデン",
+    "name_ko": "난지모의 태풍둥지",
+    "hp": 120,
+    "type_ko": "번개",
+    "regulation": "스타트 덱 100",
+    "abilities": [
+      {
+        "name_ja": "フラッシュドロー",
+        "name_ko": "플래시 드로",
+        "text_ja": "自分の番に、このポケモンについている「基本エネルギー」を1個トラッシュするなら、1回使える。自分の手札が6枚になるように、山札を引く。",
+        "text_ko": "자신의 차례에 이 포켓몬에게 붙어 있는 '기본 에너지'를 1개 트래시한다면 1회 사용할 수 있다. 자신의 패가 6장이 되도록 덱을 뽑는다."
+      }
+    ],
+    "attacks": [
+      {
+        "cost_ko": "번개무색",
+        "name_ja": "マッハボルト",
+        "name_ko": "마하 볼트",
+        "damage": "70",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "스타트 덱 100 배틀 컬렉션(スタートデッキ100 バトルコレクション)",
+    "number": "279/742",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48995"
+  },
+  {
+    "id": 48572,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "マッギョ",
+    "name_ko": "메더",
+    "hp": 110,
+    "type_ko": "번개",
+    "regulation": "M2a",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "번개무색",
+        "name_ja": "とびつくわな",
+        "name_ko": "달려드는 함정",
+        "damage": "30",
+        "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。次の自分の番、このワザを受けたポケモンが受けるワザのダメージは「+100」される。",
+        "text_ko": "다음 상대 차례에 이 기술을 받은 포켓몬은 후퇴할 수 없다. 다음 자신의 차례에 이 기술을 받은 포켓몬이 받는 기술의 데미지는 '+100'된다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "하이클래스팩 「MEGA 드림 ex(MEGAドリームex)」",
+    "number": "050/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48572"
+  },
+  {
+    "id": 48692,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "カナリィ",
+    "name_ko": "카나리",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M2a",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、自分の手札を1枚トラッシュしなければ使えない。自分の山札からポケモンを4枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+    "text_ko": "이 카드는 자신의 패를 1장 트래시해야만 사용할 수 있다. 자신의 덱에서 포켓몬을 4장까지 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다.",
+    "set": "하이클래스팩 「MEGA 드림 ex(MEGAドリームex)」",
+    "number": "170/193",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48692"
+  },
+  {
+    "id": 50299,
+    "category": "energy",
+    "subtype_ko": "특수 에너지",
+    "name_ja": "ボルト雷エネルギー",
+    "name_ko": "볼트 번개 에너지",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+    "text_ko": "이 카드는 포켓몬에게 붙어 있는 한 에너지 1개분으로서 작용한다. 이 카드를 붙인 포켓몬이 사용하는 기술의, 상대 배틀 포켓몬에게 주는 데미지는 '+20'된다.",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "080/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50299"
+  },
+  {
+    "id": 50283,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "ツツケラ",
+    "name_ko": "콕코구리",
+    "hp": 70,
+    "type_ko": "무색",
+    "regulation": "M5",
+    "abilities": [],
+    "attacks": [
+      {
+        "cost_ko": "무색",
+        "name_ja": "にどづき",
+        "name_ko": "두번찌르기",
+        "damage": "10×",
+        "text_ja": "コインを2回投げ、オモテの数×10ダメージ。",
+        "text_ko": "동전을 2회 던져 앞면의 수×10데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "확장팩 「어비스아이(アビスアイ)」",
+    "number": "064/081",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50283"
+  }
+]
