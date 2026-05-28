@@ -202,4 +202,6 @@ mark { background: var(--yellow); color: inherit; padding: 0 1px; border-radius:
 
 @media (min-width: 560px) {
   .term-list { grid-template-columns: 1fr 1fr; }
+  /* 넓은 화면에서는 카테고리 칩을 가로 스크롤 대신 여러 줄로 펼쳐 모두 보이게 */
+  .chips { flex-wrap: wrap; overflow-x: visible; }
 }
