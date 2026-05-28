@@ -1,0 +1,659 @@
+[
+  {
+    "category": "greetings",
+    "ja": "お願いします",
+    "reading": "おねがいします",
+    "ko_pron": "오네가이시마스",
+    "ko": "부탁합니다",
+    "note": "대전 시작 때 짧게 하는 인사",
+    "important": true
+  },
+  {
+    "category": "greetings",
+    "ja": "ありがとうございます",
+    "reading": "ありがとうございます",
+    "ko_pron": "아리가토 고자이마스",
+    "ko": "감사합니다",
+    "note": "고마움을 표현할 때",
+    "important": false
+  },
+  {
+    "category": "greetings",
+    "ja": "はじめまして",
+    "reading": "はじめまして",
+    "ko_pron": "하지메마시테",
+    "ko": "처음 뵙겠습니다",
+    "note": "처음 만난 상대에게",
+    "important": false
+  },
+  {
+    "category": "greetings",
+    "ja": "すみません",
+    "reading": "すみません",
+    "ko_pron": "스미마셍",
+    "ko": "실례합니다 / 죄송합니다",
+    "note": "말을 걸거나 사과할 때 두루 쓰임",
+    "important": true
+  },
+  {
+    "category": "greetings",
+    "ja": "ごめんなさい",
+    "reading": "ごめんなさい",
+    "ko_pron": "고멘나사이",
+    "ko": "미안합니다",
+    "note": "사과할 때",
+    "important": false
+  },
+  {
+    "category": "greetings",
+    "ja": "失礼します",
+    "reading": "しつれいします",
+    "ko_pron": "시츠레이시마스",
+    "ko": "실례하겠습니다",
+    "note": "자리에 앉거나 떠날 때",
+    "important": false
+  },
+  {
+    "category": "greetings",
+    "ja": "お疲れ様でした",
+    "reading": "おつかれさまでした",
+    "ko_pron": "오츠카레사마데시타",
+    "ko": "수고하셨습니다",
+    "note": "대전 후 상대에게",
+    "important": false
+  },
+  {
+    "category": "greetings",
+    "ja": "はい",
+    "reading": "はい",
+    "ko_pron": "하이",
+    "ko": "네",
+    "note": "긍정 대답",
+    "important": true
+  },
+  {
+    "category": "greetings",
+    "ja": "いいえ",
+    "reading": "いいえ",
+    "ko_pron": "이이에",
+    "ko": "아니요",
+    "note": "부정 대답",
+    "important": true
+  },
+  {
+    "category": "greetings",
+    "ja": "大丈夫です",
+    "reading": "だいじょうぶです",
+    "ko_pron": "다이죠부데스",
+    "ko": "괜찮습니다",
+    "note": "괜찮다고 답할 때",
+    "important": true
+  },
+  {
+    "category": "match",
+    "ja": "じゃんけん",
+    "reading": "じゃんけん",
+    "ko_pron": "쟝켄",
+    "ko": "가위바위보",
+    "note": "선공·후공을 정할 때",
+    "important": true
+  },
+  {
+    "category": "match",
+    "ja": "先攻",
+    "reading": "せんこう",
+    "ko_pron": "센코오",
+    "ko": "선공 (먼저 함)",
+    "note": "먼저 시작하는 쪽 ('코오'를 길게)",
+    "important": true
+  },
+  {
+    "category": "match",
+    "ja": "後攻",
+    "reading": "こうこう",
+    "ko_pron": "코오코오",
+    "ko": "후공 (나중에 함)",
+    "note": "나중에 시작하는 쪽 (길게 '코오코오')",
+    "important": true
+  },
+  {
+    "category": "match",
+    "ja": "先攻でお願いします",
+    "reading": "せんこうでおねがいします",
+    "ko_pron": "센코오데 오네가이시마스",
+    "ko": "선공 하겠습니다",
+    "note": "선공을 선택할 때",
+    "important": false
+  },
+  {
+    "category": "match",
+    "ja": "後攻でお願いします",
+    "reading": "こうこうでおねがいします",
+    "ko_pron": "코오코오데 오네가이시마스",
+    "ko": "후공 하겠습니다",
+    "note": "후공을 선택할 때",
+    "important": false
+  },
+  {
+    "category": "match",
+    "ja": "番",
+    "reading": "ばん",
+    "ko_pron": "반",
+    "ko": "차례 (턴)",
+    "note": "내 차례 / 상대 차례의 '차례'",
+    "important": false
+  },
+  {
+    "category": "match",
+    "ja": "終わります",
+    "reading": "おわります",
+    "ko_pron": "오와리마스",
+    "ko": "(제 턴) 끝내겠습니다",
+    "note": "자기 턴을 마칠 때",
+    "important": true
+  },
+  {
+    "category": "match",
+    "ja": "どうぞ",
+    "reading": "どうぞ",
+    "ko_pron": "도조",
+    "ko": "하세요 / 그러세요",
+    "note": "상대에게 차례를 넘기거나 권할 때",
+    "important": true
+  },
+  {
+    "category": "match",
+    "ja": "確認お願いします",
+    "reading": "かくにんおねがいします",
+    "ko_pron": "카쿠닝 오네가이시마스",
+    "ko": "확인 부탁합니다",
+    "note": "패·필드 등을 확인하고 싶을 때",
+    "important": true
+  },
+  {
+    "category": "match",
+    "ja": "ちょっと待ってください",
+    "reading": "ちょっとまってください",
+    "ko_pron": "촛토 맛테 쿠다사이",
+    "ko": "잠깐 기다려 주세요",
+    "note": "생각할 시간이 필요할 때",
+    "important": true
+  },
+  {
+    "category": "match",
+    "ja": "コイン",
+    "reading": "コイン",
+    "ko_pron": "코인",
+    "ko": "코인",
+    "note": "동전 던지기에 쓰는 코인",
+    "important": false
+  },
+  {
+    "category": "match",
+    "ja": "表",
+    "reading": "おもて",
+    "ko_pron": "오모테",
+    "ko": "앞면 (코인)",
+    "note": "코인 던지기의 앞면",
+    "important": true
+  },
+  {
+    "category": "match",
+    "ja": "裏",
+    "reading": "うら",
+    "ko_pron": "우라",
+    "ko": "뒷면 (코인)",
+    "note": "코인 던지기의 뒷면",
+    "important": true
+  },
+  {
+    "category": "match",
+    "ja": "コインを投げます",
+    "reading": "コインをなげます",
+    "ko_pron": "코인오 나게마스",
+    "ko": "코인을 던지겠습니다",
+    "note": "코인 토스를 할 때",
+    "important": false
+  },
+  {
+    "category": "check",
+    "ja": "もう一度お願いします",
+    "reading": "もういちどおねがいします",
+    "ko_pron": "모 이치도 오네가이시마스",
+    "ko": "다시 한 번 부탁합니다",
+    "note": "다시 해 달라고 할 때",
+    "important": true
+  },
+  {
+    "category": "check",
+    "ja": "ゆっくりお願いします",
+    "reading": "ゆっくりおねがいします",
+    "ko_pron": "윳쿠리 오네가이시마스",
+    "ko": "천천히 부탁합니다",
+    "note": "상대가 빠르게 말할 때",
+    "important": true
+  },
+  {
+    "category": "check",
+    "ja": "日本語が分かりません",
+    "reading": "にほんごがわかりません",
+    "ko_pron": "니홍고가 와카리마셍",
+    "ko": "일본어를 모릅니다",
+    "note": "일본어가 어렵다고 알릴 때",
+    "important": true
+  },
+  {
+    "category": "check",
+    "ja": "英語は話せますか？",
+    "reading": "えいごははなせますか",
+    "ko_pron": "에고와 하나세마스카",
+    "ko": "영어 할 수 있나요?",
+    "note": "영어로 소통 가능한지 물을 때",
+    "important": false
+  },
+  {
+    "category": "check",
+    "ja": "分かりました",
+    "reading": "わかりました",
+    "ko_pron": "와카리마시타",
+    "ko": "알겠습니다",
+    "note": "이해했을 때",
+    "important": true
+  },
+  {
+    "category": "check",
+    "ja": "分かりません",
+    "reading": "わかりません",
+    "ko_pron": "와카리마셍",
+    "ko": "모르겠습니다",
+    "note": "이해하지 못했을 때",
+    "important": true
+  },
+  {
+    "category": "check",
+    "ja": "これは何ですか？",
+    "reading": "これはなんですか",
+    "ko_pron": "코레와 난데스카",
+    "ko": "이건 뭐예요?",
+    "note": "무언가를 물을 때",
+    "important": false
+  },
+  {
+    "category": "check",
+    "ja": "トイレはどこですか？",
+    "reading": "トイレはどこですか",
+    "ko_pron": "토이레와 도코데스카",
+    "ko": "화장실이 어디예요?",
+    "note": "화장실 위치를 물을 때",
+    "important": false
+  },
+  {
+    "category": "check",
+    "ja": "待ってください",
+    "reading": "まってください",
+    "ko_pron": "맛테 쿠다사이",
+    "ko": "기다려 주세요",
+    "note": "잠시 멈춰 달라고 할 때",
+    "important": false
+  },
+  {
+    "category": "effect",
+    "ja": "サイドを取る",
+    "reading": "サイドをとる",
+    "ko_pron": "사이도오 토루",
+    "ko": "사이드를 가져가다",
+    "note": "상대 포켓몬 기절 후 사이드 획득",
+    "important": true
+  },
+  {
+    "category": "effect",
+    "ja": "ドロー",
+    "reading": "ドロー",
+    "ko_pron": "도로",
+    "ko": "드로우 (카드 뽑기)",
+    "note": "덱에서 카드를 뽑음",
+    "important": true
+  },
+  {
+    "category": "effect",
+    "ja": "カードを引く",
+    "reading": "カードをひく",
+    "ko_pron": "카도오 히쿠",
+    "ko": "카드를 뽑다",
+    "note": "덱에서 카드를 가져옴",
+    "important": false
+  },
+  {
+    "category": "effect",
+    "ja": "シャッフル",
+    "reading": "シャッフル",
+    "ko_pron": "샤후루",
+    "ko": "셔플 (섞기)",
+    "note": "덱을 섞는 것",
+    "important": true
+  },
+  {
+    "category": "effect",
+    "ja": "山札の上",
+    "reading": "やまふだのうえ",
+    "ko_pron": "야마후다노 우에",
+    "ko": "덱 맨 위",
+    "note": "덱의 가장 위 카드",
+    "important": false
+  },
+  {
+    "category": "effect",
+    "ja": "山札の下",
+    "reading": "やまふだのした",
+    "ko_pron": "야마후다노 시타",
+    "ko": "덱 맨 아래",
+    "note": "덱의 가장 아래 카드",
+    "important": false
+  },
+  {
+    "category": "effect",
+    "ja": "にげる",
+    "reading": "にげる",
+    "ko_pron": "니게루",
+    "ko": "후퇴 (도망)",
+    "note": "배틀 포켓몬을 벤치로 교체",
+    "important": true
+  },
+  {
+    "category": "effect",
+    "ja": "特性",
+    "reading": "とくせい",
+    "ko_pron": "토쿠세",
+    "ko": "특성",
+    "note": "포켓몬의 특수 능력",
+    "important": true
+  },
+  {
+    "category": "effect",
+    "ja": "ダメージカウンター",
+    "reading": "ダメージカウンター",
+    "ko_pron": "다메지 카운타",
+    "ko": "데미지 카운터",
+    "note": "받은 데미지를 표시하는 표식",
+    "important": false
+  },
+  {
+    "category": "effect",
+    "ja": "ポケモンチェック",
+    "reading": "ポケモンチェック",
+    "ko_pron": "포케몬 첵쿠",
+    "ko": "포켓몬 체크",
+    "note": "턴 종료 시 독·화상 등을 처리하는 단계",
+    "important": false
+  },
+  {
+    "category": "effect",
+    "ja": "場に出す",
+    "reading": "ばにだす",
+    "ko_pron": "바니 다스",
+    "ko": "필드에 내다",
+    "note": "카드를 필드에 놓음",
+    "important": false
+  },
+  {
+    "category": "effect",
+    "ja": "HP",
+    "reading": "エイチピー",
+    "ko_pron": "에이치피",
+    "ko": "HP (체력)",
+    "note": "포켓몬의 체력",
+    "important": false
+  },
+  {
+    "category": "trainer",
+    "ja": "たねポケモン",
+    "reading": "たねポケモン",
+    "ko_pron": "타네 포케몬",
+    "ko": "기본 포켓몬",
+    "note": "진화 전 단계의 포켓몬",
+    "important": true
+  },
+  {
+    "category": "trainer",
+    "ja": "進化ポケモン",
+    "reading": "しんかポケモン",
+    "ko_pron": "싱카 포케몬",
+    "ko": "진화 포켓몬",
+    "note": "진화한 포켓몬",
+    "important": false
+  },
+  {
+    "category": "trainer",
+    "ja": "グッズ",
+    "reading": "グッズ",
+    "ko_pron": "굿즈",
+    "ko": "굿즈 (아이템)",
+    "note": "한 턴에 여러 장 쓸 수 있는 도구 카드",
+    "important": false
+  },
+  {
+    "category": "trainer",
+    "ja": "サポート",
+    "reading": "サポート",
+    "ko_pron": "사포토",
+    "ko": "서포트",
+    "note": "한 턴에 1장만 쓰는 사람 카드",
+    "important": true
+  },
+  {
+    "category": "trainer",
+    "ja": "スタジアム",
+    "reading": "スタジアム",
+    "ko_pron": "스타지아무",
+    "ko": "스타디움",
+    "note": "필드에 두는 장소 카드",
+    "important": false
+  },
+  {
+    "category": "trainer",
+    "ja": "ポケモンex",
+    "reading": "ポケモンイーエックス",
+    "ko_pron": "포케몬 이엑스",
+    "ko": "포켓몬 ex",
+    "note": "공식 표기는 카드 이름 뒤에 ex. 기절 시 사이드를 2장 내주는 강한 포켓몬",
+    "important": false
+  },
+  {
+    "category": "pokecheck",
+    "ja": "どく",
+    "reading": "どく",
+    "ko_pron": "도쿠",
+    "ko": "독",
+    "note": "포켓몬 체크마다 데미지를 받음",
+    "important": true
+  },
+  {
+    "category": "pokecheck",
+    "ja": "やけど",
+    "reading": "やけど",
+    "ko_pron": "야케도",
+    "ko": "화상",
+    "note": "포켓몬 체크마다 데미지, 코인으로 회복 판정",
+    "important": true
+  },
+  {
+    "category": "pokecheck",
+    "ja": "ねむり",
+    "reading": "ねむり",
+    "ko_pron": "네무리",
+    "ko": "잠듦 (수면)",
+    "note": "기술·후퇴 불가, 코인으로 회복 판정",
+    "important": true
+  },
+  {
+    "category": "pokecheck",
+    "ja": "マヒ",
+    "reading": "マヒ",
+    "ko_pron": "마히",
+    "ko": "마비",
+    "note": "다음 자기 턴 동안 기술·후퇴 불가",
+    "important": true
+  },
+  {
+    "category": "pokecheck",
+    "ja": "こんらん",
+    "reading": "こんらん",
+    "ko_pron": "콘란",
+    "ko": "혼란",
+    "note": "기술 쓸 때 코인 판정, 실패 시 자신이 데미지",
+    "important": true
+  },
+  {
+    "category": "pokecheck",
+    "ja": "特殊状態",
+    "reading": "とくしゅじょうたい",
+    "ko_pron": "토쿠슈 죠오타이",
+    "ko": "특수 상태 (상태이상)",
+    "note": "독·화상·잠듦·마비·혼란을 통칭",
+    "important": false
+  },
+  {
+    "category": "pokecheck",
+    "ja": "回復",
+    "reading": "かいふく",
+    "ko_pron": "카이후쿠",
+    "ko": "회복",
+    "note": "HP나 상태이상을 회복함",
+    "important": false
+  },
+  {
+    "category": "pokecheck",
+    "ja": "弱点",
+    "reading": "じゃくてん",
+    "ko_pron": "쟈쿠텐",
+    "ko": "약점",
+    "note": "데미지를 더 받는 속성",
+    "important": true
+  },
+  {
+    "category": "pokecheck",
+    "ja": "抵抗力",
+    "reading": "ていこうりょく",
+    "ko_pron": "테이코료쿠",
+    "ko": "저항력",
+    "note": "데미지를 덜 받는 속성",
+    "important": false
+  },
+  {
+    "category": "judge",
+    "ja": "ジャッジ",
+    "reading": "ジャッジ",
+    "ko_pron": "쟛지",
+    "ko": "저지 (심판)",
+    "note": "대회 심판",
+    "important": true
+  },
+  {
+    "category": "judge",
+    "ja": "ジャッジを呼んでください",
+    "reading": "ジャッジをよんでください",
+    "ko_pron": "쟛지오 욘데 쿠다사이",
+    "ko": "저지를 불러 주세요",
+    "note": "심판이 필요할 때",
+    "important": true
+  },
+  {
+    "category": "judge",
+    "ja": "ルールを確認したいです",
+    "reading": "ルールをかくにんしたいです",
+    "ko_pron": "루루오 카쿠닝 시타이데스",
+    "ko": "규칙을 확인하고 싶어요",
+    "note": "규칙이 헷갈릴 때",
+    "important": true
+  },
+  {
+    "category": "judge",
+    "ja": "これは合っていますか？",
+    "reading": "これはあっていますか",
+    "ko_pron": "코레와 앗테 이마스카",
+    "ko": "이거 맞나요?",
+    "note": "처리가 맞는지 확인할 때",
+    "important": false
+  },
+  {
+    "category": "judge",
+    "ja": "時間を教えてください",
+    "reading": "じかんをおしえてください",
+    "ko_pron": "지캉오 오시에테 쿠다사이",
+    "ko": "시간 알려 주세요",
+    "note": "남은 시간을 물을 때",
+    "important": false
+  },
+  {
+    "category": "judge",
+    "ja": "デッキチェック",
+    "reading": "デッキチェック",
+    "ko_pron": "덱키 첵쿠",
+    "ko": "덱 체크",
+    "note": "심판이 덱을 검사하는 것",
+    "important": false
+  },
+  {
+    "category": "judge",
+    "ja": "引き分け",
+    "reading": "ひきわけ",
+    "ko_pron": "히키와케",
+    "ko": "무승부",
+    "note": "승부가 나지 않음",
+    "important": false
+  },
+  {
+    "category": "judge",
+    "ja": "制限時間",
+    "reading": "せいげんじかん",
+    "ko_pron": "세이겐 지캉",
+    "ko": "제한 시간",
+    "note": "한 경기의 시간 제한",
+    "important": false
+  },
+  {
+    "category": "judge",
+    "ja": "投了します",
+    "reading": "とうりょうします",
+    "ko_pron": "토료 시마스",
+    "ko": "기권하겠습니다",
+    "note": "경기를 포기할 때 (신중히)",
+    "important": false
+  },
+  {
+    "category": "numbers",
+    "ja": "一枚",
+    "reading": "いちまい",
+    "ko_pron": "이치마이",
+    "ko": "한 장 (카드)",
+    "note": "카드 1장을 셀 때",
+    "important": true
+  },
+  {
+    "category": "numbers",
+    "ja": "二枚",
+    "reading": "にまい",
+    "ko_pron": "니마이",
+    "ko": "두 장 (카드)",
+    "note": "카드 2장을 셀 때",
+    "important": false
+  },
+  {
+    "category": "numbers",
+    "ja": "何枚",
+    "reading": "なんまい",
+    "ko_pron": "남마이",
+    "ko": "몇 장",
+    "note": "카드 장수를 물을 때",
+    "important": false
+  },
+  {
+    "category": "numbers",
+    "ja": "残り時間",
+    "reading": "のこりじかん",
+    "ko_pron": "노코리 지캉",
+    "ko": "남은 시간",
+    "note": "경기에 남은 시간",
+    "important": false
+  }
+]

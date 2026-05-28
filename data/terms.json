@@ -1,0 +1,3176 @@
+{
+  "categories": [
+    {
+      "id": "greetings",
+      "name": "인사·매너",
+      "icon": "👋"
+    },
+    {
+      "id": "match",
+      "name": "대전 진행",
+      "icon": "⚔️"
+    },
+    {
+      "id": "check",
+      "name": "확인·질문",
+      "icon": "💬"
+    },
+    {
+      "id": "effect",
+      "name": "효과·용어",
+      "icon": "✨"
+    },
+    {
+      "id": "evolution",
+      "name": "진화",
+      "icon": "🧬"
+    },
+    {
+      "id": "energy",
+      "name": "에너지",
+      "icon": "⚡"
+    },
+    {
+      "id": "trainer",
+      "name": "카드·트레이너",
+      "icon": "🃏"
+    },
+    {
+      "id": "pokecheck",
+      "name": "포켓몬체크·상태",
+      "icon": "🔄"
+    },
+    {
+      "id": "side",
+      "name": "사이드",
+      "icon": "🏆"
+    },
+    {
+      "id": "dice",
+      "name": "주사위·코인",
+      "icon": "🎲"
+    },
+    {
+      "id": "judge",
+      "name": "저지",
+      "icon": "🧑‍⚖️"
+    },
+    {
+      "id": "numbers",
+      "name": "숫자·시간",
+      "icon": "🔢"
+    }
+  ],
+  "terms": [
+    {
+      "id": 1,
+      "category": "greetings",
+      "ja": "お願いします",
+      "reading": "おねがいします",
+      "ko_pron": "오네가이시마스",
+      "ko": "부탁합니다",
+      "note": "대전 시작 때 짧게 하는 인사",
+      "important": true
+    },
+    {
+      "id": 2,
+      "category": "greetings",
+      "ja": "ありがとうございます",
+      "reading": "ありがとうございます",
+      "ko_pron": "아리가토 고자이마스",
+      "ko": "감사합니다",
+      "note": "고마움을 표현할 때",
+      "important": true
+    },
+    {
+      "id": 3,
+      "category": "greetings",
+      "ja": "はじめまして",
+      "reading": "はじめまして",
+      "ko_pron": "하지메마시테",
+      "ko": "처음 뵙겠습니다",
+      "note": "처음 만난 상대에게",
+      "important": true
+    },
+    {
+      "id": 4,
+      "category": "greetings",
+      "ja": "すみません",
+      "reading": "すみません",
+      "ko_pron": "스미마셍",
+      "ko": "실례합니다 / 죄송합니다",
+      "note": "말을 걸거나 사과할 때 두루 쓰임",
+      "important": true
+    },
+    {
+      "id": 5,
+      "category": "greetings",
+      "ja": "ごめんなさい",
+      "reading": "ごめんなさい",
+      "ko_pron": "고멘나사이",
+      "ko": "미안합니다",
+      "note": "사과할 때",
+      "important": true
+    },
+    {
+      "id": 6,
+      "category": "greetings",
+      "ja": "失礼します",
+      "reading": "しつれいします",
+      "ko_pron": "시츠레이시마스",
+      "ko": "실례하겠습니다",
+      "note": "자리에 앉거나 떠날 때",
+      "important": true
+    },
+    {
+      "id": 7,
+      "category": "greetings",
+      "ja": "お疲れ様でした",
+      "reading": "おつかれさまでした",
+      "ko_pron": "오츠카레사마데시타",
+      "ko": "수고하셨습니다",
+      "note": "대전 후 상대에게",
+      "important": true
+    },
+    {
+      "id": 8,
+      "category": "greetings",
+      "ja": "はい",
+      "reading": "はい",
+      "ko_pron": "하이",
+      "ko": "네",
+      "note": "긍정 대답",
+      "important": true
+    },
+    {
+      "id": 9,
+      "category": "greetings",
+      "ja": "いいえ",
+      "reading": "いいえ",
+      "ko_pron": "이이에",
+      "ko": "아니요",
+      "note": "부정 대답",
+      "important": true
+    },
+    {
+      "id": 10,
+      "category": "greetings",
+      "ja": "大丈夫です",
+      "reading": "だいじょうぶです",
+      "ko_pron": "다이죠부데스",
+      "ko": "괜찮습니다",
+      "note": "괜찮다고 답할 때",
+      "important": true
+    },
+    {
+      "id": 11,
+      "category": "greetings",
+      "ja": "こんにちは",
+      "reading": "",
+      "ko_pron": "콘니치와",
+      "ko": "안녕하세요",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 12,
+      "category": "greetings",
+      "ja": "よろしくお願いします",
+      "reading": "",
+      "ko_pron": "요로시쿠 오네가이시마스",
+      "ko": "잘 부탁해요",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 13,
+      "category": "greetings",
+      "ja": "対戦お願いします",
+      "reading": "",
+      "ko_pron": "타이센 오네가이시마스",
+      "ko": "대전 부탁드립니다",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 14,
+      "category": "greetings",
+      "ja": "対戦ありがとう",
+      "reading": "",
+      "ko_pron": "타이센 아리가토",
+      "ko": "대전 고마워요",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 15,
+      "category": "greetings",
+      "ja": "ありがとうございました",
+      "reading": "",
+      "ko_pron": "아리가토 고자이마시타",
+      "ko": "감사합니다 (끝나고)",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 16,
+      "category": "greetings",
+      "ja": "よろしくお願いします",
+      "reading": "",
+      "ko_pron": "요로시쿠 오네가이시마스",
+      "ko": "잘 부탁드립니다",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 17,
+      "category": "greetings",
+      "ja": "強いですね",
+      "reading": "",
+      "ko_pron": "츠요이데스네",
+      "ko": "강하시네요",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 18,
+      "category": "greetings",
+      "ja": "すごいデッキですね",
+      "reading": "",
+      "ko_pron": "스고이 덱키데스네",
+      "ko": "대단한 덱이네요",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 19,
+      "category": "greetings",
+      "ja": "勉強になります",
+      "reading": "",
+      "ko_pron": "벤쿄니 나리마스",
+      "ko": "많이 배웠습니다",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 20,
+      "category": "greetings",
+      "ja": "ナイスプレイです",
+      "reading": "",
+      "ko_pron": "나이스 플레이 데스",
+      "ko": "좋은 플레이였습니다",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 21,
+      "category": "greetings",
+      "ja": "楽しかったです",
+      "reading": "",
+      "ko_pron": "타노시캇타데스",
+      "ko": "즐거웠습니다",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 22,
+      "category": "greetings",
+      "ja": "また対戦したいです",
+      "reading": "",
+      "ko_pron": "마타 타이센시타이데스",
+      "ko": "또 대전하고 싶어요",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 23,
+      "category": "greetings",
+      "ja": "そのカード好きです",
+      "reading": "",
+      "ko_pron": "소노 카아도 스키데스",
+      "ko": "그 카드 좋아해요",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 24,
+      "category": "greetings",
+      "ja": "ありがとうございました",
+      "reading": "",
+      "ko_pron": "아리가토 고자이마시타",
+      "ko": "감사합니다",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 25,
+      "category": "match",
+      "ja": "じゃんけん",
+      "reading": "じゃんけん",
+      "ko_pron": "쟝켄",
+      "ko": "가위바위보",
+      "note": "선공·후공을 정할 때",
+      "important": true
+    },
+    {
+      "id": 26,
+      "category": "match",
+      "ja": "先攻",
+      "reading": "せんこう",
+      "ko_pron": "센코오",
+      "ko": "선공 (먼저 함)",
+      "note": "먼저 시작하는 쪽 ('코오'를 길게)",
+      "important": true
+    },
+    {
+      "id": 27,
+      "category": "match",
+      "ja": "後攻",
+      "reading": "こうこう",
+      "ko_pron": "코오코오",
+      "ko": "후공 (나중에 함)",
+      "note": "나중에 시작하는 쪽 (길게 '코오코오')",
+      "important": true
+    },
+    {
+      "id": 28,
+      "category": "match",
+      "ja": "先攻でお願いします",
+      "reading": "せんこうでおねがいします",
+      "ko_pron": "센코오데 오네가이시마스",
+      "ko": "선공 하겠습니다",
+      "note": "선공을 선택할 때",
+      "important": false
+    },
+    {
+      "id": 29,
+      "category": "match",
+      "ja": "後攻でお願いします",
+      "reading": "こうこうでおねがいします",
+      "ko_pron": "코오코오데 오네가이시마스",
+      "ko": "후공 하겠습니다",
+      "note": "후공을 선택할 때",
+      "important": false
+    },
+    {
+      "id": 30,
+      "category": "match",
+      "ja": "番",
+      "reading": "ばん",
+      "ko_pron": "반",
+      "ko": "차례 (턴)",
+      "note": "내 차례 / 상대 차례의 '차례'",
+      "important": false
+    },
+    {
+      "id": 31,
+      "category": "match",
+      "ja": "終わります",
+      "reading": "おわります",
+      "ko_pron": "오와리마스",
+      "ko": "(제 턴) 끝내겠습니다",
+      "note": "자기 턴을 마칠 때",
+      "important": true
+    },
+    {
+      "id": 32,
+      "category": "match",
+      "ja": "どうぞ",
+      "reading": "どうぞ",
+      "ko_pron": "도조",
+      "ko": "하세요 / 그러세요",
+      "note": "상대에게 차례를 넘기거나 권할 때",
+      "important": true
+    },
+    {
+      "id": 33,
+      "category": "match",
+      "ja": "確認お願いします",
+      "reading": "かくにんおねがいします",
+      "ko_pron": "카쿠닝 오네가이시마스",
+      "ko": "확인 부탁합니다",
+      "note": "패·필드 등을 확인하고 싶을 때",
+      "important": true
+    },
+    {
+      "id": 34,
+      "category": "match",
+      "ja": "ちょっと待ってください",
+      "reading": "ちょっとまってください",
+      "ko_pron": "촛토 맛테 쿠다사이",
+      "ko": "잠깐 기다려 주세요",
+      "note": "생각할 시간이 필요할 때",
+      "important": true
+    },
+    {
+      "id": 35,
+      "category": "match",
+      "ja": "コイン",
+      "reading": "コイン",
+      "ko_pron": "코인",
+      "ko": "코인",
+      "note": "동전 던지기에 쓰는 코인",
+      "important": false
+    },
+    {
+      "id": 36,
+      "category": "match",
+      "ja": "表",
+      "reading": "おもて",
+      "ko_pron": "오모테",
+      "ko": "앞면 (코인)",
+      "note": "코인 던지기의 앞면",
+      "important": true
+    },
+    {
+      "id": 37,
+      "category": "match",
+      "ja": "裏",
+      "reading": "うら",
+      "ko_pron": "우라",
+      "ko": "뒷면 (코인)",
+      "note": "코인 던지기의 뒷면",
+      "important": true
+    },
+    {
+      "id": 38,
+      "category": "match",
+      "ja": "コインを投げます",
+      "reading": "コインをなげます",
+      "ko_pron": "코인오 나게마스",
+      "ko": "코인을 던지겠습니다",
+      "note": "코인 토스를 할 때",
+      "important": false
+    },
+    {
+      "id": 39,
+      "category": "match",
+      "ja": "ドローします",
+      "reading": "",
+      "ko_pron": "도로오 시마스",
+      "ko": "드로우 할게요",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 40,
+      "category": "match",
+      "ja": "カードを引きます",
+      "reading": "",
+      "ko_pron": "카드 오 히키마스",
+      "ko": "카드를 뽑습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 41,
+      "category": "match",
+      "ja": "出します",
+      "reading": "",
+      "ko_pron": "다시마스",
+      "ko": "(카드를) 냅니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 42,
+      "category": "match",
+      "ja": "ベンチに出します",
+      "reading": "",
+      "ko_pron": "벤치 니 다시마스",
+      "ko": "벤치에 냅니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 43,
+      "category": "match",
+      "ja": "進化します",
+      "reading": "",
+      "ko_pron": "신카 시마스",
+      "ko": "진화합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 44,
+      "category": "match",
+      "ja": "攻撃します",
+      "reading": "",
+      "ko_pron": "코게키 시마스",
+      "ko": "공격합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 45,
+      "category": "match",
+      "ja": "ダメージ",
+      "reading": "",
+      "ko_pron": "다메지",
+      "ko": "데미지",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 46,
+      "category": "match",
+      "ja": "ターン終了です",
+      "reading": "",
+      "ko_pron": "탄 슈료 데스",
+      "ko": "턴 종료입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 47,
+      "category": "match",
+      "ja": "ワザ",
+      "reading": "",
+      "ko_pron": "와자",
+      "ko": "기술",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 48,
+      "category": "match",
+      "ja": "こうげき",
+      "reading": "",
+      "ko_pron": "코-게키",
+      "ko": "공격",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 49,
+      "category": "match",
+      "ja": "きぜつ",
+      "reading": "",
+      "ko_pron": "키제츠",
+      "ko": "기절",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 50,
+      "category": "match",
+      "ja": "つける",
+      "reading": "",
+      "ko_pron": "츠케루",
+      "ko": "(에너지를) 붙이다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 51,
+      "category": "match",
+      "ja": "ひく",
+      "reading": "",
+      "ko_pron": "히쿠",
+      "ko": "뽑다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 52,
+      "category": "match",
+      "ja": "えらぶ",
+      "reading": "",
+      "ko_pron": "에라부",
+      "ko": "선택하다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 53,
+      "category": "match",
+      "ja": "入れ替える",
+      "reading": "いれかえる",
+      "ko_pron": "이레카에루",
+      "ko": "교체하다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 54,
+      "category": "match",
+      "ja": "進化",
+      "reading": "しんか",
+      "ko_pron": "신카",
+      "ko": "진화",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 55,
+      "category": "match",
+      "ja": "自分の番",
+      "reading": "",
+      "ko_pron": "지분노 반",
+      "ko": "내 턴",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 56,
+      "category": "match",
+      "ja": "ドローします",
+      "reading": "",
+      "ko_pron": "도-로 시마스",
+      "ko": "드로우하겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 57,
+      "category": "match",
+      "ja": "ワザ使います",
+      "reading": "",
+      "ko_pron": "와자 츠카이마스",
+      "ko": "기술 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 58,
+      "category": "match",
+      "ja": "ターンエンド",
+      "reading": "",
+      "ko_pron": "타-응 엔도",
+      "ko": "턴 엔드",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 59,
+      "category": "match",
+      "ja": "サイド取ります",
+      "reading": "",
+      "ko_pron": "사이도 토리마스",
+      "ko": "사이드 가져갑니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 60,
+      "category": "match",
+      "ja": "特性を使います",
+      "reading": "とくせい を つかいます",
+      "ko_pron": "토쿠세이 오 츠카이마스",
+      "ko": "특성을 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 61,
+      "category": "match",
+      "ja": "○○の特性を使います",
+      "reading": "○○ の とくせい を つかいます",
+      "ko_pron": "",
+      "ko": "○○의 특성을 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 62,
+      "category": "match",
+      "ja": "リザードンの特性を使います",
+      "reading": "",
+      "ko_pron": "리자도응노 토쿠세이 오 츠카이마스",
+      "ko": "리자몽의 특성을 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 63,
+      "category": "match",
+      "ja": "相手の番",
+      "reading": "",
+      "ko_pron": "아이테노 반",
+      "ko": "상대 턴",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 64,
+      "category": "match",
+      "ja": "ターン",
+      "reading": "",
+      "ko_pron": "타-응",
+      "ko": "턴",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 65,
+      "category": "match",
+      "ja": "ターンの終わり",
+      "reading": "",
+      "ko_pron": "타-응 노 오와리",
+      "ko": "턴 종료",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 66,
+      "category": "match",
+      "ja": "自分のターンです",
+      "reading": "",
+      "ko_pron": "지분노 타-은 데스",
+      "ko": "제 턴입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 67,
+      "category": "match",
+      "ja": "ターン開始します",
+      "reading": "",
+      "ko_pron": "타-은 카이시 시마스",
+      "ko": "턴을 시작하겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 68,
+      "category": "match",
+      "ja": "この効果使います",
+      "reading": "",
+      "ko_pron": "코노 코-카 츠카이마스",
+      "ko": "이 효과를 사용하겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 69,
+      "category": "match",
+      "ja": "ターン続けます",
+      "reading": "",
+      "ko_pron": "타-은 츠즈케마스",
+      "ko": "턴 계속합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 70,
+      "category": "match",
+      "ja": "ここまででいいですか",
+      "reading": "",
+      "ko_pron": "코코마데데 이이데스카",
+      "ko": "여기까지 괜찮나요?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 71,
+      "category": "match",
+      "ja": "ターン終了します",
+      "reading": "",
+      "ko_pron": "타-은 슈-료- 시마스",
+      "ko": "턴을 종료하겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 72,
+      "category": "match",
+      "ja": "エンドです",
+      "reading": "",
+      "ko_pron": "엔도 데스",
+      "ko": "엔드입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 73,
+      "category": "match",
+      "ja": "相手のターンです",
+      "reading": "",
+      "ko_pron": "아이테노 타-은 데스",
+      "ko": "상대 턴입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 74,
+      "category": "match",
+      "ja": "次のターンどうぞ",
+      "reading": "",
+      "ko_pron": "츠기노 타-은 도-조",
+      "ko": "다음 턴 하세요",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 75,
+      "category": "check",
+      "ja": "もう一度お願いします",
+      "reading": "もういちどおねがいします",
+      "ko_pron": "모 이치도 오네가이시마스",
+      "ko": "다시 한 번 부탁합니다",
+      "note": "다시 해 달라고 할 때",
+      "important": true
+    },
+    {
+      "id": 76,
+      "category": "check",
+      "ja": "ゆっくりお願いします",
+      "reading": "ゆっくりおねがいします",
+      "ko_pron": "윳쿠리 오네가이시마스",
+      "ko": "천천히 부탁합니다",
+      "note": "상대가 빠르게 말할 때",
+      "important": true
+    },
+    {
+      "id": 77,
+      "category": "check",
+      "ja": "日本語が分かりません",
+      "reading": "にほんごがわかりません",
+      "ko_pron": "니홍고가 와카리마셍",
+      "ko": "일본어를 모릅니다",
+      "note": "일본어가 어렵다고 알릴 때",
+      "important": true
+    },
+    {
+      "id": 78,
+      "category": "check",
+      "ja": "英語は話せますか？",
+      "reading": "えいごははなせますか",
+      "ko_pron": "에고와 하나세마스카",
+      "ko": "영어 할 수 있나요?",
+      "note": "영어로 소통 가능한지 물을 때",
+      "important": true
+    },
+    {
+      "id": 79,
+      "category": "check",
+      "ja": "分かりました",
+      "reading": "わかりました",
+      "ko_pron": "와카리마시타",
+      "ko": "알겠습니다",
+      "note": "이해했을 때",
+      "important": true
+    },
+    {
+      "id": 80,
+      "category": "check",
+      "ja": "分かりません",
+      "reading": "わかりません",
+      "ko_pron": "와카리마셍",
+      "ko": "모르겠습니다",
+      "note": "이해하지 못했을 때",
+      "important": true
+    },
+    {
+      "id": 81,
+      "category": "check",
+      "ja": "これは何ですか？",
+      "reading": "これはなんですか",
+      "ko_pron": "코레와 난데스카",
+      "ko": "이건 뭐예요?",
+      "note": "무언가를 물을 때",
+      "important": true
+    },
+    {
+      "id": 82,
+      "category": "check",
+      "ja": "トイレはどこですか？",
+      "reading": "トイレはどこですか",
+      "ko_pron": "토이레와 도코데스카",
+      "ko": "화장실이 어디예요?",
+      "note": "화장실 위치를 물을 때",
+      "important": true
+    },
+    {
+      "id": 83,
+      "category": "check",
+      "ja": "待ってください",
+      "reading": "まってください",
+      "ko_pron": "맛테 쿠다사이",
+      "ko": "기다려 주세요",
+      "note": "잠시 멈춰 달라고 할 때",
+      "important": true
+    },
+    {
+      "id": 84,
+      "category": "check",
+      "ja": "いいですか？",
+      "reading": "",
+      "ko_pron": "이이 데스카?",
+      "ko": "괜찮나요?",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 85,
+      "category": "check",
+      "ja": "大丈夫ですか？",
+      "reading": "",
+      "ko_pron": "다이죠부 데스카?",
+      "ko": "문제 없나요?",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 86,
+      "category": "check",
+      "ja": "もう一度いいですか？",
+      "reading": "",
+      "ko_pron": "모우 이치도 이이 데스카?",
+      "ko": "다시 한번 괜찮을까요?",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 87,
+      "category": "check",
+      "ja": "効果使います",
+      "reading": "こうかつかいます",
+      "ko_pron": "코오카 츠카이마스",
+      "ko": "효과 사용합니다",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 88,
+      "category": "check",
+      "ja": "OKです",
+      "reading": "",
+      "ko_pron": "오케이 데스",
+      "ko": "오케이입니다",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 89,
+      "category": "check",
+      "ja": "手札を見せてもらってもいいですか",
+      "reading": "",
+      "ko_pron": "테후다오 미세테 모랏테모 이이데스카",
+      "ko": "손패를 보여주실 수 있나요?",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 90,
+      "category": "check",
+      "ja": "トラッシュを確認してもいいですか",
+      "reading": "",
+      "ko_pron": "토랏슈오 카쿠닌시테모 이이데스카",
+      "ko": "트래쉬를 확인해도 될까요?",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 91,
+      "category": "check",
+      "ja": "そのカード、見せてもらえますか",
+      "reading": "",
+      "ko_pron": "소노 카아도, 미세테 모라에마스카",
+      "ko": "그 카드 좀 보여주실 수 있나요?",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 92,
+      "category": "check",
+      "ja": "トラッシュを見ますね",
+      "reading": "",
+      "ko_pron": "토랏슈오 미마스네",
+      "ko": "트래쉬를 볼게요",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 93,
+      "category": "check",
+      "ja": "確認だけします",
+      "reading": "",
+      "ko_pron": "카쿠닌 다케 시마스",
+      "ko": "확인만 하겠습니다",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 94,
+      "category": "check",
+      "ja": "見終わりました",
+      "reading": "",
+      "ko_pron": "미오와리마시타",
+      "ko": "다 봤습니다",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 95,
+      "category": "check",
+      "ja": "すみません、その場面でアイテムは使えません",
+      "reading": "",
+      "ko_pron": "스미마센, 소노 바멘데 아이테무와 즈카에마센",
+      "ko": "죄송한데 그 상황에서는 아이템을 사용할 수 없어요",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 96,
+      "category": "check",
+      "ja": "失礼ですが、今アイテム使えないと思います",
+      "reading": "",
+      "ko_pron": "시즈레이데스가, 이마 아이테무 즈카에나이 토 오모이마스",
+      "ko": "실례지만 지금 아이템을 쓸 수 없다고 생각해요",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 97,
+      "category": "check",
+      "ja": "ジャッジを呼びましょうか",
+      "reading": "",
+      "ko_pron": "잣지오 요비마쇼-카",
+      "ko": "심판을 부를까요?",
+      "note": "",
+      "important": true
+    },
+    {
+      "id": 98,
+      "category": "effect",
+      "ja": "サイドを取る",
+      "reading": "サイドをとる",
+      "ko_pron": "사이도오 토루",
+      "ko": "사이드를 가져가다",
+      "note": "상대 포켓몬 기절 후 사이드 획득",
+      "important": true
+    },
+    {
+      "id": 99,
+      "category": "effect",
+      "ja": "ドロー",
+      "reading": "ドロー",
+      "ko_pron": "도로",
+      "ko": "드로우 (카드 뽑기)",
+      "note": "덱에서 카드를 뽑음",
+      "important": true
+    },
+    {
+      "id": 100,
+      "category": "effect",
+      "ja": "カードを引く",
+      "reading": "カードをひく",
+      "ko_pron": "카도오 히쿠",
+      "ko": "카드를 뽑다",
+      "note": "덱에서 카드를 가져옴",
+      "important": false
+    },
+    {
+      "id": 101,
+      "category": "effect",
+      "ja": "シャッフル",
+      "reading": "シャッフル",
+      "ko_pron": "샤후루",
+      "ko": "셔플 (섞기)",
+      "note": "덱을 섞는 것",
+      "important": true
+    },
+    {
+      "id": 102,
+      "category": "effect",
+      "ja": "山札の上",
+      "reading": "やまふだのうえ",
+      "ko_pron": "야마후다노 우에",
+      "ko": "덱 맨 위",
+      "note": "덱의 가장 위 카드",
+      "important": false
+    },
+    {
+      "id": 103,
+      "category": "effect",
+      "ja": "山札の下",
+      "reading": "やまふだのした",
+      "ko_pron": "야마후다노 시타",
+      "ko": "덱 맨 아래",
+      "note": "덱의 가장 아래 카드",
+      "important": false
+    },
+    {
+      "id": 104,
+      "category": "effect",
+      "ja": "にげる",
+      "reading": "にげる",
+      "ko_pron": "니게루",
+      "ko": "후퇴 (도망)",
+      "note": "배틀 포켓몬을 벤치로 교체",
+      "important": true
+    },
+    {
+      "id": 105,
+      "category": "effect",
+      "ja": "特性",
+      "reading": "とくせい",
+      "ko_pron": "토쿠세",
+      "ko": "특성",
+      "note": "포켓몬의 특수 능력",
+      "important": true
+    },
+    {
+      "id": 106,
+      "category": "effect",
+      "ja": "ダメージカウンター",
+      "reading": "ダメージカウンター",
+      "ko_pron": "다메지 카운타",
+      "ko": "데미지 카운터",
+      "note": "받은 데미지를 표시하는 표식",
+      "important": false
+    },
+    {
+      "id": 107,
+      "category": "effect",
+      "ja": "ポケモンチェック",
+      "reading": "ポケモンチェック",
+      "ko_pron": "포케몬 첵쿠",
+      "ko": "포켓몬 체크",
+      "note": "턴 종료 시 독·화상 등을 처리하는 단계",
+      "important": false
+    },
+    {
+      "id": 108,
+      "category": "effect",
+      "ja": "場に出す",
+      "reading": "ばにだす",
+      "ko_pron": "바니 다스",
+      "ko": "필드에 내다",
+      "note": "카드를 필드에 놓음",
+      "important": false
+    },
+    {
+      "id": 109,
+      "category": "effect",
+      "ja": "HP",
+      "reading": "エイチピー",
+      "ko_pron": "에이치피",
+      "ko": "HP (체력)",
+      "note": "포켓몬의 체력",
+      "important": false
+    },
+    {
+      "id": 110,
+      "category": "effect",
+      "ja": "〜してもよい",
+      "reading": "",
+      "ko_pron": "시테모 요이",
+      "ko": "~해도 된다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 111,
+      "category": "effect",
+      "ja": "〜しなければならない",
+      "reading": "",
+      "ko_pron": "시나케레바 나라나이",
+      "ko": "~해야 한다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 112,
+      "category": "effect",
+      "ja": "〜できない",
+      "reading": "",
+      "ko_pron": "데키나이",
+      "ko": "~할 수 없다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 113,
+      "category": "effect",
+      "ja": "〜の数",
+      "reading": "",
+      "ko_pron": "노 카즈",
+      "ko": "~의 수만큼",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 114,
+      "category": "effect",
+      "ja": "〜まで",
+      "reading": "",
+      "ko_pron": "마데",
+      "ko": "~까지",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 115,
+      "category": "effect",
+      "ja": "〜ごとに",
+      "reading": "",
+      "ko_pron": "고토니",
+      "ko": "~마다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 116,
+      "category": "effect",
+      "ja": "ポケモン",
+      "reading": "",
+      "ko_pron": "포케몬",
+      "ko": "포켓몬",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 117,
+      "category": "effect",
+      "ja": "トレーナーズ",
+      "reading": "",
+      "ko_pron": "토레나즈",
+      "ko": "트레이너 카드",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 118,
+      "category": "effect",
+      "ja": "エネルギー",
+      "reading": "",
+      "ko_pron": "에네루기",
+      "ko": "에너지",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 119,
+      "category": "effect",
+      "ja": "デッキ",
+      "reading": "",
+      "ko_pron": "덱키",
+      "ko": "덱",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 120,
+      "category": "effect",
+      "ja": "山札",
+      "reading": "やまふだ",
+      "ko_pron": "야마후다",
+      "ko": "덱(뽑는 카드 더미)",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 121,
+      "category": "effect",
+      "ja": "手札",
+      "reading": "てふだ",
+      "ko_pron": "테후다",
+      "ko": "패",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 122,
+      "category": "effect",
+      "ja": "トラッシュ",
+      "reading": "",
+      "ko_pron": "토랏슈",
+      "ko": "버린 카드 더미",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 123,
+      "category": "effect",
+      "ja": "サイド",
+      "reading": "",
+      "ko_pron": "사이도",
+      "ko": "사이드 카드",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 124,
+      "category": "effect",
+      "ja": "ベンチ",
+      "reading": "",
+      "ko_pron": "벤치",
+      "ko": "벤치",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 125,
+      "category": "effect",
+      "ja": "バトル場",
+      "reading": "ば",
+      "ko_pron": "바토루바",
+      "ko": "배틀 필드",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 126,
+      "category": "effect",
+      "ja": "弱点です",
+      "reading": "",
+      "ko_pron": "쟈쿠텐데스",
+      "ko": "약점입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 127,
+      "category": "effect",
+      "ja": "弱点込みで計算します",
+      "reading": "",
+      "ko_pron": "쟈쿠텐 코미데 케이산시마스",
+      "ko": "약점 포함해서 계산합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 128,
+      "category": "effect",
+      "ja": "弱点で2倍です",
+      "reading": "",
+      "ko_pron": "쟈쿠텐 니바이데스",
+      "ko": "약점으로 2배입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 129,
+      "category": "effect",
+      "ja": "弱点は×2です",
+      "reading": "",
+      "ko_pron": "쟈쿠텐와 카케루 니데스",
+      "ko": "약점은 ×2입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 130,
+      "category": "effect",
+      "ja": "弱点はありません",
+      "reading": "",
+      "ko_pron": "쟈쿠텐와 아리마센",
+      "ko": "약점이 없습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 131,
+      "category": "effect",
+      "ja": "弱点は無効です",
+      "reading": "",
+      "ko_pron": "쟈쿠텐와 무코-데스",
+      "ko": "약점이 무효입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 132,
+      "category": "effect",
+      "ja": "弱点は適用されません",
+      "reading": "",
+      "ko_pron": "쟈쿠텐와 테키요-사레마센",
+      "ko": "약점이 적용되지 않습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 133,
+      "category": "effect",
+      "ja": "弱点前のダメージです",
+      "reading": "",
+      "ko_pron": "쟈쿠텐마에노 다메-지데스",
+      "ko": "약점 적용 전 데미지입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 134,
+      "category": "effect",
+      "ja": "合計○ダメージです",
+      "reading": "",
+      "ko_pron": "고-케이 ○ 다메-지데스",
+      "ko": "합계 ○ 데미지입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 135,
+      "category": "effect",
+      "ja": "計算合っていますか",
+      "reading": "",
+      "ko_pron": "케이산 앗테이마스카",
+      "ko": "계산 맞나요?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 136,
+      "category": "effect",
+      "ja": "間違っていたら教えてください",
+      "reading": "",
+      "ko_pron": "마치가테이타라 오시에테 쿠다사이",
+      "ko": "틀리면 알려주세요",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 137,
+      "category": "effect",
+      "ja": "ワザを使います",
+      "reading": "",
+      "ko_pron": "와자오 츠카이마스",
+      "ko": "기술을 사용하겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 138,
+      "category": "effect",
+      "ja": "ファントムダイブを使います",
+      "reading": "",
+      "ko_pron": "환토무 다이부오 츠카이마스",
+      "ko": "팬텀 다이브를 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 139,
+      "category": "effect",
+      "ja": "ダメージカウンターをのせます",
+      "reading": "",
+      "ko_pron": "다메-지 카운타-오 노세마스",
+      "ko": "데미지 카운터를 올립니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 140,
+      "category": "effect",
+      "ja": "6個好きなようにのせます",
+      "reading": "",
+      "ko_pron": "롯코 스키나 요-니 노세마스",
+      "ko": "6개 원하는 대로 올립니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 141,
+      "category": "effect",
+      "ja": "このポケモンに3個",
+      "reading": "",
+      "ko_pron": "코노 포케몬니 산코",
+      "ko": "이 포켓몬에 3개",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 142,
+      "category": "effect",
+      "ja": "残りはここにのせます",
+      "reading": "",
+      "ko_pron": "노코리와 코코니 노세마스",
+      "ko": "나머지는 여기에 올립니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 143,
+      "category": "effect",
+      "ja": "合計で○ダメージです",
+      "reading": "",
+      "ko_pron": "고-케데 ○ 다메-지데스",
+      "ko": "합계 ○데미지입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 144,
+      "category": "effect",
+      "ja": "ダメージを与えた後に効果があります",
+      "reading": "",
+      "ko_pron": "다메-지오 아타에타 아토니 코-카가 아리마스",
+      "ko": "데미지를 준 후에 효과가 있습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 145,
+      "category": "effect",
+      "ja": "このワザは追加効果があります",
+      "reading": "",
+      "ko_pron": "코노 와자와 츠이카 코-카가 아리마스",
+      "ko": "이 기술에는 추가 효과가 있습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 146,
+      "category": "effect",
+      "ja": "この効果は1ターンに1回です",
+      "reading": "",
+      "ko_pron": "코노 코-카와 이치 타-은니 잇카이 데스",
+      "ko": "이 효과는 턴당 1회입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 147,
+      "category": "effect",
+      "ja": "効果は重なりません",
+      "reading": "",
+      "ko_pron": "코-카와 카사나리마센",
+      "ko": "효과는 중복되지 않습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 148,
+      "category": "effect",
+      "ja": "対象はベンチポケモンです",
+      "reading": "",
+      "ko_pron": "타이쇼-와 벤치 포케몬 데스",
+      "ko": "대상은 벤치 포켓몬입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 149,
+      "category": "effect",
+      "ja": "この効果は必ず使います",
+      "reading": "",
+      "ko_pron": "코노 코-카와 카나라즈 츠카이마스",
+      "ko": "이 효과는 반드시 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 150,
+      "category": "effect",
+      "ja": "使っても使わなくてもいいです",
+      "reading": "",
+      "ko_pron": "츠캇테모 츠카와나쿠테모 이이데스",
+      "ko": "사용해도 되고 안 해도 됩니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 151,
+      "category": "evolution",
+      "ja": "たねポケモンです",
+      "reading": "",
+      "ko_pron": "타네 포케몬 데스",
+      "ko": "기본 포켓몬입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 152,
+      "category": "evolution",
+      "ja": "このポケモンはたねです",
+      "reading": "",
+      "ko_pron": "코노 포케몬와 타네데스",
+      "ko": "이 포켓몬은 기본입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 153,
+      "category": "evolution",
+      "ja": "1進化ポケモンです",
+      "reading": "",
+      "ko_pron": "이치 신카 포케몬 데스",
+      "ko": "1진화 포켓몬입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 154,
+      "category": "evolution",
+      "ja": "2進化ポケモンです",
+      "reading": "",
+      "ko_pron": "니 신카 포케몬 데스",
+      "ko": "2진화 포켓몬입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 155,
+      "category": "evolution",
+      "ja": "進化ポケモンです",
+      "reading": "",
+      "ko_pron": "신카 포케몬 데스",
+      "ko": "진화 포켓몬입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 156,
+      "category": "evolution",
+      "ja": "ここから進化します",
+      "reading": "",
+      "ko_pron": "코코카라 신카 시마스",
+      "ko": "여기서 진화합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 157,
+      "category": "evolution",
+      "ja": "たねから進化します",
+      "reading": "",
+      "ko_pron": "타네카라 신카 시마스",
+      "ko": "기본에서 진화합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 158,
+      "category": "evolution",
+      "ja": "1進化から進化します",
+      "reading": "",
+      "ko_pron": "이치 신카카라 신카 시마스",
+      "ko": "1진화에서 진화합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 159,
+      "category": "evolution",
+      "ja": "このターンは進化できません",
+      "reading": "",
+      "ko_pron": "코노 타-은와 신카 데키마센",
+      "ko": "이 턴에는 진화할 수 없습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 160,
+      "category": "energy",
+      "ja": "草",
+      "reading": "くさ",
+      "ko_pron": "쿠사",
+      "ko": "풀",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 161,
+      "category": "energy",
+      "ja": "炎",
+      "reading": "ほのお",
+      "ko_pron": "호노오",
+      "ko": "불꽃",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 162,
+      "category": "energy",
+      "ja": "水",
+      "reading": "みず",
+      "ko_pron": "미즈",
+      "ko": "물",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 163,
+      "category": "energy",
+      "ja": "雷",
+      "reading": "かみなり",
+      "ko_pron": "카미나리",
+      "ko": "번개",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 164,
+      "category": "energy",
+      "ja": "超",
+      "reading": "ちょう",
+      "ko_pron": "쵸오",
+      "ko": "초",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 165,
+      "category": "energy",
+      "ja": "闘",
+      "reading": "かくとう",
+      "ko_pron": "카쿠토오",
+      "ko": "격투",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 166,
+      "category": "energy",
+      "ja": "悪",
+      "reading": "あく",
+      "ko_pron": "아쿠",
+      "ko": "악",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 167,
+      "category": "energy",
+      "ja": "鋼",
+      "reading": "はがね",
+      "ko_pron": "하가네",
+      "ko": "강철",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 168,
+      "category": "energy",
+      "ja": "フェアリー",
+      "reading": "",
+      "ko_pron": "페아리이",
+      "ko": "페어리",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 169,
+      "category": "energy",
+      "ja": "ドラゴン",
+      "reading": "",
+      "ko_pron": "도라고응",
+      "ko": "드래곤",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 170,
+      "category": "energy",
+      "ja": "無色",
+      "reading": "むしょく",
+      "ko_pron": "무쇼쿠",
+      "ko": "무색",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 171,
+      "category": "energy",
+      "ja": "基本エネルギー",
+      "reading": "",
+      "ko_pron": "키혼 에네루기",
+      "ko": "기본 에너지",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 172,
+      "category": "energy",
+      "ja": "特殊エネルギー",
+      "reading": "",
+      "ko_pron": "토쿠슈 에네루기",
+      "ko": "특수 에너지",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 173,
+      "category": "energy",
+      "ja": "エネルギーをつける",
+      "reading": "",
+      "ko_pron": "에네루기 오 츠케루",
+      "ko": "에너지를 붙이다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 174,
+      "category": "energy",
+      "ja": "エネルギーをトラッシュする",
+      "reading": "",
+      "ko_pron": "에네루기 오 토랏슈 스루",
+      "ko": "에너지를 버리다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 175,
+      "category": "trainer",
+      "ja": "たねポケモン",
+      "reading": "たねポケモン",
+      "ko_pron": "타네 포케몬",
+      "ko": "기본 포켓몬",
+      "note": "진화 전 단계의 포켓몬",
+      "important": true
+    },
+    {
+      "id": 176,
+      "category": "trainer",
+      "ja": "進化ポケモン",
+      "reading": "しんかポケモン",
+      "ko_pron": "싱카 포케몬",
+      "ko": "진화 포켓몬",
+      "note": "진화한 포켓몬",
+      "important": false
+    },
+    {
+      "id": 177,
+      "category": "trainer",
+      "ja": "グッズ",
+      "reading": "グッズ",
+      "ko_pron": "굿즈",
+      "ko": "굿즈 (아이템)",
+      "note": "한 턴에 여러 장 쓸 수 있는 도구 카드",
+      "important": false
+    },
+    {
+      "id": 178,
+      "category": "trainer",
+      "ja": "サポート",
+      "reading": "サポート",
+      "ko_pron": "사포토",
+      "ko": "서포트",
+      "note": "한 턴에 1장만 쓰는 사람 카드",
+      "important": true
+    },
+    {
+      "id": 179,
+      "category": "trainer",
+      "ja": "スタジアム",
+      "reading": "スタジアム",
+      "ko_pron": "스타지아무",
+      "ko": "스타디움",
+      "note": "필드에 두는 장소 카드",
+      "important": false
+    },
+    {
+      "id": 180,
+      "category": "trainer",
+      "ja": "ポケモンex",
+      "reading": "ポケモンイーエックス",
+      "ko_pron": "포케몬 이엑스",
+      "ko": "포켓몬 ex",
+      "note": "공식 표기는 카드 이름 뒤에 ex. 기절 시 사이드를 2장 내주는 강한 포켓몬",
+      "important": false
+    },
+    {
+      "id": 181,
+      "category": "trainer",
+      "ja": "アイテムを使います",
+      "reading": "",
+      "ko_pron": "아이테무오 츠카이마스",
+      "ko": "아이템을 사용하겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 182,
+      "category": "trainer",
+      "ja": "このアイテムを使います",
+      "reading": "",
+      "ko_pron": "코노 아이테무오 츠카이마스",
+      "ko": "이 아이템을 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 183,
+      "category": "trainer",
+      "ja": "効果を使います",
+      "reading": "",
+      "ko_pron": "코-카오 츠카이마스",
+      "ko": "효과를 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 184,
+      "category": "trainer",
+      "ja": "山札から探します",
+      "reading": "",
+      "ko_pron": "야마후다카라 사가시마스",
+      "ko": "덱에서 찾겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 185,
+      "category": "trainer",
+      "ja": "山札を見ます",
+      "reading": "",
+      "ko_pron": "야마후다오 미마스",
+      "ko": "덱을 보겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 186,
+      "category": "trainer",
+      "ja": "○枚引きます",
+      "reading": "",
+      "ko_pron": "○마이 히키마스",
+      "ko": "○장을 뽑습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 187,
+      "category": "trainer",
+      "ja": "手札に加えます",
+      "reading": "",
+      "ko_pron": "테후다니 쿠와에마스",
+      "ko": "손패에 넣습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 188,
+      "category": "trainer",
+      "ja": "選んで使います",
+      "reading": "",
+      "ko_pron": "에란데 츠카이마스",
+      "ko": "선택해서 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 189,
+      "category": "trainer",
+      "ja": "対象はこのポケモンです",
+      "reading": "",
+      "ko_pron": "타이쇼-와 코노 포케몬 데스",
+      "ko": "대상은 이 포켓몬입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 190,
+      "category": "trainer",
+      "ja": "ここで使います",
+      "reading": "",
+      "ko_pron": "코코데 츠카이마스",
+      "ko": "여기서 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 191,
+      "category": "trainer",
+      "ja": "トラッシュします",
+      "reading": "",
+      "ko_pron": "토랏슈시마스",
+      "ko": "트래쉬합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 192,
+      "category": "trainer",
+      "ja": "ポケモンのどうぐを使います",
+      "reading": "",
+      "ko_pron": "포케몬노 도-구오 츠카이마스",
+      "ko": "포켓몬의 도구를 사용하겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 193,
+      "category": "trainer",
+      "ja": "このどうぐをつけます",
+      "reading": "",
+      "ko_pron": "코노 도-구오 츠케마스",
+      "ko": "이 도구를 붙이겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 194,
+      "category": "trainer",
+      "ja": "このポケモンにつけます",
+      "reading": "",
+      "ko_pron": "코노 포케몬니 츠케마스",
+      "ko": "이 포켓몬에 붙입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 195,
+      "category": "trainer",
+      "ja": "どうぐは1つまでです",
+      "reading": "",
+      "ko_pron": "도-구와 히토츠마데데스",
+      "ko": "도구는 1개까지입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 196,
+      "category": "trainer",
+      "ja": "このどうぐの効果です",
+      "reading": "",
+      "ko_pron": "코노 도-구노 코-카데스",
+      "ko": "이 도구의 효과입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 197,
+      "category": "trainer",
+      "ja": "ダメージが増えます",
+      "reading": "",
+      "ko_pron": "다메-지가 후에마스",
+      "ko": "데미지가 증가합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 198,
+      "category": "trainer",
+      "ja": "ダメージを防ぎます",
+      "reading": "",
+      "ko_pron": "다메-지오 후세기마스",
+      "ko": "데미지를 막습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 199,
+      "category": "trainer",
+      "ja": "どうぐをトラッシュします",
+      "reading": "",
+      "ko_pron": "도-구오 토랏슈시마스",
+      "ko": "도구를 트래쉬합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 200,
+      "category": "trainer",
+      "ja": "どうぐは残ります",
+      "reading": "",
+      "ko_pron": "도-구와 노코리마스",
+      "ko": "도구는 남아 있습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 201,
+      "category": "trainer",
+      "ja": "スタジアムを出します",
+      "reading": "",
+      "ko_pron": "스타지아무오 다시마스",
+      "ko": "스타디움을 내겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 202,
+      "category": "trainer",
+      "ja": "このスタジアムを使います",
+      "reading": "",
+      "ko_pron": "코노 스타지아무오 츠카이마스",
+      "ko": "이 스타디움을 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 203,
+      "category": "trainer",
+      "ja": "スタジアムを貼ります",
+      "reading": "",
+      "ko_pron": "스타지아무오 하리마스",
+      "ko": "스타디움을 깝니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 204,
+      "category": "trainer",
+      "ja": "新しいスタジアムに替わります",
+      "reading": "",
+      "ko_pron": "아타라시이 스타지아무니 카와리마스",
+      "ko": "새로운 스타디움으로 교체됩니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 205,
+      "category": "trainer",
+      "ja": "前のスタジアムはトラッシュします",
+      "reading": "",
+      "ko_pron": "마에노 스타지아무와 토랏슈시마스",
+      "ko": "이전 스타디움은 트래쉬합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 206,
+      "category": "trainer",
+      "ja": "スタジアムの効果を使います",
+      "reading": "",
+      "ko_pron": "스타지아무노 코-카오 츠카이마스",
+      "ko": "스타디움 효과를 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 207,
+      "category": "trainer",
+      "ja": "お互いに効果があります",
+      "reading": "",
+      "ko_pron": "오타가이니 코-카가 아리마스",
+      "ko": "서로에게 효과가 있습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 208,
+      "category": "trainer",
+      "ja": "自分の番に1回使えます",
+      "reading": "",
+      "ko_pron": "지분노 반니 잇카이 츠카에마스",
+      "ko": "제 턴에 1번 사용할 수 있습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 209,
+      "category": "trainer",
+      "ja": "サポートを使います",
+      "reading": "",
+      "ko_pron": "사포-토오 즈카이마스",
+      "ko": "서포터를 사용하겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 210,
+      "category": "trainer",
+      "ja": "このサポートを使います",
+      "reading": "",
+      "ko_pron": "코노 사포-토오 즈카이마스",
+      "ko": "이 서포터를 사용합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 211,
+      "category": "trainer",
+      "ja": "このターンはもうサポート使っています",
+      "reading": "",
+      "ko_pron": "코노 타-은와 모- 사포-토 즈캇테이마스",
+      "ko": "이 턴에는 이미 서포터를 썼습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 212,
+      "category": "trainer",
+      "ja": "相手の手札を確認します",
+      "reading": "",
+      "ko_pron": "아이테노 테후다오 카쿠닌시마스",
+      "ko": "상대 손패를 확인합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 213,
+      "category": "trainer",
+      "ja": "山札を切ってください",
+      "reading": "",
+      "ko_pron": "야마후다오 킷테 쿠다사이",
+      "ko": "덱을 섞어 주세요",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 214,
+      "category": "pokecheck",
+      "ja": "どく",
+      "reading": "どく",
+      "ko_pron": "도쿠",
+      "ko": "독",
+      "note": "포켓몬 체크마다 데미지를 받음",
+      "important": true
+    },
+    {
+      "id": 215,
+      "category": "pokecheck",
+      "ja": "やけど",
+      "reading": "やけど",
+      "ko_pron": "야케도",
+      "ko": "화상",
+      "note": "포켓몬 체크마다 데미지, 코인으로 회복 판정",
+      "important": true
+    },
+    {
+      "id": 216,
+      "category": "pokecheck",
+      "ja": "ねむり",
+      "reading": "ねむり",
+      "ko_pron": "네무리",
+      "ko": "잠듦 (수면)",
+      "note": "기술·후퇴 불가, 코인으로 회복 판정",
+      "important": true
+    },
+    {
+      "id": 217,
+      "category": "pokecheck",
+      "ja": "マヒ",
+      "reading": "マヒ",
+      "ko_pron": "마히",
+      "ko": "마비",
+      "note": "다음 자기 턴 동안 기술·후퇴 불가",
+      "important": true
+    },
+    {
+      "id": 218,
+      "category": "pokecheck",
+      "ja": "こんらん",
+      "reading": "こんらん",
+      "ko_pron": "콘란",
+      "ko": "혼란",
+      "note": "기술 쓸 때 코인 판정, 실패 시 자신이 데미지",
+      "important": true
+    },
+    {
+      "id": 219,
+      "category": "pokecheck",
+      "ja": "特殊状態",
+      "reading": "とくしゅじょうたい",
+      "ko_pron": "토쿠슈 죠오타이",
+      "ko": "특수 상태 (상태이상)",
+      "note": "독·화상·잠듦·마비·혼란을 통칭",
+      "important": false
+    },
+    {
+      "id": 220,
+      "category": "pokecheck",
+      "ja": "回復",
+      "reading": "かいふく",
+      "ko_pron": "카이후쿠",
+      "ko": "회복",
+      "note": "HP나 상태이상을 회복함",
+      "important": false
+    },
+    {
+      "id": 221,
+      "category": "pokecheck",
+      "ja": "弱点",
+      "reading": "じゃくてん",
+      "ko_pron": "쟈쿠텐",
+      "ko": "약점",
+      "note": "데미지를 더 받는 속성",
+      "important": true
+    },
+    {
+      "id": 222,
+      "category": "pokecheck",
+      "ja": "抵抗力",
+      "reading": "ていこうりょく",
+      "ko_pron": "테이코료쿠",
+      "ko": "저항력",
+      "note": "데미지를 덜 받는 속성",
+      "important": false
+    },
+    {
+      "id": 223,
+      "category": "pokecheck",
+      "ja": "やけどになります",
+      "reading": "",
+      "ko_pron": "야케도 니 나리마스",
+      "ko": "화상 상태가 됩니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 224,
+      "category": "pokecheck",
+      "ja": "どく状態",
+      "reading": "",
+      "ko_pron": "도쿠 조타이",
+      "ko": "독 상태",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 225,
+      "category": "pokecheck",
+      "ja": "どくになります",
+      "reading": "",
+      "ko_pron": "도쿠 니 나리마스",
+      "ko": "독 상태가 됩니다.",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 226,
+      "category": "pokecheck",
+      "ja": "まひになります",
+      "reading": "",
+      "ko_pron": "마히 니 나리마스",
+      "ko": "마비 상태가 (됩니다)",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 227,
+      "category": "pokecheck",
+      "ja": "ねむりになります",
+      "reading": "",
+      "ko_pron": "네무리 니 나리마스",
+      "ko": "잠듦 상태가 됩니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 228,
+      "category": "pokecheck",
+      "ja": "ポケモンチェックです",
+      "reading": "",
+      "ko_pron": "포케몬 체크 데스",
+      "ko": "포켓몬 체크입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 229,
+      "category": "pokecheck",
+      "ja": "ポケモンチェックに入ります",
+      "reading": "",
+      "ko_pron": "포케몬 체크니 하이리마스",
+      "ko": "포켓몬 체크에 들어갑니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 230,
+      "category": "pokecheck",
+      "ja": "やけどのダメージをのせます",
+      "reading": "",
+      "ko_pron": "야케도노 다메-지오 노세마스",
+      "ko": "화상 데미지를 올립니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 231,
+      "category": "pokecheck",
+      "ja": "どくのダメージをのせます",
+      "reading": "",
+      "ko_pron": "도쿠노 다메-지오 노세마스",
+      "ko": "독 데미지를 올립니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 232,
+      "category": "pokecheck",
+      "ja": "ダメージカウンターを1個のせます",
+      "reading": "",
+      "ko_pron": "다메-지 카운타-오 잇코 노세마스",
+      "ko": "데미지 카운터를 1개 올립니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 233,
+      "category": "pokecheck",
+      "ja": "このポケモンにのせます",
+      "reading": "",
+      "ko_pron": "코노 포케몬니 노세마스",
+      "ko": "이 포켓몬에 올립니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 234,
+      "category": "pokecheck",
+      "ja": "ポケモンチェック終了です",
+      "reading": "",
+      "ko_pron": "포케몬 체크 슈-료- 데스",
+      "ko": "포켓몬 체크 종료입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 235,
+      "category": "pokecheck",
+      "ja": "次のターンです",
+      "reading": "",
+      "ko_pron": "츠기노 타-은 데스",
+      "ko": "다음 턴입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 236,
+      "category": "pokecheck",
+      "ja": "気絶します",
+      "reading": "",
+      "ko_pron": "키제츠시마스",
+      "ko": "기절합니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 237,
+      "category": "pokecheck",
+      "ja": "両方ともダメージがあります",
+      "reading": "",
+      "ko_pron": "료-호-토모 다메-지가 아리마스",
+      "ko": "둘 다 데미지가 있습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 238,
+      "category": "pokecheck",
+      "ja": "間違いないですか",
+      "reading": "",
+      "ko_pron": "마치가이나이데스카",
+      "ko": "맞나요? / 문제없나요?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 239,
+      "category": "side",
+      "ja": "サイドは何枚ですか",
+      "reading": "",
+      "ko_pron": "사이도와 난마이데스카",
+      "ko": "사이드는 몇 장인가요?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 240,
+      "category": "side",
+      "ja": "残りのサイドは何枚ですか",
+      "reading": "",
+      "ko_pron": "노코리노 사이도와 난마이데스카",
+      "ko": "남은 사이드는 몇 장인가요?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 241,
+      "category": "side",
+      "ja": "サイドを確認してもいいですか",
+      "reading": "",
+      "ko_pron": "사이도오 카쿠닌시테모 이이데스카",
+      "ko": "사이드를 확인해도 될까요?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 242,
+      "category": "side",
+      "ja": "サイドはあと1枚ですね",
+      "reading": "",
+      "ko_pron": "사이도와 아토 이치마이데스네",
+      "ko": "사이드가 이제 1장이네요",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 243,
+      "category": "side",
+      "ja": "こちらのサイドは2枚です",
+      "reading": "",
+      "ko_pron": "코치라노 사이도와 니마이데스",
+      "ko": "제 사이드는 2장입니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 244,
+      "category": "side",
+      "ja": "サイドを取りましたか",
+      "reading": "",
+      "ko_pron": "사이도오 토리마시타카",
+      "ko": "사이드를 가져가셨나요?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 245,
+      "category": "side",
+      "ja": "今、サイドは何枚残っていますか",
+      "reading": "",
+      "ko_pron": "이마, 사이도와 난마이 노콧테이마스카",
+      "ko": "지금 사이드가 몇 장 남아 있나요?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 246,
+      "category": "side",
+      "ja": "サイドを取ります",
+      "reading": "",
+      "ko_pron": "사이도오 토리마스",
+      "ko": "사이드를 가져가겠습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 247,
+      "category": "side",
+      "ja": "サイドを全部取りました",
+      "reading": "",
+      "ko_pron": "사이도와 젠부 토리마시타",
+      "ko": "사이드를 전부 가져갔습니다",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 248,
+      "category": "dice",
+      "ja": "サイコロ",
+      "reading": "",
+      "ko_pron": "사이코로",
+      "ko": "주사위 (가장 널리 쓰이는 표준적인 단어. 한자로는 骰子 또는 賽라고 쓰지만, 실제 생활이나 게임에서는 보통 읽기 편하게 사이나 카타카나(サイコロ)로 표현하는 경우가 대부분)",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 249,
+      "category": "dice",
+      "ja": "ダイス",
+      "reading": "",
+      "ko_pron": "다이스",
+      "ko": "주사위 (보드게임, TRPG, 모바일 게임 등에서 영어 'Dice'에서 유래한 표현)",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 250,
+      "category": "dice",
+      "ja": "ダイスを振る",
+      "reading": "ダイスをふる",
+      "ko_pron": "",
+      "ko": "다이스를 굴리다 (예시)",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 251,
+      "category": "dice",
+      "ja": "ダイス使っていい？",
+      "reading": "",
+      "ko_pron": "다이스 츠캇테 이이?",
+      "ko": "다이스 써도 돼?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 252,
+      "category": "dice",
+      "ja": "サイコロでいい？",
+      "reading": "",
+      "ko_pron": "사이코로데 이이?",
+      "ko": "주사위로 해도 돼?",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 253,
+      "category": "dice",
+      "ja": "偶数は表です。",
+      "reading": "",
+      "ko_pron": "구-스-와 오모테데스.",
+      "ko": "짝수는 앞면입니다.",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 254,
+      "category": "dice",
+      "ja": "偶数を表扱（おもてあつか）いにします。",
+      "reading": "",
+      "ko_pron": "구-스-오 오모테 아츠카이니 시마스.",
+      "ko": "짝수를 앞면 취급으로 하겠습니다.",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 255,
+      "category": "dice",
+      "ja": "奇数は裏です。",
+      "reading": "",
+      "ko_pron": "키-스-와 우라데스.",
+      "ko": "홀수는 뒷면입니다.",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 256,
+      "category": "dice",
+      "ja": "奇数を裏扱（うらあつか）いにします。",
+      "reading": "",
+      "ko_pron": "키-스-오 우라 아츠카이니 시마스.",
+      "ko": "홀수를 뒷면 취급으로 하겠습니다.",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 257,
+      "category": "judge",
+      "ja": "ジャッジ",
+      "reading": "ジャッジ",
+      "ko_pron": "쟛지",
+      "ko": "저지 (심판)",
+      "note": "대회 심판",
+      "important": true
+    },
+    {
+      "id": 258,
+      "category": "judge",
+      "ja": "ジャッジを呼んでください",
+      "reading": "ジャッジをよんでください",
+      "ko_pron": "쟛지오 욘데 쿠다사이",
+      "ko": "저지를 불러 주세요",
+      "note": "심판이 필요할 때",
+      "important": true
+    },
+    {
+      "id": 259,
+      "category": "judge",
+      "ja": "ルールを確認したいです",
+      "reading": "ルールをかくにんしたいです",
+      "ko_pron": "루루오 카쿠닝 시타이데스",
+      "ko": "규칙을 확인하고 싶어요",
+      "note": "규칙이 헷갈릴 때",
+      "important": true
+    },
+    {
+      "id": 260,
+      "category": "judge",
+      "ja": "これは合っていますか？",
+      "reading": "これはあっていますか",
+      "ko_pron": "코레와 앗테 이마스카",
+      "ko": "이거 맞나요?",
+      "note": "처리가 맞는지 확인할 때",
+      "important": false
+    },
+    {
+      "id": 261,
+      "category": "judge",
+      "ja": "時間を教えてください",
+      "reading": "じかんをおしえてください",
+      "ko_pron": "지캉오 오시에테 쿠다사이",
+      "ko": "시간 알려 주세요",
+      "note": "남은 시간을 물을 때",
+      "important": false
+    },
+    {
+      "id": 262,
+      "category": "judge",
+      "ja": "デッキチェック",
+      "reading": "デッキチェック",
+      "ko_pron": "덱키 첵쿠",
+      "ko": "덱 체크",
+      "note": "심판이 덱을 검사하는 것",
+      "important": false
+    },
+    {
+      "id": 263,
+      "category": "judge",
+      "ja": "引き分け",
+      "reading": "ひきわけ",
+      "ko_pron": "히키와케",
+      "ko": "무승부",
+      "note": "승부가 나지 않음",
+      "important": false
+    },
+    {
+      "id": 264,
+      "category": "judge",
+      "ja": "制限時間",
+      "reading": "せいげんじかん",
+      "ko_pron": "세이겐 지캉",
+      "ko": "제한 시간",
+      "note": "한 경기의 시간 제한",
+      "important": false
+    },
+    {
+      "id": 265,
+      "category": "judge",
+      "ja": "投了します",
+      "reading": "とうりょうします",
+      "ko_pron": "토료 시마스",
+      "ko": "기권하겠습니다",
+      "note": "경기를 포기할 때 (신중히)",
+      "important": false
+    },
+    {
+      "id": 266,
+      "category": "numbers",
+      "ja": "一枚",
+      "reading": "いちまい",
+      "ko_pron": "이치마이",
+      "ko": "한 장 (카드)",
+      "note": "카드 1장을 셀 때",
+      "important": true
+    },
+    {
+      "id": 267,
+      "category": "numbers",
+      "ja": "二枚",
+      "reading": "にまい",
+      "ko_pron": "니마이",
+      "ko": "두 장 (카드)",
+      "note": "카드 2장을 셀 때",
+      "important": false
+    },
+    {
+      "id": 268,
+      "category": "numbers",
+      "ja": "何枚",
+      "reading": "なんまい",
+      "ko_pron": "남마이",
+      "ko": "몇 장",
+      "note": "카드 장수를 물을 때",
+      "important": false
+    },
+    {
+      "id": 269,
+      "category": "numbers",
+      "ja": "残り時間",
+      "reading": "のこりじかん",
+      "ko_pron": "노코리 지캉",
+      "ko": "남은 시간",
+      "note": "경기에 남은 시간",
+      "important": false
+    },
+    {
+      "id": 270,
+      "category": "numbers",
+      "ja": "10",
+      "reading": "",
+      "ko_pron": "쥬",
+      "ko": "10",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 271,
+      "category": "numbers",
+      "ja": "20",
+      "reading": "",
+      "ko_pron": "니쥬",
+      "ko": "20",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 272,
+      "category": "numbers",
+      "ja": "30",
+      "reading": "",
+      "ko_pron": "산쥬",
+      "ko": "30",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 273,
+      "category": "numbers",
+      "ja": "50",
+      "reading": "",
+      "ko_pron": "고쥬",
+      "ko": "50",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 274,
+      "category": "numbers",
+      "ja": "100",
+      "reading": "",
+      "ko_pron": "햐쿠",
+      "ko": "100",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 275,
+      "category": "numbers",
+      "ja": "120",
+      "reading": "",
+      "ko_pron": "햐쿠니쥬",
+      "ko": "120",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 276,
+      "category": "numbers",
+      "ja": "150",
+      "reading": "",
+      "ko_pron": "햐쿠고쥬",
+      "ko": "150",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 277,
+      "category": "numbers",
+      "ja": "200",
+      "reading": "",
+      "ko_pron": "니햐쿠",
+      "ko": "200",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 278,
+      "category": "numbers",
+      "ja": "120ダメージ",
+      "reading": "",
+      "ko_pron": "햐쿠니쥬 다메-지",
+      "ko": "120 데미지",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 279,
+      "category": "numbers",
+      "ja": "ゼロ / 零",
+      "reading": "",
+      "ko_pron": "제로 / 레이",
+      "ko": "0",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 280,
+      "category": "numbers",
+      "ja": "一",
+      "reading": "",
+      "ko_pron": "이치",
+      "ko": "1",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 281,
+      "category": "numbers",
+      "ja": "二",
+      "reading": "",
+      "ko_pron": "니",
+      "ko": "2",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 282,
+      "category": "numbers",
+      "ja": "三",
+      "reading": "",
+      "ko_pron": "산",
+      "ko": "3",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 283,
+      "category": "numbers",
+      "ja": "四",
+      "reading": "",
+      "ko_pron": "욘 / 시",
+      "ko": "4",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 284,
+      "category": "numbers",
+      "ja": "五",
+      "reading": "",
+      "ko_pron": "고",
+      "ko": "5",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 285,
+      "category": "numbers",
+      "ja": "六",
+      "reading": "",
+      "ko_pron": "로쿠",
+      "ko": "6",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 286,
+      "category": "numbers",
+      "ja": "七",
+      "reading": "",
+      "ko_pron": "나나",
+      "ko": "7",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 287,
+      "category": "numbers",
+      "ja": "八",
+      "reading": "",
+      "ko_pron": "하치",
+      "ko": "8",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 288,
+      "category": "numbers",
+      "ja": "九",
+      "reading": "",
+      "ko_pron": "큐",
+      "ko": "9",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 289,
+      "category": "numbers",
+      "ja": "十",
+      "reading": "",
+      "ko_pron": "쥬",
+      "ko": "10",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 290,
+      "category": "numbers",
+      "ja": "11",
+      "reading": "",
+      "ko_pron": "쥬이치",
+      "ko": "11",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 291,
+      "category": "numbers",
+      "ja": "12",
+      "reading": "",
+      "ko_pron": "쥬니",
+      "ko": "12",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 292,
+      "category": "numbers",
+      "ja": "13",
+      "reading": "",
+      "ko_pron": "쥬산",
+      "ko": "13",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 293,
+      "category": "numbers",
+      "ja": "14",
+      "reading": "",
+      "ko_pron": "쥬욘",
+      "ko": "14",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 294,
+      "category": "numbers",
+      "ja": "15",
+      "reading": "",
+      "ko_pron": "쥬고",
+      "ko": "15",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 295,
+      "category": "numbers",
+      "ja": "16",
+      "reading": "",
+      "ko_pron": "쥬로쿠",
+      "ko": "16",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 296,
+      "category": "numbers",
+      "ja": "17",
+      "reading": "",
+      "ko_pron": "쥬나나",
+      "ko": "17",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 297,
+      "category": "numbers",
+      "ja": "18",
+      "reading": "",
+      "ko_pron": "쥬하치",
+      "ko": "18",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 298,
+      "category": "numbers",
+      "ja": "19",
+      "reading": "",
+      "ko_pron": "쥬큐",
+      "ko": "19",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 299,
+      "category": "numbers",
+      "ja": "300",
+      "reading": "",
+      "ko_pron": "산뱌쿠",
+      "ko": "300",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 300,
+      "category": "numbers",
+      "ja": "400",
+      "reading": "",
+      "ko_pron": "욘햐쿠",
+      "ko": "400",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 301,
+      "category": "numbers",
+      "ja": "500",
+      "reading": "",
+      "ko_pron": "고햐쿠",
+      "ko": "500",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 302,
+      "category": "numbers",
+      "ja": "600",
+      "reading": "",
+      "ko_pron": "롯뺘쿠",
+      "ko": "600",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 303,
+      "category": "numbers",
+      "ja": "700",
+      "reading": "",
+      "ko_pron": "나나햐쿠",
+      "ko": "700",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 304,
+      "category": "numbers",
+      "ja": "800",
+      "reading": "",
+      "ko_pron": "핫뺘쿠",
+      "ko": "800",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 305,
+      "category": "numbers",
+      "ja": "900",
+      "reading": "",
+      "ko_pron": "큐햐쿠",
+      "ko": "900",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 306,
+      "category": "numbers",
+      "ja": "1000",
+      "reading": "",
+      "ko_pron": "센",
+      "ko": "1000",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 307,
+      "category": "numbers",
+      "ja": "40",
+      "reading": "",
+      "ko_pron": "욘쥬",
+      "ko": "40",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 308,
+      "category": "numbers",
+      "ja": "60",
+      "reading": "",
+      "ko_pron": "로쿠쥬",
+      "ko": "60",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 309,
+      "category": "numbers",
+      "ja": "70",
+      "reading": "",
+      "ko_pron": "나나쥬",
+      "ko": "70",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 310,
+      "category": "numbers",
+      "ja": "80",
+      "reading": "",
+      "ko_pron": "하치쥬",
+      "ko": "80",
+      "note": "",
+      "important": false
+    },
+    {
+      "id": 311,
+      "category": "numbers",
+      "ja": "90",
+      "reading": "",
+      "ko_pron": "큐쥬",
+      "ko": "90",
+      "note": "",
+      "important": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# 원본 자료 이미지 (앱 배포에 불필요, 용량 큼)
+Data/*.jpg
+Data/*.jpeg
+Data/*.png
+data/*.jpg
+data/*.jpeg
+
+# 빌드 산출물 (재생성 가능)
+dist/
+
+# 기타
+node_modules/
+.DS_Store
+Thumbs.db
+*.log

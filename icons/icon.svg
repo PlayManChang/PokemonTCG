@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="포켓몬 용어집">
+  <rect width="512" height="512" rx="96" fill="#b81e00"/>
+  <circle cx="256" cy="256" r="190" fill="#ffffff"/>
+  <path d="M66 256 A190 190 0 0 1 446 256 Z" fill="#e3350d"/>
+  <rect x="66" y="238" width="380" height="36" fill="#1c1c1e"/>
+  <circle cx="256" cy="256" r="60" fill="#ffffff" stroke="#1c1c1e" stroke-width="18"/>
+</svg>

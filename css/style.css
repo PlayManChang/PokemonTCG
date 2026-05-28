@@ -1,0 +1,205 @@
+:root {
+  --red: #e3350d;
+  --red-dark: #b81e00;
+  --yellow: #ffcb05;
+  --ink: #1c1c1e;
+  --muted: #6b6b70;
+  --bg: #f4f5f7;
+  --card: #ffffff;
+  --line: #e6e7eb;
+  --accent: #1a64d4;
+  --fav: #f5a623;
+  --radius: 16px;
+  --maxw: 720px;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+    "Noto Sans KR", "Malgun Gothic", "Hiragino Sans", "Yu Gothic", sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* ---------- Header ---------- */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: linear-gradient(180deg, var(--red), var(--red-dark));
+  color: #fff;
+  padding: calc(env(safe-area-inset-top) + 10px) 14px 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.15);
+}
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.app-header h1 {
+  font-size: 1.15rem;
+  margin: 0 0 8px;
+  font-weight: 800;
+  letter-spacing: -.5px;
+}
+.install-btn {
+  background: var(--yellow);
+  color: var(--ink);
+  border: 0;
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-weight: 700;
+  font-size: .85rem;
+  cursor: pointer;
+}
+
+.search-wrap {
+  position: relative;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+#search {
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  padding: 13px 40px 13px 14px;
+  font-size: 1rem;
+  background: #fff;
+  color: var(--ink);
+}
+#search:focus { outline: 3px solid var(--yellow); }
+.clear-btn {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  background: #ddd;
+  color: #333;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: .8rem;
+  cursor: pointer;
+}
+
+/* ---------- Chips ---------- */
+.chips {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 10px 0 2px;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  scrollbar-width: none;
+}
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: 0 0 auto;
+  border: 0;
+  background: rgba(255,255,255,.22);
+  color: #fff;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: .9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.chip.active {
+  background: #fff;
+  color: var(--red-dark);
+}
+
+/* ---------- Main / list ---------- */
+main {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 12px 14px 24px;
+}
+.result-count {
+  color: var(--muted);
+  font-size: .85rem;
+  margin: 6px 2px 10px;
+}
+.term-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.term {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 14px 12px;
+  position: relative;
+}
+.term.is-important { border-left: 5px solid var(--yellow); }
+
+.term-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.ja {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+  flex: 1;
+  word-break: break-word;
+}
+.btns { display: flex; gap: 6px; flex: 0 0 auto; }
+.icon-btn {
+  border: 0;
+  background: #f0f1f4;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+.icon-btn:active { transform: scale(.94); }
+.fav-btn.on { background: #fff4dc; }
+
+.reading { color: var(--muted); font-size: .9rem; margin: 4px 0 6px; }
+.ko-pron {
+  display: inline-block;
+  background: #eaf1ff;
+  color: var(--accent);
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+.ko { font-weight: 700; font-size: 1.05rem; }
+.note { color: var(--muted); font-size: .88rem; margin-top: 4px; }
+
+mark { background: var(--yellow); color: inherit; padding: 0 1px; border-radius: 3px; }
+
+.empty { text-align: center; color: var(--muted); padding: 40px 10px; }
+
+/* ---------- Footer ---------- */
+.app-footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: .8rem;
+  padding: 8px 14px calc(env(safe-area-inset-bottom) + 16px);
+}
+
+@media (min-width: 560px) {
+  .term-list { grid-template-columns: 1fr 1fr; }
+}
