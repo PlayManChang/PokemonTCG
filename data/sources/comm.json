@@ -1,0 +1,5 @@
+[
+  { "category": "check", "ja": "ここに書いてください", "reading": "ここにかいてください", "ko_pron": "코코니 카이테 쿠다사이", "ko": "여기에 적어 주세요", "note": "말로 안 통할 때 종이에 적어 달라고", "important": true },
+  { "category": "check", "ja": "英語でお願いします", "reading": "えいごでおねがいします", "ko_pron": "에고데 오네가이시마스", "ko": "영어로 부탁합니다", "note": "일본어가 어려울 때", "important": false },
+  { "category": "check", "ja": "通訳できる人はいますか？", "reading": "つうやくできるひとはいますか", "ko_pron": "츠우야쿠 데키루 히토와 이마스카", "ko": "통역할 수 있는 사람 있어요?", "note": "도움 줄 사람을 찾을 때", "important": false }
+]
