@@ -65,7 +65,7 @@ html, body {
 .search-wrap {
   position: relative;
   max-width: var(--maxw);
-  margin: 0 auto;
+  margin: 10px auto 0;
 }
 #search {
   width: 100%;
@@ -440,3 +440,4 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .links li { padding: 7px 0; border-bottom: 1px solid var(--line); }
 .links li:last-child { border-bottom: 0; }
 .disclaimer { color: var(--muted); font-size: .82rem; line-height: 1.5; margin-top: 4px; }
+.pron { color: #1a64d4; font-weight: 700; }
