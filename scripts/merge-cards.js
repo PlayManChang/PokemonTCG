@@ -57,6 +57,60 @@ const pad6 = (id) => String(id).padStart(6, '0');
 const imgUrl = (info) => info ? `https://www.pokemon-card.com/assets/images/card_images/large/${info.set}/${pad6(info.id)}_${info.type}_${info.romaji}.jpg` : '';
 const normReg = (r) => (/^[A-J]$/.test((r || '').trim()) ? r.trim() : '');
 
+// 일본어 음역 카드의 한국 공식명 별칭(검색용). name_ja → 한국명.
+// (name_ko가 이미 한국 공식명인 카드는 불필요 — 검색이 이미 됨)
+const KO_ALIAS = {
+  'タケルライコ': '우레이충', 'タケルライコex': '우레이충 우레이충ex',
+  'カミツオロチ': '과미드라', 'カミツオロチex': '과미드라 과미드라ex',
+};
+
+// 가타카나/히라가나 → 한글 발음 (일본어 읽는 법). 카나로만 된 이름에만 적용.
+const KANA_DI = {
+  'キャ':'캬','キュ':'큐','キョ':'쿄','ギャ':'갸','ギュ':'규','ギョ':'교','シャ':'샤','シュ':'슈','ショ':'쇼',
+  'ジャ':'자','ジュ':'주','ジョ':'조','チャ':'차','チュ':'추','チョ':'초','ニャ':'냐','ニュ':'뉴','ニョ':'뇨',
+  'ヒャ':'햐','ヒュ':'휴','ヒョ':'효','ビャ':'뱌','ビュ':'뷰','ビョ':'뵤','ピャ':'퍄','ピュ':'퓨','ピョ':'표',
+  'ミャ':'먀','ミュ':'뮤','ミョ':'묘','リャ':'랴','リュ':'류','リョ':'료','シェ':'셰','ジェ':'제','チェ':'체',
+  'ティ':'티','ディ':'디','トゥ':'투','ドゥ':'두','ファ':'파','フィ':'피','フェ':'페','フォ':'포','フュ':'퓨',
+  'ウィ':'위','ウェ':'웨','ウォ':'워','ヴァ':'바','ヴィ':'비','ヴェ':'베','ヴォ':'보','ツァ':'차','ツェ':'체','ツォ':'초','イェ':'예',
+};
+const KANA_BA = {
+  'ア':'아','イ':'이','ウ':'우','エ':'에','オ':'오','カ':'카','キ':'키','ク':'쿠','ケ':'케','コ':'코',
+  'ガ':'가','ギ':'기','グ':'구','ゲ':'게','ゴ':'고','サ':'사','シ':'시','ス':'스','セ':'세','ソ':'소',
+  'ザ':'자','ジ':'지','ズ':'즈','ゼ':'제','ゾ':'조','タ':'타','チ':'치','ツ':'츠','テ':'테','ト':'토',
+  'ダ':'다','ヂ':'지','ヅ':'즈','デ':'데','ド':'도','ナ':'나','ニ':'니','ヌ':'누','ネ':'네','ノ':'노',
+  'ハ':'하','ヒ':'히','フ':'후','ヘ':'헤','ホ':'호','バ':'바','ビ':'비','ブ':'부','ベ':'베','ボ':'보',
+  'パ':'파','ピ':'피','プ':'푸','ペ':'페','ポ':'포','マ':'마','ミ':'미','ム':'무','メ':'메','モ':'모',
+  'ヤ':'야','ユ':'유','ヨ':'요','ラ':'라','リ':'리','ル':'루','レ':'레','ロ':'로','ワ':'와','ヲ':'오','ヴ':'부',
+  'ァ':'아','ィ':'이','ゥ':'우','ェ':'에','ォ':'오',
+};
+function addFinal(ch, f) { // 마지막 한글 음절에 받침 추가 (ㄴ=4, ㅅ=19)
+  const c = ch.charCodeAt(0);
+  if (c < 0xAC00 || c > 0xD7A3 || (c - 0xAC00) % 28 !== 0) return ch;
+  return String.fromCharCode(c + f);
+}
+function kanaToHangul(input) {
+  if (!input) return '';
+  let s = input.replace(/\s*ex$/i, '').trim();
+  const core = s.replace(/[ー・\s]/g, '');
+  if (!core || !/^[ぁ-んァ-ヶ]+$/.test(core)) return ''; // 카나 전용 이름만
+  s = s.replace(/[ぁ-ん]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) + 0x60)); // 히라가나→가타카나
+  const out = [];
+  for (let i = 0; i < s.length;) {
+    const two = s.substr(i, 2);
+    if (KANA_DI[two]) { out.push(KANA_DI[two]); i += 2; continue; }
+    const one = s[i];
+    if (one === 'ー') { i++; continue; }
+    if (one === '・' || one === ' ') { out.push(' '); i++; continue; }
+    if (one === 'ッ') { if (out.length) out[out.length - 1] = addFinal(out[out.length - 1], 19); i++; continue; }
+    if (one === 'ン') { if (out.length) out[out.length - 1] = addFinal(out[out.length - 1], 4); i++; continue; }
+    if (KANA_BA[one]) { out.push(KANA_BA[one]); i++; continue; }
+    i++;
+  }
+  let r = out.join('').trim();
+  if (/\s*ex$/i.test(input)) r += ' ex';
+  return r;
+}
+
 // 1) 덱 스크랩 로드
 const idInfo = {};            // id -> {set,type,romaji,id}
 const romajiDecks = {};       // romaji -> { deckId: count }
@@ -120,10 +174,14 @@ for (const romaji of universe) {
   const id = det.id || (info && info.id);
   const decks = Object.keys(romajiDecks[romaji] || {});
   const tiers = [...new Set(decks.map((d) => tierById[d]))].sort();
+  const nameJa = det.name_ja || '';
+  const read = kanaToHangul(nameJa); // 일본어 발음(한글)
   cards.push({
     id,
-    name_ja: det.name_ja || '',
+    name_ja: nameJa,
     name_ko: det.name_ko || '',
+    read: (read && read !== (det.name_ko || '')) ? read : '',
+    alias: KO_ALIAS[nameJa] || '',
     category: det.category || 'pokemon',
     subtype_ko: det.subtype_ko || '',
     hp: det.hp || null,

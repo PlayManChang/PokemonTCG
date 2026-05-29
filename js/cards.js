@@ -213,7 +213,7 @@ function renderDeckInfo() {
 }
 
 function cardText(c) {
-  const parts = [c.name_ja, c.name_ko, c.text_ja, c.text_ko];
+  const parts = [c.name_ja, c.name_ko, c.read, c.alias, c.text_ja, c.text_ko];
   (c.abilities || []).forEach((a) => parts.push(a.name_ja, a.name_ko, a.text_ja, a.text_ko));
   (c.attacks || []).forEach((a) => parts.push(a.name_ja, a.name_ko, a.text_ja, a.text_ko));
   return parts.filter(Boolean).join(' ').toLowerCase();
@@ -294,6 +294,13 @@ function cardEl(c) {
   nameJa.lang = 'ja';
   nameJa.appendChild(hl(c.name_ja || ''));
   meta.append(nameKo, nameJa);
+  if (c.read) {
+    const read = document.createElement('div');
+    read.className = 'pcard-read';
+    read.appendChild(document.createTextNode('🗣 '));
+    read.appendChild(hl(c.read));
+    meta.appendChild(read);
+  }
 
   const badges = document.createElement('div');
   badges.className = 'pcard-badges';

@@ -190,6 +190,24 @@ function assert(cond, msg) {
     const day7after = await page.$$eval('.plan-day', (els) => els.find((e) => e.textContent.includes('DAY2')).textContent);
     assert(day7before !== day7after, 'DAY2 진출/탈락 토글 시 일정 자동 분기됨');
 
+    console.log('\n[10-d] 한국 공식명 검색 별칭 + 일본어 발음 표기');
+    await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' });
+    await page.waitForSelector('.pcard', { timeout: 8000 });
+    await page.click('.tier-row .chip[data-id="3"]');
+    await new Promise((r) => setTimeout(r, 200));
+    await page.select('#deckSelect', 'takeraiko');
+    await new Promise((r) => setTimeout(r, 300));
+    await page.type('#search', '우레'); // 타케루라이코 = 한국명 우레이충
+    await new Promise((r) => setTimeout(r, 300));
+    const aliasHit = await page.$$eval('.pcard', (e) => e.length);
+    assert(aliasHit >= 1, `'우레'(한국명 우레이충) 검색 → 타케루라이코 ${aliasHit}종 매칭 (별칭 검색)`);
+    await page.click('#clearSearch');
+    await new Promise((r) => setTimeout(r, 150));
+    await page.select('#deckSelect', 'dragapult');
+    await new Promise((r) => setTimeout(r, 300));
+    const readEls = await page.$$eval('.pcard-read', (e) => e.length);
+    assert(readEls >= 1, `일본어 발음(🗣) 표기 ${readEls}건 렌더`);
+
     console.log('\n[11] 세트별 보기 (M5 아비스아이)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드
     await page.waitForSelector('.pcard', { timeout: 8000 });
