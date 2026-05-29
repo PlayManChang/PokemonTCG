@@ -177,6 +177,20 @@ function assert(cond, msg) {
     const setCards = await page.$$eval('.pcard', (e) => e.length);
     assert(setOpts >= 1 && setCards === setM5, `세트별 모드: 세트옵션 ${setOpts}개, 기본세트(M5) ${setCards}종 (데이터 ${setM5}종)`);
 
+    console.log('\n[11-c] 헤더 스크롤 접힘 (흔들림 방지)');
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await new Promise((r) => setTimeout(r, 150));
+    const atTop = await page.$eval('.app-header', (e) => e.classList.contains('compact'));
+    await page.evaluate(() => window.scrollTo(0, 400));
+    await new Promise((r) => setTimeout(r, 300));
+    const scrolled = await page.$eval('.app-header', (e) => e.classList.contains('compact'));
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await new Promise((r) => setTimeout(r, 300));
+    const backTop = await page.$eval('.app-header', (e) => e.classList.contains('compact'));
+    assert(!atTop && scrolled && !backTop, `헤더 접힘 전이 정상 (맨위:${atTop}→스크롤:${scrolled}→맨위:${backTop})`);
+    const anchor = await page.$eval('body', (e) => getComputedStyle(e).overflowAnchor);
+    assert(anchor === 'none', `스크롤 앵커링 비활성(overflow-anchor:${anchor}) — 접힘 흔들림 차단`);
+
     console.log('\n[12] 콘솔 에러');
     const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices|pokemon-card\.com|net::ERR/i.test(e));
     assert(realErrors.length === 0, `콘솔 에러 ${realErrors.length}건` + (realErrors.length ? ': ' + realErrors.join('; ') : ''));

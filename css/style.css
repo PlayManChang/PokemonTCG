@@ -307,6 +307,9 @@ mark { background: var(--yellow); color: inherit; padding: 0 1px; border-radius:
 }
 .tier-row { padding-top: 6px; padding-bottom: 0; }
 /* 스크롤 시 상단 선택 영역 접기 */
+/* 헤더가 접히며 높이가 변할 때 브라우저 스크롤 앵커링이 scrollY를 보정해
+   접기/펴기가 반복(흔들림)되는 것을 막는다. */
+.cards-page { overflow-anchor: none; }
 #controls { overflow: hidden; max-height: 340px; opacity: 1; transition: max-height .25s ease, opacity .2s ease; }
 .app-header.compact #controls { max-height: 0; opacity: 0; }
 .cards-page .deck-info { margin-top: 6px; font-size: .82rem; }

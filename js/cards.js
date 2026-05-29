@@ -58,21 +58,22 @@ async function init() {
   setupScrollCollapse();
 }
 
-// 아래로 스크롤하면 상단 선택 영역을 접고, 위로 올리거나 맨 위면 펼친다.
+// 충분히 내려가면 상단 선택 영역을 접고, 거의 맨 위로 오면 펼친다.
+// 접기/펴기 임계값을 분리(히스테리시스)해, 경계에서 깜빡이지 않게 한다.
+// 헤더가 접히며 높이가 바뀌어도 scrollY가 튀지 않도록 CSS에서 overflow-anchor:none.
+const COMPACT_ON = 150;  // 이 이상 내려가면 접기
+const COMPACT_OFF = 50;  // 이 이하로 올라오면 펼치기 (사이 구간은 현재 상태 유지)
 function setupScrollCollapse() {
   const header = document.querySelector('.app-header');
   if (!header) return;
-  let lastY = window.scrollY;
   let ticking = false;
   window.addEventListener('scroll', () => {
     if (ticking) return;
     ticking = true;
     requestAnimationFrame(() => {
       const y = window.scrollY;
-      if (y < 60) header.classList.remove('compact');
-      else if (y > lastY + 6) header.classList.add('compact');
-      else if (y < lastY - 6) header.classList.remove('compact');
-      lastY = y;
+      if (y > COMPACT_ON) header.classList.add('compact');
+      else if (y < COMPACT_OFF) header.classList.remove('compact');
       ticking = false;
     });
   }, { passive: true });
