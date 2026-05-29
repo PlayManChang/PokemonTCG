@@ -230,6 +230,7 @@
       stop.appendChild(el('span', 'rm-dot', s.icon || '•'));
       const txt = el('span', 'rm-text');
       txt.appendChild(el('span', 'rm-name', s.name));
+      if (s.ja) txt.appendChild(el('span', 'rm-ja', s.ja));
       if (s.sub) txt.appendChild(el('span', 'rm-sub', s.sub));
       stop.appendChild(txt);
       wrap.appendChild(stop);
