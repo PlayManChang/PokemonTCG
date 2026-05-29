@@ -151,9 +151,12 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const menuLinks = await page.$$eval('.nav-menu a', (els) => els.length);
     const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
-    assert(menuVisible && menuLinks === 5, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색 + 외부3)`);
+    assert(menuVisible && menuLinks === 6, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/대회안내 + 외부3)`);
     const extLinks = await page.$$eval('.nav-menu a[target="_blank"]', (e) => e.length);
     assert(extLinks === 3, `외부 사이트 바로가기 ${extLinks}개`);
+    await page.goto(BASE + '/guide.html', { waitUntil: 'domcontentloaded' });
+    const gcards = await page.$$eval('.gcard', (e) => e.length);
+    assert(gcards >= 8, `대회 안내 페이지 렌더 (섹션 ${gcards}개)`);
 
     console.log('\n[11] 세트별 보기 (M5 아비스아이)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드

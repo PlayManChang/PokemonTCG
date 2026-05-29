@@ -7,6 +7,7 @@ const DIST = path.join(ROOT, 'dist');
 const files = [
   'index.html',
   'cards.html',
+  'guide.html',
   'manifest.webmanifest',
   'sw.js',
   'css/style.css',

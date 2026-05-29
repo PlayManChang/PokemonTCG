@@ -8,6 +8,7 @@
   const links = [
     { href: 'index.html', label: '📖 용어집', desc: '인사·게임 용어' },
     { href: 'cards.html', label: '🃏 카드 검색', desc: '메타 덱·세트 카드 (한국어)' },
+    { href: 'guide.html', label: '📋 대회 안내', desc: 'PJCS 2026 참가 주의사항' },
     { href: 'https://pokecabook.com/', label: '📊 포케카북', desc: '환경·티어·덱레시피 (외부)', external: true },
     { href: 'https://pokeka-win-decks.jp/', label: '🏆 윈덱스', desc: '티어표·우승덱 분석 (외부)', external: true },
     { href: 'https://pokekameshi.com/', label: '🍚 포케카메시', desc: '덱·카드리스트 (외부)', external: true },
