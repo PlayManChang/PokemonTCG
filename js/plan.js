@@ -202,6 +202,12 @@
     data.airport.forEach((a) => {
       ap.appendChild(el('h3', 'plan-mapcat', a.title));
       ap.appendChild(el('p', 'plan-airport-body', a.body));
+      if (a.link) {
+        const lk = el('a', 'plan-link-btn');
+        lk.href = a.link.url; lk.target = '_blank'; lk.rel = 'noopener';
+        lk.textContent = '🔗 ' + a.link.label;
+        ap.appendChild(lk);
+      }
     });
     root.appendChild(ap);
 
