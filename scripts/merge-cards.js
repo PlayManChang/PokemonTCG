@@ -27,6 +27,18 @@ const DECKS = [
   { id: 'mega-livolt',  name_ko: '메가 라이볼트 ex',  name_ja: 'メガライボルトex',   tier: 4, file: 'mega-livolt.json',  note: '최근 짐배틀 우승' },
   { id: 'dodekabashi',  name_ko: '도데카바시',        name_ja: 'ドデカバシ',         tier: 4, file: 'dodekabashi.json',  note: '최근 짐배틀 우승' },
   { id: 'mega-chandelure', name_ko: '메가 샹델라 ex', name_ja: 'メガシャンデラex',   tier: 4, file: 'mega-chandelure.json', note: '최근 짐배틀 우승' },
+  // tier 4 = 최근 짐배틀 우승덱 추가분 (2026-05 pokekameshi / pokecabook)
+  { id: 'wailord',         name_ko: '고래왕',           name_ja: 'ホエルオーex',        tier: 4, file: 'wailord.json',         note: '쥬레곤 컨트롤' },
+  { id: 'yadoking',        name_ko: '야도킹',           name_ja: 'ヤドキング',          tier: 4, file: 'yadoking.json',        note: '기술 카피' },
+  { id: 'riguree-control', name_ko: '리그레 컨트롤',     name_ja: 'リグレーコントロール', tier: 4, file: 'riguree-control.json', note: '컨트롤' },
+  { id: 'mega-garura',     name_ko: '메가 캥카 ex',      name_ja: 'メガガルーラex',       tier: 4, file: 'mega-garura.json',     note: '' },
+  { id: 'mega-absol',      name_ko: '메가 앱솔 ex',      name_ja: 'メガアブソルex',       tier: 4, file: 'mega-absol.json',      note: '' },
+  { id: 'olive',           name_ko: '올리르바 ex',       name_ja: 'オリーヴァex',         tier: 4, file: 'olive.json',           note: '' },
+  { id: 'iineinu',         name_ko: '이이네이누',        name_ja: 'イイネイヌ',          tier: 4, file: 'iineinu.json',         note: '' },
+  { id: 'mega-starmie',    name_ko: '메가 아쿠스타 ex',   name_ja: 'メガスターミーex',     tier: 4, file: 'mega-starmie.json',    note: '' },
+  { id: 'daigo-metagross', name_ko: '다이고의 메타그로스 ex', name_ja: 'ダイゴのメタグロスex', tier: 4, file: 'daigo-metagross.json', note: '' },
+  { id: 'sazandora',       name_ko: '삼삼드래 ex',       name_ja: 'サザンドラex',         tier: 4, file: 'sazandora.json',       note: '' },
+  { id: 'ogerpon-bullet',  name_ko: '오거폰 불릿',       name_ja: 'オーガポンバレット',   tier: 4, file: 'ogerpon-bullet.json',  note: '' },
 ];
 
 const BASIC_ENERGY = {

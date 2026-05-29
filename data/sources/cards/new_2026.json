@@ -1,0 +1,557 @@
+[
+  {
+    "id": 48897, "category": "pokemon", "subtype_ko": "1단계 포켓몬", "name_ja": "ホエルオー", "name_ko": "고래왕", "hp": 240, "type_ko": "물", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "무색무색무색무색", "name_ja": "ハイドロポンプ", "name_ko": "하이드로 펌프", "damage": "10＋", "text_ja": "このポケモンについているエネルギーの数×50ダメージ追加。", "text_ko": "이 포켓몬에 붙어 있는 에너지의 수×50 데미지 추가." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48897"
+  },
+  {
+    "id": 49651, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "パウワウ", "name_ko": "쥬쥬", "hp": 80, "type_ko": "물", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "물", "name_ja": "みずかけ", "name_ko": "물 끼얹기", "damage": "10", "text_ja": "", "text_ko": "" },
+      { "cost_ko": "물물", "name_ja": "スプラッシュ", "name_ko": "물보라", "damage": "30", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "M3", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49651"
+  },
+  {
+    "id": 49652, "category": "pokemon", "subtype_ko": "1단계 포켓몬", "name_ja": "ジュゴン", "name_ko": "쥬레곤", "hp": 130, "type_ko": "물", "regulation": "",
+    "abilities": [
+      { "name_ja": "おしながす", "name_ko": "떠내려보내기", "text_ja": "自分の番に何回でも使える。自分のベンチポケモンについているエネルギーを1個選び、バトルポケモンにつけ替える。", "text_ko": "자신의 차례에 몇 번이든 쓸 수 있다. 자신의 벤치 포켓몬에 붙어 있는 에너지를 1개 골라, 배틀 포켓몬에게 옮겨 붙인다." }
+    ],
+    "attacks": [
+      { "cost_ko": "물물", "name_ja": "スプラッシュ", "name_ko": "물보라", "damage": "60", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "M3", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49652"
+  },
+  {
+    "id": 49380, "category": "trainer", "subtype_ko": "굿즈 (ACE SPEC)", "name_ja": "ポケモン回収サイクロン", "name_ko": "포켓몬 회수 사이클론", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "自分の場のポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。グッズは、自分の番に何枚でも使える。（ACE SPECのカードは、デッキに1枚しか入れられない。）",
+    "text_ko": "자신의 필드의 포켓몬을 1마리 골라, 그 포켓몬과 붙어 있는 모든 카드를 패로 되돌린다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다. (ACE SPEC 카드는 덱에 1장만 넣을 수 있다.)",
+    "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49380"
+  },
+  {
+    "id": 45283, "category": "trainer", "subtype_ko": "포켓몬의 도구", "name_ja": "ヘビーバトン", "name_ko": "헤비 바톤", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "このカードをつけているにげるためのエネルギーが4個のポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、そのポケモンについている基本エネルギーを3枚まで選び、自分のベンチポケモンに好きなようにつけ替える。ポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。",
+    "text_ko": "이 카드를 붙인, 도주에 필요한 에너지가 4개인 포켓몬이 배틀 필드에서 상대 포켓몬의 기술 데미지를 받아 기절했을 때, 그 포켓몬에 붙어 있는 기본 에너지를 3장까지 골라, 자신의 벤치 포켓몬에게 원하는 대로 옮겨 붙인다. 포켓몬의 도구는, 자신의 차례에 몇 장이든 자신의 포켓몬에게 붙일 수 있다.",
+    "set": "SV5M", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45283"
+  },
+  {
+    "id": 49436, "category": "trainer", "subtype_ko": "서포트", "name_ja": "ハイダイ", "name_ko": "하이다이", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "自分の手札を2枚選び、好きな順番に入れ替えて、山札の下にもどす。その後、山札を4枚引く。（自分の手札を2枚もどせないなら、このカードは使えない。）サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 패를 2장 골라, 원하는 순서로 바꿔 덱 맨 아래로 되돌린다. 그 후, 덱에서 4장을 뽑는다. (자신의 패를 2장 되돌릴 수 없다면 이 카드는 사용할 수 없다.) 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49436"
+  },
+  {
+    "id": 50166, "category": "energy", "subtype_ko": "특수 에너지", "name_ja": "バブル水エネルギー", "name_ko": "버블 물 에너지", "hp": null, "type_ko": "물", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンは、特殊状態にならず、受けている特殊状態は、すべて回復する。",
+    "text_ko": "이 카드는, 포켓몬에 붙어 있는 한 물 에너지 1개로 작용한다. 이 카드를 붙인 포켓몬은 특수 상태가 되지 않으며, 받고 있는 특수 상태는 모두 회복된다.",
+    "set": "M4", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50166"
+  },
+  {
+    "id": 45978, "category": "pokemon", "subtype_ko": "1단계 포켓몬", "name_ja": "ヤドキング", "name_ko": "야도킹", "hp": 120, "type_ko": "초", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "초무색", "name_ja": "ひらめきチャレンジ", "name_ko": "번뜩임 챌린지", "damage": "", "text_ja": "自分の山札を上から1枚トラッシュし、そのカードがポケモン（「ルールを持つポケモン」をのぞく）なら、そのポケモンが持っているワザを1つ選び、このワザとして使う。", "text_ko": "자신의 덱 위에서 1장을 트래시하고, 그 카드가 포켓몬('규칙을 가진 포켓몬' 제외)이라면, 그 포켓몬이 가진 기술을 1개 골라 이 기술로 사용한다." },
+      { "cost_ko": "초초무색", "name_ja": "ちょうねんりき", "name_ko": "초념력", "damage": "120", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV7", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45978"
+  },
+  {
+    "id": 45922, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "キュレム", "name_ko": "큐레무", "hp": 130, "type_ko": "드래곤", "regulation": "",
+    "abilities": [
+      { "name_ja": "アンチプラズマ", "name_ko": "안티 플라즈마", "text_ja": "相手のトラッシュに、名前に「アクロマ」とつくカードがあるなら、このポケモンが「トライフロスト」を使うためのエネルギーは、エネルギー1個になる。", "text_ko": "상대의 트래시에 이름에 '아크로마'가 붙은 카드가 있다면, 이 포켓몬이 '트라이 프로스트'를 사용하기 위한 에너지는 에너지 1개가 된다." }
+    ],
+    "attacks": [
+      { "cost_ko": "물물강철강철무색", "name_ja": "トライフロスト", "name_ko": "트라이 프로스트", "damage": "", "text_ja": "このポケモンについているエネルギーをすべてトラッシュし、相手のポケモン3匹に、それぞれ110ダメージ。［ベンチは弱点・抵抗力を計算しない。］", "text_ko": "이 포켓몬에 붙어 있는 에너지를 모두 트래시하고, 상대 포켓몬 3마리에게 각각 110 데미지. [벤치는 약점·저항력을 계산하지 않는다.]" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV6a", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45922"
+  },
+  {
+    "id": 46247, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "ムチュール", "name_ko": "뽀뽀라", "hp": 30, "type_ko": "초", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "무색", "name_ja": "るんるんキッス", "name_ko": "룰루랄라 키스", "damage": "", "text_ja": "自分の山札から「基本エネルギー」を2枚まで選び、ベンチポケモン1匹につける。そして山札を切る。", "text_ko": "자신의 덱에서 '기본 에너지'를 2장까지 골라, 벤치 포켓몬 1마리에게 붙인다. 그리고 덱을 섞는다." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV7a", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46247"
+  },
+  {
+    "id": 50009, "category": "trainer", "subtype_ko": "서포트", "name_ja": "サーファー", "name_ko": "서퍼", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "自分のバトルポケモンをベンチポケモンと入れ替える。その後、自分の手札が5枚になるように、山札を引く。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. 그 후, 자신의 패가 5장이 되도록 덱을 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "M2a", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50009"
+  },
+  {
+    "id": 45939, "category": "trainer", "subtype_ko": "스타디움", "name_ja": "夜のアカデミー", "name_ko": "밤의 아카데미", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の手札を1枚選び、山札の上にもどしてよい。スタジアムは、自分の番に1枚、バトル場の横に出せる。",
+    "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 패를 1장 골라 덱 위로 되돌려도 된다. 스타디움은, 자신의 차례에 1장, 배틀 필드 옆에 낼 수 있다.",
+    "set": "SV6a", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45939"
+  },
+  {
+    "id": 25288, "category": "energy", "subtype_ko": "기본 에너지", "name_ja": "基本超エネルギー", "name_ko": "기본 초 에너지", "hp": null, "type_ko": "초", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "", "text_ko": "초 타입 기본 에너지.", "set": "LP", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/25288"
+  },
+  {
+    "id": 49454, "category": "energy", "subtype_ko": "특수 에너지", "name_ja": "ブーメランエネルギー", "name_ko": "부메랑 에너지", "hp": null, "type_ko": "무색", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンが使うワザの効果で、このカードがトラッシュされたなら、ワザのダメージや効果のあとに、もとのポケモンにつけなおす。",
+    "text_ko": "이 카드는, 포켓몬에 붙어 있는 한 무색 에너지 1개로 작용한다. 이 카드를 붙인 포켓몬이 사용하는 기술의 효과로 이 카드가 트래시되었다면, 기술의 데미지나 효과 후에 원래 포켓몬에게 다시 붙인다.",
+    "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49454"
+  },
+  {
+    "id": 47579, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "リグレー", "name_ko": "리그레", "hp": 60, "type_ko": "초", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "초", "name_ja": "ちょっとずらす", "name_ko": "살짝 옮기기", "damage": "", "text_ja": "相手の場のポケモンについているエネルギーを1個選び、相手の別のポケモンにつけ替える。", "text_ko": "상대 필드의 포켓몬에 붙어 있는 에너지를 1개 골라, 상대의 다른 포켓몬에게 옮겨 붙인다." },
+      { "cost_ko": "무색무색무색", "name_ja": "ビーム", "name_ko": "빔", "damage": "40", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV11B", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47579"
+  },
+  {
+    "id": 47336, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "ヒビキのウソッキー", "name_ko": "히비키의 꼬지모", "hp": 110, "type_ko": "격투", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "격투", "name_ja": "かこいこむ", "name_ko": "가두기", "damage": "20", "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。", "text_ko": "다음 상대 차례에, 이 기술을 받은 포켓몬은 도망칠 수 없다." },
+      { "cost_ko": "무색무색", "name_ja": "まねてみる", "name_ko": "흉내내기", "damage": "", "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンが持つワザを1つ選び、このワザとして使う。", "text_ko": "코인을 1번 던져 앞면이면, 상대의 배틀 포켓몬이 가진 기술을 1개 골라 이 기술로 사용한다." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV9a", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47336"
+  },
+  {
+    "id": 45981, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "キュワワー", "name_ko": "큐아링", "hp": 70, "type_ko": "초", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "초", "name_ja": "フラワーシャワー", "name_ko": "플라워 샤워", "damage": "", "text_ja": "おたがいのプレイヤーは、それぞれ山札を3枚引く。", "text_ko": "서로의 플레이어는 각각 덱에서 3장을 뽑는다." },
+      { "cost_ko": "초", "name_ja": "じゃれつく", "name_ko": "어리광부리기", "damage": "20＋", "text_ja": "コインを1回投げオモテなら、20ダメージ追加。", "text_ko": "코인을 1번 던져 앞면이면, 20 데미지 추가." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV7", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45981"
+  },
+  {
+    "id": 47098, "category": "trainer", "subtype_ko": "굿즈", "name_ja": "とりかえチケット", "name_ko": "교환 티켓", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "自分のサイドを数えたあと、すべてウラにして切り、山札の下にもどす。その後、もどした枚数ぶん、山札を上からサイドとして置く。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 사이드를 센 후, 모두 뒷면으로 하여 섞어 덱 맨 아래로 되돌린다. 그 후, 되돌린 매수만큼 덱 위에서 사이드로 놓는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "SV9", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47098"
+  },
+  {
+    "id": 45783, "category": "trainer", "subtype_ko": "굿즈 (ACE SPEC)", "name_ja": "シークレットボックス", "name_ko": "시크릿 박스", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "このカードは、自分の手札を3枚トラッシュしなければ使えない。自分の山札から「グッズ」「ポケモンのどうぐ」「サポート」「スタジアム」を1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。（ACE SPECのカードは、デッキに1枚しか入れられない。）",
+    "text_ko": "이 카드는, 자신의 패를 3장 트래시하지 않으면 사용할 수 없다. 자신의 덱에서 '굿즈' '포켓몬의 도구' '서포트' '스타디움'을 1장씩 골라, 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. (ACE SPEC 카드는 덱에 1장만 넣을 수 있다.)",
+    "set": "SV6", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45783"
+  },
+  {
+    "id": 45786, "category": "trainer", "subtype_ko": "포켓몬의 도구", "name_ja": "ハンディサーキュレーター", "name_ko": "핸디 서큘레이터", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "このカードをつけているポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンについているエネルギーを1個選び、相手のベンチポケモンにつけ替える。ポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。",
+    "text_ko": "이 카드를 붙인 포켓몬이 배틀 필드에서 상대 포켓몬의 기술 데미지를 받았을 때, 기술을 사용한 포켓몬에 붙어 있는 에너지를 1개 골라, 상대의 벤치 포켓몬에게 옮겨 붙인다. 포켓몬의 도구는, 자신의 차례에 몇 장이든 자신의 포켓몬에게 붙일 수 있다.",
+    "set": "SV6", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45786"
+  },
+  {
+    "id": 50167, "category": "energy", "subtype_ko": "특수 에너지", "name_ja": "マグネット鋼エネルギー", "name_ko": "마그넷 강철 에너지", "hp": null, "type_ko": "강철", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンは、にげるためのエネルギーが、すべてなくなる。",
+    "text_ko": "이 카드는, 포켓몬에 붙어 있는 한 강철 에너지 1개로 작용한다. 이 카드를 붙인 포켓몬은 도주에 필요한 에너지가 모두 없어진다.",
+    "set": "M4", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50167"
+  },
+  {
+    "id": 46020, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "バッフロン", "name_ko": "버프론", "hp": 100, "type_ko": "무색", "regulation": "",
+    "abilities": [
+      { "name_ja": "カーリーウォール", "name_ko": "컬리 월", "text_ja": "このポケモンと、自分の別の「バッフロン」がいるかぎり、自分の無色タイプのたねポケモン全員が、相手のポケモンから受けるワザのダメージは「-60」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。", "text_ko": "이 포켓몬과 자신의 다른 '버프론'이 있는 한, 자신의 무색 타입 기본 포켓몬 전원이 상대 포켓몬에게서 받는 기술 데미지가 '-60'된다. 이 효과는 이 특성을 가진 포켓몬이 몇 마리 있어도 중복되지 않는다." }
+    ],
+    "attacks": [
+      { "cost_ko": "무색무색무색", "name_ja": "そこぢから", "name_ko": "저력", "damage": "130", "text_ja": "次の自分の番、このポケモンはワザが使えない。", "text_ko": "다음 자신의 차례에, 이 포켓몬은 기술을 사용할 수 없다." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV7", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46020"
+  },
+  {
+    "id": 48809, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "パルデアケンタロス", "name_ko": "팔데아 켄타로스", "hp": 130, "type_ko": "불꽃", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "불꽃", "name_ja": "うしろげり", "name_ko": "뒷발차기", "damage": "30", "text_ja": "", "text_ko": "" },
+      { "cost_ko": "불꽃무색무색", "name_ja": "きあいタックル", "name_ko": "기합 태클", "damage": "90＋", "text_ja": "相手のバトルポケモンが1進化ポケモンなら、90ダメージ追加。", "text_ko": "상대의 배틀 포켓몬이 1단계 진화 포켓몬이라면, 90 데미지 추가." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48809"
+  },
+  {
+    "id": 49710, "category": "trainer", "subtype_ko": "스타디움", "name_ja": "ミアレシティ", "name_ko": "미아레 시티", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札からたねポケモンを1枚選び、ベンチに出してよい。そして山札を切る。この効果を使ったなら、自分の番は終わる。スタジアムは、自分の番に1枚、バトル場の横に出せる。",
+    "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 덱에서 기본 포켓몬을 1장 골라 벤치에 내보내도 된다. 그리고 덱을 섞는다. 이 효과를 사용했다면 자신의 차례는 끝난다. 스타디움은, 자신의 차례에 1장, 배틀 필드 옆에 낼 수 있다.",
+    "set": "M3", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49710"
+  },
+  {
+    "id": 45288, "category": "energy", "subtype_ko": "특수 에너지", "name_ja": "ミストエネルギー", "name_ko": "미스트 에너지", "hp": null, "type_ko": "무색", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンは、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）",
+    "text_ko": "이 카드는, 포켓몬에 붙어 있는 한 무색 에너지 1개로 작용한다. 이 카드를 붙인 포켓몬은 상대 포켓몬이 사용하는 기술의 효과를 받지 않는다. (이미 받고 있는 효과는 없어지지 않는다.)",
+    "set": "SV5M", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45288"
+  },
+  {
+    "id": 47750, "category": "pokemon", "subtype_ko": "2단계 포켓몬", "name_ja": "エースバーン", "name_ko": "에이스번", "hp": 160, "type_ko": "불꽃", "regulation": "",
+    "abilities": [
+      { "name_ja": "しゅんぱつりょく", "name_ko": "순발력", "text_ja": "対戦準備でポケモンをバトル場に出すとき、このカードが手札にあるなら、ウラにしてバトル場に出してよい。", "text_ko": "대전 준비에서 포켓몬을 배틀 필드에 낼 때, 이 카드가 패에 있다면 뒷면으로 배틀 필드에 내도 된다." }
+    ],
+    "attacks": [
+      { "cost_ko": "무색", "name_ja": "フレアターボ", "name_ko": "플레어 터보", "damage": "50", "text_ja": "自分の山札から基本エネルギーを3枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。", "text_ko": "자신의 덱에서 기본 에너지를 3장까지 골라, 벤치 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "M1L", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47750"
+  },
+  {
+    "id": 47771, "category": "pokemon", "subtype_ko": "메가진화 ex", "name_ja": "メガアブソルex", "name_ko": "메가 앱솔 ex", "hp": 280, "type_ko": "악", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "악무색", "name_ja": "デスピリオド", "name_ko": "데스 피리어드", "damage": "", "text_ja": "相手のバトルポケモンにのっているダメカンが6個なら、そのポケモンをきぜつさせる。", "text_ko": "상대의 배틀 포켓몬에 올려진 데미지 카운터가 6개라면, 그 포켓몬을 기절시킨다." },
+      { "cost_ko": "악악무색", "name_ja": "あくのかぎづめ", "name_ko": "악의 갈고리발톱", "damage": "200", "text_ja": "相手の手札を見て、その中からカードを1枚選び、トラッシュする。", "text_ko": "상대의 패를 보고, 그 중에서 카드를 1장 골라 트래시한다." }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。", "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.", "set": "M1L", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47771"
+  },
+  {
+    "id": 49318, "category": "pokemon", "subtype_ko": "메가진화 ex", "name_ja": "メガタブンネex", "name_ko": "메가 다부니 ex", "hp": 270, "type_ko": "무색", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "무색", "name_ja": "カレイドワルツ", "name_ko": "칼레이도 왈츠", "damage": "", "text_ja": "コインを3回投げ、オモテの数×2枚ぶんまで、自分の山札から基本エネルギーを選び、自分のポケモンに好きなようにつける。そして山札を切る。", "text_ko": "코인을 3번 던져, 앞면의 수×2장만큼, 자신의 덱에서 기본 에너지를 골라 자신의 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다." },
+      { "cost_ko": "무색무색무색", "name_ja": "イヤーフォース", "name_ko": "이어 포스", "damage": "20＋", "text_ja": "相手のバトルポケモンについているエネルギーの数×80ダメージ追加。", "text_ko": "상대의 배틀 포켓몬에 붙어 있는 에너지의 수×80 데미지 추가." }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。", "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.", "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49318"
+  },
+  {
+    "id": 49144, "category": "pokemon", "subtype_ko": "기본 포켓몬 ex", "name_ja": "オーガポン いしずえのめんex", "name_ko": "오거폰 초석의 가면 ex", "hp": 210, "type_ko": "격투", "regulation": "",
+    "abilities": [
+      { "name_ja": "いしずえのかまえ", "name_ko": "초석의 자세", "text_ja": "このポケモンは、相手の特性を持つポケモンからワザのダメージを受けない。", "text_ko": "이 포켓몬은 상대의 특성을 가진 포켓몬에게서 기술 데미지를 받지 않는다." }
+    ],
+    "attacks": [
+      { "cost_ko": "격투무색무색", "name_ja": "ぶちやぶる", "name_ko": "부수기", "damage": "140", "text_ja": "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。", "text_ko": "이 기술의 데미지는 약점·저항력과, 상대의 배틀 포켓몬에 걸려 있는 효과를 계산하지 않는다." }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。", "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.", "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49144"
+  },
+  {
+    "id": 48680, "category": "trainer", "subtype_ko": "굿즈", "name_ja": "メガシグナル", "name_ko": "메가 시그널", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "自分の山札から「メガシンカex」を1枚選び、相手に見せて、手札に加える。そして山札を切る。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 덱에서 '메가진화 ex'를 1장 골라, 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "M2a", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48680"
+  },
+  {
+    "id": 49355, "category": "trainer", "subtype_ko": "굿즈", "name_ja": "エネルギー転送", "name_ko": "에너지 전송", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "自分の山札から基本エネルギーを1枚選び、相手に見せて、手札に加える。そして山札を切る。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 덱에서 기본 에너지를 1장 골라, 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49355"
+  },
+  {
+    "id": 47705, "category": "trainer", "subtype_ko": "서포트", "name_ja": "クラウン", "name_ko": "크라운", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、自分はコインを1回投げ、オモテなら自分は5枚、相手は3枚、山札を引く。ウラなら自分は3枚、相手は5枚、山札を引く。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "서로의 플레이어는 각각 패를 모두 덱으로 되돌려 섞는다. 그 후, 자신은 코인을 1번 던져 앞면이면 자신은 5장, 상대는 3장 덱을 뽑는다. 뒷면이면 자신은 3장, 상대는 5장 덱을 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "SV11W", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47705"
+  },
+  {
+    "id": 49423, "category": "trainer", "subtype_ko": "서포트", "name_ja": "ゴヨウ", "name_ko": "고요", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、おたがいのプレイヤーは、それぞれコインを1回投げ、オモテなら6枚、ウラなら3枚、山札を引く。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "서로의 플레이어는 각각 자신의 패를 모두 뒷면으로 하여 섞어 덱 맨 아래로 되돌린다. 그 후, 서로의 플레이어는 각각 코인을 1번 던져 앞면이면 6장, 뒷면이면 3장 덱을 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49423"
+  },
+  {
+    "id": 46445, "category": "trainer", "subtype_ko": "스타디움", "name_ja": "エキサイトスタジアム", "name_ko": "익사이트 스타디움", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "おたがいの場のたねポケモン全員の最大HPは、それぞれ「＋30」される。スタジアムは、自分の番に1枚、バトル場の横に出せる。",
+    "text_ko": "서로의 필드의 기본 포켓몬 전원의 최대 HP가 각각 '+30'된다. 스타디움은, 자신의 차례에 1장, 배틀 필드 옆에 낼 수 있다.",
+    "set": "SV8", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46445"
+  },
+  {
+    "id": 47403, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "ミニーブ", "name_ko": "미니브", "hp": 60, "type_ko": "풀", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "무색", "name_ja": "ぶつかる", "name_ko": "부딪치기", "damage": "10", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV10", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47403"
+  },
+  {
+    "id": 48786, "category": "pokemon", "subtype_ko": "1단계 포켓몬", "name_ja": "オリーニョ", "name_ko": "올리뇨", "hp": 90, "type_ko": "풀", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "풀", "name_ja": "えいようそ", "name_ko": "영양소", "damage": "", "text_ja": "自分のポケモン1匹のHPを「40」回復する。", "text_ko": "자신의 포켓몬 1마리의 HP를 '40' 회복한다." },
+      { "cost_ko": "무색무색", "name_ja": "たいあたり", "name_ko": "몸통박치기", "damage": "40", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48786"
+  },
+  {
+    "id": 49477, "category": "pokemon", "subtype_ko": "2단계 포켓몬 ex", "name_ja": "オリーヴァex", "name_ko": "올리르바 ex", "hp": 310, "type_ko": "풀", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "풀", "name_ja": "オイルマシンガン", "name_ko": "오일 머신건", "damage": "", "text_ja": "相手のポケモンを6回選び、選んだポケモン全員に、弱点・抵抗力を計算せず、選んだ回数×20ダメージ。（1匹を2回以上選べる。）", "text_ko": "상대 포켓몬을 6번 골라, 고른 포켓몬 전원에게 약점·저항력을 계산하지 않고, 고른 횟수×20 데미지. (1마리를 2번 이상 고를 수 있다.)" },
+      { "cost_ko": "무색무색무색", "name_ja": "アロマシュート", "name_ko": "아로마 슛", "damage": "160", "text_ja": "このポケモンの特殊状態を、すべて回復する。", "text_ko": "이 포켓몬의 특수 상태를 모두 회복한다." }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。", "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.", "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49477"
+  },
+  {
+    "id": 49142, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "イイネイヌ", "name_ko": "이이네이누", "hp": 130, "type_ko": "격투", "regulation": "",
+    "abilities": [
+      { "name_ja": "アドレナパワー", "name_ko": "아드레나 파워", "text_ja": "このポケモンにエネルギーがついているなら、このポケモンの最大HPは「＋100」され、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+100」される。", "text_ko": "이 포켓몬에 에너지가 붙어 있다면, 이 포켓몬의 최대 HP가 '+100'되고, 이 포켓몬이 사용하는 기술의 상대 배틀 포켓몬에 대한 데미지가 '+100'된다." }
+    ],
+    "attacks": [
+      { "cost_ko": "격투격투", "name_ja": "グッドパンチ", "name_ko": "굿 펀치", "damage": "70", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49142"
+  },
+  {
+    "id": 49674, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "カメテテ", "name_ko": "거북손손", "hp": 80, "type_ko": "격투", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "격투", "name_ja": "ダブルドロー", "name_ko": "더블 드로우", "damage": "", "text_ja": "自分の山札を2枚引く。", "text_ko": "자신의 덱에서 2장을 뽑는다." },
+      { "cost_ko": "격투격투", "name_ja": "ひっかく", "name_ko": "할퀴기", "damage": "30", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "M3", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49674"
+  },
+  {
+    "id": 49675, "category": "pokemon", "subtype_ko": "1단계 포켓몬", "name_ja": "ガメノデス", "name_ko": "거북손데스", "hp": 130, "type_ko": "격투", "regulation": "",
+    "abilities": [
+      { "name_ja": "ストーンアームズ", "name_ko": "스톤 암즈", "text_ja": "自分の番に1回使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。", "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 패에서 '기본 에너지'를 1장 골라, 자신의 포켓몬에게 붙인다." }
+    ],
+    "attacks": [
+      { "cost_ko": "격투격투무색", "name_ja": "ぶちかます", "name_ko": "들이받기", "damage": "80", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "M3", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49675"
+  },
+  {
+    "id": 45773, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "シャリタツ", "name_ko": "싸리용", "hp": 70, "type_ko": "드래곤", "regulation": "",
+    "abilities": [
+      { "name_ja": "きゃくよせ", "name_ko": "손님 끌기", "text_ja": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を上から6枚見て、その中からサポートを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。", "text_ko": "이 포켓몬이 배틀 필드에 있다면, 자신의 차례에 1번 쓸 수 있다. 자신의 덱 위에서 6장을 보고, 그 중에서 서포트를 1장 골라, 상대에게 보여주고 패에 넣는다. 남은 카드는 덱으로 되돌려 섞는다." }
+    ],
+    "attacks": [
+      { "cost_ko": "불꽃물", "name_ja": "なみのり", "name_ko": "파도타기", "damage": "50", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV6", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45773"
+  },
+  {
+    "id": 49443, "category": "trainer", "subtype_ko": "서포트", "name_ja": "マツバの確信", "name_ko": "마츠바의 확신", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "このカードは、自分の手札を1枚トラッシュしなければ使えない。相手のベンチポケモンの数ぶん、自分の山札を引く。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "이 카드는, 자신의 패를 1장 트래시하지 않으면 사용할 수 없다. 상대의 벤치 포켓몬 수만큼 자신의 덱을 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49443"
+  },
+  {
+    "id": 49706, "category": "trainer", "subtype_ko": "서포트", "name_ja": "タラゴン", "name_ko": "타라곤", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "自分のトラッシュからポケモンと「基本エネルギー」を合計4枚まで選び、相手に見せて、手札に加える。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 트래시에서 포켓몬과 '기본 에너지'를 합계 4장까지 골라, 상대에게 보여주고 패에 넣는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "M3", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49706"
+  },
+  {
+    "id": 49653, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "ヒトデマン", "name_ko": "별가사리", "hp": 70, "type_ko": "물", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "물", "name_ja": "みずでっぽう", "name_ko": "물대포", "damage": "20", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "M3", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49653"
+  },
+  {
+    "id": 49654, "category": "pokemon", "subtype_ko": "메가진화 ex", "name_ja": "メガスターミーex", "name_ko": "메가 아쿠스타 ex", "hp": 330, "type_ko": "물", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "물", "name_ja": "ジェットブロー", "name_ko": "제트 블로", "damage": "120", "text_ja": "相手のベンチポケモン1匹にも、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］", "text_ko": "상대의 벤치 포켓몬 1마리에게도 50 데미지. [벤치는 약점·저항력을 계산하지 않는다.]" },
+      { "cost_ko": "무색무색무색", "name_ja": "ネビュラビーム", "name_ko": "네뷸라 빔", "damage": "210", "text_ja": "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。", "text_ko": "이 기술의 데미지는 약점·저항력과, 상대의 배틀 포켓몬에 걸려 있는 효과를 계산하지 않는다." }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。", "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.", "set": "M3", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49654"
+  },
+  {
+    "id": 48557, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "ユキワラシ", "name_ko": "눈꼬마", "hp": 70, "type_ko": "물", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "물", "name_ja": "ひんやり", "name_ko": "오싹오싹", "damage": "10", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "M2a", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48557"
+  },
+  {
+    "id": 45724, "category": "pokemon", "subtype_ko": "1단계 포켓몬", "name_ja": "ユキメノコ", "name_ko": "눈여아", "hp": 90, "type_ko": "물", "regulation": "",
+    "abilities": [
+      { "name_ja": "いてつくとばり", "name_ko": "얼어붙는 장막", "text_ja": "このポケモンがいるかぎり、ポケモンチェックのたび、おたがいの特性を持つポケモン（「ユキメノコ」をのぞく）全員に、それぞれダメカンを1個のせる。", "text_ko": "이 포켓몬이 있는 한, 포켓몬 체크마다 서로의 특성을 가진 포켓몬('눈여아' 제외) 전원에게 각각 데미지 카운터를 1개 올린다." }
+    ],
+    "attacks": [
+      { "cost_ko": "물무색", "name_ja": "フロストスマッシュ", "name_ko": "프로스트 스매시", "damage": "60", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV6", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45724"
+  },
+  {
+    "id": 48558, "category": "pokemon", "subtype_ko": "메가진화 ex", "name_ja": "メガユキメノコex", "name_ko": "메가 눈여아 ex", "hp": 310, "type_ko": "물", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "물", "name_ja": "うらみぶし", "name_ko": "원한", "damage": "50×", "text_ja": "相手の手札の枚数×50ダメージ。", "text_ko": "상대의 패 매수×50 데미지." },
+      { "cost_ko": "물무색무색", "name_ja": "アブソリュートスノー", "name_ko": "앱솔루트 스노", "damage": "150", "text_ja": "相手のバトルポケモンをねむりにする。", "text_ko": "상대의 배틀 포켓몬을 잠듦 상태로 만든다." }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。", "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.", "set": "M2a", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48558"
+  },
+  {
+    "id": 47276, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "ダイゴのダンバル", "name_ko": "다이고의 메탕", "hp": 70, "type_ko": "강철", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "강철무색", "name_ja": "ぶつかる", "name_ko": "부딪치기", "damage": "30", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SVOD", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47276"
+  },
+  {
+    "id": 47277, "category": "pokemon", "subtype_ko": "1단계 포켓몬", "name_ja": "ダイゴのメタング", "name_ko": "다이고의 메탕구", "hp": 100, "type_ko": "강철", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "강철무색", "name_ja": "メタルスラッシュ", "name_ko": "메탈 슬래시", "damage": "70", "text_ja": "次の自分の番、このポケモンはワザが使えない。", "text_ko": "다음 자신의 차례에, 이 포켓몬은 기술을 사용할 수 없다." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SVOD", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47277"
+  },
+  {
+    "id": 47278, "category": "pokemon", "subtype_ko": "2단계 포켓몬 ex", "name_ja": "ダイゴのメタグロスex", "name_ko": "다이고의 메타그로스 ex", "hp": 340, "type_ko": "강철", "regulation": "",
+    "abilities": [
+      { "name_ja": "エクスブート", "name_ko": "엑스 부트", "text_ja": "自分の番に1回使える。自分の山札から「基本エネルギー」をそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。", "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 덱에서 '기본 에너지'를 종류별로 1장까지 골라, 자신의 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다." }
+    ],
+    "attacks": [
+      { "cost_ko": "강철무색무색", "name_ja": "メタルスタンプ", "name_ko": "메탈 스탬프", "damage": "200", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。", "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.", "set": "SVOD", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47278"
+  },
+  {
+    "id": 47779, "category": "pokemon", "subtype_ko": "메가진화 ex", "name_ja": "メガクチートex", "name_ko": "메가 입치트 ex", "hp": 270, "type_ko": "강철", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "강철강철", "name_ja": "がっつく", "name_ko": "탐식", "damage": "80×", "text_ja": "自分がすでにとったサイドの枚数×80ダメージ。", "text_ko": "자신이 이미 가져간 사이드 매수×80 데미지." },
+      { "cost_ko": "강철강철무색", "name_ja": "ビッグバイト", "name_ko": "빅 바이트", "damage": "260", "text_ja": "相手のバトルポケモンにダメカンがのっているなら、このワザのダメージは「30」になる。", "text_ko": "상대의 배틀 포켓몬에 데미지 카운터가 올려져 있다면, 이 기술의 데미지는 '30'이 된다." }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。", "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.", "set": "M1L", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47779"
+  },
+  {
+    "id": 49687, "category": "pokemon", "subtype_ko": "메가진화 ex", "name_ja": "メガエアームドex", "name_ko": "메가 무장조 ex", "hp": 260, "type_ko": "강철", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "강철강철무색", "name_ja": "ソニックリッパー", "name_ko": "소닉 리퍼", "damage": "", "text_ja": "このポケモンについているエネルギーをすべて山札にもどして切り、相手のポケモン1匹に、220ダメージ。［ベンチは弱点・抵抗力を計算しない。］", "text_ko": "이 포켓몬에 붙어 있는 에너지를 모두 덱으로 되돌려 섞고, 상대 포켓몬 1마리에게 220 데미지. [벤치는 약점·저항력을 계산하지 않는다.]" }
+    ],
+    "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。", "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.", "set": "M3", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49687"
+  },
+  {
+    "id": 47780, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "ディアルガ", "name_ko": "디아루가", "hp": 140, "type_ko": "강철", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "강철", "name_ja": "ビーム", "name_ko": "빔", "damage": "30", "text_ja": "", "text_ko": "" },
+      { "cost_ko": "강철강철무색", "name_ja": "クロノバースト", "name_ko": "크로노 버스트", "damage": "80＋", "text_ja": "のぞむなら、このポケモンについているエネルギーをすべて山札にもどして切り、80ダメージ追加。", "text_ko": "원한다면, 이 포켓몬에 붙어 있는 에너지를 모두 덱으로 되돌려 섞고, 80 데미지 추가." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "M1L", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47780"
+  },
+  {
+    "id": 46410, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "モノズ", "name_ko": "모노두", "hp": 70, "type_ko": "악", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "악", "name_ja": "ふみならす", "name_ko": "발구르기", "damage": "", "text_ja": "相手の山札を上から1枚トラッシュする。", "text_ko": "상대의 덱 위에서 1장을 트래시한다." },
+      { "cost_ko": "악무색", "name_ja": "かみつく", "name_ko": "물기", "damage": "20", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV8", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46410"
+  },
+  {
+    "id": 46411, "category": "pokemon", "subtype_ko": "1단계 포켓몬", "name_ja": "ジヘッド", "name_ko": "디헤드", "hp": 100, "type_ko": "악", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "악", "name_ja": "ふみならす", "name_ko": "발구르기", "damage": "", "text_ja": "相手の山札を上から2枚トラッシュする。", "text_ko": "상대의 덱 위에서 2장을 트래시한다." },
+      { "cost_ko": "악무색무색", "name_ja": "やみのキバ", "name_ko": "어둠의 송곳니", "damage": "60", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV8", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46411"
+  },
+  {
+    "id": 46412, "category": "pokemon", "subtype_ko": "2단계 포켓몬 ex", "name_ja": "サザンドラex", "name_ko": "삼삼드래 ex", "hp": 330, "type_ko": "악", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "악무색", "name_ja": "クラッシュヘッズ", "name_ko": "크래시 헤즈", "damage": "200", "text_ja": "相手の山札を上から3枚トラッシュする。", "text_ko": "상대의 덱 위에서 3장을 트래시한다." },
+      { "cost_ko": "초악강철무색", "name_ja": "オブシディアン", "name_ko": "옵시디언", "damage": "130", "text_ja": "相手のベンチポケモン2匹にも、それぞれ130ダメージ。［ベンチは弱点・抵抗力を計算しない。］", "text_ko": "상대의 벤치 포켓몬 2마리에게도 각각 130 데미지. [벤치는 약점·저항력을 계산하지 않는다.]" }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。", "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.", "set": "SV8", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46412"
+  },
+  {
+    "id": 47411, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "アチャモ", "name_ko": "아차모", "hp": 70, "type_ko": "불꽃", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "무색", "name_ja": "もってくる", "name_ko": "가져오기", "damage": "", "text_ja": "自分の山札を1枚引く。", "text_ko": "자신의 덱에서 1장을 뽑는다." },
+      { "cost_ko": "불꽃", "name_ja": "かえん", "name_ko": "화염", "damage": "10", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV10", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47411"
+  },
+  {
+    "id": 47412, "category": "pokemon", "subtype_ko": "1단계 포켓몬", "name_ja": "ワカシャモ", "name_ko": "영치코", "hp": 100, "type_ko": "불꽃", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "무색", "name_ja": "かえん", "name_ko": "화염", "damage": "20", "text_ja": "", "text_ko": "" },
+      { "cost_ko": "불꽃무색", "name_ja": "にどげり", "name_ko": "두번차기", "damage": "40×", "text_ja": "コインを2回投げ、オモテの数×40ダメージ。", "text_ko": "코인을 2번 던져, 앞면의 수×40 데미지." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "SV10", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47412"
+  },
+  {
+    "id": 46470, "category": "pokemon", "subtype_ko": "2단계 포켓몬 ex", "name_ja": "バシャーモex", "name_ko": "번치코 ex", "hp": 320, "type_ko": "불꽃", "regulation": "",
+    "abilities": [
+      { "name_ja": "たぎるとうし", "name_ko": "끓어오르는 투지", "text_ja": "自分の番に1回使える。自分のトラッシュから基本エネルギーを1枚選び、自分のポケモンにつける。", "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 트래시에서 기본 에너지를 1장 골라, 자신의 포켓몬에게 붙인다." }
+    ],
+    "attacks": [
+      { "cost_ko": "불꽃무색", "name_ja": "バーニングソルト", "name_ko": "버닝 솔트", "damage": "200", "text_ja": "次の自分の番、このポケモンはワザが使えない。", "text_ko": "다음 자신의 차례에, 이 포켓몬은 기술을 사용할 수 없다." }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。", "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.", "set": "SVM", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46470"
+  },
+  {
+    "id": 47773, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "イベルタル", "name_ko": "이벨타르", "hp": 110, "type_ko": "악", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "악", "name_ja": "わしづかみ", "name_ko": "움켜잡기", "damage": "20", "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。", "text_ko": "다음 상대 차례에, 이 기술을 받은 포켓몬은 도망칠 수 없다." },
+      { "cost_ko": "악악무색", "name_ja": "ダークフェザー", "name_ko": "다크 페더", "damage": "110", "text_ja": "", "text_ko": "" }
+    ],
+    "text_ja": "", "text_ko": "", "set": "M1L", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47773"
+  },
+  {
+    "id": 49605, "category": "trainer", "subtype_ko": "서포트", "name_ja": "インフルエンサーの紹介", "name_ko": "인플루언서의 소개", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "好きなポケモンを相手に紹介しながら、自分の山札を3枚引く。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "좋아하는 포켓몬을 상대에게 소개하면서, 자신의 덱에서 3장을 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "M-P", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49605"
+  },
+  {
+    "id": 45217, "category": "energy", "subtype_ko": "특수 에너지 (ACE SPEC)", "name_ja": "ネオアッパーエネルギー", "name_ko": "네오 어퍼 에너지", "hp": null, "type_ko": "무색", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。2進化ポケモンについているなら、すべてのタイプのエネルギー2個ぶんとしてはたらく。（ACE SPECのカードは、デッキに1枚しか入れられない。）",
+    "text_ko": "이 카드는, 포켓몬에 붙어 있는 한 무색 에너지 1개로 작용한다. 2단계 진화 포켓몬에 붙어 있다면, 모든 타입의 에너지 2개로 작용한다. (ACE SPEC 카드는 덱에 1장만 넣을 수 있다.)",
+    "set": "SV5K", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45217"
+  },
+  {
+    "id": 46711, "category": "pokemon", "subtype_ko": "기본 포켓몬 ex", "name_ja": "オーガポン いどのめんex", "name_ko": "오거폰 우물의 가면 ex", "hp": 210, "type_ko": "물", "regulation": "",
+    "abilities": [],
+    "attacks": [
+      { "cost_ko": "무색", "name_ja": "すすりなく", "name_ko": "훌쩍이기", "damage": "20", "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。", "text_ko": "다음 상대 차례에, 이 기술을 받은 포켓몬은 도망칠 수 없다." },
+      { "cost_ko": "물무색무색", "name_ja": "げきりゅうポンプ", "name_ko": "격류 펌프", "damage": "100", "text_ja": "のぞむなら、このポケモンについているエネルギーを3個選び、山札にもどして切る。その場合、相手のベンチポケモン1匹にも、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］", "text_ko": "원한다면, 이 포켓몬에 붙어 있는 에너지를 3개 골라 덱으로 되돌려 섞는다. 그 경우, 상대의 벤치 포켓몬 1마리에게도 120 데미지. [벤치는 약점·저항력을 계산하지 않는다.]" }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。", "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.", "set": "SV8a", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46711"
+  },
+  {
+    "id": 49206, "category": "pokemon", "subtype_ko": "기본 포켓몬", "name_ja": "モモワロウ", "name_ko": "복숭악동", "hp": 80, "type_ko": "악", "regulation": "",
+    "abilities": [
+      { "name_ja": "もうどくしはい", "name_ko": "맹독 지배", "text_ja": "このポケモンがバトル場にいるかぎり、相手のどくのポケモンは、どくでのせるダメカンの数が5個多くなる。", "text_ko": "이 포켓몬이 배틀 필드에 있는 한, 상대의 독 상태 포켓몬은 독으로 올리는 데미지 카운터의 수가 5개 많아진다." }
+    ],
+    "attacks": [
+      { "cost_ko": "악무색", "name_ja": "ポイズンチェーン", "name_ko": "포이즌 체인", "damage": "10", "text_ja": "相手のバトルポケモンをどくにする。次の相手の番、このワザを受けたポケモンは、にげられない。", "text_ko": "상대의 배틀 포켓몬을 독 상태로 만든다. 다음 상대 차례에, 이 기술을 받은 포켓몬은 도망칠 수 없다." }
+    ],
+    "text_ja": "", "text_ko": "", "set": "MC", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49206"
+  },
+  {
+    "id": 47190, "category": "trainer", "subtype_ko": "굿즈", "name_ja": "テラスタルオーブ", "name_ko": "테라스탈 오브", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "自分の山札から「テラスタル」のポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。グッズは、自分の番に何枚でも使える。",
+    "text_ko": "자신의 덱에서 '테라스탈' 포켓몬을 1장 골라, 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
+    "set": "SVN", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47190"
+  },
+  {
+    "id": 47619, "category": "trainer", "subtype_ko": "서포트", "name_ja": "Nの筋書き", "name_ko": "N의 각본", "hp": null, "type_ko": "", "regulation": "",
+    "abilities": [], "attacks": [],
+    "text_ja": "自分のベンチポケモンについているエネルギーを2個まで選び、バトルポケモンにつけ替える。サポートは、自分の番に1枚しか使えない。",
+    "text_ko": "자신의 벤치 포켓몬에 붙어 있는 에너지를 2개까지 골라, 배틀 포켓몬에게 옮겨 붙인다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+    "set": "SV11B", "number": "", "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47619"
+  }
+]

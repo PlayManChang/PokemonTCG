@@ -104,6 +104,83 @@
       "name_ja": "メガシャンデラex",
       "tier": 4,
       "note": "최근 짐배틀 우승"
+    },
+    {
+      "id": "wailord",
+      "name_ko": "고래왕",
+      "name_ja": "ホエルオーex",
+      "tier": 4,
+      "note": "쥬레곤 컨트롤"
+    },
+    {
+      "id": "yadoking",
+      "name_ko": "야도킹",
+      "name_ja": "ヤドキング",
+      "tier": 4,
+      "note": "기술 카피"
+    },
+    {
+      "id": "riguree-control",
+      "name_ko": "리그레 컨트롤",
+      "name_ja": "リグレーコントロール",
+      "tier": 4,
+      "note": "컨트롤"
+    },
+    {
+      "id": "mega-garura",
+      "name_ko": "메가 캥카 ex",
+      "name_ja": "メガガルーラex",
+      "tier": 4,
+      "note": ""
+    },
+    {
+      "id": "mega-absol",
+      "name_ko": "메가 앱솔 ex",
+      "name_ja": "メガアブソルex",
+      "tier": 4,
+      "note": ""
+    },
+    {
+      "id": "olive",
+      "name_ko": "올리르바 ex",
+      "name_ja": "オリーヴァex",
+      "tier": 4,
+      "note": ""
+    },
+    {
+      "id": "iineinu",
+      "name_ko": "이이네이누",
+      "name_ja": "イイネイヌ",
+      "tier": 4,
+      "note": ""
+    },
+    {
+      "id": "mega-starmie",
+      "name_ko": "메가 아쿠스타 ex",
+      "name_ja": "メガスターミーex",
+      "tier": 4,
+      "note": ""
+    },
+    {
+      "id": "daigo-metagross",
+      "name_ko": "다이고의 메타그로스 ex",
+      "name_ja": "ダイゴのメタグロスex",
+      "tier": 4,
+      "note": ""
+    },
+    {
+      "id": "sazandora",
+      "name_ko": "삼삼드래 ex",
+      "name_ja": "サザンドラex",
+      "tier": 4,
+      "note": ""
+    },
+    {
+      "id": "ogerpon-bullet",
+      "name_ko": "오거폰 불릿",
+      "name_ja": "オーガポンバレット",
+      "tier": 4,
+      "note": ""
     }
   ],
   "cards": [
@@ -276,15 +353,26 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46736",
       "decks": [
         "dragapult",
-        "nzoroark"
+        "nzoroark",
+        "mega-garura",
+        "mega-absol",
+        "iineinu",
+        "mega-starmie",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "dragapult": 1,
-        "nzoroark": 1
+        "nzoroark": 1,
+        "mega-garura": 1,
+        "mega-absol": 1,
+        "iineinu": 1,
+        "mega-starmie": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         1,
-        2
+        2,
+        4
       ]
     },
     {
@@ -325,14 +413,16 @@
         "bakegakure",
         "foodin",
         "mega-greninja",
-        "mega-chandelure"
+        "mega-chandelure",
+        "riguree-control"
       ],
       "deckCounts": {
         "dragapult": 1,
         "bakegakure": 1,
         "foodin": 1,
         "mega-greninja": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "riguree-control": 1
       },
       "tiers": [
         1,
@@ -379,14 +469,16 @@
         "bakegakure",
         "foodin",
         "mega-greninja",
-        "mega-chandelure"
+        "mega-chandelure",
+        "riguree-control"
       ],
       "deckCounts": {
         "dragapult": 1,
         "bakegakure": 1,
         "foodin": 1,
         "mega-greninja": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "riguree-control": 1
       },
       "tiers": [
         1,
@@ -434,7 +526,12 @@
         "kamitsuorochi",
         "takeraiko",
         "foodin",
-        "mega-greninja"
+        "mega-greninja",
+        "yadoking",
+        "olive",
+        "daigo-metagross",
+        "sazandora",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -442,12 +539,18 @@
         "kamitsuorochi": 1,
         "takeraiko": 1,
         "foodin": 1,
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "yadoking": 1,
+        "olive": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         1,
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -490,7 +593,14 @@
         "takeraiko",
         "mega-lucario",
         "mega-greninja",
-        "mega-livolt"
+        "mega-livolt",
+        "wailord",
+        "yadoking",
+        "mega-garura",
+        "olive",
+        "mega-starmie",
+        "daigo-metagross",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -499,7 +609,14 @@
         "takeraiko": 1,
         "mega-lucario": 1,
         "mega-greninja": 1,
-        "mega-livolt": 1
+        "mega-livolt": 1,
+        "wailord": 1,
+        "yadoking": 1,
+        "mega-garura": 1,
+        "olive": 1,
+        "mega-starmie": 1,
+        "daigo-metagross": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         1,
@@ -536,13 +653,23 @@
         "dragapult",
         "nzoroark",
         "mega-greninja",
-        "dodekabashi"
+        "dodekabashi",
+        "yadoking",
+        "riguree-control",
+        "mega-starmie",
+        "daigo-metagross",
+        "sazandora"
       ],
       "deckCounts": {
         "dragapult": 1,
         "nzoroark": 1,
         "mega-greninja": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "yadoking": 1,
+        "riguree-control": 1,
+        "mega-starmie": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1
       },
       "tiers": [
         1,
@@ -578,7 +705,12 @@
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
-        "mega-chandelure"
+        "mega-chandelure",
+        "yadoking",
+        "riguree-control",
+        "mega-starmie",
+        "daigo-metagross",
+        "sazandora"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -591,7 +723,12 @@
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "yadoking": 1,
+        "riguree-control": 1,
+        "mega-starmie": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1
       },
       "tiers": [
         1,
@@ -628,7 +765,14 @@
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
-        "mega-chandelure"
+        "mega-chandelure",
+        "wailord",
+        "yadoking",
+        "riguree-control",
+        "olive",
+        "iineinu",
+        "mega-starmie",
+        "sazandora"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -642,7 +786,14 @@
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "wailord": 1,
+        "yadoking": 1,
+        "riguree-control": 1,
+        "olive": 1,
+        "iineinu": 1,
+        "mega-starmie": 1,
+        "sazandora": 1
       },
       "tiers": [
         1,
@@ -679,7 +830,16 @@
         "rocket-mewtwo",
         "omatsuriondo",
         "mega-livolt",
-        "dodekabashi"
+        "dodekabashi",
+        "wailord",
+        "yadoking",
+        "mega-garura",
+        "mega-absol",
+        "olive",
+        "mega-starmie",
+        "daigo-metagross",
+        "sazandora",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -693,7 +853,16 @@
         "rocket-mewtwo": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "wailord": 1,
+        "yadoking": 1,
+        "mega-garura": 1,
+        "mega-absol": 1,
+        "olive": 1,
+        "mega-starmie": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         1,
@@ -732,7 +901,17 @@
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
-        "mega-chandelure"
+        "mega-chandelure",
+        "wailord",
+        "yadoking",
+        "mega-garura",
+        "mega-absol",
+        "olive",
+        "iineinu",
+        "mega-starmie",
+        "daigo-metagross",
+        "sazandora",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -748,7 +927,17 @@
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "wailord": 1,
+        "yadoking": 1,
+        "mega-garura": 1,
+        "mega-absol": 1,
+        "olive": 1,
+        "iineinu": 1,
+        "mega-starmie": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         1,
@@ -774,13 +963,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049360_T_KURASSHIXYUHANMA.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49360",
       "decks": [
-        "dragapult"
+        "dragapult",
+        "riguree-control"
       ],
       "deckCounts": {
-        "dragapult": 1
+        "dragapult": 1,
+        "riguree-control": 1
       },
       "tiers": [
-        1
+        1,
+        4
       ]
     },
     {
@@ -806,7 +998,11 @@
         "takeraiko",
         "shirona-garchomp",
         "omatsuriondo",
-        "mega-livolt"
+        "mega-livolt",
+        "mega-absol",
+        "mega-starmie",
+        "daigo-metagross",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -815,7 +1011,11 @@
         "takeraiko": 1,
         "shirona-garchomp": 1,
         "omatsuriondo": 1,
-        "mega-livolt": 1
+        "mega-livolt": 1,
+        "mega-absol": 1,
+        "mega-starmie": 1,
+        "daigo-metagross": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         1,
@@ -853,7 +1053,17 @@
         "rocket-mewtwo",
         "omatsuriondo",
         "mega-livolt",
-        "dodekabashi"
+        "dodekabashi",
+        "wailord",
+        "yadoking",
+        "riguree-control",
+        "mega-absol",
+        "olive",
+        "iineinu",
+        "mega-starmie",
+        "daigo-metagross",
+        "sazandora",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -868,7 +1078,17 @@
         "rocket-mewtwo": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "wailord": 1,
+        "yadoking": 1,
+        "riguree-control": 1,
+        "mega-absol": 1,
+        "olive": 1,
+        "iineinu": 1,
+        "mega-starmie": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         1,
@@ -907,7 +1127,17 @@
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
-        "mega-chandelure"
+        "mega-chandelure",
+        "wailord",
+        "riguree-control",
+        "mega-garura",
+        "mega-absol",
+        "olive",
+        "iineinu",
+        "mega-starmie",
+        "daigo-metagross",
+        "sazandora",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "dragapult": 1,
@@ -923,7 +1153,17 @@
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "wailord": 1,
+        "riguree-control": 1,
+        "mega-garura": 1,
+        "mega-absol": 1,
+        "olive": 1,
+        "iineinu": 1,
+        "mega-starmie": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         1,
@@ -952,13 +1192,19 @@
         "dragapult",
         "mega-lucario",
         "omatsuriondo",
-        "dodekabashi"
+        "dodekabashi",
+        "olive",
+        "iineinu",
+        "sazandora"
       ],
       "deckCounts": {
         "dragapult": 1,
         "mega-lucario": 1,
         "omatsuriondo": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "olive": 1,
+        "iineinu": 1,
+        "sazandora": 1
       },
       "tiers": [
         1,
@@ -984,15 +1230,20 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46101",
       "decks": [
         "dragapult",
-        "takeraiko"
+        "takeraiko",
+        "mega-garura",
+        "mega-starmie"
       ],
       "deckCounts": {
         "dragapult": 1,
-        "takeraiko": 1
+        "takeraiko": 1,
+        "mega-garura": 1,
+        "mega-starmie": 1
       },
       "tiers": [
         1,
-        3
+        3,
+        4
       ]
     },
     {
@@ -1012,13 +1263,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047796_T_ABUNAIHAIKIXYO.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47796",
       "decks": [
-        "dragapult"
+        "dragapult",
+        "mega-starmie"
       ],
       "deckCounts": {
-        "dragapult": 1
+        "dragapult": 1,
+        "mega-starmie": 1
       },
       "tiers": [
-        1
+        1,
+        4
       ]
     },
     {
@@ -1039,11 +1293,15 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42780",
       "decks": [
         "dragapult",
-        "mega-chandelure"
+        "mega-chandelure",
+        "mega-garura",
+        "sazandora"
       ],
       "deckCounts": {
         "dragapult": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "mega-garura": 1,
+        "sazandora": 1
       },
       "tiers": [
         1,
@@ -1071,14 +1329,20 @@
         "takeraiko",
         "foodin",
         "rocket-mewtwo",
-        "mega-chandelure"
+        "mega-chandelure",
+        "mega-garura",
+        "daigo-metagross",
+        "sazandora"
       ],
       "deckCounts": {
         "dragapult": 1,
         "takeraiko": 1,
         "foodin": 1,
         "rocket-mewtwo": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "mega-garura": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1
       },
       "tiers": [
         1,
@@ -1104,15 +1368,24 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42785",
       "decks": [
         "dragapult",
-        "nzoroark"
+        "nzoroark",
+        "mega-garura",
+        "mega-absol",
+        "mega-starmie",
+        "sazandora"
       ],
       "deckCounts": {
         "dragapult": 1,
-        "nzoroark": 1
+        "nzoroark": 1,
+        "mega-garura": 1,
+        "mega-absol": 1,
+        "mega-starmie": 1,
+        "sazandora": 1
       },
       "tiers": [
         1,
-        2
+        2,
+        4
       ]
     },
     {
@@ -1311,16 +1584,25 @@
       "decks": [
         "bakegakure",
         "takeraiko",
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "yadoking",
+        "mega-garura",
+        "daigo-metagross",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "bakegakure": 1,
         "takeraiko": 1,
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "yadoking": 1,
+        "mega-garura": 1,
+        "daigo-metagross": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -1396,13 +1678,15 @@
         "bakegakure",
         "foodin",
         "omatsuriondo",
-        "mega-livolt"
+        "mega-livolt",
+        "iineinu"
       ],
       "deckCounts": {
         "bakegakure": 1,
         "foodin": 1,
         "omatsuriondo": 1,
-        "mega-livolt": 1
+        "mega-livolt": 1,
+        "iineinu": 1
       },
       "tiers": [
         2,
@@ -1622,13 +1906,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M4/050143_P_METAGUROSU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50143",
       "decks": [
-        "mega-drilbur"
+        "mega-drilbur",
+        "yadoking"
       ],
       "deckCounts": {
-        "mega-drilbur": 1
+        "mega-drilbur": 1,
+        "yadoking": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -1667,13 +1954,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV11B/047605_P_GENOSEKUTOEX.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47605",
       "decks": [
-        "mega-drilbur"
+        "mega-drilbur",
+        "daigo-metagross"
       ],
       "deckCounts": {
-        "mega-drilbur": 1
+        "mega-drilbur": 1,
+        "daigo-metagross": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -1702,13 +1992,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV9/047068_P_NNOZOROA.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47068",
       "decks": [
-        "nzoroark"
+        "nzoroark",
+        "sazandora"
       ],
       "deckCounts": {
-        "nzoroark": 1
+        "nzoroark": 1,
+        "sazandora": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -1744,13 +2037,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV9/047069_P_NNOZOROAKUEX.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47069",
       "decks": [
-        "nzoroark"
+        "nzoroark",
+        "sazandora"
       ],
       "deckCounts": {
-        "nzoroark": 1
+        "nzoroark": 1,
+        "sazandora": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -1873,13 +2169,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV9/047082_P_NNORESHIRAMU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47082",
       "decks": [
-        "nzoroark"
+        "nzoroark",
+        "sazandora"
       ],
       "deckCounts": {
-        "nzoroark": 1
+        "nzoroark": 1,
+        "sazandora": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -1916,13 +2215,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048651_P_NNOZEKUROMU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48651",
       "decks": [
-        "nzoroark"
+        "nzoroark",
+        "sazandora"
       ],
       "deckCounts": {
-        "nzoroark": 1
+        "nzoroark": 1,
+        "sazandora": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -1984,13 +2286,18 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050297_T_MUKU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50297",
       "decks": [
-        "bakegakure"
+        "bakegakure",
+        "mega-garura",
+        "iineinu"
       ],
       "deckCounts": {
-        "bakegakure": 1
+        "bakegakure": 1,
+        "mega-garura": 1,
+        "iineinu": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -2015,7 +2322,9 @@
         "foodin",
         "mega-greninja",
         "mega-livolt",
-        "mega-chandelure"
+        "mega-chandelure",
+        "riguree-control",
+        "mega-starmie"
       ],
       "deckCounts": {
         "bakegakure": 1,
@@ -2023,7 +2332,9 @@
         "foodin": 1,
         "mega-greninja": 1,
         "mega-livolt": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "riguree-control": 1,
+        "mega-starmie": 1
       },
       "tiers": [
         2,
@@ -2103,13 +2414,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049356_T_ENERUGIRISAIKURU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49356",
       "decks": [
-        "mega-drilbur"
+        "mega-drilbur",
+        "daigo-metagross"
       ],
       "deckCounts": {
-        "mega-drilbur": 1
+        "mega-drilbur": 1,
+        "daigo-metagross": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -2129,13 +2443,20 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2/048413_T_JIXYANBOAISU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48413",
       "decks": [
-        "mega-drilbur"
+        "mega-drilbur",
+        "wailord",
+        "mega-garura",
+        "mega-absol"
       ],
       "deckCounts": {
-        "mega-drilbur": 1
+        "mega-drilbur": 1,
+        "wailord": 1,
+        "mega-garura": 1,
+        "mega-absol": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -2163,7 +2484,11 @@
         "foodin",
         "mega-greninja",
         "omatsuriondo",
-        "mega-chandelure"
+        "mega-chandelure",
+        "mega-garura",
+        "olive",
+        "iineinu",
+        "daigo-metagross"
       ],
       "deckCounts": {
         "mega-drilbur": 1,
@@ -2174,7 +2499,11 @@
         "foodin": 1,
         "mega-greninja": 1,
         "omatsuriondo": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "mega-garura": 1,
+        "olive": 1,
+        "iineinu": 1,
+        "daigo-metagross": 1
       },
       "tiers": [
         2,
@@ -2199,13 +2528,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049374_T_PURESHIXYASUKIXYARI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49374",
       "decks": [
-        "mega-drilbur"
+        "mega-drilbur",
+        "mega-garura"
       ],
       "deckCounts": {
-        "mega-drilbur": 1
+        "mega-drilbur": 1,
+        "mega-garura": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -2229,14 +2561,20 @@
         "mega-lucario",
         "mega-greninja",
         "omatsuriondo",
-        "mega-livolt"
+        "mega-livolt",
+        "iineinu",
+        "mega-starmie",
+        "sazandora"
       ],
       "deckCounts": {
         "mega-drilbur": 1,
         "mega-lucario": 1,
         "mega-greninja": 1,
         "omatsuriondo": 1,
-        "mega-livolt": 1
+        "mega-livolt": 1,
+        "iineinu": 1,
+        "mega-starmie": 1,
+        "sazandora": 1
       },
       "tiers": [
         2,
@@ -2263,16 +2601,25 @@
       "decks": [
         "mega-drilbur",
         "shirona-garchomp",
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "mega-garura",
+        "mega-absol",
+        "mega-starmie",
+        "daigo-metagross"
       ],
       "deckCounts": {
         "mega-drilbur": 1,
         "shirona-garchomp": 1,
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "mega-garura": 1,
+        "mega-absol": 1,
+        "mega-starmie": 1,
+        "daigo-metagross": 1
       },
       "tiers": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -2397,15 +2744,18 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46442",
       "decks": [
         "nzoroark",
-        "takeraiko"
+        "takeraiko",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "nzoroark": 1,
-        "takeraiko": 1
+        "takeraiko": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -2452,11 +2802,13 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46605",
       "decks": [
         "nzoroark",
-        "omatsuriondo"
+        "omatsuriondo",
+        "daigo-metagross"
       ],
       "deckCounts": {
         "nzoroark": 1,
-        "omatsuriondo": 1
+        "omatsuriondo": 1,
+        "daigo-metagross": 1
       },
       "tiers": [
         2,
@@ -2481,15 +2833,22 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49414",
       "decks": [
         "nzoroark",
-        "takeraiko"
+        "takeraiko",
+        "yadoking",
+        "mega-garura",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "nzoroark": 1,
-        "takeraiko": 1
+        "takeraiko": 1,
+        "yadoking": 1,
+        "mega-garura": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -2536,15 +2895,24 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47489",
       "decks": [
         "nzoroark",
-        "mega-lucario"
+        "mega-lucario",
+        "iineinu",
+        "mega-starmie",
+        "daigo-metagross",
+        "sazandora"
       ],
       "deckCounts": {
         "nzoroark": 1,
-        "mega-lucario": 1
+        "mega-lucario": 1,
+        "iineinu": 1,
+        "mega-starmie": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1
       },
       "tiers": [
         2,
-        3
+        3,
+        4
       ]
     },
     {
@@ -2566,12 +2934,14 @@
       "decks": [
         "bakegakure",
         "foodin",
-        "mega-chandelure"
+        "mega-chandelure",
+        "yadoking"
       ],
       "deckCounts": {
         "bakegakure": 1,
         "foodin": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "yadoking": 1
       },
       "tiers": [
         2,
@@ -2596,13 +2966,20 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048714_E_PURIZUMUENERUGI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48714",
       "decks": [
-        "bakegakure"
+        "bakegakure",
+        "riguree-control",
+        "iineinu",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
-        "bakegakure": 1
+        "bakegakure": 1,
+        "riguree-control": 1,
+        "iineinu": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -2622,13 +2999,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVN/047220_E_REGASHIENERUGI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47220",
       "decks": [
-        "bakegakure"
+        "bakegakure",
+        "iineinu"
       ],
       "deckCounts": {
-        "bakegakure": 1
+        "bakegakure": 1,
+        "iineinu": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -2648,13 +3028,18 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/ENE/046123_E_KIHONHAGANEENERUGI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46123",
       "decks": [
-        "mega-drilbur"
+        "mega-drilbur",
+        "daigo-metagross",
+        "sazandora"
       ],
       "deckCounts": {
-        "mega-drilbur": 1
+        "mega-drilbur": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1
       },
       "tiers": [
-        2
+        2,
+        4
       ]
     },
     {
@@ -2812,13 +3197,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1S/047799_P_CHIKORITA.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47799",
       "decks": [
-        "kamitsuorochi"
+        "kamitsuorochi",
+        "olive"
       ],
       "deckCounts": {
-        "kamitsuorochi": 1
+        "kamitsuorochi": 1,
+        "olive": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -2848,13 +3236,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1S/047800_P_BEIRIFU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47800",
       "decks": [
-        "kamitsuorochi"
+        "kamitsuorochi",
+        "olive"
       ],
       "deckCounts": {
-        "kamitsuorochi": 1
+        "kamitsuorochi": 1,
+        "olive": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -2891,13 +3282,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1S/047801_P_MNIUMU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47801",
       "decks": [
-        "kamitsuorochi"
+        "kamitsuorochi",
+        "olive"
       ],
       "deckCounts": {
-        "kamitsuorochi": 1
+        "kamitsuorochi": 1,
+        "olive": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -2938,12 +3332,16 @@
       "decks": [
         "kamitsuorochi",
         "takeraiko",
-        "dodekabashi"
+        "dodekabashi",
+        "olive",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
         "takeraiko": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "olive": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         3,
@@ -3030,14 +3428,17 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46677",
       "decks": [
         "kamitsuorochi",
-        "takeraiko"
+        "takeraiko",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
-        "takeraiko": 1
+        "takeraiko": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -3194,13 +3595,22 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1S/047847_P_MGARURAEX.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47847",
       "decks": [
-        "takeraiko"
+        "takeraiko",
+        "yadoking",
+        "mega-garura",
+        "mega-absol",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
-        "takeraiko": 1
+        "takeraiko": 1,
+        "yadoking": 1,
+        "mega-garura": 1,
+        "mega-absol": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -3236,13 +3646,24 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV7a/046248_P_RATEIASUEX.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46248",
       "decks": [
-        "takeraiko"
+        "takeraiko",
+        "yadoking",
+        "mega-garura",
+        "mega-absol",
+        "daigo-metagross",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
-        "takeraiko": 1
+        "takeraiko": 1,
+        "yadoking": 1,
+        "mega-garura": 1,
+        "mega-absol": 1,
+        "daigo-metagross": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -3488,13 +3909,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047760_P_SORUROKKU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47760",
       "decks": [
-        "mega-lucario"
+        "mega-lucario",
+        "iineinu"
       ],
       "deckCounts": {
-        "mega-lucario": 1
+        "mega-lucario": 1,
+        "iineinu": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -3530,13 +3954,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047759_P_RUNATON.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47759",
       "decks": [
-        "mega-lucario"
+        "mega-lucario",
+        "iineinu"
       ],
       "deckCounts": {
-        "mega-lucario": 1
+        "mega-lucario": 1,
+        "iineinu": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -3919,12 +4346,18 @@
       "decks": [
         "foodin",
         "omatsuriondo",
-        "mega-livolt"
+        "mega-livolt",
+        "riguree-control",
+        "mega-absol",
+        "iineinu"
       ],
       "deckCounts": {
         "foodin": 1,
         "omatsuriondo": 1,
-        "mega-livolt": 1
+        "mega-livolt": 1,
+        "riguree-control": 1,
+        "mega-absol": 1,
+        "iineinu": 1
       },
       "tiers": [
         3,
@@ -4244,13 +4677,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV10/047435_P_ROKETTODANNOMIMIKKIXYU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47435",
       "decks": [
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "daigo-metagross"
       ],
       "deckCounts": {
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "daigo-metagross": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4363,13 +4799,17 @@
         "kamitsuorochi",
         "takeraiko",
         "rocket-mewtwo",
-        "omatsuriondo"
+        "omatsuriondo",
+        "olive",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
         "takeraiko": 1,
         "rocket-mewtwo": 1,
-        "omatsuriondo": 1
+        "omatsuriondo": 1,
+        "olive": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         3,
@@ -4397,14 +4837,18 @@
         "foodin",
         "omatsuriondo",
         "dodekabashi",
-        "mega-chandelure"
+        "mega-chandelure",
+        "olive",
+        "sazandora"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
         "foodin": 1,
         "omatsuriondo": 1,
         "dodekabashi": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "olive": 1,
+        "sazandora": 1
       },
       "tiers": [
         3,
@@ -4430,12 +4874,14 @@
       "decks": [
         "kamitsuorochi",
         "foodin",
-        "omatsuriondo"
+        "omatsuriondo",
+        "olive"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
         "foodin": 1,
-        "omatsuriondo": 1
+        "omatsuriondo": 1,
+        "olive": 1
       },
       "tiers": [
         3,
@@ -4486,11 +4932,13 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47857",
       "decks": [
         "kamitsuorochi",
-        "omatsuriondo"
+        "omatsuriondo",
+        "olive"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
-        "omatsuriondo": 1
+        "omatsuriondo": 1,
+        "olive": 1
       },
       "tiers": [
         3,
@@ -4544,14 +4992,23 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42020",
       "decks": [
         "takeraiko",
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "mega-garura",
+        "mega-absol",
+        "olive",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "takeraiko": 1,
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "mega-garura": 1,
+        "mega-absol": 1,
+        "olive": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4624,11 +5081,13 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46843",
       "decks": [
         "takeraiko",
-        "dodekabashi"
+        "dodekabashi",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "takeraiko": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         3,
@@ -4653,14 +5112,17 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47792",
       "decks": [
         "mega-lucario",
-        "shirona-garchomp"
+        "shirona-garchomp",
+        "iineinu"
       ],
       "deckCounts": {
         "mega-lucario": 1,
-        "shirona-garchomp": 1
+        "shirona-garchomp": 1,
+        "iineinu": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4709,11 +5171,15 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47882",
       "decks": [
         "mega-lucario",
-        "omatsuriondo"
+        "omatsuriondo",
+        "yadoking",
+        "riguree-control"
       ],
       "deckCounts": {
         "mega-lucario": 1,
-        "omatsuriondo": 1
+        "omatsuriondo": 1,
+        "yadoking": 1,
+        "riguree-control": 1
       },
       "tiers": [
         3,
@@ -4794,13 +5260,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8/046446_T_GURABITEIMAUNTEN.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46446",
       "decks": [
-        "mega-lucario"
+        "mega-lucario",
+        "mega-garura"
       ],
       "deckCounts": {
-        "mega-lucario": 1
+        "mega-lucario": 1,
+        "mega-garura": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4824,14 +5293,20 @@
         "foodin",
         "mega-greninja",
         "dodekabashi",
-        "mega-chandelure"
+        "mega-chandelure",
+        "riguree-control",
+        "daigo-metagross",
+        "sazandora"
       ],
       "deckCounts": {
         "shirona-garchomp": 1,
         "foodin": 1,
         "mega-greninja": 1,
         "dodekabashi": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "riguree-control": 1,
+        "daigo-metagross": 1,
+        "sazandora": 1
       },
       "tiers": [
         3,
@@ -4881,13 +5356,18 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046799_T_KAIZOUHANMA.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46799",
       "decks": [
-        "foodin"
+        "foodin",
+        "riguree-control",
+        "mega-absol"
       ],
       "deckCounts": {
-        "foodin": 1
+        "foodin": 1,
+        "riguree-control": 1,
+        "mega-absol": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4907,13 +5387,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MBD/048299_T_WANDAPATCHI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48299",
       "decks": [
-        "foodin"
+        "foodin",
+        "yadoking"
       ],
       "deckCounts": {
-        "foodin": 1
+        "foodin": 1,
+        "yadoking": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4962,13 +5445,18 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV5K/045214_T_BIWA.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45214",
       "decks": [
-        "foodin"
+        "foodin",
+        "riguree-control",
+        "mega-garura"
       ],
       "deckCounts": {
-        "foodin": 1
+        "foodin": 1,
+        "riguree-control": 1,
+        "mega-garura": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -4990,12 +5478,18 @@
       "decks": [
         "foodin",
         "mega-livolt",
-        "mega-chandelure"
+        "mega-chandelure",
+        "riguree-control",
+        "iineinu",
+        "sazandora"
       ],
       "deckCounts": {
         "foodin": 1,
         "mega-livolt": 1,
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "riguree-control": 1,
+        "iineinu": 1,
+        "sazandora": 1
       },
       "tiers": [
         3,
@@ -5019,13 +5513,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046825_T_AKUROMANOSHIXYUUNEN.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46825",
       "decks": [
-        "mega-greninja"
+        "mega-greninja",
+        "yadoking"
       ],
       "deckCounts": {
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "yadoking": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -5045,13 +5542,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1S/047858_T_NAMINORIBICHI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47858",
       "decks": [
-        "mega-greninja"
+        "mega-greninja",
+        "wailord"
       ],
       "deckCounts": {
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "wailord": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -5098,11 +5598,13 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49405",
       "decks": [
         "rocket-mewtwo",
-        "omatsuriondo"
+        "omatsuriondo",
+        "yadoking"
       ],
       "deckCounts": {
         "rocket-mewtwo": 1,
-        "omatsuriondo": 1
+        "omatsuriondo": 1,
+        "yadoking": 1
       },
       "tiers": [
         3,
@@ -5230,13 +5732,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV10/047490_T_ROKETTODANNOFUAKUTORI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47490",
       "decks": [
-        "rocket-mewtwo"
+        "rocket-mewtwo",
+        "mega-garura"
       ],
       "deckCounts": {
-        "rocket-mewtwo": 1
+        "rocket-mewtwo": 1,
+        "mega-garura": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -5260,14 +5765,18 @@
         "takeraiko",
         "rocket-mewtwo",
         "omatsuriondo",
-        "dodekabashi"
+        "dodekabashi",
+        "olive",
+        "ogerpon-bullet"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
         "takeraiko": 1,
         "rocket-mewtwo": 1,
         "omatsuriondo": 1,
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "olive": 1,
+        "ogerpon-bullet": 1
       },
       "tiers": [
         3,
@@ -5322,15 +5831,20 @@
       "decks": [
         "takeraiko",
         "mega-lucario",
-        "shirona-garchomp"
+        "shirona-garchomp",
+        "mega-absol",
+        "iineinu"
       ],
       "deckCounts": {
         "takeraiko": 1,
         "mega-lucario": 1,
-        "shirona-garchomp": 1
+        "shirona-garchomp": 1,
+        "mega-absol": 1,
+        "iineinu": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -5404,13 +5918,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/ENE/047905_E_KIHONMIZUENERUGI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47905",
       "decks": [
-        "mega-greninja"
+        "mega-greninja",
+        "wailord"
       ],
       "deckCounts": {
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "wailord": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -5430,13 +5947,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048713_E_IGUNISSHIXYONENERUGI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48713",
       "decks": [
-        "mega-greninja"
+        "mega-greninja",
+        "mega-starmie"
       ],
       "deckCounts": {
-        "mega-greninja": 1
+        "mega-greninja": 1,
+        "mega-starmie": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -6208,10 +6728,12 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVN/047182_P_HOHO.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47182",
       "decks": [
-        "dodekabashi"
+        "dodekabashi",
+        "olive"
       ],
       "deckCounts": {
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "olive": 1
       },
       "tiers": [
         4
@@ -6250,10 +6772,12 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVN/047183_P_YORUNOZUKU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47183",
       "decks": [
-        "dodekabashi"
+        "dodekabashi",
+        "olive"
       ],
       "deckCounts": {
-        "dodekabashi": 1
+        "dodekabashi": 1,
+        "olive": 1
       },
       "tiers": [
         4
@@ -6618,6 +7142,1987 @@
       ]
     },
     {
+      "id": 50233,
+      "name_ja": "ホエルコ",
+      "name_ko": "고래왕자(ホエルコ)",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 130,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "みずでっぽう",
+          "name_ko": "물대포",
+          "damage": "40",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "name_ja": "スプラッシュ",
+          "name_ko": "스플래시",
+          "damage": "80",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050233_P_HOERUKO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50233",
+      "decks": [
+        "wailord"
+      ],
+      "deckCounts": {
+        "wailord": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50234,
+      "name_ja": "ホエルオーex",
+      "name_ko": "고래왕(ホエルオー) ex",
+      "category": "pokemon",
+      "subtype_ko": "1진화 · 포켓몬 ex",
+      "hp": 380,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "なみのり",
+          "name_ko": "파도타기",
+          "damage": "120",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "name_ja": "フォーリングダウン",
+          "name_ko": "폴링 다운",
+          "damage": "270",
+          "text_ja": "このポケモンをねむりにする。",
+          "text_ko": "이 포켓몬을 잠듦 상태로 만든다."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050234_P_HOERUOEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50234",
+      "decks": [
+        "wailord"
+      ],
+      "deckCounts": {
+        "wailord": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48897,
+      "name_ja": "ホエルオー",
+      "name_ko": "고래왕",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 240,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색무색무색무색",
+          "name_ja": "ハイドロポンプ",
+          "name_ko": "하이드로 펌프",
+          "damage": "10＋",
+          "text_ja": "このポケモンについているエネルギーの数×50ダメージ追加。",
+          "text_ko": "이 포켓몬에 붙어 있는 에너지의 수×50 데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048897_P_HOERUO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48897",
+      "decks": [
+        "wailord"
+      ],
+      "deckCounts": {
+        "wailord": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49651,
+      "name_ja": "パウワウ",
+      "name_ko": "쥬쥬",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 80,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "물",
+          "name_ja": "みずかけ",
+          "name_ko": "물 끼얹기",
+          "damage": "10",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "cost_ko": "물물",
+          "name_ja": "スプラッシュ",
+          "name_ko": "물보라",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M3",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049651_P_PAUWAU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49651",
+      "decks": [
+        "wailord"
+      ],
+      "deckCounts": {
+        "wailord": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49652,
+      "name_ja": "ジュゴン",
+      "name_ko": "쥬레곤",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 130,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "おしながす",
+          "name_ko": "떠내려보내기",
+          "text_ja": "自分の番に何回でも使える。自分のベンチポケモンについているエネルギーを1個選び、バトルポケモンにつけ替える。",
+          "text_ko": "자신의 차례에 몇 번이든 쓸 수 있다. 자신의 벤치 포켓몬에 붙어 있는 에너지를 1개 골라, 배틀 포켓몬에게 옮겨 붙인다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "물물",
+          "name_ja": "スプラッシュ",
+          "name_ko": "물보라",
+          "damage": "60",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M3",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049652_P_JIXYUGON.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49652",
+      "decks": [
+        "wailord"
+      ],
+      "deckCounts": {
+        "wailord": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45978,
+      "name_ja": "ヤドキング",
+      "name_ko": "야도킹",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 120,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "초무색",
+          "name_ja": "ひらめきチャレンジ",
+          "name_ko": "번뜩임 챌린지",
+          "damage": "",
+          "text_ja": "自分の山札を上から1枚トラッシュし、そのカードがポケモン（「ルールを持つポケモン」をのぞく）なら、そのポケモンが持っているワザを1つ選び、このワザとして使う。",
+          "text_ko": "자신의 덱 위에서 1장을 트래시하고, 그 카드가 포켓몬('규칙을 가진 포켓몬' 제외)이라면, 그 포켓몬이 가진 기술을 1개 골라 이 기술로 사용한다."
+        },
+        {
+          "cost_ko": "초초무색",
+          "name_ja": "ちょうねんりき",
+          "name_ko": "초념력",
+          "damage": "120",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV7",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV7/045978_P_YADOKINGU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45978",
+      "decks": [
+        "yadoking"
+      ],
+      "deckCounts": {
+        "yadoking": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50247,
+      "name_ja": "ヤドン",
+      "name_ko": "야돈",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "すてほうだい",
+          "name_ko": "마구 버리기",
+          "damage": "",
+          "effect_ja": "自分の手札を好きなだけ選び、トラッシュする。",
+          "effect_ko": "자신의 패를 원하는 만큼 골라 트래시한다.",
+          "text_ja": "自分の手札を好きなだけ選び、トラッシュする。",
+          "text_ko": "자신의 패를 원하는 만큼 골라 트래시한다."
+        },
+        {
+          "name_ja": "ずつき",
+          "name_ko": "박치기",
+          "damage": "20",
+          "effect_ja": "",
+          "effect_ko": "",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050247_P_YADON.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50247",
+      "decks": [
+        "yadoking"
+      ],
+      "deckCounts": {
+        "yadoking": 2
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45922,
+      "name_ja": "キュレム",
+      "name_ko": "큐레무",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 130,
+      "type_ko": "드래곤",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "アンチプラズマ",
+          "name_ko": "안티 플라즈마",
+          "text_ja": "相手のトラッシュに、名前に「アクロマ」とつくカードがあるなら、このポケモンが「トライフロスト」を使うためのエネルギーは、エネルギー1個になる。",
+          "text_ko": "상대의 트래시에 이름에 '아크로마'가 붙은 카드가 있다면, 이 포켓몬이 '트라이 프로스트'를 사용하기 위한 에너지는 에너지 1개가 된다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "물물강철강철무색",
+          "name_ja": "トライフロスト",
+          "name_ko": "트라이 프로스트",
+          "damage": "",
+          "text_ja": "このポケモンについているエネルギーをすべてトラッシュし、相手のポケモン3匹に、それぞれ110ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "이 포켓몬에 붙어 있는 에너지를 모두 트래시하고, 상대 포켓몬 3마리에게 각각 110 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV6a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6a/045922_P_KIXYUREMU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45922",
+      "decks": [
+        "yadoking"
+      ],
+      "deckCounts": {
+        "yadoking": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50258,
+      "name_ja": "コノヨザル",
+      "name_ko": "저승갓숭",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬",
+      "hp": 150,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "くちないからだ",
+          "name_ko": "썩지 않는 몸",
+          "effect_ja": "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
+          "effect_ko": "이 포켓몬이 기술의 데미지를 받아 기절할 때 자신은 동전을 1번 던진다. 앞면이면 이 포켓몬은 기절하지 않고 남은 HP가 '10'인 상태로 필드에 남는다.",
+          "text_ja": "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
+          "text_ko": "이 포켓몬이 기술의 데미지를 받아 기절할 때 자신은 동전을 1번 던진다. 앞면이면 이 포켓몬은 기절하지 않고 남은 HP가 「10」인 상태로 필드에 남는다."
+        }
+      ],
+      "attacks": [
+        {
+          "name_ja": "ゴーストブロー",
+          "name_ko": "고스트 블로",
+          "damage": "100",
+          "effect_ja": "相手のベンチポケモン1匹に、ダメカンを5個のせる。",
+          "effect_ko": "상대 벤치 포켓몬 1마리에게 데미지카운터를 5개 올린다.",
+          "text_ja": "相手のベンチポケモン1匹に、ダメカンを5個のせる。",
+          "text_ko": "상대의 벤치 포켓몬 1마리에게 데미지카운터를 5개 올린다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050258_P_KONOYOZARU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50258",
+      "decks": [
+        "yadoking"
+      ],
+      "deckCounts": {
+        "yadoking": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46247,
+      "name_ja": "ムチュール",
+      "name_ko": "뽀뽀라",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 30,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "るんるんキッス",
+          "name_ko": "룰루랄라 키스",
+          "damage": "",
+          "text_ja": "自分の山札から「基本エネルギー」を2枚まで選び、ベンチポケモン1匹につける。そして山札を切る。",
+          "text_ko": "자신의 덱에서 '기본 에너지'를 2장까지 골라, 벤치 포켓몬 1마리에게 붙인다. 그리고 덱을 섞는다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV7a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV7a/046247_P_MUCHIXYURU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46247",
+      "decks": [
+        "yadoking"
+      ],
+      "deckCounts": {
+        "yadoking": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47579,
+      "name_ja": "リグレー",
+      "name_ko": "리그레",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 60,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "초",
+          "name_ja": "ちょっとずらす",
+          "name_ko": "살짝 옮기기",
+          "damage": "",
+          "text_ja": "相手の場のポケモンについているエネルギーを1個選び、相手の別のポケモンにつけ替える。",
+          "text_ko": "상대 필드의 포켓몬에 붙어 있는 에너지를 1개 골라, 상대의 다른 포켓몬에게 옮겨 붙인다."
+        },
+        {
+          "cost_ko": "무색무색무색",
+          "name_ja": "ビーム",
+          "name_ko": "빔",
+          "damage": "40",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV11B",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV11B/047579_P_RIGURE.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47579",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50278,
+      "name_ja": "タテトプス",
+      "name_ko": "방패톱스",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 100,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "강철무색",
+          "name_ja": "くだく",
+          "name_ko": "부수기",
+          "damage": "50",
+          "text_ja": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+          "text_ko": "상대의 배틀 포켓몬에 붙어 있는 에너지를 1개 선택해 트래시한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050278_P_TATETOPUSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50278",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50279,
+      "name_ja": "トリデプス",
+      "name_ko": "바리톱스",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬",
+      "hp": 160,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "たいこのぼうへき",
+          "name_ko": "방패의 방벽",
+          "text_ja": "このポケモンがベンチにいるかぎり、自分のポケモン全員は、ついているエネルギーが2個以下の相手のポケモンからワザのダメージを受けない。",
+          "text_ko": "이 포켓몬이 벤치에 있는 한, 자신의 포켓몬 전원은 붙어 있는 에너지가 2개 이하인 상대의 포켓몬으로부터 기술의 데미지를 받지 않는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "강철강철무색",
+          "name_ja": "ぶちかます",
+          "name_ko": "들이받기",
+          "damage": "160",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050279_P_TORIDEPUSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50279",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47336,
+      "name_ja": "ヒビキのウソッキー",
+      "name_ko": "히비키의 꼬지모",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 110,
+      "type_ko": "격투",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "격투",
+          "name_ja": "かこいこむ",
+          "name_ko": "가두기",
+          "damage": "20",
+          "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+          "text_ko": "다음 상대 차례에, 이 기술을 받은 포켓몬은 도망칠 수 없다."
+        },
+        {
+          "cost_ko": "무색무색",
+          "name_ja": "まねてみる",
+          "name_ko": "흉내내기",
+          "damage": "",
+          "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンが持つワザを1つ選び、このワザとして使う。",
+          "text_ko": "코인을 1번 던져 앞면이면, 상대의 배틀 포켓몬이 가진 기술을 1개 골라 이 기술로 사용한다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV9a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV9a/047336_P_HIBIKINOUSOKKI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47336",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45981,
+      "name_ja": "キュワワー",
+      "name_ko": "큐아링",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "초",
+          "name_ja": "フラワーシャワー",
+          "name_ko": "플라워 샤워",
+          "damage": "",
+          "text_ja": "おたがいのプレイヤーは、それぞれ山札を3枚引く。",
+          "text_ko": "서로의 플레이어는 각각 덱에서 3장을 뽑는다."
+        },
+        {
+          "cost_ko": "초",
+          "name_ja": "じゃれつく",
+          "name_ko": "어리광부리기",
+          "damage": "20＋",
+          "text_ja": "コインを1回投げオモテなら、20ダメージ追加。",
+          "text_ko": "코인을 1번 던져 앞면이면, 20 데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV7",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV7/045981_P_KIXYUWAWA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45981",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46020,
+      "name_ja": "バッフロン",
+      "name_ko": "버프론",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 100,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "カーリーウォール",
+          "name_ko": "컬리 월",
+          "text_ja": "このポケモンと、自分の別の「バッフロン」がいるかぎり、自分の無色タイプのたねポケモン全員が、相手のポケモンから受けるワザのダメージは「-60」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
+          "text_ko": "이 포켓몬과 자신의 다른 '버프론'이 있는 한, 자신의 무색 타입 기본 포켓몬 전원이 상대 포켓몬에게서 받는 기술 데미지가 '-60'된다. 이 효과는 이 특성을 가진 포켓몬이 몇 마리 있어도 중복되지 않는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "무색무색무색",
+          "name_ja": "そこぢから",
+          "name_ko": "저력",
+          "damage": "130",
+          "text_ja": "次の自分の番、このポケモンはワザが使えない。",
+          "text_ko": "다음 자신의 차례에, 이 포켓몬은 기술을 사용할 수 없다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV7",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV7/046020_P_BAFFURON.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46020",
+      "decks": [
+        "mega-garura"
+      ],
+      "deckCounts": {
+        "mega-garura": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48809,
+      "name_ja": "パルデアケンタロス",
+      "name_ko": "팔데아 켄타로스",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 130,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "불꽃",
+          "name_ja": "うしろげり",
+          "name_ko": "뒷발차기",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "cost_ko": "불꽃무색무색",
+          "name_ja": "きあいタックル",
+          "name_ko": "기합 태클",
+          "damage": "90＋",
+          "text_ja": "相手のバトルポケモンが1進化ポケモンなら、90ダメージ追加。",
+          "text_ko": "상대의 배틀 포켓몬이 1단계 진화 포켓몬이라면, 90 데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048809_P_PARUDEAKENTAROSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48809",
+      "decks": [
+        "mega-garura"
+      ],
+      "deckCounts": {
+        "mega-garura": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47750,
+      "name_ja": "エースバーン",
+      "name_ko": "에이스번",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬",
+      "hp": 160,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "しゅんぱつりょく",
+          "name_ko": "순발력",
+          "text_ja": "対戦準備でポケモンをバトル場に出すとき、このカードが手札にあるなら、ウラにしてバトル場に出してよい。",
+          "text_ko": "대전 준비에서 포켓몬을 배틀 필드에 낼 때, 이 카드가 패에 있다면 뒷면으로 배틀 필드에 내도 된다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "フレアターボ",
+          "name_ko": "플레어 터보",
+          "damage": "50",
+          "text_ja": "自分の山札から基本エネルギーを3枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
+          "text_ko": "자신의 덱에서 기본 에너지를 3장까지 골라, 벤치 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M1L",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047750_P_ESUBAN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47750",
+      "decks": [
+        "mega-absol"
+      ],
+      "deckCounts": {
+        "mega-absol": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47771,
+      "name_ja": "メガアブソルex",
+      "name_ko": "메가 앱솔 ex",
+      "category": "pokemon",
+      "subtype_ko": "메가진화 ex",
+      "hp": 280,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악무색",
+          "name_ja": "デスピリオド",
+          "name_ko": "데스 피리어드",
+          "damage": "",
+          "text_ja": "相手のバトルポケモンにのっているダメカンが6個なら、そのポケモンをきぜつさせる。",
+          "text_ko": "상대의 배틀 포켓몬에 올려진 데미지 카운터가 6개라면, 그 포켓몬을 기절시킨다."
+        },
+        {
+          "cost_ko": "악악무색",
+          "name_ja": "あくのかぎづめ",
+          "name_ko": "악의 갈고리발톱",
+          "damage": "200",
+          "text_ja": "相手の手札を見て、その中からカードを1枚選び、トラッシュする。",
+          "text_ko": "상대의 패를 보고, 그 중에서 카드를 1장 골라 트래시한다."
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+      "set": "M1L",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047771_P_MABUSORUEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47771",
+      "decks": [
+        "mega-absol"
+      ],
+      "deckCounts": {
+        "mega-absol": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49318,
+      "name_ja": "メガタブンネex",
+      "name_ko": "메가 다부니 ex",
+      "category": "pokemon",
+      "subtype_ko": "메가진화 ex",
+      "hp": 270,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "カレイドワルツ",
+          "name_ko": "칼레이도 왈츠",
+          "damage": "",
+          "text_ja": "コインを3回投げ、オモテの数×2枚ぶんまで、自分の山札から基本エネルギーを選び、自分のポケモンに好きなようにつける。そして山札を切る。",
+          "text_ko": "코인을 3번 던져, 앞면의 수×2장만큼, 자신의 덱에서 기본 에너지를 골라 자신의 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다."
+        },
+        {
+          "cost_ko": "무색무색무색",
+          "name_ja": "イヤーフォース",
+          "name_ko": "이어 포스",
+          "damage": "20＋",
+          "text_ja": "相手のバトルポケモンについているエネルギーの数×80ダメージ追加。",
+          "text_ko": "상대의 배틀 포켓몬에 붙어 있는 에너지의 수×80 데미지 추가."
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049318_P_MTABUNNEEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49318",
+      "decks": [
+        "mega-absol"
+      ],
+      "deckCounts": {
+        "mega-absol": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49144,
+      "name_ja": "オーガポン いしずえのめんex",
+      "name_ko": "오거폰 초석의 가면 ex",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬 ex",
+      "hp": 210,
+      "type_ko": "격투",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "いしずえのかまえ",
+          "name_ko": "초석의 자세",
+          "text_ja": "このポケモンは、相手の特性を持つポケモンからワザのダメージを受けない。",
+          "text_ko": "이 포켓몬은 상대의 특성을 가진 포켓몬에게서 기술 데미지를 받지 않는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "격투무색무색",
+          "name_ja": "ぶちやぶる",
+          "name_ko": "부수기",
+          "damage": "140",
+          "text_ja": "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
+          "text_ko": "이 기술의 데미지는 약점·저항력과, 상대의 배틀 포켓몬에 걸려 있는 효과를 계산하지 않는다."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049144_P_OGAPONISHIZUENOMENEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49144",
+      "decks": [
+        "mega-absol",
+        "iineinu"
+      ],
+      "deckCounts": {
+        "mega-absol": 1,
+        "iineinu": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47403,
+      "name_ja": "ミニーブ",
+      "name_ko": "미니브",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 60,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "ぶつかる",
+          "name_ko": "부딪치기",
+          "damage": "10",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV10",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV10/047403_P_MINIBU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47403",
+      "decks": [
+        "olive"
+      ],
+      "deckCounts": {
+        "olive": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48786,
+      "name_ja": "オリーニョ",
+      "name_ko": "올리뇨",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 90,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "풀",
+          "name_ja": "えいようそ",
+          "name_ko": "영양소",
+          "damage": "",
+          "text_ja": "自分のポケモン1匹のHPを「40」回復する。",
+          "text_ko": "자신의 포켓몬 1마리의 HP를 '40' 회복한다."
+        },
+        {
+          "cost_ko": "무색무색",
+          "name_ja": "たいあたり",
+          "name_ko": "몸통박치기",
+          "damage": "40",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/048786_P_ORINIXYO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48786",
+      "decks": [
+        "olive"
+      ],
+      "deckCounts": {
+        "olive": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49477,
+      "name_ja": "オリーヴァex",
+      "name_ko": "올리르바 ex",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬 ex",
+      "hp": 310,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "풀",
+          "name_ja": "オイルマシンガン",
+          "name_ko": "오일 머신건",
+          "damage": "",
+          "text_ja": "相手のポケモンを6回選び、選んだポケモン全員に、弱点・抵抗力を計算せず、選んだ回数×20ダメージ。（1匹を2回以上選べる。）",
+          "text_ko": "상대 포켓몬을 6번 골라, 고른 포켓몬 전원에게 약점·저항력을 계산하지 않고, 고른 횟수×20 데미지. (1마리를 2번 이상 고를 수 있다.)"
+        },
+        {
+          "cost_ko": "무색무색무색",
+          "name_ja": "アロマシュート",
+          "name_ko": "아로마 슛",
+          "damage": "160",
+          "text_ja": "このポケモンの特殊状態を、すべて回復する。",
+          "text_ko": "이 포켓몬의 특수 상태를 모두 회복한다."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049477_P_ORIVUAEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49477",
+      "decks": [
+        "olive"
+      ],
+      "deckCounts": {
+        "olive": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49142,
+      "name_ja": "イイネイヌ",
+      "name_ko": "이이네이누",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 130,
+      "type_ko": "격투",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "アドレナパワー",
+          "name_ko": "아드레나 파워",
+          "text_ja": "このポケモンにエネルギーがついているなら、このポケモンの最大HPは「＋100」され、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+100」される。",
+          "text_ko": "이 포켓몬에 에너지가 붙어 있다면, 이 포켓몬의 최대 HP가 '+100'되고, 이 포켓몬이 사용하는 기술의 상대 배틀 포켓몬에 대한 데미지가 '+100'된다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "격투격투",
+          "name_ja": "グッドパンチ",
+          "name_ko": "굿 펀치",
+          "damage": "70",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049142_P_IINEINU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49142",
+      "decks": [
+        "iineinu"
+      ],
+      "deckCounts": {
+        "iineinu": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49674,
+      "name_ja": "カメテテ",
+      "name_ko": "거북손손",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 80,
+      "type_ko": "격투",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "격투",
+          "name_ja": "ダブルドロー",
+          "name_ko": "더블 드로우",
+          "damage": "",
+          "text_ja": "自分の山札を2枚引く。",
+          "text_ko": "자신의 덱에서 2장을 뽑는다."
+        },
+        {
+          "cost_ko": "격투격투",
+          "name_ja": "ひっかく",
+          "name_ko": "할퀴기",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M3",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049674_P_KAMETETE.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49674",
+      "decks": [
+        "iineinu"
+      ],
+      "deckCounts": {
+        "iineinu": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49675,
+      "name_ja": "ガメノデス",
+      "name_ko": "거북손데스",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 130,
+      "type_ko": "격투",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "ストーンアームズ",
+          "name_ko": "스톤 암즈",
+          "text_ja": "自分の番に1回使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。",
+          "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 패에서 '기본 에너지'를 1장 골라, 자신의 포켓몬에게 붙인다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "격투격투무색",
+          "name_ja": "ぶちかます",
+          "name_ko": "들이받기",
+          "damage": "80",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M3",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049675_P_GAMENODESU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49675",
+      "decks": [
+        "iineinu"
+      ],
+      "deckCounts": {
+        "iineinu": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45773,
+      "name_ja": "シャリタツ",
+      "name_ko": "싸리용",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "드래곤",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "きゃくよせ",
+          "name_ko": "손님 끌기",
+          "text_ja": "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を上から6枚見て、その中からサポートを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+          "text_ko": "이 포켓몬이 배틀 필드에 있다면, 자신의 차례에 1번 쓸 수 있다. 자신의 덱 위에서 6장을 보고, 그 중에서 서포트를 1장 골라, 상대에게 보여주고 패에 넣는다. 남은 카드는 덱으로 되돌려 섞는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "불꽃물",
+          "name_ja": "なみのり",
+          "name_ko": "파도타기",
+          "damage": "50",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV6",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045773_P_SHIXYARITATSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45773",
+      "decks": [
+        "iineinu"
+      ],
+      "deckCounts": {
+        "iineinu": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49653,
+      "name_ja": "ヒトデマン",
+      "name_ko": "별가사리",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "물",
+          "name_ja": "みずでっぽう",
+          "name_ko": "물대포",
+          "damage": "20",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M3",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049653_P_HITODEMAN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49653",
+      "decks": [
+        "mega-starmie"
+      ],
+      "deckCounts": {
+        "mega-starmie": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49654,
+      "name_ja": "メガスターミーex",
+      "name_ko": "메가 아쿠스타 ex",
+      "category": "pokemon",
+      "subtype_ko": "메가진화 ex",
+      "hp": 330,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "물",
+          "name_ja": "ジェットブロー",
+          "name_ko": "제트 블로",
+          "damage": "120",
+          "text_ja": "相手のベンチポケモン1匹にも、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "상대의 벤치 포켓몬 1마리에게도 50 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+        },
+        {
+          "cost_ko": "무색무색무색",
+          "name_ja": "ネビュラビーム",
+          "name_ko": "네뷸라 빔",
+          "damage": "210",
+          "text_ja": "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
+          "text_ko": "이 기술의 데미지는 약점·저항력과, 상대의 배틀 포켓몬에 걸려 있는 효과를 계산하지 않는다."
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+      "set": "M3",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049654_P_MSUTAMIEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49654",
+      "decks": [
+        "mega-starmie"
+      ],
+      "deckCounts": {
+        "mega-starmie": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48557,
+      "name_ja": "ユキワラシ",
+      "name_ko": "눈꼬마",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "물",
+          "name_ja": "ひんやり",
+          "name_ko": "오싹오싹",
+          "damage": "10",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048557_P_YUKIWARASHI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48557",
+      "decks": [
+        "mega-starmie"
+      ],
+      "deckCounts": {
+        "mega-starmie": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45724,
+      "name_ja": "ユキメノコ",
+      "name_ko": "눈여아",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 90,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "いてつくとばり",
+          "name_ko": "얼어붙는 장막",
+          "text_ja": "このポケモンがいるかぎり、ポケモンチェックのたび、おたがいの特性を持つポケモン（「ユキメノコ」をのぞく）全員に、それぞれダメカンを1個のせる。",
+          "text_ko": "이 포켓몬이 있는 한, 포켓몬 체크마다 서로의 특성을 가진 포켓몬('눈여아' 제외) 전원에게 각각 데미지 카운터를 1개 올린다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "물무색",
+          "name_ja": "フロストスマッシュ",
+          "name_ko": "프로스트 스매시",
+          "damage": "60",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV6",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045724_P_YUKIMENOKO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45724",
+      "decks": [
+        "mega-starmie"
+      ],
+      "deckCounts": {
+        "mega-starmie": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48558,
+      "name_ja": "メガユキメノコex",
+      "name_ko": "메가 눈여아 ex",
+      "category": "pokemon",
+      "subtype_ko": "메가진화 ex",
+      "hp": 310,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "물",
+          "name_ja": "うらみぶし",
+          "name_ko": "원한",
+          "damage": "50×",
+          "text_ja": "相手の手札の枚数×50ダメージ。",
+          "text_ko": "상대의 패 매수×50 데미지."
+        },
+        {
+          "cost_ko": "물무색무색",
+          "name_ja": "アブソリュートスノー",
+          "name_ko": "앱솔루트 스노",
+          "damage": "150",
+          "text_ja": "相手のバトルポケモンをねむりにする。",
+          "text_ko": "상대의 배틀 포켓몬을 잠듦 상태로 만든다."
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048558_P_MYUKIMENOKOEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48558",
+      "decks": [
+        "mega-starmie"
+      ],
+      "deckCounts": {
+        "mega-starmie": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47276,
+      "name_ja": "ダイゴのダンバル",
+      "name_ko": "다이고의 메탕",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "강철무색",
+          "name_ja": "ぶつかる",
+          "name_ko": "부딪치기",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVOD",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOD/047276_P_DAIGONODANBARU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47276",
+      "decks": [
+        "daigo-metagross"
+      ],
+      "deckCounts": {
+        "daigo-metagross": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47277,
+      "name_ja": "ダイゴのメタング",
+      "name_ko": "다이고의 메탕구",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 100,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "강철무색",
+          "name_ja": "メタルスラッシュ",
+          "name_ko": "메탈 슬래시",
+          "damage": "70",
+          "text_ja": "次の自分の番、このポケモンはワザが使えない。",
+          "text_ko": "다음 자신의 차례에, 이 포켓몬은 기술을 사용할 수 없다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVOD",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOD/047277_P_DAIGONOMETANGU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47277",
+      "decks": [
+        "daigo-metagross"
+      ],
+      "deckCounts": {
+        "daigo-metagross": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47278,
+      "name_ja": "ダイゴのメタグロスex",
+      "name_ko": "다이고의 메타그로스 ex",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬 ex",
+      "hp": 340,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "エクスブート",
+          "name_ko": "엑스 부트",
+          "text_ja": "自分の番に1回使える。自分の山札から「基本エネルギー」をそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
+          "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 덱에서 '기본 에너지'를 종류별로 1장까지 골라, 자신의 포켓몬에게 원하는 대로 붙인다. 그리고 덱을 섞는다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "강철무색무색",
+          "name_ja": "メタルスタンプ",
+          "name_ko": "메탈 스탬프",
+          "damage": "200",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "SVOD",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOD/047278_P_DAIGONOMETAGUROSUEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47278",
+      "decks": [
+        "daigo-metagross"
+      ],
+      "deckCounts": {
+        "daigo-metagross": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47779,
+      "name_ja": "メガクチートex",
+      "name_ko": "메가 입치트 ex",
+      "category": "pokemon",
+      "subtype_ko": "메가진화 ex",
+      "hp": 270,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "강철강철",
+          "name_ja": "がっつく",
+          "name_ko": "탐식",
+          "damage": "80×",
+          "text_ja": "自分がすでにとったサイドの枚数×80ダメージ。",
+          "text_ko": "자신이 이미 가져간 사이드 매수×80 데미지."
+        },
+        {
+          "cost_ko": "강철강철무색",
+          "name_ja": "ビッグバイト",
+          "name_ko": "빅 바이트",
+          "damage": "260",
+          "text_ja": "相手のバトルポケモンにダメカンがのっているなら、このワザのダメージは「30」になる。",
+          "text_ko": "상대의 배틀 포켓몬에 데미지 카운터가 올려져 있다면, 이 기술의 데미지는 '30'이 된다."
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+      "set": "M1L",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047779_P_MKUCHITOEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47779",
+      "decks": [
+        "daigo-metagross"
+      ],
+      "deckCounts": {
+        "daigo-metagross": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49687,
+      "name_ja": "メガエアームドex",
+      "name_ko": "메가 무장조 ex",
+      "category": "pokemon",
+      "subtype_ko": "메가진화 ex",
+      "hp": 260,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "강철강철무색",
+          "name_ja": "ソニックリッパー",
+          "name_ko": "소닉 리퍼",
+          "damage": "",
+          "text_ja": "このポケモンについているエネルギーをすべて山札にもどして切り、相手のポケモン1匹に、220ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "이 포켓몬에 붙어 있는 에너지를 모두 덱으로 되돌려 섞고, 상대 포켓몬 1마리에게 220 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+      "set": "M3",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049687_P_MEAMUDOEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49687",
+      "decks": [
+        "daigo-metagross"
+      ],
+      "deckCounts": {
+        "daigo-metagross": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47780,
+      "name_ja": "ディアルガ",
+      "name_ko": "디아루가",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 140,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "강철",
+          "name_ja": "ビーム",
+          "name_ko": "빔",
+          "damage": "30",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "cost_ko": "강철강철무색",
+          "name_ja": "クロノバースト",
+          "name_ko": "크로노 버스트",
+          "damage": "80＋",
+          "text_ja": "のぞむなら、このポケモンについているエネルギーをすべて山札にもどして切り、80ダメージ追加。",
+          "text_ko": "원한다면, 이 포켓몬에 붙어 있는 에너지를 모두 덱으로 되돌려 섞고, 80 데미지 추가."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M1L",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047780_P_DEIARUGA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47780",
+      "decks": [
+        "daigo-metagross"
+      ],
+      "deckCounts": {
+        "daigo-metagross": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46410,
+      "name_ja": "モノズ",
+      "name_ko": "모노두",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악",
+          "name_ja": "ふみならす",
+          "name_ko": "발구르기",
+          "damage": "",
+          "text_ja": "相手の山札を上から1枚トラッシュする。",
+          "text_ko": "상대의 덱 위에서 1장을 트래시한다."
+        },
+        {
+          "cost_ko": "악무색",
+          "name_ja": "かみつく",
+          "name_ko": "물기",
+          "damage": "20",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV8",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8/046410_P_MONOZU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46410",
+      "decks": [
+        "sazandora"
+      ],
+      "deckCounts": {
+        "sazandora": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46411,
+      "name_ja": "ジヘッド",
+      "name_ko": "디헤드",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 100,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악",
+          "name_ja": "ふみならす",
+          "name_ko": "발구르기",
+          "damage": "",
+          "text_ja": "相手の山札を上から2枚トラッシュする。",
+          "text_ko": "상대의 덱 위에서 2장을 트래시한다."
+        },
+        {
+          "cost_ko": "악무색무색",
+          "name_ja": "やみのキバ",
+          "name_ko": "어둠의 송곳니",
+          "damage": "60",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV8",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8/046411_P_JIHEDDO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46411",
+      "decks": [
+        "sazandora"
+      ],
+      "deckCounts": {
+        "sazandora": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46412,
+      "name_ja": "サザンドラex",
+      "name_ko": "삼삼드래 ex",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬 ex",
+      "hp": 330,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악무색",
+          "name_ja": "クラッシュヘッズ",
+          "name_ko": "크래시 헤즈",
+          "damage": "200",
+          "text_ja": "相手の山札を上から3枚トラッシュする。",
+          "text_ko": "상대의 덱 위에서 3장을 트래시한다."
+        },
+        {
+          "cost_ko": "초악강철무색",
+          "name_ja": "オブシディアン",
+          "name_ko": "옵시디언",
+          "damage": "130",
+          "text_ja": "相手のベンチポケモン2匹にも、それぞれ130ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "상대의 벤치 포켓몬 2마리에게도 각각 130 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "SV8",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8/046412_P_SAZANDORAEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46412",
+      "decks": [
+        "sazandora"
+      ],
+      "deckCounts": {
+        "sazandora": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47411,
+      "name_ja": "アチャモ",
+      "name_ko": "아차모",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "もってくる",
+          "name_ko": "가져오기",
+          "damage": "",
+          "text_ja": "自分の山札を1枚引く。",
+          "text_ko": "자신의 덱에서 1장을 뽑는다."
+        },
+        {
+          "cost_ko": "불꽃",
+          "name_ja": "かえん",
+          "name_ko": "화염",
+          "damage": "10",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV10",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV10/047411_P_ACHIXYAMO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47411",
+      "decks": [
+        "sazandora"
+      ],
+      "deckCounts": {
+        "sazandora": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47412,
+      "name_ja": "ワカシャモ",
+      "name_ko": "영치코",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 100,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "かえん",
+          "name_ko": "화염",
+          "damage": "20",
+          "text_ja": "",
+          "text_ko": ""
+        },
+        {
+          "cost_ko": "불꽃무색",
+          "name_ja": "にどげり",
+          "name_ko": "두번차기",
+          "damage": "40×",
+          "text_ja": "コインを2回投げ、オモテの数×40ダメージ。",
+          "text_ko": "코인을 2번 던져, 앞면의 수×40 데미지."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV10",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV10/047412_P_WAKASHIXYAMO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47412",
+      "decks": [
+        "sazandora"
+      ],
+      "deckCounts": {
+        "sazandora": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46470,
+      "name_ja": "バシャーモex",
+      "name_ko": "번치코 ex",
+      "category": "pokemon",
+      "subtype_ko": "2단계 포켓몬 ex",
+      "hp": 320,
+      "type_ko": "불꽃",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "たぎるとうし",
+          "name_ko": "끓어오르는 투지",
+          "text_ja": "自分の番に1回使える。自分のトラッシュから基本エネルギーを1枚選び、自分のポケモンにつける。",
+          "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 트래시에서 기본 에너지를 1장 골라, 자신의 포켓몬에게 붙인다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "불꽃무색",
+          "name_ja": "バーニングソルト",
+          "name_ko": "버닝 솔트",
+          "damage": "200",
+          "text_ja": "次の自分の番、このポケモンはワザが使えない。",
+          "text_ko": "다음 자신의 차례에, 이 포켓몬은 기술을 사용할 수 없다."
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "SVM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVM/046470_P_BASHIXYAMOEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46470",
+      "decks": [
+        "sazandora"
+      ],
+      "deckCounts": {
+        "sazandora": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47773,
+      "name_ja": "イベルタル",
+      "name_ko": "이벨타르",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 110,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "악",
+          "name_ja": "わしづかみ",
+          "name_ko": "움켜잡기",
+          "damage": "20",
+          "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+          "text_ko": "다음 상대 차례에, 이 기술을 받은 포켓몬은 도망칠 수 없다."
+        },
+        {
+          "cost_ko": "악악무색",
+          "name_ja": "ダークフェザー",
+          "name_ko": "다크 페더",
+          "damage": "110",
+          "text_ja": "",
+          "text_ko": ""
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M1L",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047773_P_IBERUTARU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47773",
+      "decks": [
+        "sazandora"
+      ],
+      "deckCounts": {
+        "sazandora": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46711,
+      "name_ja": "オーガポン いどのめんex",
+      "name_ko": "오거폰 우물의 가면 ex",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬 ex",
+      "hp": 210,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "cost_ko": "무색",
+          "name_ja": "すすりなく",
+          "name_ko": "훌쩍이기",
+          "damage": "20",
+          "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+          "text_ko": "다음 상대 차례에, 이 기술을 받은 포켓몬은 도망칠 수 없다."
+        },
+        {
+          "cost_ko": "물무색무색",
+          "name_ja": "げきりゅうポンプ",
+          "name_ko": "격류 펌프",
+          "damage": "100",
+          "text_ja": "のぞむなら、このポケモンについているエネルギーを3個選び、山札にもどして切る。その場合、相手のベンチポケモン1匹にも、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "원한다면, 이 포켓몬에 붙어 있는 에너지를 3개 골라 덱으로 되돌려 섞는다. 그 경우, 상대의 벤치 포켓몬 1마리에게도 120 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "SV8a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046711_P_OGAPONIDONOMENEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46711",
+      "decks": [
+        "ogerpon-bullet"
+      ],
+      "deckCounts": {
+        "ogerpon-bullet": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49206,
+      "name_ja": "モモワロウ",
+      "name_ko": "복숭악동",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 80,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "もうどくしはい",
+          "name_ko": "맹독 지배",
+          "text_ja": "このポケモンがバトル場にいるかぎり、相手のどくのポケモンは、どくでのせるダメカンの数が5個多くなる。",
+          "text_ko": "이 포켓몬이 배틀 필드에 있는 한, 상대의 독 상태 포켓몬은 독으로 올리는 데미지 카운터의 수가 5개 많아진다."
+        }
+      ],
+      "attacks": [
+        {
+          "cost_ko": "악무색",
+          "name_ja": "ポイズンチェーン",
+          "name_ko": "포이즌 체인",
+          "damage": "10",
+          "text_ja": "相手のバトルポケモンをどくにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
+          "text_ko": "상대의 배틀 포켓몬을 독 상태로 만든다. 다음 상대 차례에, 이 기술을 받은 포켓몬은 도망칠 수 없다."
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049206_P_MOMOWAROU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49206",
+      "decks": [
+        "ogerpon-bullet"
+      ],
+      "deckCounts": {
+        "ogerpon-bullet": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
       "id": 49376,
       "name_ja": "ポケギア3.0",
       "name_ko": "포켓기어 3.0",
@@ -6634,10 +9139,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049376_T_POKEGIA30.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49376",
       "decks": [
-        "omatsuriondo"
+        "omatsuriondo",
+        "wailord",
+        "mega-garura",
+        "mega-absol"
       ],
       "deckCounts": {
-        "omatsuriondo": 1
+        "omatsuriondo": 1,
+        "wailord": 1,
+        "mega-garura": 1,
+        "mega-absol": 1
       },
       "tiers": [
         4
@@ -6660,10 +9171,12 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048673_T_TSURUSUKURAPPA.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48673",
       "decks": [
-        "omatsuriondo"
+        "omatsuriondo",
+        "iineinu"
       ],
       "deckCounts": {
-        "omatsuriondo": 1
+        "omatsuriondo": 1,
+        "iineinu": 1
       },
       "tiers": [
         4
@@ -6686,10 +9199,12 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV9/047104_T_TAKESHINOSUKAUTO.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47104",
       "decks": [
-        "omatsuriondo"
+        "omatsuriondo",
+        "daigo-metagross"
       ],
       "deckCounts": {
-        "omatsuriondo": 1
+        "omatsuriondo": 1,
+        "daigo-metagross": 1
       },
       "tiers": [
         4
@@ -6816,10 +9331,12 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MBG/048274_T_PURAIMUKIXYATCHIXYA.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48274",
       "decks": [
-        "mega-chandelure"
+        "mega-chandelure",
+        "yadoking"
       ],
       "deckCounts": {
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "yadoking": 1
       },
       "tiers": [
         4
@@ -6842,10 +9359,640 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049421_T_KUSEROSHIKINOTAKURAMI.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49421",
       "decks": [
-        "mega-chandelure"
+        "mega-chandelure",
+        "riguree-control"
       ],
       "deckCounts": {
-        "mega-chandelure": 1
+        "mega-chandelure": 1,
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49380,
+      "name_ja": "ポケモン回収サイクロン",
+      "name_ko": "포켓몬 회수 사이클론",
+      "category": "trainer",
+      "subtype_ko": "굿즈 (ACE SPEC)",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の場のポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。グッズは、自分の番に何枚でも使える。（ACE SPECのカードは、デッキに1枚しか入れられない。）",
+      "text_ko": "자신의 필드의 포켓몬을 1마리 골라, 그 포켓몬과 붙어 있는 모든 카드를 패로 되돌린다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다. (ACE SPEC 카드는 덱에 1장만 넣을 수 있다.)",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049380_T_POKEMONKAISHIXYUUSAIKURON.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49380",
+      "decks": [
+        "wailord",
+        "olive"
+      ],
+      "deckCounts": {
+        "wailord": 1,
+        "olive": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45283,
+      "name_ja": "ヘビーバトン",
+      "name_ko": "헤비 바톤",
+      "category": "trainer",
+      "subtype_ko": "포켓몬의 도구",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードをつけているにげるためのエネルギーが4個のポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、そのポケモンについている基本エネルギーを3枚まで選び、自分のベンチポケモンに好きなようにつけ替える。ポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。",
+      "text_ko": "이 카드를 붙인, 도주에 필요한 에너지가 4개인 포켓몬이 배틀 필드에서 상대 포켓몬의 기술 데미지를 받아 기절했을 때, 그 포켓몬에 붙어 있는 기본 에너지를 3장까지 골라, 자신의 벤치 포켓몬에게 원하는 대로 옮겨 붙인다. 포켓몬의 도구는, 자신의 차례에 몇 장이든 자신의 포켓몬에게 붙일 수 있다.",
+      "set": "SV5M",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV5M/045283_T_HEBIBATON.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45283",
+      "decks": [
+        "wailord"
+      ],
+      "deckCounts": {
+        "wailord": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50294,
+      "name_ja": "カスミの元気",
+      "name_ko": "이슬의 활기(カスミの元気)",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードを使ったなら、自分の番は終わる。自分の山札から『基本エネルギー』を4枚まで選び、自分のポケモン1匹につける。そして山札を切る。\n\nサポートは、自分の番に1枚しか使えない。",
+      "text_ko": "이 카드를 사용했다면 자신의 차례는 끝난다. 자신의 덱에서 '기본 에너지'를 4장까지 선택해 자신의 포켓몬 1마리에게 붙인다. 그리고 덱을 섞는다.\n\n서포트는 자신의 차례에 1장만 사용할 수 있다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050294_T_KASUMINOGENKI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50294",
+      "decks": [
+        "wailord"
+      ],
+      "deckCounts": {
+        "wailord": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49436,
+      "name_ja": "ハイダイ",
+      "name_ko": "하이다이",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の手札を2枚選び、好きな順番に入れ替えて、山札の下にもどす。その後、山札を4枚引く。（自分の手札を2枚もどせないなら、このカードは使えない。）サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "자신의 패를 2장 골라, 원하는 순서로 바꿔 덱 맨 아래로 되돌린다. 그 후, 덱에서 4장을 뽑는다. (자신의 패를 2장 되돌릴 수 없다면 이 카드는 사용할 수 없다.) 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049436_T_HAIDAI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49436",
+      "decks": [
+        "wailord"
+      ],
+      "deckCounts": {
+        "wailord": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50009,
+      "name_ja": "サーファー",
+      "name_ko": "서퍼",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分のバトルポケモンをベンチポケモンと入れ替える。その後、自分の手札が5枚になるように、山札を引く。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "자신의 배틀 포켓몬을 벤치 포켓몬과 교체한다. 그 후, 자신의 패가 5장이 되도록 덱을 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/050009_T_SAFUA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50009",
+      "decks": [
+        "yadoking"
+      ],
+      "deckCounts": {
+        "yadoking": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45939,
+      "name_ja": "夜のアカデミー",
+      "name_ko": "밤의 아카데미",
+      "category": "trainer",
+      "subtype_ko": "스타디움",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の手札を1枚選び、山札の上にもどしてよい。スタジアムは、自分の番に1枚、バトル場の横に出せる。",
+      "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 패를 1장 골라 덱 위로 되돌려도 된다. 스타디움은, 자신의 차례에 1장, 배틀 필드 옆에 낼 수 있다.",
+      "set": "SV6a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6a/045939_T_YORUNOAKADEMI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45939",
+      "decks": [
+        "yadoking"
+      ],
+      "deckCounts": {
+        "yadoking": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47098,
+      "name_ja": "とりかえチケット",
+      "name_ko": "교환 티켓",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分のサイドを数えたあと、すべてウラにして切り、山札の下にもどす。その後、もどした枚数ぶん、山札を上からサイドとして置く。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "자신의 사이드를 센 후, 모두 뒷면으로 하여 섞어 덱 맨 아래로 되돌린다. 그 후, 되돌린 매수만큼 덱 위에서 사이드로 놓는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
+      "set": "SV9",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV9/047098_T_TORIKAECHIKETTO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47098",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50291,
+      "name_ja": "古びたたての化石",
+      "name_ko": "오래된 방패 화석",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": 60,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、HP60の無色タイプのたねポケモンとして、場に出せる。このカードは、特殊状態にならず、にげられない。自分の番の中でなら、場に出ているこのカードをトラッシュできる。グッズは、自分の番に何枚でも使える。\n\n特性：たてのまもり\nこのポケモンがバトル場にいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-10」される。",
+      "text_ko": "이 카드는 HP60의 무색 타입 기본 포켓몬으로서 필드에 내보낼 수 있다. 이 카드는 특수 상태가 되지 않으며 후퇴할 수 없다. 자신의 차례 중이라면 필드에 나와 있는 이 카드를 트래시할 수 있다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.\n\n특성: 방패의 수호(たてのまもり)\n이 포켓몬이 배틀필드에 있는 한, 자신의 모든 포켓몬이 상대 포켓몬으로부터 받는 기술 데미지가 '-10' 된다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050291_T_FURUBITATATENOKASEKI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50291",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45783,
+      "name_ja": "シークレットボックス",
+      "name_ko": "시크릿 박스",
+      "category": "trainer",
+      "subtype_ko": "굿즈 (ACE SPEC)",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、自分の手札を3枚トラッシュしなければ使えない。自分の山札から「グッズ」「ポケモンのどうぐ」「サポート」「スタジアム」を1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。（ACE SPECのカードは、デッキに1枚しか入れられない。）",
+      "text_ko": "이 카드는, 자신의 패를 3장 트래시하지 않으면 사용할 수 없다. 자신의 덱에서 '굿즈' '포켓몬의 도구' '서포트' '스타디움'을 1장씩 골라, 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. (ACE SPEC 카드는 덱에 1장만 넣을 수 있다.)",
+      "set": "SV6",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045783_T_SHIKURETTOBOKKUSU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45783",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45786,
+      "name_ja": "ハンディサーキュレーター",
+      "name_ko": "핸디 서큘레이터",
+      "category": "trainer",
+      "subtype_ko": "포켓몬의 도구",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードをつけているポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンについているエネルギーを1個選び、相手のベンチポケモンにつけ替える。ポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。",
+      "text_ko": "이 카드를 붙인 포켓몬이 배틀 필드에서 상대 포켓몬의 기술 데미지를 받았을 때, 기술을 사용한 포켓몬에 붙어 있는 에너지를 1개 골라, 상대의 벤치 포켓몬에게 옮겨 붙인다. 포켓몬의 도구는, 자신의 차례에 몇 장이든 자신의 포켓몬에게 붙일 수 있다.",
+      "set": "SV6",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV6/045786_T_HANDEISAKIXYURETA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45786",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50296,
+      "name_ja": "サビ組のしたっぱ",
+      "name_ko": "사비단의 부하(サビ組のしたっぱ)",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。\n相手の場のポケモンについているエネルギーを1個選び、トラッシュする。\n\nサポートは、自分の番に1枚しか使えない。",
+      "text_ko": "이 카드는 직전 상대의 차례에 자신의 포켓몬이 기절하지 않았다면 사용할 수 없다.\n상대 필드의 포켓몬에 붙어 있는 에너지를 1개 선택해 트래시한다.\n\n서포트는 자신의 차례에 1장만 사용할 수 있다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050296_T_SABIGUMINOSHITAPPA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50296",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50298,
+      "name_ja": "化石採掘場",
+      "name_ko": "화석 채굴장",
+      "category": "trainer",
+      "subtype_ko": "스타디움",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札から、名前に『古びた』とつくグッズを2枚まで選び、ベンチに出してよい。そして山札を切る。\n\nスタジアム共通ルール：自分の番に1枚、バトル場の横に出せる。別のスタジアムが場に出たなら、このカードをトラッシュする。同じ名前のスタジアムは場に出せない。",
+      "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 덱에서 이름에 '古びた(오래된)'이 붙는 굿즈를 2장까지 선택해 벤치에 내보내도 된다. 그리고 덱을 섞는다.\n\n스타디움 공통 규칙: 자신의 차례에 1장, 배틀필드 옆에 내보낼 수 있다. 다른 스타디움이 필드에 나오면 이 카드를 트래시한다. 같은 이름의 스타디움은 필드에 내보낼 수 없다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050298_T_KASEKISAIKUTSUJIXYOU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50298",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50293,
+      "name_ja": "リトライバッジ",
+      "name_ko": "리트라이 배지(リトライバッジ)",
+      "category": "trainer",
+      "subtype_ko": "포켓몬의 도구",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の番ごとに1回、このカードをつけているポケモンのワザで自分がコインを投げたとき、そのコインの結果をすべてなくし、はじめからコインを投げなおしてよい。\n\nポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
+      "text_ko": "자신의 차례마다 1번, 이 카드를 붙이고 있는 포켓몬의 기술로 자신이 동전을 던졌을 때, 그 동전의 결과를 모두 없애고 처음부터 동전을 다시 던져도 된다.\n\n포켓몬의 도구는 자신의 차례에 몇 장이든 자신의 포켓몬에게 붙일 수 있다. 포켓몬 1마리당 1장만 붙일 수 있으며, 붙인 채로 둔다.",
+      "set": "M5",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050293_T_RITORAIBAJJI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50293",
+      "decks": [
+        "mega-garura",
+        "mega-absol"
+      ],
+      "deckCounts": {
+        "mega-garura": 1,
+        "mega-absol": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49710,
+      "name_ja": "ミアレシティ",
+      "name_ko": "미아레 시티",
+      "category": "trainer",
+      "subtype_ko": "스타디움",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札からたねポケモンを1枚選び、ベンチに出してよい。そして山札を切る。この効果を使ったなら、自分の番は終わる。スタジアムは、自分の番に1枚、バトル場の横に出せる。",
+      "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 덱에서 기본 포켓몬을 1장 골라 벤치에 내보내도 된다. 그리고 덱을 섞는다. 이 효과를 사용했다면 자신의 차례는 끝난다. 스타디움은, 자신의 차례에 1장, 배틀 필드 옆에 낼 수 있다.",
+      "set": "M3",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049710_T_MIARESHITEI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49710",
+      "decks": [
+        "mega-garura"
+      ],
+      "deckCounts": {
+        "mega-garura": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48680,
+      "name_ja": "メガシグナル",
+      "name_ko": "메가 시그널",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札から「メガシンカex」を1枚選び、相手に見せて、手札に加える。そして山札を切る。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "자신의 덱에서 '메가진화 ex'를 1장 골라, 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
+      "set": "M2a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2a/048680_T_MSHIGUNARU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48680",
+      "decks": [
+        "mega-absol"
+      ],
+      "deckCounts": {
+        "mega-absol": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49355,
+      "name_ja": "エネルギー転送",
+      "name_ko": "에너지 전송",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札から基本エネルギーを1枚選び、相手に見せて、手札に加える。そして山札を切る。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "자신의 덱에서 기본 에너지를 1장 골라, 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049355_T_ENERUGITENSOU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49355",
+      "decks": [
+        "mega-absol"
+      ],
+      "deckCounts": {
+        "mega-absol": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47705,
+      "name_ja": "クラウン",
+      "name_ko": "크라운",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、自分はコインを1回投げ、オモテなら自分は5枚、相手は3枚、山札を引く。ウラなら自分は3枚、相手は5枚、山札を引く。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "서로의 플레이어는 각각 패를 모두 덱으로 되돌려 섞는다. 그 후, 자신은 코인을 1번 던져 앞면이면 자신은 5장, 상대는 3장 덱을 뽑는다. 뒷면이면 자신은 3장, 상대는 5장 덱을 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "SV11W",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV11W/047705_T_KURAUN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47705",
+      "decks": [
+        "mega-absol"
+      ],
+      "deckCounts": {
+        "mega-absol": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49423,
+      "name_ja": "ゴヨウ",
+      "name_ko": "고요",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、おたがいのプレイヤーは、それぞれコインを1回投げ、オモテなら6枚、ウラなら3枚、山札を引く。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "서로의 플레이어는 각각 자신의 패를 모두 뒷면으로 하여 섞어 덱 맨 아래로 되돌린다. 그 후, 서로의 플레이어는 각각 코인을 1번 던져 앞면이면 6장, 뒷면이면 3장 덱을 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049423_T_GOYOU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49423",
+      "decks": [
+        "mega-absol"
+      ],
+      "deckCounts": {
+        "mega-absol": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46445,
+      "name_ja": "エキサイトスタジアム",
+      "name_ko": "익사이트 스타디움",
+      "category": "trainer",
+      "subtype_ko": "스타디움",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいの場のたねポケモン全員の最大HPは、それぞれ「＋30」される。スタジアムは、自分の番に1枚、バトル場の横に出せる。",
+      "text_ko": "서로의 필드의 기본 포켓몬 전원의 최대 HP가 각각 '+30'된다. 스타디움은, 자신의 차례에 1장, 배틀 필드 옆에 낼 수 있다.",
+      "set": "SV8",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8/046445_T_EKISAITOSUTAJIAMU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46445",
+      "decks": [
+        "mega-absol"
+      ],
+      "deckCounts": {
+        "mega-absol": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49443,
+      "name_ja": "マツバの確信",
+      "name_ko": "마츠바의 확신",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、自分の手札を1枚トラッシュしなければ使えない。相手のベンチポケモンの数ぶん、自分の山札を引く。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "이 카드는, 자신의 패를 1장 트래시하지 않으면 사용할 수 없다. 상대의 벤치 포켓몬 수만큼 자신의 덱을 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049443_T_MATSUBANOKAKUSHIN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49443",
+      "decks": [
+        "iineinu"
+      ],
+      "deckCounts": {
+        "iineinu": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49706,
+      "name_ja": "タラゴン",
+      "name_ko": "타라곤",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分のトラッシュからポケモンと「基本エネルギー」を合計4枚まで選び、相手に見せて、手札に加える。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "자신의 트래시에서 포켓몬과 '기본 에너지'를 합계 4장까지 골라, 상대에게 보여주고 패에 넣는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "M3",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M3/049706_T_TARAGON.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49706",
+      "decks": [
+        "iineinu"
+      ],
+      "deckCounts": {
+        "iineinu": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49605,
+      "name_ja": "インフルエンサーの紹介",
+      "name_ko": "인플루언서의 소개",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "好きなポケモンを相手に紹介しながら、自分の山札を3枚引く。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "좋아하는 포켓몬을 상대에게 소개하면서, 자신의 덱에서 3장을 뽑는다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "M-P",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M-P/049605_T_INFURUENSANOSHIXYOUKAI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49605",
+      "decks": [
+        "sazandora"
+      ],
+      "deckCounts": {
+        "sazandora": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47190,
+      "name_ja": "テラスタルオーブ",
+      "name_ko": "테라스탈 오브",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札から「テラスタル」のポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。グッズは、自分の番に何枚でも使える。",
+      "text_ko": "자신의 덱에서 '테라스탈' 포켓몬을 1장 골라, 상대에게 보여주고 패에 넣는다. 그리고 덱을 섞는다. 굿즈는, 자신의 차례에 몇 장이든 사용할 수 있다.",
+      "set": "SVN",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVN/047190_T_TERASUTARUOBU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47190",
+      "decks": [
+        "ogerpon-bullet"
+      ],
+      "deckCounts": {
+        "ogerpon-bullet": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47619,
+      "name_ja": "Nの筋書き",
+      "name_ko": "N의 각본",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分のベンチポケモンについているエネルギーを2個まで選び、バトルポケモンにつけ替える。サポートは、自分の番に1枚しか使えない。",
+      "text_ko": "자신의 벤치 포켓몬에 붙어 있는 에너지를 2개까지 골라, 배틀 포켓몬에게 옮겨 붙인다. 서포트는, 자신의 차례에 1장밖에 사용할 수 없다.",
+      "set": "SV11B",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV11B/047619_T_NNOSUJIGAKI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47619",
+      "decks": [
+        "ogerpon-bullet"
+      ],
+      "deckCounts": {
+        "ogerpon-bullet": 1
       },
       "tiers": [
         4
@@ -6872,6 +10019,164 @@
       ],
       "deckCounts": {
         "mega-livolt": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50166,
+      "name_ja": "バブル水エネルギー",
+      "name_ko": "버블 물 에너지",
+      "category": "energy",
+      "subtype_ko": "특수 에너지",
+      "hp": null,
+      "type_ko": "물",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンは、特殊状態にならず、受けている特殊状態は、すべて回復する。",
+      "text_ko": "이 카드는, 포켓몬에 붙어 있는 한 물 에너지 1개로 작용한다. 이 카드를 붙인 포켓몬은 특수 상태가 되지 않으며, 받고 있는 특수 상태는 모두 회복된다.",
+      "set": "M4",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M4/050166_E_BABURUMIZUENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50166",
+      "decks": [
+        "wailord"
+      ],
+      "deckCounts": {
+        "wailord": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 25288,
+      "name_ja": "基本超エネルギー",
+      "name_ko": "기본 초 에너지",
+      "category": "energy",
+      "subtype_ko": "기본 에너지",
+      "hp": null,
+      "type_ko": "초",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "",
+      "text_ko": "초 타입 기본 에너지.",
+      "set": "LP",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/LP/025288_E_CHOUENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/25288",
+      "decks": [
+        "yadoking"
+      ],
+      "deckCounts": {
+        "yadoking": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 49454,
+      "name_ja": "ブーメランエネルギー",
+      "name_ko": "부메랑 에너지",
+      "category": "energy",
+      "subtype_ko": "특수 에너지",
+      "hp": null,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンが使うワザの効果で、このカードがトラッシュされたなら、ワザのダメージや効果のあとに、もとのポケモンにつけなおす。",
+      "text_ko": "이 카드는, 포켓몬에 붙어 있는 한 무색 에너지 1개로 작용한다. 이 카드를 붙인 포켓몬이 사용하는 기술의 효과로 이 카드가 트래시되었다면, 기술의 데미지나 효과 후에 원래 포켓몬에게 다시 붙인다.",
+      "set": "MC",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/MC/049454_E_BUMERANENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49454",
+      "decks": [
+        "yadoking"
+      ],
+      "deckCounts": {
+        "yadoking": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 50167,
+      "name_ja": "マグネット鋼エネルギー",
+      "name_ko": "마그넷 강철 에너지",
+      "category": "energy",
+      "subtype_ko": "특수 에너지",
+      "hp": null,
+      "type_ko": "강철",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンは、にげるためのエネルギーが、すべてなくなる。",
+      "text_ko": "이 카드는, 포켓몬에 붙어 있는 한 강철 에너지 1개로 작용한다. 이 카드를 붙인 포켓몬은 도주에 필요한 에너지가 모두 없어진다.",
+      "set": "M4",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M4/050167_E_MAGUNETTOHAGANEENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50167",
+      "decks": [
+        "riguree-control"
+      ],
+      "deckCounts": {
+        "riguree-control": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45288,
+      "name_ja": "ミストエネルギー",
+      "name_ko": "미스트 에너지",
+      "category": "energy",
+      "subtype_ko": "특수 에너지",
+      "hp": null,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンは、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）",
+      "text_ko": "이 카드는, 포켓몬에 붙어 있는 한 무색 에너지 1개로 작용한다. 이 카드를 붙인 포켓몬은 상대 포켓몬이 사용하는 기술의 효과를 받지 않는다. (이미 받고 있는 효과는 없어지지 않는다.)",
+      "set": "SV5M",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV5M/045288_E_MISUTOENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45288",
+      "decks": [
+        "mega-garura",
+        "mega-absol"
+      ],
+      "deckCounts": {
+        "mega-garura": 1,
+        "mega-absol": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 45217,
+      "name_ja": "ネオアッパーエネルギー",
+      "name_ko": "네오 어퍼 에너지",
+      "category": "energy",
+      "subtype_ko": "특수 에너지 (ACE SPEC)",
+      "hp": null,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。2進化ポケモンについているなら、すべてのタイプのエネルギー2個ぶんとしてはたらく。（ACE SPECのカードは、デッキに1枚しか入れられない。）",
+      "text_ko": "이 카드는, 포켓몬에 붙어 있는 한 무색 에너지 1개로 작용한다. 2단계 진화 포켓몬에 붙어 있다면, 모든 타입의 에너지 2개로 작용한다. (ACE SPEC 카드는 덱에 1장만 넣을 수 있다.)",
+      "set": "SV5K",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV5K/045217_E_NEOAPPAENERUGI.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/45217",
+      "decks": [
+        "sazandora"
+      ],
+      "deckCounts": {
+        "sazandora": 1
       },
       "tiers": [
         4
@@ -7212,76 +10517,6 @@
       "tiers": []
     },
     {
-      "id": 50233,
-      "name_ja": "ホエルコ",
-      "name_ko": "고래왕자(ホエルコ)",
-      "category": "pokemon",
-      "subtype_ko": "기본 포켓몬",
-      "hp": 130,
-      "type_ko": "물",
-      "regulation": "",
-      "abilities": [],
-      "attacks": [
-        {
-          "name_ja": "みずでっぽう",
-          "name_ko": "물대포",
-          "damage": "40",
-          "text_ja": "",
-          "text_ko": ""
-        },
-        {
-          "name_ja": "スプラッシュ",
-          "name_ko": "스플래시",
-          "damage": "80",
-          "text_ja": "",
-          "text_ko": ""
-        }
-      ],
-      "text_ja": "",
-      "text_ko": "",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050233_P_HOERUKO.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50233",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
-      "id": 50234,
-      "name_ja": "ホエルオーex",
-      "name_ko": "고래왕(ホエルオー) ex",
-      "category": "pokemon",
-      "subtype_ko": "1진화 · 포켓몬 ex",
-      "hp": 380,
-      "type_ko": "물",
-      "regulation": "",
-      "abilities": [],
-      "attacks": [
-        {
-          "name_ja": "なみのり",
-          "name_ko": "파도타기",
-          "damage": "120",
-          "text_ja": "",
-          "text_ko": ""
-        },
-        {
-          "name_ja": "フォーリングダウン",
-          "name_ko": "폴링 다운",
-          "damage": "270",
-          "text_ja": "このポケモンをねむりにする。",
-          "text_ko": "이 포켓몬을 잠듦 상태로 만든다."
-        }
-      ],
-      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
-      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050234_P_HOERUOEX.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50234",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
       "id": 50235,
       "name_ja": "ジーランス",
       "name_ko": "시라칸(ジーランス)",
@@ -7608,45 +10843,6 @@
       "tiers": []
     },
     {
-      "id": 50247,
-      "name_ja": "ヤドン",
-      "name_ko": "야돈",
-      "category": "pokemon",
-      "subtype_ko": "기본 포켓몬",
-      "hp": 70,
-      "type_ko": "초",
-      "regulation": "",
-      "abilities": [],
-      "attacks": [
-        {
-          "name_ja": "すてほうだい",
-          "name_ko": "마구 버리기",
-          "damage": "",
-          "effect_ja": "自分の手札を好きなだけ選び、トラッシュする。",
-          "effect_ko": "자신의 패를 원하는 만큼 골라 트래시한다.",
-          "text_ja": "自分の手札を好きなだけ選び、トラッシュする。",
-          "text_ko": "자신의 패를 원하는 만큼 골라 트래시한다."
-        },
-        {
-          "name_ja": "ずつき",
-          "name_ko": "박치기",
-          "damage": "20",
-          "effect_ja": "",
-          "effect_ko": "",
-          "text_ja": "",
-          "text_ko": ""
-        }
-      ],
-      "text_ja": "",
-      "text_ko": "",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050247_P_YADON.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50247",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
       "id": 50248,
       "name_ja": "ヤドラン",
       "name_ko": "야도란",
@@ -7780,45 +10976,6 @@
       "set": "M5",
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050257_P_MASHIXYADO.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50257",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
-      "id": 50258,
-      "name_ja": "コノヨザル",
-      "name_ko": "저승갓숭",
-      "category": "pokemon",
-      "subtype_ko": "2단계 포켓몬",
-      "hp": 150,
-      "type_ko": "초",
-      "regulation": "",
-      "abilities": [
-        {
-          "name_ja": "くちないからだ",
-          "name_ko": "썩지 않는 몸",
-          "effect_ja": "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
-          "effect_ko": "이 포켓몬이 기술의 데미지를 받아 기절할 때 자신은 동전을 1번 던진다. 앞면이면 이 포켓몬은 기절하지 않고 남은 HP가 '10'인 상태로 필드에 남는다.",
-          "text_ja": "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
-          "text_ko": "이 포켓몬이 기술의 데미지를 받아 기절할 때 자신은 동전을 1번 던진다. 앞면이면 이 포켓몬은 기절하지 않고 남은 HP가 「10」인 상태로 필드에 남는다."
-        }
-      ],
-      "attacks": [
-        {
-          "name_ja": "ゴーストブロー",
-          "name_ko": "고스트 블로",
-          "damage": "100",
-          "effect_ja": "相手のベンチポケモン1匹に、ダメカンを5個のせる。",
-          "effect_ko": "상대 벤치 포켓몬 1마리에게 데미지카운터를 5개 올린다.",
-          "text_ja": "相手のベンチポケモン1匹に、ダメカンを5個のせる。",
-          "text_ko": "상대의 벤치 포켓몬 1마리에게 데미지카운터를 5개 올린다."
-        }
-      ],
-      "text_ja": "",
-      "text_ko": "",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050258_P_KONOYOZARU.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50258",
       "decks": [],
       "deckCounts": {},
       "tiers": []
@@ -8429,71 +11586,6 @@
       "tiers": []
     },
     {
-      "id": 50278,
-      "name_ja": "タテトプス",
-      "name_ko": "방패톱스",
-      "category": "pokemon",
-      "subtype_ko": "1단계 포켓몬",
-      "hp": 100,
-      "type_ko": "강철",
-      "regulation": "",
-      "abilities": [],
-      "attacks": [
-        {
-          "cost_ko": "강철무색",
-          "name_ja": "くだく",
-          "name_ko": "부수기",
-          "damage": "50",
-          "text_ja": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
-          "text_ko": "상대의 배틀 포켓몬에 붙어 있는 에너지를 1개 선택해 트래시한다."
-        }
-      ],
-      "text_ja": "",
-      "text_ko": "",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050278_P_TATETOPUSU.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50278",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
-      "id": 50279,
-      "name_ja": "トリデプス",
-      "name_ko": "바리톱스",
-      "category": "pokemon",
-      "subtype_ko": "2단계 포켓몬",
-      "hp": 160,
-      "type_ko": "강철",
-      "regulation": "",
-      "abilities": [
-        {
-          "name_ja": "たいこのぼうへき",
-          "name_ko": "방패의 방벽",
-          "text_ja": "このポケモンがベンチにいるかぎり、自分のポケモン全員は、ついているエネルギーが2個以下の相手のポケモンからワザのダメージを受けない。",
-          "text_ko": "이 포켓몬이 벤치에 있는 한, 자신의 포켓몬 전원은 붙어 있는 에너지가 2개 이하인 상대의 포켓몬으로부터 기술의 데미지를 받지 않는다."
-        }
-      ],
-      "attacks": [
-        {
-          "cost_ko": "강철강철무색",
-          "name_ja": "ぶちかます",
-          "name_ko": "들이받기",
-          "damage": "160",
-          "text_ja": "",
-          "text_ko": ""
-        }
-      ],
-      "text_ja": "",
-      "text_ko": "",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050279_P_TORIDEPUSU.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50279",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
       "id": 50280,
       "name_ja": "ドーミラー",
       "name_ko": "동미러",
@@ -8702,26 +11794,6 @@
       "tiers": []
     },
     {
-      "id": 50291,
-      "name_ja": "古びたたての化石",
-      "name_ko": "오래된 방패 화석",
-      "category": "trainer",
-      "subtype_ko": "굿즈",
-      "hp": 60,
-      "type_ko": "",
-      "regulation": "",
-      "abilities": [],
-      "attacks": [],
-      "text_ja": "このカードは、HP60の無色タイプのたねポケモンとして、場に出せる。このカードは、特殊状態にならず、にげられない。自分の番の中でなら、場に出ているこのカードをトラッシュできる。グッズは、自分の番に何枚でも使える。\n\n特性：たてのまもり\nこのポケモンがバトル場にいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-10」される。",
-      "text_ko": "이 카드는 HP60의 무색 타입 기본 포켓몬으로서 필드에 내보낼 수 있다. 이 카드는 특수 상태가 되지 않으며 후퇴할 수 없다. 자신의 차례 중이라면 필드에 나와 있는 이 카드를 트래시할 수 있다. 굿즈는 자신의 차례에 몇 장이든 사용할 수 있다.\n\n특성: 방패의 수호(たてのまもり)\n이 포켓몬이 배틀필드에 있는 한, 자신의 모든 포켓몬이 상대 포켓몬으로부터 받는 기술 데미지가 '-10' 된다.",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050291_T_FURUBITATATENOKASEKI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50291",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
       "id": 50292,
       "name_ja": "ごうかいボム",
       "name_ko": "호쾌 폭탄(ごうかいボム)",
@@ -8737,86 +11809,6 @@
       "set": "M5",
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050292_T_GOUKAIBOMU.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50292",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
-      "id": 50293,
-      "name_ja": "リトライバッジ",
-      "name_ko": "리트라이 배지(リトライバッジ)",
-      "category": "trainer",
-      "subtype_ko": "포켓몬의 도구",
-      "hp": null,
-      "type_ko": "",
-      "regulation": "",
-      "abilities": [],
-      "attacks": [],
-      "text_ja": "自分の番ごとに1回、このカードをつけているポケモンのワザで自分がコインを投げたとき、そのコインの結果をすべてなくし、はじめからコインを投げなおしてよい。\n\nポケモンのどうぐは、自分の番に何枚でも、自分のポケモンにつけられる。ポケモン1匹につき1枚だけつけられ、つけたままにする。",
-      "text_ko": "자신의 차례마다 1번, 이 카드를 붙이고 있는 포켓몬의 기술로 자신이 동전을 던졌을 때, 그 동전의 결과를 모두 없애고 처음부터 동전을 다시 던져도 된다.\n\n포켓몬의 도구는 자신의 차례에 몇 장이든 자신의 포켓몬에게 붙일 수 있다. 포켓몬 1마리당 1장만 붙일 수 있으며, 붙인 채로 둔다.",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050293_T_RITORAIBAJJI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50293",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
-      "id": 50294,
-      "name_ja": "カスミの元気",
-      "name_ko": "이슬의 활기(カスミの元気)",
-      "category": "trainer",
-      "subtype_ko": "서포트",
-      "hp": null,
-      "type_ko": "",
-      "regulation": "",
-      "abilities": [],
-      "attacks": [],
-      "text_ja": "このカードを使ったなら、自分の番は終わる。自分の山札から『基本エネルギー』を4枚まで選び、自分のポケモン1匹につける。そして山札を切る。\n\nサポートは、自分の番に1枚しか使えない。",
-      "text_ko": "이 카드를 사용했다면 자신의 차례는 끝난다. 자신의 덱에서 '기본 에너지'를 4장까지 선택해 자신의 포켓몬 1마리에게 붙인다. 그리고 덱을 섞는다.\n\n서포트는 자신의 차례에 1장만 사용할 수 있다.",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050294_T_KASUMINOGENKI.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50294",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
-      "id": 50296,
-      "name_ja": "サビ組のしたっぱ",
-      "name_ko": "사비단의 부하(サビ組のしたっぱ)",
-      "category": "trainer",
-      "subtype_ko": "서포트",
-      "hp": null,
-      "type_ko": "",
-      "regulation": "",
-      "abilities": [],
-      "attacks": [],
-      "text_ja": "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。\n相手の場のポケモンについているエネルギーを1個選び、トラッシュする。\n\nサポートは、自分の番に1枚しか使えない。",
-      "text_ko": "이 카드는 직전 상대의 차례에 자신의 포켓몬이 기절하지 않았다면 사용할 수 없다.\n상대 필드의 포켓몬에 붙어 있는 에너지를 1개 선택해 트래시한다.\n\n서포트는 자신의 차례에 1장만 사용할 수 있다.",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050296_T_SABIGUMINOSHITAPPA.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50296",
-      "decks": [],
-      "deckCounts": {},
-      "tiers": []
-    },
-    {
-      "id": 50298,
-      "name_ja": "化石採掘場",
-      "name_ko": "화석 채굴장",
-      "category": "trainer",
-      "subtype_ko": "스타디움",
-      "hp": null,
-      "type_ko": "",
-      "regulation": "",
-      "abilities": [],
-      "attacks": [],
-      "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札から、名前に『古びた』とつくグッズを2枚まで選び、ベンチに出してよい。そして山札を切る。\n\nスタジアム共通ルール：自分の番に1枚、バトル場の横に出せる。別のスタジアムが場に出たなら、このカードをトラッシュする。同じ名前のスタジアムは場に出せない。",
-      "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 덱에서 이름에 '古びた(오래된)'이 붙는 굿즈를 2장까지 선택해 벤치에 내보내도 된다. 그리고 덱을 섞는다.\n\n스타디움 공통 규칙: 자신의 차례에 1장, 배틀필드 옆에 내보낼 수 있다. 다른 스타디움이 필드에 나오면 이 카드를 트래시한다. 같은 이름의 스타디움은 필드에 내보낼 수 없다.",
-      "set": "M5",
-      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M5/050298_T_KASEKISAIKUTSUJIXYOU.jpg",
-      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50298",
       "decks": [],
       "deckCounts": {},
       "tiers": []
