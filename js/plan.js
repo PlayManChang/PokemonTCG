@@ -73,9 +73,10 @@
       const a = el('a', 'plan-route-btn');
       a.href = mapDir(r.from, r.to, r.mode);
       a.target = '_blank'; a.rel = 'noopener';
-      a.innerHTML = (r.mode === 'walking' ? '🚶 ' : '🚆 ') + r.label + ' <span class="plan-go">경로 ↗</span>';
+      a.innerHTML = (r.mode === 'walking' ? '🚶 ' : '🚆 ') + r.label + ' <span class="plan-go">실시간 길찾기 ↗</span>';
       box.appendChild(a);
-      if (r.note) box.appendChild(el('p', 'plan-route-note', r.note));
+      if (r.diagram) box.appendChild(routeMap(r.diagram));
+      if (r.note) box.appendChild(el('p', 'plan-route-note', '※ ' + r.note));
       routes.appendChild(box);
     });
     root.appendChild(routes);
@@ -220,6 +221,29 @@
   function badge(text) {
     const s = el('span', 'plan-badge', text);
     return s;
+  }
+  // 인터넷 없이도 보이는 간단 약도(전철 노선도 형태, 순수 HTML/CSS)
+  function routeMap(dg) {
+    const wrap = el('div', 'route-map');
+    (dg.stops || []).forEach((s, i) => {
+      const stop = el('div', 'rm-stop');
+      stop.appendChild(el('span', 'rm-dot', s.icon || '•'));
+      const txt = el('span', 'rm-text');
+      txt.appendChild(el('span', 'rm-name', s.name));
+      if (s.sub) txt.appendChild(el('span', 'rm-sub', s.sub));
+      stop.appendChild(txt);
+      wrap.appendChild(stop);
+      const leg = (dg.legs || [])[i];
+      if (leg) {
+        const lg = el('div', 'rm-leg' + (leg.walk ? ' walk' : ''));
+        if (leg.color) lg.style.borderLeftColor = leg.color;
+        lg.appendChild(el('span', 'rm-line', (leg.walk ? '🚶 ' : '🚆 ') + leg.line));
+        if (leg.mins) lg.appendChild(el('span', 'rm-mins', leg.mins));
+        wrap.appendChild(lg);
+      }
+    });
+    if (dg.total) wrap.appendChild(el('div', 'rm-total', '🕒 ' + dg.total));
+    return wrap;
   }
   function toggleRow(label, opts, active, onPick) {
     const row = el('div', 'plan-toggle');
