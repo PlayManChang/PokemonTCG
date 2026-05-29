@@ -151,7 +151,7 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const menuLinks = await page.$$eval('.nav-menu a', (els) => els.length);
     const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
-    assert(menuVisible && menuLinks === 7, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/대회안내/구매처 + 외부3)`);
+    assert(menuVisible && menuLinks === 8, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/대회안내/구매처/여행가이드 + 외부3)`);
     const extLinks = await page.$$eval('.nav-menu a[target="_blank"]', (e) => e.length);
     assert(extLinks === 3, `외부 사이트 바로가기 ${extLinks}개`);
     await page.goto(BASE + '/guide.html', { waitUntil: 'domcontentloaded' });
@@ -167,6 +167,28 @@ function assert(cond, msg) {
     assert(shopItems === shopTotal, `구매처 ${shopItems}곳 렌더 (데이터 ${shopTotal}곳과 일치)`);
     const mapLinks = await page.$$eval('.shop-name[href*="google.com/maps"]', (e) => e.length);
     assert(mapLinks === shopTotal, `구글 지도 링크 ${mapLinks}개 연결됨`);
+
+    console.log('\n[10-c] 여행 가이드 페이지 (지도·교통비·분기)');
+    const planData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'plan.json'), 'utf8'));
+    await page.goto(BASE + '/plan.html', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.plan-day', { timeout: 5000 });
+    const planDays = await page.$$eval('.plan-day', (e) => e.length);
+    assert(planDays === planData.days.length, `일정 ${planDays}일 렌더 (데이터 ${planData.days.length}일과 일치)`);
+    const dirLinks = await page.$$eval('a[href*="google.com/maps/dir"]', (e) => e.length);
+    assert(dirLinks >= planData.keyRoutes.length, `이동경로 길찾기 버튼 ${dirLinks}개`);
+    // 교통비 인원수 변경 → 합계 자동 변경
+    const totalSel = '.plan-total-row td:last-child';
+    const total3 = await page.$eval(totalSel, (e) => e.textContent);
+    await page.$eval('.plan-people-input', (i) => { i.value = '5'; i.dispatchEvent(new Event('input', { bubbles: true })); });
+    await new Promise((r) => setTimeout(r, 150));
+    const total5 = await page.$eval(totalSel, (e) => e.textContent);
+    assert(total3 !== total5, `교통비 인원수 변경 시 합계 자동 재계산 (${total3} → ${total5})`);
+    // DAY2 분기 토글
+    const day7before = await page.$$eval('.plan-day', (els) => els.find((e) => e.textContent.includes('DAY2')).textContent);
+    await page.$$eval('.plan-toggle-btn', (btns) => { const b = btns.find((x) => x.textContent.includes('탈락')); if (b) b.click(); });
+    await new Promise((r) => setTimeout(r, 150));
+    const day7after = await page.$$eval('.plan-day', (els) => els.find((e) => e.textContent.includes('DAY2')).textContent);
+    assert(day7before !== day7after, 'DAY2 진출/탈락 토글 시 일정 자동 분기됨');
 
     console.log('\n[11] 세트별 보기 (M5 아비스아이)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드

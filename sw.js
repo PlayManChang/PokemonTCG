@@ -1,6 +1,6 @@
 // PJCS 용어집 Service Worker — 오프라인 지원 (stale-while-revalidate)
 // + 카드 이미지 런타임 캐싱(한 번 본 카드는 오프라인에서도 표시)
-const CACHE = 'pjcs-v11';
+const CACHE = 'pjcs-v12';
 const IMG_CACHE = 'pjcs-cardimg-v1';
 const ASSETS = [
   './',
@@ -8,14 +8,17 @@ const ASSETS = [
   './cards.html',
   './guide.html',
   './shops.html',
+  './plan.html',
   './css/style.css',
   './js/app.js',
   './js/cards.js',
   './js/nav.js',
   './js/shops.js',
+  './js/plan.js',
   './data/terms.json',
   './data/cards.json',
   './data/shops.json',
+  './data/plan.json',
   './manifest.webmanifest',
   './icons/icon.svg',
   './icons/icon-192.png',

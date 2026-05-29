@@ -456,3 +456,40 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .shop-type { display: inline-block; font-size: .76rem; font-weight: 600; color: #1b5e20; background: #e6f4ea; padding: 1px 8px; border-radius: 10px; margin-top: 5px; }
 .shop-desc { margin: 6px 0 0; line-height: 1.55; font-size: .92rem; }
 .shop-mapall { display: inline-block; margin-top: 12px; font-weight: 600; color: #1a64d4; text-decoration: none; }
+
+/* 여행 가이드 (plan.html) */
+.plan-intro { color: var(--muted); font-size: .9rem; line-height: 1.55; margin-top: 10px; }
+.plan-hotel { margin: 6px 0; line-height: 1.5; }
+.plan-stop { display: inline-flex; align-items: center; gap: 6px; color: #1a64d4; font-weight: 600; text-decoration: none; }
+.plan-stop-plain { line-height: 1.5; }
+.plan-go { font-size: .72rem; font-weight: 700; color: #fff; background: #1a64d4; padding: 1px 7px; border-radius: 10px; }
+.plan-controls .plan-toggle { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+.plan-toggle-label { font-weight: 700; min-width: 84px; }
+.plan-toggle-btns { display: flex; gap: 6px; flex-wrap: wrap; }
+.plan-toggle-btn { font-size: .85rem; font-weight: 600; padding: 6px 12px; border: 1px solid var(--line); border-radius: 16px; background: #fff; color: var(--text); cursor: pointer; }
+.plan-toggle-btn.active { background: #1b5e20; color: #fff; border-color: #1b5e20; }
+.plan-route { padding: 8px 0; border-bottom: 1px solid var(--line); }
+.plan-route:last-child { border-bottom: 0; }
+.plan-route-btn { display: flex; align-items: center; gap: 6px; font-weight: 700; color: #fff; background: #1a64d4; padding: 10px 12px; border-radius: 10px; text-decoration: none; }
+.plan-route-btn .plan-go { background: rgba(255,255,255,.25); }
+.plan-route-note { color: var(--muted); font-size: .84rem; line-height: 1.5; margin: 6px 2px 0; }
+.plan-day .plan-move { color: var(--muted); font-size: .86rem; margin: 2px 0 8px; }
+.plan-flag { font-size: .84rem; color: #b25000; background: #fff3e0; padding: 6px 10px; border-radius: 8px; margin: 4px 0; }
+.plan-badge { display: inline-block; font-size: .76rem; font-weight: 700; color: #1b5e20; background: #e6f4ea; padding: 2px 9px; border-radius: 10px; margin-bottom: 6px; }
+.plan-stops { list-style: none; margin: 4px 0 0; padding: 0; }
+.plan-stops li { padding: 8px 0; border-bottom: 1px solid var(--line); line-height: 1.5; }
+.plan-stops li:last-child { border-bottom: 0; }
+.plan-tip { font-size: .84rem; color: var(--muted); line-height: 1.55; margin-top: 8px; }
+.plan-mapcat { font-size: .95rem; margin: 12px 0 4px; }
+.plan-people { margin: 6px 0 10px; font-weight: 600; }
+.plan-people-input { width: 56px; font-size: 1rem; padding: 4px 8px; border: 1px solid var(--line); border-radius: 8px; text-align: center; }
+.plan-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.plan-table th, .plan-table td { border: 1px solid var(--line); padding: 7px 8px; text-align: left; }
+.plan-table th { background: #f1f5f9; }
+.plan-table .plan-total-row td { font-weight: 700; background: #fff8e1; }
+.plan-emergency { list-style: none; margin: 0; padding: 0; }
+.plan-emergency li { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--line); }
+.plan-emergency li:last-child { border-bottom: 0; }
+.plan-tel { color: #1a64d4; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.plan-tel-plain { color: var(--muted); font-size: .86rem; }
+.plan-airport-body { line-height: 1.6; margin: 2px 0 8px; font-size: .92rem; }
