@@ -111,7 +111,7 @@ function bindModeToggle() {
 }
 
 function tierLabel(t) {
-  return t === 4 ? '🔥 최근 우승덱' : 'Tier ' + t;
+  return t === 4 ? '🏆 짐배틀 우승덱' : 'Tier ' + t;
 }
 
 function chip(label, id, active) {
