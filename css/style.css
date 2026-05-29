@@ -459,6 +459,10 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 
 /* 여행 가이드 (plan.html) */
 .plan-intro { color: var(--muted); font-size: .9rem; line-height: 1.55; margin-top: 10px; }
+.plan-flight { margin: 8px 0; line-height: 1.5; background: #f0f6ff; border-left: 4px solid #1a64d4; border-radius: 6px; padding: 8px 10px; }
+.plan-flight b { display: block; color: #0b3d91; }
+.plan-flight-detail { display: block; font-weight: 700; }
+.plan-flight-tip { display: block; color: var(--muted); font-size: .82rem; margin-top: 2px; }
 .plan-hotel { margin: 6px 0; line-height: 1.5; }
 .plan-stop { display: inline-flex; align-items: center; gap: 6px; color: #1a64d4; font-weight: 600; text-decoration: none; }
 .plan-stop-plain { line-height: 1.5; }

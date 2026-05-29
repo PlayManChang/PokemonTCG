@@ -43,6 +43,13 @@
     addKv('일정', data.dates);
     addKv('경로', data.route);
     head.appendChild(kv);
+    (data.flights || []).forEach((f) => {
+      const p = el('p', 'plan-flight');
+      p.appendChild(el('b', null, '✈️ ' + f.label));
+      p.appendChild(el('span', 'plan-flight-detail', f.detail));
+      if (f.tip) p.appendChild(el('span', 'plan-flight-tip', '· ' + f.tip));
+      head.appendChild(p);
+    });
     data.hotels.forEach((h) => {
       const p = el('p', 'plan-hotel');
       p.appendChild(el('b', null, h.label + ' '));
