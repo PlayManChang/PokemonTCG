@@ -486,10 +486,12 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .tf-kind { font-weight: 800; white-space: nowrap; color: #1b5e20; }
 .tf-warn { margin: 10px 0 0; padding: 10px 12px; background: #fff4e5; border: 1px solid #ffd9a8; border-left: 4px solid #f08c00; border-radius: 10px; font-size: .9rem; line-height: 1.55; font-weight: 600; }
 .tf-phrases { list-style: none; margin: 4px 0 0; padding: 0; }
-.tf-phrases li { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; margin: 0 0 8px; background: #f6f8fa; border: 1px solid #e3e7ec; border-left: 4px solid #1b5e20; border-radius: 10px; }
-.tf-jp { font-weight: 800; font-size: 1rem; }
-.tf-pron { color: #1a64d4; font-weight: 700; font-size: .92rem; }
-.tf-mean { color: var(--muted); font-size: .86rem; }
+.tf-phrases li { display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; margin: 0 0 10px; background: #f6f8fa; border: 1px solid #e3e7ec; border-left: 4px solid #1b5e20; border-radius: 12px; }
+.tf-jp { font-weight: 800; font-size: 1.08rem; line-height: 1.4; color: #111; }
+.tf-pron { display: inline-flex; align-items: center; gap: 6px; align-self: flex-start; color: #1a64d4; font-weight: 700; font-size: .95rem; background: #eaf1ff; padding: 3px 10px; border-radius: 999px; }
+.tf-pron::before { content: '🗣'; font-size: .9rem; }
+.tf-mean { color: var(--muted); font-size: .9rem; padding-top: 6px; border-top: 1px dashed #dfe3e8; }
+.tf-mean::before { content: '뜻 · '; font-weight: 700; color: #1b5e20; }
 
 /* 여행 가이드 (plan.html) */
 .plan-intro { color: var(--muted); font-size: .9rem; line-height: 1.55; margin-top: 10px; }
