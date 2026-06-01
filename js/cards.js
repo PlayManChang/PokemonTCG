@@ -350,6 +350,42 @@ function cardEl(c) {
   return li;
 }
 
+// 에너지 색칩: cost_ko의 붙은 색상명(예: "불꽃초")을 색 배지로 분해 렌더
+const ENERGY_STYLE = {
+  '불꽃':   { label: '불',   bg: '#ff3b30', fg: '#fff' },
+  '물':     { label: '물',   bg: '#0a84ff', fg: '#fff' },
+  '풀':     { label: '풀',   bg: '#19b23c', fg: '#fff' },
+  '번개':   { label: '전기', bg: '#ffd60a', fg: '#222' },
+  '초':     { label: '초',   bg: '#c724ff', fg: '#fff' },
+  '격투':   { label: '격',   bg: '#e25822', fg: '#fff' },
+  '악':     { label: '악',   bg: '#2c2c3a', fg: '#fff' },
+  '강철':   { label: '강철', bg: '#6b7a8f', fg: '#fff' },
+  '무색':   { label: '무',   bg: '#d1d1d6', fg: '#333' },
+  '드래곤': { label: '룡',   bg: '#caa300', fg: '#fff' },
+  '페어리': { label: '페',   bg: '#ff5fa2', fg: '#fff' },
+};
+const ENERGY_WORDS = ['드래곤', '페어리', '불꽃', '무색', '번개', '격투', '강철', '물', '풀', '초', '악']; // 긴 단어 우선
+function parseEnergy(s) {
+  const out = [];
+  for (let i = 0; i < s.length;) {
+    const w = ENERGY_WORDS.find((x) => s.startsWith(x, i));
+    if (w) { out.push(w); i += w.length; } else { i++; }
+  }
+  return out;
+}
+function energyBadges(costStr) {
+  const frag = document.createDocumentFragment();
+  parseEnergy(costStr).forEach((w) => {
+    const st = ENERGY_STYLE[w];
+    const b = document.createElement('span');
+    b.className = 'ecost';
+    if (st) { b.textContent = st.label; b.style.background = st.bg; b.style.color = st.fg; b.title = w; }
+    else { b.textContent = w; }
+    frag.appendChild(b);
+  });
+  return frag;
+}
+
 function block(label, nameKo, nameJa, textKo, textJa, cls, cost, read) {
   const wrap = document.createElement('div');
   wrap.className = 'pblock ' + cls;
@@ -359,7 +395,7 @@ function block(label, nameKo, nameJa, textKo, textJa, cls, cost, read) {
   lab.className = 'pblock-label';
   lab.textContent = label;
   top.appendChild(lab);
-  if (cost) { const cs = document.createElement('span'); cs.className = 'pblock-cost'; cs.textContent = cost; top.appendChild(cs); }
+  if (cost) { const cs = document.createElement('span'); cs.className = 'pblock-cost'; cs.appendChild(energyBadges(cost)); top.appendChild(cs); }
   if (nameKo) { const nm = document.createElement('span'); nm.className = 'pblock-name'; nm.appendChild(hl(nameKo)); top.appendChild(nm); }
   if (nameJa) { const nj = document.createElement('span'); nj.className = 'pblock-name-ja'; nj.lang = 'ja'; nj.appendChild(hl(nameJa)); top.appendChild(nj); }
   if (read) { const rd = document.createElement('span'); rd.className = 'pblock-read'; rd.appendChild(hl(read)); top.appendChild(rd); }

@@ -390,7 +390,13 @@ mark { background: var(--yellow); color: inherit; padding: 0 1px; border-radius:
 .ability .pblock-label { background: #f5a623; }
 .attack .pblock-label { background: #1a64d4; }
 .trainer .pblock-label { background: #e3350d; }
-.pblock-cost { font-size: .8rem; color: var(--muted); }
+.pblock-cost { display: inline-flex; gap: 3px; vertical-align: middle; }
+.ecost {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 19px; height: 19px; padding: 0 5px;
+  border-radius: 10px; font-size: .72rem; font-weight: 800; line-height: 1;
+  box-shadow: 0 1px 2px rgba(0,0,0,.18);
+}
 .pblock-name { font-weight: 800; }
 .pblock-name-ja { color: var(--muted); font-size: .85rem; }
 .pblock-read { color: #1a64d4; font-size: .8rem; font-weight: 600; }
