@@ -12,10 +12,10 @@ const OUT = path.join(ROOT, 'data', 'cards.json');
 // 덱 레지스트리 (티어/이름/스크랩 파일)
 // deckId = 공식 덱뷰어(pokemon-card.com/deck/result.html/deckID/...) 전체 덱리스트 보기용
 const DECKS = [
-  { id: 'dragapult',    name_ko: '드래펄트 ex',     name_ja: 'ドラパルトex',         tier: 1, file: 'x4GJ8c-Cr6ymd-GYJD8x.json', note: '현재 최강 메타', deckId: 'x4GJ8c-Cr6ymd-GYJD8x' },
-  { id: 'bakegakure',   name_ko: '바케가쿠레',       name_ja: 'ばけがくれ',           tier: 2, file: 'JcYG88-tChzHO-cxG8Y8.json', note: 'ジュペッタ 특성 기반', deckId: 'JcYG88-tChzHO-cxG8Y8' },
-  { id: 'mega-drilbur', name_ko: '메가몰드류 ex',    name_ja: 'メガドリュウズex',      tier: 2, file: 'SXRpyM-pSQX3o-Syy2Rp.json', note: '강철 메가진화', deckId: 'SXRpyM-pSQX3o-Syy2Rp' },
-  { id: 'nzoroark',     name_ko: 'N의 조로아크 ex',  name_ja: 'Nのゾロアークex',      tier: 2, file: 'nzoroark.json',       note: 'とりひき 드로우 엔진', deckId: '4cDa8x-2ip2ND-84DGxc' },
+  { id: 'dragapult',    name_ko: '드래펄트 ex',     name_ja: 'ドラパルトex',         tier: 1, file: 'x4GJ8c-Cr6ymd-GYJD8x.json', note: '환경 최강(S티어). 요노와르·바샤모·노코코치형 + 방해(크래시해머)형으로 다양화. 다수 대회 우승 — 모든 덱이 드래펄트 대책 필수 (2026.06)', deckId: 'x4GJ8c-Cr6ymd-GYJD8x' },
+  { id: 'bakegakure',   name_ko: '바케가쿠레',       name_ja: 'ばけがくれ',           tier: 2, file: 'JcYG88-tChzHO-cxG8Y8.json', note: 'A티어. 비룰 덱·특성으로 동시기절 방지, 데미지 2배로 전멸 노림. 회복·교체 방어에 약함', deckId: 'JcYG88-tChzHO-cxG8Y8' },
+  { id: 'mega-drilbur', name_ko: '메가몰드류 ex',    name_ja: 'メガドリュウズex',      tier: 2, file: 'SXRpyM-pSQX3o-Syy2Rp.json', note: 'A티어. 드래펄트 대항 메타 — 게노세크트·메타그로스 조합, 최강급 1:1 성능', deckId: 'SXRpyM-pSQX3o-Syy2Rp' },
+  { id: 'nzoroark',     name_ko: 'N의 조로아크 ex',  name_ja: 'Nのゾロアークex',      tier: 2, file: 'nzoroark.json',       note: 'A티어. 핸데스(손패 파괴) 전략으로 T1 대항', deckId: '4cDa8x-2ip2ND-84DGxc' },
   { id: 'kamitsuorochi', name_ko: '카미츠오로치 ex', name_ja: 'カミツオロチex',        tier: 3, file: 'kamitsuorochi.json', note: '', deckId: 'bFFfkv-hZ6VlG-Fk5fb5' },
   { id: 'takeraiko',    name_ko: '타케루라이코 ex',  name_ja: 'タケルライコex',        tier: 3, file: 'takeraiko.json',     note: '', deckId: '2MRyEp-Ar3Kb6-SyypXX' },
   { id: 'mega-lucario', name_ko: '메가루카리오 ex',  name_ja: 'メガルカリオex',        tier: 3, file: 'mega-lucario.json',  note: '', deckId: 'VFkvVf-JfARGk-kk5bkF' },
@@ -30,7 +30,7 @@ const DECKS = [
   { id: 'mega-chandelure', name_ko: '메가 샹델라 ex', name_ja: 'メガシャンデラex',   tier: 4, file: 'mega-chandelure.json', note: '', deckId: 'J8Jxxc-iAMkjI-8DcGcY' },
   // tier 4 = 최근 짐배틀 우승덱 추가분 (2026-05 pokekameshi / pokecabook)
   { id: 'wailord',         name_ko: '고래왕',           name_ja: 'ホエルオーex',        tier: 4, file: 'wailord.json',         note: '쥬레곤 컨트롤', deckId: 'GGcaD8-P89wLv-88DcaY' },
-  { id: 'yadoking',        name_ko: '야도킹',           name_ja: 'ヤドキング',          tier: 4, file: 'yadoking.json',        note: '기술 카피', deckId: 'VkbFv1-Ax764w-bfvbVk' },
+  { id: 'yadoking',        name_ko: '야도킹',           name_ja: 'ヤドキング',          tier: 4, file: 'yadoking.json',        note: '기술 카피. 2026.06 대회서 드래펄트·바샤모와 함께 상위 입상(つくば大会 등)', deckId: 'VkbFv1-Ax764w-bfvbVk' },
   { id: 'riguree-control', name_ko: '리그레 컨트롤',     name_ja: 'リグレーコントロール', tier: 4, file: 'riguree-control.json', note: '컨트롤', deckId: 'HinHn9-k9H1jV-gNnngQ' },
   { id: 'mega-garura',     name_ko: '메가 캥카 ex',      name_ja: 'メガガルーラex',       tier: 4, file: 'mega-garura.json',     note: '', deckId: 'yRM3yp-xRqcOP-SyMypp' },
   { id: 'mega-absol',      name_ko: '메가 앱솔 ex',      name_ja: 'メガアブソルex',       tier: 4, file: 'mega-absol.json',      note: '', deckId: 'cYc8xY-ktp0Nc-8aYcKG' },
@@ -39,7 +39,7 @@ const DECKS = [
   { id: 'mega-starmie',    name_ko: '메가 아쿠스타 ex',   name_ja: 'メガスターミーex',     tier: 4, file: 'mega-starmie.json',    note: '', deckId: 'pRS3Sp-QPdXt2-yypyyR' },
   { id: 'daigo-metagross', name_ko: '다이고의 메타그로스 ex', name_ja: 'ダイゴのメタグロスex', tier: 4, file: 'daigo-metagross.json', note: '', deckId: 'kF5v5k-ubmgBy-bwkFFb' },
   { id: 'sazandora',       name_ko: '삼삼드래 ex',       name_ja: 'サザンドラex',         tier: 4, file: 'sazandora.json',       note: '', deckId: '8Y4cGJ-cJXj8k-K4Kcx8' },
-  { id: 'ogerpon-bullet',  name_ko: '오거폰 불릿',       name_ja: 'オーガポンバレット',   tier: 4, file: 'ogerpon-bullet.json',  note: '', deckId: 'p3SySX-3ZRLMK-Ryp22y' },
+  { id: 'ogerpon-bullet',  name_ko: '오거폰 불릿',       name_ja: 'オーガポンバレット',   tier: 4, file: 'ogerpon-bullet.json',  note: '오거폰 다타입 운용. 2026.06 피피/오거폰형이 駿河屋CS(126명) 우승', deckId: 'p3SySX-3ZRLMK-Ryp22y' },
   // tier 4 = 주말 짐배틀 우승덱 추가분 (2026-05-30~31)
   { id: 'rampardos',        name_ko: '램펄드 ex',        name_ja: 'ラムパルドex',        tier: 4, file: 'rampardos.json',        note: '화석·고타점', deckId: 'cYcaY8-Xz7M6k-DcGc8D' },
   { id: 'mega-charizard-x', name_ko: '메가 리자몽 X ex',  name_ja: 'メガリザードンXex',    tier: 4, file: 'mega-charizard-x.json', note: '불꽃 고화력', deckId: 'ySyp2R-UqbO1K-SXSM3p' },
