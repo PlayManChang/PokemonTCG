@@ -1,0 +1,184 @@
+[
+  {
+    "id": "47750",
+    "set": "M1L",
+    "type": "P",
+    "romaji": "ESUBAN",
+    "count": 1
+  },
+  {
+    "id": "50261",
+    "set": "M5",
+    "type": "P",
+    "romaji": "ZUGAIDOSU",
+    "count": 1
+  },
+  {
+    "id": "50262",
+    "set": "M5",
+    "type": "P",
+    "romaji": "RAMUPARUDOEX",
+    "count": 1
+  },
+  {
+    "id": "50278",
+    "set": "M5",
+    "type": "P",
+    "romaji": "TATETOPUSU",
+    "count": 1
+  },
+  {
+    "id": "50279",
+    "set": "M5",
+    "type": "P",
+    "romaji": "TORIDEPUSU",
+    "count": 1
+  },
+  {
+    "id": "48534",
+    "set": "M2a",
+    "type": "P",
+    "romaji": "SHIEIMI",
+    "count": 1
+  },
+  {
+    "id": "50290",
+    "set": "M5",
+    "type": "T",
+    "romaji": "KOBITAZUGAINOKASEKI",
+    "count": 1
+  },
+  {
+    "id": "50291",
+    "set": "M5",
+    "type": "T",
+    "romaji": "FURUBITATATENOKASEKI",
+    "count": 1
+  },
+  {
+    "id": "46029",
+    "set": "SV7",
+    "type": "T",
+    "romaji": "FURUBITANEKKONOKASEKI",
+    "count": 1
+  },
+  {
+    "id": "47282",
+    "set": "SVOD",
+    "type": "T",
+    "romaji": "HAIPABORU",
+    "count": 1
+  },
+  {
+    "id": "49378",
+    "set": "MC",
+    "type": "T",
+    "romaji": "POKEPADDO",
+    "count": 1
+  },
+  {
+    "id": "49371",
+    "set": "MC",
+    "type": "T",
+    "romaji": "FUSHIGINAAME",
+    "count": 1
+  },
+  {
+    "id": "48275",
+    "set": "MBG",
+    "type": "T",
+    "romaji": "POKEMONIREKAE",
+    "count": 1
+  },
+  {
+    "id": "49360",
+    "set": "MC",
+    "type": "T",
+    "romaji": "KURASSHIXYUHANMA",
+    "count": 1
+  },
+  {
+    "id": "49368",
+    "set": "MC",
+    "type": "T",
+    "romaji": "PAWAPUROTEIN",
+    "count": 1
+  },
+  {
+    "id": "49404",
+    "set": "MC",
+    "type": "T",
+    "romaji": "FUUSEN",
+    "count": 1
+  },
+  {
+    "id": "49445",
+    "set": "MC",
+    "type": "T",
+    "romaji": "RIRIENOKESSHIN",
+    "count": 1
+  },
+  {
+    "id": "45934",
+    "set": "SV6a",
+    "type": "T",
+    "romaji": "AKUROMANOSHIXYUUNEN",
+    "count": 1
+  },
+  {
+    "id": "47288",
+    "set": "SVOD",
+    "type": "T",
+    "romaji": "BOSUNOSHIREI",
+    "count": 1
+  },
+  {
+    "id": "49708",
+    "set": "M3",
+    "type": "T",
+    "romaji": "MEINOHAGEMASHI",
+    "count": 1
+  },
+  {
+    "id": "45937",
+    "set": "SV6a",
+    "type": "T",
+    "romaji": "KUSEROSHIKINOTAKURAMI",
+    "count": 1
+  },
+  {
+    "id": "46040",
+    "set": "SV7",
+    "type": "T",
+    "romaji": "IDAINATAIJIXYU",
+    "count": 1
+  },
+  {
+    "id": "50298",
+    "set": "M5",
+    "type": "T",
+    "romaji": "KASEKISAIKUTSUJIXYOU",
+    "count": 1
+  },
+  {
+    "id": "47908",
+    "set": "ENE",
+    "type": "E",
+    "romaji": "KIHONTOUENERUGI",
+    "count": 1
+  },
+  {
+    "id": "49713",
+    "set": "M3",
+    "type": "E",
+    "romaji": "ROKKUTOUENERUGI",
+    "count": 1
+  },
+  {
+    "id": "50167",
+    "set": "M4",
+    "type": "E",
+    "romaji": "MAGUNETTOHAGANEENERUGI",
+    "count": 1
+  }
+]

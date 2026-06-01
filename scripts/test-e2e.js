@@ -209,6 +209,11 @@ function assert(cond, msg) {
     assert(readEls >= 1, `카드 이름 일본어 발음(🗣) 표기 ${readEls}건 렌더`);
     const atkReadEls = await page.$$eval('.attack .pblock-read', (e) => e.length);
     assert(atkReadEls >= 1, `기술 이름 일본어 발음 ${atkReadEls}건 렌더`);
+    const deckBtn = await page.$eval('.deck-list-btn', (e) => e.href).catch(() => '');
+    assert(/deck\/result\.html\/deckID\//.test(deckBtn), `전체 덱리스트(공식) 버튼 링크 연결됨`);
+    const deckMeta = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cards.json'), 'utf8')).decks;
+    assert(deckMeta.length === 30, `덱 ${deckMeta.length}개 (신규 4덱 포함 30덱)`);
+    assert(deckMeta.every((dk) => dk.deckId), `모든 덱에 공식 덱ID 연결됨`);
     const atkNoCost = await page.$$eval('.pcard-pokemon .attack', (els) => els.filter((e) => !e.querySelector('.pblock-cost')).length);
     assert(atkNoCost === 0, `덱 내 모든 기술에 에너지 비용 표시됨 (누락 ${atkNoCost}건)`);
     // 데이터 차원: 포켓몬 기술 에너지 비용 빈칸 0 검증

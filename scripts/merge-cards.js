@@ -10,35 +10,41 @@ const DECKS_DIR = path.join(ROOT, 'data', 'sources', 'decks');
 const OUT = path.join(ROOT, 'data', 'cards.json');
 
 // 덱 레지스트리 (티어/이름/스크랩 파일)
+// deckId = 공식 덱뷰어(pokemon-card.com/deck/result.html/deckID/...) 전체 덱리스트 보기용
 const DECKS = [
-  { id: 'dragapult',    name_ko: '드래펄트 ex',     name_ja: 'ドラパルトex',         tier: 1, file: 'x4GJ8c-Cr6ymd-GYJD8x.json', note: '현재 최강 메타' },
-  { id: 'bakegakure',   name_ko: '바케가쿠레',       name_ja: 'ばけがくれ',           tier: 2, file: 'JcYG88-tChzHO-cxG8Y8.json', note: 'ジュペッタ 특성 기반' },
-  { id: 'mega-drilbur', name_ko: '메가몰드류 ex',    name_ja: 'メガドリュウズex',      tier: 2, file: 'SXRpyM-pSQX3o-Syy2Rp.json', note: '강철 메가진화' },
-  { id: 'nzoroark',     name_ko: 'N의 조로아크 ex',  name_ja: 'Nのゾロアークex',      tier: 2, file: 'nzoroark.json',       note: 'とりひき 드로우 엔진' },
-  { id: 'kamitsuorochi', name_ko: '카미츠오로치 ex', name_ja: 'カミツオロチex',        tier: 3, file: 'kamitsuorochi.json', note: '' },
-  { id: 'takeraiko',    name_ko: '타케루라이코 ex',  name_ja: 'タケルライコex',        tier: 3, file: 'takeraiko.json',     note: '' },
-  { id: 'mega-lucario', name_ko: '메가루카리오 ex',  name_ja: 'メガルカリオex',        tier: 3, file: 'mega-lucario.json',  note: '' },
-  { id: 'shirona-garchomp', name_ko: '시로나의 가브리아스 ex', name_ja: 'シロナのガブリアスex', tier: 3, file: 'shirona-garchomp.json', note: '' },
-  { id: 'foodin',       name_ko: '후딘',             name_ja: 'フーディン',            tier: 3, file: 'foodin.json',        note: '핸드파워' },
-  { id: 'mega-greninja', name_ko: '메가 겟코우가 ex', name_ja: 'メガゲッコウガex',      tier: 3, file: 'mega-greninja.json', note: '' },
-  { id: 'rocket-mewtwo', name_ko: '로켓단의 뮤츠 ex', name_ja: 'ロケット団のミュウツーex', tier: 3, file: 'rocket-mewtwo.json', note: '' },
+  { id: 'dragapult',    name_ko: '드래펄트 ex',     name_ja: 'ドラパルトex',         tier: 1, file: 'x4GJ8c-Cr6ymd-GYJD8x.json', note: '현재 최강 메타', deckId: 'x4GJ8c-Cr6ymd-GYJD8x' },
+  { id: 'bakegakure',   name_ko: '바케가쿠레',       name_ja: 'ばけがくれ',           tier: 2, file: 'JcYG88-tChzHO-cxG8Y8.json', note: 'ジュペッタ 특성 기반', deckId: 'JcYG88-tChzHO-cxG8Y8' },
+  { id: 'mega-drilbur', name_ko: '메가몰드류 ex',    name_ja: 'メガドリュウズex',      tier: 2, file: 'SXRpyM-pSQX3o-Syy2Rp.json', note: '강철 메가진화', deckId: 'SXRpyM-pSQX3o-Syy2Rp' },
+  { id: 'nzoroark',     name_ko: 'N의 조로아크 ex',  name_ja: 'Nのゾロアークex',      tier: 2, file: 'nzoroark.json',       note: 'とりひき 드로우 엔진', deckId: '4cDa8x-2ip2ND-84DGxc' },
+  { id: 'kamitsuorochi', name_ko: '카미츠오로치 ex', name_ja: 'カミツオロチex',        tier: 3, file: 'kamitsuorochi.json', note: '', deckId: 'bFFfkv-hZ6VlG-Fk5fb5' },
+  { id: 'takeraiko',    name_ko: '타케루라이코 ex',  name_ja: 'タケルライコex',        tier: 3, file: 'takeraiko.json',     note: '', deckId: '2MRyEp-Ar3Kb6-SyypXX' },
+  { id: 'mega-lucario', name_ko: '메가루카리오 ex',  name_ja: 'メガルカリオex',        tier: 3, file: 'mega-lucario.json',  note: '', deckId: 'VFkvVf-JfARGk-kk5bkF' },
+  { id: 'shirona-garchomp', name_ko: '시로나의 가브리아스 ex', name_ja: 'シロナのガブリアスex', tier: 3, file: 'shirona-garchomp.json', note: '', deckId: '8c8DcJ-L1xxUE-8G4xY4' },
+  { id: 'foodin',       name_ko: '후딘',             name_ja: 'フーディン',            tier: 3, file: 'foodin.json',        note: '핸드파워', deckId: 'D84cG4-0Ny7Kp-Dc8xc4' },
+  { id: 'mega-greninja', name_ko: '메가 겟코우가 ex', name_ja: 'メガゲッコウガex',      tier: 3, file: 'mega-greninja.json', note: '', deckId: 'nNL9HL-tB3wiQ-QNNgng' },
+  { id: 'rocket-mewtwo', name_ko: '로켓단의 뮤츠 ex', name_ja: 'ロケット団のミュウツーex', tier: 3, file: 'rocket-mewtwo.json', note: '', deckId: 'cGc84x-CnvrtW-GYxx8c' },
   // tier 4 = 최근 짐배틀 우승덱 (pokekameshi)
-  { id: 'omatsuriondo', name_ko: '오마츠리온도(축제)', name_ja: 'おまつりおんど',     tier: 4, file: 'omatsuriondo.json', note: '' },
-  { id: 'mega-livolt',  name_ko: '메가 라이볼트 ex',  name_ja: 'メガライボルトex',   tier: 4, file: 'mega-livolt.json',  note: '' },
-  { id: 'dodekabashi',  name_ko: '도데카바시',        name_ja: 'ドデカバシ',         tier: 4, file: 'dodekabashi.json',  note: '' },
-  { id: 'mega-chandelure', name_ko: '메가 샹델라 ex', name_ja: 'メガシャンデラex',   tier: 4, file: 'mega-chandelure.json', note: '' },
+  { id: 'omatsuriondo', name_ko: '오마츠리온도(축제)', name_ja: 'おまつりおんど',     tier: 4, file: 'omatsuriondo.json', note: '', deckId: 'MyMRM3-CfkooR-SUMSSp' },
+  { id: 'mega-livolt',  name_ko: '메가 라이볼트 ex',  name_ja: 'メガライボルトex',   tier: 4, file: 'mega-livolt.json',  note: '', deckId: 'nnHLNn-6zLr6V-gigQ9Q' },
+  { id: 'dodekabashi',  name_ko: '도데카바시',        name_ja: 'ドデカバシ',         tier: 4, file: 'dodekabashi.json',  note: '', deckId: 'nQgPnN-FUmwSI-Qn9inn' },
+  { id: 'mega-chandelure', name_ko: '메가 샹델라 ex', name_ja: 'メガシャンデラex',   tier: 4, file: 'mega-chandelure.json', note: '', deckId: 'J8Jxxc-iAMkjI-8DcGcY' },
   // tier 4 = 최근 짐배틀 우승덱 추가분 (2026-05 pokekameshi / pokecabook)
-  { id: 'wailord',         name_ko: '고래왕',           name_ja: 'ホエルオーex',        tier: 4, file: 'wailord.json',         note: '쥬레곤 컨트롤' },
-  { id: 'yadoking',        name_ko: '야도킹',           name_ja: 'ヤドキング',          tier: 4, file: 'yadoking.json',        note: '기술 카피' },
-  { id: 'riguree-control', name_ko: '리그레 컨트롤',     name_ja: 'リグレーコントロール', tier: 4, file: 'riguree-control.json', note: '컨트롤' },
-  { id: 'mega-garura',     name_ko: '메가 캥카 ex',      name_ja: 'メガガルーラex',       tier: 4, file: 'mega-garura.json',     note: '' },
-  { id: 'mega-absol',      name_ko: '메가 앱솔 ex',      name_ja: 'メガアブソルex',       tier: 4, file: 'mega-absol.json',      note: '' },
-  { id: 'olive',           name_ko: '올리르바 ex',       name_ja: 'オリーヴァex',         tier: 4, file: 'olive.json',           note: '' },
-  { id: 'iineinu',         name_ko: '이이네이누',        name_ja: 'イイネイヌ',          tier: 4, file: 'iineinu.json',         note: '' },
-  { id: 'mega-starmie',    name_ko: '메가 아쿠스타 ex',   name_ja: 'メガスターミーex',     tier: 4, file: 'mega-starmie.json',    note: '' },
-  { id: 'daigo-metagross', name_ko: '다이고의 메타그로스 ex', name_ja: 'ダイゴのメタグロスex', tier: 4, file: 'daigo-metagross.json', note: '' },
-  { id: 'sazandora',       name_ko: '삼삼드래 ex',       name_ja: 'サザンドラex',         tier: 4, file: 'sazandora.json',       note: '' },
-  { id: 'ogerpon-bullet',  name_ko: '오거폰 불릿',       name_ja: 'オーガポンバレット',   tier: 4, file: 'ogerpon-bullet.json',  note: '' },
+  { id: 'wailord',         name_ko: '고래왕',           name_ja: 'ホエルオーex',        tier: 4, file: 'wailord.json',         note: '쥬레곤 컨트롤', deckId: 'GGcaD8-P89wLv-88DcaY' },
+  { id: 'yadoking',        name_ko: '야도킹',           name_ja: 'ヤドキング',          tier: 4, file: 'yadoking.json',        note: '기술 카피', deckId: 'VkbFv1-Ax764w-bfvbVk' },
+  { id: 'riguree-control', name_ko: '리그레 컨트롤',     name_ja: 'リグレーコントロール', tier: 4, file: 'riguree-control.json', note: '컨트롤', deckId: 'HinHn9-k9H1jV-gNnngQ' },
+  { id: 'mega-garura',     name_ko: '메가 캥카 ex',      name_ja: 'メガガルーラex',       tier: 4, file: 'mega-garura.json',     note: '', deckId: 'yRM3yp-xRqcOP-SyMypp' },
+  { id: 'mega-absol',      name_ko: '메가 앱솔 ex',      name_ja: 'メガアブソルex',       tier: 4, file: 'mega-absol.json',      note: '', deckId: 'cYc8xY-ktp0Nc-8aYcKG' },
+  { id: 'olive',           name_ko: '올리르바 ex',       name_ja: 'オリーヴァex',         tier: 4, file: 'olive.json',           note: '', deckId: 'bkb5kk-3T370E-V5FwFv' },
+  { id: 'iineinu',         name_ko: '이이네이누',        name_ja: 'イイネイヌ',          tier: 4, file: 'iineinu.json',         note: '', deckId: 'ySp3yy-BiMqtw-MR3ppp' },
+  { id: 'mega-starmie',    name_ko: '메가 아쿠스타 ex',   name_ja: 'メガスターミーex',     tier: 4, file: 'mega-starmie.json',    note: '', deckId: 'pRS3Sp-QPdXt2-yypyyR' },
+  { id: 'daigo-metagross', name_ko: '다이고의 메타그로스 ex', name_ja: 'ダイゴのメタグロスex', tier: 4, file: 'daigo-metagross.json', note: '', deckId: 'kF5v5k-ubmgBy-bwkFFb' },
+  { id: 'sazandora',       name_ko: '삼삼드래 ex',       name_ja: 'サザンドラex',         tier: 4, file: 'sazandora.json',       note: '', deckId: '8Y4cGJ-cJXj8k-K4Kcx8' },
+  { id: 'ogerpon-bullet',  name_ko: '오거폰 불릿',       name_ja: 'オーガポンバレット',   tier: 4, file: 'ogerpon-bullet.json',  note: '', deckId: 'p3SySX-3ZRLMK-Ryp22y' },
+  // tier 4 = 주말 짐배틀 우승덱 추가분 (2026-05-30~31)
+  { id: 'rampardos',        name_ko: '램펄드 ex',        name_ja: 'ラムパルドex',        tier: 4, file: 'rampardos.json',        note: '화석·고타점', deckId: 'cYcaY8-Xz7M6k-DcGc8D' },
+  { id: 'mega-charizard-x', name_ko: '메가 리자몽 X ex',  name_ja: 'メガリザードンXex',    tier: 4, file: 'mega-charizard-x.json', note: '불꽃 고화력', deckId: 'ySyp2R-UqbO1K-SXSM3p' },
+  { id: 'cinccino',         name_ko: '치라치노 ex',      name_ja: 'チラチーノex',        tier: 4, file: 'cinccino.json',         note: '코인 회피', deckId: 'iQng69-nLb2QT-nLgnnN' },
+  { id: 'mega-darkrai',     name_ko: '메가 다크라이 ex',  name_ja: 'メガダークライex',     tier: 4, file: 'mega-darkrai.json',     note: '악 메가', deckId: 'x8DYGD-wPy64o-YccJ8G' },
 ];
 
 const BASIC_ENERGY = {
@@ -216,7 +222,7 @@ const catOrder = { pokemon: 0, trainer: 1, energy: 2 };
 cards.sort((a, b) => (Math.min(...a.tiers) - Math.min(...b.tiers)) || (catOrder[a.category] - catOrder[b.category]));
 
 const out = {
-  decks: DECKS.map((d) => ({ id: d.id, name_ko: d.name_ko, name_ja: d.name_ja, tier: d.tier, note: d.note })),
+  decks: DECKS.map((d) => ({ id: d.id, name_ko: d.name_ko, name_ja: d.name_ja, tier: d.tier, note: d.note, deckId: d.deckId || '' })),
   cards,
 };
 fs.writeFileSync(OUT, JSON.stringify(out, null, 2) + '\n', 'utf8');

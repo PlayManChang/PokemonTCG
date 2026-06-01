@@ -1,0 +1,170 @@
+[
+  {
+    "id": "48351",
+    "set": "M2",
+    "type": "P",
+    "romaji": "HITOKAGE",
+    "count": 1
+  },
+  {
+    "id": "48352",
+    "set": "M2",
+    "type": "P",
+    "romaji": "RIZADO",
+    "count": 1
+  },
+  {
+    "id": "48353",
+    "set": "M2",
+    "type": "P",
+    "romaji": "MRIZADONXEX",
+    "count": 1
+  },
+  {
+    "id": "49290",
+    "set": "MC",
+    "type": "P",
+    "romaji": "NOKOTCHI",
+    "count": 1
+  },
+  {
+    "id": "45203",
+    "set": "SV5K",
+    "type": "P",
+    "romaji": "NOKOKOTCHI",
+    "count": 1
+  },
+  {
+    "id": "48358",
+    "set": "M2",
+    "type": "P",
+    "romaji": "ODORIDORIEX",
+    "count": 1
+  },
+  {
+    "id": "45913",
+    "set": "SV6a",
+    "type": "P",
+    "romaji": "KICHIKIGISUEX",
+    "count": 1
+  },
+  {
+    "id": "49694",
+    "set": "M3",
+    "type": "P",
+    "romaji": "NIXYASUEX",
+    "count": 1
+  },
+  {
+    "id": "43106",
+    "set": "SVC",
+    "type": "T",
+    "romaji": "HAIPABORU",
+    "count": 1
+  },
+  {
+    "id": "45209",
+    "set": "SV5K",
+    "type": "T",
+    "romaji": "NAKAYOSHIPOFUIN",
+    "count": 1
+  },
+  {
+    "id": "49703",
+    "set": "M3",
+    "type": "T",
+    "romaji": "POKEPADDO",
+    "count": 1
+  },
+  {
+    "id": "43824",
+    "set": "SVD",
+    "type": "T",
+    "romaji": "POKEMONIREKAE",
+    "count": 1
+  },
+  {
+    "id": "42789",
+    "set": "SVB",
+    "type": "T",
+    "romaji": "FUSHIGINAAME",
+    "count": 1
+  },
+  {
+    "id": "49352",
+    "set": "MC",
+    "type": "T",
+    "romaji": "ENERUGIKAISHIXYUU",
+    "count": 1
+  },
+  {
+    "id": "50156",
+    "set": "M4",
+    "type": "T",
+    "romaji": "SUPESHIXYARUREDDOKADO",
+    "count": 1
+  },
+  {
+    "id": "47900",
+    "set": "MA",
+    "type": "T",
+    "romaji": "RIRIENOKESSHIN",
+    "count": 1
+  },
+  {
+    "id": "43034",
+    "set": "SV1a",
+    "type": "T",
+    "romaji": "BOSUNOSHIREIGECHISU",
+    "count": 1
+  },
+  {
+    "id": "48417",
+    "set": "M2",
+    "type": "T",
+    "romaji": "HIKARI",
+    "count": 1
+  },
+  {
+    "id": "47707",
+    "set": "SV11W",
+    "type": "T",
+    "romaji": "TOUKO",
+    "count": 1
+  },
+  {
+    "id": "48418",
+    "set": "M2",
+    "type": "T",
+    "romaji": "HIFUKIYAROU",
+    "count": 1
+  },
+  {
+    "id": "47856",
+    "set": "M1S",
+    "type": "T",
+    "romaji": "MITSURUNOOMOIYARI",
+    "count": 1
+  },
+  {
+    "id": "48419",
+    "set": "M2",
+    "type": "T",
+    "romaji": "BATORUKOROSHIAMU",
+    "count": 1
+  },
+  {
+    "id": "42780",
+    "set": "ENE",
+    "type": "E",
+    "romaji": "KIHONHONOOENERUGI",
+    "count": 1
+  },
+  {
+    "id": "49456",
+    "set": "MC",
+    "type": "E",
+    "romaji": "RITCHIENERUGI",
+    "count": 1
+  }
+]

@@ -210,6 +210,15 @@ function renderDeckInfo() {
   const span = document.createElement('span');
   span.textContent = `  ·  ${tierLabel(d.tier)}${d.note ? ' · ' + d.note : ''}  ·  ${deckCards.length}종 / ${totalQty}장`;
   els.deckInfo.append(strong, span);
+  if (d.deckId) {
+    const a = document.createElement('a');
+    a.className = 'deck-list-btn';
+    a.href = `https://www.pokemon-card.com/deck/result.html/deckID/${d.deckId}/`;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = '📋 전체 덱리스트 보기 (공식 카드 이미지) ↗';
+    els.deckInfo.appendChild(a);
+  }
 }
 
 function cardText(c) {
