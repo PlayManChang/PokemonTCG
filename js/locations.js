@@ -35,6 +35,13 @@
     return { lat: la, lon: lo, real: false };
   }
   const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+  // 두 좌표 사이 직선거리(m)
+  function haversine(la1, lo1, la2, lo2) {
+    const R = 6371000, t = Math.PI / 180;
+    const dLa = (la2 - la1) * t, dLo = (lo2 - lo1) * t;
+    const a = Math.sin(dLa / 2) ** 2 + Math.cos(la1 * t) * Math.cos(la2 * t) * Math.sin(dLo / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(a));
+  }
 
   let gid = 0;
   function svgFor(points) {
@@ -134,17 +141,37 @@
       mapWrap.innerHTML = svgFor(reg.points);
       sec.appendChild(mapWrap);
 
+      const anchor = pickAnchor(reg.points);
+      const hotel = reg.points.find((p) => p.t === 'hotel');
       const ol = el('ol', 'loc-legend');
       reg.points.forEach((p, i) => {
         const li = el('li', (p.t === 'hotel' || p.t === 'venue') ? 'loc-anchor-row' : null);
         const badge = el('span', 'loc-badge', String(i + 1));
         badge.style.background = typeOf(p.t).c;
         li.appendChild(badge);
+        const body = el('div', 'loc-item-body');
         const a = el('a', 'loc-link');
         a.href = mapUrl(p.q);
         a.target = '_blank'; a.rel = 'noopener';
         a.innerHTML = typeOf(p.t).e + ' ' + p.n + ' <span class="loc-go">지도 ↗</span>';
-        li.appendChild(a);
+        body.appendChild(a);
+        // 호텔에서의 거리·도보시간(+교통편) — 호텔이 있는 지역만
+        if (hotel) {
+          const dl = el('div', 'loc-dist');
+          if (p === hotel) {
+            dl.innerHTML = '<b>📍 기준점 (우리 호텔)</b>';
+          } else {
+            const m = haversine(hotel.lat, hotel.lon, p.lat, p.lon);
+            const walk = Math.max(1, Math.round(m * 1.25 / 75));
+            const distTxt = m < 950 ? (Math.round(m / 10) * 10) + 'm' : (m / 1000).toFixed(1) + 'km';
+            let t = '🚶 도보 약 ' + walk + '분 · 직선 ' + distTxt;
+            if (p.transit) t += ' · 🚉 ' + p.transit;
+            else if (m > 1200) t += ' · 🚉 전철 권장';
+            dl.textContent = t;
+          }
+          body.appendChild(dl);
+        }
+        li.appendChild(body);
         ol.appendChild(li);
       });
       sec.appendChild(ol);
