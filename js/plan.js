@@ -226,13 +226,26 @@
     ap.appendChild(el('h2', null, '✈️ 공항 이동 가이드'));
     data.airport.forEach((a) => {
       ap.appendChild(el('h3', 'plan-mapcat', a.title));
-      ap.appendChild(el('p', 'plan-airport-body', a.body));
-      if (a.link) {
-        const lk = el('a', 'plan-link-btn');
-        lk.href = a.link.url; lk.target = '_blank'; lk.rel = 'noopener';
-        lk.textContent = '🔗 ' + a.link.label;
-        ap.appendChild(lk);
+      if (a.body) ap.appendChild(el('p', 'plan-airport-body', a.body));
+      if (a.steps && a.steps.length) {
+        const ol = el('ol', 'plan-steps');
+        a.steps.forEach((s) => {
+          const li = el('li');
+          li.appendChild(el('b', 'plan-step-icon', s.icon || '•'));
+          const tx = el('span', 'plan-step-text');
+          tx.appendChild(el('b', null, s.t));
+          if (s.d) tx.appendChild(el('span', null, ' ' + s.d));
+          li.appendChild(tx);
+          ol.appendChild(li);
+        });
+        ap.appendChild(ol);
       }
+      (a.links || (a.link ? [a.link] : [])).forEach((lnk) => {
+        const lk = el('a', 'plan-link-btn');
+        lk.href = lnk.url; lk.target = '_blank'; lk.rel = 'noopener';
+        lk.textContent = '🔗 ' + lnk.label;
+        ap.appendChild(lk);
+      });
     });
     root.appendChild(ap);
 

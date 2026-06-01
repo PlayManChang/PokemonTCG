@@ -540,4 +540,11 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .plan-tel { color: #1a64d4; font-weight: 700; text-decoration: none; white-space: nowrap; }
 .plan-tel-plain { color: var(--muted); font-size: .86rem; }
 .plan-airport-body { line-height: 1.6; margin: 2px 0 8px; font-size: .92rem; }
-.plan-link-btn { display: inline-block; margin: 0 0 6px; font-weight: 700; color: #fff; background: #1a64d4; padding: 8px 14px; border-radius: 10px; text-decoration: none; font-size: .9rem; }
+.plan-link-btn { display: inline-block; margin: 0 6px 6px 0; font-weight: 700; color: #fff; background: #1a64d4; padding: 8px 14px; border-radius: 10px; text-decoration: none; font-size: .9rem; }
+.plan-steps { list-style: none; counter-reset: pstep; margin: 4px 0 10px; padding: 0; }
+.plan-steps li { counter-increment: pstep; position: relative; display: flex; gap: 10px; align-items: flex-start; padding: 10px 12px; margin: 0 0 8px; background: #f4f8ff; border: 1px solid #d8e6ff; border-left: 4px solid #1a64d4; border-radius: 10px; }
+.plan-steps li::before { content: counter(pstep); flex: 0 0 22px; width: 22px; height: 22px; line-height: 22px; text-align: center; background: #1a64d4; color: #fff; border-radius: 50%; font-weight: 800; font-size: .82rem; margin-top: 1px; }
+.plan-step-icon { flex: 0 0 auto; font-size: 1.05rem; }
+.plan-step-text { flex: 1; line-height: 1.55; font-size: .9rem; }
+.plan-step-text > b { display: inline; }
+.plan-step-text > span { color: #333; }
