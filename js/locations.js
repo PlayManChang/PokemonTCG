@@ -26,39 +26,61 @@
     return e;
   };
 
-  // 위경도 → SVG 좌표 (방위 유지, 박스 안에 맞춰 중앙정렬)
-  function projector(points, W, H, pad) {
-    const lats = points.map((p) => p.lat), lons = points.map((p) => p.lon);
-    const minLat = Math.min.apply(null, lats), maxLat = Math.max.apply(null, lats);
-    const minLon = Math.min.apply(null, lons), maxLon = Math.max.apply(null, lons);
-    const cLat = (minLat + maxLat) / 2, cLon = (minLon + maxLon) / 2;
-    const latKm = (maxLat - minLat) * 111;
-    const lonKm = (maxLon - minLon) * 90.5; // 도쿄·요코하마 위도 보정
-    const usableW = W - 2 * pad, usableH = H - 2 * pad;
-    let scale;
-    if (latKm < 1e-6 && lonKm < 1e-6) scale = 1;
-    else scale = Math.min(usableW / Math.max(lonKm, 1e-6), usableH / Math.max(latKm, 1e-6));
-    return (p) => {
-      const dxKm = (p.lon - cLon) * 90.5;
-      const dyKm = (p.lat - cLat) * 111;
-      return [W / 2 + dxKm * scale, H / 2 - dyKm * scale]; // y 반전(북쪽 위)
-    };
+  // 기준점(앵커): 호텔 > 대회장 > 무게중심. 호텔을 지도 한가운데 두고 나머지를 둘러 배치.
+  function pickAnchor(points) {
+    const a = points.find((p) => p.t === 'hotel') || points.find((p) => p.t === 'venue');
+    if (a) return { lat: a.lat, lon: a.lon, real: true };
+    const la = points.reduce((s, p) => s + p.lat, 0) / points.length;
+    const lo = points.reduce((s, p) => s + p.lon, 0) / points.length;
+    return { lat: la, lon: lo, real: false };
   }
+  const kmLabel = (km) => (km < 1 ? Math.round(km * 1000) + 'm' : km + 'km');
 
+  let gid = 0;
   function svgFor(points) {
-    const W = 320, H = 220, pad = 30;
-    const proj = projector(points, W, H, pad);
-    const r = points.length > 9 ? 9 : 11;
+    const W = 320, H = 240, pad = 34, cx = W / 2, cy = H / 2;
+    const a = pickAnchor(points);
+    const off = points.map((p) => ({ dx: (p.lon - a.lon) * 90.5, dy: (p.lat - a.lat) * 111 }));
+    const maxAbsX = Math.max(1e-6, ...off.map((o) => Math.abs(o.dx)));
+    const maxAbsY = Math.max(1e-6, ...off.map((o) => Math.abs(o.dy)));
+    let scale = Math.min((W - 2 * pad) / 2 / maxAbsX, (H - 2 * pad) / 2 / maxAbsY);
+    if (!isFinite(scale) || scale <= 0) scale = 1;
+    const maxR = Math.max.apply(null, off.map((o) => Math.sqrt(o.dx * o.dx + o.dy * o.dy)).concat(0));
+    const id = 'lg' + (gid++);
+
     let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="loc-svg" role="img" aria-label="약식 위치도">';
-    s += '<rect x="1" y="1" width="' + (W - 2) + '" height="' + (H - 2) + '" rx="12" class="loc-bg"/>';
-    // 북쪽 표시
-    s += '<text x="' + (W - 14) + '" y="20" class="loc-n">N▲</text>';
+    s += '<defs><radialGradient id="' + id + '" cx="50%" cy="50%" r="72%">'
+      + '<stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#e3edf6"/></radialGradient></defs>';
+    s += '<rect x="1" y="1" width="' + (W - 2) + '" height="' + (H - 2) + '" rx="14" fill="url(#' + id + ')" class="loc-bg"/>';
+
+    // 옅은 격자
+    const stepX = (W - 2 * pad) / 6, stepY = (H - 2 * pad) / 5;
+    for (let gx = pad; gx <= W - pad + 0.1; gx += stepX) s += '<line x1="' + gx.toFixed(0) + '" y1="' + pad + '" x2="' + gx.toFixed(0) + '" y2="' + (H - pad) + '" class="loc-grid"/>';
+    for (let gy = pad; gy <= H - pad + 0.1; gy += stepY) s += '<line x1="' + pad + '" y1="' + gy.toFixed(0) + '" x2="' + (W - pad) + '" y2="' + gy.toFixed(0) + '" class="loc-grid"/>';
+
+    // 호텔/대회장 기준 거리 링
+    if (a.real && maxR > 0.05) {
+      [0.25, 0.5, 1, 2, 3, 5].forEach((km) => {
+        const rpx = km * scale;
+        if (km > maxR * 1.12 || rpx < 12) return;
+        s += '<circle cx="' + cx + '" cy="' + cy + '" r="' + rpx.toFixed(0) + '" class="loc-ring"/>';
+        s += '<text x="' + cx + '" y="' + (cy - rpx - 3).toFixed(0) + '" class="loc-ringlbl">' + kmLabel(km) + '</text>';
+      });
+    }
+    // 북쪽
+    s += '<text x="' + (W - 16) + '" y="22" class="loc-n">N▲</text>';
+
+    // 점
     points.forEach((p, i) => {
-      const xy = proj(p);
-      const x = Math.round(xy[0]), y = Math.round(xy[1]);
+      const x = (cx + off[i].dx * scale), y = (cy - off[i].dy * scale);
+      const isA = (p.t === 'hotel' || p.t === 'venue');
+      const r = isA ? 13 : (points.length > 9 ? 9 : 11);
       const col = typeOf(p.t).c;
-      s += '<circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="' + col + '" stroke="#fff" stroke-width="2"/>';
-      s += '<text x="' + x + '" y="' + (y + 0.5) + '" class="loc-num" dominant-baseline="middle">' + (i + 1) + '</text>';
+      const xs = x.toFixed(0), ys = y.toFixed(0);
+      if (isA) s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + (r + 7) + '" fill="' + col + '" class="loc-halo"/>';
+      s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + r + '" fill="' + col + '" stroke="#fff" stroke-width="' + (isA ? 3 : 2) + '"/>';
+      s += '<text x="' + xs + '" y="' + (y + 0.5).toFixed(0) + '" class="loc-num" dominant-baseline="middle"' + (isA ? ' font-size="13"' : '') + '>' + (i + 1) + '</text>';
+      if (isA) s += '<text x="' + xs + '" y="' + (y - r - 5).toFixed(0) + '" class="loc-anchorlbl">' + typeOf(p.t).e + ' ' + typeOf(p.t).ko + '</text>';
     });
     s += '</svg>';
     return s;
@@ -78,7 +100,7 @@
 
       const ol = el('ol', 'loc-legend');
       reg.points.forEach((p, i) => {
-        const li = el('li');
+        const li = el('li', (p.t === 'hotel' || p.t === 'venue') ? 'loc-anchor-row' : null);
         const badge = el('span', 'loc-badge', String(i + 1));
         badge.style.background = typeOf(p.t).c;
         li.appendChild(badge);
@@ -93,10 +115,19 @@
       root.appendChild(sec);
     });
 
-    if (data.legendNote) {
+    {
       const lg = el('section', 'gcard');
       lg.appendChild(el('h2', null, '🏷️ 색상·아이콘 안내'));
-      lg.appendChild(el('p', 'loc-legendnote', data.legendNote));
+      const chips = el('div', 'loc-chips');
+      Object.keys(TYPES).forEach((k) => {
+        const t = TYPES[k];
+        const chip = el('span', 'loc-chip');
+        chip.style.background = t.c;
+        chip.textContent = t.e + ' ' + t.ko;
+        chips.appendChild(chip);
+      });
+      lg.appendChild(chips);
+      if (data.legendNote) lg.appendChild(el('p', 'loc-legendnote', '지도의 점 색이 위 분류와 같아요. 큰 점(테두리 굵음)이 호텔·대회장이에요.'));
       root.appendChild(lg);
     }
     if (data.disclaimer) root.appendChild(el('p', 'disclaimer', data.disclaimer));

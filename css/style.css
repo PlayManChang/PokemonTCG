@@ -487,16 +487,24 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 /* 위치 한눈에 (locations.html) */
 .loc-map { margin: 6px 0 10px; }
 .loc-svg { width: 100%; height: auto; display: block; }
-.loc-bg { fill: #eef3f8; stroke: #d4deea; stroke-width: 1; }
+.loc-bg { stroke: #cdd9e6; stroke-width: 1; }
+.loc-grid { stroke: #e7eef5; stroke-width: 1; }
+.loc-ring { fill: none; stroke: #b9cadb; stroke-width: 1; stroke-dasharray: 3 4; }
+.loc-ringlbl { fill: #9aabbd; font-size: 9px; font-weight: 700; text-anchor: middle; }
+.loc-halo { opacity: .2; }
+.loc-anchorlbl { fill: #333; font-size: 9px; font-weight: 800; text-anchor: middle; }
 .loc-n { fill: #93a3b5; font-size: 12px; font-weight: 800; text-anchor: end; }
 .loc-num { fill: #fff; font-size: 11px; font-weight: 800; text-anchor: middle; }
 .loc-legend { list-style: none; counter-reset: none; margin: 0; padding: 0; }
 .loc-legend li { display: flex; align-items: flex-start; gap: 9px; padding: 7px 0; border-bottom: 1px solid var(--line); }
 .loc-legend li:last-child { border-bottom: 0; }
-.loc-badge { flex: 0 0 auto; width: 22px; height: 22px; line-height: 22px; text-align: center; color: #fff; font-weight: 800; font-size: .82rem; border-radius: 50%; margin-top: 1px; }
+.loc-anchor-row { background: #fff7fb; border-radius: 8px; padding: 7px 8px !important; }
+.loc-badge { flex: 0 0 auto; width: 22px; height: 22px; line-height: 22px; text-align: center; color: #fff; font-weight: 800; font-size: .82rem; border-radius: 50%; margin-top: 1px; box-shadow: 0 0 0 2px #fff, 0 0 0 3px rgba(0,0,0,.06); }
 .loc-link { flex: 1; font-weight: 600; color: #1a64d4; text-decoration: none; line-height: 1.5; }
 .loc-go { font-size: .74rem; font-weight: 600; color: #fff; background: #1a64d4; padding: 1px 7px; border-radius: 10px; white-space: nowrap; }
-.loc-legendnote { line-height: 1.9; font-size: .9rem; margin: 4px 0 0; }
+.loc-chips { display: flex; flex-wrap: wrap; gap: 7px; margin: 2px 0 0; }
+.loc-chip { display: inline-block; color: #fff; font-weight: 700; font-size: .82rem; padding: 4px 11px; border-radius: 999px; }
+.loc-legendnote { line-height: 1.7; font-size: .88rem; margin: 10px 0 0; color: var(--muted); }
 
 /* 면세 쇼핑 (shopping.html) */
 .tf-kind { font-weight: 800; white-space: nowrap; color: #1b5e20; }
