@@ -53,13 +53,12 @@
     const maxAbsX = Math.max(1e-6, ...off.map((o) => Math.abs(o.dx)));
     const maxAbsY = Math.max(1e-6, ...off.map((o) => Math.abs(o.dy)));
 
-    // 지도 비율: 데이터의 남북/동서 퍼짐에 맞춰 세로 길이 자동 조절 → 안 겹치게
-    const W = 340, pad = 30;
-    let ratio = clamp(maxAbsY / maxAbsX, 0.6, 1.7);
-    let H = clamp(Math.round(W * ratio), 250, 470);
-    // 점 개수가 많으면 면적 확보(겹침 완화)
-    const cell = 40 * 40;
-    while (W * H < n * cell * 1.15 && H < 560) H += 20;
+    // 지도 비율: 남북/동서 퍼짐에 맞추되 너무 길지 않게, 점 수가 적으면 더 작게
+    const W = 340, pad = 28;
+    let ratio = clamp(maxAbsY / maxAbsX, 0.55, 1.1);
+    let H = Math.round(W * ratio);
+    H = Math.min(H, 140 + n * 20);   // 점 적으면 작게(2점≈180, 12점=상한)
+    H = clamp(H, 170, 330);
     const cx = W / 2, cy = H / 2;
 
     const R = points.map((p) => (p.t === 'hotel' || p.t === 'venue') ? 16 : (n > 10 ? 13 : 15));
