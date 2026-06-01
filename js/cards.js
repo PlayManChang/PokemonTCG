@@ -205,11 +205,16 @@ function renderDeckInfo() {
   if (!d) return;
   const deckCards = state.cards.filter((c) => (c.decks || []).includes(d.id));
   const totalQty = deckCards.reduce((s, c) => s + (c.deckCounts[d.id] || 0), 0);
+  // 1줄: 덱 이름 + 티어 + 카드 수 (설명 note는 표시하지 않음)
+  const head = document.createElement('div');
+  head.className = 'deck-head';
   const strong = document.createElement('strong');
   strong.textContent = `${d.name_ko} (${d.name_ja})`;
   const span = document.createElement('span');
-  span.textContent = `  ·  ${tierLabel(d.tier)}${d.note ? ' · ' + d.note : ''}  ·  ${deckCards.length}종 / ${totalQty}장`;
-  els.deckInfo.append(strong, span);
+  span.textContent = `  ·  ${tierLabel(d.tier)}  ·  ${deckCards.length}종 / ${totalQty}장`;
+  head.append(strong, span);
+  els.deckInfo.appendChild(head);
+  // 2줄: 덱이름 바로 아래에 전체 덱리스트 링크 고정
   if (d.deckId) {
     const a = document.createElement('a');
     a.className = 'deck-list-btn';

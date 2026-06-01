@@ -323,6 +323,7 @@ mark { background: var(--yellow); color: inherit; padding: 0 1px; border-radius:
 }
 .deck-info strong { font-size: 1rem; }
 .deck-info span { opacity: .85; }
+.deck-head { display: block; }
 .deck-list-btn {
   display: inline-block; margin-top: 8px; padding: 7px 12px;
   background: #fff; color: #1a64d4; font-weight: 700; font-size: .85rem;
