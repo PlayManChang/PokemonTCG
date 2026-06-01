@@ -322,10 +322,10 @@ function cardEl(c) {
 
   li.appendChild(head);
 
-  (c.abilities || []).forEach((a) => li.appendChild(block('특성', a.name_ko, a.name_ja, a.text_ko, a.text_ja, 'ability')));
+  (c.abilities || []).forEach((a) => li.appendChild(block('특성', a.name_ko, a.name_ja, a.text_ko, a.text_ja, 'ability', null, a.read)));
   (c.attacks || []).forEach((a) => {
     const dmg = a.damage ? ' (' + a.damage + ')' : '';
-    li.appendChild(block('기술', (a.name_ko || '') + dmg, a.name_ja, a.text_ko, a.text_ja, 'attack', a.cost_ko));
+    li.appendChild(block('기술', (a.name_ko || '') + dmg, a.name_ja, a.text_ko, a.text_ja, 'attack', a.cost_ko, a.read));
   });
   if (c.text_ko || c.text_ja) li.appendChild(block(c.subtype_ko || '효과', '', '', c.text_ko, c.text_ja, 'trainer'));
 
@@ -341,7 +341,7 @@ function cardEl(c) {
   return li;
 }
 
-function block(label, nameKo, nameJa, textKo, textJa, cls, cost) {
+function block(label, nameKo, nameJa, textKo, textJa, cls, cost, read) {
   const wrap = document.createElement('div');
   wrap.className = 'pblock ' + cls;
   const top = document.createElement('div');
@@ -353,6 +353,7 @@ function block(label, nameKo, nameJa, textKo, textJa, cls, cost) {
   if (cost) { const cs = document.createElement('span'); cs.className = 'pblock-cost'; cs.textContent = cost; top.appendChild(cs); }
   if (nameKo) { const nm = document.createElement('span'); nm.className = 'pblock-name'; nm.appendChild(hl(nameKo)); top.appendChild(nm); }
   if (nameJa) { const nj = document.createElement('span'); nj.className = 'pblock-name-ja'; nj.lang = 'ja'; nj.appendChild(hl(nameJa)); top.appendChild(nj); }
+  if (read) { const rd = document.createElement('span'); rd.className = 'pblock-read'; rd.appendChild(hl(read)); top.appendChild(rd); }
   wrap.appendChild(top);
   if (textKo) { const ko = document.createElement('div'); ko.className = 'pblock-text'; ko.appendChild(hl(textKo)); wrap.appendChild(ko); }
   if (textJa) { const ja = document.createElement('div'); ja.className = 'pblock-text-ja'; ja.lang = 'ja'; ja.appendChild(hl(textJa)); wrap.appendChild(ja); }

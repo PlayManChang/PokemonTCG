@@ -139,6 +139,10 @@ if (fs.existsSync(SETS_DIR)) {
 
 const idToRomaji = Object.fromEntries(Object.values(idInfo).map((i) => [i.id, i.romaji]));
 
+// 에너지 비용 교정 데이터(공식 페이지 재수집) — scripts/scrape-energy.js 생성
+const ENERGY_FILE = path.join(ROOT, 'data', 'sources', 'energy.json');
+const energyOverride = fs.existsSync(ENERGY_FILE) ? JSON.parse(fs.readFileSync(ENERGY_FILE, 'utf8')) : {};
+
 // 2) 카드 상세(번역물) 로드 → romaji 기준 정규화
 const detailByRomaji = {};
 const fillEmpty = (dst, src) => {
@@ -176,6 +180,14 @@ for (const romaji of universe) {
   const tiers = [...new Set(decks.map((d) => tierById[d]))].sort();
   const nameJa = det.name_ja || '';
   const read = kanaToHangul(nameJa); // 일본어 발음(한글)
+  const ov = energyOverride[String(id)] || []; // 공식 페이지 기반 에너지 비용 교정
+  const abilities = (det.abilities || []).map((a) => ({ ...a, read: kanaToHangul(a.name_ja || '') }));
+  const attacks = (det.attacks || []).map((a, idx) => {
+    let cost = a.cost_ko || '';
+    const m = ov.find((x) => x.name_ja === a.name_ja) || (ov.length === (det.attacks || []).length ? ov[idx] : null);
+    if (m && m.cost != null) cost = m.cost; // 정확한 에너지로 덮어쓰기
+    return { ...a, cost_ko: cost, read: kanaToHangul(a.name_ja || '') };
+  });
   cards.push({
     id,
     name_ja: nameJa,
@@ -187,8 +199,8 @@ for (const romaji of universe) {
     hp: det.hp || null,
     type_ko: det.type_ko || '',
     regulation: normReg(det.regulation),
-    abilities: det.abilities || [],
-    attacks: det.attacks || [],
+    abilities,
+    attacks,
     text_ja: det.text_ja || '',
     text_ko: det.text_ko || '',
     set: (info && info.set) || det.set || '',

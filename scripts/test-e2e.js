@@ -206,7 +206,15 @@ function assert(cond, msg) {
     await page.select('#deckSelect', 'dragapult');
     await new Promise((r) => setTimeout(r, 300));
     const readEls = await page.$$eval('.pcard-read', (e) => e.length);
-    assert(readEls >= 1, `일본어 발음(🗣) 표기 ${readEls}건 렌더`);
+    assert(readEls >= 1, `카드 이름 일본어 발음(🗣) 표기 ${readEls}건 렌더`);
+    const atkReadEls = await page.$$eval('.attack .pblock-read', (e) => e.length);
+    assert(atkReadEls >= 1, `기술 이름 일본어 발음 ${atkReadEls}건 렌더`);
+    const atkNoCost = await page.$$eval('.pcard-pokemon .attack', (els) => els.filter((e) => !e.querySelector('.pblock-cost')).length);
+    assert(atkNoCost === 0, `덱 내 모든 기술에 에너지 비용 표시됨 (누락 ${atkNoCost}건)`);
+    // 데이터 차원: 포켓몬 기술 에너지 비용 빈칸 0 검증
+    const cardsJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cards.json'), 'utf8'));
+    const emptyCost = cardsJson.cards.flatMap((c) => c.attacks || []).filter((a) => !a.cost_ko).length;
+    assert(emptyCost === 0, `전체 데이터 기술 에너지 비용 빈칸 ${emptyCost}건 (공식 페이지 교정 완료)`);
 
     console.log('\n[11] 세트별 보기 (M5 아비스아이)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드
