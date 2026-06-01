@@ -70,6 +70,7 @@ let read = 0;
 
 for (const f of files) {
   const arr = JSON.parse(fs.readFileSync(path.join(SRC, f), 'utf8'));
+  if (!Array.isArray(arr)) continue; // 용어 소스(배열)가 아닌 파일(예: energy.json 객체)은 건너뜀
   for (const it of arr) {
     const ja = norm(it.ja);
     if (!ja) continue;
