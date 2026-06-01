@@ -245,7 +245,7 @@ function assert(cond, msg) {
     const deckBtn = await page.$eval('.deck-list-btn', (e) => e.href).catch(() => '');
     assert(/deck\/result\.html\/deckID\//.test(deckBtn), `전체 덱리스트(공식) 버튼 링크 연결됨`);
     const deckMeta = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cards.json'), 'utf8')).decks;
-    assert(deckMeta.length === 30, `덱 ${deckMeta.length}개 (신규 4덱 포함 30덱)`);
+    assert(deckMeta.length === 31, `덱 ${deckMeta.length}개 (마리의 오롱털 포함 31덱)`);
     assert(deckMeta.every((dk) => dk.deckId), `모든 덱에 공식 덱ID 연결됨`);
     const atkNoCost = await page.$$eval('.pcard-pokemon .attack', (els) => els.filter((e) => !e.querySelector('.pblock-cost')).length);
     assert(atkNoCost === 0, `덱 내 모든 기술에 에너지 비용 표시됨 (누락 ${atkNoCost}건)`);

@@ -89,6 +89,14 @@
       "deckId": "cGc84x-CnvrtW-GYxx8c"
     },
     {
+      "id": "mary-orronge",
+      "name_ko": "마리의 오롱털 ex",
+      "name_ja": "マリィのオーロンゲex",
+      "tier": 3,
+      "note": "신규(아비스아이). 유키메노코·마시마시라와 데미지 조작, 펑크업으로 에너지 가속",
+      "deckId": "Yxx48c-3lM0IE-xcx4x8"
+    },
+    {
       "id": "omatsuriondo",
       "name_ko": "오마츠리온도(축제)",
       "name_ja": "おまつりおんど",
@@ -816,6 +824,7 @@
         "shirona-garchomp",
         "foodin",
         "mega-greninja",
+        "mary-orronge",
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
@@ -837,6 +846,7 @@
         "shirona-garchomp": 1,
         "foodin": 1,
         "mega-greninja": 1,
+        "mary-orronge": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
@@ -958,6 +968,7 @@
         "mega-lucario",
         "mega-greninja",
         "rocket-mewtwo",
+        "mary-orronge",
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
@@ -985,6 +996,7 @@
         "mega-lucario": 1,
         "mega-greninja": 1,
         "rocket-mewtwo": 1,
+        "mary-orronge": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
@@ -1286,6 +1298,7 @@
         "shirona-garchomp",
         "foodin",
         "mega-greninja",
+        "mary-orronge",
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
@@ -1315,6 +1328,7 @@
         "shirona-garchomp": 1,
         "foodin": 1,
         "mega-greninja": 1,
+        "mary-orronge": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
@@ -1551,6 +1565,7 @@
       "decks": [
         "dragapult",
         "nzoroark",
+        "mary-orronge",
         "mega-garura",
         "mega-absol",
         "mega-starmie",
@@ -1560,6 +1575,7 @@
       "deckCounts": {
         "dragapult": 1,
         "nzoroark": 1,
+        "mary-orronge": 1,
         "mega-garura": 1,
         "mega-absol": 1,
         "mega-starmie": 1,
@@ -1569,6 +1585,7 @@
       "tiers": [
         1,
         2,
+        3,
         4
       ]
     },
@@ -2712,18 +2729,21 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49356",
       "decks": [
         "mega-drilbur",
+        "mary-orronge",
         "daigo-metagross",
         "cinccino",
         "mega-darkrai"
       ],
       "deckCounts": {
         "mega-drilbur": 1,
+        "mary-orronge": 1,
         "daigo-metagross": 1,
         "cinccino": 1,
         "mega-darkrai": 1
       },
       "tiers": [
         2,
+        3,
         4
       ]
     },
@@ -5323,6 +5343,336 @@
       ]
     },
     {
+      "id": 47253,
+      "name_ja": "マリィのチョロネコ",
+      "name_ko": "마리의 나옹마",
+      "read": "마리이노초로네코",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 60,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "シャープネイル",
+          "name_ko": "샤프네일",
+          "cost_ko": "악",
+          "damage": "20＋",
+          "text_ja": "相手のバトルポケモンが「ポケモンex」なら、40ダメージ追加。",
+          "text_ko": "상대의 배틀 포켓몬이 「포켓몬 ex」라면 40데미지 추가.",
+          "read": "샤푸네이루"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047253_P_MARIINOCHIXYORONEKO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47253",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47254,
+      "name_ja": "マリィのレパルダス",
+      "name_ko": "마리의 레파르다스",
+      "read": "마리이노레파루다스",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 100,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "シャープクロー",
+          "name_ko": "샤프클로",
+          "cost_ko": "악악",
+          "damage": "70＋",
+          "text_ja": "相手のバトルポケモンが「ポケモンex」なら、70ダメージ追加。",
+          "text_ko": "상대의 배틀 포켓몬이 「포켓몬 ex」라면 70데미지 추가.",
+          "read": "샤푸쿠로"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047254_P_MARIINOREPARUDASU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47254",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47255,
+      "name_ja": "マリィのズルッグ",
+      "name_ko": "마리의 곤율랑",
+      "read": "마리이노즈룻구",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "かみくだく",
+          "name_ko": "깨물어부수기",
+          "cost_ko": "악악무색",
+          "damage": "50",
+          "text_ja": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+          "text_ko": "상대의 배틀 포켓몬에게 붙은 에너지를 1개 골라 트래시한다.",
+          "read": "카미쿠다쿠"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047255_P_MARIINOZURUGGU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47255",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47256,
+      "name_ja": "マリィのズルズキン",
+      "name_ko": "마리의 곤율거니",
+      "read": "마리이노즈루즈킨",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 120,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "うしろげり",
+          "name_ko": "뒷발차기",
+          "cost_ko": "악",
+          "damage": "40",
+          "text_ja": "",
+          "text_ko": "",
+          "read": "우시로게리"
+        },
+        {
+          "name_ja": "ワイルドタックル",
+          "name_ko": "와일드태클",
+          "cost_ko": "악악무색",
+          "damage": "160",
+          "text_ja": "このポケモンにも30ダメージ。",
+          "text_ko": "이 포켓몬에게도 30데미지.",
+          "read": "와이루도탓쿠루"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047256_P_MARIINOZURUZUKIN.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47256",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47257,
+      "name_ja": "マリィのベロバー",
+      "name_ko": "마리의 메롱꿍",
+      "read": "마리이노베로바",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "くすねる",
+          "name_ko": "슬쩍하기",
+          "cost_ko": "무색",
+          "damage": "",
+          "text_ja": "自分の山札を1枚引く。",
+          "text_ko": "자신의 산 더미에서 1장 뽑는다.",
+          "read": "쿠스네루"
+        },
+        {
+          "name_ja": "どつく",
+          "name_ko": "후려치기",
+          "cost_ko": "악",
+          "damage": "10",
+          "text_ja": "",
+          "text_ko": "",
+          "read": "도츠쿠"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047257_P_MARIINOBEROBA.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47257",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47258,
+      "name_ja": "マリィのギモー",
+      "name_ko": "마리의 쏘겨모",
+      "read": "마리이노기모",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 100,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "どつく",
+          "name_ko": "후려치기",
+          "cost_ko": "악악",
+          "damage": "60",
+          "text_ja": "",
+          "text_ko": "",
+          "read": "도츠쿠"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047258_P_MARIINOGIMO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47258",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47259,
+      "name_ja": "マリィのオーロンゲex",
+      "name_ko": "마리의 오롱털 ex",
+      "read": "마리이노오론게 ex",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "포켓몬 ex (2단계)",
+      "hp": 320,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "パンクアップ",
+          "name_ko": "펑크업",
+          "text_ja": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札から「基本エネルギー」を5枚まで選び、自分の「マリィのポケモン」に好きなようにつける。そして山札を切る。",
+          "text_ko": "자신의 차례에 이 카드를 패에서 내서 진화시켰을 때 1번 쓸 수 있다. 자신의 산 더미에서 「기본 에너지」를 5장까지 골라, 자신의 「마리의 포켓몬」에 자유롭게 붙인다. 그리고 산 더미를 섞는다.",
+          "read": "판쿠앗푸"
+        }
+      ],
+      "attacks": [
+        {
+          "name_ja": "シャドーバレット",
+          "name_ko": "섀도볼릿",
+          "cost_ko": "악악",
+          "damage": "180",
+          "text_ja": "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "상대의 벤치 포켓몬 1마리에게도 30데미지. (벤치는 약점·저항력을 계산하지 않는다.)",
+          "read": "샤도바렛토"
+        }
+      ],
+      "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+      "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047259_P_MARIINOORONGEEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47259",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47260,
+      "name_ja": "マリィのモルペコ",
+      "name_ko": "마리의 모르페코",
+      "read": "마리이노모루페코",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 70,
+      "type_ko": "악",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "スパイクホイール",
+          "name_ko": "스파이크휠",
+          "cost_ko": "무색무색무색",
+          "damage": "20＋",
+          "text_ja": "このポケモンについているエネルギーの数×40ダメージ追加。",
+          "text_ko": "이 포켓몬에게 붙은 에너지의 수 ×40데미지 추가.",
+          "read": "스파이쿠호이루"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047260_P_MARIINOMORUPEKO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47260",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 2
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
       "id": 47197,
       "name_ja": "むしとりセット",
       "name_ko": "곤충채집 세트",
@@ -5747,6 +6097,7 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47882",
       "decks": [
         "mega-lucario",
+        "mary-orronge",
         "omatsuriondo",
         "yadoking",
         "riguree-control",
@@ -5755,6 +6106,7 @@
       ],
       "deckCounts": {
         "mega-lucario": 1,
+        "mary-orronge": 1,
         "omatsuriondo": 1,
         "yadoking": 1,
         "riguree-control": 1,
@@ -5885,6 +6237,7 @@
         "shirona-garchomp",
         "foodin",
         "mega-greninja",
+        "mary-orronge",
         "dodekabashi",
         "mega-chandelure",
         "riguree-control",
@@ -5897,6 +6250,7 @@
         "shirona-garchomp": 1,
         "foodin": 1,
         "mega-greninja": 1,
+        "mary-orronge": 1,
         "dodekabashi": 1,
         "mega-chandelure": 1,
         "riguree-control": 1,
@@ -6380,6 +6734,146 @@
       "tiers": [
         3,
         4
+      ]
+    },
+    {
+      "id": 47262,
+      "name_ja": "すごいつりざお",
+      "name_ko": "좋은 낚싯대",
+      "read": "스고이츠리자오",
+      "alias": "",
+      "category": "trainer",
+      "subtype_ko": "굿즈",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分のトラッシュからポケモンと基本エネルギーを合計3枚まで選び、相手に見せて、山札にもどして切る。",
+      "text_ko": "자신의 트래시에서 포켓몬과 기본 에너지를 합쳐 3장까지 골라 상대에게 보여주고, 산 더미에 되돌려 섞는다.",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047262_T_SUGOITSURIZAO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47262",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47267,
+      "name_ja": "ナンジャモ",
+      "name_ko": "난자모",
+      "read": "",
+      "alias": "",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、それぞれ自分のサイドの残り枚数ぶん、山札を引く。",
+      "text_ko": "서로의 플레이어는 각자 자신의 패를 모두 뒷면으로 섞어 산 더미 아래에 되돌린다. 그 후 각자 자신의 사이드 남은 장수만큼 산 더미에서 뽑는다.",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047267_T_NANJIXYAMO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47267",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47268,
+      "name_ja": "ネモ",
+      "name_ko": "네모",
+      "read": "",
+      "alias": "",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の山札を3枚引く。",
+      "text_ko": "자신의 산 더미에서 3장 뽑는다.",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047268_T_NEMO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47268",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47269,
+      "name_ja": "博士の研究",
+      "name_ko": "박사의 연구",
+      "read": "",
+      "alias": "",
+      "category": "trainer",
+      "subtype_ko": "서포트",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分の手札をすべてトラッシュし、山札を7枚引く。",
+      "text_ko": "자신의 패를 모두 트래시하고, 산 더미에서 7장 뽑는다.",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047269_T_HAKASENOKENKIXYUU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47269",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
+      ]
+    },
+    {
+      "id": 47271,
+      "name_ja": "スパイクタウンジム",
+      "name_ko": "스파이크타운 체육관",
+      "read": "스파이쿠타운지무",
+      "alias": "",
+      "category": "trainer",
+      "subtype_ko": "스타디움",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札から「マリィのポケモン」を1枚選び、相手に見せて、手札に加えてよい。そして山札を切る。",
+      "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 산 더미에서 「마리의 포켓몬」을 1장 골라 상대에게 보여주고 패에 넣을 수 있다. 그리고 산 더미를 섞는다.",
+      "set": "SVOM",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SVOM/047271_T_SUPAIKUTAUNJIMU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47271",
+      "decks": [
+        "mary-orronge"
+      ],
+      "deckCounts": {
+        "mary-orronge": 1
+      },
+      "tiers": [
+        3
       ]
     },
     {

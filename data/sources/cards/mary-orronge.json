@@ -1,0 +1,318 @@
+[
+  {
+    "id": 47259,
+    "category": "pokemon",
+    "subtype_ko": "포켓몬 ex (2단계)",
+    "name_ja": "マリィのオーロンゲex",
+    "name_ko": "마리의 오롱털 ex",
+    "hp": 320,
+    "type_ko": "악",
+    "regulation": "",
+    "abilities": [
+      {
+        "name_ja": "パンクアップ",
+        "name_ko": "펑크업",
+        "text_ja": "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札から「基本エネルギー」を5枚まで選び、自分の「マリィのポケモン」に好きなようにつける。そして山札を切る。",
+        "text_ko": "자신의 차례에 이 카드를 패에서 내서 진화시켰을 때 1번 쓸 수 있다. 자신의 산 더미에서 「기본 에너지」를 5장까지 골라, 자신의 「마리의 포켓몬」에 자유롭게 붙인다. 그리고 산 더미를 섞는다."
+      }
+    ],
+    "attacks": [
+      {
+        "name_ja": "シャドーバレット",
+        "name_ko": "섀도볼릿",
+        "cost_ko": "악악",
+        "damage": "180",
+        "text_ja": "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+        "text_ko": "상대의 벤치 포켓몬 1마리에게도 30데미지. (벤치는 약점·저항력을 계산하지 않는다.)"
+      }
+    ],
+    "text_ja": "ポケモンexがきぜつしたとき、相手はサイドを2枚とる。",
+    "text_ko": "포켓몬 ex가 기절했을 때, 상대는 사이드를 2장 가져간다.",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47259"
+  },
+  {
+    "id": 47258,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "マリィのギモー",
+    "name_ko": "마리의 쏘겨모",
+    "hp": 100,
+    "type_ko": "악",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "どつく",
+        "name_ko": "후려치기",
+        "cost_ko": "악악",
+        "damage": "60",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47258"
+  },
+  {
+    "id": 47257,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "マリィのベロバー",
+    "name_ko": "마리의 메롱꿍",
+    "hp": 70,
+    "type_ko": "악",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "くすねる",
+        "name_ko": "슬쩍하기",
+        "cost_ko": "무색",
+        "damage": "",
+        "text_ja": "自分の山札を1枚引く。",
+        "text_ko": "자신의 산 더미에서 1장 뽑는다."
+      },
+      {
+        "name_ja": "どつく",
+        "name_ko": "후려치기",
+        "cost_ko": "악",
+        "damage": "10",
+        "text_ja": "",
+        "text_ko": ""
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47257"
+  },
+  {
+    "id": 47256,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "マリィのズルズキン",
+    "name_ko": "마리의 곤율거니",
+    "hp": 120,
+    "type_ko": "악",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "うしろげり",
+        "name_ko": "뒷발차기",
+        "cost_ko": "악",
+        "damage": "40",
+        "text_ja": "",
+        "text_ko": ""
+      },
+      {
+        "name_ja": "ワイルドタックル",
+        "name_ko": "와일드태클",
+        "cost_ko": "악악무색",
+        "damage": "160",
+        "text_ja": "このポケモンにも30ダメージ。",
+        "text_ko": "이 포켓몬에게도 30데미지."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47256"
+  },
+  {
+    "id": 47255,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "マリィのズルッグ",
+    "name_ko": "마리의 곤율랑",
+    "hp": 70,
+    "type_ko": "악",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "かみくだく",
+        "name_ko": "깨물어부수기",
+        "cost_ko": "악악무색",
+        "damage": "50",
+        "text_ja": "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+        "text_ko": "상대의 배틀 포켓몬에게 붙은 에너지를 1개 골라 트래시한다."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47255"
+  },
+  {
+    "id": 47254,
+    "category": "pokemon",
+    "subtype_ko": "1단계 포켓몬",
+    "name_ja": "マリィのレパルダス",
+    "name_ko": "마리의 레파르다스",
+    "hp": 100,
+    "type_ko": "악",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "シャープクロー",
+        "name_ko": "샤프클로",
+        "cost_ko": "악악",
+        "damage": "70＋",
+        "text_ja": "相手のバトルポケモンが「ポケモンex」なら、70ダメージ追加。",
+        "text_ko": "상대의 배틀 포켓몬이 「포켓몬 ex」라면 70데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47254"
+  },
+  {
+    "id": 47253,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "マリィのチョロネコ",
+    "name_ko": "마리의 나옹마",
+    "hp": 60,
+    "type_ko": "악",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "シャープネイル",
+        "name_ko": "샤프네일",
+        "cost_ko": "악",
+        "damage": "20＋",
+        "text_ja": "相手のバトルポケモンが「ポケモンex」なら、40ダメージ追加。",
+        "text_ko": "상대의 배틀 포켓몬이 「포켓몬 ex」라면 40데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47253"
+  },
+  {
+    "id": 47260,
+    "category": "pokemon",
+    "subtype_ko": "기본 포켓몬",
+    "name_ja": "マリィのモルペコ",
+    "name_ko": "마리의 모르페코",
+    "hp": 70,
+    "type_ko": "악",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [
+      {
+        "name_ja": "スパイクホイール",
+        "name_ko": "스파이크휠",
+        "cost_ko": "무색무색무색",
+        "damage": "20＋",
+        "text_ja": "このポケモンについているエネルギーの数×40ダメージ追加。",
+        "text_ko": "이 포켓몬에게 붙은 에너지의 수 ×40데미지 추가."
+      }
+    ],
+    "text_ja": "",
+    "text_ko": "",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47260"
+  },
+  {
+    "id": 47262,
+    "category": "trainer",
+    "subtype_ko": "굿즈",
+    "name_ja": "すごいつりざお",
+    "name_ko": "좋은 낚싯대",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分のトラッシュからポケモンと基本エネルギーを合計3枚まで選び、相手に見せて、山札にもどして切る。",
+    "text_ko": "자신의 트래시에서 포켓몬과 기본 에너지를 합쳐 3장까지 골라 상대에게 보여주고, 산 더미에 되돌려 섞는다.",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47262"
+  },
+  {
+    "id": 47267,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "ナンジャモ",
+    "name_ko": "난자모",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、それぞれ自分のサイドの残り枚数ぶん、山札を引く。",
+    "text_ko": "서로의 플레이어는 각자 자신의 패를 모두 뒷면으로 섞어 산 더미 아래에 되돌린다. 그 후 각자 자신의 사이드 남은 장수만큼 산 더미에서 뽑는다.",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47267"
+  },
+  {
+    "id": 47268,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "ネモ",
+    "name_ko": "네모",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の山札を3枚引く。",
+    "text_ko": "자신의 산 더미에서 3장 뽑는다.",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47268"
+  },
+  {
+    "id": 47269,
+    "category": "trainer",
+    "subtype_ko": "서포트",
+    "name_ja": "博士の研究",
+    "name_ko": "박사의 연구",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "自分の手札をすべてトラッシュし、山札を7枚引く。",
+    "text_ko": "자신의 패를 모두 트래시하고, 산 더미에서 7장 뽑는다.",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47269"
+  },
+  {
+    "id": 47271,
+    "category": "trainer",
+    "subtype_ko": "스타디움",
+    "name_ja": "スパイクタウンジム",
+    "name_ko": "스파이크타운 체육관",
+    "hp": null,
+    "type_ko": "",
+    "regulation": "",
+    "abilities": [],
+    "attacks": [],
+    "text_ja": "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札から「マリィのポケモン」を1枚選び、相手に見せて、手札に加えてよい。そして山札を切る。",
+    "text_ko": "서로의 플레이어는 자신의 차례마다 1번, 자신의 산 더미에서 「마리의 포켓몬」을 1장 골라 상대에게 보여주고 패에 넣을 수 있다. 그리고 산 더미를 섞는다.",
+    "set": "SVOM",
+    "number": "",
+    "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47271"
+  }
+]

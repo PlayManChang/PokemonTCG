@@ -23,6 +23,7 @@ const DECKS = [
   { id: 'foodin',       name_ko: '후딘',             name_ja: 'フーディン',            tier: 3, file: 'foodin.json',        note: '핸드파워', deckId: 'D84cG4-0Ny7Kp-Dc8xc4' },
   { id: 'mega-greninja', name_ko: '메가 겟코우가 ex', name_ja: 'メガゲッコウガex',      tier: 3, file: 'mega-greninja.json', note: '', deckId: 'nNL9HL-tB3wiQ-QNNgng' },
   { id: 'rocket-mewtwo', name_ko: '로켓단의 뮤츠 ex', name_ja: 'ロケット団のミュウツーex', tier: 3, file: 'rocket-mewtwo.json', note: '', deckId: 'cGc84x-CnvrtW-GYxx8c' },
+  { id: 'mary-orronge', name_ko: '마리의 오롱털 ex', name_ja: 'マリィのオーロンゲex', tier: 3, file: 'Yxx48c-3lM0IE-xcx4x8.json', note: '신규(아비스아이). 유키메노코·마시마시라와 데미지 조작, 펑크업으로 에너지 가속', deckId: 'Yxx48c-3lM0IE-xcx4x8' },
   // tier 4 = 최근 짐배틀 우승덱 (pokekameshi)
   { id: 'omatsuriondo', name_ko: '오마츠리온도(축제)', name_ja: 'おまつりおんど',     tier: 4, file: 'omatsuriondo.json', note: '', deckId: 'MyMRM3-CfkooR-SUMSSp' },
   { id: 'mega-livolt',  name_ko: '메가 라이볼트 ex',  name_ja: 'メガライボルトex',   tier: 4, file: 'mega-livolt.json',  note: '', deckId: 'nnHLNn-6zLr6V-gigQ9Q' },
