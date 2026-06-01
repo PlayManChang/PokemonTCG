@@ -50,8 +50,15 @@
     const n = points.length;
     const a = pickAnchor(points);
     const off = points.map((p) => ({ dx: (p.lon - a.lon) * 90.5, dy: (p.lat - a.lat) * 111 }));
-    const maxAbsX = Math.max(1e-6, ...off.map((o) => Math.abs(o.dx)));
-    const maxAbsY = Math.max(1e-6, ...off.map((o) => Math.abs(o.dy)));
+    // 방사형 압축: 가까운 점은 더 펴고 먼 점은 끌어와 지도에 고르게 분포(방향·순서 유지)
+    const comp = off.map((o) => {
+      const r = Math.sqrt(o.dx * o.dx + o.dy * o.dy);
+      if (r < 1e-9) return { dx: 0, dy: 0 };
+      const k = Math.pow(r, 0.58) / r;
+      return { dx: o.dx * k, dy: o.dy * k };
+    });
+    const maxAbsX = Math.max(1e-6, ...comp.map((o) => Math.abs(o.dx)));
+    const maxAbsY = Math.max(1e-6, ...comp.map((o) => Math.abs(o.dy)));
 
     // 지도 비율: 남북/동서 퍼짐에 맞추되 너무 길지 않게, 점 수가 적으면 더 작게
     const W = 340, pad = 28;
@@ -61,12 +68,13 @@
     H = clamp(H, 170, 330);
     const cx = W / 2, cy = H / 2;
 
-    const R = points.map((p) => (p.t === 'hotel' || p.t === 'venue') ? 16 : (n > 10 ? 13 : 15));
+    // 마커 크기: 점 많은 지도일수록 작게
+    const R = points.map((p) => isAnchorType(p.t) ? 14 : (n > 10 ? 11 : (n > 6 ? 12 : 14)));
     const ai = points.findIndex((p) => isAnchorType(p.t));
 
     let scale = Math.min((W - 2 * pad) / 2 / maxAbsX, (H - 2 * pad) / 2 / maxAbsY);
     if (!isFinite(scale) || scale <= 0) scale = 1;
-    const pos = off.map((o) => ({ x: cx + o.dx * scale, y: cy - o.dy * scale }));
+    const pos = comp.map((o) => ({ x: cx + o.dx * scale, y: cy - o.dy * scale }));
     const orig = pos.map((p) => ({ x: p.x, y: p.y }));
 
     // 겹침 방지: 가까운 마커끼리 밀어내고, 원래 위치로 약하게 당김(방향 유지)
@@ -119,12 +127,14 @@
       const x = pos[i].x, y = pos[i].y, isA = (i === ai);
       const r = R[i], col = typeOf(p.t).c;
       const xs = x.toFixed(1), ys = y.toFixed(1);
-      if (isA) s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + (r + 7) + '" fill="' + col + '" class="loc-halo"/>';
-      s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + r + '" fill="#fff" stroke="' + col + '" stroke-width="' + (isA ? 4 : 3) + '"/>';
-      s += '<text x="' + xs + '" y="' + (y + 1).toFixed(1) + '" class="loc-ic" font-size="' + (isA ? 17 : 15) + '">' + typeOf(p.t).e + '</text>';
-      const bx = (x + r * 0.78).toFixed(1), by = (y - r * 0.78).toFixed(1);
-      s += '<circle cx="' + bx + '" cy="' + by + '" r="8.5" fill="' + col + '" stroke="#fff" stroke-width="1.5"/>';
-      s += '<text x="' + bx + '" y="' + by + '" class="loc-bnum">' + (i + 1) + '</text>';
+      const rb = Math.max(6.5, r * 0.62);                 // 번호 배지 크기
+      const emoji = isA ? 14 : (r >= 13 ? 12 : 10);       // 아이콘 크기
+      if (isA) s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + (r + 6) + '" fill="' + col + '" class="loc-halo"/>';
+      s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + r + '" fill="#fff" stroke="' + col + '" stroke-width="' + (isA ? 3 : 2.5) + '"/>';
+      s += '<text x="' + xs + '" y="' + (y + 1).toFixed(1) + '" class="loc-ic" font-size="' + emoji + '">' + typeOf(p.t).e + '</text>';
+      const bx = (x + r * 0.74).toFixed(1), by = (y - r * 0.74).toFixed(1);
+      s += '<circle cx="' + bx + '" cy="' + by + '" r="' + rb.toFixed(1) + '" fill="' + col + '" stroke="#fff" stroke-width="1.5"/>';
+      s += '<text x="' + bx + '" y="' + by + '" class="loc-bnum" font-size="' + (rb >= 8 ? 10 : 9) + '">' + (i + 1) + '</text>';
     });
     s += '</svg>';
     return s;
