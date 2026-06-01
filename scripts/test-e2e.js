@@ -151,7 +151,7 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const menuLinks = await page.$$eval('.nav-menu a', (els) => els.length);
     const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
-    assert(menuVisible && menuLinks === 9, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/대회안내/구매처/면세쇼핑/여행가이드 + 외부3)`);
+    assert(menuVisible && menuLinks === 10, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/대회안내/구매처/면세쇼핑/위치한눈에/여행가이드 + 외부3)`);
     const extLinks = await page.$$eval('.nav-menu a[target="_blank"]', (e) => e.length);
     assert(extLinks === 3, `외부 사이트 바로가기 ${extLinks}개`);
     await page.goto(BASE + '/guide.html', { waitUntil: 'domcontentloaded' });
@@ -184,6 +184,20 @@ function assert(cond, msg) {
     assert(tfPhrases === shopping.taxfree.phrases.length, `면세 일본어 ${tfPhrases}구문 렌더`);
     const tfWarn = await page.$$eval('.tf-warn', (e) => e.length);
     assert(tfWarn === 1, '면세 합산 경고(소모품 밀봉) 표시됨');
+    const distChips = await page.$$eval('.shop-dist', (e) => e.length);
+    assert(distChips >= 10, `호텔 거리(가까운 순) 칩 ${distChips}개 표시됨`);
+
+    console.log('\n[10-b3] 위치 한눈에 페이지 (지역별 약식 지도)');
+    const locData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'locations.json'), 'utf8'));
+    const locPts = locData.regions.reduce((s, r) => s + r.points.length, 0);
+    await page.goto(BASE + '/locations.html', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.loc-svg', { timeout: 5000 });
+    const svgCount = await page.$$eval('.loc-svg', (e) => e.length);
+    assert(svgCount === locData.regions.length, `지역 약식 지도 ${svgCount}개 (지역 ${locData.regions.length}개)`);
+    const dots = await page.$$eval('.loc-svg circle', (e) => e.length);
+    assert(dots === locPts, `지도 점 ${dots}개 (좌표 ${locPts}개)`);
+    const legendLinks = await page.$$eval('.loc-legend .loc-link[href*="google.com/maps"]', (e) => e.length);
+    assert(legendLinks === locPts, `범례 지도링크 ${legendLinks}개 연결됨`);
 
     console.log('\n[10-c] 여행 가이드 페이지 (지도·교통비·분기)');
     const planData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'plan.json'), 'utf8'));

@@ -92,10 +92,10 @@
       root.appendChild(sec);
     }
 
-    // 돈키호테 위치 (동선별)
+    // 동선별 쇼핑·맛집 (호텔 가까운 순)
     const donki = el('section', 'gcard');
-    donki.appendChild(el('h2', null, '🐧 돈키호테 위치 (우리 동선)'));
-    if (data.donkiIntro) donki.appendChild(el('p', 'shop-note', data.donkiIntro));
+    donki.appendChild(el('h2', null, '🛍️ 동선별 쇼핑·맛집 (호텔 가까운 순)'));
+    if (data.spotsIntro) donki.appendChild(el('p', 'shop-note', data.spotsIntro));
     root.appendChild(donki);
 
     (data.areas || []).forEach((area) => {
@@ -111,7 +111,10 @@
         a.innerHTML = '🗺️ ' + s.name_ko + ' <span class="shop-go">지도 ↗</span>';
         li.appendChild(a);
         if (s.name_ja) li.appendChild(el('span', 'shop-ja', s.name_ja));
-        if (s.type) li.appendChild(el('span', 'shop-type', s.type));
+        const tags = el('span', 'shop-tags');
+        if (s.type) tags.appendChild(el('span', 'shop-type', s.type));
+        if (s.dist) tags.appendChild(el('span', 'shop-dist', '📍 ' + s.dist));
+        if (s.type || s.dist) li.appendChild(tags);
         if (s.desc) li.appendChild(el('p', 'shop-desc', s.desc));
         ul.appendChild(li);
       });

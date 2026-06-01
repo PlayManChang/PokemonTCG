@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1b5e20" />
+  <meta name="description" content="PJCS 여행 주요 위치 한눈에 (지역별 약식 지도)" />
+  <title>위치 한눈에 · PJCS 2026</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="guide-page">
+  <header class="app-header header-green">
+    <div class="title-row">
+      <button id="menuBtn" class="menu-btn" aria-label="메뉴">☰</button>
+      <h1>📌 위치 한눈에</h1>
+      <span class="header-spacer"></span>
+    </div>
+    <p class="guide-sub">주요 장소 지역별 약식 지도</p>
+  </header>
+
+  <main class="guide">
+    <div id="locRoot"></div>
+  </main>
+
+  <footer class="app-footer"><span>일본 PJCS 화이팅! 🔥</span></footer>
+
+  <script src="./js/nav.js"></script>
+  <script src="./js/locations.js"></script>
+</body>
+</html>
