@@ -21,6 +21,8 @@
 
   const enc = encodeURIComponent;
   const mapUrl = (q) => 'https://www.google.com/maps/search/?api=1&query=' + enc(q);
+  // 출발지 생략 → 구글 지도가 '현재 위치'를 자동 출발지로 사용
+  const dirUrl = (q, mode) => 'https://www.google.com/maps/dir/?api=1&destination=' + enc(q) + '&travelmode=' + (mode || 'walking');
   const el = (tag, cls, text) => {
     const e = document.createElement(tag);
     if (cls) e.className = cls;
@@ -169,6 +171,15 @@
         a.target = '_blank'; a.rel = 'noopener';
         a.innerHTML = typeOf(p.t).e + ' ' + p.n + ' <span class="loc-go">지도 ↗</span>';
         body.appendChild(a);
+        // 현재 위치 → 이 장소 길찾기 (먼 곳·교통편 있는 곳은 대중교통 모드)
+        const far = base && p !== base;
+        let mode = 'walking';
+        if (p.transit || (far && haversine(base.lat, base.lon, p.lat, p.lon) > 1200)) mode = 'transit';
+        const dir = el('a', 'loc-dir');
+        dir.href = dirUrl(p.q, mode);
+        dir.target = '_blank'; dir.rel = 'noopener';
+        dir.textContent = '🧭 현재 위치에서 길찾기' + (mode === 'transit' ? ' (대중교통)' : '');
+        body.appendChild(dir);
         if (base) {
           const dl = el('div', 'loc-dist');
           if (p === base && p.t === 'hotel') {

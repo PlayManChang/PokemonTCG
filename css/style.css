@@ -505,6 +505,7 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .loc-go { font-size: .74rem; font-weight: 600; color: #fff; background: #1a64d4; padding: 1px 7px; border-radius: 10px; white-space: nowrap; }
 .loc-dist { font-size: .8rem; color: var(--muted); line-height: 1.45; }
 .loc-dist b { color: #b35400; }
+.loc-dir { align-self: flex-start; margin-top: 3px; font-size: .78rem; font-weight: 700; color: #fff; background: #19a05a; padding: 3px 10px; border-radius: 999px; text-decoration: none; }
 .loc-chips { display: flex; flex-wrap: wrap; gap: 7px; margin: 2px 0 0; }
 .loc-chip { display: inline-block; color: #fff; font-weight: 700; font-size: .82rem; padding: 4px 11px; border-radius: 999px; }
 .loc-legendnote { line-height: 1.7; font-size: .88rem; margin: 10px 0 0; color: var(--muted); }
