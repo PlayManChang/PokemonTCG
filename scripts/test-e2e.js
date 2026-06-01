@@ -198,8 +198,10 @@ function assert(cond, msg) {
     assert(dots === locPts, `지도 점 ${dots}개 (좌표 ${locPts}개)`);
     const chips = await page.$$eval('.loc-chip', (e) => e.length);
     assert(chips === 9, `색상+아이콘 칩 ${chips}개 표시됨`);
-    const legendLinks = await page.$$eval('.loc-legend .loc-link[href*="google.com/maps"]', (e) => e.length);
-    assert(legendLinks === locPts, `범례 지도링크 ${legendLinks}개 연결됨`);
+    const legendLinks = await page.$$eval('.loc-legend .loc-seg-map[href*="google.com/maps"]', (e) => e.length);
+    assert(legendLinks === locPts, `범례 지도 버튼 ${legendLinks}개 연결됨`);
+    const locDirLinks = await page.$$eval('.loc-legend .loc-seg-dir[href*="google.com/maps/dir"]', (e) => e.length);
+    assert(locDirLinks === locPts, `범례 길찾기 버튼 ${locDirLinks}개 연결됨`);
 
     console.log('\n[10-c] 여행 가이드 페이지 (지도·교통비·분기)');
     const planData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'plan.json'), 'utf8'));

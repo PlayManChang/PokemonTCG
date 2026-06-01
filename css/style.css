@@ -500,12 +500,15 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .loc-legend li:last-child { border-bottom: 0; }
 .loc-anchor-row { background: #fff7fb; border-radius: 8px; padding: 7px 8px !important; }
 .loc-badge { flex: 0 0 auto; width: 22px; height: 22px; line-height: 22px; text-align: center; color: #fff; font-weight: 800; font-size: .82rem; border-radius: 50%; margin-top: 1px; box-shadow: 0 0 0 2px #fff, 0 0 0 3px rgba(0,0,0,.06); }
-.loc-item-body { flex: 1; display: flex; flex-direction: column; gap: 2px; }
-.loc-link { font-weight: 600; color: #1a64d4; text-decoration: none; line-height: 1.5; }
-.loc-go { font-size: .74rem; font-weight: 600; color: #fff; background: #1a64d4; padding: 1px 7px; border-radius: 10px; white-space: nowrap; }
+.loc-item-body { flex: 1; display: flex; flex-direction: column; gap: 3px; }
+.loc-name { font-weight: 700; color: #1c2530; line-height: 1.4; }
+.loc-seg { align-self: flex-start; display: inline-flex; margin-top: 2px; border-radius: 999px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.16); }
+.loc-seg a { display: inline-flex; align-items: center; gap: 3px; padding: 5px 15px; font-size: .8rem; font-weight: 800; color: #fff; text-decoration: none; }
+.loc-seg-map { background: #1a64d4; }
+.loc-seg-dir { background: #ff7a1a; border-left: 2px solid rgba(255,255,255,.9); }
+.loc-seg a:active { filter: brightness(.9); }
 .loc-dist { font-size: .8rem; color: var(--muted); line-height: 1.45; }
 .loc-dist b { color: #b35400; }
-.loc-dir { align-self: flex-start; margin-top: 3px; font-size: .78rem; font-weight: 700; color: #fff; background: #19a05a; padding: 3px 10px; border-radius: 999px; text-decoration: none; }
 .loc-chips { display: flex; flex-wrap: wrap; gap: 7px; margin: 2px 0 0; }
 .loc-chip { display: inline-block; color: #fff; font-weight: 700; font-size: .82rem; padding: 4px 11px; border-radius: 999px; }
 .loc-legendnote { line-height: 1.7; font-size: .88rem; margin: 10px 0 0; color: var(--muted); }

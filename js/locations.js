@@ -166,20 +166,20 @@
         badge.style.background = typeOf(p.t).c;
         li.appendChild(badge);
         const body = el('div', 'loc-item-body');
-        const a = el('a', 'loc-link');
-        a.href = mapUrl(p.q);
-        a.target = '_blank'; a.rel = 'noopener';
-        a.innerHTML = typeOf(p.t).e + ' ' + p.n + ' <span class="loc-go">지도 ↗</span>';
-        body.appendChild(a);
-        // 현재 위치 → 이 장소 길찾기 (먼 곳·교통편 있는 곳은 대중교통 모드)
+        body.appendChild(el('div', 'loc-name', typeOf(p.t).e + ' ' + p.n));
+        // 지도 | 길찾기 세그먼트 버튼 (길찾기는 출발지 생략 → 현재 위치)
         const far = base && p !== base;
         let mode = 'walking';
         if (p.transit || (far && haversine(base.lat, base.lon, p.lat, p.lon) > 1200)) mode = 'transit';
-        const dir = el('a', 'loc-dir');
-        dir.href = dirUrl(p.q, mode);
-        dir.target = '_blank'; dir.rel = 'noopener';
-        dir.textContent = '🧭 현재 위치에서 길찾기' + (mode === 'transit' ? ' (대중교통)' : '');
-        body.appendChild(dir);
+        const seg = el('div', 'loc-seg');
+        const mapA = el('a', 'loc-seg-map');
+        mapA.href = mapUrl(p.q); mapA.target = '_blank'; mapA.rel = 'noopener';
+        mapA.textContent = '🗺️ 지도';
+        const dirA = el('a', 'loc-seg-dir');
+        dirA.href = dirUrl(p.q, mode); dirA.target = '_blank'; dirA.rel = 'noopener';
+        dirA.textContent = '🧭 길찾기';
+        seg.append(mapA, dirA);
+        body.appendChild(seg);
         if (base) {
           const dl = el('div', 'loc-dist');
           if (p === base && p.t === 'hotel') {
