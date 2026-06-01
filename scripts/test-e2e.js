@@ -194,7 +194,7 @@ function assert(cond, msg) {
     await page.waitForSelector('.loc-svg', { timeout: 5000 });
     const svgCount = await page.$$eval('.loc-svg', (e) => e.length);
     assert(svgCount === locData.regions.length, `지역 약식 지도 ${svgCount}개 (지역 ${locData.regions.length}개)`);
-    const dots = await page.$$eval('.loc-svg .loc-num', (e) => e.length);
+    const dots = await page.$$eval('.loc-svg .loc-ic', (e) => e.length);
     assert(dots === locPts, `지도 점 ${dots}개 (좌표 ${locPts}개)`);
     const chips = await page.$$eval('.loc-chip', (e) => e.length);
     assert(chips === 8, `색상+아이콘 칩 ${chips}개 표시됨`);

@@ -489,12 +489,11 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .loc-svg { width: 100%; height: auto; display: block; }
 .loc-bg { stroke: #cdd9e6; stroke-width: 1; }
 .loc-grid { stroke: #e7eef5; stroke-width: 1; }
-.loc-ring { fill: none; stroke: #b9cadb; stroke-width: 1; stroke-dasharray: 3 4; }
-.loc-ringlbl { fill: #9aabbd; font-size: 9px; font-weight: 700; text-anchor: middle; }
-.loc-halo { opacity: .2; }
-.loc-anchorlbl { fill: #333; font-size: 9px; font-weight: 800; text-anchor: middle; }
+.loc-ring { fill: none; stroke: #c5d3e2; stroke-width: 1; stroke-dasharray: 3 5; }
+.loc-halo { opacity: .18; }
 .loc-n { fill: #93a3b5; font-size: 12px; font-weight: 800; text-anchor: end; }
-.loc-num { fill: #fff; font-size: 11px; font-weight: 800; text-anchor: middle; }
+.loc-ic { text-anchor: middle; dominant-baseline: central; }
+.loc-bnum { fill: #fff; font-size: 10px; font-weight: 800; text-anchor: middle; dominant-baseline: central; }
 .loc-legend { list-style: none; counter-reset: none; margin: 0; padding: 0; }
 .loc-legend li { display: flex; align-items: flex-start; gap: 9px; padding: 7px 0; border-bottom: 1px solid var(--line); }
 .loc-legend li:last-child { border-bottom: 0; }

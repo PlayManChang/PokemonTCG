@@ -34,20 +34,61 @@
     const lo = points.reduce((s, p) => s + p.lon, 0) / points.length;
     return { lat: la, lon: lo, real: false };
   }
-  const kmLabel = (km) => (km < 1 ? Math.round(km * 1000) + 'm' : km + 'km');
+  const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
 
   let gid = 0;
   function svgFor(points) {
-    const W = 320, H = 240, pad = 34, cx = W / 2, cy = H / 2;
+    const n = points.length;
     const a = pickAnchor(points);
     const off = points.map((p) => ({ dx: (p.lon - a.lon) * 90.5, dy: (p.lat - a.lat) * 111 }));
     const maxAbsX = Math.max(1e-6, ...off.map((o) => Math.abs(o.dx)));
     const maxAbsY = Math.max(1e-6, ...off.map((o) => Math.abs(o.dy)));
+
+    // 지도 비율: 데이터의 남북/동서 퍼짐에 맞춰 세로 길이 자동 조절 → 안 겹치게
+    const W = 340, pad = 30;
+    let ratio = clamp(maxAbsY / maxAbsX, 0.6, 1.7);
+    let H = clamp(Math.round(W * ratio), 250, 470);
+    // 점 개수가 많으면 면적 확보(겹침 완화)
+    const cell = 40 * 40;
+    while (W * H < n * cell * 1.15 && H < 560) H += 20;
+    const cx = W / 2, cy = H / 2;
+
+    const R = points.map((p) => (p.t === 'hotel' || p.t === 'venue') ? 16 : (n > 10 ? 13 : 15));
+    const ai = points.findIndex((p) => p.t === 'hotel' || p.t === 'venue');
+
     let scale = Math.min((W - 2 * pad) / 2 / maxAbsX, (H - 2 * pad) / 2 / maxAbsY);
     if (!isFinite(scale) || scale <= 0) scale = 1;
-    const maxR = Math.max.apply(null, off.map((o) => Math.sqrt(o.dx * o.dx + o.dy * o.dy)).concat(0));
-    const id = 'lg' + (gid++);
+    const pos = off.map((o) => ({ x: cx + o.dx * scale, y: cy - o.dy * scale }));
+    const orig = pos.map((p) => ({ x: p.x, y: p.y }));
 
+    // 겹침 방지: 가까운 마커끼리 밀어내고, 원래 위치로 약하게 당김(방향 유지)
+    for (let it = 0; it < 220; it++) {
+      for (let i = 0; i < n; i++) {
+        for (let j = i + 1; j < n; j++) {
+          let dx = pos[j].x - pos[i].x, dy = pos[j].y - pos[i].y;
+          let d = Math.sqrt(dx * dx + dy * dy) || 0.01;
+          const min = R[i] + R[j] + 7;
+          if (d < min) {
+            const push = (min - d) / 2, ux = dx / d, uy = dy / d;
+            if (i === ai) { pos[j].x += ux * push * 2; pos[j].y += uy * push * 2; }
+            else if (j === ai) { pos[i].x -= ux * push * 2; pos[i].y -= uy * push * 2; }
+            else { pos[i].x -= ux * push; pos[i].y -= uy * push; pos[j].x += ux * push; pos[j].y += uy * push; }
+          }
+        }
+      }
+      for (let i = 0; i < n; i++) {
+        if (i === ai) continue;
+        pos[i].x += (orig[i].x - pos[i].x) * 0.03;
+        pos[i].y += (orig[i].y - pos[i].y) * 0.03;
+      }
+      if (ai >= 0) { pos[ai].x = cx; pos[ai].y = cy; }
+      for (let i = 0; i < n; i++) {
+        pos[i].x = clamp(pos[i].x, pad + R[i], W - pad - R[i]);
+        pos[i].y = clamp(pos[i].y, pad + R[i], H - pad - R[i]);
+      }
+    }
+
+    const id = 'lg' + (gid++);
     let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="loc-svg" role="img" aria-label="약식 위치도">';
     s += '<defs><radialGradient id="' + id + '" cx="50%" cy="50%" r="72%">'
       + '<stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#e3edf6"/></radialGradient></defs>';
@@ -58,29 +99,24 @@
     for (let gx = pad; gx <= W - pad + 0.1; gx += stepX) s += '<line x1="' + gx.toFixed(0) + '" y1="' + pad + '" x2="' + gx.toFixed(0) + '" y2="' + (H - pad) + '" class="loc-grid"/>';
     for (let gy = pad; gy <= H - pad + 0.1; gy += stepY) s += '<line x1="' + pad + '" y1="' + gy.toFixed(0) + '" x2="' + (W - pad) + '" y2="' + gy.toFixed(0) + '" class="loc-grid"/>';
 
-    // 호텔/대회장 기준 거리 링
-    if (a.real && maxR > 0.05) {
-      [0.25, 0.5, 1, 2, 3, 5].forEach((km) => {
-        const rpx = km * scale;
-        if (km > maxR * 1.12 || rpx < 12) return;
-        s += '<circle cx="' + cx + '" cy="' + cy + '" r="' + rpx.toFixed(0) + '" class="loc-ring"/>';
-        s += '<text x="' + cx + '" y="' + (cy - rpx - 3).toFixed(0) + '" class="loc-ringlbl">' + kmLabel(km) + '</text>';
-      });
+    // 기준점 중심 옅은 동심원(장식)
+    if (ai >= 0) {
+      const span = Math.min(W, H) / 2 - pad;
+      [0.34, 0.67, 1].forEach((k) => { s += '<circle cx="' + cx + '" cy="' + cy + '" r="' + (span * k).toFixed(0) + '" class="loc-ring"/>'; });
     }
-    // 북쪽
     s += '<text x="' + (W - 16) + '" y="22" class="loc-n">N▲</text>';
 
-    // 점
+    // 마커: 흰 원 + 색 테두리 + 아이콘, 우상단 색 배지에 번호
     points.forEach((p, i) => {
-      const x = (cx + off[i].dx * scale), y = (cy - off[i].dy * scale);
-      const isA = (p.t === 'hotel' || p.t === 'venue');
-      const r = isA ? 13 : (points.length > 9 ? 9 : 11);
-      const col = typeOf(p.t).c;
-      const xs = x.toFixed(0), ys = y.toFixed(0);
+      const x = pos[i].x, y = pos[i].y, isA = (i === ai);
+      const r = R[i], col = typeOf(p.t).c;
+      const xs = x.toFixed(1), ys = y.toFixed(1);
       if (isA) s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + (r + 7) + '" fill="' + col + '" class="loc-halo"/>';
-      s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + r + '" fill="' + col + '" stroke="#fff" stroke-width="' + (isA ? 3 : 2) + '"/>';
-      s += '<text x="' + xs + '" y="' + (y + 0.5).toFixed(0) + '" class="loc-num" dominant-baseline="middle"' + (isA ? ' font-size="13"' : '') + '>' + (i + 1) + '</text>';
-      if (isA) s += '<text x="' + xs + '" y="' + (y - r - 5).toFixed(0) + '" class="loc-anchorlbl">' + typeOf(p.t).e + ' ' + typeOf(p.t).ko + '</text>';
+      s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + r + '" fill="#fff" stroke="' + col + '" stroke-width="' + (isA ? 4 : 3) + '"/>';
+      s += '<text x="' + xs + '" y="' + (y + 1).toFixed(1) + '" class="loc-ic" font-size="' + (isA ? 17 : 15) + '">' + typeOf(p.t).e + '</text>';
+      const bx = (x + r * 0.78).toFixed(1), by = (y - r * 0.78).toFixed(1);
+      s += '<circle cx="' + bx + '" cy="' + by + '" r="8.5" fill="' + col + '" stroke="#fff" stroke-width="1.5"/>';
+      s += '<text x="' + bx + '" y="' + by + '" class="loc-bnum">' + (i + 1) + '</text>';
     });
     s += '</svg>';
     return s;
