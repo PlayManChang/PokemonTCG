@@ -482,6 +482,15 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .shop-desc { margin: 6px 0 0; line-height: 1.55; font-size: .92rem; }
 .shop-mapall { display: inline-block; margin-top: 12px; font-weight: 600; color: #1a64d4; text-decoration: none; }
 
+/* 면세 쇼핑 (shopping.html) */
+.tf-kind { font-weight: 800; white-space: nowrap; color: #1b5e20; }
+.tf-warn { margin: 10px 0 0; padding: 10px 12px; background: #fff4e5; border: 1px solid #ffd9a8; border-left: 4px solid #f08c00; border-radius: 10px; font-size: .9rem; line-height: 1.55; font-weight: 600; }
+.tf-phrases { list-style: none; margin: 4px 0 0; padding: 0; }
+.tf-phrases li { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; margin: 0 0 8px; background: #f6f8fa; border: 1px solid #e3e7ec; border-left: 4px solid #1b5e20; border-radius: 10px; }
+.tf-jp { font-weight: 800; font-size: 1rem; }
+.tf-pron { color: #1a64d4; font-weight: 700; font-size: .92rem; }
+.tf-mean { color: var(--muted); font-size: .86rem; }
+
 /* 여행 가이드 (plan.html) */
 .plan-intro { color: var(--muted); font-size: .9rem; line-height: 1.55; margin-top: 10px; }
 .plan-alert { border: 1px solid #f3c2b0; border-left: 6px solid #e8590c; background: #fff5f0; }

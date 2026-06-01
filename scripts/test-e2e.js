@@ -151,7 +151,7 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const menuLinks = await page.$$eval('.nav-menu a', (els) => els.length);
     const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
-    assert(menuVisible && menuLinks === 8, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/대회안내/구매처/여행가이드 + 외부3)`);
+    assert(menuVisible && menuLinks === 9, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/대회안내/구매처/면세쇼핑/여행가이드 + 외부3)`);
     const extLinks = await page.$$eval('.nav-menu a[target="_blank"]', (e) => e.length);
     assert(extLinks === 3, `외부 사이트 바로가기 ${extLinks}개`);
     await page.goto(BASE + '/guide.html', { waitUntil: 'domcontentloaded' });
@@ -172,6 +172,18 @@ function assert(cond, msg) {
     assert(shopItems === shopTotal, `구매처 ${shopItems}곳 렌더 (데이터 ${shopTotal}곳과 일치)`);
     const mapLinks = await page.$$eval('.shop-name[href*="google.com/maps"]', (e) => e.length);
     assert(mapLinks === shopTotal, `구글 지도 링크 ${mapLinks}개 연결됨`);
+
+    console.log('\n[10-b2] 면세 쇼핑 페이지 (면세 가이드·돈키호테)');
+    const shopping = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shopping.json'), 'utf8'));
+    const donkiTotal = shopping.areas.reduce((s, a) => s + a.shops.length, 0);
+    await page.goto(BASE + '/shopping.html', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.shop-item', { timeout: 5000 });
+    const donkiItems = await page.$$eval('.shop-item .shop-name[href*="google.com/maps"]', (e) => e.length);
+    assert(donkiItems === donkiTotal, `돈키호테 ${donkiItems}곳 지도링크 렌더 (데이터 ${donkiTotal}곳)`);
+    const tfPhrases = await page.$$eval('.tf-phrases li', (e) => e.length);
+    assert(tfPhrases === shopping.taxfree.phrases.length, `면세 일본어 ${tfPhrases}구문 렌더`);
+    const tfWarn = await page.$$eval('.tf-warn', (e) => e.length);
+    assert(tfWarn === 1, '면세 합산 경고(소모품 밀봉) 표시됨');
 
     console.log('\n[10-c] 여행 가이드 페이지 (지도·교통비·분기)');
     const planData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'plan.json'), 'utf8'));
