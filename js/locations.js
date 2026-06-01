@@ -166,8 +166,9 @@
         badge.style.background = typeOf(p.t).c;
         li.appendChild(badge);
         const body = el('div', 'loc-item-body');
-        body.appendChild(el('div', 'loc-name', typeOf(p.t).e + ' ' + p.n));
-        // 지도 | 길찾기 세그먼트 버튼 (길찾기는 출발지 생략 → 현재 위치)
+        // 한 행: 이름(왼쪽) + [지도|길찾기] 버튼(오른쪽), 높이 정렬
+        const row = el('div', 'loc-row');
+        row.appendChild(el('div', 'loc-name', typeOf(p.t).e + ' ' + p.n));
         const far = base && p !== base;
         let mode = 'walking';
         if (p.transit || (far && haversine(base.lat, base.lon, p.lat, p.lon) > 1200)) mode = 'transit';
@@ -179,7 +180,8 @@
         dirA.href = dirUrl(p.q, mode); dirA.target = '_blank'; dirA.rel = 'noopener';
         dirA.textContent = '🧭 길찾기';
         seg.append(mapA, dirA);
-        body.appendChild(seg);
+        row.appendChild(seg);
+        body.appendChild(row);
         if (base) {
           const dl = el('div', 'loc-dist');
           if (p === base && p.t === 'hotel') {
