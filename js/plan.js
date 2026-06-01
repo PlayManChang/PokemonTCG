@@ -61,6 +61,24 @@
     if (data.intro) head.appendChild(el('p', 'plan-intro', data.intro));
     root.appendChild(head);
 
+    // 태풍 경보 (실시간 예보 교차검증 반영)
+    if (data.typhoonAlert) {
+      const t = data.typhoonAlert;
+      const sec = el('section', 'gcard plan-alert');
+      sec.appendChild(el('h2', 'plan-alert-title', t.title));
+      const ul = el('ul', 'plan-alert-list');
+      (t.lines || []).forEach((l) => ul.appendChild(el('li', null, l)));
+      sec.appendChild(ul);
+      if (t.link) {
+        const lk = el('a', 'plan-link-btn');
+        lk.href = t.link.url; lk.target = '_blank'; lk.rel = 'noopener';
+        lk.textContent = '🔗 ' + t.link.label;
+        sec.appendChild(lk);
+      }
+      if (t.note) sec.appendChild(el('p', 'plan-alert-note', t.note));
+      root.appendChild(sec);
+    }
+
     // 토글 컨트롤
     const ctrl = el('section', 'gcard plan-controls');
     ctrl.appendChild(el('h2', null, '⚙️ 일정 전환'));

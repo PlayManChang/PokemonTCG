@@ -473,6 +473,11 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 
 /* 여행 가이드 (plan.html) */
 .plan-intro { color: var(--muted); font-size: .9rem; line-height: 1.55; margin-top: 10px; }
+.plan-alert { border: 1px solid #f3c2b0; border-left: 6px solid #e8590c; background: #fff5f0; }
+.plan-alert-title { color: #c0392b; font-size: 1.05rem; }
+.plan-alert-list { margin: 8px 0 6px; padding-left: 20px; line-height: 1.6; }
+.plan-alert-list li { margin: 6px 0; font-size: .92rem; }
+.plan-alert-note { color: var(--muted); font-size: .82rem; margin-top: 6px; }
 .plan-flight { margin: 8px 0; line-height: 1.5; background: #f0f6ff; border-left: 4px solid #1a64d4; border-radius: 6px; padding: 8px 10px; }
 .plan-flight b { display: block; color: #0b3d91; }
 .plan-flight-detail { display: block; font-weight: 700; }
