@@ -25,6 +25,9 @@ const files = [
   'icons/icon.svg',
   'icons/icon-192.png',
   'icons/icon-512.png',
+  'docs/penalty-quickchart-ko.pdf',
+  'docs/penalty-guideline-ko.pdf',
+  'docs/floor-rule-ko.pdf',
 ];
 
 fs.rmSync(DIST, { recursive: true, force: true });

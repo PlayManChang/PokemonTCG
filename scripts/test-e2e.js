@@ -157,6 +157,11 @@ function assert(cond, msg) {
     await page.goto(BASE + '/guide.html', { waitUntil: 'domcontentloaded' });
     const gcards = await page.$$eval('.gcard', (e) => e.length);
     assert(gcards >= 8, `대회 안내 페이지 렌더 (섹션 ${gcards}개)`);
+    const pdfLinks = await page.$$eval('.rule-btns a[href$=".pdf"]', (e) => e.length);
+    assert(pdfLinks === 6, `공식 룰 PDF 링크 ${pdfLinks}개 (3종 × 보기/저장)`);
+    const pdfFiles = ['penalty-quickchart-ko.pdf', 'penalty-guideline-ko.pdf', 'floor-rule-ko.pdf'];
+    const pdfExist = pdfFiles.every((f) => fs.existsSync(path.join(ROOT, 'docs', f)));
+    assert(pdfExist, '룰 PDF 파일 3종 docs/ 존재');
 
     console.log('\n[10-b] 카드 구매처 페이지 (지도 링크)');
     const shopData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shops.json'), 'utf8'));

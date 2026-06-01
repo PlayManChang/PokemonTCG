@@ -457,6 +457,17 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .links li { padding: 7px 0; border-bottom: 1px solid var(--line); }
 .links li:last-child { border-bottom: 0; }
 .disclaimer { color: var(--muted); font-size: .82rem; line-height: 1.5; margin-top: 4px; }
+/* 공식 룰 PDF 목록 (guide.html) */
+.rule-list { list-style: none; margin: 6px 0; padding: 0; }
+.rule-list li { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.rule-list li:last-child { border-bottom: 0; }
+.rule-info { display: flex; flex-direction: column; line-height: 1.35; }
+.rule-info b { font-size: 1rem; }
+.rule-desc { color: var(--muted); font-size: .8rem; }
+.rule-btns { display: flex; gap: 6px; flex: none; }
+.rule-btns a { font-size: .85rem; font-weight: 700; text-decoration: none; padding: 6px 12px; border-radius: 8px; white-space: nowrap; }
+.rule-btns a:first-child { background: #1a64d4; color: #fff; }
+.rule-btns a:last-child { background: #e6f4ea; color: #1b5e20; border: 1px solid #b6e0c2; }
 .pron { color: #1a64d4; font-weight: 700; }
 
 /* 카드 구매처 (shops.html) */
