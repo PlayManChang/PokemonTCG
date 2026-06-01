@@ -69,7 +69,10 @@
     const cx = W / 2, cy = H / 2;
 
     // 마커 크기: 점 많은 지도일수록 작게
-    const R = points.map((p) => isAnchorType(p.t) ? 14 : (n > 10 ? 11 : (n > 6 ? 12 : 14)));
+    const R = points.map((p) => isAnchorType(p.t) ? 13 : (n >= 10 ? 10 : (n >= 5 ? 11 : 13)));
+    const RB = R.map((r) => Math.max(6, r * 0.58));        // 번호 배지 반지름
+    // 충돌용 유효 반지름: 우상단 번호 배지가 튀어나오는 만큼 더해 배지끼리도 안 겹치게
+    const Reff = R.map((r, i) => r + RB[i] * 0.85);
     const ai = points.findIndex((p) => isAnchorType(p.t));
 
     let scale = Math.min((W - 2 * pad) / 2 / maxAbsX, (H - 2 * pad) / 2 / maxAbsY);
@@ -78,12 +81,12 @@
     const orig = pos.map((p) => ({ x: p.x, y: p.y }));
 
     // 겹침 방지: 가까운 마커끼리 밀어내고, 원래 위치로 약하게 당김(방향 유지)
-    for (let it = 0; it < 220; it++) {
+    for (let it = 0; it < 240; it++) {
       for (let i = 0; i < n; i++) {
         for (let j = i + 1; j < n; j++) {
           let dx = pos[j].x - pos[i].x, dy = pos[j].y - pos[i].y;
           let d = Math.sqrt(dx * dx + dy * dy) || 0.01;
-          const min = R[i] + R[j] + 7;
+          const min = Reff[i] + Reff[j] + 3;
           if (d < min) {
             const push = (min - d) / 2, ux = dx / d, uy = dy / d;
             if (i === ai) { pos[j].x += ux * push * 2; pos[j].y += uy * push * 2; }
@@ -99,8 +102,8 @@
       }
       if (ai >= 0) { pos[ai].x = cx; pos[ai].y = cy; }
       for (let i = 0; i < n; i++) {
-        pos[i].x = clamp(pos[i].x, pad + R[i], W - pad - R[i]);
-        pos[i].y = clamp(pos[i].y, pad + R[i], H - pad - R[i]);
+        pos[i].x = clamp(pos[i].x, pad + R[i], W - pad - Reff[i]);
+        pos[i].y = clamp(pos[i].y, pad + Reff[i], H - pad - R[i]);
       }
     }
 
@@ -127,14 +130,14 @@
       const x = pos[i].x, y = pos[i].y, isA = (i === ai);
       const r = R[i], col = typeOf(p.t).c;
       const xs = x.toFixed(1), ys = y.toFixed(1);
-      const rb = Math.max(6.5, r * 0.62);                 // 번호 배지 크기
-      const emoji = isA ? 14 : (r >= 13 ? 12 : 10);       // 아이콘 크기
+      const rb = RB[i];                                   // 번호 배지 크기(충돌계산과 동일)
+      const emoji = isA ? 13 : (r >= 13 ? 12 : (r >= 11 ? 11 : 10)); // 아이콘 크기
       if (isA) s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + (r + 6) + '" fill="' + col + '" class="loc-halo"/>';
       s += '<circle cx="' + xs + '" cy="' + ys + '" r="' + r + '" fill="#fff" stroke="' + col + '" stroke-width="' + (isA ? 3 : 2.5) + '"/>';
       s += '<text x="' + xs + '" y="' + (y + 1).toFixed(1) + '" class="loc-ic" font-size="' + emoji + '">' + typeOf(p.t).e + '</text>';
-      const bx = (x + r * 0.74).toFixed(1), by = (y - r * 0.74).toFixed(1);
+      const bx = (x + r * 0.72).toFixed(1), by = (y - r * 0.72).toFixed(1);
       s += '<circle cx="' + bx + '" cy="' + by + '" r="' + rb.toFixed(1) + '" fill="' + col + '" stroke="#fff" stroke-width="1.5"/>';
-      s += '<text x="' + bx + '" y="' + by + '" class="loc-bnum" font-size="' + (rb >= 8 ? 10 : 9) + '">' + (i + 1) + '</text>';
+      s += '<text x="' + bx + '" y="' + by + '" class="loc-bnum" font-size="' + (rb >= 7.5 ? 10 : 9) + '">' + (i + 1) + '</text>';
     });
     s += '</svg>';
     return s;
