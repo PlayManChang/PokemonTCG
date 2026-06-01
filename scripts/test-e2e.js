@@ -197,7 +197,7 @@ function assert(cond, msg) {
     const dots = await page.$$eval('.loc-svg .loc-ic', (e) => e.length);
     assert(dots === locPts, `지도 점 ${dots}개 (좌표 ${locPts}개)`);
     const chips = await page.$$eval('.loc-chip', (e) => e.length);
-    assert(chips === 8, `색상+아이콘 칩 ${chips}개 표시됨`);
+    assert(chips === 9, `색상+아이콘 칩 ${chips}개 표시됨`);
     const legendLinks = await page.$$eval('.loc-legend .loc-link[href*="google.com/maps"]', (e) => e.length);
     assert(legendLinks === locPts, `범례 지도링크 ${legendLinks}개 연결됨`);
 

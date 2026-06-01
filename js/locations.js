@@ -6,16 +6,18 @@
   if (!root) return;
 
   const TYPES = {
-    hotel:  { e: '🏨', c: '#d6336c', ko: '호텔' },
-    venue:  { e: '🏟️', c: '#7048e8', ko: '대회장' },
-    poke:   { e: '🔴', c: '#e8400c', ko: '포켓몬' },
-    gundam: { e: '🤖', c: '#1c7ed6', ko: '건담' },
-    donki:  { e: '🐧', c: '#f08c00', ko: '돈키호테' },
-    shop:   { e: '🛍️', c: '#2f9e44', ko: '쇼핑' },
-    food:   { e: '🍜', c: '#c92a2a', ko: '맛집' },
-    sight:  { e: '📷', c: '#1098ad', ko: '관광' }
+    hotel:   { e: '🏨', c: '#d6336c', ko: '호텔' },
+    station: { e: '🚉', c: '#3b5bdb', ko: '기준 역' },
+    venue:   { e: '🏟️', c: '#7048e8', ko: '대회장' },
+    poke:    { e: '🔴', c: '#e8400c', ko: '포켓몬' },
+    gundam:  { e: '🤖', c: '#1c7ed6', ko: '건담' },
+    donki:   { e: '🐧', c: '#f08c00', ko: '돈키호테' },
+    shop:    { e: '🛍️', c: '#2f9e44', ko: '쇼핑' },
+    food:    { e: '🍜', c: '#c92a2a', ko: '맛집' },
+    sight:   { e: '📷', c: '#1098ad', ko: '관광' }
   };
   const typeOf = (t) => TYPES[t] || { e: '📍', c: '#555', ko: '' };
+  const isAnchorType = (t) => t === 'hotel' || t === 'venue' || t === 'station';
 
   const enc = encodeURIComponent;
   const mapUrl = (q) => 'https://www.google.com/maps/search/?api=1&query=' + enc(q);
@@ -28,7 +30,7 @@
 
   // 기준점(앵커): 호텔 > 대회장 > 무게중심. 호텔을 지도 한가운데 두고 나머지를 둘러 배치.
   function pickAnchor(points) {
-    const a = points.find((p) => p.t === 'hotel') || points.find((p) => p.t === 'venue');
+    const a = points.find((p) => p.t === 'hotel') || points.find((p) => p.t === 'venue') || points.find((p) => p.t === 'station');
     if (a) return { lat: a.lat, lon: a.lon, real: true };
     const la = points.reduce((s, p) => s + p.lat, 0) / points.length;
     const lo = points.reduce((s, p) => s + p.lon, 0) / points.length;
@@ -61,7 +63,7 @@
     const cx = W / 2, cy = H / 2;
 
     const R = points.map((p) => (p.t === 'hotel' || p.t === 'venue') ? 16 : (n > 10 ? 13 : 15));
-    const ai = points.findIndex((p) => p.t === 'hotel' || p.t === 'venue');
+    const ai = points.findIndex((p) => isAnchorType(p.t));
 
     let scale = Math.min((W - 2 * pad) / 2 / maxAbsX, (H - 2 * pad) / 2 / maxAbsY);
     if (!isFinite(scale) || scale <= 0) scale = 1;
@@ -141,11 +143,11 @@
       mapWrap.innerHTML = svgFor(reg.points);
       sec.appendChild(mapWrap);
 
-      const anchor = pickAnchor(reg.points);
-      const hotel = reg.points.find((p) => p.t === 'hotel');
+      // 거리 기준점: 호텔이 있으면 호텔, 없으면 지하철역(기준 역)
+      const base = reg.points.find((p) => p.t === 'hotel') || reg.points.find((p) => p.t === 'station');
       const ol = el('ol', 'loc-legend');
       reg.points.forEach((p, i) => {
-        const li = el('li', (p.t === 'hotel' || p.t === 'venue') ? 'loc-anchor-row' : null);
+        const li = el('li', isAnchorType(p.t) ? 'loc-anchor-row' : null);
         const badge = el('span', 'loc-badge', String(i + 1));
         badge.style.background = typeOf(p.t).c;
         li.appendChild(badge);
@@ -155,16 +157,18 @@
         a.target = '_blank'; a.rel = 'noopener';
         a.innerHTML = typeOf(p.t).e + ' ' + p.n + ' <span class="loc-go">지도 ↗</span>';
         body.appendChild(a);
-        // 호텔에서의 거리·도보시간(+교통편) — 호텔이 있는 지역만
-        if (hotel) {
+        if (base) {
           const dl = el('div', 'loc-dist');
-          if (p === hotel) {
+          if (p === base && p.t === 'hotel') {
             dl.innerHTML = '<b>📍 기준점 (우리 호텔)</b>';
+          } else if (p === base && p.t === 'station') {
+            dl.innerHTML = '<b>🚉 기준 역</b>' + (p.fromHotel ? ' · 🏨 호텔에서: ' + p.fromHotel : '');
           } else {
-            const m = haversine(hotel.lat, hotel.lon, p.lat, p.lon);
-            const walk = Math.max(1, Math.round(m * 1.25 / 75));
+            const m = haversine(base.lat, base.lon, p.lat, p.lon);
+            const walk = Math.max(1, Math.round(m * 1.2 / 80));
             const distTxt = m < 950 ? (Math.round(m / 10) * 10) + 'm' : (m / 1000).toFixed(1) + 'km';
-            let t = '🚶 도보 약 ' + walk + '분 · 직선 ' + distTxt;
+            const fromWord = base.t === 'station' ? '역에서 ' : '';
+            let t = '🚶 ' + fromWord + '도보 약 ' + walk + '분 · 직선 ' + distTxt;
             if (p.transit) t += ' · 🚉 ' + p.transit;
             else if (m > 1200) t += ' · 🚉 전철 권장';
             dl.textContent = t;
