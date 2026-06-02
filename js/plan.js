@@ -128,16 +128,16 @@
       root.appendChild(sec);
     }
 
-    // 토글 컨트롤
-    const ctrl = el('section', 'gcard plan-controls');
-    ctrl.appendChild(el('h2', null, '⚙️ 일정 전환'));
-    ctrl.appendChild(toggleRow('날씨', [
-      { k: 'a', label: '☀️ 플랜 A (맑음)' }, { k: 'b', label: '🌀 플랜 B (태풍·비)' }
-    ], state.typhoon, (k) => { state.typhoon = k; render(); }));
-    ctrl.appendChild(toggleRow('PJCS DAY2', [
-      { k: 'advanced', label: '✅ DAY1 진출' }, { k: 'eliminated', label: '❌ 탈락 (대체관광)' }
-    ], state.branch, (k) => { state.branch = k; render(); }));
-    root.appendChild(ctrl);
+    // 토글 컨트롤 (DAY2 진출/탈락 분기)
+    const hasBranch = (data.days || []).some((d) => d.branch);
+    if (hasBranch) {
+      const ctrl = el('section', 'gcard plan-controls');
+      ctrl.appendChild(el('h2', null, '⚙️ 일정 전환'));
+      ctrl.appendChild(toggleRow('PJCS DAY2', [
+        { k: 'advanced', label: '✅ DAY1 진출' }, { k: 'eliminated', label: '❌ 탈락 (대체관광)' }
+      ], state.branch, (k) => { state.branch = k; render(); }));
+      root.appendChild(ctrl);
+    }
 
     // 핵심 이동 경로
     const routes = el('section', 'gcard');
