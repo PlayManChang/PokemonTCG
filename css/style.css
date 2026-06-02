@@ -532,6 +532,22 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .plan-alert-list { margin: 8px 0 6px; padding-left: 20px; line-height: 1.6; }
 .plan-alert-list li { margin: 6px 0; font-size: .92rem; }
 .plan-alert-note { color: var(--muted); font-size: .82rem; margin-top: 6px; }
+.altf-note { font-size: .9rem; line-height: 1.6; margin: 6px 0 10px; }
+.altf-list { display: flex; flex-direction: column; gap: 7px; margin: 4px 0; }
+.altf-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 9px 11px; background: #fff; border: 1px solid #ece6dd; border-radius: 10px; }
+.altf-row.altf-ours { background: #eaf1ff; border-color: #bcd3ff; }
+.altf-left { min-width: 0; }
+.altf-name { font-weight: 800; font-size: .9rem; color: #1c2530; }
+.altf-ours .altf-name { color: #1a64d4; }
+.altf-time { font-size: .82rem; color: #555; margin-top: 2px; }
+.altf-badge { flex: 0 0 auto; max-width: 44%; text-align: center; font-size: .76rem; font-weight: 700; padding: 4px 9px; border-radius: 9px; line-height: 1.35; }
+.altf-h3 { margin: 14px 0 6px; font-size: .96rem; }
+.altf-prio { display: flex; flex-direction: column; gap: 7px; }
+.altf-prio-row { display: flex; gap: 9px; align-items: flex-start; padding: 9px 11px; background: #fff; border: 1px solid #e7e2da; border-radius: 10px; }
+.altf-rank { flex: 0 0 auto; font-size: .76rem; font-weight: 800; color: #fff; background: #e8590c; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+.altf-prio-tx { font-size: .88rem; line-height: 1.5; }
+.altf-prio-tx b { color: #1c2530; }
+.altf-tip { margin: 10px 0 0; padding: 9px 11px; background: #e6f6ec; border-radius: 10px; font-size: .88rem; line-height: 1.55; font-weight: 600; }
 .plan-flight { margin: 8px 0; line-height: 1.5; background: #f0f6ff; border-left: 4px solid #1a64d4; border-radius: 6px; padding: 8px 10px; }
 .plan-flight b { display: block; color: #0b3d91; }
 .plan-flight-detail { display: block; font-weight: 700; }

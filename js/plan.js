@@ -79,6 +79,55 @@
       root.appendChild(sec);
     }
 
+    // 태풍 시 대체편 (부산→나리타)
+    if (data.altFlights) {
+      const af = data.altFlights;
+      const sec = el('section', 'gcard plan-alert');
+      sec.appendChild(el('h2', 'plan-alert-title', af.title));
+      if (af.note) sec.appendChild(el('p', 'altf-note', af.note));
+
+      const RATE = { good: { e: '✅', c: '#1b7a3d', bg: '#e6f6ec' }, ok: { e: '🟡', c: '#9a6b00', bg: '#fff6e0' }, warn: { e: '⚠️', c: '#7a6a55', bg: '#f1ece4' }, bad: { e: '❌', c: '#b42318', bg: '#fdecea' } };
+      const list = el('div', 'altf-list');
+      (af.flights || []).forEach((f) => {
+        const r = RATE[f.rate] || RATE.warn;
+        const row = el('div', 'altf-row' + (f.ours ? ' altf-ours' : ''));
+        const left = el('div', 'altf-left');
+        left.appendChild(el('div', 'altf-name', f.name));
+        left.appendChild(el('div', 'altf-time', '🛫 ' + f.time));
+        row.appendChild(left);
+        const b = el('div', 'altf-badge', r.e + ' ' + (f.note || ''));
+        b.style.background = r.bg; b.style.color = r.c;
+        row.appendChild(b);
+        list.appendChild(row);
+      });
+      sec.appendChild(list);
+
+      if (af.priority && af.priority.length) {
+        sec.appendChild(el('h3', 'altf-h3', '🎯 재예약 우선순위'));
+        const ol = el('div', 'altf-prio');
+        af.priority.forEach((p) => {
+          const row = el('div', 'altf-prio-row');
+          row.appendChild(el('span', 'altf-rank', p.rank));
+          const tx = el('div', 'altf-prio-tx');
+          tx.appendChild(el('b', null, p.name));
+          tx.appendChild(el('span', null, ' — ' + p.why));
+          row.appendChild(tx);
+          ol.appendChild(row);
+        });
+        sec.appendChild(ol);
+      }
+
+      if (af.steps && af.steps.length) {
+        sec.appendChild(el('h3', 'altf-h3', '⚡ 지금 할 일'));
+        const ol = el('ol', 'plan-steps altf-steps');
+        af.steps.forEach((s) => { const li = el('li'); li.appendChild(el('span', 'plan-step-text', s)); ol.appendChild(li); });
+        sec.appendChild(ol);
+      }
+      if (af.tip) sec.appendChild(el('p', 'altf-tip', '💡 ' + af.tip));
+      if (af.disclaimer) sec.appendChild(el('p', 'plan-alert-note', af.disclaimer));
+      root.appendChild(sec);
+    }
+
     // 토글 컨트롤
     const ctrl = el('section', 'gcard plan-controls');
     ctrl.appendChild(el('h2', null, '⚙️ 일정 전환'));
