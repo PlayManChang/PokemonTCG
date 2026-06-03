@@ -196,8 +196,10 @@ function assert(cond, msg) {
     assert(svgCount === locData.regions.length, `지역 약식 지도 ${svgCount}개 (지역 ${locData.regions.length}개)`);
     const dots = await page.$$eval('.loc-svg .loc-ic', (e) => e.length);
     assert(dots === locPts, `지도 점 ${dots}개 (좌표 ${locPts}개)`);
+    const usedTypes = new Set();
+    locData.regions.forEach((r) => r.points.forEach((p) => usedTypes.add(p.t)));
     const chips = await page.$$eval('.loc-chip', (e) => e.length);
-    assert(chips === 9, `색상+아이콘 칩 ${chips}개 표시됨`);
+    assert(chips === usedTypes.size, `색상+아이콘 칩 ${chips}개 (사용 종류 ${usedTypes.size}개와 일치)`);
     const legendLinks = await page.$$eval('.loc-legend .loc-seg-map[href*="google.com/maps"]', (e) => e.length);
     assert(legendLinks === locPts, `범례 지도 버튼 ${legendLinks}개 연결됨`);
     const locDirLinks = await page.$$eval('.loc-legend .loc-seg-dir[href*="google.com/maps/dir"]', (e) => e.length);

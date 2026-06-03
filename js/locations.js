@@ -211,7 +211,9 @@
       const lg = el('section', 'gcard');
       lg.appendChild(el('h2', null, '🏷️ 색상·아이콘 안내'));
       const chips = el('div', 'loc-chips');
-      Object.keys(TYPES).forEach((k) => {
+      const used = new Set();
+      (data.regions || []).forEach((r) => (r.points || []).forEach((p) => used.add(p.t)));
+      Object.keys(TYPES).filter((k) => used.has(k)).forEach((k) => {
         const t = TYPES[k];
         const chip = el('span', 'loc-chip');
         chip.style.background = t.c;
