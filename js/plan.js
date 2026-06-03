@@ -175,9 +175,26 @@
 
       const ul = el('ul', 'plan-stops');
       (stops || []).forEach((s) => {
-        const li = el('li');
+        const li = el('li', 'plan-stop-main');
         if (s.map) li.appendChild(mapLink(s.label, s.map));
         else li.appendChild(el('span', 'plan-stop-plain', s.label));
+        // 주변 가볼만한 곳·맛집 — 접기(▸)로 숨김
+        if (s.spots && s.spots.length) {
+          const det = el('details', 'plan-substops');
+          const sum = el('summary');
+          const nFood = s.spots.filter((x) => x.food).length;
+          sum.innerHTML = '주변 가볼만한 곳' + (nFood ? '·맛집' : '') + ' <b>' + s.spots.length + '곳</b>';
+          det.appendChild(sum);
+          const sul = el('ul', 'plan-substop-list');
+          s.spots.forEach((sp) => {
+            const sli = el('li', 'plan-substop' + (sp.food ? ' is-food' : ''));
+            if (sp.map) sli.appendChild(mapLink(sp.label, sp.map));
+            else sli.appendChild(el('span', 'plan-stop-plain', sp.label));
+            sul.appendChild(sli);
+          });
+          det.appendChild(sul);
+          li.appendChild(det);
+        }
         ul.appendChild(li);
       });
       sec.appendChild(ul);

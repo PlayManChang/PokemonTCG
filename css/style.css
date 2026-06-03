@@ -583,8 +583,23 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .plan-flag { font-size: .84rem; color: #b25000; background: #fff3e0; padding: 6px 10px; border-radius: 8px; margin: 4px 0; }
 .plan-badge { display: inline-block; font-size: .76rem; font-weight: 700; color: #1b5e20; background: #e6f4ea; padding: 2px 9px; border-radius: 10px; margin-bottom: 6px; }
 .plan-stops { list-style: none; margin: 4px 0 0; padding: 0; }
-.plan-stops li { padding: 8px 0; border-bottom: 1px solid var(--line); line-height: 1.5; }
-.plan-stops li:last-child { border-bottom: 0; }
+.plan-stops > li { padding: 9px 0; border-bottom: 1px solid var(--line); line-height: 1.5; }
+.plan-stops > li:last-child { border-bottom: 0; }
+/* 메인 위치 = 번호처럼 또렷하게(좌측 컬러바·굵게) */
+.plan-stop-main { position: relative; padding-left: 12px !important; }
+.plan-stop-main::before { content: ''; position: absolute; left: 0; top: 12px; bottom: 12px; width: 4px; border-radius: 2px; background: #1b5e20; }
+.plan-stop-main > .plan-stop { font-weight: 800; font-size: 1rem; }
+/* 세부(가볼만한 곳·맛집) = 접기 + 작고 옅게 */
+.plan-substops { margin: 6px 0 0 2px; }
+.plan-substops > summary { cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 5px; font-size: .8rem; font-weight: 700; color: #5a6b7b; background: #eef2f6; padding: 3px 10px; border-radius: 999px; }
+.plan-substops > summary::-webkit-details-marker { display: none; }
+.plan-substops > summary::before { content: '▸'; font-size: .8rem; transition: transform .15s; }
+.plan-substops[open] > summary::before { transform: rotate(90deg); }
+.plan-substops > summary b { color: #1b5e20; }
+.plan-substop-list { list-style: none; margin: 7px 0 2px; padding: 0 0 0 10px; border-left: 2px dashed #d8e0e8; }
+.plan-substop { padding: 5px 0; }
+.plan-substop > .plan-stop { font-weight: 600; font-size: .9rem; color: #3a6ea5; }
+.plan-substop.is-food > .plan-stop { color: #c2410c; }
 .plan-tip { font-size: .84rem; color: var(--muted); line-height: 1.55; margin-top: 8px; }
 .plan-mapcat { font-size: .95rem; margin: 12px 0 4px; }
 .plan-people { margin: 6px 0 10px; font-weight: 600; }
