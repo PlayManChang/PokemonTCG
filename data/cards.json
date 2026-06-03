@@ -37,7 +37,7 @@
       "name_ko": "카미츠오로치 ex",
       "name_ja": "カミツオロチex",
       "tier": 3,
-      "note": "",
+      "note": "시티리그 우승 다수(드래펄트 다음 2강) — 사실상 상위권",
       "deckId": "bFFfkv-hZ6VlG-Fk5fb5"
     },
     {
@@ -95,6 +95,14 @@
       "tier": 3,
       "note": "신규(아비스아이). 유키메노코·마시마시라와 데미지 조작, 펑크업으로 에너지 가속",
       "deckId": "Yxx48c-3lM0IE-xcx4x8"
+    },
+    {
+      "id": "mega-venusaur",
+      "name_ko": "메가 이상해꽃 ex",
+      "name_ja": "メガフシギバナex",
+      "tier": 4,
+      "note": "HP380 고내구. 솔라트랜스로 에너지 이동, 정글덤프 240. 5/23 세키치쿠배 우승",
+      "deckId": "vwkvkb-tw6BXE-kF1kfF"
     },
     {
       "id": "omatsuriondo",
@@ -630,6 +638,7 @@
         "takeraiko",
         "foodin",
         "mega-greninja",
+        "mega-venusaur",
         "yadoking",
         "olive",
         "daigo-metagross",
@@ -645,6 +654,7 @@
         "takeraiko": 1,
         "foodin": 1,
         "mega-greninja": 1,
+        "mega-venusaur": 1,
         "yadoking": 1,
         "olive": 1,
         "daigo-metagross": 1,
@@ -705,6 +715,7 @@
         "takeraiko",
         "mega-lucario",
         "mega-greninja",
+        "mega-venusaur",
         "mega-livolt",
         "wailord",
         "yadoking",
@@ -723,6 +734,7 @@
         "takeraiko": 1,
         "mega-lucario": 1,
         "mega-greninja": 1,
+        "mega-venusaur": 1,
         "mega-livolt": 1,
         "wailord": 1,
         "yadoking": 1,
@@ -969,6 +981,7 @@
         "mega-greninja",
         "rocket-mewtwo",
         "mary-orronge",
+        "mega-venusaur",
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
@@ -997,6 +1010,7 @@
         "mega-greninja": 1,
         "rocket-mewtwo": 1,
         "mary-orronge": 1,
+        "mega-venusaur": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
@@ -1050,6 +1064,7 @@
         "foodin",
         "mega-greninja",
         "rocket-mewtwo",
+        "mega-venusaur",
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
@@ -1078,6 +1093,7 @@
         "foodin": 1,
         "mega-greninja": 1,
         "rocket-mewtwo": 1,
+        "mega-venusaur": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
@@ -1215,6 +1231,7 @@
         "shirona-garchomp",
         "mega-greninja",
         "rocket-mewtwo",
+        "mega-venusaur",
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
@@ -1244,6 +1261,7 @@
         "shirona-garchomp": 1,
         "mega-greninja": 1,
         "rocket-mewtwo": 1,
+        "mega-venusaur": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
@@ -1299,6 +1317,7 @@
         "foodin",
         "mega-greninja",
         "mary-orronge",
+        "mega-venusaur",
         "omatsuriondo",
         "mega-livolt",
         "dodekabashi",
@@ -1329,6 +1348,7 @@
         "foodin": 1,
         "mega-greninja": 1,
         "mary-orronge": 1,
+        "mega-venusaur": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "dodekabashi": 1,
@@ -1375,6 +1395,7 @@
       "decks": [
         "dragapult",
         "mega-lucario",
+        "mega-venusaur",
         "omatsuriondo",
         "dodekabashi",
         "olive",
@@ -1384,6 +1405,7 @@
       "deckCounts": {
         "dragapult": 1,
         "mega-lucario": 1,
+        "mega-venusaur": 1,
         "omatsuriondo": 1,
         "dodekabashi": 1,
         "olive": 1,
@@ -2808,6 +2830,7 @@
         "shirona-garchomp",
         "foodin",
         "mega-greninja",
+        "mega-venusaur",
         "omatsuriondo",
         "mega-chandelure",
         "mega-garura",
@@ -2825,6 +2848,7 @@
         "shirona-garchomp": 1,
         "foodin": 1,
         "mega-greninja": 1,
+        "mega-venusaur": 1,
         "omatsuriondo": 1,
         "mega-chandelure": 1,
         "mega-garura": 1,
@@ -2893,6 +2917,7 @@
         "mega-drilbur",
         "mega-lucario",
         "mega-greninja",
+        "mega-venusaur",
         "omatsuriondo",
         "mega-livolt",
         "iineinu",
@@ -2905,6 +2930,7 @@
         "mega-drilbur": 1,
         "mega-lucario": 1,
         "mega-greninja": 1,
+        "mega-venusaur": 1,
         "omatsuriondo": 1,
         "mega-livolt": 1,
         "iineinu": 1,
@@ -3193,6 +3219,7 @@
       "decks": [
         "nzoroark",
         "takeraiko",
+        "mega-venusaur",
         "yadoking",
         "mega-garura",
         "ogerpon-bullet"
@@ -3200,6 +3227,7 @@
       "deckCounts": {
         "nzoroark": 1,
         "takeraiko": 1,
+        "mega-venusaur": 1,
         "yadoking": 1,
         "mega-garura": 1,
         "ogerpon-bullet": 1
@@ -3589,10 +3617,12 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47799",
       "decks": [
         "kamitsuorochi",
+        "mega-venusaur",
         "olive"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
+        "mega-venusaur": 1,
         "olive": 1
       },
       "tiers": [
@@ -3632,10 +3662,12 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47800",
       "decks": [
         "kamitsuorochi",
+        "mega-venusaur",
         "olive"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
+        "mega-venusaur": 1,
         "olive": 1
       },
       "tiers": [
@@ -3683,10 +3715,12 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47801",
       "decks": [
         "kamitsuorochi",
+        "mega-venusaur",
         "olive"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
+        "mega-venusaur": 1,
         "olive": 1
       },
       "tiers": [
@@ -3737,6 +3771,7 @@
       "decks": [
         "kamitsuorochi",
         "takeraiko",
+        "mega-venusaur",
         "dodekabashi",
         "olive",
         "ogerpon-bullet"
@@ -3744,6 +3779,7 @@
       "deckCounts": {
         "kamitsuorochi": 1,
         "takeraiko": 1,
+        "mega-venusaur": 1,
         "dodekabashi": 1,
         "olive": 1,
         "ogerpon-bullet": 1
@@ -3793,13 +3829,16 @@
       "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047739_P_SEREBII.jpg",
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47739",
       "decks": [
-        "kamitsuorochi"
+        "kamitsuorochi",
+        "mega-venusaur"
       ],
       "deckCounts": {
-        "kamitsuorochi": 1
+        "kamitsuorochi": 1,
+        "mega-venusaur": 1
       },
       "tiers": [
-        3
+        3,
+        4
       ]
     },
     {
@@ -5694,6 +5733,7 @@
         "kamitsuorochi",
         "takeraiko",
         "rocket-mewtwo",
+        "mega-venusaur",
         "omatsuriondo",
         "olive",
         "ogerpon-bullet"
@@ -5702,6 +5742,7 @@
         "kamitsuorochi": 1,
         "takeraiko": 1,
         "rocket-mewtwo": 1,
+        "mega-venusaur": 1,
         "omatsuriondo": 1,
         "olive": 1,
         "ogerpon-bullet": 1
@@ -5837,11 +5878,13 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47857",
       "decks": [
         "kamitsuorochi",
+        "mega-venusaur",
         "omatsuriondo",
         "olive"
       ],
       "deckCounts": {
         "kamitsuorochi": 1,
+        "mega-venusaur": 1,
         "omatsuriondo": 1,
         "olive": 1
       },
@@ -5998,11 +6041,13 @@
       "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46843",
       "decks": [
         "takeraiko",
+        "mega-venusaur",
         "dodekabashi",
         "ogerpon-bullet"
       ],
       "deckCounts": {
         "takeraiko": 1,
+        "mega-venusaur": 1,
         "dodekabashi": 1,
         "ogerpon-bullet": 1
       },
@@ -6898,6 +6943,7 @@
         "kamitsuorochi",
         "takeraiko",
         "rocket-mewtwo",
+        "mega-venusaur",
         "omatsuriondo",
         "dodekabashi",
         "olive",
@@ -6907,6 +6953,7 @@
         "kamitsuorochi": 1,
         "takeraiko": 1,
         "rocket-mewtwo": 1,
+        "mega-venusaur": 1,
         "omatsuriondo": 1,
         "dodekabashi": 1,
         "olive": 1,
@@ -7139,6 +7186,213 @@
       },
       "tiers": [
         3
+      ]
+    },
+    {
+      "id": 47734,
+      "name_ja": "フシギダネ",
+      "name_ko": "이상해씨",
+      "read": "후시기다네",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 80,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "しばりつける",
+          "name_ko": "묶어붙이기",
+          "cost_ko": "풀",
+          "damage": "10",
+          "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+          "text_ko": "다음 상대 차례에 이 기술을 받은 포켓몬은 도망갈 수 없다.",
+          "read": "시바리츠케루"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M1L",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047734_P_FUSHIGIDANE.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47734",
+      "decks": [
+        "mega-venusaur"
+      ],
+      "deckCounts": {
+        "mega-venusaur": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47735,
+      "name_ja": "フシギソウ",
+      "name_ko": "이상해풀",
+      "read": "후시기소우",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "1단계 포켓몬",
+      "hp": 110,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "はっぱカッター",
+          "name_ko": "잎날가르기",
+          "cost_ko": "풀풀",
+          "damage": "60",
+          "text_ja": "",
+          "text_ko": "",
+          "read": "핫파캇타"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M1L",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047735_P_FUSHIGISOU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47735",
+      "decks": [
+        "mega-venusaur"
+      ],
+      "deckCounts": {
+        "mega-venusaur": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 47736,
+      "name_ja": "メガフシギバナex",
+      "name_ko": "메가 이상해꽃 ex",
+      "read": "메가후시기바나 ex",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "메가진화 ex (2단계)",
+      "hp": 380,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [
+        {
+          "name_ja": "ソーラートランス",
+          "name_ko": "솔라 트랜스",
+          "text_ja": "自分の番に何回でも使える。自分の場のポケモンについている「基本エネルギー」を1個選び、自分の別のポケモンにつけ替える。",
+          "text_ko": "자신의 차례에 몇 번이든 쓸 수 있다. 자신의 필드 포켓몬에 붙은 「기본 에너지」를 1개 골라, 자신의 다른 포켓몬에게 옮겨 붙인다.",
+          "read": "소라토란스"
+        }
+      ],
+      "attacks": [
+        {
+          "name_ja": "ジャングルダンプ",
+          "name_ko": "정글 덤프",
+          "cost_ko": "풀풀풀풀",
+          "damage": "240",
+          "text_ja": "このポケモンのHPを「30」回復する。",
+          "text_ko": "이 포켓몬의 HP를 「30」 회복한다.",
+          "read": "잔구루단푸"
+        }
+      ],
+      "text_ja": "メガシンカexがきぜつしたとき、相手はサイドを3枚とる。",
+      "text_ko": "메가진화 ex가 기절했을 때, 상대는 사이드를 3장 가져간다.",
+      "set": "M1L",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M1L/047736_P_MFUSHIGIBANAEX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47736",
+      "decks": [
+        "mega-venusaur"
+      ],
+      "deckCounts": {
+        "mega-venusaur": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 48348,
+      "name_ja": "ゲノセクト",
+      "name_ko": "게노세크트",
+      "read": "게노세쿠토",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 120,
+      "type_ko": "풀",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "バグズキャノン",
+          "name_ko": "버그즈 캐논",
+          "cost_ko": "풀",
+          "damage": "",
+          "text_ja": "相手のポケモン1匹に、このポケモンについているエネルギーの数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+          "text_ko": "상대 포켓몬 1마리에게, 이 포켓몬에 붙은 에너지의 수 ×20데미지. (벤치는 약점·저항력을 계산하지 않는다.)",
+          "read": "바구즈캬논"
+        },
+        {
+          "name_ja": "スピードアタック",
+          "name_ko": "스피드 어택",
+          "cost_ko": "풀풀무색",
+          "damage": "110",
+          "text_ja": "",
+          "text_ko": "",
+          "read": "스피도아탓쿠"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "M2",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/M2/048348_P_GENOSEKUTO.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48348",
+      "decks": [
+        "mega-venusaur"
+      ],
+      "deckCounts": {
+        "mega-venusaur": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46793,
+      "name_ja": "レジギガス",
+      "name_ko": "레지기가스",
+      "read": "",
+      "alias": "",
+      "category": "pokemon",
+      "subtype_ko": "기본 포켓몬",
+      "hp": 160,
+      "type_ko": "무색",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [
+        {
+          "name_ja": "ジュエルブレイク",
+          "name_ko": "주얼 브레이크",
+          "cost_ko": "무색무색무색무색",
+          "damage": "100＋",
+          "text_ja": "相手のバトルポケモンが「テラスタル」のポケモンなら、230ダメージ追加。",
+          "text_ko": "상대 배틀 포켓몬이 「테라스탈」 포켓몬이면 230데미지 추가.",
+          "read": "주에루부레이쿠"
+        }
+      ],
+      "text_ja": "",
+      "text_ko": "",
+      "set": "SV8a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046793_P_REJIGIGASU.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46793",
+      "decks": [
+        "mega-venusaur"
+      ],
+      "deckCounts": {
+        "mega-venusaur": 1
+      },
+      "tiers": [
+        4
       ]
     },
     {
@@ -11091,6 +11345,34 @@
       ],
       "deckCounts": {
         "mega-darkrai": 1
+      },
+      "tiers": [
+        4
+      ]
+    },
+    {
+      "id": 46803,
+      "name_ja": "つりざおMAX",
+      "name_ko": "좋은 낚싯대 MAX",
+      "read": "",
+      "alias": "",
+      "category": "trainer",
+      "subtype_ko": "굿즈 (ACE SPEC)",
+      "hp": null,
+      "type_ko": "",
+      "regulation": "",
+      "abilities": [],
+      "attacks": [],
+      "text_ja": "自分のトラッシュからポケモンと基本エネルギーを合計5枚まで選び、相手に見せて、手札に加える。",
+      "text_ko": "자신의 트래시에서 포켓몬과 기본 에너지를 합쳐 5장까지 골라 상대에게 보여주고 패에 넣는다. (ACE SPEC: 덱에 1장만)",
+      "set": "SV8a",
+      "image": "https://www.pokemon-card.com/assets/images/card_images/large/SV8a/046803_T_TSURIZAOMAX.jpg",
+      "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46803",
+      "decks": [
+        "mega-venusaur"
+      ],
+      "deckCounts": {
+        "mega-venusaur": 1
       },
       "tiers": [
         4
