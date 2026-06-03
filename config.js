@@ -39,5 +39,9 @@ window.TRIP = {
 // 데이터 경로 헬퍼: dataUrl('plan.json') → './trips/tokyo-pjcs-2026/plan.json'
 window.TRIP.dataUrl = function (name) { return window.TRIP.base + '/' + name; };
 
-// 테마색을 CSS 변수로 주입(헤더 그라데이션 등에서 사용 가능)
-try { document.documentElement.style.setProperty('--theme', window.TRIP.theme); } catch (e) {}
+// 테마색을 CSS 변수 + 상태바(theme-color)에 주입 → 헤더·브라우저 UI 색이 config.theme 를 따라감
+try {
+  document.documentElement.style.setProperty('--theme', window.TRIP.theme);
+  var mt = document.querySelector('meta[name="theme-color"]');
+  if (mt) mt.setAttribute('content', window.TRIP.theme);
+} catch (e) {}

@@ -421,7 +421,7 @@ mark { background: var(--yellow); color: inherit; padding: 0 1px; border-radius:
 }
 
 /* ===== 대회 안내 (guide) 페이지 ===== */
-.header-green { background: linear-gradient(180deg, #2e7d32, #1b5e20); }
+.header-green { background: var(--theme, #1b5e20); background: linear-gradient(180deg, color-mix(in srgb, var(--theme, #1b5e20) 82%, #fff), var(--theme, #1b5e20)); }
 .guide-sub { max-width: var(--maxw); margin: 4px auto 0; color: #fff; opacity: .9; font-size: .9rem; }
 .guide { max-width: var(--maxw); margin: 0 auto; padding: 14px; }
 .guide-legend { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: .8rem; color: var(--muted); margin: 0 0 12px; }
