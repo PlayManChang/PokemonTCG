@@ -553,7 +553,9 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .plan-flight-detail { display: block; font-weight: 700; }
 .plan-flight-tip { display: block; color: var(--muted); font-size: .82rem; margin-top: 2px; }
 .plan-hotel { margin: 6px 0; line-height: 1.5; }
-.plan-stop { display: inline-flex; align-items: center; gap: 6px; color: #1a64d4; font-weight: 600; text-decoration: none; }
+.plan-stop { display: flex; align-items: flex-start; gap: 10px; color: #1a64d4; font-weight: 600; text-decoration: none; }
+.plan-stop-text { flex: 1; min-width: 0; line-height: 1.5; }
+.plan-stop .plan-go { flex: 0 0 auto; align-self: flex-start; margin-top: 1px; }
 .plan-stop-plain { line-height: 1.5; }
 .plan-go { font-size: .72rem; font-weight: 700; color: #fff; background: #1a64d4; padding: 1px 7px; border-radius: 10px; }
 .plan-controls .plan-toggle { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 8px 0; }

@@ -26,7 +26,7 @@
     a.href = mapSearch(query);
     a.target = '_blank';
     a.rel = 'noopener';
-    a.innerHTML = '📍 ' + label + ' <span class="plan-go">지도</span>';
+    a.innerHTML = '<span class="plan-stop-text">📍 ' + label + '</span><span class="plan-go">지도</span>';
     return a;
   };
 
