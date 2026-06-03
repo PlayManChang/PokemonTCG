@@ -1,8 +1,10 @@
 // PJCS 용어집 Service Worker — 오프라인 지원 (stale-while-revalidate)
 // + 카드 이미지 런타임 캐싱(한 번 본 카드는 오프라인에서도 표시)
-const CACHE = 'pjcs-v60';
+const CACHE = 'pjcs-v61';
 const IMG_CACHE = 'pjcs-cardimg-v1';
-const ASSETS = [
+// 설치 시 미리 받는 '핵심 앱 셸'만(가벼움 → 설치 빠름).
+// 큰 파일(cards.json 512KB, 룰 PDF 700KB)은 목록에서 빼고, 처음 열 때 fetch 핸들러가 자동 캐싱한다.
+const CORE = [
   './',
   './index.html',
   './cards.html',
@@ -20,7 +22,6 @@ const ASSETS = [
   './js/locations.js',
   './js/plan.js',
   './data/terms.json',
-  './data/cards.json',
   './data/shops.json',
   './data/shopping.json',
   './data/locations.json',
@@ -29,13 +30,15 @@ const ASSETS = [
   './icons/icon.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './docs/penalty-quickchart-ko.pdf',
-  './docs/penalty-guideline-ko.pdf',
-  './docs/floor-rule-ko.pdf',
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
+  // 개별 캐싱(allSettled) → 한 파일이 느리거나 실패해도 설치가 멈추지 않음
+  e.waitUntil(
+    caches.open(CACHE)
+      .then((c) => Promise.allSettled(CORE.map((u) => c.add(u))))
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener('activate', (e) => {
