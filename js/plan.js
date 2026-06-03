@@ -370,7 +370,7 @@
     return row;
   }
 
-  fetch('./data/plan.json')
+  fetch((window.TRIP && TRIP.dataUrl) ? TRIP.dataUrl('plan.json') : './data/plan.json')
     .then((r) => r.json())
     .then((d) => { data = d; state.people = d.transit.peopleDefault || 3; render(); })
     .catch(() => { root.innerHTML = '<p class="disclaimer">여행 계획을 불러오지 못했습니다. 인터넷 연결을 확인하세요.</p>'; });

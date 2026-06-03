@@ -134,7 +134,7 @@
     if (data.updated) root.appendChild(el('p', 'disclaimer', '최종 업데이트: ' + data.updated));
   }
 
-  fetch('./data/shopping.json')
+  fetch((window.TRIP && TRIP.dataUrl) ? TRIP.dataUrl('shopping.json') : './data/shopping.json')
     .then((r) => r.json())
     .then(render)
     .catch(() => {

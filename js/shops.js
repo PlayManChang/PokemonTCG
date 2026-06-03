@@ -7,7 +7,7 @@
 
   const mapUrl = (q) => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q);
 
-  fetch('./data/shops.json')
+  fetch((window.TRIP && TRIP.dataUrl) ? TRIP.dataUrl('shops.json') : './data/shops.json')
     .then((r) => r.json())
     .then((data) => {
       if (data.intro) {

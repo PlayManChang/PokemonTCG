@@ -160,11 +160,11 @@ function assert(cond, msg) {
     const pdfLinks = await page.$$eval('.rule-btns a[href$=".pdf"]', (e) => e.length);
     assert(pdfLinks === 6, `공식 룰 PDF 링크 ${pdfLinks}개 (3종 × 보기/저장)`);
     const pdfFiles = ['penalty-quickchart-ko.pdf', 'penalty-guideline-ko.pdf', 'floor-rule-ko.pdf'];
-    const pdfExist = pdfFiles.every((f) => fs.existsSync(path.join(ROOT, 'docs', f)));
-    assert(pdfExist, '룰 PDF 파일 3종 docs/ 존재');
+    const pdfExist = pdfFiles.every((f) => fs.existsSync(path.join(ROOT, 'trips', 'tokyo-pjcs-2026', 'docs', f)));
+    assert(pdfExist, '룰 PDF 파일 3종 trips/.../docs/ 존재');
 
     console.log('\n[10-b] 카드 구매처 페이지 (지도 링크)');
-    const shopData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shops.json'), 'utf8'));
+    const shopData = JSON.parse(fs.readFileSync(path.join(ROOT, 'trips', 'tokyo-pjcs-2026', 'shops.json'), 'utf8'));
     const shopTotal = shopData.areas.reduce((s, a) => s + a.shops.length, 0);
     await page.goto(BASE + '/shops.html', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.shop-item', { timeout: 5000 });
@@ -174,7 +174,7 @@ function assert(cond, msg) {
     assert(mapLinks === shopTotal, `구글 지도 링크 ${mapLinks}개 연결됨`);
 
     console.log('\n[10-b2] 면세 쇼핑 페이지 (면세 가이드·돈키호테)');
-    const shopping = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shopping.json'), 'utf8'));
+    const shopping = JSON.parse(fs.readFileSync(path.join(ROOT, 'trips', 'tokyo-pjcs-2026', 'shopping.json'), 'utf8'));
     const donkiTotal = shopping.areas.reduce((s, a) => s + a.shops.length, 0);
     await page.goto(BASE + '/shopping.html', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.shop-item', { timeout: 5000 });
@@ -188,7 +188,7 @@ function assert(cond, msg) {
     assert(distChips >= 10, `호텔 거리(가까운 순) 칩 ${distChips}개 표시됨`);
 
     console.log('\n[10-b3] 위치 한눈에 페이지 (지역별 약식 지도)');
-    const locData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'locations.json'), 'utf8'));
+    const locData = JSON.parse(fs.readFileSync(path.join(ROOT, 'trips', 'tokyo-pjcs-2026', 'locations.json'), 'utf8'));
     const locPts = locData.regions.reduce((s, r) => s + r.points.length, 0);
     await page.goto(BASE + '/locations.html', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.loc-svg', { timeout: 5000 });
@@ -206,7 +206,7 @@ function assert(cond, msg) {
     assert(locDirLinks === locPts, `범례 길찾기 버튼 ${locDirLinks}개 연결됨`);
 
     console.log('\n[10-c] 여행 가이드 페이지 (지도·교통비·분기)');
-    const planData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'plan.json'), 'utf8'));
+    const planData = JSON.parse(fs.readFileSync(path.join(ROOT, 'trips', 'tokyo-pjcs-2026', 'plan.json'), 'utf8'));
     await page.goto(BASE + '/plan.html', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.plan-day', { timeout: 5000 });
     const planDays = await page.$$eval('.plan-day', (e) => e.length);

@@ -228,7 +228,7 @@
     if (data.updated) root.appendChild(el('p', 'disclaimer', '최종 업데이트: ' + data.updated));
   }
 
-  fetch('./data/locations.json')
+  fetch((window.TRIP && TRIP.dataUrl) ? TRIP.dataUrl('locations.json') : './data/locations.json')
     .then((r) => r.json())
     .then(render)
     .catch(() => {

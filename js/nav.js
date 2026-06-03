@@ -5,7 +5,10 @@
   if (!btn) return;
 
   const here = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
-  const links = [
+  // 메뉴는 config.js(window.TRIP) 기반 — 모듈이 꺼진 항목은 자동 숨김
+  const cfg = window.TRIP || {};
+  const mods = cfg.modules || {};
+  const links = (cfg.menu && cfg.menu.length ? cfg.menu : [
     { href: 'index.html', label: '📖 용어집', desc: '인사·게임 용어' },
     { href: 'cards.html', label: '🃏 카드 검색', desc: '메타 덱·세트 카드 (한국어)' },
     { href: 'guide.html', label: '📋 대회 안내', desc: 'PJCS 2026 참가 주의사항' },
@@ -13,10 +16,7 @@
     { href: 'shopping.html', label: '🛍️ 면세 / 쇼핑', desc: '면세 가이드·쇼핑·돈키호테' },
     { href: 'locations.html', label: '📌 위치 한눈에', desc: '주요 장소 지역별 약식 지도' },
     { href: 'plan.html', label: '🗺️ 여행 가이드', desc: '일정·지도·교통비·예산' },
-    { href: 'https://pokecabook.com/', label: '📊 포케카북', desc: '환경·티어·덱레시피 (외부)', external: true },
-    { href: 'https://pokeka-win-decks.jp/', label: '🏆 윈덱스', desc: '티어표·우승덱 분석 (외부)', external: true },
-    { href: 'https://pokekameshi.com/', label: '🍚 포케카메시', desc: '덱·카드리스트 (외부)', external: true },
-  ];
+  ]).filter((l) => l.external || !l.key || mods[l.key] !== false);
 
   const menu = document.createElement('nav');
   menu.className = 'nav-menu';

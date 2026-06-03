@@ -1,0 +1,19 @@
+{
+  "updated": "2026-01-01",
+  "title": "쇼핑",
+  "intro": "쇼핑·기념품 장소를 정리했어요.",
+  "spotsIntro": "지역별 쇼핑 스팟이에요. 이름을 누르면 구글 지도가 열립니다.",
+  "areas": [
+    {
+      "name": "지역 이름",
+      "note": "지역 설명(선택)",
+      "mapAll": "지역 검색어",
+      "shops": [
+        { "name_ko": "가게", "name_ja": "현지명", "type": "백화점", "dist": "약 0.5km", "desc": "설명", "map": "검색어" }
+      ]
+    }
+  ],
+  "tip": "여기에 쇼핑 팁을 적어요.",
+  "disclaimer": "영업정보는 변동될 수 있어요.",
+  "_taxfree_안내": "면세(taxfree) 섹션은 일본 등 특정 국가용입니다. 필요 없으면 이 항목과 taxfree 키를 빼면 됩니다. 형식은 도쿄 여행(trips/tokyo-pjcs-2026/shopping.json)을 참고하세요."
+}
