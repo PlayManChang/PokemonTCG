@@ -16,7 +16,7 @@ const DECKS = [
   { id: 'bakegakure',   name_ko: '바케가쿠레',       name_ja: 'ばけがくれ',           tier: 2, file: 'JcYG88-tChzHO-cxG8Y8.json', note: 'A티어. 비룰 덱·특성으로 동시기절 방지, 데미지 2배로 전멸 노림. 회복·교체 방어에 약함', deckId: 'JcYG88-tChzHO-cxG8Y8' },
   { id: 'mega-drilbur', name_ko: '메가몰드류 ex',    name_ja: 'メガドリュウズex',      tier: 2, file: 'SXRpyM-pSQX3o-Syy2Rp.json', note: 'A티어. 드래펄트 대항 메타 — 게노세크트·메타그로스 조합, 최강급 1:1 성능', deckId: 'SXRpyM-pSQX3o-Syy2Rp' },
   { id: 'nzoroark',     name_ko: 'N의 조로아크 ex',  name_ja: 'Nのゾロアークex',      tier: 2, file: 'nzoroark.json',       note: 'A티어. 핸데스(손패 파괴) 전략으로 T1 대항', deckId: '4cDa8x-2ip2ND-84DGxc' },
-  { id: 'kamitsuorochi', name_ko: '카미츠오로치 ex', name_ja: 'カミツオロチex',        tier: 3, file: 'kamitsuorochi.json', note: '', deckId: 'bFFfkv-hZ6VlG-Fk5fb5' },
+  { id: 'kamitsuorochi', name_ko: '카미츠오로치 ex', name_ja: 'カミツオロチex',        tier: 3, file: 'kamitsuorochi.json', note: '시티리그 우승 다수(드래펄트 다음 2강) — 사실상 상위권', deckId: 'bFFfkv-hZ6VlG-Fk5fb5' },
   { id: 'takeraiko',    name_ko: '타케루라이코 ex',  name_ja: 'タケルライコex',        tier: 3, file: 'takeraiko.json',     note: '', deckId: '2MRyEp-Ar3Kb6-SyypXX' },
   { id: 'mega-lucario', name_ko: '메가루카리오 ex',  name_ja: 'メガルカリオex',        tier: 3, file: 'mega-lucario.json',  note: '', deckId: 'VFkvVf-JfARGk-kk5bkF' },
   { id: 'shirona-garchomp', name_ko: '시로나의 가브리아스 ex', name_ja: 'シロナのガブリアスex', tier: 3, file: 'shirona-garchomp.json', note: '', deckId: '8c8DcJ-L1xxUE-8G4xY4' },
@@ -24,6 +24,7 @@ const DECKS = [
   { id: 'mega-greninja', name_ko: '메가 겟코우가 ex', name_ja: 'メガゲッコウガex',      tier: 3, file: 'mega-greninja.json', note: '', deckId: 'nNL9HL-tB3wiQ-QNNgng' },
   { id: 'rocket-mewtwo', name_ko: '로켓단의 뮤츠 ex', name_ja: 'ロケット団のミュウツーex', tier: 3, file: 'rocket-mewtwo.json', note: '', deckId: 'cGc84x-CnvrtW-GYxx8c' },
   { id: 'mary-orronge', name_ko: '마리의 오롱털 ex', name_ja: 'マリィのオーロンゲex', tier: 3, file: 'Yxx48c-3lM0IE-xcx4x8.json', note: '신규(아비스아이). 유키메노코·마시마시라와 데미지 조작, 펑크업으로 에너지 가속', deckId: 'Yxx48c-3lM0IE-xcx4x8' },
+  { id: 'mega-venusaur', name_ko: '메가 이상해꽃 ex', name_ja: 'メガフシギバナex', tier: 4, file: 'vwkvkb-tw6BXE-kF1kfF.json', note: 'HP380 고내구. 솔라트랜스로 에너지 이동, 정글덤프 240. 5/23 세키치쿠배 우승', deckId: 'vwkvkb-tw6BXE-kF1kfF' },
   // tier 4 = 최근 짐배틀 우승덱 (pokekameshi)
   { id: 'omatsuriondo', name_ko: '오마츠리온도(축제)', name_ja: 'おまつりおんど',     tier: 4, file: 'omatsuriondo.json', note: '', deckId: 'MyMRM3-CfkooR-SUMSSp' },
   { id: 'mega-livolt',  name_ko: '메가 라이볼트 ex',  name_ja: 'メガライボルトex',   tier: 4, file: 'mega-livolt.json',  note: '', deckId: 'nnHLNn-6zLr6V-gigQ9Q' },
