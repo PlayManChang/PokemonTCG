@@ -628,3 +628,77 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .plan-step-text { flex: 1; line-height: 1.55; font-size: .9rem; }
 .plan-step-text > b { display: inline; }
 .plan-step-text > span { color: #333; }
+
+/* ===== 2027 대회 가이드 (events / event 상세) ===== */
+.header-gold { background: linear-gradient(180deg, #d9a227, #b8860b); }
+
+/* .gcard a(파란 글자)가 버튼의 흰 글자를 덮어써 파란 배경에 파란 글자가 되는 문제 방지 */
+.gcard a.plan-link-btn, .gcard a.plan-route-btn { color: #fff; }
+
+.ev-intro p { margin: 0 0 8px; line-height: 1.6; }
+.ev-reg { font-size: .88rem; color: #7a5c00; background: #fff8e6; border: 1px solid #f0dba0; padding: 8px 10px; border-radius: 10px; line-height: 1.5; }
+
+/* 대회 카드 (홈/일정) */
+.ev-card { display: block; color: inherit; text-decoration: none; transition: transform .08s ease, box-shadow .08s ease; }
+.ev-card:active { transform: scale(.99); }
+.ev-card.is-past { opacity: .6; }
+.ev-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.ev-city { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.ev-cityname { font-size: 1.15rem; font-weight: 800; color: var(--ink); }
+.ev-cityja { font-size: .82rem; color: var(--muted); }
+.ev-badge { flex: 0 0 auto; font-size: .78rem; font-weight: 800; color: #fff; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+.ev-badge-inline { margin-left: 8px; vertical-align: middle; }
+.ev-badge-up { background: #5b6470; }
+.ev-badge-soon { background: #e3350d; }
+.ev-badge-now { background: #1b9e4b; }
+.ev-badge-past { background: #9aa0a6; }
+.ev-date { margin-top: 8px; font-weight: 700; font-size: .95rem; }
+.ev-venue, .ev-league { margin-top: 4px; font-size: .9rem; color: #444; }
+.ev-note { margin-top: 8px; font-size: .86rem; color: var(--muted); line-height: 1.55; }
+.ev-go { margin-top: 10px; display: flex; align-items: center; justify-content: flex-end; gap: 4px; color: var(--red); font-weight: 800; font-size: .9rem; }
+.ev-go-arrow { font-size: 1.2rem; line-height: 1; }
+
+/* 공통 바로가기 그리드 */
+.ev-quick { display: grid; gap: 8px; }
+.ev-quick-item { display: flex; align-items: center; gap: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 12px; text-decoration: none; color: inherit; }
+.ev-quick-item:active { background: #f7f8fa; }
+.ev-quick-icon { font-size: 1.5rem; flex: 0 0 auto; }
+.ev-quick-tx { display: flex; flex-direction: column; }
+.ev-quick-label { font-weight: 800; color: var(--ink); }
+.ev-quick-desc { font-size: .82rem; color: var(--muted); margin-top: 1px; }
+
+/* 상세 페이지 */
+.ev-back { display: inline-block; color: var(--muted); font-weight: 700; text-decoration: none; font-size: .9rem; }
+.ev-tabs { position: sticky; top: 0; z-index: 5; display: flex; gap: 6px; overflow-x: auto; padding: 8px 12px; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); -webkit-overflow-scrolling: touch; }
+.ev-tab { flex: 0 0 auto; font-size: .82rem; font-weight: 700; color: #444; background: #f0f1f4; padding: 6px 12px; border-radius: 999px; text-decoration: none; white-space: nowrap; }
+.ev-tab:active { background: #e3350d; color: #fff; }
+.ev-sec { scroll-margin-top: 56px; }
+.ev-h3 { font-size: .96rem; margin: 14px 0 6px; color: var(--ink); }
+.ev-h3:first-of-type { margin-top: 4px; }
+.ev-tip { font-size: .86rem; color: #7a5c00; background: #fff8e6; border-radius: 8px; padding: 8px 10px; line-height: 1.55; margin-top: 8px; }
+
+/* 공항/교통 박스 */
+.ev-air { border: 1px solid var(--line); border-radius: 10px; padding: 10px; margin: 6px 0; }
+.ev-air-head { font-weight: 800; font-size: .9rem; }
+.ev-air-route { font-size: .88rem; color: #333; margin-top: 3px; line-height: 1.5; }
+
+/* 장소 목록 (호텔/맛집) */
+.ev-places { list-style: none; margin: 0; padding: 0; }
+.ev-place { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.ev-place:last-child { border-bottom: 0; }
+.ev-place-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.ev-place-name { display: flex; flex-direction: column; }
+.ev-place-ko { font-weight: 800; }
+.ev-place-ja { font-size: .8rem; color: var(--muted); margin-top: 1px; }
+.ev-place-meta { font-size: .84rem; color: #444; margin-top: 5px; }
+.ev-place-near { font-size: .84rem; color: var(--muted); margin-top: 3px; line-height: 1.45; }
+.ev-place-note { font-size: .86rem; color: #333; margin-top: 4px; line-height: 1.5; }
+
+/* 체크리스트 */
+.ev-check { list-style: none; margin: 0 0 4px; padding: 0; }
+.ev-check-item { border-bottom: 1px solid var(--line); }
+.ev-check-item:last-child { border-bottom: 0; }
+.ev-check-label { display: flex; align-items: flex-start; gap: 10px; padding: 10px 2px; cursor: pointer; }
+.ev-check-label input { width: 20px; height: 20px; flex: 0 0 auto; margin-top: 1px; accent-color: #1b9e4b; }
+.ev-check-text { flex: 1; line-height: 1.5; font-size: .92rem; }
+.ev-check-item.is-done .ev-check-text { color: var(--muted); text-decoration: line-through; }

@@ -151,7 +151,7 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const menuLinks = await page.$$eval('.nav-menu a', (els) => els.length);
     const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
-    assert(menuVisible && menuLinks === 10, `메뉴 열림 + 링크 ${menuLinks}개(용어집/카드검색/대회안내/구매처/면세쇼핑/위치한눈에/여행가이드 + 외부3)`);
+    assert(menuVisible && menuLinks === 11, `메뉴 열림 + 링크 ${menuLinks}개(대회일정/용어집/카드검색/대회안내/구매처/면세쇼핑/위치한눈에/여행가이드 + 외부3)`);
     const extLinks = await page.$$eval('.nav-menu a[target="_blank"]', (e) => e.length);
     assert(extLinks === 3, `외부 사이트 바로가기 ${extLinks}개`);
     await page.goto(BASE + '/guide.html', { waitUntil: 'domcontentloaded' });
@@ -257,6 +257,48 @@ function assert(cond, msg) {
     const cardsJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cards.json'), 'utf8'));
     const emptyCost = cardsJson.cards.flatMap((c) => c.attacks || []).filter((a) => !a.cost_ko).length;
     assert(emptyCost === 0, `전체 데이터 기술 에너지 비용 빈칸 ${emptyCost}건 (공식 페이지 교정 완료)`);
+
+    console.log('\n[10-e] 2027 대회 일정(홈 허브)');
+    const eventsData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'events.json'), 'utf8'));
+    const evCount = eventsData.events.length;
+    await page.goto(BASE + '/events.html', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.ev-card', { timeout: 5000 });
+    const evCards = await page.$$eval('.ev-card', (e) => e.length);
+    assert(evCards === evCount, `대회 카드 ${evCards}개 렌더 (데이터 ${evCount}개와 일치)`);
+    const ddayBadges = await page.$$eval('.ev-card .ev-badge', (e) => e.length);
+    assert(ddayBadges === evCount, `D-day/상태 배지 ${ddayBadges}개 표시됨`);
+    const quickLinks = await page.$$eval('.ev-quick-item', (e) => e.length);
+    assert(quickLinks === 3, `공통 바로가기 ${quickLinks}개(용어집/카드검색/참가안내)`);
+
+    console.log('\n[10-f] 대회 상세 (개요·교통·호텔·맛집·체크리스트)');
+    const evId = eventsData.events[0].id;
+    const hotelsData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'hotels.json'), 'utf8'));
+    const foodData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'restaurants.json'), 'utf8'));
+    const checkData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'checklists.json'), 'utf8'));
+    await page.goto(BASE + '/event.html?id=' + evId, { waitUntil: 'networkidle0' });
+    await page.waitForSelector('#sec-overview', { timeout: 5000 });
+    const secIds = ['sec-overview', 'sec-entry', 'sec-transport', 'sec-hotels', 'sec-food', 'sec-checklist'];
+    const secsPresent = await page.evaluate((ids) => ids.filter((s) => document.getElementById(s)).length, secIds);
+    assert(secsPresent === secIds.length, `상세 섹션 ${secsPresent}/${secIds.length}개 렌더(개요·참가·교통·호텔·맛집·체크리스트)`);
+    const hotelRows = await page.$$eval('#sec-hotels .ev-place', (e) => e.length);
+    assert(hotelRows === hotelsData[evId].length, `호텔 ${hotelRows}곳 렌더 (데이터 ${hotelsData[evId].length}곳과 일치)`);
+    const foodRows = await page.$$eval('#sec-food .ev-place', (e) => e.length);
+    assert(foodRows === foodData[evId].length, `맛집 ${foodRows}곳 렌더 (데이터 ${foodData[evId].length}곳과 일치)`);
+    const evMapLinks = await page.$$eval('a[href*="google.com/maps"]', (e) => e.length);
+    assert(evMapLinks >= hotelRows + foodRows, `지도/길찾기 링크 ${evMapLinks}개 연결됨`);
+    const commonChecks = checkData.common.reduce((s, g) => s + g.items.length, 0);
+    const eventChecks = (checkData.byEvent[evId] || []).reduce((s, g) => s + g.items.length, 0);
+    const checkBoxes = await page.$$eval('#sec-checklist .ev-check-item input', (e) => e.length);
+    assert(checkBoxes === commonChecks + eventChecks, `체크리스트 항목 ${checkBoxes}개 (공통 ${commonChecks} + 대회별 ${eventChecks})`);
+    // 체크 → 저장(localStorage) → 다시 로드 시 유지
+    await page.$eval('#sec-checklist .ev-check-item input', (i) => i.click());
+    await new Promise((r) => setTimeout(r, 150));
+    await page.reload({ waitUntil: 'networkidle0' });
+    await page.waitForSelector('#sec-checklist .ev-check-item input', { timeout: 5000 });
+    const firstChecked = await page.$eval('#sec-checklist .ev-check-item input', (i) => i.checked);
+    assert(firstChecked === true, '체크 항목이 새로고침 후에도 유지됨(localStorage 저장)');
+    const evTabs = await page.$$eval('.ev-tab', (e) => e.length);
+    assert(evTabs === secIds.length, `섹션 탭 내비 ${evTabs}개 생성됨`);
 
     console.log('\n[11] 세트별 보기 (M5 아비스아이)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드

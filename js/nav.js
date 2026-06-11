@@ -6,6 +6,7 @@
 
   const here = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
   const links = [
+    { href: 'events.html', label: '🏆 2027 대회 일정', desc: '챔피언스리그 대회별 가이드' },
     { href: 'index.html', label: '📖 용어집', desc: '인사·게임 용어' },
     { href: 'cards.html', label: '🃏 카드 검색', desc: '메타 덱·세트 카드 (한국어)' },
     { href: 'guide.html', label: '📋 대회 안내', desc: 'PJCS 2026 참가 주의사항' },
