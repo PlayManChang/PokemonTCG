@@ -64,8 +64,8 @@ function assert(cond, msg) {
   page.on('pageerror', (e) => consoleErrors.push(String(e)));
 
   try {
-    console.log('\n[1] 첫 로딩 & 렌더링');
-    await page.goto(BASE, { waitUntil: 'networkidle0' });
+    console.log('\n[1] 첫 로딩 & 렌더링 (용어집 glossary.html)');
+    await page.goto(BASE + '/glossary.html', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.term', { timeout: 5000 });
     const cardCount = await page.$$eval('.term', (els) => els.length);
     assert(cardCount === total, `용어 카드 ${cardCount}개 렌더 (데이터 ${total}개와 일치)`);
@@ -151,7 +151,7 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const menuLinks = await page.$$eval('.nav-menu a', (els) => els.length);
     const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
-    assert(menuVisible && menuLinks === 11, `메뉴 열림 + 링크 ${menuLinks}개(대회일정/용어집/카드검색/대회안내/구매처/면세쇼핑/위치한눈에/여행가이드 + 외부3)`);
+    assert(menuVisible && menuLinks === 6, `메뉴 열림 + 링크 ${menuLinks}개(대회일정/용어집/카드검색 + 메타검색 외부3)`);
     const extLinks = await page.$$eval('.nav-menu a[target="_blank"]', (e) => e.length);
     assert(extLinks === 3, `외부 사이트 바로가기 ${extLinks}개`);
     await page.goto(BASE + '/guide.html', { waitUntil: 'domcontentloaded' });
@@ -164,7 +164,7 @@ function assert(cond, msg) {
     assert(pdfExist, '룰 PDF 파일 3종 docs/ 존재');
 
     console.log('\n[10-b] 카드 구매처 페이지 (지도 링크)');
-    const shopData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shops.json'), 'utf8'));
+    const shopData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shops', 'yokohama.json'), 'utf8'));
     const shopTotal = shopData.areas.reduce((s, a) => s + a.shops.length, 0);
     await page.goto(BASE + '/shops.html', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.shop-item', { timeout: 5000 });
@@ -174,7 +174,7 @@ function assert(cond, msg) {
     assert(mapLinks === shopTotal, `구글 지도 링크 ${mapLinks}개 연결됨`);
 
     console.log('\n[10-b2] 면세 쇼핑 페이지 (면세 가이드·돈키호테)');
-    const shopping = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shopping.json'), 'utf8'));
+    const shopping = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shopping', 'yokohama.json'), 'utf8'));
     const donkiTotal = shopping.areas.reduce((s, a) => s + a.shops.length, 0);
     await page.goto(BASE + '/shopping.html', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.shop-item', { timeout: 5000 });
@@ -188,7 +188,7 @@ function assert(cond, msg) {
     assert(distChips >= 10, `호텔 거리(가까운 순) 칩 ${distChips}개 표시됨`);
 
     console.log('\n[10-b3] 위치 한눈에 페이지 (지역별 약식 지도)');
-    const locData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'locations.json'), 'utf8'));
+    const locData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'locations', 'yokohama.json'), 'utf8'));
     const locPts = locData.regions.reduce((s, r) => s + r.points.length, 0);
     await page.goto(BASE + '/locations.html', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.loc-svg', { timeout: 5000 });
@@ -206,7 +206,7 @@ function assert(cond, msg) {
     assert(locDirLinks === locPts, `범례 길찾기 버튼 ${locDirLinks}개 연결됨`);
 
     console.log('\n[10-c] 여행 가이드 페이지 (지도·교통비·분기)');
-    const planData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'plan.json'), 'utf8'));
+    const planData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'plan', 'yokohama.json'), 'utf8'));
     await page.goto(BASE + '/plan.html', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.plan-day', { timeout: 5000 });
     const planDays = await page.$$eval('.plan-day', (e) => e.length);
@@ -258,17 +258,19 @@ function assert(cond, msg) {
     const emptyCost = cardsJson.cards.flatMap((c) => c.attacks || []).filter((a) => !a.cost_ko).length;
     assert(emptyCost === 0, `전체 데이터 기술 에너지 비용 빈칸 ${emptyCost}건 (공식 페이지 교정 완료)`);
 
-    console.log('\n[10-e] 2027 대회 일정(홈 허브)');
+    console.log('\n[10-e] 2027 대회 일정(메인/홈 = index)');
     const eventsData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'events.json'), 'utf8'));
     const evCount = eventsData.events.length;
-    await page.goto(BASE + '/events.html', { waitUntil: 'networkidle0' });
+    await page.goto(BASE + '/', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.ev-card', { timeout: 5000 });
     const evCards = await page.$$eval('.ev-card', (e) => e.length);
-    assert(evCards === evCount, `대회 카드 ${evCards}개 렌더 (데이터 ${evCount}개와 일치)`);
+    assert(evCards === evCount, `메인에 대회 카드 ${evCards}개 렌더 (데이터 ${evCount}개와 일치)`);
     const ddayBadges = await page.$$eval('.ev-card .ev-badge', (e) => e.length);
     assert(ddayBadges === evCount, `D-day/상태 배지 ${ddayBadges}개 표시됨`);
     const quickLinks = await page.$$eval('.ev-quick-item', (e) => e.length);
-    assert(quickLinks === 3, `공통 바로가기 ${quickLinks}개(용어집/카드검색/참가안내)`);
+    assert(quickLinks === 5, `공통 도구+메타검색 바로가기 ${quickLinks}개(용어집/카드검색 + 외부3)`);
+    const homeExt = await page.$$eval('.ev-quick-item[target="_blank"]', (e) => e.length);
+    assert(homeExt === 3, `메타검색 외부 타일 ${homeExt}개(포케카북/윈덱스/포케카메시)`);
 
     console.log('\n[10-f] 대회 상세 (개요·교통·호텔·맛집·체크리스트)');
     const evId = eventsData.events[0].id;
@@ -277,9 +279,11 @@ function assert(cond, msg) {
     const checkData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'checklists.json'), 'utf8'));
     await page.goto(BASE + '/event.html?id=' + evId, { waitUntil: 'networkidle0' });
     await page.waitForSelector('#sec-overview', { timeout: 5000 });
-    const secIds = ['sec-overview', 'sec-entry', 'sec-transport', 'sec-hotels', 'sec-food', 'sec-checklist'];
+    const secIds = ['sec-overview', 'sec-guide', 'sec-entry', 'sec-transport', 'sec-hotels', 'sec-food', 'sec-checklist'];
     const secsPresent = await page.evaluate((ids) => ids.filter((s) => document.getElementById(s)).length, secIds);
-    assert(secsPresent === secIds.length, `상세 섹션 ${secsPresent}/${secIds.length}개 렌더(개요·참가·교통·호텔·맛집·체크리스트)`);
+    assert(secsPresent === secIds.length, `상세 섹션 ${secsPresent}/${secIds.length}개 렌더(개요·현지가이드·참가·교통·호텔·맛집·체크리스트)`);
+    const guideTiles = await page.$$eval('#sec-guide .ev-quick-item', (e) => e.length);
+    assert(guideTiles === 5, `현지 가이드 타일 ${guideTiles}개(대회안내·구매처·쇼핑·위치·여행)`);
     const hotelRows = await page.$$eval('#sec-hotels .ev-place', (e) => e.length);
     assert(hotelRows === hotelsData[evId].length, `호텔 ${hotelRows}곳 렌더 (데이터 ${hotelsData[evId].length}곳과 일치)`);
     const foodRows = await page.$$eval('#sec-food .ev-place', (e) => e.length);
@@ -299,6 +303,28 @@ function assert(cond, msg) {
     assert(firstChecked === true, '체크 항목이 새로고침 후에도 유지됨(localStorage 저장)');
     const evTabs = await page.$$eval('.ev-tab', (e) => e.length);
     assert(evTabs === secIds.length, `섹션 탭 내비 ${evTabs}개 생성됨`);
+
+    console.log('\n[10-g] 대회별 하위 페이지 (?event= 파라미터)');
+    const chibaShops = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shops', 'chiba.json'), 'utf8'));
+    const chibaShopTotal = chibaShops.areas.reduce((s, a) => s + a.shops.length, 0);
+    await page.goto(BASE + '/shops.html?event=chiba', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.shop-item', { timeout: 5000 });
+    const chibaShopItems = await page.$$eval('.shop-item', (e) => e.length);
+    assert(chibaShopItems === chibaShopTotal, `치바 구매처 ${chibaShopItems}곳 렌더 (데이터 ${chibaShopTotal}곳)`);
+    const backLink = await page.$eval('.ev-back', (e) => e.getAttribute('href')).catch(() => '');
+    assert(/event\.html\?id=chiba/.test(backLink), `'치바 대회로' 뒤로가기 링크 연결됨 (${backLink})`);
+
+    const osakaLoc = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'locations', 'osaka.json'), 'utf8'));
+    await page.goto(BASE + '/locations.html?event=osaka', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.loc-svg', { timeout: 5000 });
+    const osakaSvgs = await page.$$eval('.loc-svg', (e) => e.length);
+    assert(osakaSvgs === osakaLoc.regions.length, `오사카 약식 지도 ${osakaSvgs}개 (지역 ${osakaLoc.regions.length}개)`);
+
+    // 자료 없는 대회(plan/chiba) → '준비 중' 안내
+    await page.goto(BASE + '/plan.html?event=chiba', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.ev-notready', { timeout: 5000 });
+    const notReady = await page.$('.ev-notready');
+    assert(!!notReady, '자료 없는 대회 여행가이드 → 준비 중 안내 표시');
 
     console.log('\n[11] 세트별 보기 (M5 아비스아이)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드
@@ -324,7 +350,8 @@ function assert(cond, msg) {
     assert(anchor === 'none', `스크롤 앵커링 비활성(overflow-anchor:${anchor}) — 접힘 흔들림 차단`);
 
     console.log('\n[12] 콘솔 에러');
-    const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices|pokemon-card\.com|net::ERR/i.test(e));
+    // 아직 자료 없는 대회의 data/*.json 은 404 → '준비 중' 폴백(의도된 동작)이라 무시
+    const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices|pokemon-card\.com|net::ERR|404|Not Found/i.test(e));
     assert(realErrors.length === 0, `콘솔 에러 ${realErrors.length}건` + (realErrors.length ? ': ' + realErrors.join('; ') : ''));
   } catch (e) {
     failed++;

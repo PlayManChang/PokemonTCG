@@ -370,8 +370,10 @@
     return row;
   }
 
-  fetch('./data/plan.json')
+  const eventId = new URLSearchParams(location.search).get('event') || 'yokohama';
+  eventChrome(eventId, '여행 가이드');
+  fetch('./data/plan/' + eventId + '.json')
     .then((r) => r.json())
     .then((d) => { data = d; state.people = d.transit.peopleDefault || 3; render(); })
-    .catch(() => { root.innerHTML = '<p class="disclaimer">여행 계획을 불러오지 못했습니다. 인터넷 연결을 확인하세요.</p>'; });
+    .catch(() => { root.innerHTML = notReadyHtml('여행 가이드'); });
 })();

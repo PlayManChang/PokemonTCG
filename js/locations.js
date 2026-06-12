@@ -228,10 +228,12 @@
     if (data.updated) root.appendChild(el('p', 'disclaimer', '최종 업데이트: ' + data.updated));
   }
 
-  fetch('./data/locations.json')
+  const eventId = new URLSearchParams(location.search).get('event') || 'yokohama';
+  eventChrome(eventId, '위치 한눈에');
+  fetch('./data/locations/' + eventId + '.json')
     .then((r) => r.json())
     .then(render)
     .catch(() => {
-      root.innerHTML = '<p class="disclaimer">위치 정보를 불러오지 못했습니다. 인터넷 연결을 확인하세요.</p>';
+      root.innerHTML = notReadyHtml('위치 한눈에');
     });
 })();

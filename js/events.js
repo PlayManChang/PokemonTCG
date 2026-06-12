@@ -14,6 +14,7 @@
     if (text != null) e.textContent = text;
     return e;
   };
+  const extLink = (a) => { a.target = '_blank'; a.rel = 'noopener'; return a; };
 
   // 오늘 0시 기준 남은 일수(끝나는 날까지 지나면 '종료')
   function dday(ev) {
@@ -102,12 +103,11 @@
       root.appendChild(sec);
     }
 
-    // 공통 바로가기 (모든 대회 공통)
+    // 공통 도구 (모든 대회 공통) — 용어집·카드검색
     const quick = el('section', 'gcard');
-    quick.appendChild(el('h2', null, '🧭 공통 준비'));
+    quick.appendChild(el('h2', null, '🧭 공통 도구'));
     const links = [
-      { href: 'guide.html', icon: '📋', label: '참가 안내·주의사항', desc: '리그·덱 규정·지참물·매너' },
-      { href: 'index.html', icon: '📖', label: '용어집', desc: '인사·대전 진행·저지 호출 일본어' },
+      { href: 'glossary.html', icon: '📖', label: '용어집', desc: '인사·대전 진행·저지 호출 일본어' },
       { href: 'cards.html', icon: '🃏', label: '카드 검색', desc: '메타 덱·신상 세트 한국어' }
     ];
     const grid = el('div', 'ev-quick');
@@ -123,6 +123,28 @@
     });
     quick.appendChild(grid);
     root.appendChild(quick);
+
+    // 메타검색 (외부 사이트 — 환경·티어·덱레시피)
+    const meta = el('section', 'gcard');
+    meta.appendChild(el('h2', null, '📊 메타검색 (외부)'));
+    const metaLinks = [
+      { href: 'https://pokecabook.com/', icon: '📊', label: '포케카북', desc: '환경·티어·덱레시피' },
+      { href: 'https://pokeka-win-decks.jp/', icon: '🏆', label: '윈덱스', desc: '티어표·우승덱 분석' },
+      { href: 'https://pokekameshi.com/', icon: '🍚', label: '포케카메시', desc: '덱·카드리스트' }
+    ];
+    const mgrid = el('div', 'ev-quick');
+    metaLinks.forEach((l) => {
+      const a = extLink(el('a', 'ev-quick-item'));
+      a.href = l.href;
+      a.appendChild(el('span', 'ev-quick-icon', l.icon));
+      const tx = el('span', 'ev-quick-tx');
+      tx.appendChild(el('span', 'ev-quick-label', l.label + ' ↗'));
+      tx.appendChild(el('span', 'ev-quick-desc', l.desc));
+      a.appendChild(tx);
+      mgrid.appendChild(a);
+    });
+    meta.appendChild(mgrid);
+    root.appendChild(meta);
 
     if (data.official) {
       const off = el('a', 'plan-link-btn');

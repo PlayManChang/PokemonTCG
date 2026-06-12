@@ -134,10 +134,12 @@
     if (data.updated) root.appendChild(el('p', 'disclaimer', '최종 업데이트: ' + data.updated));
   }
 
-  fetch('./data/shopping.json')
+  const eventId = new URLSearchParams(location.search).get('event') || 'yokohama';
+  eventChrome(eventId, '면세 / 쇼핑');
+  fetch('./data/shopping/' + eventId + '.json')
     .then((r) => r.json())
     .then(render)
     .catch(() => {
-      root.innerHTML = '<p class="disclaimer">쇼핑 정보를 불러오지 못했습니다. 인터넷 연결을 확인하세요.</p>';
+      root.innerHTML = notReadyHtml('면세 / 쇼핑');
     });
 })();

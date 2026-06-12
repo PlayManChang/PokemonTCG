@@ -635,6 +635,18 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 /* .gcard a(파란 글자)가 버튼의 흰 글자를 덮어써 파란 배경에 파란 글자가 되는 문제 방지 */
 .gcard a.plan-link-btn, .gcard a.plan-route-btn { color: #fff; }
 
+/* 준비 중 안내 */
+.ev-notready h2 { color: var(--ink); }
+.ev-notready p { color: var(--muted); line-height: 1.6; }
+
+/* 대회안내 내 '2026 PJCS 참고' 접기 */
+details.pjcs-ref > summary { cursor: pointer; font-weight: 800; color: var(--ink); list-style: none; padding: 2px 0; }
+details.pjcs-ref > summary::-webkit-details-marker { display: none; }
+details.pjcs-ref > summary::before { content: '▸ '; color: var(--muted); }
+details.pjcs-ref[open] > summary::before { content: '▾ '; }
+details.pjcs-ref[open] > summary { margin-bottom: 8px; }
+details.pjcs-ref > section { margin-top: 10px; }
+
 .ev-intro p { margin: 0 0 8px; line-height: 1.6; }
 .ev-reg { font-size: .88rem; color: #7a5c00; background: #fff8e6; border: 1px solid #f0dba0; padding: 8px 10px; border-radius: 10px; line-height: 1.5; }
 

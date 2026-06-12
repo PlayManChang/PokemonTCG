@@ -6,8 +6,10 @@
   if (!root) return;
 
   const mapUrl = (q) => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q);
+  const eventId = new URLSearchParams(location.search).get('event') || 'yokohama';
+  eventChrome(eventId, '카드 구매처');
 
-  fetch('./data/shops.json')
+  fetch('./data/shops/' + eventId + '.json')
     .then((r) => r.json())
     .then((data) => {
       if (data.intro) {
@@ -94,6 +96,6 @@
       }
     })
     .catch(() => {
-      root.innerHTML = '<p class="disclaimer">가게 정보를 불러오지 못했습니다. 인터넷 연결을 확인하세요.</p>';
+      root.innerHTML = notReadyHtml('카드 구매처');
     });
 })();

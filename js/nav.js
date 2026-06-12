@@ -5,18 +5,15 @@
   if (!btn) return;
 
   const here = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+  // 메뉴는 4그룹으로 축소: 대회일정(메인) · 용어집 · 카드검색 · 메타검색(외부 3).
+  // 대회별 정보(대회안내·구매처·쇼핑·위치·여행)는 각 대회 상세 페이지 안으로 이동했다.
   const links = [
-    { href: 'events.html', label: '🏆 2027 대회 일정', desc: '챔피언스리그 대회별 가이드' },
-    { href: 'index.html', label: '📖 용어집', desc: '인사·게임 용어' },
+    { href: 'index.html', label: '🏆 2027 대회 일정', desc: '챔피언스리그 대회별 가이드 (홈)' },
+    { href: 'glossary.html', label: '📖 용어집', desc: '인사·게임 용어' },
     { href: 'cards.html', label: '🃏 카드 검색', desc: '메타 덱·세트 카드 (한국어)' },
-    { href: 'guide.html', label: '📋 대회 안내', desc: 'PJCS 2026 참가 주의사항' },
-    { href: 'shops.html', label: '🏪 카드 구매처', desc: '요코하마·도쿄 카드샵 지도' },
-    { href: 'shopping.html', label: '🛍️ 면세 / 쇼핑', desc: '면세 가이드·쇼핑·돈키호테' },
-    { href: 'locations.html', label: '📌 위치 한눈에', desc: '주요 장소 지역별 약식 지도' },
-    { href: 'plan.html', label: '🗺️ 여행 가이드', desc: '일정·지도·교통비·예산' },
-    { href: 'https://pokecabook.com/', label: '📊 포케카북', desc: '환경·티어·덱레시피 (외부)', external: true },
-    { href: 'https://pokeka-win-decks.jp/', label: '🏆 윈덱스', desc: '티어표·우승덱 분석 (외부)', external: true },
-    { href: 'https://pokekameshi.com/', label: '🍚 포케카메시', desc: '덱·카드리스트 (외부)', external: true },
+    { href: 'https://pokecabook.com/', label: '📊 포케카북', desc: '메타검색 · 환경·티어·덱레시피 (외부)', external: true },
+    { href: 'https://pokeka-win-decks.jp/', label: '🏆 윈덱스', desc: '메타검색 · 티어표·우승덱 (외부)', external: true },
+    { href: 'https://pokekameshi.com/', label: '🍚 포케카메시', desc: '메타검색 · 덱·카드리스트 (외부)', external: true },
   ];
 
   const menu = document.createElement('nav');

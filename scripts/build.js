@@ -6,7 +6,7 @@ const DIST = path.join(ROOT, 'dist');
 
 const files = [
   'index.html',
-  'events.html',
+  'glossary.html',
   'event.html',
   'cards.html',
   'guide.html',
@@ -18,10 +18,12 @@ const files = [
   'sw.js',
   'css/style.css',
   'js/app.js',
+  'js/app-install.js',
   'js/cards.js',
   'js/nav.js',
   'js/events.js',
   'js/event.js',
+  'js/event-chrome.js',
   'js/shops.js',
   'js/shopping.js',
   'js/locations.js',
@@ -33,10 +35,6 @@ const files = [
   'data/hotels.json',
   'data/restaurants.json',
   'data/checklists.json',
-  'data/shops.json',
-  'data/shopping.json',
-  'data/locations.json',
-  'data/plan.json',
   'icons/icon.svg',
   'icons/icon-192.png',
   'icons/icon-512.png',
@@ -44,6 +42,16 @@ const files = [
   'docs/penalty-guideline-ko.pdf',
   'docs/floor-rule-ko.pdf',
 ];
+
+// 대회별 데이터(data/shops|shopping|locations|plan/<event>.json)를 자동 포함
+for (const sub of ['shops', 'shopping', 'locations', 'plan']) {
+  const dir = path.join(ROOT, 'data', sub);
+  if (fs.existsSync(dir)) {
+    for (const f of fs.readdirSync(dir)) {
+      if (f.endsWith('.json')) files.push('data/' + sub + '/' + f);
+    }
+  }
+}
 
 fs.rmSync(DIST, { recursive: true, force: true });
 for (const rel of files) {

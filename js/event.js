@@ -101,6 +101,31 @@
       }
     }
 
+    // ── 현지 가이드 (대회별 하위 페이지 5종) ──
+    {
+      const sec = section('guide', '🏙️ ' + ev.city + ' 현지 가이드');
+      sec.appendChild(el('p', 'ev-note', '이 대회 도시의 안내·구매처·쇼핑·위치·여행 정보를 모았어요. 아직 준비 중인 항목도 자료가 모이면 채워집니다.'));
+      const tiles = [
+        { href: 'guide.html', icon: '📋', label: '대회 안내', desc: '리그·덱 규정·지참물·매너' },
+        { href: 'shops.html?event=' + enc(ev.id), icon: '🏪', label: '카드 구매처', desc: '현지 포켓몬카드 가게 지도' },
+        { href: 'shopping.html?event=' + enc(ev.id), icon: '🛍️', label: '면세 / 쇼핑', desc: '면세 가이드·돈키호테' },
+        { href: 'locations.html?event=' + enc(ev.id), icon: '📌', label: '위치 한눈에', desc: '주요 장소 약식 지도' },
+        { href: 'plan.html?event=' + enc(ev.id), icon: '🗺️', label: '여행 가이드', desc: '일정·교통비·예산' }
+      ];
+      const grid = el('div', 'ev-quick');
+      tiles.forEach((t) => {
+        const a = el('a', 'ev-quick-item');
+        a.href = './' + t.href;
+        a.appendChild(el('span', 'ev-quick-icon', t.icon));
+        const tx = el('span', 'ev-quick-tx');
+        tx.appendChild(el('span', 'ev-quick-label', t.label));
+        tx.appendChild(el('span', 'ev-quick-desc', t.desc));
+        a.appendChild(tx);
+        grid.appendChild(a);
+      });
+      sec.appendChild(grid);
+    }
+
     // ── 참가 방법 ──
     {
       const sec = section('entry', '📋 참가 방법·준비');
@@ -232,7 +257,7 @@
     .then((r) => r.json())
     .then((data) => {
       const ev = (data.events || []).find((e) => e.id === id);
-      if (!ev) { fail('대회를 찾을 수 없어요. <a href="./events.html">대회 일정</a>에서 다시 선택해 주세요.'); return; }
+      if (!ev) { fail('대회를 찾을 수 없어요. <a href="./index.html">대회 일정</a>에서 다시 선택해 주세요.'); return; }
       const grab = (url) => fetch(url).then((r) => r.json()).catch(() => null);
       Promise.all([
         grab('./data/transport.json'),
