@@ -18,10 +18,10 @@
 
     const tf = data.taxfree || {};
 
-    // 면세 기본
+    // 면세/세금 기본
     if (tf.summary && tf.summary.length) {
       const sec = el('section', 'gcard');
-      sec.appendChild(el('h2', null, '💴 면세 기본'));
+      sec.appendChild(el('h2', null, tf.title || '💴 면세 기본'));
       const ul = el('ul', 'bullets');
       tf.summary.forEach((s) => ul.appendChild(el('li', null, s)));
       sec.appendChild(ul);
@@ -76,14 +76,14 @@
       root.appendChild(sec);
     }
 
-    // 면세 카운터 일본어
+    // 쇼핑 표현 (일본어/영어)
     if (tf.phrases && tf.phrases.length) {
       const sec = el('section', 'gcard');
-      sec.appendChild(el('h2', null, '🗣️ 면세 카운터 일본어'));
+      sec.appendChild(el('h2', null, tf.phrasesTitle || '🗣️ 면세 카운터 일본어'));
       const ul = el('ul', 'tf-phrases');
       tf.phrases.forEach((p) => {
         const li = el('li');
-        li.appendChild(el('span', 'tf-jp', p.jp));
+        li.appendChild(el('span', 'tf-jp', p.jp || p.en));
         li.appendChild(el('span', 'tf-pron', p.ko));
         li.appendChild(el('span', 'tf-mean', p.mean));
         ul.appendChild(li);
@@ -123,7 +123,7 @@
         const all = el('a', 'shop-mapall');
         all.href = mapUrl(area.mapAll);
         all.target = '_blank'; all.rel = 'noopener';
-        all.textContent = '👉 이 지역 돈키호테 지도에서 보기 ↗';
+        all.textContent = area.mapAllLabel || '👉 이 지역 돈키호테 지도에서 보기 ↗';
         sec.appendChild(all);
       }
       root.appendChild(sec);

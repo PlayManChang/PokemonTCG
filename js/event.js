@@ -83,6 +83,18 @@
       const sec = section('overview', '🏟️ 대회 개요');
       const b = ddayBadge(ev);
       sec.querySelector('h2').appendChild(el('span', 'ev-badge ev-badge-inline ' + b.cls, b.label));
+      // 카운트다운 (countdownDate가 있고 아직 다가오는 대회)
+      if (ev.countdownDate) {
+        const today = new Date(); today.setHours(0, 0, 0, 0);
+        const target = new Date(ev.countdownDate + 'T00:00:00');
+        const days = Math.ceil((target - today) / 86400000);
+        if (days > 0) {
+          const cd = el('div', 'ev-cd');
+          cd.appendChild(el('span', 'ev-cd-num', String(days)));
+          cd.appendChild(el('span', 'ev-cd-label', '일 남았어요'));
+          sec.appendChild(cd);
+        }
+      }
       const kv = el('ul', 'kv');
       const add = (k, v) => { const li = el('li'); li.appendChild(el('b', null, k)); li.appendChild(el('span', null, v)); kv.appendChild(li); };
       add('일정', ev.dateLabel);
@@ -108,10 +120,14 @@
       const tiles = [
         { href: 'guide.html', icon: '📋', label: '대회 안내', desc: '리그·덱 규정·지참물·매너' },
         { href: 'shops.html?event=' + enc(ev.id), icon: '🏪', label: '카드 구매처', desc: '현지 포켓몬카드 가게 지도' },
-        { href: 'shopping.html?event=' + enc(ev.id), icon: '🛍️', label: '면세 / 쇼핑', desc: '면세 가이드·돈키호테' },
+        { href: 'shopping.html?event=' + enc(ev.id), icon: '🛍️', label: '쇼핑', desc: '쇼핑·면세/세금 안내' },
         { href: 'locations.html?event=' + enc(ev.id), icon: '📌', label: '위치 한눈에', desc: '주요 장소 약식 지도' },
         { href: 'plan.html?event=' + enc(ev.id), icon: '🗺️', label: '여행 가이드', desc: '일정·교통비·예산' }
       ];
+      // 대회별 추가 타일 (예: NAIC의 FAQ·비용 계산기)
+      (ev.extraTiles || []).forEach((t) => {
+        tiles.push({ href: t.page + '?event=' + enc(ev.id), icon: t.icon || '🔗', label: t.label, desc: t.desc || '' });
+      });
       const grid = el('div', 'ev-quick');
       tiles.forEach((t) => {
         const a = el('a', 'ev-quick-item');
@@ -129,20 +145,37 @@
     // ── 참가 방법 ──
     {
       const sec = section('entry', '📋 참가 방법·준비');
-      sec.appendChild(el('p', null, '챔피언스리그는 플레이어즈클럽 사전 신청·당첨이 필요한 공식 대회입니다. 리그(주니어/시니어/마스터)는 생년 기준으로 결정되고, 덱은 스탠다드 레귤레이션(사용 가능한 카드 마크)을 반드시 확인하세요.'));
-      if (data.regulationNote) {
-        const r = el('p', 'ev-reg');
-        r.appendChild(el('b', null, '⚖️ '));
-        r.appendChild(el('span', null, data.regulationNote));
-        sec.appendChild(r);
+      if (ev.entry) {
+        // 대회별 맞춤 참가 안내 (예: NAIC 오픈 등록·영어 표현)
+        if (ev.entry.intro) sec.appendChild(el('p', null, ev.entry.intro));
+        (ev.entry.links || []).forEach((l) => {
+          const a = extLink(el('a', 'plan-link-btn')); a.href = l.url; a.textContent = '🔗 ' + l.label;
+          sec.appendChild(a);
+        });
+        if (ev.entry.phrases && ev.entry.phrases.length) {
+          sec.appendChild(el('h3', 'ev-h3', '🗣️ 현장 영어 표현'));
+          const ul = el('ul', 'tf-phrases');
+          ev.entry.phrases.forEach((p) => {
+            const li = el('li');
+            li.appendChild(el('span', 'tf-jp', p.en));
+            li.appendChild(el('span', 'tf-pron', p.ko));
+            li.appendChild(el('span', 'tf-mean', p.mean));
+            ul.appendChild(li);
+          });
+          sec.appendChild(ul);
+        }
+      } else {
+        sec.appendChild(el('p', null, '챔피언스리그는 플레이어즈클럽 사전 신청·당첨이 필요한 공식 대회입니다. 리그(주니어/시니어/마스터)는 생년 기준으로 결정되고, 덱은 스탠다드 레귤레이션(사용 가능한 카드 마크)을 반드시 확인하세요.'));
+        if (data.regulationNote) {
+          const r = el('p', 'ev-reg');
+          r.appendChild(el('b', null, '⚖️ '));
+          r.appendChild(el('span', null, data.regulationNote));
+          sec.appendChild(r);
+        }
       }
       const g = extLink(el('a', 'plan-link-btn')); g.target = '_self'; g.rel = ''; g.href = './guide.html';
-      g.textContent = '📋 참가 안내·주의사항 자세히 보기';
+      g.textContent = '📋 공통 대회 규칙·매너 보기';
       sec.appendChild(g);
-      if (data.regulationUrl) {
-        const reg = extLink(el('a', 'plan-link-btn')); reg.href = data.regulationUrl; reg.textContent = '🔗 공식 레귤레이션';
-        sec.appendChild(reg);
-      }
     }
 
     // ── 교통 ──
@@ -155,6 +188,20 @@
           box.appendChild(el('div', 'ev-air-head', f.airport + (f.time ? ' · ' + f.time : '')));
           box.appendChild(el('div', 'ev-air-route', f.route));
           if (f.note) box.appendChild(el('div', 'ev-place-note', f.note));
+          sec.appendChild(box);
+        });
+      }
+      // 항공사 비교 (국제선이 있는 대회 — 예: NAIC)
+      if (transport.airlines && transport.airlines.length) {
+        sec.appendChild(el('h3', 'ev-h3', '🛫 항공사 비교'));
+        transport.airlines.forEach((a) => {
+          const box = el('div', 'ev-air');
+          const head = el('div', 'ev-air-head');
+          head.appendChild(el('span', null, a.name));
+          if (a.price) head.appendChild(el('span', 'ev-air-price', a.price));
+          box.appendChild(head);
+          if (a.route) box.appendChild(el('div', 'ev-air-route', a.route));
+          if (a.note) box.appendChild(el('div', 'ev-place-note', a.note));
           sec.appendChild(box);
         });
       }
@@ -174,6 +221,12 @@
       if (transport.icCard) {
         sec.appendChild(el('h3', 'ev-h3', '💳 교통카드'));
         sec.appendChild(el('p', null, transport.icCard));
+      }
+      if (transport.rental) {
+        sec.appendChild(el('h3', 'ev-h3', '🚗 렌터카'));
+        if (transport.rental.note) sec.appendChild(el('p', null, transport.rental.note));
+        if (transport.rental.itinerary) sec.appendChild(el('p', 'ev-place-note', '📍 추천 코스: ' + transport.rental.itinerary));
+        if (transport.rental.cost) sec.appendChild(el('p', 'ev-place-note', '💰 ' + transport.rental.cost));
       }
       if (transport.note) sec.appendChild(el('p', 'ev-tip', '💡 ' + transport.note));
     }

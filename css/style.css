@@ -635,6 +635,38 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 /* .gcard a(파란 글자)가 버튼의 흰 글자를 덮어써 파란 배경에 파란 글자가 되는 문제 방지 */
 .gcard a.plan-link-btn, .gcard a.plan-route-btn { color: #fff; }
 
+/* 지역 그룹 헤더 (일본/북미) */
+.ev-group-head { max-width: var(--maxw); margin: 18px auto 6px; padding: 0 2px; }
+.ev-group-title { font-size: 1.12rem; margin: 0; color: var(--ink); }
+.ev-group-note { font-size: .84rem; color: var(--muted); margin: 3px 0 0; }
+.ev-card-hl { border: 2px solid var(--red); box-shadow: 0 2px 10px rgba(227,53,13,.12); }
+.ev-countdown { margin-top: 8px; display: inline-block; font-weight: 800; font-size: .9rem; color: var(--red); background: #fff1ee; padding: 4px 10px; border-radius: 999px; }
+
+/* 카운트다운 (상세 개요) */
+.ev-cd { display: flex; align-items: baseline; gap: 6px; margin: 10px 0; padding: 12px 14px; background: linear-gradient(180deg, #fff4d6, #ffe9b0); border-radius: 12px; }
+.ev-cd-num { font-size: 2.1rem; font-weight: 900; color: #b8860b; line-height: 1; }
+.ev-cd-label { font-size: 1rem; font-weight: 700; color: #7a5c00; }
+
+/* 항공사 비교 가격 */
+.ev-air-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.ev-air-price { font-size: .82rem; font-weight: 700; color: var(--red); white-space: nowrap; }
+
+/* FAQ 아코디언 */
+.faq-item { padding: 0; }
+.faq-q { display: flex; align-items: flex-start; gap: 10px; cursor: pointer; font-weight: 700; list-style: none; padding: 2px 0; }
+.faq-q::-webkit-details-marker { display: none; }
+.faq-qmark { flex: 0 0 auto; width: 22px; height: 22px; line-height: 22px; text-align: center; background: var(--red); color: #fff; border-radius: 50%; font-size: .82rem; font-weight: 800; }
+.faq-qtext { flex: 1; }
+.faq-a { margin: 10px 0 2px 32px; line-height: 1.6; color: #333; }
+.faq-item[open] .faq-q { color: var(--red); }
+
+/* 비용 계산기 입력 */
+.calc-row { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.calc-row:last-child { border-bottom: 0; }
+.calc-label { flex: 1; font-weight: 700; }
+.calc-input { width: 120px; padding: 8px 10px; font-size: 1rem; border: 1px solid var(--line); border-radius: 8px; text-align: right; }
+.calc-suffix { flex: 0 0 auto; color: var(--muted); font-size: .9rem; }
+
 /* 준비 중 안내 */
 .ev-notready h2 { color: var(--ink); }
 .ev-notready p { color: var(--muted); line-height: 1.6; }

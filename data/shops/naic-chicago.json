@@ -1,0 +1,36 @@
+{
+  "updated": "2026-06-15",
+  "intro": "미국 대회는 회장 내 벤더(판매) 부스에서 싱글·서플라이·굿즈를 살 수 있어요. 시내 카드샵도 함께 정리했어요. 가게 이름을 누르면 구글 지도가 열립니다.",
+  "tip": "회장 벤더는 현금보다 카드 결제가 많아요. 인기 싱글은 일찍 매진되니 첫날 둘러보세요.",
+  "areas": [
+    {
+      "name": "시카고 · 카드 구매처",
+      "note": "대회장 벤더 부스 + 시내 트레카 전문점.",
+      "mapAll": "Pokemon card shop Chicago",
+      "shops": [
+        {
+          "name_ko": "McCormick Place 벤더 홀",
+          "name_ja": "McCormick Place Vendor Area",
+          "type": "대회장 벤더",
+          "desc": "대회장 내 공식·서드파티 벤더 부스. 싱글·슬리브·플레이매트·굿즈 판매.",
+          "map": "McCormick Place Chicago"
+        },
+        {
+          "name_ko": "딜리전트 게임스",
+          "name_ja": "Diligent Games Chicago",
+          "type": "카드 전문점",
+          "desc": "시카고 지역 TCG 전문점(포켓몬·매직 등). 싱글·대전.",
+          "map": "Diligent Games Chicago"
+        },
+        {
+          "name_ko": "코어 TCG",
+          "name_ja": "Core TCG",
+          "type": "카드 전문점",
+          "desc": "포켓몬 싱글·박스·서플라이 취급 카드샵.",
+          "map": "Core TCG Chicago"
+        }
+      ]
+    }
+  ],
+  "disclaimer": "※ 회장 벤더·매장 정보는 변동될 수 있어요. 방문 전 확인하세요."
+}

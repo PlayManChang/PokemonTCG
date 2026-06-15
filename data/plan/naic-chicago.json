@@ -1,0 +1,344 @@
+{
+  "updated": "2026-06-15",
+  "currency": "usd",
+  "dates": "2027년 6월 10일~15일 (5박 6일, 예상)",
+  "route": "부산 → 인천 → 시카고(오헤어) 왕복",
+  "intro": "대회 정확 일정은 공식 발표 후 조정하세요. 아래는 5박 6일 기준 추천 흐름이에요(대회일 + 가족 관광·쇼핑).",
+  "flights": [
+    {
+      "label": "가는 편",
+      "detail": "인천(ICN)→시카고 오헤어(ORD) 직항 약 13시간",
+      "tip": "부산은 인천 경유 / ESTA 미리 신청"
+    },
+    {
+      "label": "오는 편",
+      "detail": "시카고(ORD)→인천(ICN) 약 14~15시간",
+      "tip": "제트기류로 귀국편이 더 걸려요"
+    }
+  ],
+  "hotels": [
+    {
+      "label": "시카고 (5박)",
+      "name": "힐튼 가든 인 매코믹 플레이스",
+      "map": "Hilton Garden Inn Chicago McCormick Place"
+    }
+  ],
+  "keyRoutes": [
+    {
+      "label": "오헤어 공항 → 호텔",
+      "from": "O'Hare International Airport",
+      "to": "Hilton Garden Inn Chicago McCormick Place",
+      "mode": "transit"
+    },
+    {
+      "label": "호텔 → 대회장",
+      "from": "Hilton Garden Inn Chicago McCormick Place",
+      "to": "McCormick Place",
+      "mode": "walking"
+    },
+    {
+      "label": "호텔 → 밀레니엄 파크",
+      "from": "Hilton Garden Inn Chicago McCormick Place",
+      "to": "Millennium Park Chicago",
+      "mode": "transit"
+    },
+    {
+      "label": "호텔 → 우드필드 몰(렌터카)",
+      "from": "Hilton Garden Inn Chicago McCormick Place",
+      "to": "Woodfield Mall Schaumburg",
+      "mode": "driving"
+    }
+  ],
+  "days": [
+    {
+      "icon": "✈️",
+      "date": "6/10(목)",
+      "title": "인천 출발 → 시카고 도착·체크인",
+      "move": "인천(ICN)→오헤어(ORD) 직항 → CTA/우버로 호텔",
+      "stops": [
+        {
+          "label": "힐튼 가든 인 매코믹 플레이스 체크인",
+          "map": "Hilton Garden Inn Chicago McCormick Place"
+        },
+        {
+          "label": "루 말나티스에서 시카고 딥디시 피자 첫 끼",
+          "map": "Lou Malnati's South Loop Chicago"
+        }
+      ],
+      "tip": "도착일은 짐 때문에 우버/택시가 편해요(약 $52). 시차(한국보다 14시간 늦음) 적응을 위해 일찍 자기."
+    },
+    {
+      "icon": "🎮",
+      "date": "6/11(금)",
+      "title": "대회 Day1 / 가족은 대회장 인근 관광",
+      "move": "호텔 도보 5분 → 대회장",
+      "stops": [
+        {
+          "label": "McCormick Place — 선수 체크인·Day1",
+          "map": "McCormick Place Chicago"
+        },
+        {
+          "label": "셰드 아쿠아리움 (성인 $40·아동 $30, 3~4시간, ★★★★★)",
+          "map": "Shedd Aquarium Chicago"
+        },
+        {
+          "label": "필드 자연사 박물관 — 티렉스 'SUE' ($27/아동 $24, ★★★★★)",
+          "map": "Field Museum Chicago"
+        }
+      ],
+      "tip": "대회장(McCormick) 바로 옆에 셰드 아쿠아리움·필드박물관이 있어 선수 경기 중 가족이 둘러보기 좋아요."
+    },
+    {
+      "icon": "🎡",
+      "date": "6/12(토)",
+      "title": "대회 Day2 / 다운타운 관광",
+      "move": "그린라인 전철로 다운타운",
+      "stops": [
+        {
+          "label": "밀레니엄 파크 — 클라우드 게이트(더 빈), 무료",
+          "map": "Cloud Gate Millennium Park Chicago",
+          "spots": [
+            {
+              "label": "시카고 리버워크 산책",
+              "map": "Chicago Riverwalk"
+            },
+            {
+              "label": "포티요스 — 시카고 핫도그",
+              "map": "Portillo's 100 W Ontario St Chicago",
+              "food": true
+            }
+          ]
+        },
+        {
+          "label": "네이비 피어 — 대관람차(성인 $21·아동 $18), 2~3시간 ★★★★★",
+          "map": "Navy Pier Chicago"
+        }
+      ],
+      "tip": "밀레니엄파크·리버워크·네이비피어는 호반을 따라 이어져 하루 코스로 좋아요."
+    },
+    {
+      "icon": "🏆",
+      "date": "6/13(일)",
+      "title": "대회 Day3 / Top Cut·결승 또는 전망대",
+      "move": "호텔 ↔ 대회장",
+      "stops": [
+        {
+          "label": "McCormick Place — 본선·Top Cut 관전",
+          "map": "McCormick Place Chicago"
+        },
+        {
+          "label": "스카이덱 시카고(윌리스타워) — 유리발판 '더 레지' (성인 $32·아동 $24) ★★★★",
+          "map": "Skydeck Chicago Willis Tower"
+        }
+      ],
+      "tip": "대회 결과에 따라 일정이 달라져요. 탈락 시 다운타운 관광으로 전환하세요."
+    },
+    {
+      "icon": "🛍️",
+      "date": "6/14(월)",
+      "title": "렌터카 쇼핑 데이 (가족)",
+      "move": "렌터카 — 호텔→우드필드→패션아울렛→호텔",
+      "stops": [
+        {
+          "label": "우드필드 몰 (약 50분, 미국 최대급 몰)",
+          "map": "Woodfield Mall Schaumburg",
+          "spots": [
+            {
+              "label": "몰 내 The Cheesecake Factory 점심",
+              "map": "The Cheesecake Factory Woodfield Mall",
+              "food": true
+            }
+          ]
+        },
+        {
+          "label": "Fashion Outlets of Chicago (우드필드에서 25분, 오헤어 근처)",
+          "map": "Fashion Outlets of Chicago Rosemont"
+        }
+      ],
+      "tip": "두 곳 다 오헤어 공항 근처라 다음 날 귀국 동선과도 잘 맞아요. 컨시어지에서 Visitor Savings Pass 쿠폰 챙기기."
+    },
+    {
+      "icon": "🛫",
+      "date": "6/15(화)",
+      "title": "귀국",
+      "move": "호텔 → 오헤어(ORD) → 인천",
+      "stops": [
+        {
+          "label": "호텔 체크아웃 → 오헤어 공항",
+          "map": "O'Hare International Airport"
+        }
+      ],
+      "tip": "국제선은 3시간 전 도착. 출국장 면세점은 미국 물가라 큰 기대는 금물."
+    }
+  ],
+  "mapGroups": [
+    {
+      "cat": "🏟️ 대회·숙소",
+      "items": [
+        {
+          "name": "McCormick Place (대회장)",
+          "query": "McCormick Place Chicago"
+        },
+        {
+          "name": "힐튼 가든 인 (호텔)",
+          "query": "Hilton Garden Inn Chicago McCormick Place"
+        }
+      ]
+    },
+    {
+      "cat": "🎡 관광",
+      "items": [
+        {
+          "name": "밀레니엄 파크 (더 빈)",
+          "query": "Cloud Gate Millennium Park Chicago"
+        },
+        {
+          "name": "네이비 피어",
+          "query": "Navy Pier Chicago"
+        },
+        {
+          "name": "셰드 아쿠아리움",
+          "query": "Shedd Aquarium Chicago"
+        },
+        {
+          "name": "필드 박물관",
+          "query": "Field Museum Chicago"
+        },
+        {
+          "name": "스카이덱 (윌리스타워)",
+          "query": "Skydeck Chicago Willis Tower"
+        }
+      ]
+    },
+    {
+      "cat": "🛍️ 쇼핑",
+      "items": [
+        {
+          "name": "우드필드 몰",
+          "query": "Woodfield Mall Schaumburg"
+        },
+        {
+          "name": "Fashion Outlets of Chicago",
+          "query": "Fashion Outlets of Chicago Rosemont"
+        },
+        {
+          "name": "매그니피센트 마일",
+          "query": "Magnificent Mile Chicago"
+        }
+      ]
+    },
+    {
+      "cat": "🍕 맛집",
+      "items": [
+        {
+          "name": "루 말나티스 (딥디시)",
+          "query": "Lou Malnati's South Loop Chicago"
+        },
+        {
+          "name": "포티요스 (핫도그)",
+          "query": "Portillo's Chicago Ontario"
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "peopleDefault": 3,
+    "note": "CTA 전철·버스는 1회 약 $2.5, 공항↔시내 우버는 약 $52. 아래는 1인 편도 대략이에요.",
+    "segments": [
+      {
+        "label": "오헤어 ↔ 호텔 (우버, 가족 1회)",
+        "fare": 52,
+        "flat": true,
+        "perTrip": "가족 합산"
+      },
+      {
+        "label": "CTA 전철 1회 (시내 이동)",
+        "fare": 2.5,
+        "perTrip": "1인"
+      },
+      {
+        "label": "CTA 1일권",
+        "fare": 5,
+        "perTrip": "1인"
+      }
+    ]
+  },
+  "budget": {
+    "note": "가족 3인·5박6일 대략 예상(항공·숙박·식비·교통·관광·쇼핑 제외 현지경비 기준). 정확한 계산은 '비용 계산기'를 쓰세요.",
+    "items": [
+      {
+        "label": "항공 (3인 왕복)",
+        "amount": 5400000
+      },
+      {
+        "label": "호텔 (5박, 1실)",
+        "amount": 2000000
+      },
+      {
+        "label": "식비 (3인 6일)",
+        "amount": 1080000
+      },
+      {
+        "label": "현지 교통·렌터카",
+        "amount": 500000
+      },
+      {
+        "label": "관광 입장료 (3인)",
+        "amount": 450000
+      }
+    ]
+  },
+  "emergency": [
+    {
+      "label": "긴급 (경찰·구급·소방)",
+      "tel": "911",
+      "value": "911"
+    },
+    {
+      "label": "주시카고 대한민국 총영사관",
+      "tel": "+13128229485",
+      "value": "+1-312-822-9485 (긴급 시)"
+    },
+    {
+      "label": "외교부 영사콜센터 (한국)",
+      "tel": "+82232100404",
+      "value": "+82-2-3210-0404"
+    }
+  ],
+  "airport": [
+    {
+      "title": "오헤어(ORD) → 호텔 가는 법",
+      "body": "입국심사·짐 찾기 후 택시/우버 또는 CTA 전철.",
+      "steps": [
+        {
+          "icon": "🛂",
+          "t": "입국심사(ESTA)",
+          "d": "여권·ESTA·숙소주소 제시. 방문목적은 'tournament/tourism'."
+        },
+        {
+          "icon": "🧳",
+          "t": "짐 찾기 → 우버/택시",
+          "d": "가족+짐이면 우버 약 $52·50분이 가장 편함."
+        },
+        {
+          "icon": "🚆",
+          "t": "(절약) CTA 블루라인",
+          "d": "→ Clark/Lake 환승 → 그린라인 Cermak-McCormick Place, 1인 $5·약 1.5시간."
+        }
+      ],
+      "links": [
+        {
+          "label": "오헤어→호텔 길찾기",
+          "url": "https://www.google.com/maps/dir/?api=1&origin=O'Hare+International+Airport&destination=Hilton+Garden+Inn+Chicago+McCormick+Place&travelmode=transit"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "ESTA는 출발 최소 3~4일 전 가족 전원 신청(약 $21).",
+    "팁 문화: 식당·우버 15~20%. 소액 현금($1·$5) 준비.",
+    "표시가격에 판매세 약 10.25% 추가됨.",
+    "시차는 한국보다 14시간 늦어요(서머타임).",
+    "대회 정확 일정·집합시간은 공식 발표로 최종 확인."
+  ]
+}

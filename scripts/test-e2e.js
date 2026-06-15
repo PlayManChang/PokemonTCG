@@ -326,6 +326,50 @@ function assert(cond, msg) {
     const notReady = await page.$('.ev-notready');
     assert(!!notReady, '자료 없는 대회 여행가이드 → 준비 중 안내 표시');
 
+    console.log('\n[10-h] NAIC (미국 시카고) 통합');
+    await page.goto(BASE + '/', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.ev-card', { timeout: 5000 });
+    const groupHeads = await page.$$eval('.ev-group-title', (e) => e.length);
+    assert(groupHeads === 2, `메인 지역 그룹 ${groupHeads}개(일본/북미)`);
+    const naicCard = await page.$('a.ev-card[href*="naic-chicago"]');
+    assert(!!naicCard, 'NAIC 대회 카드가 메인에 표시됨');
+
+    await page.goto(BASE + '/event.html?id=naic-chicago', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('#sec-overview', { timeout: 5000 });
+    const cdNum = await page.$('.ev-cd-num');
+    assert(!!cdNum, 'NAIC 카운트다운(D-day) 표시됨');
+    const airlines = await page.$$eval('#sec-transport .ev-air-head', (e) => e.length);
+    assert(airlines >= 5, `교통: 공항+항공사 비교 ${airlines}블록 표시됨`);
+    const naicTiles = await page.$$eval('#sec-guide .ev-quick-item', (e) => e.length);
+    assert(naicTiles === 7, `NAIC 현지가이드 타일 ${naicTiles}개(기본5 + FAQ + 비용계산기)`);
+    const entryPhrases = await page.$$eval('#sec-entry .tf-phrases li', (e) => e.length);
+    assert(entryPhrases >= 3, `미국 현장 영어 표현 ${entryPhrases}개 표시됨`);
+
+    const faqData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'faq', 'naic-chicago.json'), 'utf8'));
+    await page.goto(BASE + '/faq.html?event=naic-chicago', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.faq-item', { timeout: 5000 });
+    const faqItems = await page.$$eval('.faq-item', (e) => e.length);
+    assert(faqItems === faqData.items.length, `FAQ 항목 ${faqItems}개 렌더 (데이터 ${faqData.items.length}개)`);
+
+    await page.goto(BASE + '/calc.html?event=naic-chicago', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.calc-input', { timeout: 5000 });
+    const calcTotalSel = '.plan-total-row td:last-child';
+    const ct1 = await page.$eval(calcTotalSel, (e) => e.textContent);
+    await page.$eval('.calc-input', (i) => { i.value = '5'; i.dispatchEvent(new Event('input', { bubbles: true })); });
+    await new Promise((r) => setTimeout(r, 150));
+    const ct2 = await page.$eval(calcTotalSel, (e) => e.textContent);
+    assert(ct1 !== ct2, `비용 계산기 인원 변경 시 총액 재계산 (${ct1} → ${ct2})`);
+
+    await page.goto(BASE + '/plan.html?event=naic-chicago', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.plan-day', { timeout: 5000 });
+    const usdShown = await page.$$eval('.plan-table td', (tds) => tds.some((t) => t.textContent.includes('$')));
+    assert(usdShown, '여행가이드 교통비가 USD($)로 표시됨');
+
+    await page.goto(BASE + '/shopping.html?event=naic-chicago', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.shop-item', { timeout: 5000 });
+    const usTaxTitle = await page.$$eval('.gcard h2', (hs) => hs.some((h) => h.textContent.includes('미국 세금')));
+    assert(usTaxTitle, '쇼핑 페이지에 미국 세금 안내 제목 표시됨');
+
     console.log('\n[11] 세트별 보기 (M5 아비스아이)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드
     await page.waitForSelector('.pcard', { timeout: 8000 });

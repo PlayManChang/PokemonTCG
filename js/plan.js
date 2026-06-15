@@ -213,9 +213,11 @@
     });
     root.appendChild(maps);
 
-    // 교통비 계산기
+    // 교통비 계산기 (통화: yen 기본 / usd)
+    const usd = (n) => '$' + n.toLocaleString('en-US');
+    const cur = data.currency === 'usd' ? { money: usd, rate: 1400, icon: '💵' } : { money: yen, rate: 9, icon: '💴' };
     const t = el('section', 'gcard');
-    t.appendChild(el('h2', null, '💴 예상 교통비 계산기'));
+    t.appendChild(el('h2', null, cur.icon + ' 예상 교통비 계산기'));
     const pr = el('div', 'plan-people');
     pr.appendChild(el('label', null, '인원수 '));
     const input = el('input', 'plan-people-input');
@@ -231,18 +233,18 @@
     table.appendChild(thead);
     let total = 0;
     data.transit.segments.forEach((s) => {
-      const sub = s.fare * state.people;
+      const sub = s.flat ? s.fare : s.fare * state.people;   // flat=가족 합산(인원수 미곱)
       total += sub;
       const tr = el('tr');
       tr.appendChild(el('td', null, s.label + (s.perTrip ? ' (' + s.perTrip + ')' : '')));
-      tr.appendChild(el('td', null, yen(s.fare)));
-      tr.appendChild(el('td', null, yen(sub)));
+      tr.appendChild(el('td', null, s.flat ? '—' : cur.money(s.fare)));
+      tr.appendChild(el('td', null, cur.money(sub)));
       table.appendChild(tr);
     });
     const totRow = el('tr', 'plan-total-row');
     totRow.appendChild(el('td', null, '합계 (예상)'));
     totRow.appendChild(el('td', null, ''));
-    totRow.appendChild(el('td', null, yen(total) + ' (≈' + won(total * 9) + ')'));
+    totRow.appendChild(el('td', null, cur.money(total) + ' (≈' + won(total * cur.rate) + ')'));
     table.appendChild(totRow);
     t.appendChild(table);
     if (data.transit.note) t.appendChild(el('p', 'plan-tip', data.transit.note));

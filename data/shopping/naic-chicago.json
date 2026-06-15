@@ -1,0 +1,180 @@
+{
+  "updated": "2026-06-15",
+  "title": "쇼핑 가이드",
+  "intro": "시카고에서 가족·선물 쇼핑할 곳과 미국 세금 안내예요. 가게 이름을 누르면 구글 지도가 열립니다.",
+  "taxfree": {
+    "title": "💵 미국 세금·쇼핑 안내",
+    "summary": [
+      "미국은 표시가격(택)에 판매세가 빠져 있어, 계산대에서 약 10.25%가 추가돼요. 보이는 가격이 최종가가 아니에요.",
+      "일본·유럽과 달리 미국은 관광객 부가세 환급이 거의 없어요. 시카고(일리노이)는 환급이 전혀 없습니다 — 공항에서 환급 카운터를 찾지 마세요.",
+      "환급되는 주는 텍사스·워싱턴주뿐이고 일리노이는 해당 없음. 대신 아울렛·백화점 쿠폰(세이빙스 패스)으로 표시가에서 더 깎을 수 있어요.",
+      "💡 Fashion Outlets of Chicago는 컨시어지에서 'Visitor Savings Pass'($5 쿠폰북)를 사면 매장별 추가 할인. 백화점은 점원에게 당일 쿠폰을 물어보세요."
+    ],
+    "phrasesTitle": "🗣️ 쇼핑 영어 표현",
+    "phrases": [
+      {
+        "en": "Is tax included in this price?",
+        "ko": "이즈 택스 인클루디드 인 디스 프라이스?",
+        "mean": "이 가격에 세금이 포함돼 있나요?"
+      },
+      {
+        "en": "Do you have this in a smaller/larger size?",
+        "ko": "두 유 해브 디스 인 어 스몰러/라저 사이즈?",
+        "mean": "더 작은/큰 사이즈 있나요?"
+      },
+      {
+        "en": "Can I get the Visitor Savings Pass coupon?",
+        "ko": "캔 아이 겟 더 비지터 세이빙스 패스 쿠폰?",
+        "mean": "방문자 할인 쿠폰 받을 수 있나요?"
+      },
+      {
+        "en": "Can I return or exchange this if it doesn't fit?",
+        "ko": "캔 아이 리턴 오어 익스체인지 디스?",
+        "mean": "안 맞으면 환불·교환 되나요?"
+      }
+    ],
+    "korea": {
+      "note": "면세로 싸게 사도 한국 입국 시 한도를 넘으면 세금을 내요(가족 합산 안 됨, 1인 기준).",
+      "rows": [
+        "1인당 미화 $800까지 면세 (가족 합산 불가)",
+        "$800 초과 시 입국장에서 반드시 자진신고 (자진신고 시 관세 30%, 최대 20만원 감면)",
+        "미신고 적발 시 가산세 40%(2년 내 2회+는 60%) — 영수증 보관·솔직 신고가 이득",
+        "술·담배·향수는 별도 한도"
+      ]
+    }
+  },
+  "spotsIntro": "어머니·가족 쇼핑에 좋은 대형몰·아울렛·명품거리를 모았어요. 우드필드와 패션 아울렛은 오헤어 공항 근처라 렌터카 1일 코스로 묶기 좋아요.",
+  "areas": [
+    {
+      "name": "Woodfield Mall (쇼몸버그)",
+      "note": "약 280개 매장의 미국 최대급 실내몰. 다운타운 북서쪽 약 30~50분, 백화점부터 SPA까지 한 곳에.",
+      "mapAll": "Woodfield Mall, Schaumburg, IL",
+      "mapAllLabel": "👉 이 지역 지도에서 보기 ↗",
+      "shops": [
+        {
+          "name_ko": "노드스트롬",
+          "name_ja": "Nordstrom Woodfield Mall",
+          "map": "Nordstrom Woodfield Mall Schaumburg",
+          "type": "백화점",
+          "desc": "고급 백화점. 옷·신발·핸드백·화장품, 서비스·환불 정책 좋음."
+        },
+        {
+          "name_ko": "메이시스",
+          "name_ja": "Macy's Woodfield",
+          "map": "Macy's Woodfield Mall Schaumburg",
+          "type": "백화점",
+          "desc": "중고가 종합 백화점. 향수·주방용품·세일 코너 강함."
+        },
+        {
+          "name_ko": "코치",
+          "name_ja": "Coach",
+          "map": "Coach Woodfield Mall",
+          "type": "명품(잡화)",
+          "desc": "인기 가죽 핸드백. 한국보다 저렴, 선물용."
+        },
+        {
+          "name_ko": "마이클 코어스",
+          "name_ja": "Michael Kors",
+          "map": "Michael Kors Woodfield Mall",
+          "type": "명품(잡화)",
+          "desc": "핸드백·시계. 어머니 세대 인기."
+        },
+        {
+          "name_ko": "유니클로",
+          "name_ja": "Uniqlo",
+          "map": "Uniqlo Woodfield Mall",
+          "type": "SPA",
+          "desc": "기본 의류·이너웨어. 온 가족 실용 쇼핑."
+        },
+        {
+          "name_ko": "애플 스토어",
+          "name_ja": "Apple Store",
+          "map": "Apple Woodfield Mall",
+          "type": "전자제품",
+          "desc": "아이폰·아이패드. 자녀 선물용."
+        }
+      ]
+    },
+    {
+      "name": "Fashion Outlets of Chicago (로즈몬트)",
+      "note": "오헤어 공항 차로 5분. 2층 실내 아울렛, 130여 명품·브랜드가 상시 최대 75% 할인. 출국 전 마지막 쇼핑에 최적.",
+      "mapAll": "Fashion Outlets of Chicago, Rosemont, IL",
+      "mapAllLabel": "👉 이 지역 지도에서 보기 ↗",
+      "shops": [
+        {
+          "name_ko": "삭스 오프 피프스",
+          "name_ja": "Saks OFF 5TH",
+          "map": "Saks OFF 5TH Fashion Outlets of Chicago",
+          "type": "아울렛 백화점",
+          "desc": "명품 백화점 아울렛. 컨시어지(쿠폰) 바로 옆."
+        },
+        {
+          "name_ko": "노드스트롬 랙",
+          "name_ja": "Nordstrom Rack",
+          "map": "Nordstrom Rack Fashion Outlets of Chicago",
+          "type": "아울렛 백화점",
+          "desc": "노드스트롬 할인 매장. 브랜드 의류·신발 저렴."
+        },
+        {
+          "name_ko": "구찌",
+          "name_ja": "Gucci Outlet",
+          "map": "Gucci Fashion Outlets of Chicago",
+          "type": "명품",
+          "desc": "명품 핸드백·지갑 아울렛가. 한국 대비 가격 메리트 큼."
+        },
+        {
+          "name_ko": "토리 버치",
+          "name_ja": "Tory Burch",
+          "map": "Tory Burch Fashion Outlets of Chicago",
+          "type": "명품(잡화)",
+          "desc": "핸드백·신발. 아울렛 할인폭 큼."
+        },
+        {
+          "name_ko": "마이클 코어스",
+          "name_ja": "Michael Kors",
+          "map": "Michael Kors Fashion Outlets of Chicago",
+          "type": "명품(잡화)",
+          "desc": "핸드백·지갑·시계. 선물용 인기."
+        }
+      ]
+    },
+    {
+      "name": "Magnificent Mile (미시간 애비뉴)",
+      "note": "다운타운 명품 거리. 백화점·플래그십이 거리 양옆에 늘어서 구경과 쇼핑을 함께. 정가 위주.",
+      "mapAll": "Magnificent Mile, Michigan Avenue, Chicago",
+      "mapAllLabel": "👉 이 지역 지도에서 보기 ↗",
+      "shops": [
+        {
+          "name_ko": "니만 마커스",
+          "name_ja": "Neiman Marcus",
+          "map": "Neiman Marcus Michigan Avenue Chicago",
+          "type": "명품 백화점",
+          "desc": "최고급 백화점. 명품 의류·핸드백·화장품."
+        },
+        {
+          "name_ko": "삭스 피프스 애비뉴",
+          "name_ja": "Saks Fifth Avenue",
+          "map": "Saks Fifth Avenue Chicago",
+          "type": "명품 백화점",
+          "desc": "고급 백화점. 디자이너 브랜드·시즌 신상."
+        },
+        {
+          "name_ko": "루이비통",
+          "name_ja": "Louis Vuitton",
+          "map": "Louis Vuitton Michigan Avenue Chicago",
+          "type": "명품",
+          "desc": "프랑스 명품 플래그십."
+        },
+        {
+          "name_ko": "워터타워 플레이스",
+          "name_ja": "Water Tower Place",
+          "map": "Water Tower Place Chicago",
+          "type": "쇼핑몰",
+          "desc": "미시간 애비뉴 대표 실내몰. 여러 브랜드 한 번에."
+        }
+      ]
+    }
+  ],
+  "tip": "표시가격에 판매세 약 10.25% 추가 · 관광객 환급 없음 · 한국 입국 1인 $800 면세.",
+  "disclaimer": "※ 영업시간·브랜드 입점은 변동될 수 있어요. 방문 전 확인하세요."
+}

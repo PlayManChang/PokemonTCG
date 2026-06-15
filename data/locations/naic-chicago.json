@@ -1,0 +1,119 @@
+{
+  "updated": "2026-06-15",
+  "title": "위치 한눈에",
+  "intro": "시카고 대회장·호텔·관광지를 지역별 약식 지도로 정리했어요. 점 번호가 아래 목록과 같고, 대회장·호텔은 색이 달라요. 이름을 누르면 구글 지도가 열립니다. 위쪽이 북쪽이에요.",
+  "regions": [
+    {
+      "name": "🏟️ 대회장·호텔 주변",
+      "sub": "McCormick Place·사우스루프",
+      "points": [
+        {
+          "n": "맥코믹 플레이스 (대회장)",
+          "q": "McCormick Place 2301 S King Dr Chicago",
+          "lat": 41.8514,
+          "lon": -87.6166,
+          "t": "venue"
+        },
+        {
+          "n": "힐튼 가든 인 (호텔)",
+          "q": "Hilton Garden Inn Chicago McCormick Place",
+          "lat": 41.8538,
+          "lon": -87.6266,
+          "t": "hotel"
+        },
+        {
+          "n": "루 말나티스 (딥디시)",
+          "q": "Lou Malnati's South Loop Chicago",
+          "lat": 41.8703,
+          "lon": -87.6276,
+          "t": "food"
+        },
+        {
+          "n": "욕 (조식)",
+          "q": "Yolk South Loop Chicago",
+          "lat": 41.8693,
+          "lon": -87.6243,
+          "t": "food"
+        },
+        {
+          "n": "셰드 아쿠아리움",
+          "q": "Shedd Aquarium Chicago",
+          "lat": 41.8676,
+          "lon": -87.614,
+          "t": "sight"
+        },
+        {
+          "n": "필드 자연사 박물관",
+          "q": "Field Museum Chicago",
+          "lat": 41.8663,
+          "lon": -87.617,
+          "t": "sight"
+        },
+        {
+          "n": "맥코믹 플레이스 메트라역",
+          "q": "McCormick Place Metra Station Chicago",
+          "lat": 41.8514,
+          "lon": -87.6112,
+          "t": "station"
+        }
+      ]
+    },
+    {
+      "name": "🎡 시내 관광·쇼핑",
+      "sub": "다운타운·미시간호반",
+      "points": [
+        {
+          "n": "밀레니엄 파크 (더 빈)",
+          "q": "Cloud Gate Millennium Park Chicago",
+          "lat": 41.8826,
+          "lon": -87.6226,
+          "t": "sight"
+        },
+        {
+          "n": "네이비 피어",
+          "q": "Navy Pier Chicago",
+          "lat": 41.8916,
+          "lon": -87.6079,
+          "t": "sight"
+        },
+        {
+          "n": "시카고 리버워크",
+          "q": "Chicago Riverwalk",
+          "lat": 41.8882,
+          "lon": -87.627,
+          "t": "sight"
+        },
+        {
+          "n": "스카이덱 (윌리스 타워)",
+          "q": "Skydeck Chicago Willis Tower",
+          "lat": 41.8789,
+          "lon": -87.6359,
+          "t": "sight"
+        },
+        {
+          "n": "매그니피센트 마일 (쇼핑)",
+          "q": "Magnificent Mile Chicago",
+          "lat": 41.8955,
+          "lon": -87.6244,
+          "t": "shop"
+        },
+        {
+          "n": "포티요스 (핫도그)",
+          "q": "Portillo's 100 W Ontario St Chicago",
+          "lat": 41.8932,
+          "lon": -87.631,
+          "t": "food"
+        },
+        {
+          "n": "밀레니엄역 (메트라)",
+          "q": "Millennium Station Chicago",
+          "lat": 41.8847,
+          "lon": -87.6217,
+          "t": "station"
+        }
+      ]
+    }
+  ],
+  "legendNote": true,
+  "disclaimer": "※ 약식 지도예요(위치 관계 참고용). 정확한 위치·길찾기는 이름을 눌러 구글 지도로 확인하세요."
+}

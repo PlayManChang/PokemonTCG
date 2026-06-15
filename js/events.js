@@ -29,6 +29,14 @@
     return { state: 'upcoming', label: 'D-' + days, cls: days <= 30 ? 'ev-badge-soon' : 'ev-badge-up' };
   }
 
+  // 오늘 0시 기준 목표일까지 남은 일수(지났으면 null)
+  function ddaysTo(dateStr) {
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    const target = new Date(dateStr + 'T00:00:00');
+    const days = Math.ceil((target - today) / 86400000);
+    return days > 0 ? days : null;
+  }
+
   function leagueText(keys, leagues) {
     const map = {};
     (leagues || []).forEach((l) => { map[l.key] = l.ko; });
@@ -59,11 +67,10 @@
       root.appendChild(intro);
     }
 
-    // 대회 카드 목록 (날짜순)
-    const list = (data.events || []).slice().sort((a, b) => a.dateStart.localeCompare(b.dateStart));
-    list.forEach((ev) => {
+    // 대회 카드 1장
+    function renderCard(ev) {
       const d = dday(ev);
-      const card = el('a', 'gcard ev-card' + (d.state === 'past' ? ' is-past' : ''));
+      const card = el('a', 'gcard ev-card' + (d.state === 'past' ? ' is-past' : '') + (ev.highlight ? ' ev-card-hl' : ''));
       card.href = './event.html?id=' + enc(ev.id);
 
       const top = el('div', 'ev-top');
@@ -74,6 +81,12 @@
       top.appendChild(el('span', 'ev-badge ' + d.cls, d.label));
       card.appendChild(top);
 
+      // 카운트다운(있는 대회만, 다가오는 경우)
+      if (ev.countdownDate && d.state === 'upcoming') {
+        const days = ddaysTo(ev.countdownDate);
+        if (days != null) card.appendChild(el('div', 'ev-countdown', '🔥 대회까지 ' + days + '일 남았어요'));
+      }
+
       card.appendChild(el('div', 'ev-date', '🗓️ ' + ev.dateLabel));
       if (ev.venue) card.appendChild(el('div', 'ev-venue', '🏟️ ' + ev.venue.name));
       card.appendChild(el('div', 'ev-league', '👥 ' + leagueText(ev.leagues, data.leagues) + ' 리그'));
@@ -83,12 +96,11 @@
       go.appendChild(el('span', null, '상세 보기'));
       go.appendChild(el('span', 'ev-go-arrow', '›'));
       card.appendChild(go);
-      root.appendChild(card);
-    });
+      return card;
+    }
 
-    // 시티리그 안내
-    if (data.cityLeague) {
-      const cl = data.cityLeague;
+    // 시티리그(일본) 안내 카드
+    function renderCityLeague(cl) {
       const sec = el('section', 'gcard');
       sec.appendChild(el('h2', null, '🎫 ' + cl.title));
       if (cl.note) sec.appendChild(el('p', 'ev-note', cl.note));
@@ -102,6 +114,27 @@
       sec.appendChild(ul);
       root.appendChild(sec);
     }
+
+    // 지역 그룹별 대회 목록 (그룹 없으면 단일 목록)
+    const allEvents = (data.events || []).slice();
+    const groups = data.regionGroups && data.regionGroups.length
+      ? data.regionGroups
+      : [{ key: null, label: null }];
+    groups.forEach((g) => {
+      const inGroup = allEvents
+        .filter((ev) => g.key == null || (ev.region || 'japan') === g.key)
+        .sort((a, b) => a.dateStart.localeCompare(b.dateStart));
+      if (!inGroup.length) return;
+      if (g.label) {
+        const head = el('div', 'ev-group-head');
+        head.appendChild(el('h2', 'ev-group-title', g.label));
+        if (g.note) head.appendChild(el('p', 'ev-group-note', g.note));
+        root.appendChild(head);
+      }
+      inGroup.forEach((ev) => root.appendChild(renderCard(ev)));
+      // 시티리그(일본)는 일본 그룹 바로 뒤에 표시
+      if ((g.key === 'japan' || g.key == null) && data.cityLeague) renderCityLeague(data.cityLeague);
+    });
 
     // 공통 도구 (모든 대회 공통) — 용어집·카드검색
     const quick = el('section', 'gcard');
