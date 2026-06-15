@@ -306,5 +306,63 @@
       "near": "리버노스",
       "note": "거대 토핑 밀크셰이크·버거로 아이들이 좋아하는 디저트 명소."
     }
+  ],
+  "sydney-rc": [
+    {
+      "name": "팬케이크 온 더 록스",
+      "nameJa": "Pancakes on the Rocks",
+      "map": "Pancakes on the Rocks Darling Square Sydney",
+      "genre": "호주식 브런치/팬케이크",
+      "near": "달링하버(달링스퀘어)·더록스",
+      "note": "1975년부터의 시드니 가족 명물. 키즈 메뉴 저렴, 단·짠 팬케이크와 피자·립 다양."
+    },
+    {
+      "name": "딘타이펑 월드스퀘어",
+      "nameJa": "Din Tai Fung World Square",
+      "map": "Din Tai Fung World Square Sydney",
+      "genre": "딤섬/샤오롱바오",
+      "near": "CBD(월드스퀘어)",
+      "note": "사진 메뉴 터치주문, 좌석 넓어 가족 식사 편함. 샤오롱바오 유명."
+    },
+    {
+      "name": "엠퍼러스 가든",
+      "nameJa": "Emperor's Garden Restaurant",
+      "map": "Emperor's Garden Restaurant Chinatown Sydney",
+      "genre": "광둥식 딤섬(얌차)",
+      "near": "차이나타운",
+      "note": "1979년 개업 대형점. 카트 푸시로 아이가 직접 고르는 재미, 가성비 좋음."
+    },
+    {
+      "name": "베티스 버거",
+      "nameJa": "Betty's Burgers Darling Harbour",
+      "map": "Betty's Burgers Darling Harbour Sydney",
+      "genre": "미국식 버거",
+      "near": "달링하버",
+      "note": "어른·아이 모두 좋아하는 수제버거. 키즈 메뉴와 프로즌 커스터드 디저트."
+    },
+    {
+      "name": "프라텔리 프레시 달링쿼터",
+      "nameJa": "Fratelli Fresh Darling Quarter",
+      "map": "Fratelli Fresh Darling Quarter Sydney",
+      "genre": "이탈리안(파스타·피자)",
+      "near": "달링하버(달링쿼터)",
+      "note": "대형 놀이터 달링쿼터 옆. 평일 점심 어른 1명당 12세 이하 1명 무료."
+    },
+    {
+      "name": "주시 스시바 달링하버",
+      "nameJa": "Zushi Darling Harbour",
+      "map": "Zushi Darling Harbour Sydney",
+      "genre": "일식 스시",
+      "near": "달링하버(워터프런트)",
+      "note": "하버 전망. 어린이 전용 메뉴(가라아게+감자튀김 등)."
+    },
+    {
+      "name": "로열 팰리스 시푸드",
+      "nameJa": "Royal Palace Seafood Restaurant",
+      "map": "Royal Palace Seafood Restaurant Chinatown Sydney",
+      "genre": "광둥식 딤섬·해산물",
+      "near": "차이나타운",
+      "note": "3층 대형 매장. 2층에서 매일 트롤리 얌차 운영, 단체·가족에 편함."
+    }
   ]
 }

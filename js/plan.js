@@ -213,9 +213,13 @@
     });
     root.appendChild(maps);
 
-    // 교통비 계산기 (통화: yen 기본 / usd)
-    const usd = (n) => '$' + n.toLocaleString('en-US');
-    const cur = data.currency === 'usd' ? { money: usd, rate: 1400, icon: '💵' } : { money: yen, rate: 9, icon: '💴' };
+    // 교통비 계산기 (통화: yen 기본 / usd / aud)
+    const CUR = {
+      usd: { money: (n) => '$' + n.toLocaleString('en-US'), rate: 1400, icon: '💵' },
+      aud: { money: (n) => 'A$' + n.toLocaleString('en-US'), rate: 900, icon: '💵' },
+      yen: { money: yen, rate: 9, icon: '💴' }
+    };
+    const cur = CUR[data.currency] || CUR.yen;
     const t = el('section', 'gcard');
     t.appendChild(el('h2', null, cur.icon + ' 예상 교통비 계산기'));
     const pr = el('div', 'plan-people');

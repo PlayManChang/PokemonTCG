@@ -253,7 +253,8 @@
     if (checklists) {
       const sec = section('checklist', '✅ 체크리스트');
       if (checklists.intro) sec.appendChild(el('p', 'guide-legend', checklists.intro));
-      const groups = (checklists.common || []).slice();
+      // 공통 체크리스트는 일본 대회용(일본어 포함)이라, 해외(미국·호주) 대회는 자체 목록만 사용
+      const groups = ev.checklistStandalone ? [] : (checklists.common || []).slice();
       const byEvent = (checklists.byEvent && checklists.byEvent[ev.id]) || [];
       byEvent.forEach((g) => groups.push(g));
 

@@ -8,7 +8,8 @@
   "regulationUrl": "https://www.pokemon-card.com/rules/regulation/",
   "regionGroups": [
     { "key": "japan", "label": "🇯🇵 일본 챔피언스리그 2027", "note": "도시마다 날짜·회장이 달라요. 출전할 대회를 고르세요." },
-    { "key": "usa", "label": "🇺🇸 북미 인터내셔널 (NAIC) 2027", "note": "미국 시카고에서 열리는 북미 최대 대회예요." }
+    { "key": "usa", "label": "🇺🇸 북미 인터내셔널 (NAIC) 2027", "note": "미국 시카고에서 열리는 북미 최대 대회예요." },
+    { "key": "oceania", "label": "🇦🇺 오세아니아 (시드니 RC) 2027", "note": "호주 시드니 리저널 — 시차 1~2시간뿐이라 가족여행 병행이 좋아요." }
   ],
   "leagues": [
     { "key": "junior", "ko": "주니어", "ja": "ジュニア" },
@@ -146,6 +147,7 @@
       "official": "https://championships.pokemon.com/",
       "note": "북미 최대 대회가 2027년부터 시카고로 이전! 회장은 확정(McCormick Place), 정확한 날짜는 공식 발표 후 갱신돼요. 첫 미국 원정 가족을 위한 항공·ESTA·비용계산기·관광 정보를 담았어요.",
       "highlight": true,
+      "checklistStandalone": true,
       "entry": {
         "intro": "NAIC는 누구나 참가비를 내고 등록하는 오픈 대회예요(일본 챔피언스리그처럼 추첨이 아님). 등록은 보통 Pokémon 공식·RK9 시스템에서 진행돼요.",
         "links": [
@@ -160,6 +162,48 @@
       },
       "extraTiles": [
         { "page": "faq.html", "icon": "❓", "label": "FAQ", "desc": "ESTA·항공·현지 자주 묻는 질문" },
+        { "page": "calc.html", "icon": "🧮", "label": "비용 계산기", "desc": "인원·숙박·예산 → 총비용" }
+      ]
+    },
+    {
+      "id": "sydney-rc",
+      "region": "oceania",
+      "city": "시드니 (RC)",
+      "cityJa": "Sydney",
+      "name": "시드니 리저널 챔피언십 2027",
+      "nameJa": "Sydney Regional Championships 2027",
+      "dateStart": "2027-07-17",
+      "dateEnd": "2027-07-18",
+      "dateLabel": "2027년 중 (예상 · 공식 일정 미발표 · 금 체크인/토 Day1/일 Day2)",
+      "datesProvisional": true,
+      "countdownDate": "2027-07-17",
+      "leagues": ["junior", "senior", "master"],
+      "venue": {
+        "name": "시내 컨벤션센터 (예상: ICC Sydney, 달링하버)",
+        "nameJa": "ICC Sydney, Darling Harbour (예상·미확정)",
+        "map": "ICC Sydney Darling Harbour",
+        "nearestStation": "타운홀(Town Hall)역 도보 / 달링하버 경전철 (예상)",
+        "access": "공항에서 에어포트링크 전철 또는 우버. 달링하버·CBD 호텔에서 도보·경전철로 접근."
+      },
+      "regulation": "공식 발표 예정 (2027 시즌 레귤레이션 확인)",
+      "official": "https://www.pokemon.com/us/play-pokemon/",
+      "note": "남반구 호주 대회 — 한국과 시차 1~2시간뿐이라 컨디션 부담이 적어요. 회장·날짜는 미발표라 '시내 가정·예상 일정' 기준입니다. 가족여행+블루마운틴+쇼핑을 함께 즐기기 좋아요.",
+      "highlight": false,
+      "checklistStandalone": true,
+      "entry": {
+        "intro": "리저널 챔피언십은 참가비를 내고 등록하는 오픈 대회예요(추첨 아님). Pokémon 공식·RK9에서 사전 등록하며, 시니어/주니어/마스터는 나이 기준으로 나뉩니다.",
+        "links": [
+          { "label": "Pokémon Play! 공식", "url": "https://www.pokemon.com/us/play-pokemon/" },
+          { "label": "RK9 등록 시스템", "url": "https://rk9.gg/" }
+        ],
+        "phrases": [
+          { "en": "Judge, please!", "ko": "저지, 플리즈!", "mean": "심판 불러 주세요" },
+          { "en": "I don't speak English well.", "ko": "아이 돈 스픽 잉글리시 웰", "mean": "영어를 잘 못해요" },
+          { "en": "Can you say that again, slowly?", "ko": "캔 유 세이 댓 어겐, 슬로울리?", "mean": "천천히 다시 말해 줄래요?" }
+        ]
+      },
+      "extraTiles": [
+        { "page": "faq.html", "icon": "❓", "label": "FAQ", "desc": "ETA비자·항공·Opal 자주 묻는 질문" },
         { "page": "calc.html", "icon": "🧮", "label": "비용 계산기", "desc": "인원·숙박·예산 → 총비용" }
       ]
     }

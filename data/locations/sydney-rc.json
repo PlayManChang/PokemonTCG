@@ -1,0 +1,126 @@
+{
+  "updated": "2026-06-15",
+  "title": "위치 한눈에",
+  "intro": "시드니 대회장·관광·쇼핑과 블루마운틴을 지역별 약식 지도로 정리했어요. 대회장·역은 색이 달라요. 이름을 누르면 구글 지도가 열립니다. 위쪽이 북쪽이에요.",
+  "regions": [
+    {
+      "name": "🏟️ 대회장·시내 핵심",
+      "sub": "달링하버·CBD",
+      "points": [
+        {
+          "n": "ICC 시드니(대회장 가정)",
+          "q": "ICC Sydney Darling Harbour",
+          "lat": -33.8753,
+          "lon": 151.201,
+          "t": "venue"
+        },
+        {
+          "n": "달링하버",
+          "q": "Darling Harbour Sydney",
+          "lat": -33.8731,
+          "lon": 151.2009,
+          "t": "sight"
+        },
+        {
+          "n": "차이나타운(딤섬)",
+          "q": "Chinatown Sydney Dixon Street",
+          "lat": -33.879,
+          "lon": 151.2046,
+          "t": "food"
+        },
+        {
+          "n": "월드스퀘어(호텔·식당)",
+          "q": "World Square Sydney",
+          "lat": -33.8769,
+          "lon": 151.207,
+          "t": "hotel"
+        },
+        {
+          "n": "퀸 빅토리아 빌딩(QVB)",
+          "q": "Queen Victoria Building Sydney",
+          "lat": -33.8717,
+          "lon": 151.2068,
+          "t": "shop"
+        },
+        {
+          "n": "웨스트필드 시드니",
+          "q": "Westfield Sydney",
+          "lat": -33.8704,
+          "lon": 151.2089,
+          "t": "shop"
+        },
+        {
+          "n": "타운홀역",
+          "q": "Town Hall Station Sydney",
+          "lat": -33.8731,
+          "lon": 151.2069,
+          "t": "station"
+        },
+        {
+          "n": "오페라하우스",
+          "q": "Sydney Opera House",
+          "lat": -33.8568,
+          "lon": 151.2153,
+          "t": "sight"
+        },
+        {
+          "n": "하버브릿지",
+          "q": "Sydney Harbour Bridge",
+          "lat": -33.8523,
+          "lon": 151.2108,
+          "t": "sight"
+        },
+        {
+          "n": "서큘러키역(페리)",
+          "q": "Circular Quay Station Sydney",
+          "lat": -33.8612,
+          "lon": 151.2107,
+          "t": "station"
+        }
+      ]
+    },
+    {
+      "name": "⛰️ 블루마운틴 (기차)",
+      "sub": "카투바",
+      "points": [
+        {
+          "n": "카투바역",
+          "q": "Katoomba Station",
+          "lat": -33.7126,
+          "lon": 150.3119,
+          "t": "station"
+        },
+        {
+          "n": "에코포인트(쓰리시스터즈)",
+          "q": "Echo Point Lookout Katoomba",
+          "lat": -33.732,
+          "lon": 150.3116,
+          "t": "sight"
+        },
+        {
+          "n": "세닉월드",
+          "q": "Scenic World Katoomba",
+          "lat": -33.7285,
+          "lon": 150.301,
+          "t": "sight"
+        },
+        {
+          "n": "카투바 폭포",
+          "q": "Katoomba Falls",
+          "lat": -33.727,
+          "lon": 150.306,
+          "t": "sight"
+        },
+        {
+          "n": "카투바 거리(식당가)",
+          "q": "Katoomba Street Katoomba",
+          "lat": -33.7148,
+          "lon": 150.311,
+          "t": "food"
+        }
+      ]
+    }
+  ],
+  "legendNote": true,
+  "disclaimer": "※ 약식 지도예요(위치 관계 참고용). 정확한 위치·길찾기는 이름을 눌러 구글 지도로 확인하세요."
+}

@@ -1,0 +1,26 @@
+{
+  "updated": "2026-06-15",
+  "title": "시드니 RC 비용 계산기",
+  "intro": "인원·숙박일수·쇼핑예산을 넣으면 항공·호텔·식비·교통·관광·쇼핑 예상 총비용을 계산해요. 모든 금액은 대략치(원화)예요.",
+  "defaults": {
+    "people": 3,
+    "nights": 6,
+    "shopping": 1000000
+  },
+  "rates": {
+    "flightPerPerson": 1300000,
+    "hotelPerNight": 350000,
+    "foodPerPersonPerDay": 70000,
+    "transportPerTrip": 300000,
+    "attractionPerPerson": 150000
+  },
+  "labels": {
+    "flight": "✈️ 항공 (1인 왕복 약 130만원)",
+    "hotel": "🏨 호텔 (1실 1박 약 35만원)",
+    "food": "🍽️ 식비 (1인 1일 약 7만원)",
+    "transport": "🚆 현지 교통 Opal (가족 약 30만원)",
+    "attraction": "🎡 관광 입장료 (1인 약 15만원)",
+    "shopping": "🛍️ 쇼핑 (직접 입력)"
+  },
+  "note": "환율·시기·항공권에 따라 달라져요. 성수기 항공은 1인 200만원+까지 오를 수 있어요. 실제 예약가로 조정하세요."
+}

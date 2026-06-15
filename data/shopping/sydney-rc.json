@@ -1,0 +1,119 @@
+{
+  "updated": "2026-06-15",
+  "title": "쇼핑 가이드",
+  "intro": "시드니에서 어머니·가족 쇼핑할 곳과 호주 세금·환급(TRS) 안내예요. 가게 이름을 누르면 구글 지도가 열립니다.",
+  "taxfree": {
+    "title": "💵 호주 세금·환급(TRS) 안내",
+    "summary": [
+      "호주는 표시가격에 GST(10%)가 이미 포함돼 있어요(미국과 달리 계산대에서 추가되지 않음). 보이는 가격이 최종가예요.",
+      "관광객은 출국 시 GST를 돌려받을 수 있어요(TRS, Tourist Refund Scheme). 한 매장에서 A$300 이상 구매하고 출국 60일 이내면 대상.",
+      "방법: 영수증(택스 인보이스)·구매 물품·여권을 들고 공항 출국장 TRS 카운터에서 신청. 'TRS' 앱으로 미리 정보 입력하면 빨라요.",
+      "💡 같은 매장 영수증은 합산 가능(A$300↑). 아울렛(DFO)·백화점 큰 구매는 영수증을 꼭 챙기세요."
+    ],
+    "phrasesTitle": "🗣️ 쇼핑 영어 표현",
+    "phrases": [
+      {
+        "en": "Can I have a tax invoice for TRS?",
+        "ko": "캔 아이 해브 어 택스 인보이스 포 티알에스?",
+        "mean": "환급용 세금 영수증 주세요"
+      },
+      {
+        "en": "Do you have this in a smaller/larger size?",
+        "ko": "두 유 해브 디스 인 어 스몰러/라저 사이즈?",
+        "mean": "더 작은/큰 사이즈 있나요?"
+      },
+      {
+        "en": "Can I return or exchange this?",
+        "ko": "캔 아이 리턴 오어 익스체인지 디스?",
+        "mean": "환불·교환 되나요?"
+      }
+    ],
+    "korea": {
+      "note": "환급받아 싸게 사도 한국 입국 시 한도를 넘으면 세금을 내요(가족 합산 안 됨).",
+      "rows": [
+        "1인당 미화 $800까지 면세 (가족 합산 불가)",
+        "$800 초과 시 입국장에서 반드시 자진신고 (자진신고 시 관세 30%, 최대 20만원 감면)",
+        "미신고 적발 시 가산세 40% — 영수증 보관·솔직 신고가 이득",
+        "술·담배·향수는 별도 한도"
+      ]
+    }
+  },
+  "spotsIntro": "쇼핑 좋아하는 한국 여성 기준 추천 순위: ①웨스트필드+피트스트리트(명품·중가·SPA 한 동선) ②DFO Homebush(아울렛 할인) ③QVB(분위기·기념품).",
+  "areas": [
+    {
+      "name": "Westfield Sydney + Pitt Street Mall",
+      "note": "시내 한복판 보행자 쇼핑거리 + 종합몰. 명품~중가~SPA~기념품을 한 동선에. 시드니타워 연결.",
+      "mapAll": "Westfield Sydney",
+      "mapAllLabel": "👉 이 지역 지도에서 보기 ↗",
+      "shops": [
+        {
+          "name_ko": "웨스트필드 시드니",
+          "name_ja": "Westfield Sydney",
+          "map": "Westfield Sydney",
+          "type": "백화점몰",
+          "desc": "명품·중가·SPA·푸드코트 한 건물. 시드니타워 전망대 연결."
+        },
+        {
+          "name_ko": "피트 스트리트 몰",
+          "name_ja": "Pitt Street Mall",
+          "map": "Pitt Street Mall Sydney",
+          "type": "보행자 쇼핑거리",
+          "desc": "호주 SPA·중저가 브랜드 밀집. 시내 쇼핑의 중심."
+        },
+        {
+          "name_ko": "데이비드 존스",
+          "name_ja": "David Jones Elizabeth Street",
+          "map": "David Jones Elizabeth Street Sydney",
+          "type": "고급 백화점",
+          "desc": "호주 대표 백화점. 명품·화장품·식품관."
+        },
+        {
+          "name_ko": "마이어",
+          "name_ja": "Myer Sydney",
+          "map": "Myer Sydney City",
+          "type": "백화점",
+          "desc": "중고가 종합 백화점. 세일 코너 강함."
+        }
+      ]
+    },
+    {
+      "name": "Queen Victoria Building (QVB)",
+      "note": "19세기 건축 명소 자체가 볼거리. 호주 브랜드·부티크·기념품·카페.",
+      "mapAll": "Queen Victoria Building Sydney",
+      "mapAllLabel": "👉 이 지역 지도에서 보기 ↗",
+      "shops": [
+        {
+          "name_ko": "QVB 부티크·기념품",
+          "name_ja": "Queen Victoria Building Boutiques",
+          "map": "Queen Victoria Building Sydney",
+          "type": "부티크·기념품",
+          "desc": "헤리티지 건물 안 부티크·호주 기념품·티숍. 인생샷 명소."
+        },
+        {
+          "name_ko": "빅토리아스 베이스먼트",
+          "name_ja": "Victoria's Basement QVB",
+          "map": "Victoria's Basement Sydney",
+          "type": "주방·잡화",
+          "desc": "주방용품·선물 할인. 기념품 사기 좋음."
+        }
+      ]
+    },
+    {
+      "name": "DFO Homebush (아울렛)",
+      "note": "올림픽파크 근처 브랜드 아울렛. 기차로 접근, 캐리어 채우는 실속 쇼핑.",
+      "mapAll": "DFO Homebush",
+      "mapAllLabel": "👉 이 지역 지도에서 보기 ↗",
+      "shops": [
+        {
+          "name_ko": "DFO Homebush 아울렛",
+          "name_ja": "DFO Homebush",
+          "map": "DFO Homebush",
+          "type": "아울렛",
+          "desc": "코치·랄프로렌·나이키·아디다스 등 브랜드 할인. 출국 전 막판 쇼핑에 좋음."
+        }
+      ]
+    }
+  ],
+  "tip": "표시가에 GST 포함 · 한 매장 A$300↑면 출국 시 TRS 환급 가능 · 한국 입국 1인 $800 면세.",
+  "disclaimer": "※ 영업시간·브랜드 입점은 변동될 수 있어요. 방문 전 확인하세요."
+}

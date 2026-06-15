@@ -1,0 +1,370 @@
+{
+  "updated": "2026-06-15",
+  "currency": "aud",
+  "dates": "2027년 (예상) · 6박 7일 (화 출국 ~ 월 귀국)",
+  "route": "부산 → 인천 → 시드니 왕복",
+  "intro": "대회 정확 일정은 공식 발표 후 조정하세요(금 체크인/토 Day1/일 Day2 예상). 아래는 가족여행+대회+쇼핑을 함께 잡는 흐름이에요.",
+  "flights": [
+    {
+      "label": "가는 편",
+      "detail": "인천(ICN)→시드니(SYD) 직항 약 10시간 20분",
+      "tip": "부산은 인천 경유 / ETA 미리 신청"
+    },
+    {
+      "label": "오는 편",
+      "detail": "시드니(SYD)→인천(ICN) 약 10~11시간",
+      "tip": "시차 1~2시간뿐이라 회복 빠름"
+    }
+  ],
+  "hotels": [
+    {
+      "label": "시드니 (6박)",
+      "name": "달링하버/CBD 호텔",
+      "map": "Novotel Sydney Darling Harbour"
+    }
+  ],
+  "keyRoutes": [
+    {
+      "label": "공항 → 시내(타운홀)",
+      "from": "Sydney Airport",
+      "to": "Town Hall Station Sydney",
+      "mode": "transit"
+    },
+    {
+      "label": "시내 → 오페라하우스",
+      "from": "Town Hall Station Sydney",
+      "to": "Sydney Opera House",
+      "mode": "transit"
+    },
+    {
+      "label": "센트럴 → 카투바(블루마운틴)",
+      "from": "Central Station Sydney",
+      "to": "Katoomba Station",
+      "mode": "transit"
+    },
+    {
+      "label": "시내 → DFO Homebush",
+      "from": "Sydney CBD",
+      "to": "DFO Homebush",
+      "mode": "transit"
+    }
+  ],
+  "days": [
+    {
+      "icon": "✈️",
+      "date": "1일차(화)",
+      "title": "부산 출발 → (인천 경유) 밤비행기",
+      "move": "김해→인천→시드니",
+      "stops": [
+        {
+          "label": "인천에서 시드니행 직항 탑승(약 10h20m)",
+          "map": "Incheon International Airport"
+        }
+      ],
+      "tip": "밤비행기로 자고 가면 아침 시드니 도착 → 첫날 체력 확보."
+    },
+    {
+      "icon": "🌃",
+      "date": "2일차(수)",
+      "title": "시드니 도착·체크인 → 달링하버",
+      "move": "공항→시내(에어포트링크/우버)",
+      "stops": [
+        {
+          "label": "호텔 체크인(달링하버/CBD)",
+          "map": "Novotel Sydney Darling Harbour"
+        },
+        {
+          "label": "달링하버 산책·시드니 수족관",
+          "map": "SEA LIFE Sydney Aquarium"
+        },
+        {
+          "label": "팬케이크 온 더 록스에서 저녁",
+          "map": "Pancakes on the Rocks Darling Square Sydney"
+        }
+      ],
+      "tip": "시차 1~2시간이라 적응 부담 적어요. 첫날은 가볍게."
+    },
+    {
+      "icon": "⛵",
+      "date": "3일차(목)",
+      "title": "오페라하우스·하버브릿지·식물원",
+      "move": "서큘러키 기차/페리",
+      "stops": [
+        {
+          "label": "오페라하우스 (외관·투어)",
+          "map": "Sydney Opera House",
+          "spots": [
+            {
+              "label": "Royal Botanic Garden (무료 산책)",
+              "map": "Royal Botanic Garden Sydney"
+            },
+            {
+              "label": "하버브릿지 파일런 전망",
+              "map": "Pylon Lookout Sydney Harbour Bridge"
+            }
+          ]
+        },
+        {
+          "label": "서큘러키→맨리 페리(하버뷰 명물)",
+          "map": "Manly Wharf"
+        }
+      ],
+      "tip": "오페라하우스~식물원~서큘러키는 도보로 이어져요. 페리는 그 자체가 관광."
+    },
+    {
+      "icon": "⛰️",
+      "date": "4일차(금)",
+      "title": "블루마운틴 기차여행",
+      "move": "센트럴역→카투바(약 2시간)",
+      "stops": [
+        {
+          "label": "카투바역 → 에코포인트(쓰리시스터즈)",
+          "map": "Echo Point Lookout Katoomba"
+        },
+        {
+          "label": "세닉월드(세계 최급경사 레일·스카이웨이)",
+          "map": "Scenic World Katoomba",
+          "spots": [
+            {
+              "label": "카투바 폭포 산책",
+              "map": "Katoomba Falls"
+            }
+          ]
+        },
+        {
+          "label": "RC 체크인·덱등록(저녁 복귀 후)",
+          "map": "ICC Sydney Darling Harbour"
+        }
+      ],
+      "tip": "기차 행선지 'Lithgow·Mt Victoria·Katoomba'. 산악이라 겉옷 필수. 마지막 기차 시간 확인."
+    },
+    {
+      "icon": "🎮",
+      "date": "5일차(토)",
+      "title": "RC Day 1 / 가족 쇼핑",
+      "move": "호텔↔회장 도보·경전철",
+      "stops": [
+        {
+          "label": "선수: RC Day 1 (스위스 라운드)",
+          "map": "ICC Sydney Darling Harbour"
+        },
+        {
+          "label": "어머니: 웨스트필드·피트스트리트·QVB 쇼핑",
+          "map": "Westfield Sydney"
+        },
+        {
+          "label": "아버지: 회장 서포트 + 달링하버·차이나타운",
+          "map": "Chinatown Sydney Dixon Street"
+        }
+      ],
+      "tip": "회장이 시내라 선수·가족 동선이 충돌하지 않아요."
+    },
+    {
+      "icon": "🏆",
+      "date": "6일차(일)",
+      "title": "RC Day 2 / 진출 실패 시 대체관광",
+      "move": "호텔↔회장",
+      "stops": [
+        {
+          "label": "선수: Day 2 진출 시 본선",
+          "map": "ICC Sydney Darling Harbour"
+        },
+        {
+          "label": "(대체) 타롱가 동물원 — 페리+케이블카, 하버뷰",
+          "map": "Taronga Zoo Sydney"
+        },
+        {
+          "label": "(대체) 본다이 비치 해안 산책",
+          "map": "Bondi Beach Sydney"
+        }
+      ],
+      "tip": "탈락 시 본다이·타롱가로 가족 관광 전환."
+    },
+    {
+      "icon": "🛫",
+      "date": "7일차(월)",
+      "title": "막판 쇼핑 → 귀국",
+      "move": "DFO/시내 → 공항 → 인천",
+      "stops": [
+        {
+          "label": "DFO Homebush 아울렛 막판 쇼핑",
+          "map": "DFO Homebush"
+        },
+        {
+          "label": "공항 TRS에서 GST 환급 신청 후 출국",
+          "map": "Sydney Airport"
+        }
+      ],
+      "tip": "A$300↑ 영수증은 TRS 환급 챙기기. 국제선 3시간 전 도착."
+    }
+  ],
+  "mapGroups": [
+    {
+      "cat": "🏟️ 대회·숙소",
+      "items": [
+        {
+          "name": "ICC Sydney(대회장 가정)",
+          "query": "ICC Sydney Darling Harbour"
+        },
+        {
+          "name": "달링하버 호텔",
+          "query": "Novotel Sydney Darling Harbour"
+        }
+      ]
+    },
+    {
+      "cat": "⛵ 관광",
+      "items": [
+        {
+          "name": "오페라하우스",
+          "query": "Sydney Opera House"
+        },
+        {
+          "name": "하버브릿지",
+          "query": "Sydney Harbour Bridge"
+        },
+        {
+          "name": "Royal Botanic Garden",
+          "query": "Royal Botanic Garden Sydney"
+        },
+        {
+          "name": "타롱가 동물원",
+          "query": "Taronga Zoo Sydney"
+        },
+        {
+          "name": "본다이 비치",
+          "query": "Bondi Beach Sydney"
+        }
+      ]
+    },
+    {
+      "cat": "⛰️ 블루마운틴",
+      "items": [
+        {
+          "name": "에코포인트(쓰리시스터즈)",
+          "query": "Echo Point Lookout Katoomba"
+        },
+        {
+          "name": "세닉월드",
+          "query": "Scenic World Katoomba"
+        }
+      ]
+    },
+    {
+      "cat": "🛍️ 쇼핑",
+      "items": [
+        {
+          "name": "웨스트필드 시드니",
+          "query": "Westfield Sydney"
+        },
+        {
+          "name": "QVB",
+          "query": "Queen Victoria Building Sydney"
+        },
+        {
+          "name": "DFO Homebush",
+          "query": "DFO Homebush"
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "peopleDefault": 3,
+    "note": "Opal은 하루 요금 상한(성인 약 A$18.70, 주말 약 A$8.90)이 있어 그 이상은 무료예요. 아래는 1인 대략.",
+    "segments": [
+      {
+        "label": "공항 ↔ 시내 (에어포트링크, 1인 편도)",
+        "fare": 21,
+        "perTrip": "1인·공항역료 포함"
+      },
+      {
+        "label": "시내 하루 교통 (Opal, 1인)",
+        "fare": 12,
+        "perTrip": "1인·상한 적용"
+      },
+      {
+        "label": "블루마운틴 왕복 기차 (1인)",
+        "fare": 14,
+        "perTrip": "1인"
+      }
+    ]
+  },
+  "budget": {
+    "note": "가족 3인·6박7일 대략 예상(쇼핑 제외). 정확한 계산은 '비용 계산기'를 쓰세요.",
+    "items": [
+      {
+        "label": "항공 (3인 왕복)",
+        "amount": 3900000
+      },
+      {
+        "label": "호텔 (6박)",
+        "amount": 2100000
+      },
+      {
+        "label": "식비 (3인 6일)",
+        "amount": 1260000
+      },
+      {
+        "label": "현지 교통 (Opal)",
+        "amount": 300000
+      },
+      {
+        "label": "관광 입장료 (블루마운틴 등)",
+        "amount": 450000
+      }
+    ]
+  },
+  "emergency": [
+    {
+      "label": "긴급 (경찰·구급·소방)",
+      "tel": "000",
+      "value": "000"
+    },
+    {
+      "label": "주시드니 대한민국 총영사관",
+      "tel": "+61292100200",
+      "value": "+61-2-9210-0200"
+    },
+    {
+      "label": "외교부 영사콜센터 (한국)",
+      "tel": "+82232100404",
+      "value": "+82-2-3210-0404"
+    }
+  ],
+  "airport": [
+    {
+      "title": "시드니 공항(SYD) → 시내",
+      "body": "입국·짐 찾기 후 에어포트링크 전철 또는 우버/택시.",
+      "steps": [
+        {
+          "icon": "🛂",
+          "t": "입국심사(ETA)",
+          "d": "여권·ETA·숙소주소. 음식·약 신고 철저(검역 엄격)."
+        },
+        {
+          "icon": "🚆",
+          "t": "에어포트링크 전철",
+          "d": "타운홀·센트럴까지 15~20분, 1인 약 A$21(공항역료 포함)."
+        },
+        {
+          "icon": "🚕",
+          "t": "(짐 많으면) 우버/택시",
+          "d": "시내까지 약 A$50~60·25분, 가족이면 비슷하거나 편함."
+        }
+      ],
+      "links": [
+        {
+          "label": "공항→타운홀 길찾기",
+          "url": "https://www.google.com/maps/dir/?api=1&origin=Sydney+Airport&destination=Town+Hall+Station+Sydney&travelmode=transit"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "ETA(전자여행허가)는 'Australian ETA' 앱으로 가족 전원 미리 신청.",
+    "Opal/신용카드 비접촉으로 기차·버스·페리 다 됨. 하루 요금 상한 있음.",
+    "호주는 표시가에 GST 포함 — 미국과 달리 계산대 추가 없음. A$300↑ 출국 시 TRS 환급.",
+    "남반구라 계절 반대(6~8월 겨울). 자외선 강하니 선크림 필수.",
+    "긴급전화는 000. 검역이 엄격하니 음식·목재 반입 주의."
+  ]
+}

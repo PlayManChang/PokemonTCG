@@ -280,5 +280,43 @@
       "price": "위치·인원별 상이",
       "note": "주방·세탁기로 4~5박 장기 체류 시 식비·빨래에 유리하고 공간이 넓어요. 전철역·큰길 인접 숙소를 고르고 후기·환불정책·침대수·에어컨 확인. 한밤 도보 이동은 피하세요."
     }
+  ],
+  "sydney-rc": [
+    {
+      "name": "노보텔 시드니 달링하버",
+      "nameJa": "Novotel Sydney Darling Harbour",
+      "map": "Novotel Sydney Darling Harbour",
+      "area": "달링하버",
+      "near": "ICC Sydney(대회장 가정) 도보권, 달링하버 워터프런트",
+      "price": "약 A$280~420(25~38만원)/박",
+      "note": "⭐ RC 참가 최적. 대회 동선이 가장 짧고 달링하버 수족관·놀이터 인접해 가족에 좋음."
+    },
+    {
+      "name": "메리톤 스위트 월드스퀘어",
+      "nameJa": "Meriton Suites World Square",
+      "map": "Meriton Suites World Square Sydney",
+      "area": "CBD (월드스퀘어)",
+      "near": "타운홀역·차이나타운 도보권",
+      "price": "약 A$300~500(27~45만원)/박",
+      "note": "⭐ 가족 최적. 주방·세탁기 있는 아파트형이라 식비·빨래 절약, 공간 넓음. 딤섬·마트 도보권."
+    },
+    {
+      "name": "힐튼 시드니",
+      "nameJa": "Hilton Sydney",
+      "map": "Hilton Sydney George Street",
+      "area": "CBD (피트스트리트)",
+      "near": "QVB·피트스트리트몰·웨스트필드 도보 3분",
+      "price": "약 A$350~600(32~54만원)/박",
+      "note": "⭐ 쇼핑 최적. 시내 쇼핑 한복판, 타운홀역 바로 위. 고급형."
+    },
+    {
+      "name": "이비스 시드니 월드스퀘어",
+      "nameJa": "ibis Sydney World Square",
+      "map": "ibis Sydney World Square",
+      "area": "CBD (월드스퀘어)",
+      "near": "타운홀역·차이나타운 도보권",
+      "price": "약 A$180~300(16~27만원)/박",
+      "note": "⭐ 가성비 최적. 위치 무난하고 합리적 가격, 체인 안정감. 알뜰 가족에 적합."
+    }
   ]
 }

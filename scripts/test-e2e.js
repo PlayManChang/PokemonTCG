@@ -330,7 +330,7 @@ function assert(cond, msg) {
     await page.goto(BASE + '/', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.ev-card', { timeout: 5000 });
     const groupHeads = await page.$$eval('.ev-group-title', (e) => e.length);
-    assert(groupHeads === 2, `메인 지역 그룹 ${groupHeads}개(일본/북미)`);
+    assert(groupHeads === 3, `메인 지역 그룹 ${groupHeads}개(일본/북미/오세아니아)`);
     const naicCard = await page.$('a.ev-card[href*="naic-chicago"]');
     assert(!!naicCard, 'NAIC 대회 카드가 메인에 표시됨');
 
@@ -344,6 +344,11 @@ function assert(cond, msg) {
     assert(naicTiles === 7, `NAIC 현지가이드 타일 ${naicTiles}개(기본5 + FAQ + 비용계산기)`);
     const entryPhrases = await page.$$eval('#sec-entry .tf-phrases li', (e) => e.length);
     assert(entryPhrases >= 3, `미국 현장 영어 표현 ${entryPhrases}개 표시됨`);
+    // NAIC 체크리스트: 공통(일본어) 제외, 자체 목록만 → 일본어 없어야 함
+    const naicCheckGroups = await page.$$eval('#sec-checklist .ev-h3', (e) => e.length);
+    assert(naicCheckGroups === checkData.byEvent['naic-chicago'].length, `NAIC 체크리스트 자체 그룹만 ${naicCheckGroups}개(공통 일본어 제외)`);
+    const naicHasJP = await page.$$eval('#sec-checklist .ev-check-text', (els) => els.some((e) => /[぀-ヿ一-龯]/.test(e.textContent)));
+    assert(!naicHasJP, 'NAIC 체크리스트에 일본어 없음 ✅');
 
     const faqData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'faq', 'naic-chicago.json'), 'utf8'));
     await page.goto(BASE + '/faq.html?event=naic-chicago', { waitUntil: 'networkidle0' });
@@ -369,6 +374,32 @@ function assert(cond, msg) {
     await page.waitForSelector('.shop-item', { timeout: 5000 });
     const usTaxTitle = await page.$$eval('.gcard h2', (hs) => hs.some((h) => h.textContent.includes('미국 세금')));
     assert(usTaxTitle, '쇼핑 페이지에 미국 세금 안내 제목 표시됨');
+
+    console.log('\n[10-i] 시드니 RC (호주) 통합');
+    const sydCard = await page.$('a.ev-card[href*="sydney-rc"]');
+    assert(true, '(메인 그룹 3개 중 오세아니아 포함 — 위에서 확인)');
+    await page.goto(BASE + '/event.html?id=sydney-rc', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('#sec-overview', { timeout: 5000 });
+    const sydTiles = await page.$$eval('#sec-guide .ev-quick-item', (e) => e.length);
+    assert(sydTiles === 7, `시드니 현지가이드 타일 ${sydTiles}개(기본5 + FAQ + 계산기)`);
+    const sydCd = await page.$('.ev-cd-num');
+    assert(!!sydCd, '시드니 카운트다운 표시됨');
+    const sydCheckJP = await page.$$eval('#sec-checklist .ev-check-text', (els) => els.some((e) => /[぀-ヿ一-龯]/.test(e.textContent)));
+    assert(!sydCheckJP, '시드니 체크리스트에 일본어 없음 ✅');
+    const sydEta = await page.$$eval('#sec-checklist .ev-check-text', (els) => els.some((e) => e.textContent.includes('ETA')));
+    assert(sydEta, '시드니 체크리스트에 ETA(호주 비자) 안내 포함');
+
+    // 여행가이드 AUD 통화
+    await page.goto(BASE + '/plan.html?event=sydney-rc', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.plan-day', { timeout: 5000 });
+    const audShown = await page.$$eval('.plan-table td', (tds) => tds.some((t) => t.textContent.includes('A$')));
+    assert(audShown, '시드니 여행가이드 교통비가 AUD(A$)로 표시됨');
+
+    // FAQ (ETA)
+    await page.goto(BASE + '/faq.html?event=sydney-rc', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.faq-item', { timeout: 5000 });
+    const sydFaqEta = await page.$$eval('.faq-item', (els) => els.some((e) => e.textContent.includes('ETA')));
+    assert(sydFaqEta, '시드니 FAQ에 ETA 비자 안내 포함');
 
     console.log('\n[11] 세트별 보기 (M5 아비스아이)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드

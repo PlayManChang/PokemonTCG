@@ -1,0 +1,43 @@
+{
+  "updated": "2026-06-15",
+  "intro": "대회장 벤더 부스 + 시드니 시내 포켓몬/트레카 카드샵이에요. 가게 이름을 누르면 구글 지도가 열립니다.",
+  "tip": "회장 벤더는 카드 결제가 많아요. 인기 싱글은 일찍 매진되니 첫날 둘러보세요.",
+  "areas": [
+    {
+      "name": "시드니 · 카드 구매처",
+      "note": "대회장 벤더 + 시내 TCG 전문점.",
+      "mapAll": "Pokemon card shop Sydney",
+      "shops": [
+        {
+          "name_ko": "대회장 벤더 홀",
+          "name_ja": "Venue Vendor Area",
+          "type": "대회장 벤더",
+          "desc": "대회장 내 벤더 부스. 싱글·슬리브·플레이매트·굿즈 판매.",
+          "map": "ICC Sydney Darling Harbour"
+        },
+        {
+          "name_ko": "굿 게임즈 타운홀",
+          "name_ja": "Good Games Town Hall",
+          "type": "카드·보드게임 전문점",
+          "desc": "시드니 CBD 핵심 매장. 타운홀역 도보 5분·QVB 한 블록. 플레이 공간·이벤트.",
+          "map": "Good Games Town Hall York Street Sydney"
+        },
+        {
+          "name_ko": "라이트 오브 카드",
+          "name_ja": "Light of Cards",
+          "type": "카드 전문점",
+          "desc": "희귀 포켓몬·그레이딩 카드. 제틀랜드(CBD 남쪽 근교).",
+          "map": "Light of Cards Zetland Sydney"
+        },
+        {
+          "name_ko": "미스티컬 머천츠",
+          "name_ja": "Mystical Merchants",
+          "type": "포켓몬 TCG 전문점",
+          "desc": "포켓몬·원피스 TCG, 넓은 종류·합리적 가격.",
+          "map": "Mystical Merchants Sydney"
+        }
+      ]
+    }
+  ],
+  "disclaimer": "※ 회장 벤더·매장 정보는 변동될 수 있어요. 방문 전 확인하세요."
+}
