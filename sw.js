@@ -1,6 +1,6 @@
 // PJCS 용어집 Service Worker — 오프라인 지원 (stale-while-revalidate)
 // + 카드 이미지 런타임 캐싱(한 번 본 카드는 오프라인에서도 표시)
-const CACHE = 'pjcs-v70';
+const CACHE = 'pjcs-v71';
 const IMG_CACHE = 'pjcs-cardimg-v1';
 // 설치 시 미리 받는 '핵심 앱 셸'만(가벼움 → 설치 빠름).
 // 큰 파일(cards.json 512KB, 룰 PDF 700KB)은 목록에서 빼고, 처음 열 때 fetch 핸들러가 자동 캐싱한다.
@@ -44,6 +44,7 @@ const CORE = [
   './data/shops/aichi.json',
   './data/shops/naic-chicago.json',
   './data/shops/sydney-rc.json',
+  './data/shops/brisbane-rc.json',
   './data/shopping/yokohama.json',
   './data/shopping/chiba.json',
   './data/shopping/miyagi.json',
@@ -51,6 +52,7 @@ const CORE = [
   './data/shopping/aichi.json',
   './data/shopping/naic-chicago.json',
   './data/shopping/sydney-rc.json',
+  './data/shopping/brisbane-rc.json',
   './data/locations/yokohama.json',
   './data/locations/chiba.json',
   './data/locations/miyagi.json',
@@ -58,13 +60,17 @@ const CORE = [
   './data/locations/aichi.json',
   './data/locations/naic-chicago.json',
   './data/locations/sydney-rc.json',
+  './data/locations/brisbane-rc.json',
   './data/plan/yokohama.json',
   './data/plan/naic-chicago.json',
   './data/plan/sydney-rc.json',
+  './data/plan/brisbane-rc.json',
   './data/faq/naic-chicago.json',
   './data/faq/sydney-rc.json',
+  './data/faq/brisbane-rc.json',
   './data/calc/naic-chicago.json',
   './data/calc/sydney-rc.json',
+  './data/calc/brisbane-rc.json',
   './manifest.webmanifest',
   './icons/icon.svg',
   './icons/icon-192.png',

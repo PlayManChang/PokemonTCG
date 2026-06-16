@@ -1,0 +1,43 @@
+{
+  "updated": "2026-06-15",
+  "intro": "대회장 벤더 부스 + 브리즈번 시내 포켓몬/트레카 카드샵이에요. 가게 이름을 누르면 구글 지도가 열립니다.",
+  "tip": "회장 벤더는 카드 결제가 많아요. 인기 싱글은 일찍 매진되니 첫날 둘러보세요.",
+  "areas": [
+    {
+      "name": "브리즈번 · 카드 구매처",
+      "note": "대회장 벤더 + 시내 TCG 전문점.",
+      "mapAll": "Pokemon card shop Brisbane",
+      "shops": [
+        {
+          "name_ko": "BCEC 벤더 홀",
+          "name_ja": "BCEC Vendor Area",
+          "type": "대회장 벤더",
+          "desc": "대회장 내 벤더 부스. 싱글·슬리브·플레이매트·굿즈.",
+          "map": "Brisbane Convention Exhibition Centre"
+        },
+        {
+          "name_ko": "마인드 게임스 (퀸스트리트몰)",
+          "name_ja": "Mind Games Queen Street Mall",
+          "type": "카드·보드게임 전문점",
+          "desc": "업타운 2층. 시내 도심에서 가장 가까운 포켓몬 TCG 취급점.",
+          "map": "Mind Games Queen Street Mall Brisbane"
+        },
+        {
+          "name_ko": "굿 게임즈 타운홀",
+          "name_ja": "Good Games Town Hall Brisbane",
+          "type": "TCG 전문점·대회장",
+          "desc": "호주 최대 TCG 체인. 포켓몬 판매+매장 대회.",
+          "map": "Good Games Town Hall Brisbane"
+        },
+        {
+          "name_ko": "미스티스 콜렉터블",
+          "name_ja": "Misty's Collectables",
+          "type": "포켓몬 카드 전문점",
+          "desc": "호주 포켓몬 카드 전문 컬렉터블샵. 싱글·실드.",
+          "map": "Misty's Collectables Brisbane"
+        }
+      ]
+    }
+  ],
+  "disclaimer": "※ 회장 벤더·매장 정보는 변동될 수 있어요. 방문 전 확인하세요."
+}

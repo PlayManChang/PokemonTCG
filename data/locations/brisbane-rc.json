@@ -1,0 +1,126 @@
+{
+  "updated": "2026-06-15",
+  "title": "위치 한눈에",
+  "intro": "브리즈번 대회장·숙소·마트·관광을 지역별 약식 지도로 정리했어요. 대회장·역은 색이 달라요. 이름을 누르면 구글 지도가 열립니다. 위쪽이 북쪽이에요.",
+  "regions": [
+    {
+      "name": "🏟️ 대회장·사우스뱅크 (도보권)",
+      "sub": "BCEC·South Bank·숙소·마트",
+      "points": [
+        {
+          "n": "BCEC (대회장)",
+          "q": "Brisbane Convention Exhibition Centre",
+          "lat": -27.4748,
+          "lon": 153.0176,
+          "t": "venue"
+        },
+        {
+          "n": "사우스뱅크 파크랜드",
+          "q": "South Bank Parklands Brisbane",
+          "lat": -27.4809,
+          "lon": 153.0176,
+          "t": "sight"
+        },
+        {
+          "n": "스트릿츠 비치(인공해변)",
+          "q": "Streets Beach South Bank Brisbane",
+          "lat": -27.4793,
+          "lon": 153.0189,
+          "t": "sight"
+        },
+        {
+          "n": "울워스 메트로 사우스브리즈번(도보5분)",
+          "q": "Woolworths Metro Melbourne St South Brisbane",
+          "lat": -27.4738,
+          "lon": 153.0157,
+          "t": "shop"
+        },
+        {
+          "n": "W 슈퍼마켓(한인마트, 도보6분)",
+          "q": "W Supermarket South Brisbane",
+          "lat": -27.4725,
+          "lon": 153.0155,
+          "t": "shop"
+        },
+        {
+          "n": "콜스/울워스 웨스트빌리지(웨스트엔드)",
+          "q": "Woolworths West Village West End",
+          "lat": -27.4823,
+          "lon": 153.0118,
+          "t": "shop"
+        },
+        {
+          "n": "웨스트엔드 식당가",
+          "q": "West End Boundary Street Brisbane",
+          "lat": -27.483,
+          "lon": 153.011,
+          "t": "food"
+        },
+        {
+          "n": "사우스브리즈번역",
+          "q": "South Brisbane railway station",
+          "lat": -27.481,
+          "lon": 153.0156,
+          "t": "station"
+        }
+      ]
+    },
+    {
+      "name": "🐨 관광",
+      "sub": "론파인·시내·이트스트리트",
+      "points": [
+        {
+          "n": "론파인 코알라 보호구역",
+          "q": "Lone Pine Koala Sanctuary",
+          "lat": -27.534,
+          "lon": 152.969,
+          "t": "sight"
+        },
+        {
+          "n": "퀸스트리트 몰(쇼핑·카드샵)",
+          "q": "Queen Street Mall Brisbane",
+          "lat": -27.47,
+          "lon": 153.025,
+          "t": "shop"
+        },
+        {
+          "n": "캥거루 포인트 절벽",
+          "q": "Kangaroo Point Cliffs Brisbane",
+          "lat": -27.479,
+          "lon": 153.034,
+          "t": "sight"
+        },
+        {
+          "n": "이트 스트리트 노스쇼어(야시장)",
+          "q": "Eat Street Northshore",
+          "lat": -27.435,
+          "lon": 153.076,
+          "t": "food"
+        },
+        {
+          "n": "브리즈번 시티홀",
+          "q": "Brisbane City Hall",
+          "lat": -27.469,
+          "lon": 153.0235,
+          "t": "sight"
+        },
+        {
+          "n": "마루 코리안 BBQ(시내)",
+          "q": "Maru Korean BBQ Elizabeth St Brisbane",
+          "lat": -27.471,
+          "lon": 153.027,
+          "t": "food"
+        },
+        {
+          "n": "스토리 브리지",
+          "q": "Story Bridge Brisbane",
+          "lat": -27.464,
+          "lon": 153.036,
+          "t": "sight"
+        }
+      ]
+    }
+  ],
+  "legendNote": true,
+  "disclaimer": "※ 약식 지도예요(위치 관계 참고용). 정확한 위치·길찾기는 이름을 눌러 구글 지도로 확인하세요."
+}

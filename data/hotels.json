@@ -318,5 +318,52 @@
       "price": "약 A$180~300(16~27만원)/박",
       "note": "⭐ 가성비 최적. 위치 무난하고 합리적 가격, 체인 안정감. 알뜰 가족에 적합."
     }
+  ],
+  "brisbane-rc": [
+    {
+      "name": "⭐ 에어비앤비 — 사우스브리즈번 (BCEC 도보 5~10분)",
+      "nameJa": "Airbnb · South Brisbane",
+      "map": "South Brisbane QLD apartments",
+      "area": "사우스브리즈번",
+      "near": "BCEC 도보 5~10분 · 울워스 메트로 도보 5분 · 한인마트(W Supermarket) 도보 6분",
+      "price": "1채 1박 약 A$450~650(6인 기준)",
+      "note": "✅ 1순위 지역. 에어비앤비에서 'South Brisbane' 검색 후 필터: 침실 3+·욕실 2+·주방·세탁기·6인·BBQ(공용 또는 테라스 그릴). 회장 도보권이라 대회 기간 우버 불필요, 거실에서 저녁 덱 테스트 가능."
+    },
+    {
+      "name": "에어비앤비 — 웨스트엔드 (BCEC 도보 12~18분)",
+      "nameJa": "Airbnb · West End",
+      "map": "West End Brisbane QLD houses",
+      "area": "웨스트엔드",
+      "near": "BCEC 도보 12~18분 · 콜스/울워스 웨스트빌리지 도보 3~8분",
+      "price": "1채 1박 약 A$400~600(6인)",
+      "note": "조용한 주택가라 마당 있는 단독주택형이 많아 BBQ에 최적. 6인 단독주택 + 세탁기 + 넓은 거실(카드 정리·덱 테스트) 찾기 좋음. 마트가 가까워 단체 장보기 편리."
+    },
+    {
+      "name": "에어비앤비 — 사우스뱅크 강변 (BCEC 도보 5~12분)",
+      "nameJa": "Airbnb · South Bank",
+      "map": "South Bank Brisbane apartments",
+      "area": "사우스뱅크",
+      "near": "BCEC 도보 5~12분 · 사우스뱅크 파크랜드·인공해변 인접",
+      "price": "1채 1박 약 A$500~750(6인)",
+      "note": "강변 아파트라 공용 루프탑 BBQ·수영장 갖춘 건물 많음. 관광(사우스뱅크)·회장 모두 도보. 가격은 조금 높은 편."
+    },
+    {
+      "name": "(대안) 만트라 사우스뱅크 — 서비스드 아파트",
+      "nameJa": "Mantra South Bank Brisbane",
+      "map": "Mantra South Bank Brisbane",
+      "area": "사우스뱅크",
+      "near": "BCEC 도보 약 5분",
+      "price": "2~3베드 아파트 1박 약 A$350~600",
+      "note": "에어비앤비를 못 구하면 대안. 주방·세탁기 있는 아파트형 호텔. 단, 객실 내 BBQ는 보통 불가(공용 시설 확인). 회장 최단 도보."
+    },
+    {
+      "name": "(대안) 더 캐피톨 아파트먼트 사우스브리즈번",
+      "nameJa": "The Capitol Apartments South Brisbane",
+      "map": "The Capitol Apartments South Brisbane",
+      "area": "사우스브리즈번",
+      "near": "BCEC 도보 약 8분",
+      "price": "2베드 아파트 1박 약 A$300~500",
+      "note": "취사·세탁 가능한 아파트형 대안. 6인이면 2채 분리 예약 검토. 마트·회장 도보권."
+    }
   ]
 }

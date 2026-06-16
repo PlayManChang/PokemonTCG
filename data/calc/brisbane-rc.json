@@ -1,0 +1,29 @@
+{
+  "updated": "2026-06-15",
+  "title": "브리즈번 RC 비용 계산기",
+  "intro": "인원·참가자수·숙박·쇼핑예산을 넣으면 항공·참가비·숙소·식비·교통·관광·쇼핑 예상 총비용을 계산해요. 모든 금액은 대략치(원화)예요.",
+  "defaults": {
+    "people": 6,
+    "nights": 5,
+    "players": 5,
+    "shopping": 600000
+  },
+  "rates": {
+    "flightPerPerson": 1200000,
+    "entryPerPlayer": 55000,
+    "hotelPerNight": 500000,
+    "foodPerPersonPerDay": 50000,
+    "transportPerTrip": 250000,
+    "attractionPerPerson": 120000
+  },
+  "labels": {
+    "flight": "✈️ 항공 (1인 왕복 약 120만원)",
+    "entry": "🎮 대회 참가비 (참가자 1인 약 5.5만원)",
+    "hotel": "🏠 에어비앤비 (1채 1박 약 50만원·6인)",
+    "food": "🍖 식비 (1인 1일 약 5만원·마트+외식)",
+    "transport": "🚕 교통 (공항·관광 약 25만원)",
+    "attraction": "🐨 관광 입장료 (1인 약 12만원)",
+    "shopping": "🛍️ 쇼핑 (직접 입력)"
+  },
+  "note": "숙소는 6인 1채 기준(인원수와 무관하게 1박 단가). 참가비는 참가자수×1인 참가비. 환율·시기로 달라지니 실제 예약가로 조정하세요."
+}

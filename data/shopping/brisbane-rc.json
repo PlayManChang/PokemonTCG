@@ -1,0 +1,126 @@
+{
+  "updated": "2026-06-15",
+  "title": "쇼핑 가이드",
+  "intro": "브리즈번 쇼핑·마트와 호주 세금·환급(TRS) 안내예요. 단체 장보기(BBQ)는 숙소 근처 마트가 가장 편해요. 가게 이름을 누르면 구글 지도가 열립니다.",
+  "taxfree": {
+    "title": "💵 호주 세금·환급(TRS) 안내",
+    "summary": [
+      "호주는 표시가격에 GST(10%)가 이미 포함돼 있어요(미국과 달리 계산대에서 추가 안 됨).",
+      "관광객은 한 매장에서 A$300 이상 산 물품을 출국 60일 이내에 공항 TRS 카운터에서 GST 환급받을 수 있어요.",
+      "방법: 영수증(택스 인보이스)·물품·여권 지참, 'TRS' 앱으로 미리 입력하면 빨라요.",
+      "💡 식료품(마트 BBQ 장보기)은 환급 대상이 아니에요. 의류·전자·기념품 큰 구매 위주."
+    ],
+    "phrasesTitle": "🗣️ 쇼핑·마트 영어 표현",
+    "phrases": [
+      {
+        "en": "Can I have a tax invoice for TRS?",
+        "ko": "캔 아이 해브 어 택스 인보이스 포 티알에스?",
+        "mean": "환급용 세금 영수증 주세요"
+      },
+      {
+        "en": "Where is the BBQ meat section?",
+        "ko": "웨어 이즈 더 바비큐 미트 섹션?",
+        "mean": "바비큐용 고기 어디 있나요?"
+      },
+      {
+        "en": "Do you have a bag? (Reusable bag please)",
+        "ko": "두 유 해브 어 백?",
+        "mean": "봉투 있나요?(호주는 비닐봉투 유료)"
+      }
+    ],
+    "korea": {
+      "note": "환급받아 싸게 사도 한국 입국 시 한도를 넘으면 세금을 내요(가족·일행 합산 안 됨, 1인 기준).",
+      "rows": [
+        "1인당 미화 $800까지 면세 (합산 불가)",
+        "$800 초과 시 입국장에서 반드시 자진신고 (자진신고 시 관세 30%, 최대 20만원 감면)",
+        "미신고 적발 시 가산세 40% — 영수증 보관·솔직 신고가 이득",
+        "술·담배·향수는 별도 한도"
+      ]
+    }
+  },
+  "spotsIntro": "단체 BBQ 장보기는 '마트', 기념품·의류는 '쇼핑몰'로 나눠 보세요. 마트는 숙소 도보권(울워스·콜스·한인마트), 쇼핑은 퀸스트리트몰이 중심이에요.",
+  "areas": [
+    {
+      "name": "🛒 마트 (BBQ 장보기 · 숙소 도보권)",
+      "note": "도착 첫날 단체 장보기. 고기·채소·음료·간식·한식 재료를 한 번에.",
+      "mapAll": "Woolworths South Brisbane",
+      "mapAllLabel": "👉 이 지역 지도에서 보기 ↗",
+      "shops": [
+        {
+          "name_ko": "울워스 메트로 사우스브리즈번",
+          "name_ja": "Woolworths Metro South Brisbane",
+          "map": "Woolworths Metro Melbourne St South Brisbane",
+          "type": "마트",
+          "desc": "BCEC 최근접(도보 5분). 간편식·음료·생필품."
+        },
+        {
+          "name_ko": "콜스 웨스트엔드",
+          "name_ja": "Coles West End",
+          "map": "Coles West End Mollison Street",
+          "type": "마트",
+          "desc": "웨스트엔드 대형 콜스. BBQ용 정육 종류 다양."
+        },
+        {
+          "name_ko": "W 슈퍼마켓 (한인마트)",
+          "name_ja": "W Supermarket South Brisbane",
+          "map": "W Supermarket Melbourne St South Brisbane",
+          "type": "한인·아시안 마트",
+          "desc": "도보 6분 한국식품점. 김치·라면·고추장·삼겹살·불고기감."
+        }
+      ]
+    },
+    {
+      "name": "🛍️ 퀸스트리트 몰 (시내 쇼핑)",
+      "note": "브리즈번 도심 보행자 쇼핑거리. 백화점·브랜드·기념품·카드샵.",
+      "mapAll": "Queen Street Mall Brisbane",
+      "mapAllLabel": "👉 이 지역 지도에서 보기 ↗",
+      "shops": [
+        {
+          "name_ko": "퀸스트리트 몰",
+          "name_ja": "Queen Street Mall",
+          "map": "Queen Street Mall Brisbane",
+          "type": "보행자 쇼핑거리",
+          "desc": "마이어·데이비드존스 백화점, 브랜드 매장, 기념품."
+        },
+        {
+          "name_ko": "마이어 센터 브리즈번",
+          "name_ja": "Myer Centre Brisbane",
+          "map": "Myer Centre Brisbane",
+          "type": "백화점몰",
+          "desc": "퀸스트리트몰 핵심 쇼핑몰. 패션·잡화·푸드코트."
+        },
+        {
+          "name_ko": "업타운 (구 윈터가든)",
+          "name_ja": "Uptown Brisbane",
+          "map": "Uptown Queen Street Mall Brisbane",
+          "type": "쇼핑몰",
+          "desc": "2층에 카드샵 'Mind Games' 입점."
+        }
+      ]
+    },
+    {
+      "name": "🏬 대형몰·아울렛",
+      "note": "여유 있으면 교외 대형몰·공항 아울렛.",
+      "mapAll": "Westfield Chermside",
+      "mapAllLabel": "👉 이 지역 지도에서 보기 ↗",
+      "shops": [
+        {
+          "name_ko": "웨스트필드 처름사이드",
+          "name_ja": "Westfield Chermside",
+          "map": "Westfield Chermside Brisbane",
+          "type": "대형 쇼핑몰",
+          "desc": "남반구 최대급 쇼핑몰 중 하나. 명품~중가 다수."
+        },
+        {
+          "name_ko": "DFO 브리즈번 (공항 아울렛)",
+          "name_ja": "DFO Brisbane",
+          "map": "DFO Brisbane Airport",
+          "type": "아울렛",
+          "desc": "공항 근처 브랜드 아울렛. 귀국 동선에 들르기 좋음."
+        }
+      ]
+    }
+  ],
+  "tip": "마트 장보기는 환급 대상 아님 · 의류·전자 A$300↑ 출국 시 TRS 환급 · 한국 입국 1인 $800 면세.",
+  "disclaimer": "※ 영업시간·정보는 변동될 수 있어요. 방문 전 확인하세요."
+}

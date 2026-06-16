@@ -17,7 +17,7 @@
     if (data.title) document.title = data.title;
     const rates = data.rates || {};
     const labels = data.labels || {};
-    const state = Object.assign({ people: 3, nights: 5, shopping: 1000000 }, data.defaults || {});
+    const state = Object.assign({ people: 3, nights: 5, shopping: 1000000, players: 0 }, data.defaults || {});
 
     if (data.intro) root.appendChild(el('p', 'guide-legend', data.intro));
 
@@ -35,8 +35,10 @@
       if (suffix) row.appendChild(el('span', 'calc-suffix', suffix));
       return row;
     };
-    inForm.appendChild(mkInput('people', '👥 인원수', 1, 9, 1, '명'));
+    inForm.appendChild(mkInput('people', '👥 인원수', 1, 20, 1, '명'));
     inForm.appendChild(mkInput('nights', '🏨 숙박일수', 1, 30, 1, '박'));
+    // 대회 참가비가 있는 대회만: 참가자수 입력
+    if (rates.entryPerPlayer) inForm.appendChild(mkInput('players', '🎮 대회 참가자수', 0, 20, 1, '명'));
     inForm.appendChild(mkInput('shopping', '🛍️ 쇼핑예산', 0, 100000000, 100000, '원'));
     root.appendChild(inForm);
 
@@ -60,6 +62,10 @@
         { label: labels.attraction || '관광', amount: (rates.attractionPerPerson || 0) * p },
         { label: labels.shopping || '쇼핑', amount: state.shopping }
       ];
+      // 대회 참가비(참가자수 × 1인 참가비)
+      if (rates.entryPerPlayer) {
+        rows.splice(1, 0, { label: labels.entry || '🎮 대회 참가비', amount: (rates.entryPerPlayer || 0) * (state.players || 0) });
+      }
       let total = 0;
       table.innerHTML = '';
       const hr = el('tr');

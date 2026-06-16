@@ -401,6 +401,41 @@ function assert(cond, msg) {
     const sydFaqEta = await page.$$eval('.faq-item', (els) => els.some((e) => e.textContent.includes('ETA')));
     assert(sydFaqEta, '시드니 FAQ에 ETA 비자 안내 포함');
 
+    console.log('\n[10-j] 브리즈번 RC (호주) + 비용계산기 참가비');
+    await page.goto(BASE + '/', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.ev-card', { timeout: 5000 });
+    const bneCard = await page.$('a.ev-card[href*="brisbane-rc"]');
+    assert(!!bneCard, '브리즈번 대회 카드가 메인에 표시됨');
+
+    await page.goto(BASE + '/event.html?id=brisbane-rc', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('#sec-overview', { timeout: 5000 });
+    const bneTiles = await page.$$eval('#sec-guide .ev-quick-item', (e) => e.length);
+    assert(bneTiles === 7, `브리즈번 현지가이드 타일 ${bneTiles}개(기본5 + FAQ + 계산기)`);
+    const bneCheckJP = await page.$$eval('#sec-checklist .ev-check-text', (els) => els.some((e) => /[぀-ヿ一-龯]/.test(e.textContent)));
+    assert(!bneCheckJP, '브리즈번 체크리스트에 일본어 없음 ✅');
+    const bneEta = await page.$$eval('#sec-checklist .ev-check-text', (els) => els.some((e) => e.textContent.includes('ETA')));
+    assert(bneEta, '브리즈번 체크리스트에 ETA(호주 비자) 포함');
+
+    // 비용 계산기: 참가비 항목 + 참가자수 입력
+    await page.goto(BASE + '/calc.html?event=brisbane-rc', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.calc-input', { timeout: 5000 });
+    const calcInputs = await page.$$eval('.calc-input', (e) => e.length);
+    assert(calcInputs === 4, `계산기 입력칸 ${calcInputs}개(인원·숙박·참가자수·쇼핑)`);
+    const hasEntryRow = await page.$$eval('.plan-table td', (tds) => tds.some((t) => t.textContent.includes('참가비')));
+    assert(hasEntryRow, '비용 계산기에 대회 참가비 항목 표시됨');
+    const bneTotalSel = '.plan-total-row td:last-child';
+    const bt1 = await page.$eval(bneTotalSel, (e) => e.textContent);
+    // 참가자수(3번째 입력)를 0으로 → 참가비 빠져 총액 감소
+    await page.$$eval('.calc-input', (els) => { els[2].value = '0'; els[2].dispatchEvent(new Event('input', { bubbles: true })); });
+    await new Promise((r) => setTimeout(r, 150));
+    const bt2 = await page.$eval(bneTotalSel, (e) => e.textContent);
+    assert(bt1 !== bt2, `참가자수 변경 시 참가비 반영돼 총액 변동 (${bt1} → ${bt2})`);
+
+    await page.goto(BASE + '/plan.html?event=brisbane-rc', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.plan-day', { timeout: 5000 });
+    const bneAud = await page.$$eval('.plan-table td', (tds) => tds.some((t) => t.textContent.includes('A$')));
+    assert(bneAud, '브리즈번 여행가이드 교통비가 AUD(A$)로 표시됨');
+
     console.log('\n[11] 세트별 보기 (M5 아비스아이)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드
     await page.waitForSelector('.pcard', { timeout: 8000 });

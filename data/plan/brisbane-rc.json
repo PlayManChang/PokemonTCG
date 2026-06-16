@@ -1,0 +1,361 @@
+{
+  "updated": "2026-06-15",
+  "currency": "aud",
+  "dates": "2026년 11월 초 (예상) · 6박 7일",
+  "route": "부산 → 인천 → 브리즈번 왕복",
+  "intro": "대회 정확 일정은 공식 발표 후 조정하세요(금 등록/토 Day1/일 Day2 기준). 6명(참가 5·비참가 1)의 대회+가족여행+BBQ를 함께 잡는 흐름이에요. 숙소가 BCEC 도보권이라 대회 기간엔 걸어다녀요.",
+  "flights": [
+    {
+      "label": "가는 편",
+      "detail": "인천(ICN)→브리즈번(BNE) 직항 약 9시간 30분(또는 경유)",
+      "tip": "부산은 인천 경유 / ETA 미리 신청"
+    },
+    {
+      "label": "오는 편",
+      "detail": "브리즈번(BNE)→인천(ICN) 약 10시간",
+      "tip": "시차 +1시간이라 회복 빠름"
+    }
+  ],
+  "hotels": [
+    {
+      "label": "브리즈번 (5박)",
+      "name": "에어비앤비 — 사우스브리즈번(BCEC 도보권)",
+      "map": "South Brisbane QLD apartments"
+    }
+  ],
+  "keyRoutes": [
+    {
+      "label": "공항 → 숙소(사우스뱅크)",
+      "from": "Brisbane Airport",
+      "to": "South Bank Brisbane",
+      "mode": "transit"
+    },
+    {
+      "label": "숙소 → BCEC(도보 5~15분)",
+      "from": "South Brisbane",
+      "to": "Brisbane Convention Exhibition Centre",
+      "mode": "walking"
+    },
+    {
+      "label": "시내 → 론파인 코알라",
+      "from": "Brisbane City",
+      "to": "Lone Pine Koala Sanctuary",
+      "mode": "transit"
+    },
+    {
+      "label": "사우스뱅크 → 이트 스트리트",
+      "from": "South Bank Brisbane",
+      "to": "Eat Street Northshore",
+      "mode": "transit"
+    }
+  ],
+  "days": [
+    {
+      "icon": "✈️",
+      "date": "1일차 출국",
+      "title": "부산 출발 → (인천 경유) 브리즈번행",
+      "move": "김해→인천→브리즈번",
+      "stops": [
+        {
+          "label": "인천에서 브리즈번행 탑승",
+          "map": "Incheon International Airport"
+        }
+      ],
+      "tip": "ETA 전원 확인. 6인이라 좌석·수하물 미리 체크."
+    },
+    {
+      "icon": "🛬",
+      "date": "2일차 도착·장보기",
+      "title": "브리즈번 도착 → 숙소 체크인 → 단체 장보기·BBQ",
+      "move": "공항→숙소(Airtrain/우버 2대)",
+      "stops": [
+        {
+          "label": "에어비앤비 체크인(사우스브리즈번)",
+          "map": "South Brisbane QLD"
+        },
+        {
+          "label": "울워스·한인마트(W Supermarket)에서 BBQ 장보기",
+          "map": "Woolworths Metro Melbourne St South Brisbane"
+        },
+        {
+          "label": "숙소에서 환영 BBQ + 덱 테스트",
+          "map": "South Brisbane QLD"
+        }
+      ],
+      "tip": "도착일 우버는 6인이라 2대 또는 맥시택시. 마트 도보 5분이라 장보기 편함. 첫날 BBQ로 단체 결속."
+    },
+    {
+      "icon": "📝",
+      "date": "3일차 등록일",
+      "title": "대회 등록 + 사우스뱅크 관광",
+      "move": "도보",
+      "stops": [
+        {
+          "label": "BCEC 등록 데스크 사전 체크인(참가자 5명)",
+          "map": "Brisbane Convention Exhibition Centre"
+        },
+        {
+          "label": "사우스뱅크 파크랜드·스트릿츠 비치(인공해변)",
+          "map": "South Bank Parklands Brisbane",
+          "spots": [
+            {
+              "label": "더 플라우 인에서 점심(가족)",
+              "map": "The Plough Inn South Bank",
+              "food": true
+            }
+          ]
+        },
+        {
+          "label": "저녁: 숙소 덱 테스트 / 비참가 가족은 휴식",
+          "map": "South Brisbane QLD"
+        }
+      ],
+      "tip": "참가자: 등록 후 덱 최종 점검. 비참가 가족: 사우스뱅크·인공해변에서 여유."
+    },
+    {
+      "icon": "🎮",
+      "date": "4일차 Day 1 (토)",
+      "title": "리저널 Day 1 / 가족 관광",
+      "move": "숙소→BCEC 도보",
+      "stops": [
+        {
+          "label": "참가자: BCEC Day 1 (스위스 라운드)",
+          "map": "Brisbane Convention Exhibition Centre"
+        },
+        {
+          "label": "가족(비참가): 론파인 코알라 보호구역(코알라 안기)",
+          "map": "Lone Pine Koala Sanctuary"
+        },
+        {
+          "label": "가족: 퀸스트리트몰 쇼핑·점심",
+          "map": "Queen Street Mall Brisbane"
+        }
+      ],
+      "tip": "참가자는 도보 5~15분이라 점심에 숙소 복귀도 가능. 가족은 론파인(버스 430/페리)·시내 관광."
+    },
+    {
+      "icon": "🏆",
+      "date": "5일차 Day 2 (일)",
+      "title": "Day 2 진출 시 본선 / 미진출 시 가족 관광",
+      "move": "숙소↔BCEC",
+      "stops": [
+        {
+          "label": "참가자: Day 2 진출 시 본선·Top Cut",
+          "map": "Brisbane Convention Exhibition Centre"
+        },
+        {
+          "label": "(미진출/가족) 캥거루 포인트 절벽·스토리 브리지",
+          "map": "Kangaroo Point Cliffs Brisbane"
+        },
+        {
+          "label": "저녁: 이트 스트리트 노스쇼어 야시장(전원)",
+          "map": "Eat Street Northshore"
+        }
+      ],
+      "tip": "Day2 미진출 시 가족과 합류해 관광. 일요일 저녁 이트 스트리트(야시장)로 단체 마무리."
+    },
+    {
+      "icon": "🐨",
+      "date": "6일차 관광일",
+      "title": "자유 관광 + 한식 회식",
+      "move": "페리·도보",
+      "stops": [
+        {
+          "label": "오전: 시티홀·시내, 또는 못 간 관광지",
+          "map": "Brisbane City Hall"
+        },
+        {
+          "label": "사우스뱅크 강변 산책·페리(CityCat)",
+          "map": "South Bank Brisbane"
+        },
+        {
+          "label": "저녁: 마루 코리안 BBQ에서 회식",
+          "map": "Maru Korean BBQ Elizabeth St Brisbane"
+        }
+      ],
+      "tip": "대회 끝난 날은 한식 BBQ로 보상! 마지막 마트 쇼핑·짐 정리."
+    },
+    {
+      "icon": "🛫",
+      "date": "7일차 귀국",
+      "title": "귀국 (브리즈번 → 인천 → 부산)",
+      "move": "숙소→공항(우버/Airtrain)",
+      "stops": [
+        {
+          "label": "체크아웃 → DFO 브리즈번(공항 아울렛) 막판 쇼핑",
+          "map": "DFO Brisbane Airport"
+        },
+        {
+          "label": "공항 TRS에서 GST 환급 후 출국",
+          "map": "Brisbane Airport"
+        }
+      ],
+      "tip": "A$300↑ 영수증 TRS 환급. 6인 짐이라 공항 일찍(국제선 3시간 전)."
+    }
+  ],
+  "mapGroups": [
+    {
+      "cat": "🏟️ 대회·숙소·마트",
+      "items": [
+        {
+          "name": "BCEC (대회장)",
+          "query": "Brisbane Convention Exhibition Centre"
+        },
+        {
+          "name": "에어비앤비(사우스브리즈번)",
+          "query": "South Brisbane QLD"
+        },
+        {
+          "name": "울워스 메트로(도보5분)",
+          "query": "Woolworths Metro Melbourne St South Brisbane"
+        },
+        {
+          "name": "W 슈퍼마켓(한인마트)",
+          "query": "W Supermarket South Brisbane"
+        }
+      ]
+    },
+    {
+      "cat": "🐨 관광",
+      "items": [
+        {
+          "name": "론파인 코알라",
+          "query": "Lone Pine Koala Sanctuary"
+        },
+        {
+          "name": "사우스뱅크 파크랜드",
+          "query": "South Bank Parklands Brisbane"
+        },
+        {
+          "name": "캥거루 포인트",
+          "query": "Kangaroo Point Cliffs Brisbane"
+        },
+        {
+          "name": "이트 스트리트 노스쇼어",
+          "query": "Eat Street Northshore"
+        },
+        {
+          "name": "스토리 브리지",
+          "query": "Story Bridge Brisbane"
+        }
+      ]
+    },
+    {
+      "cat": "🍖 한식·맛집",
+      "items": [
+        {
+          "name": "마루 코리안 BBQ",
+          "query": "Maru Korean BBQ Elizabeth St Brisbane"
+        },
+        {
+          "name": "더 플라우 인(사우스뱅크)",
+          "query": "The Plough Inn South Bank"
+        }
+      ]
+    }
+  ],
+  "transit": {
+    "peopleDefault": 6,
+    "note": "숙소가 BCEC 도보권이라 대회 기간 교통비는 거의 0이에요. 아래는 공항·관광 이동 대략(1인 기준, 우버는 차량 1대).",
+    "segments": [
+      {
+        "label": "공항↔숙소 (우버, 1대 편도)",
+        "fare": 55,
+        "flat": true,
+        "perTrip": "차량 1대(최대 4인)"
+      },
+      {
+        "label": "공항↔숙소 (Airtrain, 1인 편도)",
+        "fare": 22,
+        "perTrip": "1인"
+      },
+      {
+        "label": "관광일 go card/페리 (1인 하루)",
+        "fare": 12,
+        "perTrip": "1인"
+      }
+    ]
+  },
+  "budget": {
+    "note": "6인(참가 5·비참가 1)·6박7일 대략 예상(쇼핑 제외). 정확한 계산은 '비용 계산기'(참가비 포함)를 쓰세요.",
+    "items": [
+      {
+        "label": "항공 (6인 왕복)",
+        "amount": 7200000
+      },
+      {
+        "label": "숙소 (에어비앤비 5박)",
+        "amount": 2500000
+      },
+      {
+        "label": "대회 참가비 (5인)",
+        "amount": 275000
+      },
+      {
+        "label": "식비 (6인, 마트+외식)",
+        "amount": 1500000
+      },
+      {
+        "label": "교통 (공항·관광)",
+        "amount": 250000
+      },
+      {
+        "label": "관광 입장료 (론파인 등)",
+        "amount": 600000
+      }
+    ]
+  },
+  "emergency": [
+    {
+      "label": "긴급 (경찰·구급·소방)",
+      "tel": "000",
+      "value": "000"
+    },
+    {
+      "label": "주시드니 대한민국 총영사관",
+      "tel": "+61292100200",
+      "value": "+61-2-9210-0200"
+    },
+    {
+      "label": "외교부 영사콜센터 (한국)",
+      "tel": "+82232100404",
+      "value": "+82-2-3210-0404"
+    }
+  ],
+  "airport": [
+    {
+      "title": "브리즈번 공항(BNE) → 숙소",
+      "body": "입국·짐 찾기 후 Airtrain 또는 우버.",
+      "steps": [
+        {
+          "icon": "🛂",
+          "t": "입국심사(ETA)",
+          "d": "여권·ETA·숙소주소. 음식(라면·김치)은 신고(검역 엄격)."
+        },
+        {
+          "icon": "🚆",
+          "t": "Airtrain 전철",
+          "d": "사우스뱅크역까지 약 25분, 1인 약 A$22."
+        },
+        {
+          "icon": "🚕",
+          "t": "(6인·짐) 우버 2대/맥시택시",
+          "d": "약 A$45~60·25분. 숙소 앞 도착."
+        }
+      ],
+      "links": [
+        {
+          "label": "공항→사우스뱅크 길찾기",
+          "url": "https://www.google.com/maps/dir/?api=1&origin=Brisbane+Airport&destination=South+Bank+Brisbane&travelmode=transit"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "ETA(전자여행허가)는 'Australian ETA' 앱으로 6명 전원 미리 신청.",
+    "숙소가 BCEC 도보권이라 대회 기간 우버 불필요 — 무거운 카드 가방도 도보 5~15분.",
+    "도착 첫날 마트 장보기 → 숙소 BBQ로 단체 결속. 한인마트(W Supermarket)서 한식 재료.",
+    "11월 브리즈번은 늦봄(낮 24~29℃)·습함·자외선 강함 — 가벼운 옷+선크림.",
+    "대회 정확 일정·등록시간은 RK9 공식 발표로 최종 확인."
+  ]
+}

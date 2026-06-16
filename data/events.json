@@ -206,6 +206,48 @@
         { "page": "faq.html", "icon": "❓", "label": "FAQ", "desc": "ETA비자·항공·Opal 자주 묻는 질문" },
         { "page": "calc.html", "icon": "🧮", "label": "비용 계산기", "desc": "인원·숙박·예산 → 총비용" }
       ]
+    },
+    {
+      "id": "brisbane-rc",
+      "region": "oceania",
+      "city": "브리즈번 (RC)",
+      "cityJa": "Brisbane",
+      "name": "브리즈번 리저널 챔피언십 (다음 대회)",
+      "nameJa": "Brisbane Regional Championships",
+      "dateStart": "2026-11-07",
+      "dateEnd": "2026-11-08",
+      "dateLabel": "2026년 11월 초 (예상 · 공식 미발표)",
+      "datesProvisional": true,
+      "countdownDate": "2026-11-07",
+      "leagues": ["junior", "senior", "master"],
+      "venue": {
+        "name": "브리즈번 컨벤션 & 전시센터 (BCEC)",
+        "nameJa": "Brisbane Convention & Exhibition Centre, Merivale St, South Brisbane",
+        "map": "Brisbane Convention Exhibition Centre",
+        "nearestStation": "사우스브리즈번역·사우스뱅크역 도보권 / 컬처럴센터 정류장",
+        "access": "공항에서 Airtrain 전철(사우스뱅크역) 또는 우버. 사우스브리즈번·웨스트엔드 숙소에서 도보 5~15분."
+      },
+      "regulation": "공식 발표 예정 (2027 시즌 레귤레이션 확인)",
+      "official": "https://www.pokemon.com/us/play-pokemon/",
+      "note": "사우스뱅크 BCEC에서 열리는 오세아니아 리저널. 도보권 에어비앤비(BBQ·취사)로 6인 단체 원정에 딱이에요. ⚠️ '2026 시즌' 브리즈번은 2025년 11월에 이미 끝나, 다음 대회(2027 시즌, 2026년 11월 초 추정)를 기준으로 했어요.",
+      "highlight": false,
+      "checklistStandalone": true,
+      "entry": {
+        "intro": "리저널은 참가비를 내고 등록하는 오픈 대회예요(추첨 아님). 보통 RK9 시스템에서 사전 등록하고, 참가비는 약 A$35~45/인. 마스터·시니어·주니어는 나이 기준. 금요일 저녁 등록 데스크에서 사전 체크인하면 토요일 아침이 수월해요.",
+        "links": [
+          { "label": "Pokémon Play! 공식", "url": "https://www.pokemon.com/us/play-pokemon/" },
+          { "label": "RK9 등록 시스템", "url": "https://rk9.gg/" }
+        ],
+        "phrases": [
+          { "en": "Judge, please!", "ko": "저지, 플리즈!", "mean": "심판 불러 주세요" },
+          { "en": "I don't speak English well.", "ko": "아이 돈 스픽 잉글리시 웰", "mean": "영어를 잘 못해요" },
+          { "en": "Can you say that again, slowly?", "ko": "캔 유 세이 댓 어겐, 슬로울리?", "mean": "천천히 다시 말해 줄래요?" }
+        ]
+      },
+      "extraTiles": [
+        { "page": "faq.html", "icon": "❓", "label": "FAQ", "desc": "ETA비자·항공·go card 자주 묻는 질문" },
+        { "page": "calc.html", "icon": "🧮", "label": "비용 계산기", "desc": "인원·참가비·숙박 → 총비용" }
+      ]
     }
   ],
   "cityLeague": {

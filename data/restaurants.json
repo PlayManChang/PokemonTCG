@@ -364,5 +364,71 @@
       "near": "차이나타운",
       "note": "3층 대형 매장. 2층에서 매일 트롤리 얌차 운영, 단체·가족에 편함."
     }
+  ],
+  "brisbane-rc": [
+    {
+      "name": "마루 코리안 BBQ",
+      "nameJa": "Maru Korean BBQ",
+      "map": "Maru Korean BBQ Elizabeth St Brisbane",
+      "genre": "한식 BBQ",
+      "near": "브리즈번 시내(157 Elizabeth St)",
+      "note": "2009년부터의 브리즈번 대표 한식당. 숯불 한식 BBQ로 단체 회식에 최적. 한국 입맛 그리울 때."
+    },
+    {
+      "name": "퍼니퍼니 (한식 BBQ)",
+      "nameJa": "Funny Funny Korean BBQ",
+      "map": "Funny Funny Korean BBQ Brisbane",
+      "genre": "한식 BBQ",
+      "near": "브리즈번 시내(Burnett Lane)",
+      "note": "CBD 인기 한식 BBQ. 푸짐한 고기 구이, 단체 좌석."
+    },
+    {
+      "name": "신전 K 스트리트푸드",
+      "nameJa": "Sinjeon Brisbane",
+      "map": "Sinjeon Brisbane City",
+      "genre": "한식(분식)",
+      "near": "브리즈번 시내",
+      "note": "떡볶이·김밥·불고기 등 한국 분식. 부담 없는 가격, 아이 입맛에도 무난."
+    },
+    {
+      "name": "코르닥 (코리안 치킨·분식)",
+      "nameJa": "Kor-Dak West End",
+      "map": "Kor-Dak West End Brisbane",
+      "genre": "한식(치킨·분식)",
+      "near": "웨스트엔드",
+      "note": "닭꼬치·핫도그·김밥·어묵 분식. 숙소 근처라 캐주얼하게."
+    },
+    {
+      "name": "더 플라우 인",
+      "nameJa": "The Plough Inn",
+      "map": "The Plough Inn South Bank",
+      "genre": "호주식 펍",
+      "near": "사우스뱅크",
+      "note": "야외 테라스 넓은 모던 펍. 키즈메뉴(피자·너겟·파스타) 음료·아이스크림 포함, 가족 적합."
+    },
+    {
+      "name": "더 십 인",
+      "nameJa": "The Ship Inn",
+      "map": "The Ship Inn South Bank Brisbane",
+      "genre": "호주식 펍",
+      "near": "사우스뱅크",
+      "note": "1864년 역사적 펍. 12세 이하 키즈메뉴. 강변 산책 후 식사 좋음."
+    },
+    {
+      "name": "시암 사우스뱅크 (태국식)",
+      "nameJa": "Siam Southbank",
+      "map": "Siam Southbank Brisbane",
+      "genre": "태국식",
+      "near": "사우스뱅크",
+      "note": "좌석 넓고 키즈 친화. 매운맛 조절 가능, 가족 식사."
+    },
+    {
+      "name": "이트 스트리트 노스쇼어 (야시장)",
+      "nameJa": "Eat Street Northshore",
+      "map": "Eat Street Northshore Hamilton",
+      "genre": "야시장(다국적)",
+      "near": "해밀턴 — 페리/우버",
+      "note": "컨테이너 야시장, 70여 푸드스톨·라이브음악. 금토 16~22시·일 16~21시, 입장 A$6(13세 미만 무료). 단체 저녁 나들이 최적."
+    }
   ]
 }
