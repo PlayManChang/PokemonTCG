@@ -172,6 +172,14 @@ function assert(cond, msg) {
     assert(shopItems === shopTotal, `구매처 ${shopItems}곳 렌더 (데이터 ${shopTotal}곳과 일치)`);
     const mapLinks = await page.$$eval('.shop-name[href*="google.com/maps"]', (e) => e.length);
     assert(mapLinks === shopTotal, `구글 지도 링크 ${mapLinks}개 연결됨`);
+    // 주소가 있는 가게는 주소·도보 안내가 함께 렌더되는지
+    const addrTotal = shopData.areas.reduce((s, a) => s + a.shops.filter((x) => x.addr).length, 0);
+    const addrShown = await page.$$eval('.shop-addr', (e) => e.length);
+    assert(addrShown === addrTotal, `주소 표기 ${addrShown}곳 렌더 (데이터 ${addrTotal}곳과 일치)`);
+    const ykAddrs = await page.$$eval('.shop-addr', (e) => e.map((x) => x.textContent).join(' '));
+    assert(/外神田3丁目2-3/.test(ykAddrs) && /外神田4丁目6-10/.test(ykAddrs), 'YK 1·2호점 주소가 일본어 원문으로 표시됨');
+    const ykMaps = await page.$$eval('.shop-name[href*="google.com/maps"]', (e) => e.map((x) => decodeURIComponent(x.href)).join(' '));
+    assert(/外神田3-2-3/.test(ykMaps) && /外神田4-6-10/.test(ykMaps), 'YK 지도 링크가 주소 기반으로 연결됨');
 
     console.log('\n[10-b2] 면세 쇼핑 페이지 (면세 가이드·돈키호테)');
     const shopping = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shopping', 'yokohama.json'), 'utf8'));

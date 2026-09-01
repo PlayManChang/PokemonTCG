@@ -66,6 +66,19 @@
             d.textContent = s.desc;
             li.appendChild(d);
           }
+          // 주소·도보 안내 (있는 가게만) — 현지에서 점원에게 보여줄 수 있게 일본어 주소 그대로
+          if (s.addr) {
+            const ad = document.createElement('p');
+            ad.className = 'shop-addr';
+            ad.textContent = '📮 ' + s.addr;
+            li.appendChild(ad);
+          }
+          if (s.near) {
+            const nr = document.createElement('p');
+            nr.className = 'shop-near';
+            nr.textContent = '🚶 ' + s.near;
+            li.appendChild(nr);
+          }
           ul.appendChild(li);
         });
         sec.appendChild(ul);
