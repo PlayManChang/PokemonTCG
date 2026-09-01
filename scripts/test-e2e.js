@@ -226,6 +226,26 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const day7after = await page.$$eval('.plan-day', (els) => els.find((e) => e.textContent.includes('DAY2')).textContent);
     assert(day7before !== day7after, 'DAY2 진출/탈락 토글 시 일정 자동 분기됨');
+    // 지난 여행 기록(PJCS 2026) 링크가 현재 가이드 하단에 있는지
+    const archLink = await page.$('.plan-archive a[href*="event=pjcs2026"]');
+    assert(!!archLink, '현재 가이드 하단에 지난 여행 기록(PJCS 2026) 링크 있음');
+
+    console.log('\n[10-c2] 지난 여행 기록 페이지 (PJCS 2026 보존)');
+    const pastData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'plan', 'pjcs2026.json'), 'utf8'));
+    await page.goto(BASE + '/plan.html?event=pjcs2026', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.plan-day', { timeout: 5000 });
+    const pastDays = await page.$$eval('.plan-day', (e) => e.length);
+    assert(pastDays === pastData.days.length, `PJCS 2026 기록 ${pastDays}일 렌더 (데이터 ${pastData.days.length}일과 일치)`);
+    const pastFlight = await page.$eval('#planRoot', (e) => e.innerText.includes('6/4') && e.innerText.includes('LJ221'));
+    assert(pastFlight, '6월 항공편·일정이 그대로 보존됨');
+    const backCur = await page.$('.plan-archive a[href*="event=yokohama"]');
+    assert(!!backCur, '기록 페이지에서 현재 가이드로 돌아가는 링크 있음');
+    const evArchTile = await page.evaluate(async () => {
+      const r = await fetch('./data/events.json'); const d = await r.json();
+      const ev = d.events.find((e) => e.id === 'yokohama');
+      return (ev.extraTiles || []).some((t) => t.href === 'plan.html?event=pjcs2026');
+    });
+    assert(evArchTile, '요코하마 대회 페이지에 추억 타일 등록됨');
 
     console.log('\n[10-d] 한국 공식명 검색 별칭 + 일본어 발음 표기');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' });
@@ -283,7 +303,8 @@ function assert(cond, msg) {
     const secsPresent = await page.evaluate((ids) => ids.filter((s) => document.getElementById(s)).length, secIds);
     assert(secsPresent === secIds.length, `상세 섹션 ${secsPresent}/${secIds.length}개 렌더(개요·현지가이드·참가·교통·호텔·맛집·체크리스트)`);
     const guideTiles = await page.$$eval('#sec-guide .ev-quick-item', (e) => e.length);
-    assert(guideTiles === 5, `현지 가이드 타일 ${guideTiles}개(대회안내·구매처·쇼핑·위치·여행)`);
+    const evExtra = (eventsData.events[0].extraTiles || []).length;
+    assert(guideTiles === 5 + evExtra, `현지 가이드 타일 ${guideTiles}개(기본5 + 추가${evExtra})`);
     const hotelRows = await page.$$eval('#sec-hotels .ev-place', (e) => e.length);
     assert(hotelRows === hotelsData[evId].length, `호텔 ${hotelRows}곳 렌더 (데이터 ${hotelsData[evId].length}곳과 일치)`);
     const foodRows = await page.$$eval('#sec-food .ev-place', (e) => e.length);

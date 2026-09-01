@@ -35,6 +35,21 @@
   function render() {
     root.innerHTML = '';
 
+    // 지난 여행 기록(아카이브) 페이지 배너
+    if (data.archiveOf) {
+      const a = data.archiveOf;
+      if (a.sub) { const sb = document.querySelector('.guide-sub'); if (sb) sb.textContent = a.sub; }
+      if (a.docTitle) document.title = a.docTitle;
+      const sec = el('section', 'gcard plan-archive');
+      sec.appendChild(el('h2', 'plan-archive-title', a.title));
+      if (a.desc) sec.appendChild(el('p', 'plan-intro', a.desc));
+      const lk = el('a', 'plan-link-btn');
+      lk.href = a.backUrl || './plan.html';
+      lk.textContent = '← ' + (a.backLabel || '현재 여행 가이드로');
+      sec.appendChild(lk);
+      root.appendChild(sec);
+    }
+
     // 핵심 정보
     const head = el('section', 'gcard');
     head.appendChild(el('h2', null, '🧳 여행 개요'));
@@ -64,7 +79,7 @@
     // 태풍 경보 (실시간 예보 교차검증 반영)
     if (data.notice || data.typhoonAlert) {
       const t = data.notice || data.typhoonAlert;
-      const sec = el('section', 'gcard plan-alert');
+      const sec = el('section', 'gcard plan-alert' + (t.tone === 'ok' ? ' plan-alert-ok' : ''));
       sec.appendChild(el('h2', 'plan-alert-title', t.title));
       const ul = el('ul', 'plan-alert-list');
       (t.lines || []).forEach((l) => ul.appendChild(el('li', null, l)));
@@ -329,6 +344,23 @@
       data.tips.forEach((x) => ul.appendChild(el('li', null, x)));
       tp.appendChild(ul);
       root.appendChild(tp);
+    }
+
+    // 지난 여행 기록 링크 모음
+    if (data.archive && data.archive.length) {
+      const ar = el('section', 'gcard plan-archive');
+      ar.appendChild(el('h2', 'plan-archive-title', '📸 지난 여행 기록'));
+      if (data.archiveNote) ar.appendChild(el('p', 'plan-intro', data.archiveNote));
+      data.archive.forEach((a) => {
+        const item = el('div', 'plan-archive-item');
+        const lk = el('a', 'plan-link-btn');
+        lk.href = a.url;
+        lk.textContent = (a.icon || '🗂️') + ' ' + a.label;
+        item.appendChild(lk);
+        if (a.desc) item.appendChild(el('p', 'plan-route-note', a.desc));
+        ar.appendChild(item);
+      });
+      root.appendChild(ar);
     }
 
     if (data.updated) root.appendChild(el('p', 'disclaimer', '최종 업데이트: ' + data.updated + ' · 요금·영업정보는 변동될 수 있으니 출발 전 확인하세요.'));

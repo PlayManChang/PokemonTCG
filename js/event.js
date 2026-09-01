@@ -126,7 +126,7 @@
       ];
       // 대회별 추가 타일 (예: NAIC의 FAQ·비용 계산기)
       (ev.extraTiles || []).forEach((t) => {
-        tiles.push({ href: t.page + '?event=' + enc(ev.id), icon: t.icon || '🔗', label: t.label, desc: t.desc || '' });
+        tiles.push({ href: t.href || (t.page + '?event=' + enc(ev.id)), icon: t.icon || '🔗', label: t.label, desc: t.desc || '' });
       });
       const grid = el('div', 'ev-quick');
       tiles.forEach((t) => {

@@ -37,7 +37,10 @@
       "regulation": "스탠다드",
       "official": "https://www.pokemon-card.com/info/005517.html",
       "note": "2027 시즌 첫 챔피언스리그. PJCS와 같은 파시피코 요코하마 회장이라 작년 동선을 그대로 쓸 수 있어요.",
-      "highlight": true
+      "highlight": true,
+      "extraTiles": [
+        { "href": "plan.html?event=pjcs2026", "icon": "📸", "label": "PJCS 2026 추억", "desc": "작년 첫 원정 여행 기록 (6/4~6/8)" }
+      ]
     },
     {
       "id": "chiba",

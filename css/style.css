@@ -536,6 +536,14 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .plan-alert-list { margin: 8px 0 6px; padding-left: 20px; line-height: 1.6; }
 .plan-alert-list li { margin: 6px 0; font-size: .92rem; }
 .plan-alert-note { color: var(--muted); font-size: .82rem; margin-top: 6px; }
+/* 확정·안내용 초록 톤 알림 (경고가 아닌 좋은 소식) */
+.plan-alert-ok { border-color: #b7e0c2; border-left-color: #1b7a3d; background: #f3fbf6; }
+.plan-alert-ok .plan-alert-title { color: #146c34; }
+/* 지난 여행 기록(아카이브) — 세피아 톤 */
+.plan-archive { border: 1px solid #e3d6b8; border-left: 6px solid #a3801f; background: #fdfaf0; }
+.plan-archive-title { color: #7a5f14; font-size: 1.05rem; }
+.plan-archive-item { margin-top: 10px; }
+.plan-archive-item .plan-link-btn { background: #8a6d1c; }
 .altf-note { font-size: .9rem; line-height: 1.6; margin: 6px 0 10px; }
 .altf-list { display: flex; flex-direction: column; gap: 7px; margin: 4px 0; }
 .altf-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 9px 11px; background: #fff; border: 1px solid #ece6dd; border-radius: 10px; }
