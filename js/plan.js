@@ -62,8 +62,8 @@
     root.appendChild(head);
 
     // 태풍 경보 (실시간 예보 교차검증 반영)
-    if (data.typhoonAlert) {
-      const t = data.typhoonAlert;
+    if (data.notice || data.typhoonAlert) {
+      const t = data.notice || data.typhoonAlert;
       const sec = el('section', 'gcard plan-alert');
       sec.appendChild(el('h2', 'plan-alert-title', t.title));
       const ul = el('ul', 'plan-alert-list');
@@ -133,7 +133,7 @@
     if (hasBranch) {
       const ctrl = el('section', 'gcard plan-controls');
       ctrl.appendChild(el('h2', null, '⚙️ 일정 전환'));
-      ctrl.appendChild(toggleRow('PJCS DAY2', [
+      ctrl.appendChild(toggleRow(data.branchLabel || 'PJCS DAY2', [
         { k: 'advanced', label: '✅ DAY1 진출' }, { k: 'eliminated', label: '❌ 탈락 (대체관광)' }
       ], state.branch, (k) => { state.branch = k; render(); }));
       root.appendChild(ctrl);
