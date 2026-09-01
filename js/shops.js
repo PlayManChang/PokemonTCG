@@ -42,7 +42,8 @@
 
           const a = document.createElement('a');
           a.className = 'shop-name';
-          a.href = mapUrl(s.map || s.name_ja || s.name_ko);
+          // mapUrl: 구글지도에서 복사한 실제 링크(cid 등) — 검색어보다 핀이 정확할 때 사용
+          a.href = s.mapUrl || mapUrl(s.map || s.name_ja || s.name_ko);
           a.target = '_blank';
           a.rel = 'noopener';
           a.innerHTML = '🗺️ ' + s.name_ko + ' <span class="shop-go">지도 ↗</span>';
@@ -78,6 +79,24 @@
             nr.className = 'shop-near';
             nr.textContent = '🚶 ' + s.near;
             li.appendChild(nr);
+          }
+          // 영업시간·전화 (있는 가게만) — 전화는 현지에서 바로 걸 수 있게 tel: 링크
+          if (s.hours || s.tel) {
+            const meta = document.createElement('p');
+            meta.className = 'shop-meta';
+            if (s.hours) {
+              const h = document.createElement('span');
+              h.textContent = '🕒 ' + s.hours;
+              meta.appendChild(h);
+            }
+            if (s.tel) {
+              const t = document.createElement('a');
+              t.className = 'shop-tel';
+              t.href = 'tel:' + s.tel.replace(/[^0-9+]/g, '');
+              t.textContent = '📞 ' + s.tel;
+              meta.appendChild(t);
+            }
+            li.appendChild(meta);
           }
           ul.appendChild(li);
         });

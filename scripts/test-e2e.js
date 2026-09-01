@@ -170,7 +170,8 @@ function assert(cond, msg) {
     await page.waitForSelector('.shop-item', { timeout: 5000 });
     const shopItems = await page.$$eval('.shop-item', (e) => e.length);
     assert(shopItems === shopTotal, `구매처 ${shopItems}곳 렌더 (데이터 ${shopTotal}곳과 일치)`);
-    const mapLinks = await page.$$eval('.shop-name[href*="google.com/maps"]', (e) => e.length);
+    // 검색어 링크(google.com/maps/search)와 직링크(maps.google.com/?cid=) 둘 다 허용
+    const mapLinks = await page.$$eval('.shop-name[href*="google.com"]', (e) => e.length);
     assert(mapLinks === shopTotal, `구글 지도 링크 ${mapLinks}개 연결됨`);
     // 주소가 있는 가게는 주소·도보 안내가 함께 렌더되는지
     const addrTotal = shopData.areas.reduce((s, a) => s + a.shops.filter((x) => x.addr).length, 0);
@@ -180,6 +181,14 @@ function assert(cond, msg) {
     assert(/外神田3丁目2-3/.test(ykAddrs) && /外神田4丁目6-10/.test(ykAddrs), 'YK 1·2호점 주소가 일본어 원문으로 표시됨');
     const ykMaps = await page.$$eval('.shop-name[href*="google.com/maps"]', (e) => e.map((x) => decodeURIComponent(x.href)).join(' '));
     assert(/外神田3-2-3/.test(ykMaps) && /外神田4-6-10/.test(ykMaps), 'YK 지도 링크가 주소 기반으로 연결됨');
+    // 영업시간·전화 + mapUrl(구글지도 cid 직링크) 지원
+    const hoursTotal = shopData.areas.reduce((s, a) => s + a.shops.filter((x) => x.hours || x.tel).length, 0);
+    const metaShown = await page.$$eval('.shop-meta', (e) => e.length);
+    assert(metaShown === hoursTotal, `영업시간/전화 표기 ${metaShown}곳 렌더 (데이터 ${hoursTotal}곳과 일치)`);
+    const telHref = await page.$eval('.shop-tel', (e) => e.getAttribute('href'));
+    assert(telHref === 'tel:0335254530', `전화 걸기 링크 연결됨 (${telHref})`);
+    const cidLink = await page.$$eval('.shop-name', (e) => e.some((x) => x.href.includes('cid=13412024686535764331')));
+    assert(cidLink, '오타츄 5호점은 구글지도 cid 직링크로 연결됨(핀 정확)');
 
     console.log('\n[10-b2] 면세 쇼핑 페이지 (면세 가이드·돈키호테)');
     const shopping = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'shopping', 'yokohama.json'), 'utf8'));

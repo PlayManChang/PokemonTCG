@@ -489,6 +489,8 @@ i.b { font-style: normal; padding: 0 2px; background: none; }
 .shop-desc { margin: 6px 0 0; line-height: 1.55; font-size: .92rem; }
 .shop-addr { margin: 5px 0 0; font-size: .84rem; color: #33465e; background: #f2f6fb; border-left: 3px solid #9db8d8; padding: 4px 8px; border-radius: 6px; word-break: keep-all; }
 .shop-near { margin: 4px 0 0; font-size: .84rem; color: var(--muted); }
+.shop-meta { margin: 5px 0 0; font-size: .84rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
+.shop-tel { font-weight: 700; color: #1a64d4; text-decoration: none; }
 .shop-mapall { display: inline-block; margin-top: 12px; font-weight: 600; color: #1a64d4; text-decoration: none; }
 
 /* 위치 한눈에 (locations.html) */
