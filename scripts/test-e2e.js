@@ -196,9 +196,16 @@ function assert(cond, msg) {
     await page.goto(BASE + '/shopping.html', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.shop-item', { timeout: 5000 });
     const donkiItems = await page.$$eval('.shop-item .shop-name[href*="google.com/maps"]', (e) => e.length);
-    assert(donkiItems === donkiTotal, `돈키호테 ${donkiItems}곳 지도링크 렌더 (데이터 ${donkiTotal}곳)`);
+    assert(donkiItems === donkiTotal, `쇼핑·맛집 ${donkiItems}곳 지도링크 렌더 (데이터 ${donkiTotal}곳)`);
     const tfPhrases = await page.$$eval('.tf-phrases li', (e) => e.length);
     assert(tfPhrases === shopping.taxfree.phrases.length, `면세 일본어 ${tfPhrases}구문 렌더`);
+    // 6월 여행 잔재(긴자·도쿄역/이케부쿠로) 정리 + 꼼데가르송·맛집 반영
+    const shopAreas = await page.$$eval('#shopSpots h2, #shoppingRoot h2, section.gcard h2', (e) => e.map((x) => x.textContent).join(' | '));
+    assert(!/이케부쿠로|도쿄역/.test(shopAreas), `기존 도쿄 구역 삭제됨 (${shopAreas})`);
+    const cdgAddr = await page.$$eval('.shop-addr', (e) => e.map((x) => x.textContent).join(' '));
+    assert(/銀座6-9-5/.test(cdgAddr) && /南青山5-2-1/.test(cdgAddr), '꼼데가르송 PLAY 매장 2곳 주소 표시됨');
+    const eatery = await page.$$eval('.shop-type', (e) => e.map((x) => x.textContent).filter((t) => t.includes('맛집')).length);
+    assert(eatery >= 8, `맛집 항목 ${eatery}곳 표시됨 (긴자·아오야마·아키하바라)`);
     const tfWarn = await page.$$eval('.tf-warn', (e) => e.length);
     assert(tfWarn === 1, '면세 합산 경고(소모품 밀봉) 표시됨');
     const distChips = await page.$$eval('.shop-dist', (e) => e.length);

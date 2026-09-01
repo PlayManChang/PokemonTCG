@@ -116,6 +116,10 @@
         if (s.dist) tags.appendChild(el('span', 'shop-dist', '📍 ' + s.dist));
         if (s.type || s.dist) li.appendChild(tags);
         if (s.desc) li.appendChild(el('p', 'shop-desc', s.desc));
+        // 주소·영업시간 (있는 곳만) — 구매처 페이지와 같은 표기
+        if (s.addr) li.appendChild(el('p', 'shop-addr', '📮 ' + s.addr));
+        if (s.near) li.appendChild(el('p', 'shop-near', '🚶 ' + s.near));
+        if (s.hours) li.appendChild(el('p', 'shop-meta', '🕒 ' + s.hours));
         ul.appendChild(li);
       });
       sec.appendChild(ul);
