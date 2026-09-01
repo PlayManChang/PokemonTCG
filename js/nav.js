@@ -9,6 +9,7 @@
   // 대회별 정보(대회안내·구매처·쇼핑·위치·여행)는 각 대회 상세 페이지 안으로 이동했다.
   const links = [
     { href: 'index.html', label: '🏆 2027 대회 일정', desc: '챔피언스리그 대회별 가이드 (홈)' },
+    { href: 'past.html', label: '🗓️ 2026 대회 일정', desc: '다녀온 대회 기록 · PJCS 2026' },
     { href: 'glossary.html', label: '📖 용어집', desc: '인사·게임 용어' },
     { href: 'cards.html', label: '🃏 카드 검색', desc: '메타 덱·세트 카드 (한국어)' },
     { href: 'https://pokecabook.com/', label: '📊 포케카북', desc: '메타검색 · 환경·티어·덱레시피 (외부)', external: true },

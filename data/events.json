@@ -7,14 +7,38 @@
   "regulationNote": "스탠다드 레귤레이션 — 대회 시점에 사용 가능한 마크(예: H·I·J)는 공식 레귤레이션 페이지에서 반드시 재확인하세요.",
   "regulationUrl": "https://www.pokemon-card.com/rules/regulation/",
   "regionGroups": [
-    { "key": "japan", "label": "🇯🇵 일본 챔피언스리그 2027", "note": "도시마다 날짜·회장이 달라요. 출전할 대회를 고르세요." },
-    { "key": "usa", "label": "🇺🇸 북미 인터내셔널 (NAIC) 2027", "note": "미국 시카고에서 열리는 북미 최대 대회예요." },
-    { "key": "oceania", "label": "🇦🇺 오세아니아 (시드니 RC) 2027", "note": "호주 시드니 리저널 — 시차 1~2시간뿐이라 가족여행 병행이 좋아요." }
+    {
+      "key": "japan",
+      "label": "🇯🇵 일본 챔피언스리그 2027",
+      "note": "도시마다 날짜·회장이 달라요. 출전할 대회를 고르세요."
+    },
+    {
+      "key": "usa",
+      "label": "🇺🇸 북미 인터내셔널 (NAIC) 2027",
+      "note": "미국 시카고에서 열리는 북미 최대 대회예요."
+    },
+    {
+      "key": "oceania",
+      "label": "🇦🇺 오세아니아 (시드니 RC) 2027",
+      "note": "호주 시드니 리저널 — 시차 1~2시간뿐이라 가족여행 병행이 좋아요."
+    }
   ],
   "leagues": [
-    { "key": "junior", "ko": "주니어", "ja": "ジュニア" },
-    { "key": "senior", "ko": "시니어", "ja": "シニア" },
-    { "key": "master", "ko": "마스터", "ja": "マスター" }
+    {
+      "key": "junior",
+      "ko": "주니어",
+      "ja": "ジュニア"
+    },
+    {
+      "key": "senior",
+      "ko": "시니어",
+      "ja": "シニア"
+    },
+    {
+      "key": "master",
+      "ko": "마스터",
+      "ja": "マスター"
+    }
   ],
   "events": [
     {
@@ -26,7 +50,11 @@
       "dateStart": "2026-09-20",
       "dateEnd": "2026-09-22",
       "dateLabel": "2026년 9월 20일(일)~22일(화·공휴일)",
-      "leagues": ["junior", "senior", "master"],
+      "leagues": [
+        "junior",
+        "senior",
+        "master"
+      ],
       "venue": {
         "name": "파시피코 요코하마 전시홀",
         "nameJa": "パシフィコ横浜 展示ホール",
@@ -37,10 +65,7 @@
       "regulation": "스탠다드",
       "official": "https://www.pokemon-card.com/info/005517.html",
       "note": "2027 시즌 첫 챔피언스리그. PJCS와 같은 파시피코 요코하마 회장이라 작년 동선을 그대로 쓸 수 있어요.",
-      "highlight": true,
-      "extraTiles": [
-        { "href": "plan.html?event=pjcs2026", "icon": "📸", "label": "PJCS 2026 추억", "desc": "작년 첫 원정 여행 기록 (6/4~6/8)" }
-      ]
+      "highlight": true
     },
     {
       "id": "chiba",
@@ -51,7 +76,11 @@
       "dateStart": "2026-11-22",
       "dateEnd": "2026-11-23",
       "dateLabel": "2026년 11월 22일(일)~23일(월·공휴일)",
-      "leagues": ["junior", "senior", "master"],
+      "leagues": [
+        "junior",
+        "senior",
+        "master"
+      ],
       "venue": {
         "name": "마쿠하리 멧세",
         "nameJa": "幕張メッセ",
@@ -72,7 +101,11 @@
       "dateStart": "2027-02-12",
       "dateEnd": "2027-02-14",
       "dateLabel": "2027년 2월 12일(금)~14일(일)",
-      "leagues": ["junior", "senior", "master"],
+      "leagues": [
+        "junior",
+        "senior",
+        "master"
+      ],
       "venue": {
         "name": "유메멧세 미야기 (미야기현 산업전시장)",
         "nameJa": "夢メッセみやぎ",
@@ -93,7 +126,11 @@
       "dateStart": "2027-04-02",
       "dateEnd": "2027-04-04",
       "dateLabel": "2027년 4월 2일(금)~4일(일)",
-      "leagues": ["junior", "senior", "master"],
+      "leagues": [
+        "junior",
+        "senior",
+        "master"
+      ],
       "venue": {
         "name": "인텍스 오사카",
         "nameJa": "インテックス大阪",
@@ -114,7 +151,11 @@
       "dateStart": "2027-05-07",
       "dateEnd": "2027-05-09",
       "dateLabel": "2027년 5월 7일(금)~9일(일)",
-      "leagues": ["junior", "senior", "master"],
+      "leagues": [
+        "junior",
+        "senior",
+        "master"
+      ],
       "venue": {
         "name": "Aichi Sky Expo (아이치현 국제전시장)",
         "nameJa": "Aichi Sky Expo 愛知県国際展示場",
@@ -138,7 +179,11 @@
       "dateLabel": "2027년 6월 중순 (예상 · 공식 날짜 미발표)",
       "datesProvisional": true,
       "countdownDate": "2027-06-11",
-      "leagues": ["junior", "senior", "master"],
+      "leagues": [
+        "junior",
+        "senior",
+        "master"
+      ],
       "venue": {
         "name": "맥코믹 플레이스 컨벤션 센터",
         "nameJa": "McCormick Place Convention Center (2301 S King Dr, Chicago)",
@@ -154,18 +199,46 @@
       "entry": {
         "intro": "NAIC는 누구나 참가비를 내고 등록하는 오픈 대회예요(일본 챔피언스리그처럼 추첨이 아님). 등록은 보통 Pokémon 공식·RK9 시스템에서 진행돼요.",
         "links": [
-          { "label": "Pokémon 공식 챔피언십", "url": "https://championships.pokemon.com/" },
-          { "label": "RK9 등록 시스템", "url": "https://rk9.gg/" }
+          {
+            "label": "Pokémon 공식 챔피언십",
+            "url": "https://championships.pokemon.com/"
+          },
+          {
+            "label": "RK9 등록 시스템",
+            "url": "https://rk9.gg/"
+          }
         ],
         "phrases": [
-          { "en": "Judge, please!", "ko": "저지, 플리즈!", "mean": "심판 불러 주세요" },
-          { "en": "I don't speak English well.", "ko": "아이 돈 스픽 잉글리시 웰", "mean": "영어를 잘 못해요" },
-          { "en": "Can you say that again, slowly?", "ko": "캔 유 세이 댓 어겐, 슬로울리?", "mean": "천천히 다시 말해 줄래요?" }
+          {
+            "en": "Judge, please!",
+            "ko": "저지, 플리즈!",
+            "mean": "심판 불러 주세요"
+          },
+          {
+            "en": "I don't speak English well.",
+            "ko": "아이 돈 스픽 잉글리시 웰",
+            "mean": "영어를 잘 못해요"
+          },
+          {
+            "en": "Can you say that again, slowly?",
+            "ko": "캔 유 세이 댓 어겐, 슬로울리?",
+            "mean": "천천히 다시 말해 줄래요?"
+          }
         ]
       },
       "extraTiles": [
-        { "page": "faq.html", "icon": "❓", "label": "FAQ", "desc": "ESTA·항공·현지 자주 묻는 질문" },
-        { "page": "calc.html", "icon": "🧮", "label": "비용 계산기", "desc": "인원·숙박·예산 → 총비용" }
+        {
+          "page": "faq.html",
+          "icon": "❓",
+          "label": "FAQ",
+          "desc": "ESTA·항공·현지 자주 묻는 질문"
+        },
+        {
+          "page": "calc.html",
+          "icon": "🧮",
+          "label": "비용 계산기",
+          "desc": "인원·숙박·예산 → 총비용"
+        }
       ]
     },
     {
@@ -180,7 +253,11 @@
       "dateLabel": "2027년 중 (예상 · 공식 일정 미발표 · 금 체크인/토 Day1/일 Day2)",
       "datesProvisional": true,
       "countdownDate": "2027-07-17",
-      "leagues": ["junior", "senior", "master"],
+      "leagues": [
+        "junior",
+        "senior",
+        "master"
+      ],
       "venue": {
         "name": "시내 컨벤션센터 (예상: ICC Sydney, 달링하버)",
         "nameJa": "ICC Sydney, Darling Harbour (예상·미확정)",
@@ -196,18 +273,46 @@
       "entry": {
         "intro": "리저널 챔피언십은 참가비를 내고 등록하는 오픈 대회예요(추첨 아님). Pokémon 공식·RK9에서 사전 등록하며, 시니어/주니어/마스터는 나이 기준으로 나뉩니다.",
         "links": [
-          { "label": "Pokémon Play! 공식", "url": "https://www.pokemon.com/us/play-pokemon/" },
-          { "label": "RK9 등록 시스템", "url": "https://rk9.gg/" }
+          {
+            "label": "Pokémon Play! 공식",
+            "url": "https://www.pokemon.com/us/play-pokemon/"
+          },
+          {
+            "label": "RK9 등록 시스템",
+            "url": "https://rk9.gg/"
+          }
         ],
         "phrases": [
-          { "en": "Judge, please!", "ko": "저지, 플리즈!", "mean": "심판 불러 주세요" },
-          { "en": "I don't speak English well.", "ko": "아이 돈 스픽 잉글리시 웰", "mean": "영어를 잘 못해요" },
-          { "en": "Can you say that again, slowly?", "ko": "캔 유 세이 댓 어겐, 슬로울리?", "mean": "천천히 다시 말해 줄래요?" }
+          {
+            "en": "Judge, please!",
+            "ko": "저지, 플리즈!",
+            "mean": "심판 불러 주세요"
+          },
+          {
+            "en": "I don't speak English well.",
+            "ko": "아이 돈 스픽 잉글리시 웰",
+            "mean": "영어를 잘 못해요"
+          },
+          {
+            "en": "Can you say that again, slowly?",
+            "ko": "캔 유 세이 댓 어겐, 슬로울리?",
+            "mean": "천천히 다시 말해 줄래요?"
+          }
         ]
       },
       "extraTiles": [
-        { "page": "faq.html", "icon": "❓", "label": "FAQ", "desc": "ETA비자·항공·Opal 자주 묻는 질문" },
-        { "page": "calc.html", "icon": "🧮", "label": "비용 계산기", "desc": "인원·숙박·예산 → 총비용" }
+        {
+          "page": "faq.html",
+          "icon": "❓",
+          "label": "FAQ",
+          "desc": "ETA비자·항공·Opal 자주 묻는 질문"
+        },
+        {
+          "page": "calc.html",
+          "icon": "🧮",
+          "label": "비용 계산기",
+          "desc": "인원·숙박·예산 → 총비용"
+        }
       ]
     },
     {
@@ -222,7 +327,11 @@
       "dateLabel": "2026년 11월 초 (예상 · 공식 미발표)",
       "datesProvisional": true,
       "countdownDate": "2026-11-07",
-      "leagues": ["junior", "senior", "master"],
+      "leagues": [
+        "junior",
+        "senior",
+        "master"
+      ],
       "venue": {
         "name": "브리즈번 컨벤션 & 전시센터 (BCEC)",
         "nameJa": "Brisbane Convention & Exhibition Centre, Merivale St, South Brisbane",
@@ -238,18 +347,46 @@
       "entry": {
         "intro": "리저널은 참가비를 내고 등록하는 오픈 대회예요(추첨 아님). 보통 RK9 시스템에서 사전 등록하고, 참가비는 약 A$35~45/인. 마스터·시니어·주니어는 나이 기준. 금요일 저녁 등록 데스크에서 사전 체크인하면 토요일 아침이 수월해요.",
         "links": [
-          { "label": "Pokémon Play! 공식", "url": "https://www.pokemon.com/us/play-pokemon/" },
-          { "label": "RK9 등록 시스템", "url": "https://rk9.gg/" }
+          {
+            "label": "Pokémon Play! 공식",
+            "url": "https://www.pokemon.com/us/play-pokemon/"
+          },
+          {
+            "label": "RK9 등록 시스템",
+            "url": "https://rk9.gg/"
+          }
         ],
         "phrases": [
-          { "en": "Judge, please!", "ko": "저지, 플리즈!", "mean": "심판 불러 주세요" },
-          { "en": "I don't speak English well.", "ko": "아이 돈 스픽 잉글리시 웰", "mean": "영어를 잘 못해요" },
-          { "en": "Can you say that again, slowly?", "ko": "캔 유 세이 댓 어겐, 슬로울리?", "mean": "천천히 다시 말해 줄래요?" }
+          {
+            "en": "Judge, please!",
+            "ko": "저지, 플리즈!",
+            "mean": "심판 불러 주세요"
+          },
+          {
+            "en": "I don't speak English well.",
+            "ko": "아이 돈 스픽 잉글리시 웰",
+            "mean": "영어를 잘 못해요"
+          },
+          {
+            "en": "Can you say that again, slowly?",
+            "ko": "캔 유 세이 댓 어겐, 슬로울리?",
+            "mean": "천천히 다시 말해 줄래요?"
+          }
         ]
       },
       "extraTiles": [
-        { "page": "faq.html", "icon": "❓", "label": "FAQ", "desc": "ETA비자·항공·go card 자주 묻는 질문" },
-        { "page": "calc.html", "icon": "🧮", "label": "비용 계산기", "desc": "인원·참가비·숙박 → 총비용" }
+        {
+          "page": "faq.html",
+          "icon": "❓",
+          "label": "FAQ",
+          "desc": "ETA비자·항공·go card 자주 묻는 질문"
+        },
+        {
+          "page": "calc.html",
+          "icon": "🧮",
+          "label": "비용 계산기",
+          "desc": "인원·참가비·숙박 → 총비용"
+        }
       ]
     }
   ],
@@ -257,10 +394,22 @@
     "title": "시티리그 2027",
     "note": "전국 각지에서 시즌별로 열리는 소규모 공식 대회입니다. 장소·일정은 회차마다 다르니 공식 페이지에서 확인하세요.",
     "seasons": [
-      { "season": "시즌 1", "period": "2026년 9월~11월" },
-      { "season": "시즌 2", "period": "2026년 12월~2027년 1월" },
-      { "season": "시즌 3", "period": "2027년 1월~3월" },
-      { "season": "시즌 4", "period": "2027년 3월~5월" }
+      {
+        "season": "시즌 1",
+        "period": "2026년 9월~11월"
+      },
+      {
+        "season": "시즌 2",
+        "period": "2026년 12월~2027년 1월"
+      },
+      {
+        "season": "시즌 3",
+        "period": "2027년 1월~3월"
+      },
+      {
+        "season": "시즌 4",
+        "period": "2027년 3월~5월"
+      }
     ]
   },
   "updated": "2026-06-15"

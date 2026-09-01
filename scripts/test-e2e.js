@@ -151,7 +151,7 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const menuLinks = await page.$$eval('.nav-menu a', (els) => els.length);
     const menuVisible = await page.$eval('.nav-menu', (e) => !e.hidden);
-    assert(menuVisible && menuLinks === 6, `메뉴 열림 + 링크 ${menuLinks}개(대회일정/용어집/카드검색 + 메타검색 외부3)`);
+    assert(menuVisible && menuLinks === 7, `메뉴 열림 + 링크 ${menuLinks}개(2027·2026 대회일정/용어집/카드검색 + 메타검색 외부3)`);
     const extLinks = await page.$$eval('.nav-menu a[target="_blank"]', (e) => e.length);
     assert(extLinks === 3, `외부 사이트 바로가기 ${extLinks}개`);
     await page.goto(BASE + '/guide.html', { waitUntil: 'domcontentloaded' });
@@ -245,9 +245,9 @@ function assert(cond, msg) {
     assert(branchBefore !== branchAfter, '대회 결과 토글 시 일정 자동 분기됨');
     const branchLabels = await page.$$eval('.plan-toggle-btn', (btns) => btns.map((b) => b.textContent).join(' / '));
     assert(/결승 진출/.test(branchLabels) && /예선 종료/.test(branchLabels), `분기 버튼이 시니어 하루 대회에 맞게 표기됨 (${branchLabels})`);
-    // 지난 여행 기록(PJCS 2026) 링크가 현재 가이드 하단에 있는지
+    // PJCS 2026 기록은 '2026 대회 일정' 메뉴로 이동 → 2027 가이드엔 없어야 함
     const archLink = await page.$('.plan-archive a[href*="event=pjcs2026"]');
-    assert(!!archLink, '현재 가이드 하단에 지난 여행 기록(PJCS 2026) 링크 있음');
+    assert(!archLink, '2027 가이드에서 지난 기록 블록 제거됨(2026 메뉴로 이동)');
 
     console.log('\n[10-c2] 지난 여행 기록 페이지 (PJCS 2026 보존)');
     const pastData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'plan', 'pjcs2026.json'), 'utf8'));
@@ -257,14 +257,23 @@ function assert(cond, msg) {
     assert(pastDays === pastData.days.length, `PJCS 2026 기록 ${pastDays}일 렌더 (데이터 ${pastData.days.length}일과 일치)`);
     const pastFlight = await page.$eval('#planRoot', (e) => e.innerText.includes('6/4') && e.innerText.includes('LJ221'));
     assert(pastFlight, '6월 항공편·일정이 그대로 보존됨');
-    const backCur = await page.$('.plan-archive a[href*="event=yokohama"]');
-    assert(!!backCur, '기록 페이지에서 현재 가이드로 돌아가는 링크 있음');
-    const evArchTile = await page.evaluate(async () => {
-      const r = await fetch('./data/events.json'); const d = await r.json();
-      const ev = d.events.find((e) => e.id === 'yokohama');
-      return (ev.extraTiles || []).some((t) => t.href === 'plan.html?event=pjcs2026');
-    });
-    assert(evArchTile, '요코하마 대회 페이지에 추억 타일 등록됨');
+    const backPast = await page.$('.plan-archive a[href*="past.html"]');
+    assert(!!backPast, '기록 페이지에서 2026 대회 일정으로 돌아가는 링크 있음');
+
+    console.log('\n[10-c3] 2026 대회 일정 메뉴 (지난 대회 기록)');
+    const pastEvents = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'past-events.json'), 'utf8'));
+    await page.goto(BASE + '/past.html', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.plan-archive', { timeout: 5000 });
+    const pastCards = await page.$$eval('#pastRoot .plan-archive', (e) => e.length);
+    assert(pastCards === pastEvents.events.length, `지난 대회 ${pastCards}건 렌더 (데이터 ${pastEvents.events.length}건과 일치)`);
+    const toRecord = await page.$('#pastRoot a[href*="event=pjcs2026"]');
+    assert(!!toRecord, 'PJCS 2026 여행 기록으로 가는 링크 있음');
+    const toHome = await page.$('#pastRoot a[href$="index.html"]');
+    assert(!!toHome, '2027 대회 일정으로 돌아가는 링크 있음');
+    // 햄버거 메뉴에서 새 페이지로 갈 수 있는지 (모든 페이지 공용 nav)
+    await page.click('#menuBtn');
+    const navHrefs = await page.$$eval('.nav-menu a', (as) => as.map((a) => a.getAttribute('href')).join(' '));
+    assert(/past\.html/.test(navHrefs) && /index\.html/.test(navHrefs), '메뉴에 2026·2027 대회 일정 모두 있음');
 
     console.log('\n[10-d] 한국 공식명 검색 별칭 + 일본어 발음 표기');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' });
