@@ -220,12 +220,14 @@ function assert(cond, msg) {
     await new Promise((r) => setTimeout(r, 150));
     const total5 = await page.$eval(totalSel, (e) => e.textContent);
     assert(total3 !== total5, `교통비 인원수 변경 시 합계 자동 재계산 (${total3} → ${total5})`);
-    // DAY2 분기 토글
-    const day7before = await page.$$eval('.plan-day', (els) => els.find((e) => e.textContent.includes('DAY2')).textContent);
-    await page.$$eval('.plan-toggle-btn', (btns) => { const b = btns.find((x) => x.textContent.includes('탈락')); if (b) b.click(); });
+    // 대회 결과 분기 토글 (진출/탈락 → 일정 전환). 라벨은 대회마다 다르므로 두 번째 버튼을 누른다.
+    const branchBefore = await page.$$eval('.plan-day', (els) => els.map((e) => e.textContent).join('|'));
+    await page.$$eval('.plan-toggle-btn', (btns) => { if (btns[1]) btns[1].click(); });
     await new Promise((r) => setTimeout(r, 150));
-    const day7after = await page.$$eval('.plan-day', (els) => els.find((e) => e.textContent.includes('DAY2')).textContent);
-    assert(day7before !== day7after, 'DAY2 진출/탈락 토글 시 일정 자동 분기됨');
+    const branchAfter = await page.$$eval('.plan-day', (els) => els.map((e) => e.textContent).join('|'));
+    assert(branchBefore !== branchAfter, '대회 결과 토글 시 일정 자동 분기됨');
+    const branchLabels = await page.$$eval('.plan-toggle-btn', (btns) => btns.map((b) => b.textContent).join(' / '));
+    assert(/결승 진출/.test(branchLabels) && /예선 종료/.test(branchLabels), `분기 버튼이 시니어 하루 대회에 맞게 표기됨 (${branchLabels})`);
     // 지난 여행 기록(PJCS 2026) 링크가 현재 가이드 하단에 있는지
     const archLink = await page.$('.plan-archive a[href*="event=pjcs2026"]');
     assert(!!archLink, '현재 가이드 하단에 지난 여행 기록(PJCS 2026) 링크 있음');

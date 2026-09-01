@@ -148,8 +148,10 @@
     if (hasBranch) {
       const ctrl = el('section', 'gcard plan-controls');
       ctrl.appendChild(el('h2', null, '⚙️ 일정 전환'));
+      const bl = data.branchLabels || {};
       ctrl.appendChild(toggleRow(data.branchLabel || 'PJCS DAY2', [
-        { k: 'advanced', label: '✅ DAY1 진출' }, { k: 'eliminated', label: '❌ 탈락 (대체관광)' }
+        { k: 'advanced', label: bl.advanced || '✅ DAY1 진출' },
+        { k: 'eliminated', label: bl.eliminated || '❌ 탈락 (대체관광)' }
       ], state.branch, (k) => { state.branch = k; render(); }));
       root.appendChild(ctrl);
     }
