@@ -45,3 +45,37 @@ node scripts/merge-terms.js
 2. Claude에게 "일상용어 반영해줘"라고 말한다.
 3. Claude가 새 줄을 일본어+읽는법+한글발음으로 번역해 `daily.json`(category: `daily`)에 추가하고,
    `node scripts/merge-terms.js` 로 `terms.json`을 재생성한다 → 용어집의 "일상·여행" 카테고리에 표시.
+
+---
+
+# 카드 데이터 (cards.json) 갱신 방법
+
+`data/cards.json`은 **재생성물**입니다. 직접 고치면 다음 빌드 때 사라집니다.
+아래 소스만 고치고 `node scripts/merge-cards.js`를 돌리세요.
+
+## 소스 구성
+| 폴더/파일 | 내용 | 만드는 법 |
+|---|---|---|
+| `sources/decks/<덱ID>.json` | 덱 1개의 카드 목록(ID·세트·매수) | `node scripts/scrape-deck.js <공식 덱 URL>` |
+| `sources/sets/<세트>.json` | 세트 1개의 카드 ID 목록 | `node scripts/scan-set.js <세트> <시작ID> <끝ID>` |
+| `sources/cards/*.json` | 카드 상세 + **한국어 번역** | `node scripts/scrape-card.js <출력.json> <id...>` 로 일본어 원문을 긁고, 번역은 사람/Claude가 채움 |
+| `sources/kana.json` | 한자 섞인 이름의 **가나 읽기** | 손으로 추가 |
+| `sources/energy.json` | 기술 에너지 비용 교정 | `node scripts/scrape-energy.js` |
+| `scripts/merge-cards.js`의 `DECKS` | 덱 이름·티어·설명 | 손으로 편집 |
+
+## 환경이 바뀌었을 때 (새 세트 발매 / 티어표 갱신)
+1. **티어표에서 덱 URL 뽑기** — `node scripts/scrape-page.js <티어표 기사 URL>`
+2. **덱 스크랩** — 나온 URL마다 `node scripts/scrape-deck.js <URL>`
+3. **`merge-cards.js`의 `DECKS` 갱신** — id·이름·tier·file·deckId·note.
+   티어표에서 빠진 옛 덱은 지우지 말고 `tier: 4`로 남긴다(카드 풀 유지).
+4. **새 세트 스캔** — `node scripts/scan-set.js M6 50330 50465`
+5. **신규 카드 상세 수집·번역** — `scrape-card.js`로 긁고 `sources/cards/`에 번역본 작성
+6. `node scripts/merge-cards.js` → `npm test`
+
+## 발음(read)이 안 나오는 이유
+`read`는 카드 이름을 **가나→한글**로 자동 변환해 만듭니다. 그래서
+
+- 이름에 **한자·영문이 섞이면** 변환이 안 됩니다 → `sources/kana.json`에
+  `"夜の鉱山": "よるのこうざん"` 처럼 가나 표기를 넣어 주세요.
+- 발음이 **한국어 이름과 똑같으면** 중복이라 일부러 표시하지 않습니다
+  (예: `マンタイン` → 만타인 = 만타인).

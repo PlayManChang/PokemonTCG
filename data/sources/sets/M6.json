@@ -1,0 +1,440 @@
+[
+  {
+    "id": "50339",
+    "set": "M6",
+    "type": "P",
+    "romaji": "HERAKUROSU"
+  },
+  {
+    "id": "50340",
+    "set": "M6",
+    "type": "P",
+    "romaji": "AMETAMA"
+  },
+  {
+    "id": "50341",
+    "set": "M6",
+    "type": "P",
+    "romaji": "AMEMOSU"
+  },
+  {
+    "id": "50342",
+    "set": "M6",
+    "type": "P",
+    "romaji": "SABONEA"
+  },
+  {
+    "id": "50343",
+    "set": "M6",
+    "type": "P",
+    "romaji": "NOKUTASU"
+  },
+  {
+    "id": "50344",
+    "set": "M6",
+    "type": "P",
+    "romaji": "MITSUHANI"
+  },
+  {
+    "id": "50345",
+    "set": "M6",
+    "type": "P",
+    "romaji": "BIKUIN"
+  },
+  {
+    "id": "50346",
+    "set": "M6",
+    "type": "P",
+    "romaji": "KOSOKUMUSHI"
+  },
+  {
+    "id": "50347",
+    "set": "M6",
+    "type": "P",
+    "romaji": "MGUSOKUMUSHIXYAIEKKUSU"
+  },
+  {
+    "id": "50348",
+    "set": "M6",
+    "type": "P",
+    "romaji": "GADEI"
+  },
+  {
+    "id": "50349",
+    "set": "M6",
+    "type": "P",
+    "romaji": "UINDEI"
+  },
+  {
+    "id": "50350",
+    "set": "M6",
+    "type": "P",
+    "romaji": "BUBA"
+  },
+  {
+    "id": "50351",
+    "set": "M6",
+    "type": "P",
+    "romaji": "BUBAN"
+  },
+  {
+    "id": "50352",
+    "set": "M6",
+    "type": "P",
+    "romaji": "KOTASU"
+  },
+  {
+    "id": "50353",
+    "set": "M6",
+    "type": "P",
+    "romaji": "HITOROTOMUIEKKUSU"
+  },
+  {
+    "id": "50354",
+    "set": "M6",
+    "type": "P",
+    "romaji": "KUITARAN"
+  },
+  {
+    "id": "50355",
+    "set": "M6",
+    "type": "P",
+    "romaji": "MANTAIN"
+  },
+  {
+    "id": "50356",
+    "set": "M6",
+    "type": "P",
+    "romaji": "KAIOGA"
+  },
+  {
+    "id": "50357",
+    "set": "M6",
+    "type": "P",
+    "romaji": "PURURIRU"
+  },
+  {
+    "id": "50358",
+    "set": "M6",
+    "type": "P",
+    "romaji": "BURUNGERU"
+  },
+  {
+    "id": "50359",
+    "set": "M6",
+    "type": "P",
+    "romaji": "YOWASHIIEKKUSU"
+  },
+  {
+    "id": "50360",
+    "set": "M6",
+    "type": "P",
+    "romaji": "EREBU"
+  },
+  {
+    "id": "50361",
+    "set": "M6",
+    "type": "P",
+    "romaji": "EREKIBURU"
+  },
+  {
+    "id": "50362",
+    "set": "M6",
+    "type": "P",
+    "romaji": "RAIKOUIEKKUSU"
+  },
+  {
+    "id": "50363",
+    "set": "M6",
+    "type": "P",
+    "romaji": "BORUTOROSU"
+  },
+  {
+    "id": "50364",
+    "set": "M6",
+    "type": "P",
+    "romaji": "BACHINUNI"
+  },
+  {
+    "id": "50365",
+    "set": "M6",
+    "type": "P",
+    "romaji": "KAIDEN"
+  },
+  {
+    "id": "50366",
+    "set": "M6",
+    "type": "P",
+    "romaji": "TAIKAIDEN"
+  },
+  {
+    "id": "50367",
+    "set": "M6",
+    "type": "P",
+    "romaji": "SURIPU"
+  },
+  {
+    "id": "50368",
+    "set": "M6",
+    "type": "P",
+    "romaji": "SURIPA"
+  },
+  {
+    "id": "50369",
+    "set": "M6",
+    "type": "P",
+    "romaji": "GIRATEINA"
+  },
+  {
+    "id": "50370",
+    "set": "M6",
+    "type": "P",
+    "romaji": "GOBITTO"
+  },
+  {
+    "id": "50371",
+    "set": "M6",
+    "type": "P",
+    "romaji": "MGORUGUIEKKUSU"
+  },
+  {
+    "id": "50372",
+    "set": "M6",
+    "type": "P",
+    "romaji": "RABUTOROSU"
+  },
+  {
+    "id": "50373",
+    "set": "M6",
+    "type": "P",
+    "romaji": "SANDO"
+  },
+  {
+    "id": "50374",
+    "set": "M6",
+    "type": "P",
+    "romaji": "SANDOPAN"
+  },
+  {
+    "id": "50375",
+    "set": "M6",
+    "type": "P",
+    "romaji": "IWAKU"
+  },
+  {
+    "id": "50376",
+    "set": "M6",
+    "type": "P",
+    "romaji": "HAGANERU"
+  },
+  {
+    "id": "50377",
+    "set": "M6",
+    "type": "P",
+    "romaji": "GURADON"
+  },
+  {
+    "id": "50378",
+    "set": "M6",
+    "type": "P",
+    "romaji": "RANDOROSU"
+  },
+  {
+    "id": "50379",
+    "set": "M6",
+    "type": "P",
+    "romaji": "NIDORAN"
+  },
+  {
+    "id": "50380",
+    "set": "M6",
+    "type": "P",
+    "romaji": "NIDORINA"
+  },
+  {
+    "id": "50381",
+    "set": "M6",
+    "type": "P",
+    "romaji": "NIDOKUIN"
+  },
+  {
+    "id": "50382",
+    "set": "M6",
+    "type": "P",
+    "romaji": "ITOMARU"
+  },
+  {
+    "id": "50383",
+    "set": "M6",
+    "type": "P",
+    "romaji": "ARIADOSU"
+  },
+  {
+    "id": "50384",
+    "set": "M6",
+    "type": "P",
+    "romaji": "YAMIRAMI"
+  },
+  {
+    "id": "50385",
+    "set": "M6",
+    "type": "P",
+    "romaji": "MAIKA"
+  },
+  {
+    "id": "50386",
+    "set": "M6",
+    "type": "P",
+    "romaji": "MKARAMANEROIEKKUSU"
+  },
+  {
+    "id": "50387",
+    "set": "M6",
+    "type": "P",
+    "romaji": "KURIMUGAN"
+  },
+  {
+    "id": "50388",
+    "set": "M6",
+    "type": "P",
+    "romaji": "JIXYARAKO"
+  },
+  {
+    "id": "50389",
+    "set": "M6",
+    "type": "P",
+    "romaji": "JIXYARANGO"
+  },
+  {
+    "id": "50390",
+    "set": "M6",
+    "type": "P",
+    "romaji": "JIXYARARANGA"
+  },
+  {
+    "id": "50391",
+    "set": "M6",
+    "type": "P",
+    "romaji": "MOTOTOKAGE"
+  },
+  {
+    "id": "50392",
+    "set": "M6",
+    "type": "P",
+    "romaji": "RURIRI"
+  },
+  {
+    "id": "50393",
+    "set": "M6",
+    "type": "P",
+    "romaji": "CHIRUTTO"
+  },
+  {
+    "id": "50394",
+    "set": "M6",
+    "type": "P",
+    "romaji": "CHIRUTARISU"
+  },
+  {
+    "id": "50395",
+    "set": "M6",
+    "type": "P",
+    "romaji": "KAKUREON"
+  },
+  {
+    "id": "50396",
+    "set": "M6",
+    "type": "P",
+    "romaji": "MREKKUUZAIEKKUSU"
+  },
+  {
+    "id": "50397",
+    "set": "M6",
+    "type": "P",
+    "romaji": "TORUNEROSU"
+  },
+  {
+    "id": "50398",
+    "set": "M6",
+    "type": "P",
+    "romaji": "YAYAKOMA"
+  },
+  {
+    "id": "50399",
+    "set": "M6",
+    "type": "P",
+    "romaji": "HINOYAKOMA"
+  },
+  {
+    "id": "50400",
+    "set": "M6",
+    "type": "P",
+    "romaji": "FUAIAROIEKKUSU"
+  },
+  {
+    "id": "50401",
+    "set": "M6",
+    "type": "T",
+    "romaji": "OISHIIOMUSUBI"
+  },
+  {
+    "id": "50402",
+    "set": "M6",
+    "type": "T",
+    "romaji": "BOUKENNORANTAN"
+  },
+  {
+    "id": "50403",
+    "set": "M6",
+    "type": "T",
+    "romaji": "TOKUCHIXYUUCHIXYOKKI"
+  },
+  {
+    "id": "50404",
+    "set": "M6",
+    "type": "T",
+    "romaji": "MREKKUUZAKIXYAPPU"
+  },
+  {
+    "id": "50405",
+    "set": "M6",
+    "type": "T",
+    "romaji": "EMUSHINOMORIAGE"
+  },
+  {
+    "id": "50406",
+    "set": "M6",
+    "type": "T",
+    "romaji": "GIRI"
+  },
+  {
+    "id": "50407",
+    "set": "M6",
+    "type": "T",
+    "romaji": "HIGANANOSHINRAI"
+  },
+  {
+    "id": "50408",
+    "set": "M6",
+    "type": "T",
+    "romaji": "FUUTORANNOSHIXYUGIXYOU"
+  },
+  {
+    "id": "50409",
+    "set": "M6",
+    "type": "T",
+    "romaji": "DENSETSUNOKAIKOU"
+  },
+  {
+    "id": "50410",
+    "set": "M6",
+    "type": "T",
+    "romaji": "DENSETSUNOSANCHIXYOU"
+  },
+  {
+    "id": "50411",
+    "set": "M6",
+    "type": "T",
+    "romaji": "DENSETSUNOYOUGANDOU"
+  }
+]

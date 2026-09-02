@@ -1,0 +1,1938 @@
+[
+ {
+  "id": 50339,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ヘラクロス",
+  "name_ko": "헤라크로스",
+  "hp": 130,
+  "type_ko": "풀",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "풀",
+    "name_ja": "スパイクドロー",
+    "name_ko": "스파이크 드로",
+    "damage": "20",
+    "text_ja": "自分の山札を2枚引く。",
+    "text_ko": "자신의 덱을 2장 뽑는다."
+   },
+   {
+    "cost_ko": "풀풀무색",
+    "name_ja": "10まんばりき",
+    "name_ko": "10만마력",
+    "damage": "130",
+    "text_ja": "このポケモンにも30ダメージ。",
+    "text_ko": "이 포켓몬에게도 30 데미지."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50339"
+ },
+ {
+  "id": 50340,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "アメタマ",
+  "name_ko": "비구술",
+  "hp": 50,
+  "type_ko": "풀",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "ふえる",
+    "name_ko": "늘어나기",
+    "damage": "",
+    "text_ja": "自分の山札から「アメタマ」を2枚まで選び、ベンチに出す。そして山札を切る。",
+    "text_ko": "자신의 덱에서 「비구술」을 2장까지 선택해 벤치에 내놓는다. 그리고 덱을 섞는다."
+   },
+   {
+    "cost_ko": "풀",
+    "name_ja": "むしくい",
+    "name_ko": "벌레먹기",
+    "damage": "10",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50340"
+ },
+ {
+  "id": 50341,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "アメモース",
+  "name_ko": "비나방",
+  "hp": 110,
+  "type_ko": "풀",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "こわいもよう",
+    "name_ko": "무서운 무늬",
+    "damage": "30",
+    "text_ja": "次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+    "text_ko": "다음 상대의 차례, 이 기술을 받은 포켓몬은 기술을 쓸 수 없다."
+   },
+   {
+    "cost_ko": "풀",
+    "name_ja": "バグパニック",
+    "name_ko": "버그 패닉",
+    "damage": "50×",
+    "text_ja": "自分の山札を下から7枚オモテにして、その中にある、ワザ「バグパニック」を持つポケモンの枚数×50ダメージ。オモテにしたポケモンは山札にもどして切る。残りのカードはトラッシュする。",
+    "text_ko": "자신의 덱을 아래에서 7장 앞면으로 하고, 그중에 있는 기술 「버그 패닉」을 가진 포켓몬 수 ×50 데미지. 앞면으로 한 포켓몬은 덱에 되돌려 섞는다. 남은 카드는 트래시한다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50341"
+ },
+ {
+  "id": 50342,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "サボネア",
+  "name_ko": "선인왕",
+  "hp": 70,
+  "type_ko": "풀",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "はねとばす",
+    "name_ko": "튕겨날리기",
+    "damage": "10＋",
+    "text_ja": "コインを1回投げオモテなら、10ダメージ追加。",
+    "text_ko": "동전을 1번 던져 앞면이면 10 데미지 추가."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50342"
+ },
+ {
+  "id": 50343,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "ノクタス",
+  "name_ko": "밤선인",
+  "hp": 130,
+  "type_ko": "풀",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "ちょくげきだん",
+    "name_ko": "직격탄",
+    "damage": "",
+    "text_ja": "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+    "text_ko": "상대의 포켓몬 1마리에게 30 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+   },
+   {
+    "cost_ko": "풀",
+    "name_ja": "パニッシュニードル",
+    "name_ko": "퍼니시 니들",
+    "damage": "10＋",
+    "text_ja": "相手の場の特性を持つポケモンの数×50ダメージ追加。",
+    "text_ko": "상대 필드의 특성을 가진 포켓몬 수 ×50 데미지 추가."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50343"
+ },
+ {
+  "id": 50344,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ミツハニー",
+  "name_ko": "세꿀버리",
+  "hp": 50,
+  "type_ko": "풀",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "풀",
+    "name_ja": "ぱっときえる",
+    "name_ko": "순간이동",
+    "damage": "10",
+    "text_ja": "このポケモンと、ついているすべてのカードを、手札にもどす。",
+    "text_ko": "이 포켓몬과 붙어 있는 모든 카드를 패로 되돌린다."
+   },
+   {
+    "cost_ko": "무색무색무색",
+    "name_ja": "バグパニック",
+    "name_ko": "버그 패닉",
+    "damage": "50×",
+    "text_ja": "自分の山札を下から7枚オモテにして、その中にある、ワザ「バグパニック」を持つポケモンの枚数×50ダメージ。オモテにしたポケモンは山札にもどして切る。残りのカードはトラッシュする。",
+    "text_ko": "자신의 덱을 아래에서 7장 앞면으로 하고, 그중에 있는 기술 「버그 패닉」을 가진 포켓몬 수 ×50 데미지. 앞면으로 한 포켓몬은 덱에 되돌려 섞는다. 남은 카드는 트래시한다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50344"
+ },
+ {
+  "id": 50345,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "ビークイン",
+  "name_ko": "비퀸",
+  "hp": 120,
+  "type_ko": "풀",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "풀",
+    "name_ja": "つきさす",
+    "name_ko": "찔러넣기",
+    "damage": "40",
+    "text_ja": "",
+    "text_ko": ""
+   },
+   {
+    "cost_ko": "무색무색무색",
+    "name_ja": "クリーンヒット",
+    "name_ko": "클린 히트",
+    "damage": "80＋",
+    "text_ja": "相手のバトルポケモンが進化ポケモンなら、80ダメージ追加。",
+    "text_ko": "상대의 배틀 포켓몬이 진화 포켓몬이면 80 데미지 추가."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50345"
+ },
+ {
+  "id": 50346,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "コソクムシ",
+  "name_ko": "꼬시레",
+  "hp": 70,
+  "type_ko": "풀",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "よわごし",
+    "name_ko": "약한 허리",
+    "text_ja": "相手の場に「ポケモンex」がいるなら、このポケモンはにげるためのエネルギーが、すべてなくなる。",
+    "text_ko": "상대 필드에 「포켓몬 ex」가 있다면 이 포켓몬은 후퇴에 필요한 에너지가 모두 없어진다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "풀",
+    "name_ja": "ぶつかる",
+    "name_ko": "부딪치기",
+    "damage": "10",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50346"
+ },
+ {
+  "id": 50347,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "メガグソクムシャex",
+  "name_ko": "메가 갑주무사 ex",
+  "hp": 340,
+  "type_ko": "풀",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "풀",
+    "name_ja": "とどめをさす",
+    "name_ko": "마무리 짓기",
+    "damage": "60＋",
+    "text_ja": "相手のバトルポケモンにダメカンがのっているなら、160ダメージ追加。",
+    "text_ko": "상대의 배틀 포켓몬에 데미지카운터가 올려져 있다면 160 데미지 추가."
+   },
+   {
+    "cost_ko": "무색무색무색",
+    "name_ja": "クワトロホールド",
+    "name_ko": "콰트로 홀드",
+    "damage": "160",
+    "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+    "text_ko": "다음 상대의 차례, 이 기술을 받은 포켓몬은 후퇴할 수 없다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50347"
+ },
+ {
+  "id": 50348,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ガーディ",
+  "name_ko": "가디",
+  "hp": 80,
+  "type_ko": "불꽃",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "ほえる",
+    "name_ko": "울부짖기",
+    "damage": "",
+    "text_ja": "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+    "text_ko": "상대의 배틀 포켓몬을 벤치 포켓몬과 교체한다. [배틀필드에 내놓을 포켓몬은 상대가 고른다.]"
+   },
+   {
+    "cost_ko": "불꽃무색무색",
+    "name_ja": "うしろげり",
+    "name_ko": "뒷발차기",
+    "damage": "50",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50348"
+ },
+ {
+  "id": 50349,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "ウインディ",
+  "name_ko": "윈디",
+  "hp": 150,
+  "type_ko": "불꽃",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "불꽃무색무색",
+    "name_ja": "はりきりファング",
+    "name_ko": "힘내기 팽",
+    "damage": "90＋",
+    "text_ja": "相手のサイドの残り枚数が4枚以下なら、90ダメージ追加。",
+    "text_ko": "상대의 남은 사이드가 4장 이하라면 90 데미지 추가."
+   },
+   {
+    "cost_ko": "불꽃불꽃무색무색",
+    "name_ja": "ヒートタックル",
+    "name_ko": "히트 태클",
+    "damage": "200",
+    "text_ja": "このポケモンにも50ダメージ。",
+    "text_ko": "이 포켓몬에게도 50 데미지."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50349"
+ },
+ {
+  "id": 50350,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ブーバー",
+  "name_ko": "마그마",
+  "hp": 90,
+  "type_ko": "불꽃",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "ちからをあつめる",
+    "name_ko": "힘 모으기",
+    "damage": "",
+    "text_ja": "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+    "text_ko": "자신의 덱에서 기본 에너지를 2장까지 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다."
+   },
+   {
+    "cost_ko": "불꽃무색",
+    "name_ja": "かえん",
+    "name_ko": "화염",
+    "damage": "30",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50350"
+ },
+ {
+  "id": 50351,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "ブーバーン",
+  "name_ko": "마그마번",
+  "hp": 140,
+  "type_ko": "불꽃",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "バディブースト",
+    "name_ko": "버디 부스트",
+    "text_ja": "自分の番に1回使える。自分の手札から「基本エネルギー」と「基本エネルギー」をそれぞれ1枚まで選び、自分の「エレキブル」または「ブーバーン」に好きなようにつける。",
+    "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 패에서 「기본 에너지」를 각각 1장까지 선택해 자신의 「에레키블」 또는 「마그마번」에게 원하는 대로 붙인다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "불꽃불꽃무색",
+    "name_ja": "ヒートスタンプ",
+    "name_ko": "히트 스탬프",
+    "damage": "80",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50351"
+ },
+ {
+  "id": 50352,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "コータス",
+  "name_ko": "코터스",
+  "hp": 130,
+  "type_ko": "불꽃",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "불꽃무색",
+    "name_ja": "やきこがす",
+    "name_ko": "태워버리기",
+    "damage": "30",
+    "text_ja": "相手のバトルポケモンをやけどにする。",
+    "text_ko": "상대의 배틀 포켓몬을 화상 상태로 만든다."
+   },
+   {
+    "cost_ko": "불꽃불꽃무색",
+    "name_ja": "かえんばく",
+    "name_ko": "화염폭",
+    "damage": "120",
+    "text_ja": "次の自分の番、このポケモンは「かえんばく」が使えない。",
+    "text_ko": "다음 자신의 차례, 이 포켓몬은 「화염폭」을 쓸 수 없다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50352"
+ },
+ {
+  "id": 50353,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ヒートロトムex",
+  "name_ko": "히트로토무 ex",
+  "hp": 190,
+  "type_ko": "불꽃",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색무색",
+    "name_ja": "さいかねつ",
+    "name_ko": "재가열",
+    "damage": "30×",
+    "text_ja": "自分のトラッシュにある「基本エネルギー」をすべて相手に見せて、その枚数×30ダメージ。その後、見せたエネルギーを山札にもどして切る。",
+    "text_ko": "자신의 트래시에 있는 「기본 에너지」를 모두 상대에게 보여주고 그 장수 ×30 데미지. 그 후 보여준 에너지를 덱에 되돌려 섞는다."
+   },
+   {
+    "cost_ko": "불꽃불꽃무색",
+    "name_ja": "ストロングフレア",
+    "name_ko": "스트롱 플레어",
+    "damage": "170",
+    "text_ja": "このポケモンについているエネルギーを2個選び、トラッシュする。",
+    "text_ko": "이 포켓몬에게 붙어 있는 에너지를 2개 선택해 트래시한다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50353"
+ },
+ {
+  "id": 50354,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "クイタラン",
+  "name_ko": "앤티골",
+  "hp": 110,
+  "type_ko": "불꽃",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "불꽃",
+    "name_ja": "はかいび",
+    "name_ko": "파괴불꽃",
+    "damage": "30",
+    "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+    "text_ko": "동전을 1번 던져 앞면이면 상대의 배틀 포켓몬에게 붙어 있는 에너지를 1개 선택해 트래시한다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50354"
+ },
+ {
+  "id": 50355,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "マンタイン",
+  "name_ko": "만타인",
+  "hp": 110,
+  "type_ko": "물",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "なみをおこす",
+    "name_ko": "파도 일으키기",
+    "damage": "",
+    "text_ja": "おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、それぞれ山札を4枚引く。",
+    "text_ko": "서로의 플레이어는 각자 패를 모두 덱에 되돌려 섞는다. 그 후 각자 덱을 4장 뽑는다."
+   },
+   {
+    "cost_ko": "물무색",
+    "name_ja": "バブルドレイン",
+    "name_ko": "버블 드레인",
+    "damage": "30",
+    "text_ja": "このポケモンのHPを「30」回復する。",
+    "text_ko": "이 포켓몬의 HP를 「30」 회복한다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50355"
+ },
+ {
+  "id": 50356,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "カイオーガ",
+  "name_ko": "가이오가",
+  "hp": 150,
+  "type_ko": "물",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "물무색",
+    "name_ja": "たきのぼり",
+    "name_ko": "폭포오르기",
+    "damage": "40",
+    "text_ja": "",
+    "text_ko": ""
+   },
+   {
+    "cost_ko": "물물무색",
+    "name_ja": "あらぶるうず",
+    "name_ko": "사나운 소용돌이",
+    "damage": "100",
+    "text_ja": "名前に「伝説」とつくスタジアムが場に出ているなら、相手のベンチポケモン全員にも、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+    "text_ko": "이름에 「전설」이 붙은 스타디움이 필드에 나와 있다면 상대의 벤치 포켓몬 전원에게도 각각 50 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50356"
+ },
+ {
+  "id": 50357,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "プルリル",
+  "name_ko": "탱그릴",
+  "hp": 80,
+  "type_ko": "물",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "ひっかける",
+    "name_ko": "할퀴기",
+    "damage": "10",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50357"
+ },
+ {
+  "id": 50358,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "ブルンゲル",
+  "name_ko": "탱탱겔",
+  "hp": 120,
+  "type_ko": "물",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "しんかいドロー",
+    "name_ko": "심해 드로",
+    "text_ja": "自分の番に1回使える。自分の山札を1枚引く。その後、のぞむなら、自分の手札を1枚選び、山札の下にもどす。",
+    "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 덱을 1장 뽑는다. 그 후 원한다면 자신의 패를 1장 선택해 덱 아래에 되돌린다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "물무색무색",
+    "name_ja": "ひっぱたく",
+    "name_ko": "후려치기",
+    "damage": "100",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50358"
+ },
+ {
+  "id": 50359,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ヨワシex",
+  "name_ko": "약어리 ex",
+  "hp": 260,
+  "type_ko": "물",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "オーシャンゲイン",
+    "name_ko": "오션 게인",
+    "text_ja": "このポケモンがバトル場にいるなら、自分の番に1回使える。このポケモンのHPを「50」回復する。",
+    "text_ko": "이 포켓몬이 배틀필드에 있다면 자신의 차례에 1번 쓸 수 있다. 이 포켓몬의 HP를 「50」 회복한다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "물물물무색",
+    "name_ja": "ハイドロスプラッシュ",
+    "name_ko": "하이드로 스플래시",
+    "damage": "220",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50359"
+ },
+ {
+  "id": 50360,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "エレブー",
+  "name_ko": "에레브",
+  "hp": 90,
+  "type_ko": "번개",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "なかまをよぶ",
+    "name_ko": "동료 부르기",
+    "damage": "",
+    "text_ja": "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+    "text_ko": "자신의 덱에서 기본 포켓몬을 2장까지 선택해 벤치에 내놓는다. 그리고 덱을 섞는다."
+   },
+   {
+    "cost_ko": "번개번개무색",
+    "name_ja": "ずつき",
+    "name_ko": "박치기",
+    "damage": "60",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50360"
+ },
+ {
+  "id": 50361,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "エレキブル",
+  "name_ko": "에레키블",
+  "hp": 140,
+  "type_ko": "번개",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색무색",
+    "name_ja": "のしかかり",
+    "name_ko": "누르기",
+    "damage": "30",
+    "text_ja": "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+    "text_ko": "동전을 1번 던져 앞면이면 상대의 배틀 포켓몬을 마비 상태로 만든다."
+   },
+   {
+    "cost_ko": "번개번개무색무색",
+    "name_ja": "ボルテージハンマー",
+    "name_ko": "볼티지 해머",
+    "damage": "60×",
+    "text_ja": "このポケモンについている基本エネルギーを好きなだけトラッシュし、その枚数×60ダメージ。",
+    "text_ko": "이 포켓몬에게 붙어 있는 기본 에너지를 원하는 만큼 트래시하고 그 장수 ×60 데미지."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50361"
+ },
+ {
+  "id": 50362,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ライコウex",
+  "name_ko": "라이코 ex",
+  "hp": 200,
+  "type_ko": "번개",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "번개",
+    "name_ja": "いかずちをまとう",
+    "name_ko": "번개를 두르다",
+    "damage": "",
+    "text_ja": "このワザは、先攻プレイヤーの最初の番でも使える。自分の山札からエネルギーを1枚選び、このポケモンにつける。そして山札を切る。",
+    "text_ko": "이 기술은 선공 플레이어의 첫 차례에도 쓸 수 있다. 자신의 덱에서 에너지를 1장 선택해 이 포켓몬에게 붙인다. 그리고 덱을 섞는다."
+   },
+   {
+    "cost_ko": "번개번개무색",
+    "name_ja": "パワーラッシュ",
+    "name_ko": "파워 러시",
+    "damage": "200",
+    "text_ja": "コインを1回投げウラなら、次の自分の番、このポケモンはワザが使えない。",
+    "text_ko": "동전을 1번 던져 뒷면이면 다음 자신의 차례, 이 포켓몬은 기술을 쓸 수 없다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50362"
+ },
+ {
+  "id": 50363,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ボルトロス",
+  "name_ko": "볼트로스",
+  "hp": 120,
+  "type_ko": "번개",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "けしんだんけつ",
+    "name_ko": "화신 단결",
+    "text_ja": "自分の場に「トルネロス」「ボルトロス」「ランドロス」「ラブトロス」がいるなら、このポケモンはワザを使うためのエネルギーが、すべてなくなる。",
+    "text_ko": "자신의 필드에 「토네로스」 「볼트로스」 「랜드로스」 「러브로스」가 있다면 이 포켓몬은 기술을 쓰기 위한 에너지가 모두 없어진다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "번개무색무색",
+    "name_ja": "サンダーエッジ",
+    "name_ko": "선더 에지",
+    "damage": "90",
+    "text_ja": "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+    "text_ko": "이 기술의 데미지는 상대 배틀 포켓몬에게 걸린 효과를 계산하지 않는다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50363"
+ },
+ {
+  "id": 50365,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "カイデン",
+  "name_ko": "파라꼬",
+  "hp": 60,
+  "type_ko": "번개",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "번개",
+    "name_ja": "こうそくいどう",
+    "name_ko": "고속이동",
+    "damage": "10",
+    "text_ja": "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+    "text_ko": "동전을 1번 던져 앞면이면 다음 상대의 차례, 이 포켓몬은 기술의 데미지나 효과를 받지 않는다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50365"
+ },
+ {
+  "id": 50366,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "タイカイデン",
+  "name_ko": "파랑볼혹",
+  "hp": 120,
+  "type_ko": "번개",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "번개",
+    "name_ja": "しゅうげき",
+    "name_ko": "습격",
+    "damage": "30＋",
+    "text_ja": "この番に、このポケモンが「カイデン」から進化していたなら、90ダメージ追加。",
+    "text_ko": "이 차례에 이 포켓몬이 「파라꼬」에서 진화했다면 90 데미지 추가."
+   },
+   {
+    "cost_ko": "번개무색",
+    "name_ja": "スピードひこう",
+    "name_ko": "스피드 비행",
+    "damage": "70",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50366"
+ },
+ {
+  "id": 50367,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "スリープ",
+  "name_ko": "슬리프",
+  "hp": 80,
+  "type_ko": "초",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "초",
+    "name_ja": "はたく",
+    "name_ko": "때리기",
+    "damage": "20",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50367"
+ },
+ {
+  "id": 50368,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "スリーパー",
+  "name_ko": "슬리퍼",
+  "hp": 120,
+  "type_ko": "초",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "초",
+    "name_ja": "マインドルーラー",
+    "name_ko": "마인드 룰러",
+    "damage": "20×",
+    "text_ja": "相手の手札の枚数×20ダメージ。",
+    "text_ko": "상대의 패 장수 ×20 데미지."
+   },
+   {
+    "cost_ko": "초무색",
+    "name_ja": "さいみんはどう",
+    "name_ko": "최면파동",
+    "damage": "50",
+    "text_ja": "相手のバトルポケモンをねむりにする。",
+    "text_ko": "상대의 배틀 포켓몬을 잠듦 상태로 만든다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50368"
+ },
+ {
+  "id": 50369,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ギラティナ",
+  "name_ko": "기라티나",
+  "hp": 130,
+  "type_ko": "초",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "초초무색",
+    "name_ja": "カオスクローラー",
+    "name_ko": "카오스 크롤러",
+    "damage": "120",
+    "text_ja": "次の相手の番、このポケモンはワザのダメージを受けない。前の自分の番に、自分のポケモンが「カオスクローラー」を使っていたなら、このワザは使えない。",
+    "text_ko": "다음 상대의 차례, 이 포켓몬은 기술 데미지를 받지 않는다. 직전 자신의 차례에 자신의 포켓몬이 「카오스 크롤러」를 썼다면 이 기술은 쓸 수 없다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50369"
+ },
+ {
+  "id": 50370,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ゴビット",
+  "name_ko": "골비람",
+  "hp": 90,
+  "type_ko": "초",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "초초",
+    "name_ja": "なぐる",
+    "name_ko": "후려갈기기",
+    "damage": "50",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50370"
+ },
+ {
+  "id": 50371,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "メガゴルーグex",
+  "name_ko": "메가 골루그 ex",
+  "hp": 350,
+  "type_ko": "초",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "きどうせいげん",
+    "name_ko": "기동 제한",
+    "text_ja": "自分の手札が10枚以上のときにしか、このポケモンはワザが使えない。",
+    "text_ko": "자신의 패가 10장 이상일 때만 이 포켓몬은 기술을 쓸 수 있다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "초초",
+    "name_ja": "ゴライアスパンチ",
+    "name_ko": "골리앗 펀치",
+    "damage": "300",
+    "text_ja": "このポケモンにも30ダメージ。",
+    "text_ko": "이 포켓몬에게도 30 데미지."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50371"
+ },
+ {
+  "id": 50372,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ラブトロス",
+  "name_ko": "러브로스",
+  "hp": 120,
+  "type_ko": "초",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "けしんだんけつ",
+    "name_ko": "화신 단결",
+    "text_ja": "自分の場に「トルネロス」「ボルトロス」「ランドロス」「ラブトロス」がいるなら、このポケモンはワザを使うためのエネルギーが、すべてなくなる。",
+    "text_ko": "자신의 필드에 「토네로스」 「볼트로스」 「랜드로스」 「러브로스」가 있다면 이 포켓몬은 기술을 쓰기 위한 에너지가 모두 없어진다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "초초무색무색",
+    "name_ja": "ライジングハート",
+    "name_ko": "라이징 하트",
+    "damage": "100＋",
+    "text_ja": "相手のバトルポケモンが「ポケモンex」なら、100ダメージ追加。",
+    "text_ko": "상대의 배틀 포켓몬이 「포켓몬 ex」라면 100 데미지 추가."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50372"
+ },
+ {
+  "id": 50373,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "サンド",
+  "name_ko": "모래두지",
+  "hp": 60,
+  "type_ko": "격투",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "격투",
+    "name_ja": "かくせい",
+    "name_ko": "각성",
+    "damage": "",
+    "text_ja": "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
+    "text_ko": "이 포켓몬에서 진화하는 카드를 자신의 덱에서 1장 선택해 이 포켓몬 위에 올려 진화시킨다. 그리고 덱을 섞는다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50373"
+ },
+ {
+  "id": 50374,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "サンドパン",
+  "name_ko": "고지",
+  "hp": 110,
+  "type_ko": "격투",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "はんげきばり",
+    "name_ko": "반격 가시",
+    "text_ja": "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。",
+    "text_ko": "이 포켓몬이 배틀필드에서 상대 포켓몬의 기술 데미지를 받았을 때, 기술을 쓴 포켓몬에게 데미지카운터를 3개 올린다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "격투",
+    "name_ja": "あなほりクロー",
+    "name_ko": "굴파기 클로",
+    "damage": "60",
+    "text_ja": "相手の山札を上から1枚トラッシュする。",
+    "text_ko": "상대의 덱을 위에서 1장 트래시한다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50374"
+ },
+ {
+  "id": 50375,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "イワーク",
+  "name_ko": "롱스톤",
+  "hp": 120,
+  "type_ko": "격투",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색무색무색",
+    "name_ja": "ガードプレス",
+    "name_ko": "가드 프레스",
+    "damage": "80",
+    "text_ja": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+    "text_ko": "다음 상대의 차례, 이 포켓몬이 받는 기술 데미지는 「-30」된다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50375"
+ },
+ {
+  "id": 50376,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "ハガネール",
+  "name_ko": "강철톤",
+  "hp": 190,
+  "type_ko": "격투",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "こうみつどアーマー",
+    "name_ko": "고밀도 아머",
+    "text_ja": "このポケモンのHPがまんたんの状態なら、このポケモンが相手のポケモンから受けるワザのダメージは「-60」される。",
+    "text_ko": "이 포켓몬의 HP가 가득 찬 상태라면, 이 포켓몬이 상대 포켓몬에게 받는 기술 데미지는 「-60」된다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "격투격투무색무색",
+    "name_ja": "ハードスイング",
+    "name_ko": "하드 스윙",
+    "damage": "150",
+    "text_ja": "このワザのダメージは抵抗力を計算しない。",
+    "text_ko": "이 기술의 데미지는 저항력을 계산하지 않는다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50376"
+ },
+ {
+  "id": 50377,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "グラードン",
+  "name_ko": "그란돈",
+  "hp": 150,
+  "type_ko": "격투",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "격투무색",
+    "name_ja": "かいりき",
+    "name_ko": "괴력",
+    "damage": "40",
+    "text_ja": "",
+    "text_ko": ""
+   },
+   {
+    "cost_ko": "격투격투무색",
+    "name_ja": "あらぶるだいち",
+    "name_ko": "사나운 대지",
+    "damage": "100＋",
+    "text_ja": "名前に「伝説」とつくスタジアムが場に出ているなら、170ダメージ追加。",
+    "text_ko": "이름에 「전설」이 붙은 스타디움이 필드에 나와 있다면 170 데미지 추가."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50377"
+ },
+ {
+  "id": 50378,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ランドロス",
+  "name_ko": "랜드로스",
+  "hp": 130,
+  "type_ko": "격투",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "けしんだんけつ",
+    "name_ko": "화신 단결",
+    "text_ja": "自分の場に「トルネロス」「ボルトロス」「ランドロス」「ラブトロス」がいるなら、このポケモンはワザを使うためのエネルギーが、すべてなくなる。",
+    "text_ko": "자신의 필드에 「토네로스」 「볼트로스」 「랜드로스」 「러브로스」가 있다면 이 포켓몬은 기술을 쓰기 위한 에너지가 모두 없어진다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "격투무색무색",
+    "name_ja": "ガイアクラッシュ",
+    "name_ko": "가이아 크래시",
+    "damage": "110",
+    "text_ja": "場に出ているスタジアムをトラッシュする。",
+    "text_ko": "필드에 나와 있는 스타디움을 트래시한다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50378"
+ },
+ {
+  "id": 50379,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ニドラン♀",
+  "name_ko": "니드런♀",
+  "hp": 60,
+  "type_ko": "악",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "ともだちをさがす",
+    "name_ko": "친구 찾기",
+    "damage": "",
+    "text_ja": "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+    "text_ko": "자신의 덱에서 포켓몬을 1장 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다."
+   },
+   {
+    "cost_ko": "악",
+    "name_ja": "かじる",
+    "name_ko": "깨물기",
+    "damage": "10",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50379"
+ },
+ {
+  "id": 50380,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "ニドリーナ",
+  "name_ko": "니드리나",
+  "hp": 90,
+  "type_ko": "악",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "악무색",
+    "name_ja": "たいあたり",
+    "name_ko": "몸통박치기",
+    "damage": "60",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50380"
+ },
+ {
+  "id": 50381,
+  "category": "pokemon",
+  "subtype_ko": "2단계 진화",
+  "name_ja": "ニドクイン",
+  "name_ko": "니드퀸",
+  "hp": 170,
+  "type_ko": "악",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "ははのいざない",
+    "name_ko": "어머니의 초대",
+    "text_ja": "自分の番に1回使える。コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+    "text_ko": "자신의 차례에 1번 쓸 수 있다. 동전을 1번 던져 앞면이면 상대의 벤치 포켓몬을 1마리 선택해 배틀 포켓몬과 교체한다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "악무색무색",
+    "name_ja": "ギガインパクト",
+    "name_ko": "기가임팩트",
+    "damage": "150",
+    "text_ja": "次の自分の番、このポケモンはワザが使えない。",
+    "text_ko": "다음 자신의 차례, 이 포켓몬은 기술을 쓸 수 없다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50381"
+ },
+ {
+  "id": 50382,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "イトマル",
+  "name_ko": "페이검",
+  "hp": 60,
+  "type_ko": "악",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "악",
+    "name_ja": "どくばり",
+    "name_ko": "독침",
+    "damage": "",
+    "text_ja": "相手のバトルポケモンをどくにする。",
+    "text_ko": "상대의 배틀 포켓몬을 독 상태로 만든다."
+   },
+   {
+    "cost_ko": "무색무색무색",
+    "name_ja": "バグパニック",
+    "name_ko": "버그 패닉",
+    "damage": "50×",
+    "text_ja": "自分の山札を下から7枚オモテにして、その中にある、ワザ「バグパニック」を持つポケモンの枚数×50ダメージ。オモテにしたポケモンは山札にもどして切る。残りのカードはトラッシュする。",
+    "text_ko": "자신의 덱을 아래에서 7장 앞면으로 하고, 그중에 있는 기술 「버그 패닉」을 가진 포켓몬 수 ×50 데미지. 앞면으로 한 포켓몬은 덱에 되돌려 섞는다. 남은 카드는 트래시한다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50382"
+ },
+ {
+  "id": 50383,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "アリアドス",
+  "name_ko": "아리아도스",
+  "hp": 100,
+  "type_ko": "악",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "악",
+    "name_ja": "げきつうどく",
+    "name_ko": "격통독",
+    "damage": "",
+    "text_ja": "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は4個になる。",
+    "text_ko": "상대의 배틀 포켓몬을 독 상태로 만든다. 이 독으로 올리는 데미지카운터는 4개가 된다."
+   },
+   {
+    "cost_ko": "무색무색무색",
+    "name_ja": "おんみつばり",
+    "name_ko": "은밀 바늘",
+    "damage": "80",
+    "text_ja": "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。",
+    "text_ko": "다음 상대의 차례, 이 포켓몬은 기본 포켓몬에게 기술 데미지를 받지 않는다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50383"
+ },
+ {
+  "id": 50384,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ヤミラミ",
+  "name_ko": "깜까미",
+  "hp": 80,
+  "type_ko": "악",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "악",
+    "name_ja": "おびきだす",
+    "name_ko": "꾀어내기",
+    "damage": "",
+    "text_ja": "相手の山札を上から5枚オモテにして、その中からたねポケモンを好きなだけ選び、相手のベンチに出す。残りのカードは山札にもどして切る。",
+    "text_ko": "상대의 덱을 위에서 5장 앞면으로 하고, 그중에서 기본 포켓몬을 원하는 만큼 선택해 상대의 벤치에 내놓는다. 남은 카드는 덱에 되돌려 섞는다."
+   },
+   {
+    "cost_ko": "악무색",
+    "name_ja": "ふきつなめ",
+    "name_ko": "불길한 눈빛",
+    "damage": "",
+    "text_ja": "相手のポケモン1匹に、ダメカンを5個のせる。",
+    "text_ko": "상대의 포켓몬 1마리에게 데미지카운터를 5개 올린다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50384"
+ },
+ {
+  "id": 50385,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "マーイーカ",
+  "name_ko": "오케이징",
+  "hp": 60,
+  "type_ko": "악",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "악",
+    "name_ja": "はたきおとす",
+    "name_ko": "쳐서 떨구기",
+    "damage": "10",
+    "text_ja": "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+    "text_ko": "상대의 패에서 앞면을 보지 않고 1장 선택해 트래시한다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50385"
+ },
+ {
+  "id": 50386,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "メガカラマネロex",
+  "name_ko": "메가 칼라마네로 ex",
+  "hp": 320,
+  "type_ko": "악",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "악악",
+    "name_ja": "サイコマリオネット",
+    "name_ko": "사이코 마리오네트",
+    "damage": "70×",
+    "text_ja": "相手のベンチポケモンの数×70ダメージ。",
+    "text_ko": "상대의 벤치 포켓몬 수 ×70 데미지."
+   },
+   {
+    "cost_ko": "악악악",
+    "name_ja": "ぶきみなねんぱ",
+    "name_ko": "섬뜩한 염파",
+    "damage": "200",
+    "text_ja": "相手のバトルポケモンをこんらんにする。",
+    "text_ko": "상대의 배틀 포켓몬을 혼란 상태로 만든다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50386"
+ },
+ {
+  "id": 50387,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "クリムガン",
+  "name_ko": "크리만",
+  "hp": 120,
+  "type_ko": "드래곤",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "불꽃물",
+    "name_ja": "ひきずりだす",
+    "name_ko": "끌어내기",
+    "damage": "",
+    "text_ja": "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに40ダメージ。",
+    "text_ko": "상대의 벤치 포켓몬을 1마리 선택해 배틀 포켓몬과 교체한다. 그 후 새로 나온 포켓몬에게 40 데미지."
+   },
+   {
+    "cost_ko": "무색무색무색",
+    "name_ja": "ツメできりさく",
+    "name_ko": "발톱으로 찢기",
+    "damage": "80",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50387"
+ },
+ {
+  "id": 50388,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ジャラコ",
+  "name_ko": "짜랑꼬",
+  "hp": 70,
+  "type_ko": "드래곤",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "번개격투",
+    "name_ja": "かたいあたま",
+    "name_ko": "단단한 머리",
+    "damage": "30",
+    "text_ja": "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+    "text_ko": "다음 상대의 차례, 이 포켓몬이 받는 기술 데미지는 「-30」된다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50388"
+ },
+ {
+  "id": 50389,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "ジャランゴ",
+  "name_ko": "짜랑고우",
+  "hp": 100,
+  "type_ko": "드래곤",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "번개격투",
+    "name_ja": "ダブルスマッシュ",
+    "name_ko": "더블 스매시",
+    "damage": "70×",
+    "text_ja": "コインを2回投げ、オモテの数×70ダメージ。",
+    "text_ko": "동전을 2번 던져 앞면의 수 ×70 데미지."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50389"
+ },
+ {
+  "id": 50390,
+  "category": "pokemon",
+  "subtype_ko": "2단계 진화",
+  "name_ja": "ジャラランガ",
+  "name_ko": "짜랑고우거",
+  "hp": 160,
+  "type_ko": "드래곤",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "スケイルビート",
+    "name_ko": "스케일 비트",
+    "text_ja": "自分の番に1回使える。自分の山札を上から6枚見て、その中から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは山札にもどして切る。",
+    "text_ko": "자신의 차례에 1번 쓸 수 있다. 자신의 덱을 위에서 6장 보고, 그중에서 기본 에너지를 원하는 만큼 선택해 자신의 포켓몬에게 원하는 대로 붙인다. 남은 카드는 덱에 되돌려 섞는다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "번개격투무색",
+    "name_ja": "ぶちかます",
+    "name_ko": "들이받기",
+    "damage": "170",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50390"
+ },
+ {
+  "id": 50391,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "モトトカゲ",
+  "name_ko": "모토마",
+  "hp": 120,
+  "type_ko": "드래곤",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색무색",
+    "name_ja": "かみつく",
+    "name_ko": "물기",
+    "damage": "30",
+    "text_ja": "",
+    "text_ko": ""
+   },
+   {
+    "cost_ko": "풀악무색",
+    "name_ja": "ブレイクスルー",
+    "name_ko": "브레이크 스루",
+    "damage": "110",
+    "text_ja": "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+    "text_ko": "상대의 벤치 포켓몬 1마리에게도 30 데미지. [벤치는 약점·저항력을 계산하지 않는다.]"
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50391"
+ },
+ {
+  "id": 50392,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ルリリ",
+  "name_ko": "루리리",
+  "hp": 30,
+  "type_ko": "무색",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "ぴょんぴょんチャージ",
+    "name_ko": "폴짝폴짝 차지",
+    "damage": "",
+    "text_ja": "自分の山札からエネルギーを1枚選び、ベンチポケモンにつける。そして山札を切る。",
+    "text_ko": "자신의 덱에서 에너지를 1장 선택해 벤치 포켓몬에게 붙인다. 그리고 덱을 섞는다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50392"
+ },
+ {
+  "id": 50393,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "チルット",
+  "name_ko": "파비코",
+  "hp": 50,
+  "type_ko": "무색",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "はしゃぐ",
+    "name_ko": "신나기",
+    "damage": "",
+    "text_ja": "このポケモンをベンチポケモンと入れ替える。",
+    "text_ko": "이 포켓몬을 벤치 포켓몬과 교체한다."
+   },
+   {
+    "cost_ko": "무색무색",
+    "name_ja": "つつく",
+    "name_ko": "쪼기",
+    "damage": "20",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50393"
+ },
+ {
+  "id": 50394,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "チルタリス",
+  "name_ko": "파비코리",
+  "hp": 110,
+  "type_ko": "무색",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "コットンキャリー",
+    "name_ko": "코튼 캐리",
+    "text_ja": "このポケモンがいるかぎり、自分のたねポケモン全員は、にげるためのエネルギーが、すべてなくなる。",
+    "text_ko": "이 포켓몬이 있는 한, 자신의 기본 포켓몬 전원은 후퇴에 필요한 에너지가 모두 없어진다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "무색무색무색",
+    "name_ja": "はばたく",
+    "name_ko": "날갯짓",
+    "damage": "80",
+    "text_ja": "",
+    "text_ko": ""
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50394"
+ },
+ {
+  "id": 50395,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "カクレオン",
+  "name_ko": "켈리몬",
+  "hp": 90,
+  "type_ko": "무색",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색무색",
+    "name_ja": "カラフルウィップ",
+    "name_ko": "컬러풀 휩",
+    "damage": "30×",
+    "text_ja": "自分の手札からポケモンを好きなだけ相手に見せて、見せたポケモンのタイプの数×30ダメージ。",
+    "text_ko": "자신의 패에서 포켓몬을 원하는 만큼 상대에게 보여주고, 보여준 포켓몬의 타입 수 ×30 데미지."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50395"
+ },
+ {
+  "id": 50397,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "トルネロス",
+  "name_ko": "토네로스",
+  "hp": 110,
+  "type_ko": "무색",
+  "regulation": "M6",
+  "abilities": [
+   {
+    "name_ja": "けしんだんけつ",
+    "name_ko": "화신 단결",
+    "text_ja": "自分の場に「トルネロス」「ボルトロス」「ランドロス」「ラブトロス」がいるなら、このポケモンはワザを使うためのエネルギーが、すべてなくなる。",
+    "text_ko": "자신의 필드에 「토네로스」 「볼트로스」 「랜드로스」 「러브로스」가 있다면 이 포켓몬은 기술을 쓰기 위한 에너지가 모두 없어진다."
+   }
+  ],
+  "attacks": [
+   {
+    "cost_ko": "무색무색무색",
+    "name_ja": "スクリューダイブ",
+    "name_ko": "스크루 다이브",
+    "damage": "70",
+    "text_ja": "のぞむなら、自分の手札が6枚になるように、山札を引く。",
+    "text_ko": "원한다면 자신의 패가 6장이 되도록 덱을 뽑는다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50397"
+ },
+ {
+  "id": 50398,
+  "category": "pokemon",
+  "subtype_ko": "기본 포켓몬",
+  "name_ja": "ヤヤコマ",
+  "name_ko": "화살꼬빈",
+  "hp": 60,
+  "type_ko": "무색",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "ふいをつく",
+    "name_ko": "허를 찌르기",
+    "damage": "30",
+    "text_ja": "コインを1回投げウラなら、このワザは失敗。",
+    "text_ko": "동전을 1번 던져 뒷면이면 이 기술은 실패."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50398"
+ },
+ {
+  "id": 50399,
+  "category": "pokemon",
+  "subtype_ko": "1단계 진화",
+  "name_ja": "ヒノヤコマ",
+  "name_ko": "불화살빈",
+  "hp": 80,
+  "type_ko": "무색",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색무색",
+    "name_ja": "わしづかみ",
+    "name_ko": "움켜쥐기",
+    "damage": "40",
+    "text_ja": "次の相手の番、このワザを受けたポケモンは、にげられない。",
+    "text_ko": "다음 상대의 차례, 이 기술을 받은 포켓몬은 후퇴할 수 없다."
+   }
+  ],
+  "text_ja": "",
+  "text_ko": "",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50399"
+ },
+ {
+  "id": 50401,
+  "category": "trainer",
+  "subtype_ko": "굿즈",
+  "name_ja": "おいしいおむすび",
+  "name_ko": "맛있는 주먹밥",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [],
+  "text_ja": "自分のバトルポケモンのHPを「30」回復する。自分のトラッシュにある「おいしいおむすび」（このカードをのぞく）1枚につき、回復するHPは「30」多くなる。",
+  "text_ko": "자신의 배틀 포켓몬의 HP를 「30」 회복한다. 자신의 트래시에 있는 「맛있는 주먹밥」(이 카드 제외) 1장마다 회복하는 HP가 「30」씩 많아진다.",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50401"
+ },
+ {
+  "id": 50403,
+  "category": "trainer",
+  "subtype_ko": "포켓몬의 도구",
+  "name_ja": "とくちゅうチョッキ",
+  "name_ko": "특주 조끼",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [],
+  "text_ja": "このカードをつけているポケモン（「メガシンカex」をのぞく）が、相手の「メガシンカex」から受けるワザのダメージは「-60」される。",
+  "text_ko": "이 카드를 붙인 포켓몬(「메가진화 ex」 제외)이 상대의 「메가진화 ex」에게 받는 기술 데미지는 「-60」된다.",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50403"
+ },
+ {
+  "id": 50404,
+  "category": "trainer",
+  "subtype_ko": "포켓몬의 도구",
+  "name_ja": "メガレックウザキャップ",
+  "name_ko": "메가레쿠쟈 캡",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [
+   {
+    "cost_ko": "무색",
+    "name_ja": "デルタギフト",
+    "name_ko": "델타 기프트",
+    "damage": "",
+    "text_ja": "「メガレックウザキャップ」がついている自分のポケモン全員に、山札から基本エネルギーを1枚ずつつける。そして山札を切る。",
+    "text_ko": "「메가레쿠쟈 캡」이 붙어 있는 자신의 포켓몬 전원에게 덱에서 기본 에너지를 1장씩 붙인다. 그리고 덱을 섞는다."
+   }
+  ],
+  "text_ja": "このカードをつけているポケモンは、このカードに書かれているワザを使える。［ワザを使うためのエネルギーは必要。］",
+  "text_ko": "이 카드를 붙인 포켓몬은 이 카드에 적힌 기술을 쓸 수 있다. [기술을 쓰기 위한 에너지는 필요.]",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50404"
+ },
+ {
+  "id": 50405,
+  "category": "trainer",
+  "subtype_ko": "서포트",
+  "name_ja": "MCの盛り上げ",
+  "name_ko": "MC의 흥돋우기",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [],
+  "text_ja": "自分の山札を2枚引く。相手のサイドの残り枚数が3枚以下なら、さらに2枚引く。",
+  "text_ko": "자신의 덱을 2장 뽑는다. 상대의 남은 사이드가 3장 이하라면 2장 더 뽑는다.",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50405"
+ },
+ {
+  "id": 50406,
+  "category": "trainer",
+  "subtype_ko": "서포트",
+  "name_ja": "ギリー",
+  "name_ko": "기리",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [],
+  "text_ja": "自分の山札からサポートとスタジアムを合計3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+  "text_ko": "자신의 덱에서 서포트와 스타디움을 합쳐 3장까지 선택해 상대에게 보여주고 패에 추가한다. 그리고 덱을 섞는다.",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50406"
+ },
+ {
+  "id": 50408,
+  "category": "trainer",
+  "subtype_ko": "서포트",
+  "name_ja": "フウとランの修行",
+  "name_ko": "후우와 란의 수행",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [],
+  "text_ja": "自分の山札を2枚引く。その後、名前に「伝説」とつくスタジアムが場に出ているなら、この「フウとランの修行」はトラッシュせず、手札にもどす。",
+  "text_ko": "자신의 덱을 2장 뽑는다. 그 후 이름에 「전설」이 붙은 스타디움이 필드에 나와 있다면 이 「후우와 란의 수행」은 트래시하지 않고 패로 되돌린다.",
+  "kana": "フウとランのしゅぎょう",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50408"
+ },
+ {
+  "id": 50409,
+  "category": "trainer",
+  "subtype_ko": "스타디움",
+  "name_ja": "伝説の海溝",
+  "name_ko": "전설의 해구",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [],
+  "text_ja": "おたがいのポケモン全員は、HPを回復するとき、回復するHPが2倍になる。※このカードは1枚だけでは出せず、手札から2種類の「伝説の海溝」を組み合わせて1枚のスタジアムとして場に出す。",
+  "text_ko": "서로의 포켓몬 전원은 HP를 회복할 때 회복하는 HP가 2배가 된다. ※이 카드는 1장만으로는 낼 수 없고, 패에서 2종류의 「전설의 해구」를 조합해 1장의 스타디움으로 낸다.",
+  "kana": "でんせつのかいこう",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50409"
+ },
+ {
+  "id": 50410,
+  "category": "trainer",
+  "subtype_ko": "스타디움",
+  "name_ja": "伝説の山頂",
+  "name_ko": "전설의 산정",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [],
+  "text_ja": "おたがいのポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、とられるサイドは1枚少なくなる。※このカードは1枚だけでは出せず、手札から2種類の「伝説の山頂」を組み合わせて1枚のスタジアムとして場に出す。",
+  "text_ko": "서로의 포켓몬이 상대 포켓몬의 기술 데미지로 기절했을 때 상대가 가져가는 사이드가 1장 줄어든다. ※이 카드는 1장만으로는 낼 수 없고, 패에서 2종류의 「전설의 산정」을 조합해 1장의 스타디움으로 낸다.",
+  "kana": "でんせつのさんちょう",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50410"
+ },
+ {
+  "id": 50411,
+  "category": "trainer",
+  "subtype_ko": "스타디움",
+  "name_ja": "伝説の溶岩洞",
+  "name_ko": "전설의 용암동",
+  "regulation": "M6",
+  "abilities": [],
+  "attacks": [],
+  "text_ja": "おたがいの場の進化ポケモン全員は、特性がすべてなくなる。※このカードは1枚だけでは出せず、手札から2種類の「伝説の溶岩洞」を組み合わせて1枚のスタジアムとして場に出す。",
+  "text_ko": "서로의 필드에 있는 진화 포켓몬 전원은 특성이 모두 없어진다. ※이 카드는 1장만으로는 낼 수 없고, 패에서 2종류의 「전설의 용암동」을 조합해 1장의 스타디움으로 낸다.",
+  "kana": "でんせつのようがんどう",
+  "set": "확장팩 「스톰 에메랄다(ストームエメラルダ)」",
+  "official_url": "https://www.pokemon-card.com/card-search/details.php/card/50411"
+ }
+]

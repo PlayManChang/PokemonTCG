@@ -50,6 +50,7 @@ function assert(cond, msg) {
   const deckTotal = deckCards.length;
   const deckPokemon = deckCards.filter((c) => c.category === 'pokemon').length;
   const setM5 = cardData.cards.filter((c) => c.set === 'M5').length;
+  const setM6 = cardData.cards.filter((c) => c.set === 'M6').length;
 
   const server = await startServer();
   const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'], protocolTimeout: 180000 });
@@ -285,7 +286,7 @@ function assert(cond, msg) {
     console.log('\n[10-d] 한국 공식명 검색 별칭 + 일본어 발음 표기');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('.pcard', { timeout: 8000 });
-    await page.click('.tier-row .chip[data-id="3"]');
+    await page.click('.tier-row .chip[data-id="2"]'); // 타케루라이코는 스톰 에메랄다 환경에서 T2
     await new Promise((r) => setTimeout(r, 200));
     await page.select('#deckSelect', 'takeraiko');
     await new Promise((r) => setTimeout(r, 300));
@@ -304,7 +305,16 @@ function assert(cond, msg) {
     const deckBtn = await page.$eval('.deck-list-btn', (e) => e.href).catch(() => '');
     assert(/deck\/result\.html\/deckID\//.test(deckBtn), `전체 덱리스트(공식) 버튼 링크 연결됨`);
     const deckMeta = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cards.json'), 'utf8')).decks;
-    assert(deckMeta.length === 32, `덱 ${deckMeta.length}개 (메가 이상해꽃 포함 32덱)`);
+    assert(deckMeta.length === 36, `덱 ${deckMeta.length}개 (현재환경 17 + 이전환경 기록 19)`);
+    const curDecks = deckMeta.filter((dk) => dk.tier <= 3);
+    assert(curDecks.length === 17, `스톰 에메랄다 환경 티어표 ${curDecks.length}덱 (T1 1 + T2 7 + T3 9)`);
+    assert(deckMeta.filter((dk) => dk.tier === 1).length === 1, `T1(드래펄트) 1덱`);
+    const m6 = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cards.json'), 'utf8')).cards
+      .filter((c) => c.set === 'M6');
+    assert(m6.length >= 5, `스톰 에메랄다(M6) 신규 카드 ${m6.length}종 수록`);
+    const kanjiNoRead = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cards.json'), 'utf8')).cards
+      .filter((c) => !c.read && /[一-鿿]/.test(String(c.name_ja).replace(/\s*ex$/, '')));
+    assert(kanjiNoRead.length === 0, `한자 이름 카드도 일본어 발음 표시됨 (누락 ${kanjiNoRead.length}종)`);
     assert(deckMeta.every((dk) => dk.deckId), `모든 덱에 공식 덱ID 연결됨`);
     const atkNoCost = await page.$$eval('.pcard-pokemon .attack', (els) => els.filter((e) => !e.querySelector('.pblock-cost')).length);
     assert(atkNoCost === 0, `덱 내 모든 기술에 에너지 비용 표시됨 (누락 ${atkNoCost}건)`);
@@ -492,14 +502,14 @@ function assert(cond, msg) {
     const bneAud = await page.$$eval('.plan-table td', (tds) => tds.some((t) => t.textContent.includes('A$')));
     assert(bneAud, '브리즈번 여행가이드 교통비가 AUD(A$)로 표시됨');
 
-    console.log('\n[11] 세트별 보기 (M5 아비스아이)');
+    console.log('\n[11] 세트별 보기 (최신 세트 M6 스톰 에메랄다)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드
     await page.waitForSelector('.pcard', { timeout: 8000 });
     await page.click('#modeSet');
     await new Promise((r) => setTimeout(r, 300));
     const setOpts = await page.$$eval('#setSelect option', (e) => e.length);
     const setCards = await page.$$eval('.pcard', (e) => e.length);
-    assert(setOpts >= 1 && setCards === setM5, `세트별 모드: 세트옵션 ${setOpts}개, 기본세트(M5) ${setCards}종 (데이터 ${setM5}종)`);
+    assert(setOpts >= 1 && setCards === setM6, `세트별 모드: 세트옵션 ${setOpts}개, 기본세트(M6 스톰 에메랄다) ${setCards}종 (데이터 ${setM6}종)`);
 
     console.log('\n[11-c] 헤더 스크롤 접힘 (흔들림 방지)');
     await page.evaluate(() => window.scrollTo(0, 0));

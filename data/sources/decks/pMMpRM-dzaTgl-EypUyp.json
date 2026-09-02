@@ -1,0 +1,177 @@
+[
+  {
+    "id": "48482",
+    "set": "M-P",
+    "type": "P",
+    "romaji": "EREZUN",
+    "count": 1
+  },
+  {
+    "id": "48495",
+    "set": "M2",
+    "type": "P",
+    "romaji": "SUTORINDA",
+    "count": 1
+  },
+  {
+    "id": "49203",
+    "set": "MC",
+    "type": "P",
+    "romaji": "ARABURUTAKE",
+    "count": 1
+  },
+  {
+    "id": "46415",
+    "set": "SV8",
+    "type": "P",
+    "romaji": "MOMOWAROU",
+    "count": 1
+  },
+  {
+    "id": "47773",
+    "set": "M1L",
+    "type": "P",
+    "romaji": "IBERUTARU",
+    "count": 1
+  },
+  {
+    "id": "45849",
+    "set": "SV6",
+    "type": "P",
+    "romaji": "MASHIMASHIRA",
+    "count": 1
+  },
+  {
+    "id": "48446",
+    "set": "M1L",
+    "type": "P",
+    "romaji": "MABUSORUEX",
+    "count": 1
+  },
+  {
+    "id": "46067",
+    "set": "SV6a",
+    "type": "P",
+    "romaji": "MOMOWAROUEX",
+    "count": 1
+  },
+  {
+    "id": "50004",
+    "set": "M2a",
+    "type": "P",
+    "romaji": "KICHIKIGISUEX",
+    "count": 1
+  },
+  {
+    "id": "44928",
+    "set": "S11a",
+    "type": "T",
+    "romaji": "ENERUGITSUKEKAE",
+    "count": 1
+  },
+  {
+    "id": "45783",
+    "set": "SV6",
+    "type": "T",
+    "romaji": "SHIKURETTOBOKKUSU",
+    "count": 1
+  },
+  {
+    "id": "45875",
+    "set": "SV6",
+    "type": "T",
+    "romaji": "NAKAYOSHIPOFUIN",
+    "count": 1
+  },
+  {
+    "id": "48440",
+    "set": "M1L",
+    "type": "T",
+    "romaji": "YORUNOTANKA",
+    "count": 1
+  },
+  {
+    "id": "49976",
+    "set": "M2a",
+    "type": "T",
+    "romaji": "HAIPABORU",
+    "count": 1
+  },
+  {
+    "id": "49977",
+    "set": "M2a",
+    "type": "T",
+    "romaji": "ROKETTODANNORESHIBA",
+    "count": 1
+  },
+  {
+    "id": "50068",
+    "set": "M3",
+    "type": "T",
+    "romaji": "ENERUGIRISAIKURU",
+    "count": 1
+  },
+  {
+    "id": "50070",
+    "set": "M3",
+    "type": "T",
+    "romaji": "POKEPADDO",
+    "count": 1
+  },
+  {
+    "id": "50205",
+    "set": "M4",
+    "type": "T",
+    "romaji": "SUPESHIXYARUREDDOKADO",
+    "count": 1
+  },
+  {
+    "id": "48441",
+    "set": "M1L",
+    "type": "T",
+    "romaji": "FUUSEN",
+    "count": 1
+  },
+  {
+    "id": "43305",
+    "set": "SV1a",
+    "type": "T",
+    "romaji": "BOSUNOSHIREIGECHISU",
+    "count": 1
+  },
+  {
+    "id": "47526",
+    "set": "SV10",
+    "type": "T",
+    "romaji": "ROKETTODANNORAMUDA",
+    "count": 1
+  },
+  {
+    "id": "48448",
+    "set": "M1L",
+    "type": "T",
+    "romaji": "RIRIENOKESSHIN",
+    "count": 1
+  },
+  {
+    "id": "47489",
+    "set": "SV10",
+    "type": "T",
+    "romaji": "ROKETTODANNOKANSHITOU",
+    "count": 1
+  },
+  {
+    "id": "48712",
+    "set": "M2a",
+    "type": "T",
+    "romaji": "ROKETTODANNOFUAKUTORI",
+    "count": 1
+  },
+  {
+    "id": "44971",
+    "set": "SV4K",
+    "type": "E",
+    "romaji": "KIHONAKUENERUGI",
+    "count": 1
+  }
+]

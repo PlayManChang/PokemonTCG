@@ -1,0 +1,156 @@
+[
+  {
+    "id": "47381",
+    "set": "SV9a",
+    "type": "P",
+    "romaji": "SHIRONANOGABURIASUEX",
+    "count": 1
+  },
+  {
+    "id": "49093",
+    "set": "MC",
+    "type": "P",
+    "romaji": "SHIRONANOGABAITO",
+    "count": 1
+  },
+  {
+    "id": "49092",
+    "set": "MC",
+    "type": "P",
+    "romaji": "SHIRONANOFUKAMARU",
+    "count": 1
+  },
+  {
+    "id": "47366",
+    "set": "SV9a",
+    "type": "P",
+    "romaji": "SHIRONANOROZUREIDO",
+    "count": 1
+  },
+  {
+    "id": "48748",
+    "set": "MC",
+    "type": "P",
+    "romaji": "SHIRONANOROZERIA",
+    "count": 1
+  },
+  {
+    "id": "49968",
+    "set": "M2a",
+    "type": "P",
+    "romaji": "SHIRONANOMIKARUGE",
+    "count": 1
+  },
+  {
+    "id": "45875",
+    "set": "SV6",
+    "type": "T",
+    "romaji": "NAKAYOSHIPOFUIN",
+    "count": 1
+  },
+  {
+    "id": "48438",
+    "set": "M1L",
+    "type": "T",
+    "romaji": "PAWAPUROTEIN",
+    "count": 1
+  },
+  {
+    "id": "48439",
+    "set": "M1L",
+    "type": "T",
+    "romaji": "FUAITOGONGU",
+    "count": 1
+  },
+  {
+    "id": "48440",
+    "set": "M1L",
+    "type": "T",
+    "romaji": "YORUNOTANKA",
+    "count": 1
+  },
+  {
+    "id": "49349",
+    "set": "MC",
+    "type": "T",
+    "romaji": "ANFUEASUTANPU",
+    "count": 1
+  },
+  {
+    "id": "50070",
+    "set": "M3",
+    "type": "T",
+    "romaji": "POKEPADDO",
+    "count": 1
+  },
+  {
+    "id": "49398",
+    "set": "MC",
+    "type": "T",
+    "romaji": "SHIRONANOPAWAUEITO",
+    "count": 1
+  },
+  {
+    "id": "45128",
+    "set": "SV4a",
+    "type": "T",
+    "romaji": "JIXYAJJIMAN",
+    "count": 1
+  },
+  {
+    "id": "47526",
+    "set": "SV10",
+    "type": "T",
+    "romaji": "ROKETTODANNORAMUDA",
+    "count": 1
+  },
+  {
+    "id": "48078",
+    "set": "SV11W",
+    "type": "T",
+    "romaji": "TOUKO",
+    "count": 1
+  },
+  {
+    "id": "49440",
+    "set": "MC",
+    "type": "T",
+    "romaji": "BOSUNOSHIREI",
+    "count": 1
+  },
+  {
+    "id": "49445",
+    "set": "MC",
+    "type": "T",
+    "romaji": "RIRIENOKESSHIN",
+    "count": 1
+  },
+  {
+    "id": "50009",
+    "set": "M2a",
+    "type": "T",
+    "romaji": "SAFUA",
+    "count": 1
+  },
+  {
+    "id": "50076",
+    "set": "M3",
+    "type": "T",
+    "romaji": "KATSURIXYOKUNOMORI",
+    "count": 1
+  },
+  {
+    "id": "49713",
+    "set": "M3",
+    "type": "E",
+    "romaji": "ROKKUTOUENERUGI",
+    "count": 1
+  },
+  {
+    "id": "48337",
+    "set": "M-P",
+    "type": "E",
+    "romaji": "KIHONTOUENERUGI",
+    "count": 1
+  }
+]

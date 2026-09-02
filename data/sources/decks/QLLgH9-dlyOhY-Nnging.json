@@ -1,0 +1,156 @@
+[
+  {
+    "id": "48778",
+    "set": "MC",
+    "type": "P",
+    "romaji": "KAJITCHIXYU",
+    "count": 1
+  },
+  {
+    "id": "46670",
+    "set": "SV8a",
+    "type": "P",
+    "romaji": "KAMITCHIXYU",
+    "count": 1
+  },
+  {
+    "id": "46667",
+    "set": "SV8a",
+    "type": "P",
+    "romaji": "SARUNORI",
+    "count": 1
+  },
+  {
+    "id": "46668",
+    "set": "SV8a",
+    "type": "P",
+    "romaji": "BACHINKI",
+    "count": 1
+  },
+  {
+    "id": "46689",
+    "set": "SV8a",
+    "type": "P",
+    "romaji": "TOSAKINTO",
+    "count": 1
+  },
+  {
+    "id": "46690",
+    "set": "SV8a",
+    "type": "P",
+    "romaji": "AZUMAOU",
+    "count": 1
+  },
+  {
+    "id": "48534",
+    "set": "M2a",
+    "type": "P",
+    "romaji": "SHIEIMI",
+    "count": 1
+  },
+  {
+    "id": "45209",
+    "set": "SV5K",
+    "type": "T",
+    "romaji": "NAKAYOSHIPOFUIN",
+    "count": 1
+  },
+  {
+    "id": "49601",
+    "set": "M-P",
+    "type": "T",
+    "romaji": "POKEPADDO",
+    "count": 1
+  },
+  {
+    "id": "49383",
+    "set": "MC",
+    "type": "T",
+    "romaji": "MUSHITORISETTO",
+    "count": 1
+  },
+  {
+    "id": "49600",
+    "set": "M-P",
+    "type": "T",
+    "romaji": "HAIPABORU",
+    "count": 1
+  },
+  {
+    "id": "45931",
+    "set": "SV6a",
+    "type": "T",
+    "romaji": "YORUNOTANKA",
+    "count": 1
+  },
+  {
+    "id": "48672",
+    "set": "M2a",
+    "type": "T",
+    "romaji": "SEINARUHAI",
+    "count": 1
+  },
+  {
+    "id": "45783",
+    "set": "SV6",
+    "type": "T",
+    "romaji": "SHIKURETTOBOKKUSU",
+    "count": 1
+  },
+  {
+    "id": "47889",
+    "set": "MA",
+    "type": "T",
+    "romaji": "FUUSEN",
+    "count": 1
+  },
+  {
+    "id": "49405",
+    "set": "MC",
+    "type": "T",
+    "romaji": "BUREIBUBANGURU",
+    "count": 1
+  },
+  {
+    "id": "47900",
+    "set": "MA",
+    "type": "T",
+    "romaji": "RIRIENOKESSHIN",
+    "count": 1
+  },
+  {
+    "id": "50295",
+    "set": "M5",
+    "type": "T",
+    "romaji": "GURAJIONOKESSEN",
+    "count": 1
+  },
+  {
+    "id": "49429",
+    "set": "MC",
+    "type": "T",
+    "romaji": "SUGURI",
+    "count": 1
+  },
+  {
+    "id": "49440",
+    "set": "MC",
+    "type": "T",
+    "romaji": "BOSUNOSHIREI",
+    "count": 1
+  },
+  {
+    "id": "46841",
+    "set": "SV8a",
+    "type": "T",
+    "romaji": "OMATSURIKAIJIXYOU",
+    "count": 1
+  },
+  {
+    "id": "47903",
+    "set": "ENE",
+    "type": "E",
+    "romaji": "KIHONKUSAENERUGI",
+    "count": 1
+  }
+]

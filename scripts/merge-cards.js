@@ -12,27 +12,33 @@ const OUT = path.join(ROOT, 'data', 'cards.json');
 // 덱 레지스트리 (티어/이름/스크랩 파일)
 // deckId = 공식 덱뷰어(pokemon-card.com/deck/result.html/deckID/...) 전체 덱리스트 보기용
 const DECKS = [
-  { id: 'dragapult',    name_ko: '드래펄트 ex',     name_ja: 'ドラパルトex',         tier: 1, file: 'x4GJ8c-Cr6ymd-GYJD8x.json', note: '환경 최강(S티어). 요노와르·바샤모·노코코치형 + 방해(크래시해머)형으로 다양화. 다수 대회 우승 — 모든 덱이 드래펄트 대책 필수 (2026.06)', deckId: 'x4GJ8c-Cr6ymd-GYJD8x' },
-  { id: 'bakegakure',   name_ko: '바케가쿠레',       name_ja: 'ばけがくれ',           tier: 2, file: 'JcYG88-tChzHO-cxG8Y8.json', note: 'A티어. 비룰 덱·특성으로 동시기절 방지, 데미지 2배로 전멸 노림. 회복·교체 방어에 약함', deckId: 'JcYG88-tChzHO-cxG8Y8' },
-  { id: 'mega-drilbur', name_ko: '메가몰드류 ex',    name_ja: 'メガドリュウズex',      tier: 2, file: 'SXRpyM-pSQX3o-Syy2Rp.json', note: 'A티어. 드래펄트 대항 메타 — 게노세크트·메타그로스 조합, 최강급 1:1 성능', deckId: 'SXRpyM-pSQX3o-Syy2Rp' },
-  { id: 'nzoroark',     name_ko: 'N의 조로아크 ex',  name_ja: 'Nのゾロアークex',      tier: 2, file: 'nzoroark.json',       note: 'A티어. 핸데스(손패 파괴) 전략으로 T1 대항', deckId: '4cDa8x-2ip2ND-84DGxc' },
-  { id: 'kamitsuorochi', name_ko: '카미츠오로치 ex', name_ja: 'カミツオロチex',        tier: 3, file: 'kamitsuorochi.json', note: '시티리그 우승 다수(드래펄트 다음 2강) — 사실상 상위권', deckId: 'bFFfkv-hZ6VlG-Fk5fb5' },
-  { id: 'takeraiko',    name_ko: '타케루라이코 ex',  name_ja: 'タケルライコex',        tier: 3, file: 'takeraiko.json',     note: '', deckId: '2MRyEp-Ar3Kb6-SyypXX' },
-  { id: 'mega-lucario', name_ko: '메가루카리오 ex',  name_ja: 'メガルカリオex',        tier: 3, file: 'mega-lucario.json',  note: '', deckId: 'VFkvVf-JfARGk-kk5bkF' },
-  { id: 'shirona-garchomp', name_ko: '시로나의 가브리아스 ex', name_ja: 'シロナのガブリアスex', tier: 3, file: 'shirona-garchomp.json', note: '', deckId: '8c8DcJ-L1xxUE-8G4xY4' },
-  { id: 'foodin',       name_ko: '후딘',             name_ja: 'フーディン',            tier: 3, file: 'foodin.json',        note: '핸드파워', deckId: 'D84cG4-0Ny7Kp-Dc8xc4' },
-  { id: 'mega-greninja', name_ko: '메가 겟코우가 ex', name_ja: 'メガゲッコウガex',      tier: 3, file: 'mega-greninja.json', note: '', deckId: 'nNL9HL-tB3wiQ-QNNgng' },
-  { id: 'rocket-mewtwo', name_ko: '로켓단의 뮤츠 ex', name_ja: 'ロケット団のミュウツーex', tier: 3, file: 'rocket-mewtwo.json', note: '', deckId: 'cGc84x-CnvrtW-GYxx8c' },
-  { id: 'mary-orronge', name_ko: '마리의 오롱털 ex', name_ja: 'マリィのオーロンゲex', tier: 3, file: 'Yxx48c-3lM0IE-xcx4x8.json', note: '신규(아비스아이). 유키메노코·마시마시라와 데미지 조작, 펑크업으로 에너지 가속', deckId: 'Yxx48c-3lM0IE-xcx4x8' },
+  // ── 현재 환경: 스톰 에메랄다(M6, 2026-07-31 발매) ──
+  // 티어표 출처: pokekameshi 2026-08-24 · 덱리스트는 공식 덱뷰어에서 스크랩
+  // 🆕 = 스톰 에메랄다 환경에서 새로 티어표에 들어온 덱
+  { id: 'dragapult',       name_ko: '드래펄트 ex',               name_ja: 'ドラパルトex',             tier: 1, file: 'niLLgQ-YL6A8Y-gQQn9N.json', note: '환경 최강(1강). 스톰 에메랄다 환경에서도 자리를 지킴 — 요노와르 「커스드 밤」으로 벤치를 저격하고 팬텀다이브로 마무리. 모든 덱이 드래펄트 대책 필수 (2026.08)', deckId: 'niLLgQ-YL6A8Y-gQQn9N' },
+  { id: 'mega-rayquaza',   name_ko: '메가레쿠쟈 ex',              name_ja: 'メガレックウザex',           tier: 2, file: '1kvFVF-JDWJKx-k5fkkb.json', note: '🆕 스톰 에메랄다 간판. 특성 「패자의 포효」로 벤치에 나오며 에너지를 가속하고, 「스톰 에메랄다」는 자기 포켓몬 전원의 에너지 수 ×50 — 후반 폭발력 최고', deckId: '1kvFVF-JDWJKx-k5fkkb' },
+  { id: 'takeraiko',       name_ko: '타케루라이코 ex',             name_ja: 'タケルライコex',            tier: 2, file: 'kVdb5F-ZkgmrI-Fkf1V5.json', note: '오거폰과 함께 에너지를 대량으로 붙여 한 방을 노리는 속공형', deckId: 'kVdb5F-ZkgmrI-Fkf1V5' },
+  { id: 'foodin',          name_ko: '후딘',                    name_ja: 'フーディン',               tier: 2, file: 'MX2Uyp-wLeekg-ppRRMp.json', note: '핸드파워. 상대 패를 말려 판을 잠그는 컨트롤', deckId: 'MX2Uyp-wLeekg-ppRRMp' },
+  { id: 'garura-box',      name_ko: '캥카 박스',                 name_ja: 'ガルーラボックス',            tier: 2, file: '9iLQQg-IZmSbV-NningL.json', note: '🆕 메가 캥카 ex 중심의 굿스터프. 파이어로 ex 「익사이트 다이브」로 벤치 전개가 빨라져 티어2 진입', deckId: '9iLQQg-IZmSbV-NningL' },
+  { id: 'omatsuriondo',    name_ko: '오마츠리온도(축제)',            name_ja: 'おまつりおんど',             tier: 2, file: 'QLLgH9-dlyOhY-Nnging.json', note: '「축제 회장」이 깔려 있으면 토사킨토·아즈마오우가 기술을 2연타. 스타디움 관리가 생명', deckId: 'QLLgH9-dlyOhY-Nnging' },
+  { id: 'nzoroark',        name_ko: 'N의 조로아크 ex',            name_ja: 'Nのゾロアークex',           tier: 2, file: 'ppXMUX-Qecj3h-yySRpM.json', note: '핸데스(손패 파괴) 전략으로 T1에 대항', deckId: 'ppXMUX-Qecj3h-yySRpM' },
+  { id: 'yadoking',        name_ko: '야도킹',                   name_ja: 'ヤドキング',               tier: 2, file: 'fFkFbk-LG7BwQ-vVF1Vk.json', note: '기술·특성으로 상대 움직임을 제한하는 방해형', deckId: 'fFkFbk-LG7BwQ-vVF1Vk' },
+  { id: 'mega-lucario',    name_ko: '메가루카리오 ex',             name_ja: 'メガルカリオex',            tier: 3, file: 'UR2MXy-P7Pfrq-pMypUy.json', note: '', deckId: 'UR2MXy-P7Pfrq-pMypUy' },
+  { id: 'bashadorapa',     name_ko: '바샤 드래펄트',               name_ja: 'バシャードラパ',             tier: 3, file: 'kFbb1V-8nVmCY-1FkfFf.json', note: '🆕 드래펄트 + 번치코 조합. 에너지 가속으로 팬텀다이브 타이밍을 앞당긴 변형', deckId: 'kFbb1V-8nVmCY-1FkfFf' },
+  { id: 'mary-orronge',    name_ko: '마리의 오롱털 ex',            name_ja: 'マリィのオーロンゲex',         tier: 3, file: 'kFkfbb-t1JgQb-5VFfvF.json', note: '', deckId: 'kFkfbb-t1JgQb-5VFfvF' },
+  { id: 'bakegakure',      name_ko: '바케가쿠레',                 name_ja: 'ばけがくれ',               tier: 3, file: '2pyEyy-CgxY47-pURREp.json', note: '특성으로 상대 기술·특성을 무시. 야바소차를 트래시에 쌓아 전체 데미지를 노린다', deckId: '2pyEyy-CgxY47-pURREp' },
+  { id: 'shirona-garchomp', name_ko: '시로나의 가브리아스 ex',         name_ja: 'シロナのガブリアスex',         tier: 3, file: 'LnQi9n-TWLU6N-PgNLgN.json', note: '', deckId: 'LnQi9n-TWLU6N-PgNLgN' },
+  { id: 'mega-drilbur',    name_ko: '메가몰드류 ex',              name_ja: 'メガドリュウズex',           tier: 3, file: 'pppRMX-JZDwG9-XyUSSU.json', note: '드래펄트 대항 메타 — 게노세크트·메타그로스 조합', deckId: 'pppRMX-JZDwG9-XyUSSU' },
+  { id: 'strindar',        name_ko: '스트린더',                  name_ja: 'ストリンダー',              tier: 3, file: 'pMMpRM-dzaTgl-EypUyp.json', note: '🆕 스트린더 중심의 악 타입. 아라불타케·모모와로우로 독을 얹어 굳힌다', deckId: 'pMMpRM-dzaTgl-EypUyp' },
+  { id: 'mega-greninja',   name_ko: '메가 겟코우가 ex',            name_ja: 'メガゲッコウガex',           tier: 3, file: 'vbFkw1-fA38fT-FFVFkF.json', note: '', deckId: 'vbFkw1-fA38fT-FFVFkF' },
+  { id: 'kamitsuorochi',   name_ko: '카미츠오로치 ex',             name_ja: 'カミツオロチex',            tier: 3, file: 'RyMy2X-YlWV4K-2pyUX2.json', note: '오거폰 초록가면으로 에너지를 대며 카미츠오로치로 때리는 안정형. 시티리그 우승 다수', deckId: 'RyMy2X-YlWV4K-2pyUX2' },
+  // ── 이전 환경(어비스아이 M5, 2026-05~06) 기록 — 카드 풀 유지용 ──
+  { id: 'rocket-mewtwo', name_ko: '로켓단의 뮤츠 ex', name_ja: 'ロケット団のミュウツーex', tier: 4, file: 'rocket-mewtwo.json', note: '', deckId: 'cGc84x-CnvrtW-GYxx8c' },
   { id: 'mega-venusaur', name_ko: '메가 이상해꽃 ex', name_ja: 'メガフシギバナex', tier: 4, file: 'vwkvkb-tw6BXE-kF1kfF.json', note: 'HP380 고내구. 솔라트랜스로 에너지 이동, 정글덤프 240. 5/23 세키치쿠배 우승', deckId: 'vwkvkb-tw6BXE-kF1kfF' },
-  // tier 4 = 최근 짐배틀 우승덱 (pokekameshi)
-  { id: 'omatsuriondo', name_ko: '오마츠리온도(축제)', name_ja: 'おまつりおんど',     tier: 4, file: 'omatsuriondo.json', note: '', deckId: 'MyMRM3-CfkooR-SUMSSp' },
   { id: 'mega-livolt',  name_ko: '메가 라이볼트 ex',  name_ja: 'メガライボルトex',   tier: 4, file: 'mega-livolt.json',  note: '', deckId: 'nnHLNn-6zLr6V-gigQ9Q' },
   { id: 'dodekabashi',  name_ko: '도데카바시',        name_ja: 'ドデカバシ',         tier: 4, file: 'dodekabashi.json',  note: '', deckId: 'nQgPnN-FUmwSI-Qn9inn' },
   { id: 'mega-chandelure', name_ko: '메가 샹델라 ex', name_ja: 'メガシャンデラex',   tier: 4, file: 'mega-chandelure.json', note: '', deckId: 'J8Jxxc-iAMkjI-8DcGcY' },
-  // tier 4 = 최근 짐배틀 우승덱 추가분 (2026-05 pokekameshi / pokecabook)
   { id: 'wailord',         name_ko: '고래왕',           name_ja: 'ホエルオーex',        tier: 4, file: 'wailord.json',         note: '쥬레곤 컨트롤', deckId: 'GGcaD8-P89wLv-88DcaY' },
-  { id: 'yadoking',        name_ko: '야도킹',           name_ja: 'ヤドキング',          tier: 4, file: 'yadoking.json',        note: '기술 카피. 2026.06 대회서 드래펄트·바샤모와 함께 상위 입상(つくば大会 등)', deckId: 'VkbFv1-Ax764w-bfvbVk' },
   { id: 'riguree-control', name_ko: '리그레 컨트롤',     name_ja: 'リグレーコントロール', tier: 4, file: 'riguree-control.json', note: '컨트롤', deckId: 'HinHn9-k9H1jV-gNnngQ' },
   { id: 'mega-garura',     name_ko: '메가 캥카 ex',      name_ja: 'メガガルーラex',       tier: 4, file: 'mega-garura.json',     note: '', deckId: 'yRM3yp-xRqcOP-SyMypp' },
   { id: 'mega-absol',      name_ko: '메가 앱솔 ex',      name_ja: 'メガアブソルex',       tier: 4, file: 'mega-absol.json',      note: '', deckId: 'cYc8xY-ktp0Nc-8aYcKG' },
@@ -42,7 +48,6 @@ const DECKS = [
   { id: 'daigo-metagross', name_ko: '다이고의 메타그로스 ex', name_ja: 'ダイゴのメタグロスex', tier: 4, file: 'daigo-metagross.json', note: '', deckId: 'kF5v5k-ubmgBy-bwkFFb' },
   { id: 'sazandora',       name_ko: '삼삼드래 ex',       name_ja: 'サザンドラex',         tier: 4, file: 'sazandora.json',       note: '', deckId: '8Y4cGJ-cJXj8k-K4Kcx8' },
   { id: 'ogerpon-bullet',  name_ko: '오거폰 불릿',       name_ja: 'オーガポンバレット',   tier: 4, file: 'ogerpon-bullet.json',  note: '오거폰 다타입 운용. 2026.06 피피/오거폰형이 駿河屋CS(126명) 우승', deckId: 'p3SySX-3ZRLMK-Ryp22y' },
-  // tier 4 = 주말 짐배틀 우승덱 추가분 (2026-05-30~31)
   { id: 'rampardos',        name_ko: '램펄드 ex',        name_ja: 'ラムパルドex',        tier: 4, file: 'rampardos.json',        note: '화석·고타점', deckId: 'cYcaY8-Xz7M6k-DcGc8D' },
   { id: 'mega-charizard-x', name_ko: '메가 리자몽 X ex',  name_ja: 'メガリザードンXex',    tier: 4, file: 'mega-charizard-x.json', note: '불꽃 고화력', deckId: 'ySyp2R-UqbO1K-SXSM3p' },
   { id: 'cinccino',         name_ko: '치라치노 ex',      name_ja: 'チラチーノex',        tier: 4, file: 'cinccino.json',         note: '코인 회피', deckId: 'iQng69-nLb2QT-nLgnnN' },
@@ -133,6 +138,14 @@ for (const d of DECKS) {
     romajiDecks[r][d.id] = (romajiDecks[r][d.id] || 0) + (c.count || 1);
   }
 }
+// 1-a) 등록되지 않은 덱 스크랩도 ID→romaji 매핑에만 사용한다.
+// (덱 레지스트리에서 빠진 옛 덱의 카드 ID로 작성된 기존 번역이 유실되지 않도록)
+for (const f of fs.readdirSync(DECKS_DIR).filter((x) => x.endsWith('.json'))) {
+  for (const c of JSON.parse(fs.readFileSync(path.join(DECKS_DIR, f), 'utf8'))) {
+    if (!idInfo[c.id]) idInfo[c.id] = { set: c.set, type: c.type, romaji: c.romaji, id: c.id };
+  }
+}
+
 // 1-b) 세트 스캔 로드 (덱에 없어도 세트 단위로 포함)
 const SETS_DIR = path.join(ROOT, 'data', 'sources', 'sets');
 const romajiSet = {}; // romaji -> setCode (세트 멤버십)
@@ -150,6 +163,10 @@ const idToRomaji = Object.fromEntries(Object.values(idInfo).map((i) => [i.id, i.
 // 에너지 비용 교정 데이터(공식 페이지 재수집) — scripts/scrape-energy.js 생성
 const ENERGY_FILE = path.join(ROOT, 'data', 'sources', 'energy.json');
 const energyOverride = fs.existsSync(ENERGY_FILE) ? JSON.parse(fs.readFileSync(ENERGY_FILE, 'utf8')) : {};
+// 한자가 섞인 이름은 kanaToHangul이 읽지 못하므로, 가나 표기를 따로 공급한다.
+const KANA_FILE = path.join(ROOT, 'data', 'sources', 'kana.json');
+const kanaOverride = fs.existsSync(KANA_FILE) ? JSON.parse(fs.readFileSync(KANA_FILE, 'utf8')) : {};
+const readOf = (ja) => kanaToHangul(kanaOverride[ja] || ja);
 
 // 2) 카드 상세(번역물) 로드 → romaji 기준 정규화
 const detailByRomaji = {};
@@ -187,14 +204,14 @@ for (const romaji of universe) {
   const decks = Object.keys(romajiDecks[romaji] || {});
   const tiers = [...new Set(decks.map((d) => tierById[d]))].sort();
   const nameJa = det.name_ja || '';
-  const read = kanaToHangul(nameJa); // 일본어 발음(한글)
+  const read = readOf(det.kana || nameJa); // 일본어 발음(한글) — kana 오버라이드 우선
   const ov = energyOverride[String(id)] || []; // 공식 페이지 기반 에너지 비용 교정
-  const abilities = (det.abilities || []).map((a) => ({ ...a, read: kanaToHangul(a.name_ja || '') }));
+  const abilities = (det.abilities || []).map((a) => ({ ...a, read: readOf(a.name_ja || '') }));
   const attacks = (det.attacks || []).map((a, idx) => {
     let cost = a.cost_ko || '';
     const m = ov.find((x) => x.name_ja === a.name_ja) || (ov.length === (det.attacks || []).length ? ov[idx] : null);
     if (m && m.cost != null) cost = m.cost; // 정확한 에너지로 덮어쓰기
-    return { ...a, cost_ko: cost, read: kanaToHangul(a.name_ja || '') };
+    return { ...a, cost_ko: cost, read: readOf(a.name_ja || '') };
   });
   cards.push({
     id,

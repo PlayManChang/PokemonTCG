@@ -20,7 +20,7 @@ const els = {
 
 // 세트 코드 → 표시 이름 (확실한 것만; 나머지는 코드 그대로)
 const SET_NAMES = {
-  M5: '어비스아이 (최신)', M4: '메가브레이브·심포니아', M3: '무니키스제로',
+  M6: '스톰 에메랄다 (최신)', M5: '어비스아이', M4: '메가브레이브·심포니아', M3: '무니키스제로',
   MC: '스타트덱', SV10: '로켓단의 영광', SV9: '배틀파트너스', SV8: '초전브레이커',
   SV8a: '테라스탈페스ex', SV6: '변환의 가면', SV7: '스텔라미라클',
 };
@@ -43,10 +43,10 @@ async function init() {
   state.deck = (state.decks.find((d) => d.tier === state.tier) || {}).id;
   buildTierRow(tiers);
   buildDeckSelect();
-  // 세트 목록 (보유 카드 수 기준, M5 우선)
+  // 세트 목록 (보유 카드 수 기준, 최신 세트 M6 우선)
   const setCount = (s) => state.cards.filter((c) => c.set === s).length;
   state.sets = [...new Set(state.cards.map((c) => c.set).filter(Boolean))]
-    .sort((a, b) => (b === 'M5') - (a === 'M5') || setCount(b) - setCount(a));
+    .sort((a, b) => (b === 'M6') - (a === 'M6') || (b === 'M5') - (a === 'M5') || setCount(b) - setCount(a));
   state.set = state.sets[0];
   buildSetSelect();
   buildCategoryChips();
