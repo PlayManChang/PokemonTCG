@@ -550,6 +550,17 @@ function assert(cond, msg) {
     const anchor = await page.$eval('body', (e) => getComputedStyle(e).overflowAnchor);
     assert(anchor === 'none', `스크롤 앵커링 비활성(overflow-anchor:${anchor}) — 접힘 흔들림 차단`);
 
+    console.log('\n[11-d] 서비스워커 (오프라인 캐시 목록·데이터 신선도)');
+    const swSrc = fs.readFileSync(path.join(ROOT, 'sw.js'), 'utf8');
+    // 배포되는 html/js 가 전부 오프라인 캐시 목록(CORE)에 들어 있는지
+    const shipped = fs.readdirSync(ROOT).filter((f) => f.endsWith('.html'))
+      .concat(fs.readdirSync(path.join(ROOT, 'js')).filter((f) => f.endsWith('.js')).map((f) => 'js/' + f));
+    const notCached = shipped.filter((f) => !swSrc.includes("'./" + f + "'"));
+    assert(notCached.length === 0, `모든 페이지·스크립트가 오프라인 캐시 목록에 있음 (누락 ${notCached.join(', ') || '없음'})`);
+    // 여행 데이터는 네트워크 우선이어야 배포 직후 바로 반영된다
+    const netFirst = swSrc.includes('data') && swSrc.includes('네트워크 우선') && /await fetch\(req\);[\s\S]{0,200}cache\.match\(req\)/.test(swSrc);
+    assert(netFirst, '여행 데이터(data/*.json)는 네트워크 우선 — 수정이 바로 반영됨');
+
     console.log('\n[12] 콘솔 에러');
     // 아직 자료 없는 대회의 data/*.json 은 404 → '준비 중' 폴백(의도된 동작)이라 무시
     const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices|pokemon-card\.com|net::ERR|404|Not Found/i.test(e));

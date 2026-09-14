@@ -1,6 +1,6 @@
 // PJCS 용어집 Service Worker — 오프라인 지원 (stale-while-revalidate)
 // + 카드 이미지 런타임 캐싱(한 번 본 카드는 오프라인에서도 표시)
-const CACHE = 'pjcs-v75';
+const CACHE = 'pjcs-v76';
 const IMG_CACHE = 'pjcs-cardimg-v1';
 // 설치 시 미리 받는 '핵심 앱 셸'만(가벼움 → 설치 빠름).
 // 큰 파일(cards.json 512KB, 룰 PDF 700KB)은 목록에서 빼고, 처음 열 때 fetch 핸들러가 자동 캐싱한다.
@@ -116,6 +116,28 @@ self.addEventListener('fetch', (e) => {
           if (res && (res.ok || res.type === 'opaque')) cache.put(req, res.clone());
           return res;
         } catch (err) {
+          return hit || Response.error();
+        }
+      })
+    );
+    return;
+  }
+
+  // 여행 데이터(data/*.json)는 '네트워크 우선'.
+  // 출발 직전까지 일정·맛집이 자주 바뀌는데 캐시 우선이면 고친 내용이 다음 방문에야 보인다.
+  // 온라인이면 항상 최신을 주고, 오프라인일 때만 캐시로 떨어진다(현지에서의 오프라인 사용은 그대로 보장).
+  // 단, 용량이 큰 cards.json·terms.json은 여행 중 거의 바뀌지 않으므로 기존 방식(캐시 우선)을 유지한다.
+  if (url.origin === self.location.origin
+      && /\/data\/.*\.json$/.test(url.pathname)
+      && !/\/(cards|terms)\.json$/.test(url.pathname)) {
+    e.respondWith(
+      caches.open(CACHE).then(async (cache) => {
+        try {
+          const res = await fetch(req);
+          if (res && res.status === 200 && res.type === 'basic') cache.put(req, res.clone());
+          return res;
+        } catch (err) {
+          const hit = await cache.match(req);
           return hit || Response.error();
         }
       })
