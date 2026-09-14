@@ -234,6 +234,8 @@ mark { background: var(--yellow); color: inherit; padding: 0 1px; border-radius:
   flex: 0 0 auto;
 }
 .header-spacer { width: 38px; flex: 0 0 auto; }
+/* 설치 버튼 자리. 버튼이 숨겨져 있어도 38px을 차지해야 제목이 가운데에 남는다 */
+.header-actions { min-width: 38px; flex: 0 0 auto; display: inline-flex; justify-content: flex-end; align-items: center; }
 .title-row h1 { flex: 1; text-align: center; }
 .cards-page .title-row h1 { text-align: left; }
 .nav-menu {

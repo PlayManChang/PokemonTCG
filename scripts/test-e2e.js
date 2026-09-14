@@ -557,6 +557,30 @@ function assert(cond, msg) {
     const anchor = await page.$eval('body', (e) => getComputedStyle(e).overflowAnchor);
     assert(anchor === 'none', `스크롤 앵커링 비활성(overflow-anchor:${anchor}) — 접힘 흔들림 차단`);
 
+    console.log('\n[11-e] 앱 설치 버튼·서비스워커 (모든 페이지)');
+    const htmlPages = fs.readdirSync(ROOT).filter((f) => f.endsWith('.html'));
+    const swJs = ['app-install.js', 'app.js', 'cards.js'];
+    const noSw = htmlPages.filter((f) => {
+      const html = fs.readFileSync(path.join(ROOT, f), 'utf8');
+      return !swJs.some((j) => html.includes('./js/' + j));
+    });
+    assert(noSw.length === 0, `모든 페이지가 서비스워커를 등록함 (누락 ${noSw.join(', ') || '없음'})`);
+    const noBtn = [];
+    for (const f of htmlPages) {
+      await page.goto(BASE + '/' + f, { waitUntil: 'domcontentloaded' });
+      await new Promise((r) => setTimeout(r, 250));
+      const shown = await page.evaluate(() => {
+        const ev = new Event('beforeinstallprompt');
+        ev.prompt = () => {};
+        ev.userChoice = Promise.resolve({ outcome: 'dismissed' });
+        window.dispatchEvent(ev);
+        const b = document.getElementById('installBtn');
+        return !!b && !b.hidden;
+      });
+      if (!shown) noBtn.push(f);
+    }
+    assert(noBtn.length === 0, `${htmlPages.length}개 페이지 모두 '앱 설치' 버튼이 뜸 (누락 ${noBtn.join(', ') || '없음'})`);
+
     console.log('\n[11-d] 서비스워커 (오프라인 캐시 목록·데이터 신선도)');
     const swSrc = fs.readFileSync(path.join(ROOT, 'sw.js'), 'utf8');
     // 배포되는 html/js 가 전부 오프라인 캐시 목록(CORE)에 들어 있는지
