@@ -240,11 +240,12 @@ function assert(cond, msg) {
     assert(dirLinks >= planData.keyRoutes.length, `이동경로 길찾기 버튼 ${dirLinks}개`);
     // 교통비 인원수 변경 → 합계 자동 변경
     const totalSel = '.plan-total-row td:last-child';
-    const total3 = await page.$eval(totalSel, (e) => e.textContent);
-    await page.$eval('.plan-people-input', (i) => { i.value = '5'; i.dispatchEvent(new Event('input', { bubbles: true })); });
+    const totalDefault = await page.$eval(totalSel, (e) => e.textContent);
+    await page.$eval('.plan-people-input', (i) => { i.value = '2'; i.dispatchEvent(new Event('input', { bubbles: true })); });
     await new Promise((r) => setTimeout(r, 150));
-    const total5 = await page.$eval(totalSel, (e) => e.textContent);
-    assert(total3 !== total5, `교통비 인원수 변경 시 합계 자동 재계산 (${total3} → ${total5})`);
+    const total2 = await page.$eval(totalSel, (e) => e.textContent);
+    assert(totalDefault !== total2, `교통비 인원수 변경 시 합계 자동 재계산 (${totalDefault} → ${total2})`);
+    assert(planData.transit.peopleDefault === 5, `교통비 기본 인원 5인 (동행 포함)`);
     // 대회 결과 분기 토글 (진출/탈락 → 일정 전환). 라벨은 대회마다 다르므로 두 번째 버튼을 누른다.
     const branchBefore = await page.$$eval('.plan-day', (els) => els.map((e) => e.textContent).join('|'));
     await page.$$eval('.plan-toggle-btn', (btns) => { if (btns[1]) btns[1].click(); });
@@ -337,25 +338,26 @@ function assert(cond, msg) {
     const homeExt = await page.$$eval('.ev-quick-item[target="_blank"]', (e) => e.length);
     assert(homeExt === 3, `메타검색 외부 타일 ${homeExt}개(포케카북/윈덱스/포케카메시)`);
 
-    console.log('\n[10-f] 대회 상세 (개요·교통·호텔·맛집·체크리스트)');
+    console.log('\n[10-f] 대회 상세 (개요·교통·호텔·체크리스트)');
     const evId = eventsData.events[0].id;
     const hotelsData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'hotels.json'), 'utf8'));
-    const foodData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'restaurants.json'), 'utf8'));
     const checkData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'checklists.json'), 'utf8'));
     await page.goto(BASE + '/event.html?id=' + evId, { waitUntil: 'networkidle0' });
     await page.waitForSelector('#sec-overview', { timeout: 5000 });
-    const secIds = ['sec-overview', 'sec-guide', 'sec-entry', 'sec-transport', 'sec-hotels', 'sec-food', 'sec-checklist'];
+    const secIds = ['sec-overview', 'sec-guide', 'sec-entry', 'sec-transport', 'sec-hotels', 'sec-checklist']; // 맛집은 food.html 로 분리
     const secsPresent = await page.evaluate((ids) => ids.filter((s) => document.getElementById(s)).length, secIds);
-    assert(secsPresent === secIds.length, `상세 섹션 ${secsPresent}/${secIds.length}개 렌더(개요·현지가이드·참가·교통·호텔·맛집·체크리스트)`);
+    assert(secsPresent === secIds.length, `상세 섹션 ${secsPresent}/${secIds.length}개 렌더(개요·현지가이드·참가·교통·호텔·체크리스트)`);
     const guideTiles = await page.$$eval('#sec-guide .ev-quick-item', (e) => e.length);
     const evExtra = (eventsData.events[0].extraTiles || []).length;
-    assert(guideTiles === 5 + evExtra, `현지 가이드 타일 ${guideTiles}개(기본5 + 추가${evExtra})`);
+    assert(guideTiles === 6 + evExtra, `현지 가이드 타일 ${guideTiles}개(기본6 + 추가${evExtra})`);
     const hotelRows = await page.$$eval('#sec-hotels .ev-place', (e) => e.length);
     assert(hotelRows === hotelsData[evId].length, `호텔 ${hotelRows}곳 렌더 (데이터 ${hotelsData[evId].length}곳과 일치)`);
-    const foodRows = await page.$$eval('#sec-food .ev-place', (e) => e.length);
-    assert(foodRows === foodData[evId].length, `맛집 ${foodRows}곳 렌더 (데이터 ${foodData[evId].length}곳과 일치)`);
+    const inlineFood = await page.$$eval('#sec-food', (e) => e.length);
+    assert(inlineFood === 0, `상세보기에서 맛집 섹션 분리됨 (food.html 타일로 이동)`);
+    const foodTile = await page.$$eval('.ev-quick-item[href*="food.html"]', (e) => e.length);
+    assert(foodTile === 1, `현지 가이드에 맛집 타일 연결됨`);
     const evMapLinks = await page.$$eval('a[href*="google.com/maps"]', (e) => e.length);
-    assert(evMapLinks >= hotelRows + foodRows, `지도/길찾기 링크 ${evMapLinks}개 연결됨`);
+    assert(evMapLinks >= hotelRows, `지도/길찾기 링크 ${evMapLinks}개 연결됨`);
     const commonChecks = checkData.common.reduce((s, g) => s + g.items.length, 0);
     const eventChecks = (checkData.byEvent[evId] || []).reduce((s, g) => s + g.items.length, 0);
     const checkBoxes = await page.$$eval('#sec-checklist .ev-check-item input', (e) => e.length);
@@ -407,7 +409,7 @@ function assert(cond, msg) {
     const airlines = await page.$$eval('#sec-transport .ev-air-head', (e) => e.length);
     assert(airlines >= 5, `교통: 공항+항공사 비교 ${airlines}블록 표시됨`);
     const naicTiles = await page.$$eval('#sec-guide .ev-quick-item', (e) => e.length);
-    assert(naicTiles === 7, `NAIC 현지가이드 타일 ${naicTiles}개(기본5 + FAQ + 비용계산기)`);
+    assert(naicTiles === 8, `NAIC 현지가이드 타일 ${naicTiles}개(기본6 + FAQ + 비용계산기)`);
     const entryPhrases = await page.$$eval('#sec-entry .tf-phrases li', (e) => e.length);
     assert(entryPhrases >= 3, `미국 현장 영어 표현 ${entryPhrases}개 표시됨`);
     // NAIC 체크리스트: 공통(일본어) 제외, 자체 목록만 → 일본어 없어야 함
@@ -447,7 +449,7 @@ function assert(cond, msg) {
     await page.goto(BASE + '/event.html?id=sydney-rc', { waitUntil: 'networkidle0' });
     await page.waitForSelector('#sec-overview', { timeout: 5000 });
     const sydTiles = await page.$$eval('#sec-guide .ev-quick-item', (e) => e.length);
-    assert(sydTiles === 7, `시드니 현지가이드 타일 ${sydTiles}개(기본5 + FAQ + 계산기)`);
+    assert(sydTiles === 8, `시드니 현지가이드 타일 ${sydTiles}개(기본6 + FAQ + 계산기)`);
     const sydCd = await page.$('.ev-cd-num');
     assert(!!sydCd, '시드니 카운트다운 표시됨');
     const sydCheckJP = await page.$$eval('#sec-checklist .ev-check-text', (els) => els.some((e) => /[぀-ヿ一-龯]/.test(e.textContent)));
@@ -476,7 +478,7 @@ function assert(cond, msg) {
     await page.goto(BASE + '/event.html?id=brisbane-rc', { waitUntil: 'networkidle0' });
     await page.waitForSelector('#sec-overview', { timeout: 5000 });
     const bneTiles = await page.$$eval('#sec-guide .ev-quick-item', (e) => e.length);
-    assert(bneTiles === 7, `브리즈번 현지가이드 타일 ${bneTiles}개(기본5 + FAQ + 계산기)`);
+    assert(bneTiles === 8, `브리즈번 현지가이드 타일 ${bneTiles}개(기본6 + FAQ + 계산기)`);
     const bneCheckJP = await page.$$eval('#sec-checklist .ev-check-text', (els) => els.some((e) => /[぀-ヿ一-龯]/.test(e.textContent)));
     assert(!bneCheckJP, '브리즈번 체크리스트에 일본어 없음 ✅');
     const bneEta = await page.$$eval('#sec-checklist .ev-check-text', (els) => els.some((e) => e.textContent.includes('ETA')));
@@ -501,6 +503,20 @@ function assert(cond, msg) {
     await page.waitForSelector('.plan-day', { timeout: 5000 });
     const bneAud = await page.$$eval('.plan-table td', (tds) => tds.some((t) => t.textContent.includes('A$')));
     assert(bneAud, '브리즈번 여행가이드 교통비가 AUD(A$)로 표시됨');
+
+    console.log('\n[10-k] 맛집 페이지 (지역별)');
+    const foodJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'food', 'yokohama.json'), 'utf8'));
+    await page.goto(BASE + '/food.html?event=yokohama', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.shop-item', { timeout: 5000 });
+    const foodAreas = await page.$$eval('#foodRoot .gcard > h2', (e) => e.length);
+    assert(foodAreas === foodJson.areas.length, `맛집 지역 ${foodAreas}개 렌더 (데이터 ${foodJson.areas.length}개)`);
+    const foodShops = await page.$$eval('.shop-item .shop-name[href*="google.com/maps"]', (e) => e.length);
+    const foodTotal = foodJson.areas.reduce((n, a) => n + a.shops.length, 0);
+    assert(foodShops === foodTotal, `맛집 ${foodShops}곳 지도링크 렌더 (데이터 ${foodTotal}곳)`);
+    const whenChips = await page.$$eval('.food-when', (e) => e.length);
+    assert(whenChips === foodJson.areas.length, `지역마다 일정 배지 표시됨 (${whenChips}개)`);
+    const foodReady = await page.evaluate(() => !document.body.innerText.includes('준비 중'));
+    assert(foodReady, '맛집 페이지가 데이터로 정상 렌더됨');
 
     console.log('\n[11] 세트별 보기 (최신 세트 M6 스톰 에메랄다)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드

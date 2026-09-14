@@ -758,3 +758,16 @@ details.pjcs-ref > section { margin-top: 10px; }
 .ev-check-label input { width: 20px; height: 20px; flex: 0 0 auto; margin-top: 1px; accent-color: #1b9e4b; }
 .ev-check-text { flex: 1; line-height: 1.5; font-size: .92rem; }
 .ev-check-item.is-done .ev-check-text { color: var(--muted); text-decoration: line-through; }
+
+/* 맛집 페이지 — 지역별 일정 배지 */
+.food-when {
+  display: inline-block;
+  margin: 0 0 8px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: #e8f5e9;
+  color: #1b5e20;
+  font-size: .82rem;
+  font-weight: 700;
+}
+.shop-tel { color: #1565c0; text-decoration: none; }

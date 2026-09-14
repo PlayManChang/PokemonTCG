@@ -1,6 +1,6 @@
 // PJCS 용어집 Service Worker — 오프라인 지원 (stale-while-revalidate)
 // + 카드 이미지 런타임 캐싱(한 번 본 카드는 오프라인에서도 표시)
-const CACHE = 'pjcs-v73';
+const CACHE = 'pjcs-v74';
 const IMG_CACHE = 'pjcs-cardimg-v1';
 // 설치 시 미리 받는 '핵심 앱 셸'만(가벼움 → 설치 빠름).
 // 큰 파일(cards.json 512KB, 룰 PDF 700KB)은 목록에서 빼고, 처음 열 때 fetch 핸들러가 자동 캐싱한다.
@@ -13,6 +13,7 @@ const CORE = [
   './guide.html',
   './shops.html',
   './shopping.html',
+  './food.html',
   './locations.html',
   './plan.html',
   './past.html',
@@ -28,6 +29,7 @@ const CORE = [
   './js/event-chrome.js',
   './js/shops.js',
   './js/shopping.js',
+  './js/food.js',
   './js/locations.js',
   './js/plan.js',
   './js/past.js',
@@ -39,6 +41,7 @@ const CORE = [
   './data/transport.json',
   './data/hotels.json',
   './data/restaurants.json',
+  './data/food/yokohama.json',
   './data/checklists.json',
   './data/shops/yokohama.json',
   './data/shops/chiba.json',

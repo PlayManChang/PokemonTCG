@@ -1,7 +1,8 @@
 'use strict';
 // 대회 상세 페이지: event.html?id=xxx 로 들어오면 해당 대회의
-// 개요·참가방법·교통·호텔·맛집·체크리스트를 한 화면에 렌더한다.
-// 데이터: events.json(코어) + transport/hotels/restaurants/checklists.json (eventId별).
+// 개요·참가방법·교통·호텔·체크리스트를 한 화면에 렌더한다(맛집은 별도 페이지).
+// 데이터: events.json(코어) + transport/hotels/checklists.json (eventId별).
+// 맛집은 food.html + data/food/<eventId>.json 으로 분리돼 있다.
 // 내용 수정은 data/*.json 만 고치면 된다(코드 수정 불필요).
 (function () {
   const root = document.getElementById('eventRoot');
@@ -121,6 +122,7 @@
         { href: 'guide.html', icon: '📋', label: '대회 안내', desc: '리그·덱 규정·지참물·매너' },
         { href: 'shops.html?event=' + enc(ev.id), icon: '🏪', label: '카드 구매처', desc: '현지 포켓몬카드 가게 지도' },
         { href: 'shopping.html?event=' + enc(ev.id), icon: '🛍️', label: '쇼핑', desc: '쇼핑·면세/세금 안내' },
+        { href: 'food.html?event=' + enc(ev.id), icon: '🍜', label: '맛집', desc: '지역별 식당 지도' },
         { href: 'locations.html?event=' + enc(ev.id), icon: '📌', label: '위치 한눈에', desc: '주요 장소 약식 지도' },
         { href: 'plan.html?event=' + enc(ev.id), icon: '🗺️', label: '여행 가이드', desc: '일정·교통비·예산' }
       ];
@@ -241,13 +243,7 @@
     }
 
     // ── 맛집 ──
-    if (restaurants && restaurants.length) {
-      const sec = section('food', '🍜 맛집');
-      const ul = el('ul', 'ev-places');
-      restaurants.forEach((r) => ul.appendChild(placeRow(r, 'transit')));
-      sec.appendChild(ul);
-      sec.appendChild(el('p', 'disclaimer', '영업시간·정보는 변동될 수 있어요. 방문 전 확인하세요.'));
-    }
+    // 상세보기가 길어져 별도 페이지(food.html)로 분리했다. 위 '현지 가이드'의 🍜 맛집 타일로 연결된다.
 
     // ── 체크리스트 ──
     if (checklists) {
@@ -313,19 +309,13 @@
       const ev = (data.events || []).find((e) => e.id === id);
       if (!ev) { fail('대회를 찾을 수 없어요. <a href="./index.html">대회 일정</a>에서 다시 선택해 주세요.'); return; }
       const grab = (url) => fetch(url).then((r) => r.json()).catch(() => null);
+      // 맛집(restaurants.json)은 food.html 로 분리돼 여기서 받지 않는다.
       Promise.all([
         grab('./data/transport.json'),
         grab('./data/hotels.json'),
-        grab('./data/restaurants.json'),
         grab('./data/checklists.json')
-      ]).then(([tr, ho, re, ch]) => {
-        render(
-          ev, data,
-          tr && tr[ev.id],
-          ho && ho[ev.id],
-          re && re[ev.id],
-          ch
-        );
+      ]).then(([tr, ho, ch]) => {
+        render(ev, data, tr && tr[ev.id], ho && ho[ev.id], null, ch);
       });
     })
     .catch(() => fail('대회 정보를 불러오지 못했습니다. 인터넷 연결을 확인하세요.'));

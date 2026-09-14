@@ -12,6 +12,7 @@ const files = [
   'guide.html',
   'shops.html',
   'shopping.html',
+  'food.html',
   'locations.html',
   'plan.html',
   'past.html',
@@ -50,8 +51,8 @@ const files = [
   'docs/floor-rule-ko.pdf',
 ];
 
-// 대회별 데이터(data/shops|shopping|locations|plan|faq|calc/<event>.json)를 자동 포함
-for (const sub of ['shops', 'shopping', 'locations', 'plan', 'faq', 'calc']) {
+// 대회별 데이터(data/shops|shopping|food|locations|plan|faq|calc/<event>.json)를 자동 포함
+for (const sub of ['shops', 'shopping', 'food', 'locations', 'plan', 'faq', 'calc']) {
   const dir = path.join(ROOT, 'data', sub);
   if (fs.existsSync(dir)) {
     for (const f of fs.readdirSync(dir)) {
