@@ -517,6 +517,15 @@ function assert(cond, msg) {
     assert(whenChips === foodJson.areas.length, `지역마다 일정 배지 표시됨 (${whenChips}개)`);
     const foodReady = await page.evaluate(() => !document.body.innerText.includes('준비 중'));
     assert(foodReady, '맛집 페이지가 데이터로 정상 렌더됨');
+    // 구역이 날짜순으로 정렬돼 있는지 (9/19 → 9/22)
+    const days = foodJson.areas.map((a) => {
+      const m = String(a.when).match(/(\d+)\/(\d+)/);
+      return m ? Number(m[1]) * 100 + Number(m[2]) : 0;
+    });
+    const sorted = days.every((v, i) => i === 0 || v >= days[i - 1]);
+    assert(sorted, `맛집 구역이 날짜순 정렬됨 (${foodJson.areas.map((a) => a.when).join(' → ')})`);
+    const noNoge = !JSON.stringify(foodJson).includes('노게');
+    assert(noNoge, '사쿠라기초·노게 구역 제거됨 (일정상 방문 불가)');
 
     console.log('\n[11] 세트별 보기 (최신 세트 M6 스톰 에메랄다)');
     await page.goto(BASE + '/cards.html', { waitUntil: 'domcontentloaded' }); // 상태 초기화 위해 새로 로드
