@@ -17,10 +17,11 @@
       const main = document.querySelector('main.guide');
       if (main && city) {
         const p = document.createElement('p');
+        p.className = 'ev-back-row';
         const back = document.createElement('a');
         back.className = 'ev-back';
         back.href = './event.html?id=' + encodeURIComponent(eventId);
-        back.textContent = '‹ ' + city + ' 대회로';
+        back.textContent = '← ' + city + ' 대회로';
         p.appendChild(back);
         main.insertBefore(p, main.firstChild);
         if (pageLabel) document.title = city + ' ' + pageLabel;

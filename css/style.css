@@ -724,7 +724,17 @@ details.pjcs-ref > section { margin-top: 10px; }
 .ev-quick-desc { font-size: .82rem; color: var(--muted); margin-top: 1px; }
 
 /* 상세 페이지 */
-.ev-back { display: inline-block; color: var(--muted); font-weight: 700; text-decoration: none; font-size: .9rem; }
+.ev-back-row { margin: 2px 0 12px; }
+/* 뒤로가기는 실수로 못 보고 지나치기 쉬워서, 눌러야 할 버튼처럼 보이게 한다 (최소 44px 터치 영역) */
+.ev-back {
+  display: inline-flex; align-items: center; gap: 4px;
+  min-height: 44px; padding: 10px 18px;
+  color: var(--accent); background: #fff;
+  border: 2px solid var(--accent); border-radius: 999px;
+  font-weight: 800; font-size: 1rem; line-height: 1;
+  text-decoration: none; box-shadow: 0 1px 4px rgba(0,0,0,.10);
+}
+.ev-back:active { background: var(--accent); color: #fff; }
 .ev-tabs { position: sticky; top: 0; z-index: 5; display: flex; gap: 6px; overflow-x: auto; padding: 8px max(12px, calc((100% - var(--maxw)) / 2 + 14px)); background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); -webkit-overflow-scrolling: touch; }
 .ev-tab { flex: 0 0 auto; font-size: .82rem; font-weight: 700; color: #444; background: #f0f1f4; padding: 6px 12px; border-radius: 999px; text-decoration: none; white-space: nowrap; }
 .ev-tab:active { background: #e3350d; color: #fff; }

@@ -517,6 +517,13 @@ function assert(cond, msg) {
     assert(whenChips === foodJson.areas.length, `지역마다 일정 배지 표시됨 (${whenChips}개)`);
     const foodReady = await page.evaluate(() => !document.body.innerText.includes('준비 중'));
     assert(foodReady, '맛집 페이지가 데이터로 정상 렌더됨');
+    // 뒤로가기 버튼이 손가락으로 누를 만한 크기인지 (접근성 최소 44px)
+    const backBox = await page.$eval('.ev-back', (e) => {
+      const r = e.getBoundingClientRect();
+      return { w: Math.round(r.width), h: Math.round(r.height), t: e.textContent.trim() };
+    });
+    assert(backBox.h >= 44 && backBox.w >= 120,
+      `뒤로가기 버튼 터치 영역 ${backBox.w}×${backBox.h}px ("${backBox.t}")`);
     // 구역이 날짜순으로 정렬돼 있는지 (9/19 → 9/22)
     const days = foodJson.areas.map((a) => {
       const m = String(a.when).match(/(\d+)\/(\d+)/);
