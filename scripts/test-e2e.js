@@ -504,6 +504,18 @@ function assert(cond, msg) {
     const bneAud = await page.$$eval('.plan-table td', (tds) => tds.some((t) => t.textContent.includes('A$')));
     assert(bneAud, '브리즈번 여행가이드 교통비가 AUD(A$)로 표시됨');
 
+    console.log('\n[10-j2] 여행 가이드 — 낡은 안내 잔존 검사');
+    // 동선이 바뀔 때마다 일정·지도에 옛 안내가 남는 사고가 반복돼서 자동으로 잡는다.
+    const planJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'plan', 'yokohama.json'), 'utf8'));
+    const liveBlob = JSON.stringify({ days: planJson.days, mapGroups: planJson.mapGroups, keyRoutes: planJson.keyRoutes });
+    // YCAT 리무진버스 → N'EX 로 교체됨 (교통비 비교 서술에만 남아 있어야 함)
+    assert(!liveBlob.includes('YCAT'), '일정·지도·이동경로에 YCAT(옛 귀국 수단) 잔존 없음');
+    // 사쿠라기초·노게는 일정에서 뺐다
+    assert(!liveBlob.includes('노게'), '일정에 노게(방문 안 함) 잔존 없음');
+    // 9/22 제목이 옛 동선(미나토미라이→YCAT)으로 남아 있지 않은지
+    const day22 = planJson.days.find((x) => x.date.startsWith('9/22'));
+    assert(!/YCAT|리무진/.test(day22.title + day22.move), `9/22 제목·요약이 N'EX 기준 ("${day22.title}")`);
+
     console.log('\n[10-k] 맛집 페이지 (지역별)');
     const foodJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'food', 'yokohama.json'), 'utf8'));
     await page.goto(BASE + '/food.html?event=yokohama', { waitUntil: 'networkidle0' });
