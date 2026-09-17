@@ -76,9 +76,9 @@
     if (data.intro) head.appendChild(el('p', 'plan-intro', data.intro));
     root.appendChild(head);
 
-    // 태풍 경보 (실시간 예보 교차검증 반영)
-    if (data.notice || data.typhoonAlert) {
-      const t = data.notice || data.typhoonAlert;
+    // 태풍 경보(typhoonAlert)와 확정 공지(notice)를 둘 다 렌더한다.
+    // 경보가 먼저 보여야 하므로 typhoonAlert → notice 순서.
+    [data.typhoonAlert, data.notice].filter(Boolean).forEach((t) => {
       const sec = el('section', 'gcard plan-alert' + (t.tone === 'ok' ? ' plan-alert-ok' : ''));
       sec.appendChild(el('h2', 'plan-alert-title', t.title));
       const ul = el('ul', 'plan-alert-list');
@@ -92,7 +92,7 @@
       }
       if (t.note) sec.appendChild(el('p', 'plan-alert-note', t.note));
       root.appendChild(sec);
-    }
+    });
 
     // 태풍 시 대체편 (부산→나리타)
     if (data.altFlights) {
