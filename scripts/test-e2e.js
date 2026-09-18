@@ -539,6 +539,15 @@ function assert(cond, msg) {
     assert(!/도쿄역 도보|도쿄역까지 도보/.test(d20blob),
       '9/20에 도쿄역 도보 이동 안내 없음 (니혼바시까지 지하 연결은 2028년 예정)');
 
+    // 지하에서는 GPS가 안 잡힌다 — 표지판 글자가 안내에 남아 있어야 한다
+    const signs = ['中央南改札', '銀座口', '浅草方面', '渋谷方面', '高島屋方面改札', 'B2 出口', 'A2 出口'];
+    const planBlob = JSON.stringify(planJson);
+    const missingSigns = signs.filter((w) => !planBlob.includes(w));
+    assert(missingSigns.length === 0,
+      `지하 구간 표지판 안내 ${signs.length}개 모두 있음` + (missingSigns.length ? ' / 누락: ' + missingSigns.join(',') : ''));
+    const gpsCard = planJson.airport.some((a) => a.title.includes('GPS'));
+    assert(gpsCard, '여행 팁에 GPS·표지판 안내 카드가 있음');
+
     console.log('\n[10-k] 맛집 페이지 (지역별)');
     const foodJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'food', 'yokohama.json'), 'utf8'));
     await page.goto(BASE + '/food.html?event=yokohama', { waitUntil: 'networkidle0' });
