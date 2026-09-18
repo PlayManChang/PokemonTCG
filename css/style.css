@@ -783,3 +783,25 @@ details.pjcs-ref > section { margin-top: 10px; }
   font-weight: 700;
 }
 .shop-tel { color: #1565c0; text-decoration: none; }
+
+/* 🏆 상품·출전권 */
+.pz-goals { margin-top: 10px; padding: 12px; border-radius: 12px; background: #fff8e6; border: 1px solid #f0dba0; }
+.pz-goals-t { margin: 0 0 8px; font-size: .95rem; color: var(--ink); }
+.pz-goals-list { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 6px; }
+.pz-goals-list li { font-size: .88rem; line-height: 1.5; color: #5a4400; }
+.pz-list { margin: 14px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.pz-item { border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+.pz-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 8px; }
+.pz-group { flex: 0 0 auto; font-size: .74rem; font-weight: 800; color: #fff; background: var(--red); padding: 3px 8px; border-radius: 999px; }
+.pz-reward { flex: 1 1 180px; font-size: .95rem; font-weight: 700; line-height: 1.45; color: var(--ink); }
+.pz-ja { margin: 6px 0 0; font-size: .8rem; color: var(--muted); }
+.pz-conds { margin-top: 10px; display: grid; gap: 6px; }
+.pz-cond { display: flex; align-items: baseline; gap: 8px; font-size: .87rem; padding: 6px 8px; border-radius: 8px; background: #f7f8fa; }
+.pz-cond-mine { background: #fdecea; }
+.pz-cond-lg { flex: 0 0 auto; font-weight: 700; color: var(--muted); }
+.pz-cond-mine .pz-cond-lg { color: var(--red-dark); }
+.pz-cond-v { flex: 1 1 auto; color: var(--ink); line-height: 1.45; }
+.pz-cond-mine .pz-cond-v { font-weight: 700; }
+.pz-note { margin: 8px 0 0; font-size: .84rem; color: var(--muted); line-height: 1.55; }
+.pz-side { margin-top: 14px; padding: 12px; border-radius: 12px; background: #eef4fd; border: 1px solid #cfe0f7; }
+.pz-side p { margin: 0; font-size: .88rem; line-height: 1.6; color: #1f3f6e; }

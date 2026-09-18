@@ -114,6 +114,56 @@
       }
     }
 
+    // ── 상품·출전권 ──
+    if (ev.prizes) {
+      const pz = ev.prizes;
+      const sec = section('prizes', '🏆 상품·출전권');
+      if (pz.intro) sec.appendChild(el('p', null, pz.intro));
+
+      // 우리 리그(주니어·시니어) 기준 목표를 먼저 보여준다
+      if (pz.goals) {
+        const box = el('div', 'pz-goals');
+        box.appendChild(el('h3', 'pz-goals-t', pz.goals.title));
+        const ul = el('ul', 'pz-goals-list');
+        (pz.goals.lines || []).forEach((t) => ul.appendChild(el('li', null, t)));
+        box.appendChild(ul);
+        sec.appendChild(box);
+      }
+
+      const list = el('ul', 'pz-list');
+      (pz.items || []).forEach((it) => {
+        const li = el('li', 'pz-item');
+        const head = el('div', 'pz-head');
+        head.appendChild(el('span', 'pz-group', it.group));
+        head.appendChild(el('span', 'pz-reward', it.reward));
+        li.appendChild(head);
+        if (it.rewardJa) li.appendChild(el('p', 'pz-ja', it.rewardJa));
+
+        const conds = el('div', 'pz-conds');
+        const mine = el('div', 'pz-cond pz-cond-mine');
+        mine.appendChild(el('span', 'pz-cond-lg', pz.mineLabel));
+        mine.appendChild(el('span', 'pz-cond-v', it.mine));
+        conds.appendChild(mine);
+        const other = el('div', 'pz-cond');
+        other.appendChild(el('span', 'pz-cond-lg', pz.otherLabel));
+        other.appendChild(el('span', 'pz-cond-v', it.other));
+        conds.appendChild(other);
+        li.appendChild(conds);
+
+        if (it.note) li.appendChild(el('p', 'pz-note', it.note));
+        list.appendChild(li);
+      });
+      sec.appendChild(list);
+
+      if (pz.side) {
+        const box = el('div', 'pz-side');
+        box.appendChild(el('h3', 'pz-goals-t', pz.side.title));
+        box.appendChild(el('p', null, pz.side.body));
+        sec.appendChild(box);
+      }
+      if (pz.note) sec.appendChild(el('p', 'ev-note', '⚖️ ' + pz.note));
+    }
+
     // ── 현지 가이드 (대회별 하위 페이지 5종) ──
     {
       const sec = section('guide', '🏙️ ' + ev.city + ' 현지 가이드');

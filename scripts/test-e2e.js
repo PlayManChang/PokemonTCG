@@ -346,9 +346,21 @@ function assert(cond, msg) {
     const checkData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'checklists.json'), 'utf8'));
     await page.goto(BASE + '/event.html?id=' + evId, { waitUntil: 'networkidle0' });
     await page.waitForSelector('#sec-overview', { timeout: 5000 });
-    const secIds = ['sec-overview', 'sec-guide', 'sec-entry', 'sec-transport', 'sec-hotels', 'sec-checklist']; // 맛집은 food.html 로 분리
+    const secIds = ['sec-overview', 'sec-prizes', 'sec-guide', 'sec-entry', 'sec-transport', 'sec-hotels', 'sec-checklist']; // 맛집은 food.html 로 분리
     const secsPresent = await page.evaluate((ids) => ids.filter((s) => document.getElementById(s)).length, secIds);
-    assert(secsPresent === secIds.length, `상세 섹션 ${secsPresent}/${secIds.length}개 렌더(개요·현지가이드·참가·교통·호텔·체크리스트)`);
+    assert(secsPresent === secIds.length, `상세 섹션 ${secsPresent}/${secIds.length}개 렌더(개요·상품·현지가이드·참가·교통·호텔·체크리스트)`);
+    // 상품·출전권: 시니어(우리 리그) 조건이 강조돼 보여야 한다
+    const evJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'events.json'), 'utf8'));
+    const yk = evJson.events.find((x) => x.id === 'yokohama');
+    const pzItems = await page.$$eval('.pz-item', (e) => e.length);
+    assert(pzItems === yk.prizes.items.length, `상품·출전권 ${pzItems}개 렌더 (데이터 ${yk.prizes.items.length}개)`);
+    const pzMine = await page.$$eval('.pz-cond-mine .pz-cond-v', (e) => e.map((x) => x.textContent));
+    assert(pzMine.length === yk.prizes.items.length && pzMine.includes('4승 이상'),
+      `주니어·시니어 조건 ${pzMine.length}개 강조 표시됨`);
+    const pzGoals = await page.$$eval('.pz-goals-list li', (e) => e.length);
+    assert(pzGoals >= 4, `시니어 목표 요약 ${pzGoals}줄 표시됨`);
+    const pzSide = await page.$eval('.pz-side', (e) => e.textContent.includes('사이드 이벤트'));
+    assert(pzSide, '탈락 시 사이드 이벤트 안내 표시됨');
     const guideTiles = await page.$$eval('#sec-guide .ev-quick-item', (e) => e.length);
     const evExtra = (eventsData.events[0].extraTiles || []).length;
     assert(guideTiles === 6 + evExtra, `현지 가이드 타일 ${guideTiles}개(기본6 + 추가${evExtra})`);
