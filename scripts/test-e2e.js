@@ -206,7 +206,9 @@ function assert(cond, msg) {
     const cdgAddr = await page.$$eval('.shop-addr', (e) => e.map((x) => x.textContent).join(' '));
     assert(/銀座6-9-5/.test(cdgAddr) && /南青山5-2-1/.test(cdgAddr), '꼼데가르송 PLAY 매장 2곳 주소 표시됨');
     const eatery = await page.$$eval('.shop-type', (e) => e.map((x) => x.textContent).filter((t) => t.includes('맛집')).length);
-    assert(eatery >= 8, `맛집 항목 ${eatery}곳 표시됨 (긴자·아오야마·아키하바라)`);
+    assert(eatery >= 3, `맛집 항목 ${eatery}곳 표시됨 (긴자·아오야마)`);
+    // 9/20 큰비로 아키하바라 카드 원정을 접었다 — 쇼핑 페이지에도 남으면 안 된다
+    assert(!/아키하바라/.test(JSON.stringify(shopping.areas)), '면세·쇼핑 구역에 아키하바라 잔존 없음 (9/20 동선 변경)');
     const tfWarn = await page.$$eval('.tf-warn', (e) => e.length);
     assert(tfWarn === 1, '면세 합산 경고(소모품 밀봉) 표시됨');
     const distChips = await page.$$eval('.shop-dist', (e) => e.length);
@@ -526,11 +528,16 @@ function assert(cond, msg) {
     const noteDate = (planJson.typhoonAlert.note.match(/(\d{4}-\d{2}-\d{2})/) || [])[1];
     assert(noteDate === planJson.updated,
       `태풍 예보 발표일이 데이터 갱신일과 일치 (${noteDate} = ${planJson.updated})`);
-    // 우천 축소안: 큰비 날에 버릴 곳과 남길 곳이 명시돼 있어야 한다
-    const rainStep = planJson.days.find((x) => x.date.startsWith('9/20'))
-      .stops.find((x) => x.label.includes('축소안'));
-    assert(rainStep && rainStep.spots.length >= 5,
-      `9/20 우천 축소안이 일정에 있음 (${rainStep ? rainStep.spots.length : 0}항목)`);
+    // 9/20은 큰비라 카드 매입을 접고 포켓몬센터·꼼데가르송 실내 동선으로 바꿨다
+    const day20 = planJson.days.find((x) => x.date.startsWith('9/20'));
+    const d20blob = JSON.stringify(day20);
+    assert(/포켓몬센터 도쿄DX/.test(d20blob) && /도버 스트리트 마켓/.test(d20blob),
+      '9/20 일정에 포켓몬센터 도쿄DX와 DSM 긴자가 모두 있음');
+    assert(!/하레루야|오타츄|magi|카드랩/.test(d20blob),
+      '9/20 일정에 카드샵 매입 코스 잔존 없음 (큰비로 취소)');
+    // 도쿄역↔니혼바시는 아직 지하로 안 이어진다 — 큰비 날 그 길을 안내하면 안 된다
+    assert(!/도쿄역 도보|도쿄역까지 도보/.test(d20blob),
+      '9/20에 도쿄역 도보 이동 안내 없음 (니혼바시까지 지하 연결은 2028년 예정)');
 
     console.log('\n[10-k] 맛집 페이지 (지역별)');
     const foodJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'food', 'yokohama.json'), 'utf8'));
