@@ -354,9 +354,11 @@ function assert(cond, msg) {
     const yk = evJson.events.find((x) => x.id === 'yokohama');
     const pzItems = await page.$$eval('.pz-item', (e) => e.length);
     assert(pzItems === yk.prizes.items.length, `상품·출전권 ${pzItems}개 렌더 (데이터 ${yk.prizes.items.length}개)`);
-    const pzMine = await page.$$eval('.pz-cond-mine .pz-cond-v', (e) => e.map((x) => x.textContent));
-    assert(pzMine.length === yk.prizes.items.length && pzMine.includes('4승 이상'),
-      `주니어·시니어 조건 ${pzMine.length}개 강조 표시됨`);
+    const pzConds = await page.$$eval('.pz-cond .pz-cond-v', (e) => e.map((x) => x.textContent));
+    assert(pzConds.length === yk.prizes.items.length && pzConds.includes('4승 이상'),
+      `시니어 조건 ${pzConds.length}개 표시됨`);
+    // 마스터 리그는 빼기로 했다 — 되살아나면 실패시킨다
+    assert(!/마스터/.test(JSON.stringify(yk.prizes)), '상품·출전권에 마스터 리그 조건 없음');
     const pzGoals = await page.$$eval('.pz-goals-list li', (e) => e.length);
     assert(pzGoals >= 4, `시니어 목표 요약 ${pzGoals}줄 표시됨`);
     const pzSide = await page.$eval('.pz-side', (e) => e.textContent.includes('사이드 이벤트'));

@@ -139,16 +139,10 @@
         li.appendChild(head);
         if (it.rewardJa) li.appendChild(el('p', 'pz-ja', it.rewardJa));
 
-        const conds = el('div', 'pz-conds');
-        const mine = el('div', 'pz-cond pz-cond-mine');
-        mine.appendChild(el('span', 'pz-cond-lg', pz.mineLabel));
-        mine.appendChild(el('span', 'pz-cond-v', it.mine));
-        conds.appendChild(mine);
-        const other = el('div', 'pz-cond');
-        other.appendChild(el('span', 'pz-cond-lg', pz.otherLabel));
-        other.appendChild(el('span', 'pz-cond-v', it.other));
-        conds.appendChild(other);
-        li.appendChild(conds);
+        const cond = el('div', 'pz-cond');
+        cond.appendChild(el('span', 'pz-cond-lg', pz.condLabel));
+        cond.appendChild(el('span', 'pz-cond-v', it.cond));
+        li.appendChild(cond);
 
         if (it.note) li.appendChild(el('p', 'pz-note', it.note));
         list.appendChild(li);
