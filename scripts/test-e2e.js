@@ -559,6 +559,15 @@ function assert(cond, msg) {
     const missingSigns = signs.filter((w) => !planBlob.includes(w));
     assert(missingSigns.length === 0,
       `지하 구간 표지판 안내 ${signs.length}개 모두 있음` + (missingSigns.length ? ' / 누락: ' + missingSigns.join(',') : ''));
+    // 태풍 대응 카드도 예보와 같이 갱신돼야 한다.
+    // steps는 {icon, t, d} 구조라 t에 이모지가 없다 — 이모지로 매칭하면 조용히 아무것도 안 바뀐다.
+    const tyCard = planJson.airport.find((a) => a.title.includes('태풍 25호'));
+    assert(tyCard && tyCard.title.includes(planJson.updated),
+      `태풍 대응 카드 제목의 날짜가 데이터 갱신일과 일치 (${tyCard ? tyCard.title : '없음'})`);
+    const dayStepDates = tyCard.steps.map((s) => (s.t.match(/^9\/\d\d/) || [''])[0]).filter(Boolean);
+    assert(dayStepDates.join(',') === '9/19,9/20,9/21,9/22',
+      `태풍 카드에 4일치 안내가 순서대로 있음 (${dayStepDates.join(',')})`);
+
     const gpsCard = planJson.airport.some((a) => a.title.includes('GPS'));
     assert(gpsCard, '여행 팁에 GPS·표지판 안내 카드가 있음');
 
