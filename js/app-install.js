@@ -61,5 +61,14 @@
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(() => {});
+    // 새 서비스워커가 제어권을 넘겨받으면 화면을 한 번만 새로고침한다.
+    // 이게 없으면 배포 직후 방문에서 옛 js/css와 새 데이터가 섞여 화면이 빈다.
+    var hadController = !!navigator.serviceWorker.controller;
+    var swReloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (!hadController || swReloaded) return; // 최초 설치는 새로고침할 이유가 없다
+      swReloaded = true;
+      location.reload();
+    });
   }
 })();

@@ -650,6 +650,26 @@ function assert(cond, msg) {
     const netFirst = swSrc.includes('data') && swSrc.includes('네트워크 우선') && /await fetch\(req\);[\s\S]{0,200}cache\.match\(req\)/.test(swSrc);
     assert(netFirst, '여행 데이터(data/*.json)는 네트워크 우선 — 수정이 바로 반영됨');
 
+    // 셸(js/css/문서)도 네트워크 우선이어야 배포 직후 옛 코드가 새 데이터와 섞이지 않는다
+    const shellNetFirst = /isShell/.test(swSrc) && /req\.mode === 'navigate'/.test(swSrc)
+      && /\\.\(html\|js\|css\)\$/.test(swSrc);
+    assert(shellNetFirst, '셸(html·js·css)도 네트워크 우선 — 배포 직후 옛 js/css가 안 나옴');
+    // 느린 망에서 멈추지 않도록 타임아웃 폴백이 있어야 한다
+    assert(/setTimeout\(\(\) => r\(null\), 3000\)/.test(swSrc), '셸 네트워크 우선에 3초 타임아웃 폴백 있음');
+    // 새 서비스워커가 넘겨받으면 한 번 새로고침해서 옛 화면을 남기지 않는다
+    const appInstallSrc = fs.readFileSync(path.join(ROOT, 'js', 'app-install.js'), 'utf8');
+    assert(/controllerchange/.test(appInstallSrc) && /location\.reload\(\)/.test(appInstallSrc),
+      '새 버전 감지 시 자동 새로고침(controllerchange) 있음');
+    assert(/hadController/.test(appInstallSrc), '최초 설치에서는 새로고침하지 않음(무한 새로고침 방지)');
+
+    // 데이터 키와 렌더 코드가 어긋나면 화면이 빈다 — 상품 조건은 반드시 글자가 있어야 한다
+    const evSrc = fs.readFileSync(path.join(ROOT, 'js', 'event.js'), 'utf8');
+    const prizeKeys = Object.keys(yk.prizes.items[0]);
+    assert(prizeKeys.includes('cond') && evSrc.includes('it.cond'),
+      '상품 조건 키(cond)를 데이터와 렌더 코드가 같이 쓴다');
+    const emptyConds = await page.$$eval('.pz-cond-v', (e) => e.filter((x) => !x.textContent.trim()).length);
+    assert(emptyConds === 0, `빈 조건 칸 ${emptyConds}개 (0이어야 함)`);
+
     console.log('\n[12] 콘솔 에러');
     // 아직 자료 없는 대회의 data/*.json 은 404 → '준비 중' 폴백(의도된 동작)이라 무시
     const realErrors = consoleErrors.filter((e) => !/favicon|speech|voices|pokemon-card\.com|net::ERR|404|Not Found/i.test(e));

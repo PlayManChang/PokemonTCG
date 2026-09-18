@@ -1,6 +1,6 @@
 // PJCS 용어집 Service Worker — 오프라인 지원 (stale-while-revalidate)
 // + 카드 이미지 런타임 캐싱(한 번 본 카드는 오프라인에서도 표시)
-const CACHE = 'pjcs-v82';
+const CACHE = 'pjcs-v83';
 const IMG_CACHE = 'pjcs-cardimg-v1';
 // 설치 시 미리 받는 '핵심 앱 셸'만(가벼움 → 설치 빠름).
 // 큰 파일(cards.json 512KB, 룰 PDF 700KB)은 목록에서 빼고, 처음 열 때 fetch 핸들러가 자동 캐싱한다.
@@ -140,6 +140,33 @@ self.addEventListener('fetch', (e) => {
           const hit = await cache.match(req);
           return hit || Response.error();
         }
+      })
+    );
+    return;
+  }
+
+  // 셸(문서·js·css)도 '네트워크 우선(3초 타임아웃)'.
+  // 예전엔 캐시 우선(stale-while-revalidate)이었는데, 배포 직후 방문에서
+  // 새 data/*.json + 옛 js 조합이 되면서 화면 일부가 비는 사고가 반복됐다.
+  // (예: events.json은 cond로 바뀌었는데 옛 event.js가 mine을 읽어 조건 칸이 빈 채로 렌더)
+  // 3초 안에 응답이 없으면 캐시로 떨어지므로 현지 저속망·오프라인에서도 그대로 동작한다.
+  const isShell = url.origin === self.location.origin
+    && (req.mode === 'navigate' || /\.(html|js|css)$/.test(url.pathname));
+  if (isShell) {
+    e.respondWith(
+      caches.open(CACHE).then(async (cache) => {
+        const netP = fetch(req)
+          .then((res) => {
+            if (res && res.status === 200 && res.type === 'basic') cache.put(req, res.clone());
+            return res;
+          })
+          .catch(() => null);
+        const timed = new Promise((r) => setTimeout(() => r(null), 3000));
+        const fast = await Promise.race([netP, timed]);
+        if (fast) return fast;
+        const hit = await cache.match(req);
+        if (hit) return hit;
+        return (await netP) || Response.error();
       })
     );
     return;
