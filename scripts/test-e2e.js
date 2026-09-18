@@ -516,6 +516,22 @@ function assert(cond, msg) {
     const day22 = planJson.days.find((x) => x.date.startsWith('9/22'));
     assert(!/YCAT|리무진/.test(day22.title + day22.move), `9/22 제목·요약이 N'EX 기준 ("${day22.title}")`);
 
+    console.log('\n[10-j3] 태풍 안내 (예보는 매일 바뀐다 — 날짜가 낡지 않았는지)');
+    // 출발 직전에는 예보를 매일 갱신해야 해서, 안내에 박아둔 발표일이 데이터 갱신일과 맞는지 본다.
+    await page.goto(BASE + '/plan.html?event=yokohama', { waitUntil: 'networkidle0' });
+    await page.waitForSelector('.plan-alert', { timeout: 5000 });
+    const alertTxt = await page.$$eval('.plan-alert', (e) => e.map((x) => x.innerText).join('\n'));
+    assert(/태풍/.test(alertTxt), '태풍 경보가 일정 맨 위에 렌더됨');
+    assert(!alertTxt.includes('**'), '태풍 경보에 마크다운 별표 없음');
+    const noteDate = (planJson.typhoonAlert.note.match(/(\d{4}-\d{2}-\d{2})/) || [])[1];
+    assert(noteDate === planJson.updated,
+      `태풍 예보 발표일이 데이터 갱신일과 일치 (${noteDate} = ${planJson.updated})`);
+    // 우천 축소안: 큰비 날에 버릴 곳과 남길 곳이 명시돼 있어야 한다
+    const rainStep = planJson.days.find((x) => x.date.startsWith('9/20'))
+      .stops.find((x) => x.label.includes('축소안'));
+    assert(rainStep && rainStep.spots.length >= 5,
+      `9/20 우천 축소안이 일정에 있음 (${rainStep ? rainStep.spots.length : 0}항목)`);
+
     console.log('\n[10-k] 맛집 페이지 (지역별)');
     const foodJson = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'food', 'yokohama.json'), 'utf8'));
     await page.goto(BASE + '/food.html?event=yokohama', { waitUntil: 'networkidle0' });
