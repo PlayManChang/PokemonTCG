@@ -72,12 +72,32 @@ locations.html?event= 위치 한눈에        data/locations/yokohama.json
 ```
 
 **plan.js 데이터 규약** — `notice.tone:"ok"`(초록 알림) · `branchLabel`/`branchLabels`(결과 분기 버튼 문구) · `archiveOf`(기록 페이지 배너) · `archive`(기록 링크 목록)
-**⚠️ 일정을 바꾸면 같이 봐야 하는 곳** — `days[].title` · `days[].move` · `mapGroups` · `airport` · `keyRoutes` · `transit.segments`. 여기가 자주 낡는다(e2e `[10-j2]`가 일부 자동 검사).
+**⚠️ 일정을 바꾸면 같이 봐야 하는 곳** — `days[].title` · `days[].move` · `days[].tip` · `mapGroups` · `airport` · `keyRoutes` · `transit.segments` · **`notice` · `intro` · `route` · `tips`**. 여기가 자주 낡는다(e2e `[10-j2]`·`[10-c]`가 일부 자동 검사). 2026-09-20 대회 중지 때 뒤쪽 4개가 통째로 낡은 채 남아 있었다.
 **⚠️ 마크다운 금지** — plan.js는 `textContent`로 넣으므로 `**굵게**`를 쓰면 별표가 그대로 보입니다. 강조는 이모지나 문장 구조로.
 **위치 한눈에(locations/*.json)** — `regions[].points[]`의 `t`로 마커 종류 결정: `hotel·station·venue·poke·shop·food·sight`. 각 구역의 기준점은 `hotel` → 없으면 `station`이고, **거리·도보시간은 lat/lon으로 자동 계산**되므로 좌표가 틀리면 안내가 통째로 틀어진다.
 **shops.js / shopping.js 필드** — `addr`(일본어 주소) · `near`(도보) · `hours` · `tel`(tel: 링크) · `mapUrl`(구글지도 cid 직링크, 검색어보다 핀 정확)
 
 ## 5. 최근 세션 기록
+
+### 2026-09-20 세션 (44) — 4일치 여행 기록 정리 + 대회 진행 전제 문구 일괄 제거
+
+사용자 요청: "이때까지 의논한 일정을 정리해서 우리 페이지에 기록해줘."
+
+**정리한 것**
+- `notice`를 **📔 4일 기록 — 확정된 일정**으로 교체(초록 카드). 9/19~9/22 하루씩 + 대회 후속 + N'EX 절감액.
+- `airport` 맨 앞에 **📔 이번 원정에서 바뀐 것 — 왜 그렇게 정했나** 카드 신설. 9/20 매입 취소 / 9/21 대회 중지 / '하루 날씨가 아니라 시간대별 날씨'로 판단한 것 / 지하 연결 지식 / 돈 이야기 5개 스텝.
+- `title`·`route`·`intro`를 현재 상태로. `branchLabel`·`branchLabels` 루트 키 제거.
+
+**낡은 안내 제거 (대회가 진행된다는 전제로 쓰인 것들)**
+- `keyRoutes` ④⑤가 파시피코 가는 경로였다 → ④를 **9/21 바샤미치 → 요코하마역 지하 코스**로 교체, ⑤는 **(무산)** 표시로 남겨 다음 대회 참고용 거리 기록만 유지.
+- `tips`에서 '덱리스트 온라인 등록', '시니어 9/21 확정' 제거(15개 남음).
+- 9/20 취침 전 스텝의 덱리스트·07:30 택시 문구, 9/19 차밍세일의 '예선 종료 분기' 문구, `budget`의 대회 준비물 문구 정리.
+- `mapGroups[0]` → "🏟️ 숙소·대회장 (9/21 대회는 중지)".
+- `data/events.json`: `note`에 중지 공지, `prizes.intro`에 "실제로는 받지 못했습니다 · 다음 대회 준비용 기록" 명시.
+
+**⚠️ 다음 세션 주의**
+- 일정이 크게 바뀔 때 **`notice`·`intro`·`route`·`tips`·`keyRoutes`·`mapGroups`가 같이 낡는다.** 이번에 한꺼번에 발견됐다. 데이터 규약의 체크리스트에 `notice`·`intro`·`route`·`tips`를 추가할 것.
+- 테스트 153 통과. 분기 제거 검사(`9/21 대회 결과 분기 제거됨`)가 이 정리를 지켜준다.
 
 ### 2026-09-20 세션 (43) — 9/21을 '오전 요코하마역 지하 + 오후 호텔'로 재조정
 
