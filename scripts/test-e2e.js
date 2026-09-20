@@ -248,14 +248,17 @@ function assert(cond, msg) {
     const total2 = await page.$eval(totalSel, (e) => e.textContent);
     assert(totalDefault !== total2, `교통비 인원수 변경 시 합계 자동 재계산 (${totalDefault} → ${total2})`);
     assert(planData.transit.peopleDefault === 5, `교통비 기본 인원 5인 (동행 포함)`);
-    // 대회 결과 분기 토글 (진출/탈락 → 일정 전환). 라벨은 대회마다 다르므로 두 번째 버튼을 누른다.
-    const branchBefore = await page.$$eval('.plan-day', (els) => els.map((e) => e.textContent).join('|'));
-    await page.$$eval('.plan-toggle-btn', (btns) => { if (btns[1]) btns[1].click(); });
-    await new Promise((r) => setTimeout(r, 150));
-    const branchAfter = await page.$$eval('.plan-day', (els) => els.map((e) => e.textContent).join('|'));
-    assert(branchBefore !== branchAfter, '대회 결과 토글 시 일정 자동 분기됨');
-    const branchLabels = await page.$$eval('.plan-toggle-btn', (btns) => btns.map((b) => b.textContent).join(' / '));
-    assert(/결승 진출/.test(branchLabels) && /예선 종료/.test(branchLabels), `분기 버튼이 시니어 하루 대회에 맞게 표기됨 (${branchLabels})`);
+    // 2026-09-20: 태풍 25호로 9/21 시니어 대회가 중지됐다.
+    // 진출/탈락 분기는 의미가 없어져 없앴으므로, 분기 UI가 남아 있으면 안 된다.
+    const day21 = planData.days.find((x) => x.date.startsWith('9/21'));
+    assert(!day21.branch, '9/21 대회 결과 분기 제거됨 (대회 중지)');
+    const toggles = await page.$$eval('.plan-toggle-btn', (btns) => btns.length);
+    assert(toggles === 0, `분기 토글 버튼 없음 (${toggles}개)`);
+    const d21blob = JSON.stringify(day21);
+    assert(/중지/.test(d21blob) && /나가지 마세요/.test(d21blob),
+      '9/21에 대회 중지와 외출 자제 안내가 있음');
+    assert(!/선수 등록|예선 시작|덱리스트 온라인 등록/.test(d21blob),
+      '9/21에 옛 대회 진행 안내 잔존 없음');
     // PJCS 2026 기록은 '2026 대회 일정' 메뉴로 이동 → 2027 가이드엔 없어야 함
     const archLink = await page.$('.plan-archive a[href*="event=pjcs2026"]');
     assert(!archLink, '2027 가이드에서 지난 기록 블록 제거됨(2026 메뉴로 이동)');
@@ -564,9 +567,12 @@ function assert(cond, msg) {
     const tyCard = planJson.airport.find((a) => a.title.includes('태풍 25호'));
     assert(tyCard && tyCard.title.includes(planJson.updated),
       `태풍 대응 카드 제목의 날짜가 데이터 갱신일과 일치 (${tyCard ? tyCard.title : '없음'})`);
+    // 지나간 날은 빼고, 남은 날짜가 순서대로 있으면 된다
     const dayStepDates = tyCard.steps.map((s) => (s.t.match(/^9\/\d\d/) || [''])[0]).filter(Boolean);
-    assert(dayStepDates.join(',') === '9/19,9/20,9/21,9/22',
-      `태풍 카드에 4일치 안내가 순서대로 있음 (${dayStepDates.join(',')})`);
+    const sortedDates = dayStepDates.slice().sort();
+    assert(dayStepDates.length >= 2 && dayStepDates.join(',') === sortedDates.join(','),
+      `태풍 카드 날짜 안내가 순서대로 있음 (${dayStepDates.join(',')})`);
+    assert(dayStepDates.includes('9/22'), '태풍 카드에 귀국일(9/22) 안내가 있음');
 
     const gpsCard = planJson.airport.some((a) => a.title.includes('GPS'));
     assert(gpsCard, '여행 팁에 GPS·표지판 안내 카드가 있음');
